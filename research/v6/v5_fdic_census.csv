@@ -1,0 +1,114 @@
+CERT,Institution,Branches(4cty),"Deposits($K,4cty)",Counties,HQ-local,Status,Note,In main table? (v5)
+34775,"EverBank, National Association",7,570430,Los +Oran+San ,N,GAP — never evaluated,→ screening queue,"✓ covered — EverBank, N.A."
+24387,"Industrial and Commercial Bank of China USA, National Association",5,433614,Los ,N,GAP — never evaluated,→ screening queue,"✓ covered — ICBC USA, N.A."
+57890,"HSBC Bank USA, National Association",3,9911674,Los +Oran,N,GAP — never evaluated,→ queue. NOTE: HSBC exited US mass-retail 2021; commercial/premier focus — verify biz-card channel,✓ covered — HSBC Bank USA
+34656,American First National Bank,3,419284,Los ,N,GAP — never evaluated,→ screening queue,✓ covered — American First National Bank
+26223,"Golden Bank, National Association",3,369290,Los +Oran,N,GAP — never evaluated,→ screening queue,"✓ covered — Golden Bank, N.A."
+19977,Israel Discount Bank of New York,2,840384,Los ,N,GAP — never evaluated,→ screening queue,✓ covered — Israel Discount Bank of New York (IDB)
+25093,Habib American Bank,2,612187,Los ,N,GAP — never evaluated,→ screening queue,✓ covered — Habib American Bank (HAB)
+23966,OneUnited Bank,2,476360,Los ,N,GAP — never evaluated,→ screening queue,✓ covered — OneUnited Bank
+34319,Southwestern National Bank,2,140273,Los +Oran,N,GAP — never evaluated,→ screening queue,✓ covered — Southwestern National Bank
+34998,First IC Bank,1,31528,Los ,N,GAP — never evaluated,→ screening queue,✓ covered — First IC Bank
+2270,"Zions Bancorporation, N.A.",39,8677803,Los +Oran+Rive+San ,N,ALIAS — covered,= California Bank & Trust (CB&T branches report under the Zions Bancorporation N.A. charter),✓ covered — California Bank & Trust (Zions division)
+4767,"Sunflower Bank, National Association",1,127386,Los ,N,ALIAS — covered,= First Foundation Bank's new charter (merger 2026-04-01),"✓ covered — Sunflower Bank, N.A."
+913,The Northern Trust Company,3,1137498,Los +Oran,N,NON-TARGET,Custody/wealth trust bank — no retail biz cards,✓ covered — The Northern Trust Company
+34069,"Wilmington Trust, National Association",3,0,Los +Oran,N,NON-TARGET,Trust company — no retail biz cards,"✓ covered — Wilmington Trust, N.A."
+7946,"BNY Mellon, National Association",2,0,Los +Oran,N,NON-TARGET,Trust company,"✓ covered — BNY Mellon, N.A."
+23647,TIB National Association,1,174070,Oran,N,NON-TARGET,"TIB = the bankers' bank itself (white-label issuer; serves banks, not the public)",✓ covered — Citi (Citibank)
+91325,CIBC National Trust Company,1,0,Oran,N,NON-TARGET,Trust company,✓ covered — CIBC National Trust Company
+628,"JPMorgan Chase Bank, National Association",414,143196351,Los +Oran+Rive+San ,N,COVERED,= JPMorgan Chase Bank,✓ covered — Chase (JPMorgan Chase)
+3510,"Bank of America, National Association",341,128490729,Los +Oran+Rive+San ,N,COVERED,= Bank of America,✓ covered — Bank of America
+3511,"Wells Fargo Bank, National Association",327,101241270,Los +Oran+Rive+San ,N,COVERED,= Wells Fargo Bank,✓ covered — Wells Fargo
+6548,U.S. Bank National Association,267,34728888,Los +Oran+Rive+San ,N,COVERED,= U.S. Bank,✓ covered — U.S. Bank (direct)
+7213,"Citibank, National Association",141,37164000,Los +Oran+Rive+San ,N,COVERED,= Citibank,✓ covered — Citi (Citibank)
+16571,BMO Bank National Association,66,11478602,Los +Oran+Rive+San ,N,COVERED,= BMO Bank,✓ covered — BMO Bank
+24045,Banc of California,51,18376955,Los +Oran+Rive+San ,Y,COVERED,= Banc of California,✓ covered — California Credit Union
+31628,East West Bank,45,38335997,Los +Oran+San ,Y,COVERED,= East West Bank,✓ covered — East West Bank
+21716,Citizens Business Bank,44,9773952,Los +Oran+Rive+San ,Y,COVERED,= Citizens Business Bank,✓ covered — Citizens Business Bank
+17281,City National Bank,37,52514502,Los +Oran+Rive+San ,Y,COVERED,= City National Bank,✓ covered — City National Bank
+11063,First-Citizens Bank & Trust Company,36,8050890,Los +Oran+Rive+San ,N,COVERED,= First Citizens Bank,✓ covered — First Citizens Bank
+983,Comerica Bank,36,6869628,Los +Oran+San ,N,COVERED,= Comerica Bank,✓ covered — Comerica Bank
+32172,"Pacific Premier Bank, National Association",30,10844223,Los +Oran+Rive+San ,Y,COVERED,= Pacific Premier Bank,✓ covered — Pacific Premier Bank
+12229,First Bank,27,1947417,Los +Oran+Rive+San ,N,COVERED,= First Bank,✓ covered — First Bank (MO)
+1225,Farmers and Merchants Bank of Long Beach,26,8609774,Los +Oran,Y,COVERED,= Farmers & Merchants Bank of Long Beach (base row; 'and' vs '&' name quirk),✓ covered — Farmers & Merchants Bank of Long Beach
+18503,Cathay Bank,23,12024904,Los +Oran+San ,Y,COVERED,= Cathay Bank,✓ covered — Cathay Bank
+26610,Bank of Hope,23,9469233,Los +Oran+San ,Y,COVERED,= Bank of Hope,✓ covered — Bank of Hope
+6384,"PNC Bank, National Association",21,1836902,Los +Rive+San ,N,COVERED,= PNC Bank,✓ covered — PNC Bank
+24170,Hanmi Bank,18,5249625,Los +Oran,Y,COVERED,= Hanmi Bank,✓ covered — Hanmi Bank
+32489,HomeStreet Bank,16,1081398,Los +Oran+Rive+San ,N,COVERED,= HomeStreet Bank,✓ covered — HomeStreet Bank
+58647,First Foundation Bank,14,7224809,Los +Oran+Rive+San ,Y,COVERED,= First Foundation Bank,✓ covered — First Foundation Bank
+19416,CTBC Bank Corp. (USA),14,2738287,Los +Oran,Y,COVERED,= CTBC Bank Corp. (USA),✓ covered — CTBC Bank Corp. (USA)
+30879,"Provident Savings Bank, F.S.B.",14,895179,Rive+San ,Y,COVERED,"= Provident Savings Bank, F.S.B.",✓ covered — Provident Credit Union
+32541,"Flagstar Bank, National Association",13,2681387,Los +Oran+San ,N,COVERED,= Flagstar Bank,"✓ covered — Flagstar Bank, N.A."
+57463,PCB Bank,13,2506472,Los +Oran,Y,COVERED,= PCB Bank,✓ covered — PCB Bank
+33539,Preferred Bank,11,5173604,Los +Oran,Y,COVERED,= Preferred Bank,✓ covered — Preferred Bank
+58816,Royal Business Bank,10,2040673,Los +Oran,Y,COVERED,= Royal Business Bank,✓ covered — Royal Business Bank
+18618,SMBC MANUBANK,8,5568959,Los +Oran,Y,COVERED,= SMBC MANUBANK,✓ covered — SMBC MANUBANK
+57944,Open Bank,8,2082907,Los +Oran,Y,COVERED,= Open Bank,✓ covered — Open Bank
+57044,"California Bank of Commerce, National Association",8,1325620,Los +Oran+Rive,N,COVERED,"= California Bank of Commerce, N.A.",✓ covered — California Credit Union
+28489,Banner Bank,8,789955,Los +Rive+San ,N,COVERED,= Banner Bank,✓ covered — Banner Bank
+1768,Mechanics Bank,7,1749691,Los +Oran+Rive,N,COVERED,= Mechanics Bank,✓ covered — Mechanics Bank
+58310,US Metro Bank,7,1125216,Los +Oran,Y,COVERED,= US Metro Bank,✓ covered — US Metro Bank
+57903,Poppy Bank,7,693420,Los +Oran,N,COVERED,= Poppy Bank,✓ covered — Poppy Bank
+28088,Washington Federal Bank,6,1777498,Los ,N,COVERED,= Washington Federal,✓ covered — WaFd Bank
+57873,Commonwealth Business Bank,6,1106590,Los +Oran,Y,COVERED,= Commonwealth Business Bank (CBB),✓ covered — Commonwealth Business Bank (CBB)
+27237,Enterprise Bank & Trust,6,971965,Los +Oran,N,COVERED,= Enterprise Bank & Trust,✓ covered — Enterprise Bank & Trust
+21606,HCN Bank,6,843127,Rive,Y,COVERED,= HCN Bank,✓ covered — HCN Bank
+24920,Woori America Bank,6,572636,Los +Oran,N,COVERED,= Woori America Bank,✓ covered — Woori America Bank
+34010,EverTrust Bank,6,499384,Los +Oran,Y,COVERED,= EverTrust Bank,✓ covered — EverTrust Bank
+57417,Commercial Bank of California,5,2291372,Los +Oran,Y,COVERED,= Commercial Bank of California,✓ covered — California Credit Union
+32282,Malaga Bank F.S.B.,5,927689,Los ,Y,COVERED,= Malaga Bank F.S.B.,✓ covered — Malaga Bank F.S.B.
+58060,First General Bank,5,824031,Los +Oran,Y,COVERED,= First General Bank,✓ covered — First General Bank
+34496,First Commercial Bank (USA),5,446788,Los +Oran+San ,Y,COVERED,= First Commercial Bank (USA),✓ covered — First Commercial Bank (USA)
+57716,United Business Bank,5,411377,Los +Oran,N,COVERED,= United Business Bank,✓ covered — United Business Bank
+35366,"Chino Commercial Bank, N.A.",5,378797,Rive+San ,Y,COVERED,"= Chino Commercial Bank, N.A.","✓ covered — Chino Commercial Bank, N.A."
+30722,Universal Bank,5,266100,Los ,Y,COVERED,= Universal Bank,✓ covered — Universal Bank
+58469,"American Plus Bank, N.A.",4,717856,Los ,Y,COVERED,"= American Plus Bank, N.A.","✓ covered — American Plus Bank, N.A."
+23998,State Bank of India (California),4,561046,Los ,Y,COVERED,= State Bank of India (California),✓ covered — California Credit Union
+58401,Mega Bank,4,434578,Los +Oran,Y,COVERED,= Mega Bank,✓ covered — Mega Bank
+23086,"New OMNI Bank, National Association",4,373768,Los +Oran,Y,COVERED,"= New OMNI Bank, N.A.","✓ covered — New OMNI Bank, N.A."
+33188,Shinhan Bank America,4,368944,Los +Oran,N,COVERED,= Shinhan Bank America,✓ covered — Bank of America
+22366,GBC International Bank,4,319052,Los +Oran,Y,COVERED,= GBC International Bank,✓ covered — GBC International Bank
+26363,Community Commerce Bank,4,298478,Los ,Y,COVERED,= Community Commerce Bank,✓ covered — Community Commerce Bank
+58218,First Pacific Bank,4,290962,Los +Oran+San ,Y,COVERED,= First Pacific Bank,✓ covered — First Pacific Bank
+57444,American Continental Bank,4,288086,Los +San ,Y,COVERED,= American Continental Bank,✓ covered — American Continental Bank
+20164,Sunwest Bank,3,2421811,Oran,N,COVERED,= Sunwest Bank,✓ covered — Sunwest Bank
+4063,MidFirst Bank,3,2125789,Los ,N,COVERED,= First Bank,✓ covered — MidFirst Bank
+58291,CalPrivate Bank,3,921464,Los +Oran,N,COVERED,= CalPrivate Bank,✓ covered — CalPrivate Bank
+57585,Golden State Bank,3,788879,Los +San ,Y,COVERED,= Golden State Bank,✓ covered — Golden State Bank
+57101,Mission Valley Bank,3,599566,Los ,Y,COVERED,= Mission Valley Bank,✓ covered — Mission Valley Bank
+59245,Genesis Bank,3,429619,Los +Oran+Rive,Y,COVERED,= Genesis Bank,✓ covered — Genesis Bank
+58234,Pacific Alliance Bank,3,348048,Los +Oran,Y,COVERED,= Pacific Alliance Bank,✓ covered — Pacific Alliance Bank
+57512,Western Alliance Bank,2,1360406,Los ,N,COVERED,= Western Alliance Bank,✓ covered — Western Alliance Bank
+17266,Umpqua Bank,2,920378,Los +Oran,N,COVERED,= Umpqua Bank (Columbia),✓ covered — Umpqua Bank (Columbia)
+58588,Partners Bank of California,2,577785,Los +Oran,Y,COVERED,= Partners Bank of California,✓ covered — California Credit Union
+34352,"City First Bank, National Association",2,254982,Los ,N,COVERED,= First Bank,"✓ covered — City First Bank, N.A."
+9396,Valley National Bank,2,220315,Los ,N,COVERED,= Valley National Bank,✓ covered — Valley National Bank
+23805,United Pacific Bank,2,142596,Los ,Y,COVERED,= United Pacific Bank,✓ covered — United Pacific Bank
+59314,Icon Business Bank,2,138048,Oran+Rive,Y,COVERED,= Icon Business Bank,✓ covered — Icon Business Bank
+20845,Wallis Bank,2,108598,Los ,N,COVERED,= Wallis Bank,✓ covered — Wallis Bank
+32277,Eastern International Bank,2,91688,Los ,Y,COVERED,= Eastern International Bank,✓ covered — Eastern International Bank
+26704,Balboa Thrift and Loan Association,2,61940,Los +Rive,N,COVERED,= Balboa Thrift and Loan Association,✓ covered — Balboa Thrift and Loan Association
+33013,Asian Pacific National Bank,2,44160,Los ,Y,COVERED,= Asian Pacific National Bank,✓ covered — Asian Pacific National Bank
+26312,"First American Trust, FSB",1,5548035,Oran,Y,COVERED,"= First American Trust, FSB","✓ covered — First American Trust, FSB"
+34788,American Business Bank,1,3872215,Los ,Y,COVERED,= American Business Bank,✓ covered — American Business Bank
+33661,"Mizrahi Tefahot Bank, Ltd.",1,3309713,Los ,Y,COVERED,"= Mizrahi Tefahot Bank, Ltd. (UMTB USA)","✓ covered — Mizrahi Tefahot Bank, Ltd. (UMTB USA)"
+57176,Commerce West Bank,1,1033703,Oran,Y,COVERED,= CommerceWest Bank (base row; TIB),✓ covered — CommerceWest Bank
+58590,Nano Banc,1,804571,Oran,Y,COVERED,= Nano Banc,✓ covered — Nano Banc
+34805,Mission Bank,1,319948,Los ,N,COVERED,= Mission Bank,✓ covered — Mission Bank
+59098,Infinity Bank,1,291622,Oran,Y,COVERED,= Infinity Bank,✓ covered — Infinity Bank
+24332,First Credit Bank,1,282355,Los ,Y,COVERED,= First Credit Bank,✓ covered — First Credit Bank
+58490,Beneficial State Bank,1,219250,Los ,N,COVERED,= Beneficial State Bank,✓ covered — Beneficial State Bank
+35331,"Liberty Bank, National Association",1,179703,Oran,Y,COVERED,"= Liberty Bank, N.A. (Irvine, CA)","✓ covered — Liberty Bank, N.A. (Irvine, CA)"
+59296,Bank Irvine,1,164233,Oran,Y,COVERED,= Bank Irvine,"✓ covered — Liberty Bank, N.A. (Irvine, CA)"
+24211,"Bank of Whittier, National Association",1,128556,Los ,Y,COVERED,"= Bank of Whittier, N.A.","✓ covered — Bank of Whittier, N.A."
+59290,Beach Cities Commercial Bank,1,108284,Oran,Y,COVERED,= Beach Cities Commercial Bank,✓ covered — Beach Cities Commercial Bank
+58037,California Business Bank,1,94272,Oran,Y,COVERED,= California Business Bank,✓ covered — California Credit Union
+59204,Legacy Bank,1,72724,Rive,Y,COVERED,"= Legacy Bank (Murrieta, CA)","✓ covered — Legacy Bank (Murrieta, CA)"
+32908,Tustin Community Bank,1,63278,Oran,Y,COVERED,= Tustin Community Bank,✓ covered — Tustin Community Bank
+57974,"California International Bank, N.A.",1,62775,Oran,Y,COVERED,"= California International Bank, N.A.",✓ covered — California Credit Union
+25249,"C3bank, National Association",1,58045,Rive,N,COVERED,"= C3bank, N.A.","✓ covered — C3bank, N.A."
+58500,Community Valley Bank,1,6829,Rive,N,COVERED,= Community Valley Bank (in 117 CA-HQ sweep),✓ covered — Community Valley Bank
+23472,"The Bank of New York Mellon Trust Company, National Association",1,797,Los ,Y,COVERED,"= The Bank of New York Mellon Trust Company, N.A.","✓ covered — The Bank of New York Mellon Trust Company, N.A."
+35164,Capital Bank and Trust Company,1,500,Oran,Y,COVERED,= Capital Bank and Trust Company,✓ covered — Capital Bank and Trust Company
+57607,First Western Trust Bank,1,0,Los ,N,COVERED,= First Western Trust,✓ covered — First Western Trust Bank
