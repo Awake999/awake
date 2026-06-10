@@ -1,0 +1,162 @@
+Charter#,Credit_Union,HQ_City,HQ_State,Assets_$,OOS_HQ_with_SoCal_branches,Branches_LA,Branches_SB,Branches_Riv,Branches_OC,Branches_Ventura,Branches_SD,Total_6cty,Counties,Priority,v5_status,Match_note,Source_link
+5536,NAVY FEDERAL CREDIT UNION,Vienna,VA,203558954708,Y,4,5,6,4,3,27,49,LA+SB+Riv+OC+Ventura+SD,PRIORITY-4CTY,IN_V5,charter match: NAVY FEDERAL CREDIT UNION,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24212,SCHOOLSFIRST,Santa Ana,CA,36737428874,,21,7,9,26,1,2,66,LA+SB+Riv+OC+Ventura+SD,PRIORITY-4CTY,IN_V5,charter match: SCHOOLSFIRST,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+23521,FIRST TECHNOLOGY,San Jose,CA,28579913967,,0,0,0,0,0,1,1,SD,OUTLIER,NEW_GAP,"Ventura/SD only (outlier counties, not in v5 4-cty scope)",https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24694,AMERICA FIRST,Riverdale,UT,24729579208,Y,0,1,0,0,0,0,1,SB,PRIORITY-4CTY,IN_V5,charter match: AMERICA FIRST,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+61650,THE GOLDEN 1,Sacramento,CA,21737187207,,0,1,0,0,0,0,1,SB,PRIORITY-4CTY,IN_V5,charter match: THE GOLDEN 1,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+5913,GLOBAL,Anchorage,AK,12863315758,Y,0,6,0,0,0,0,6,SB,PRIORITY-4CTY,IN_V5,charter match: GLOBAL,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+1999,LOGIX,Valencia,CA,9716129809,,14,0,0,0,5,0,19,LA+Ventura,PRIORITY-4CTY,IN_V5,charter match: LOGIX,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+23957,AMERICAN AIRLINES,Fort Worth,TX,9448440753,Y,2,0,0,0,0,0,2,LA,PRIORITY-4CTY,IN_V5,charter match: AMERICAN AIRLINES,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+61004,SAN DIEGO COUNTY,San Diego,CA,9382858048,,0,0,3,5,0,32,40,Riv+OC+SD,PRIORITY-4CTY,IN_V5,charter match: SAN DIEGO COUNTY,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+15732,COMMUNITYAMERICA,Lenexa,KS,8983073793,Y,11,0,0,4,2,0,17,LA+OC+Ventura,PRIORITY-4CTY,IN_V5,charter match: COMMUNITYAMERICA,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+14384,MISSION,San Diego,CA,7232363156,,0,0,0,0,0,36,36,SD,OUTLIER,POSSIBLE_MATCH,~ L. A. MISSION,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+68187,BAXTER,Vernon Hills,IL,6501796742,Y,1,0,0,1,1,0,3,LA+OC+Ventura,PRIORITY-4CTY,IN_V5,charter match: BAXTER,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+66703,WESCOM CENTRAL,Pasadena,CA,6472794298,,12,2,2,9,3,0,28,LA+SB+Riv+OC+Ventura,PRIORITY-4CTY,IN_V5,charter match: WESCOM CENTRAL,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+4142,KINECTA,Manhattan Beach,CA,6443715004,,16,0,0,4,1,0,21,LA+OC+Ventura,PRIORITY-4CTY,IN_V5,charter match: KINECTA,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24326,CHEVRON,Concord,CA,5440106627,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: CHEVRON,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24980,CALIFORNIA,Glendale,CA,5413638046,,13,0,0,1,0,12,26,LA+OC+SD,PRIORITY-4CTY,IN_V5,charter match: CALIFORNIA,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24983,"CREDIT UNION OF SOUTHERN CA, A",Anaheim,CA,3942853719,,15,3,1,7,0,0,26,LA+SB+Riv+OC,PRIORITY-4CTY,IN_V5,"charter match: CREDIT UNION OF SOUTHERN CA, A",https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+566,NUVISION,Huntington Beac,CA,3935777489,,5,0,0,7,0,2,14,LA+OC+SD,PRIORITY-4CTY,IN_V5,charter match: NUVISION,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+66584,CALIFORNIA COAST,San Diego,CA,3469511167,,0,0,4,0,0,23,27,Riv+SD,PRIORITY-4CTY,IN_V5,charter match: CALIFORNIA COAST,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+68428,PREMIER AMERICA,Chatsworth,CA,3313105523,,11,0,0,0,8,0,19,LA+Ventura,PRIORITY-4CTY,IN_V5,charter match: PREMIER AMERICA,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24981,ORANGE COUNTY'S,Santa Ana,CA,3074685797,,1,1,0,10,0,0,12,LA+SB+OC,PRIORITY-4CTY,IN_V5,charter match: ORANGE COUNTY'S,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+1493,F & A,Monterey Park,CA,3056609908,,2,0,0,0,0,0,2,LA,PRIORITY-4CTY,IN_V5,charter match: F & A,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24973,ARROWHEAD,Rancho Cucamong,CA,2905838677,,2,16,2,0,0,0,20,LA+SB+Riv,PRIORITY-4CTY,IN_V5,charter match: ARROWHEAD,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+18708,PARTNERS,Burbank,CA,2799229823,,4,0,0,4,0,0,8,LA+OC,PRIORITY-4CTY,IN_V5,charter match: PARTNERS,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+62715,TOGETHER,Saint Louis,MO,2722399325,Y,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: TOGETHER,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24969,ALTURA,Riverside,CA,2665893053,,0,0,24,0,0,0,24,Riv,PRIORITY-4CTY,IN_V5,charter match: ALTURA,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24877,FIREFIGHTERS FIRST,Los Angeles,CA,2470349300,,3,1,1,1,1,0,7,LA+SB+Riv+OC+Ventura,PRIORITY-4CTY,IN_V5,charter match: FIREFIGHTERS FIRST,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24802,SELF-HELP,Durham,NC,2405735320,Y,2,0,0,0,0,1,3,LA+SD,PRIORITY-4CTY,IN_V5,charter match: SELF-HELP,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+68457,FINANCIAL PARTNERS,Downey,CA,2247378836,,5,1,0,7,0,1,14,LA+SB+OC+SD,PRIORITY-4CTY,IN_V5,charter match: FINANCIAL PARTNERS,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+68460,LBS FINANCIAL,Long Beach,CA,2191340672,,7,0,0,1,0,0,8,LA+OC,PRIORITY-4CTY,IN_V5,charter match: LBS FINANCIAL,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+6681,CALTECH EMPLOYEES,La Canada,CA,2176332001,,4,0,0,0,0,0,4,LA,PRIORITY-4CTY,IN_V5,charter match: CALTECH EMPLOYEES,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+68373,FIRST ENTERTAINMENT,Hollywood,CA,2122095658,,7,0,0,0,0,0,7,LA,PRIORITY-4CTY,IN_V5,charter match: FIRST ENTERTAINMENT,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+68494,FRONTWAVE,Oceanside,CA,1764704265,,0,3,3,0,0,10,16,SB+Riv+SD,PRIORITY-4CTY,IN_V5,charter match: FRONTWAVE,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24808,SKYLA,Charlotte,NC,1656044095,Y,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: SKYLA,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24292,NORTHROP GRUMMAN,Gardena,CA,1653497637,,8,0,0,0,0,2,10,LA+SD,PRIORITY-4CTY,IN_V5,charter match: NORTHROP GRUMMAN,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24235,OPERATING ENGINEERS LOCAL UNION #3,Livermore,CA,1650775391,,1,0,0,1,0,0,2,LA+OC,PRIORITY-4CTY,IN_V5,charter match: OPERATING ENGINEERS LOCAL UNION #3,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+68458,VENTURA COUNTY,Ventura,CA,1467597235,,0,0,0,0,9,0,9,Ventura,OUTLIER,NEW_GAP,"Ventura/SD only (outlier counties, not in v5 4-cty scope)",https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+97068,CHRISTIAN COMMUNITY,San Dimas,CA,1443573352,,1,0,0,1,0,0,2,LA+OC,PRIORITY-4CTY,IN_V5,charter match: CHRISTIAN COMMUNITY,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24553,LOS ANGELES POLICE,Van Nuys,CA,1402266653,,4,0,0,0,0,0,4,LA,PRIORITY-4CTY,IN_V5,charter match: LOS ANGELES POLICE,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+1074,FARMERS INSURANCE,Burbank,CA,1366674086,,3,0,0,0,0,0,3,LA,PRIORITY-4CTY,IN_V5,charter match: FARMERS INSURANCE,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+68485,AMERICAN FIRST,Brea,CA,1310342468,,0,0,1,4,0,0,5,Riv+OC,PRIORITY-4CTY,IN_V5,charter match: AMERICAN FIRST,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+7835,RIZE,El Monte,CA,1309314002,,4,1,0,0,0,0,5,LA+SB,PRIORITY-4CTY,IN_V5,charter match: RIZE,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+68415,SOUTHLAND,Los Alamitos,CA,1292891510,,10,0,0,1,0,0,11,LA+OC,PRIORITY-4CTY,IN_V5,charter match: SOUTHLAND,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+1207,LOS ANGELES,Glendale,CA,1278292282,,8,0,0,0,0,0,8,LA,PRIORITY-4CTY,IN_V5,charter match: LOS ANGELES,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+17623,HONDA,Torrance,CA,1204192574,,2,0,0,0,0,0,2,LA,PRIORITY-4CTY,IN_V5,charter match: HONDA,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+64171,UNIVERSITY,Los Angeles,CA,1187569456,,3,0,0,0,0,0,3,LA,PRIORITY-4CTY,IN_V5,charter match: UNIVERSITY,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+151,JUSTICE,Chantilly,VA,1158996534,Y,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: JUSTICE,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+60801,BLUPEAK,San Diego,CA,1128146621,,0,0,0,0,0,4,4,SD,OUTLIER,NEW_GAP,"Ventura/SD only (outlier counties, not in v5 4-cty scope)",https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+66585,POINT BREEZE,Hunt Valley,MD,1001278466,Y,0,0,0,0,0,1,1,SD,OUTLIER,NEW_GAP,"Ventura/SD only (outlier counties, not in v5 4-cty scope)",https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+68493,WATER AND POWER COMMUNITY,Los Angeles,CA,990764424,,5,0,0,0,0,0,5,LA,PRIORITY-4CTY,IN_V5,charter match: WATER AND POWER COMMUNITY,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+68503,FIRST CITY,Pasadena,CA,952449258,,7,0,0,0,0,0,7,LA,PRIORITY-4CTY,IN_V5,charter match: FIRST CITY,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+9230,CERTIFIED,El Monte,CA,919973315,,6,1,0,3,0,1,11,LA+SB+OC+SD,PRIORITY-4CTY,IN_V5,charter match: CERTIFIED,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+9296,SUN COMMUNITY,El Centro,CA,896540774,,0,0,2,0,0,0,2,Riv,PRIORITY-4CTY,IN_V5,charter match: SUN COMMUNITY,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+6248,SKYONE,Hawthorne,CA,875824070,,2,0,0,0,0,0,2,LA,PRIORITY-4CTY,IN_V5,charter match: SKYONE,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+7608,OCEANAIR,Oxnard,CA,870759623,,0,0,0,0,4,0,4,Ventura,OUTLIER,NEW_GAP,"Ventura/SD only (outlier counties, not in v5 4-cty scope)",https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+68062,AMERICA'S CHRISTIAN,Glendora,CA,818406188,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: AMERICA'S CHRISTIAN,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+9071,DIRECT,Needham,MA,789820428,Y,0,0,0,1,0,0,1,OC,PRIORITY-4CTY,IN_V5,charter match: DIRECT,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+12425,FOOTHILL,Arcadia,CA,772237101,,4,1,0,0,0,0,5,LA+SB,PRIORITY-4CTY,IN_V5,charter match: FOOTHILL,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24875,THE FIRST FINANCIAL,Pasadena,CA,746455820,,5,3,0,0,0,0,8,LA+SB,PRIORITY-4CTY,IN_V5,charter match: THE FIRST FINANCIAL,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+68459,USC,Los Angeles,CA,719189202,,5,0,0,0,0,0,5,LA,PRIORITY-4CTY,IN_V5,charter match: USC,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+68377,MYPOINT,San Diego,CA,701059214,,0,0,0,0,0,7,7,SD,OUTLIER,NEW_GAP,"Ventura/SD only (outlier counties, not in v5 4-cty scope)",https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+21751,FEDEX EMPLOYEES CREDIT ASSOCIATION,Memphis,TN,641452230,Y,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: FEDEX EMPLOYEES CREDIT ASSOCIATION,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24916,I.L.W.U.,Long Beach,CA,601926772,,3,0,0,0,0,0,3,LA,PRIORITY-4CTY,IN_V5,charter match: I.L.W.U.,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+68409,CABRILLO,San Diego,CA,571809282,,0,0,0,0,0,7,7,SD,OUTLIER,NEW_GAP,"Ventura/SD only (outlier counties, not in v5 4-cty scope)",https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+23494,CAROLINAS TELCO,Charlotte,NC,514359341,Y,0,0,0,0,0,1,1,SD,OUTLIER,NEW_GAP,"Ventura/SD only (outlier counties, not in v5 4-cty scope)",https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24927,"CREDIT UNION OF NEW JERSEY, A",Ewing,NJ,503973515,Y,0,0,0,1,0,0,1,OC,PRIORITY-4CTY,IN_V5,"charter match: CREDIT UNION OF NEW JERSEY, A",https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+61003,WHEELHOUSE,San Diego,CA,456770671,,0,0,0,0,0,5,5,SD,OUTLIER,NEW_GAP,"Ventura/SD only (outlier counties, not in v5 4-cty scope)",https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+3943,GAIN,Burbank,CA,439328634,,2,0,0,0,0,0,2,LA,PRIORITY-4CTY,IN_V5,charter match: GAIN,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+14723,AEROSPACE,Los Angeles,CA,422785090,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: AEROSPACE,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+97101,GLENDALE AREA SCHOOLS,Glendale,CA,421654861,,2,0,0,0,0,0,2,LA,PRIORITY-4CTY,IN_V5,charter match: GLENDALE AREA SCHOOLS,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+66847,EAGLE COMMUNITY,Lake Forest,CA,411440538,,1,0,0,5,0,0,6,LA+OC,PRIORITY-4CTY,IN_V5,charter match: EAGLE COMMUNITY,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+95071,CAHP,Sacramento,CA,403972301,,0,1,0,0,0,0,1,SB,PRIORITY-4CTY,IN_V5,charter match: CAHP,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+23004,POPA,Cerritos,CA,399419595,,4,0,0,0,0,0,4,LA,PRIORITY-4CTY,IN_V5,charter match: POPA,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+8187,AMERICAN UNITED,West Jordan,UT,394236316,Y,0,0,3,0,0,0,3,Riv,PRIORITY-4CTY,IN_V5,charter match: AMERICAN UNITED,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+594,PASADENA,Pasadena,CA,381308071,,5,0,0,0,0,0,5,LA,PRIORITY-4CTY,IN_V5,charter match: PASADENA,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+68483,MATADORS COMMUNITY,Northridge,CA,359947577,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: MATADORS COMMUNITY,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+15317,SAG-AFTRA,Burbank,CA,340594835,,4,0,0,0,0,1,5,LA+SD,PRIORITY-4CTY,IN_V5,charter match: SAG-AFTRA,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+15358,ACTORS,New York,NY,334790375,Y,2,0,0,0,0,0,2,LA,PRIORITY-4CTY,IN_V5,charter match: ACTORS,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+3945,UME,Burbank,CA,334142032,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: UME,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+11870,DOWNEY,Downey,CA,331199402,,3,0,0,0,0,0,3,LA,PRIORITY-4CTY,IN_V5,charter match: DOWNEY,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+17127,TRUGROCER,Boise,ID,319382979,Y,0,0,0,1,0,0,1,OC,PRIORITY-4CTY,IN_V5,charter match: TRUGROCER,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+66638,GUARDIAN,Oak Creek,WI,291227504,Y,0,0,0,0,0,1,1,SD,OUTLIER,NEW_GAP,"Ventura/SD only (outlier counties, not in v5 4-cty scope)",https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+16402,U S POSTAL SERVICE,Clinton,MD,286334485,Y,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: U S POSTAL SERVICE,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+1438,LONG BEACH CITY EMPLOYEES,Signal Hill,CA,279271327,,2,0,0,0,0,0,2,LA,PRIORITY-4CTY,IN_V5,charter match: LONG BEACH CITY EMPLOYEES,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+14830,EDWARDS,Edwards,CA,278913118,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: EDWARDS,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+16030,CHAFFEY,Upland,CA,229064484,,1,3,0,0,0,0,4,LA+SB,PRIORITY-4CTY,IN_V5,charter match: CHAFFEY,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+9556,CLEARPATH,Burbank,CA,224391171,,2,0,0,0,0,0,2,LA,PRIORITY-4CTY,IN_V5,charter match: CLEARPATH,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+13476,CAROLINA FOOTHILLS,Spartanburg,SC,220475899,Y,0,0,0,0,0,1,1,SD,OUTLIER,NEW_GAP,"Ventura/SD only (outlier counties, not in v5 4-cty scope)",https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+64531,ALTA VISTA,Redlands,CA,211726159,,0,2,0,0,0,0,2,SB,PRIORITY-4CTY,IN_V5,charter match: ALTA VISTA,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+60024,PRIORITY ONE,South Pasadena,CA,205736783,,3,0,0,0,0,0,3,LA,PRIORITY-4CTY,IN_V5,charter match: PRIORITY ONE,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+67921,LONG BEACH FIREMEN S,Long Beach,CA,204273146,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: LONG BEACH FIREMEN S,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+3526,SCHOOLS,Torrance,CA,192652276,,2,0,0,0,0,0,2,LA,PRIORITY-4CTY,IN_V5,charter match: SCHOOLS,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+4633,CAMINO,Montebello,CA,179244240,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: CAMINO,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+62323,E-CENTRAL,Pasadena,CA,174543984,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: E-CENTRAL,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+14542,VIDA,Ontario,CA,172659135,,0,1,0,0,0,0,1,SB,PRIORITY-4CTY,IN_V5,charter match: VIDA,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+95052,SOUTH BAY,Redondo Beach,CA,164333499,,3,0,0,0,0,0,3,LA,PRIORITY-4CTY,IN_V5,charter match: SOUTH BAY,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+12543,TORRANCE COMMUNITY,Torrance,CA,160034712,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: TORRANCE COMMUNITY,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+64834,CALIFORNIA LITHUANIAN,Santa Monica,CA,157863523,,2,0,0,0,0,0,2,LA,PRIORITY-4CTY,IN_V5,charter match: CALIFORNIA LITHUANIAN,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24110,SAN DIEGO FIREFIGHTERS,San Diego,CA,151717981,,0,0,0,0,0,2,2,SD,OUTLIER,NEW_GAP,"Ventura/SD only (outlier counties, not in v5 4-cty scope)",https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+11099,EAST COUNTY SCHOOLS,El Cajon,CA,147541795,,0,0,0,0,0,1,1,SD,OUTLIER,NEW_GAP,"Ventura/SD only (outlier counties, not in v5 4-cty scope)",https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+5816,INTERFAITH,Montclair,CA,135351514,,0,1,0,0,0,0,1,SB,PRIORITY-4CTY,IN_V5,charter match: INTERFAITH,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+64191,NORTH IOWA COMMUNITY,Mason City,IA,128521672,Y,0,0,0,1,0,1,2,OC+SD,PRIORITY-4CTY,IN_V5,charter match: NORTH IOWA COMMUNITY,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+7770,THINKWISE,San Bernardino,CA,121225084,,0,2,0,0,0,0,2,SB,PRIORITY-4CTY,IN_V5,charter match: THINKWISE,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+7817,SEA AIR,Seal Beach,CA,118185732,,0,0,1,2,0,0,3,Riv+OC,PRIORITY-4CTY,IN_V5,charter match: SEA AIR,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+10351,LA LOMA,Loma Linda,CA,114333182,,0,2,1,0,0,0,3,SB+Riv,PRIORITY-4CTY,IN_V5,charter match: LA LOMA,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+18273,AMERICAN BROADCAST EMPLOYEES,Rockville Centr,NY,113628535,Y,3,0,0,0,0,0,3,LA,PRIORITY-4CTY,IN_V5,charter match: AMERICAN BROADCAST EMPLOYEES,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24520,SANTA ANA,Santa Ana,CA,112515965,,0,0,0,1,0,0,1,OC,PRIORITY-4CTY,IN_V5,charter match: SANTA ANA,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+1204,RANCHO,Downey,CA,110306322,,2,0,0,1,0,0,3,LA+OC,PRIORITY-4CTY,IN_V5,charter match: RANCHO,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24725,OHIO HEALTHCARE,Dublin,OH,108727461,Y,0,0,0,0,0,1,1,SD,OUTLIER,NEW_GAP,"Ventura/SD only (outlier counties, not in v5 4-cty scope)",https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+7557,GLENDALE,Glendale,CA,102411161,,2,0,0,0,0,0,2,LA,PRIORITY-4CTY,IN_V5,charter match: GLENDALE,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+5530,VA DESERT PACIFIC,Long Beach,CA,98985355,,3,0,0,0,0,0,3,LA,PRIORITY-4CTY,IN_V5,charter match: VA DESERT PACIFIC,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24131,UNION YES,Orange,CA,96920624,,0,0,0,1,0,0,1,OC,PRIORITY-4CTY,IN_V5,charter match: UNION YES,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+13495,COUNTY SCHOOLS,Ventura,CA,91465574,,0,0,0,0,5,0,5,Ventura,OUTLIER,NEW_GAP,"Ventura/SD only (outlier counties, not in v5 4-cty scope)",https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+8230,TECHNICOLOR,Burbank,CA,84893873,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: TECHNICOLOR,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+18623,CALCOM,Long Beach,CA,82608794,,4,0,0,0,0,0,4,LA,PRIORITY-4CTY,IN_V5,charter match: CALCOM,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+65059,NIKKEI,Gardena,CA,80585718,,2,0,0,0,0,0,2,LA,PRIORITY-4CTY,IN_V5,charter match: NIKKEI,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+14499,CAL STATE L.A.,Los Angeles,CA,79904552,,2,0,0,0,0,0,2,LA,PRIORITY-4CTY,IN_V5,charter match: CAL STATE L.A.,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+86063,POSTCITY FINANCIAL,Long Beach,CA,78185272,,2,0,0,0,0,0,2,LA,PRIORITY-4CTY,IN_V5,charter match: POSTCITY FINANCIAL,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+1034,OLIVE VIEW EMPLOYEES,Sylmar,CA,75225960,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: OLIVE VIEW EMPLOYEES,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+19739,POLAM,Los Angeles,CA,73432824,,1,0,0,1,0,0,2,LA+OC,PRIORITY-4CTY,IN_V5,charter match: POLAM,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+64893,UNIVERSAL CITY STUDIOS,Burbank,CA,71839650,,2,0,0,0,0,1,3,LA+SD,PRIORITY-4CTY,IN_V5,charter match: UNIVERSAL CITY STUDIOS,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+14650,PARISHIONERS,Torrance,CA,67162263,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: PARISHIONERS,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+13402,ESCONDIDO,Escondido,CA,66214433,,0,0,0,0,0,1,1,SD,OUTLIER,NEW_GAP,"Ventura/SD only (outlier counties, not in v5 4-cty scope)",https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+10433,BOPTI,San Pedro,CA,64385017,,2,0,0,0,0,0,2,LA,PRIORITY-4CTY,IN_V5,charter match: BOPTI,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+60967,HUNTINGTON BEACH,Huntington Beac,CA,55824368,,0,0,0,1,0,0,1,OC,PRIORITY-4CTY,IN_V5,charter match: HUNTINGTON BEACH,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+63589,JACOM,Los Angeles,CA,54866027,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: JACOM,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+5684,INLAND VALLEY,Fontana,CA,54343947,,0,1,0,0,0,0,1,SB,PRIORITY-4CTY,IN_V5,charter match: INLAND VALLEY,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+60755,L. A. ELECTRICAL WORKERS CREDIT UN.,Pasadena,CA,53963437,,2,0,0,0,0,0,2,LA,PRIORITY-4CTY,IN_V5,charter match: L. A. ELECTRICAL WORKERS CREDIT UN.,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+12029,UNITED CATHOLICS,Covina,CA,50035236,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: UNITED CATHOLICS,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+21532,U.P.S. EMPLOYEES,Ontario,CA,48924495,,0,1,0,0,0,0,1,SB,PRIORITY-4CTY,IN_V5,charter match: U.P.S. EMPLOYEES,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+5569,DIXIES,Darlington,SC,47329798,Y,0,0,0,0,0,1,1,SD,OUTLIER,NEW_GAP,"Ventura/SD only (outlier counties, not in v5 4-cty scope)",https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24238,CALIFORNIA ADVENTIST,Glendale,CA,46063173,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: CALIFORNIA ADVENTIST,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+68167,COLLEGEDALE,Collegedale,TN,44663588,Y,0,1,0,0,0,0,1,SB,PRIORITY-4CTY,IN_V5,charter match: COLLEGEDALE,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+16954,FOX,Los Angeles,CA,38149010,,4,0,0,0,0,0,4,LA,PRIORITY-4CTY,IN_V5,charter match: FOX,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+68549,MEDIA CITY,Burbank,CA,37814881,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: MEDIA CITY,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+16268,W S S C,Laurel,MD,34955726,Y,0,1,0,0,0,0,1,SB,PRIORITY-4CTY,IN_V5,charter match: W S S C,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+8611,CAPSTONE,Aliso Viejo,CA,34573149,,0,0,0,1,0,0,1,OC,PRIORITY-4CTY,IN_V5,charter match: CAPSTONE,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+95072,EL MONTE COMMUNITY,El Monte,CA,32961526,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: EL MONTE COMMUNITY,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24549,HANIN,Los Angeles,CA,31725210,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: HANIN,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+8261,MATTEL,El Segundo,CA,29130616,,4,0,0,0,0,0,4,LA,PRIORITY-4CTY,IN_V5,charter match: MATTEL,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+68052,CENTER CITY COMMUNITY,Buena Park,CA,25266816,,0,0,0,1,0,0,1,OC,PRIORITY-4CTY,IN_V5,charter match: CENTER CITY COMMUNITY,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+13044,ONTARIO PUBLIC EMPLOYEES,Ontario,CA,23434614,,0,1,0,0,0,0,1,SB,PRIORITY-4CTY,IN_V5,charter match: ONTARIO PUBLIC EMPLOYEES,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+13526,EMPLOYEES CHOICE,El Cajon,CA,22980121,,0,0,0,0,0,2,2,SD,OUTLIER,NEW_GAP,"Ventura/SD only (outlier counties, not in v5 4-cty scope)",https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+15784,NOVO,Norco,CA,20774379,,0,0,2,0,0,0,2,Riv,PRIORITY-4CTY,IN_V5,charter match: NOVO,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+12898,FONTANA,Fontana,CA,17231223,,0,2,0,0,0,0,2,SB,PRIORITY-4CTY,IN_V5,charter match: FONTANA,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+95073,MID-CITIES,Compton,CA,16279430,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: MID-CITIES,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+16571,L.A. HEALTHCARE,Los Angeles,CA,14970369,,2,0,0,0,0,0,2,LA,PRIORITY-4CTY,IN_V5,charter match: L.A. HEALTHCARE,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+9823,BEVERLY HILLS CITY EMPLOYEES,Beverly Hills,CA,14904068,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: BEVERLY HILLS CITY EMPLOYEES,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+14016,INLAND,La Mesa,CA,14795534,,0,0,0,0,0,2,2,SD,OUTLIER,NEW_GAP,"Ventura/SD only (outlier counties, not in v5 4-cty scope)",https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24776,COMUNIDAD LATINA,Santa Ana,CA,11186420,,0,0,0,1,0,0,1,OC,PRIORITY-4CTY,IN_V5,charter match: COMUNIDAD LATINA,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+9778,REDLANDS CITY EMPLOYEES,Redlands,CA,10290642,,0,1,0,0,0,0,1,SB,PRIORITY-4CTY,IN_V5,charter match: REDLANDS CITY EMPLOYEES,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+20720,L. A. MISSION,San Fernando,CA,8606027,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: L. A. MISSION,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+24506,EPISCOPAL COMMUNITY,Los Angeles,CA,6625294,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: EPISCOPAL COMMUNITY,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+17841,VALLEY AGRICULTURAL,Santa Paula,CA,4755068,,1,0,0,0,1,0,2,LA+Ventura,PRIORITY-4CTY,IN_V5,charter match: VALLEY AGRICULTURAL,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+4393,SUNKIST EMPLOYEES,Valencia,CA,3959286,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: SUNKIST EMPLOYEES,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+5960,U.S.B. EMPLOYEES,Wilmington,CA,3207028,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: U.S.B. EMPLOYEES,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+18405,CHULA VISTA CITY EMPLOYEES,Chula Vista,CA,3161398,,0,0,0,0,0,2,2,SD,OUTLIER,NEW_GAP,"Ventura/SD only (outlier counties, not in v5 4-cty scope)",https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+9044,COLUMBUS CLUB,San Fernando,CA,3040635,,1,0,0,0,0,0,1,LA,PRIORITY-4CTY,IN_V5,charter match: COLUMBUS CLUB,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+64108,FOUNTAIN VALLEY,Fountain Valley,CA,1964804,,0,0,0,1,0,0,1,OC,PRIORITY-4CTY,IN_V5,charter match: FOUNTAIN VALLEY,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+10648,MARYKNOLL OF L A,Los Angeles,CA,1151903,,2,0,0,0,0,0,2,LA,PRIORITY-4CTY,IN_V5,charter match: MARYKNOLL OF L A,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
+16570,LOS ANGELES LEE,Los Angeles,CA,644510,,2,0,0,0,0,0,2,LA,PRIORITY-4CTY,IN_V5,charter match: LOS ANGELES LEE,https://ncua.gov/files/publications/analysis/call-report-data-2026-03.zip
