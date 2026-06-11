@@ -1,0 +1,152 @@
+{
+ "16571": {
+  "CITY": "Chicago",
+  "ACTIVE": 1,
+  "ASSET": 251964731,
+  "CERT": 16571,
+  "STALP": "IL",
+  "DEP": 193961053,
+  "NAME": "BMO Bank National Association",
+  "ID": "16571"
+ },
+ "17281": {
+  "CITY": "Los Angeles",
+  "ACTIVE": 1,
+  "ASSET": 99947369,
+  "CERT": 17281,
+  "STALP": "CA",
+  "DEP": 81067113,
+  "NAME": "City National Bank",
+  "ID": "17281"
+ },
+ "18503": {
+  "CITY": "Los Angeles",
+  "ACTIVE": 1,
+  "ASSET": 24035136,
+  "CERT": 18503,
+  "STALP": "CA",
+  "DEP": 20697975,
+  "NAME": "Cathay Bank",
+  "ID": "18503"
+ },
+ "21716": {
+  "CITY": "Ontario",
+  "ACTIVE": 1,
+  "ASSET": 15511016,
+  "CERT": 21716,
+  "STALP": "CA",
+  "DEP": 12002449,
+  "NAME": "Citizens Business Bank, National Association",
+  "ID": "21716"
+ },
+ "24045": {
+  "CITY": "Los Angeles",
+  "ACTIVE": 1,
+  "ASSET": 34642892,
+  "CERT": 24045,
+  "STALP": "CA",
+  "DEP": 27440681,
+  "NAME": "Banc of California",
+  "ID": "24045"
+ },
+ "28489": {
+  "CITY": "Walla Walla",
+  "ACTIVE": 1,
+  "ASSET": 16338071,
+  "CERT": 28489,
+  "STALP": "WA",
+  "DEP": 13928915,
+  "NAME": "Banner Bank",
+  "ID": "28489"
+ },
+ "31628": {
+  "CITY": "Pasadena",
+  "ACTIVE": 1,
+  "ASSET": 82474471,
+  "CERT": 31628,
+  "STALP": "CA",
+  "DEP": 69086073,
+  "NAME": "East West Bank",
+  "ID": "31628"
+ },
+ "32489": {
+  "CITY": "Seattle",
+  "ACTIVE": 0,
+  "ASSET": 7604778,
+  "CERT": 32489,
+  "STALP": "WA",
+  "DEP": 5869416,
+  "NAME": "HomeStreet Bank",
+  "ID": "32489"
+ },
+ "3510": {
+  "CITY": "Charlotte",
+  "ACTIVE": 1,
+  "ASSET": 2672192000,
+  "CERT": 3510,
+  "STALP": "NC",
+  "DEP": 2128004000,
+  "NAME": "Bank of America, National Association",
+  "ID": "3510"
+ },
+ "3511": {
+  "CITY": "Sioux Falls",
+  "ACTIVE": 1,
+  "ASSET": 1852239000,
+  "CERT": 3511,
+  "STALP": "SD",
+  "DEP": 1516982000,
+  "NAME": "Wells Fargo Bank, National Association",
+  "ID": "3511"
+ },
+ "35366": {
+  "CITY": "Chino",
+  "ACTIVE": 1,
+  "ASSET": 465786,
+  "CERT": 35366,
+  "STALP": "CA",
+  "DEP": 388102,
+  "NAME": "Chino Commercial Bank, N.A.",
+  "ID": "35366"
+ },
+ "628": {
+  "CITY": "Columbus",
+  "ACTIVE": 1,
+  "ASSET": 4016571000,
+  "CERT": 628,
+  "STALP": "OH",
+  "DEP": 2787994000,
+  "NAME": "JPMorgan Chase Bank, National Association",
+  "ID": "628"
+ },
+ "6548": {
+  "CITY": "Cincinnati",
+  "ACTIVE": 1,
+  "ASSET": 683379960,
+  "CERT": 6548,
+  "STALP": "OH",
+  "DEP": 539835606,
+  "NAME": "U.S. Bank National Association",
+  "ID": "6548"
+ },
+ "7213": {
+  "CITY": "Sioux Falls",
+  "ACTIVE": 1,
+  "ASSET": 1933622000,
+  "CERT": 7213,
+  "STALP": "SD",
+  "DEP": 1501029000,
+  "NAME": "Citibank, National Association",
+  "ID": "7213"
+ },
+ "983": {
+  "CITY": "Dallas",
+  "ACTIVE": 0,
+  "ASSET": 80052000,
+  "CERT": 983,
+  "STALP": "TX",
+  "DEP": 66282000,
+  "NAME": "Comerica Bank",
+  "ID": "983"
+ }
+}

@@ -1,0 +1,296 @@
+{
+ "628": {
+  "name": "JPMorgan Chase Bank, National Association",
+  "asset_k": 4016571000,
+  "dep_k": 2787994000,
+  "hq": "Columbus, OH",
+  "active": 1
+ },
+ "983": {
+  "name": "Comerica Bank",
+  "asset_k": 80052000,
+  "dep_k": 66282000,
+  "hq": "Dallas, TX",
+  "active": 0
+ },
+ "1225": {
+  "name": "Farmers and Merchants Bank of Long Beach",
+  "asset_k": 11856598,
+  "dep_k": 8938167,
+  "hq": "Long Beach, CA",
+  "active": 1
+ },
+ "2270": {
+  "name": "Zions Bancorporation, N.A.",
+  "asset_k": 87956932,
+  "dep_k": 76926168,
+  "hq": "Salt Lake City, UT",
+  "active": 1
+ },
+ "3510": {
+  "name": "Bank of America, National Association",
+  "asset_k": 2672192000,
+  "dep_k": 2128004000,
+  "hq": "Charlotte, NC",
+  "active": 1
+ },
+ "3511": {
+  "name": "Wells Fargo Bank, National Association",
+  "asset_k": 1852239000,
+  "dep_k": 1516982000,
+  "hq": "Sioux Falls, SD",
+  "active": 1
+ },
+ "6548": {
+  "name": "U.S. Bank National Association",
+  "asset_k": 683379960,
+  "dep_k": 539835606,
+  "hq": "Cincinnati, OH",
+  "active": 1
+ },
+ "7213": {
+  "name": "Citibank, National Association",
+  "asset_k": 1933622000,
+  "dep_k": 1501029000,
+  "hq": "Sioux Falls, SD",
+  "active": 1
+ },
+ "11063": {
+  "name": "First-Citizens Bank & Trust Company",
+  "asset_k": 235521000,
+  "dep_k": 171449000,
+  "hq": "Raleigh, NC",
+  "active": 1
+ },
+ "12229": {
+  "name": "First Bank",
+  "asset_k": 6691682,
+  "dep_k": 5937676,
+  "hq": "St. Louis, MO",
+  "active": 1
+ },
+ "16571": {
+  "name": "BMO Bank National Association",
+  "asset_k": 251964731,
+  "dep_k": 193961053,
+  "hq": "Chicago, IL",
+  "active": 1
+ },
+ "17281": {
+  "name": "City National Bank",
+  "asset_k": 99947369,
+  "dep_k": 81067113,
+  "hq": "Los Angeles, CA",
+  "active": 1
+ },
+ "18503": {
+  "name": "Cathay Bank",
+  "asset_k": 24035136,
+  "dep_k": 20697975,
+  "hq": "Los Angeles, CA",
+  "active": 1
+ },
+ "18618": {
+  "name": "SMBC MANUBANK",
+  "asset_k": 7728868,
+  "dep_k": 6731415,
+  "hq": "Los Angeles, CA",
+  "active": 1
+ },
+ "19416": {
+  "name": "CTBC Bank Corp. (USA)",
+  "asset_k": 5369932,
+  "dep_k": 4546301,
+  "hq": "Los Angeles, CA",
+  "active": 1
+ },
+ "20845": {
+  "name": "Wallis Bank",
+  "asset_k": 1398702,
+  "dep_k": 1200595,
+  "hq": "Wallis, TX",
+  "active": 1
+ },
+ "21716": {
+  "name": "Citizens Business Bank, National Association",
+  "asset_k": 15511016,
+  "dep_k": 12002449,
+  "hq": "Ontario, CA",
+  "active": 1
+ },
+ "23966": {
+  "name": "OneUnited Bank",
+  "asset_k": 609027,
+  "dep_k": 481925,
+  "hq": "Boston, MA",
+  "active": 1
+ },
+ "24045": {
+  "name": "Banc of California",
+  "asset_k": 34642892,
+  "dep_k": 27440681,
+  "hq": "Los Angeles, CA",
+  "active": 1
+ },
+ "24170": {
+  "name": "Hanmi Bank",
+  "asset_k": 7789627,
+  "dep_k": 6801918,
+  "hq": "Los Angeles, CA",
+  "active": 1
+ },
+ "24387": {
+  "name": "Industrial and Commercial Bank of China USA, National Association",
+  "asset_k": 2864973,
+  "dep_k": 2273913,
+  "hq": "New York, NY",
+  "active": 1
+ },
+ "24920": {
+  "name": "Woori America Bank",
+  "asset_k": 4041585,
+  "dep_k": 3467016,
+  "hq": "New York, NY",
+  "active": 1
+ },
+ "25093": {
+  "name": "Habib American Bank",
+  "asset_k": 2977085,
+  "dep_k": 2577829,
+  "hq": "New York, NY",
+  "active": 1
+ },
+ "26610": {
+  "name": "Bank of Hope",
+  "asset_k": 18652384,
+  "dep_k": 15771705,
+  "hq": "Los Angeles, CA",
+  "active": 1
+ },
+ "28088": {
+  "name": "WaFd Bank",
+  "asset_k": 27552061,
+  "dep_k": 21241331,
+  "hq": "Seattle, WA",
+  "active": 1
+ },
+ "31628": {
+  "name": "East West Bank",
+  "asset_k": 82474471,
+  "dep_k": 69086073,
+  "hq": "Pasadena, CA",
+  "active": 1
+ },
+ "32172": {
+  "name": "Pacific Premier Bank, National Association",
+  "asset_k": 17783977,
+  "dep_k": 14578484,
+  "hq": "Irvine, CA",
+  "active": 0
+ },
+ "32282": {
+  "name": "Malaga Bank F.S.B.",
+  "asset_k": 1442083,
+  "dep_k": 940516,
+  "hq": "Palos Verdes Peninsula, CA",
+  "active": 1
+ },
+ "32489": {
+  "name": "HomeStreet Bank",
+  "asset_k": 7604778,
+  "dep_k": 5869416,
+  "hq": "Seattle, WA",
+  "active": 0
+ },
+ "33188": {
+  "name": "Shinhan Bank America",
+  "asset_k": 1972804,
+  "dep_k": 1664812,
+  "hq": "New York, NY",
+  "active": 1
+ },
+ "33539": {
+  "name": "Preferred Bank",
+  "asset_k": 7655086,
+  "dep_k": 6432233,
+  "hq": "Los Angeles, CA",
+  "active": 1
+ },
+ "34010": {
+  "name": "EverTrust Bank",
+  "asset_k": 1114478,
+  "dep_k": 839626,
+  "hq": "City Of Industry, CA",
+  "active": 1
+ },
+ "57463": {
+  "name": "PCB Bank",
+  "asset_k": 3395119,
+  "dep_k": 2898675,
+  "hq": "Los Angeles, CA",
+  "active": 1
+ },
+ "57716": {
+  "name": "United Business Bank",
+  "asset_k": 2632362,
+  "dep_k": 2267047,
+  "hq": "Walnut Creek, CA",
+  "active": 1
+ },
+ "57873": {
+  "name": "Commonwealth Business Bank",
+  "asset_k": 1990854,
+  "dep_k": 1686692,
+  "hq": "Los Angeles, CA",
+  "active": 1
+ },
+ "57903": {
+  "name": "Poppy Bank",
+  "asset_k": 7796215,
+  "dep_k": 6015080,
+  "hq": "Santa Rosa, CA",
+  "active": 1
+ },
+ "57944": {
+  "name": "Open Bank",
+  "asset_k": 2699382,
+  "dep_k": 2328101,
+  "hq": "Los Angeles, CA",
+  "active": 1
+ },
+ "58060": {
+  "name": "First General Bank",
+  "asset_k": 1141218,
+  "dep_k": 811904,
+  "hq": "Rowland Heights, CA",
+  "active": 1
+ },
+ "58310": {
+  "name": "US Metro Bank",
+  "asset_k": 1563129,
+  "dep_k": 1362873,
+  "hq": "Garden Grove, CA",
+  "active": 1
+ },
+ "58469": {
+  "name": "American Plus Bank, N.A.",
+  "asset_k": 890687,
+  "dep_k": 716600,
+  "hq": "Arcadia, CA",
+  "active": 1
+ },
+ "58647": {
+  "name": "First Foundation Bank",
+  "asset_k": 11343543,
+  "dep_k": 8783466,
+  "hq": "Irvine, CA",
+  "active": 0
+ },
+ "58816": {
+  "name": "Royal Business Bank",
+  "asset_k": 4186507,
+  "dep_k": 3385924,
+  "hq": "Los Angeles, CA",
+  "active": 1
+ }
+}

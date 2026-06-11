@@ -1,0 +1,747 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-11T01:28:56Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1544613626,
+  "lat": 33.7600437,
+  "lon": -118.1349585,
+  "tags": {
+    "amenity": "bank",
+    "brand": "Chase",
+    "brand:wikidata": "Q524629",
+    "check_date": "2024-09-17",
+    "check_date:opening_hours": "2024-09-17",
+    "name": "Chase",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-14:00; Su closed",
+    "phone": "+1 562-987-5701",
+    "website": "https://locator.chase.com/ca/long-beach/5200-e-2nd-st"
+  }
+},
+{
+  "type": "node",
+  "id": 2714096768,
+  "lat": 33.7921801,
+  "lon": -118.1417558,
+  "tags": {
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Wells Fargo",
+    "brand:wikidata": "Q744149",
+    "name": "Wells Fargo"
+  }
+},
+{
+  "type": "node",
+  "id": 3046552087,
+  "lat": 33.8321560,
+  "lon": -118.1611485,
+  "tags": {
+    "amenity": "bank",
+    "name": "NuVision Credit Union"
+  }
+},
+{
+  "type": "node",
+  "id": 3569409018,
+  "lat": 33.7674209,
+  "lon": -118.1935190,
+  "tags": {
+    "amenity": "bank",
+    "brand": "Wells Fargo",
+    "brand:wikidata": "Q744149",
+    "name": "Wells Fargo"
+  }
+},
+{
+  "type": "node",
+  "id": 3569410924,
+  "lat": 33.7679081,
+  "lon": -118.1889800,
+  "tags": {
+    "amenity": "bank",
+    "brand": "Comerica Bank",
+    "brand:wikidata": "Q1114148",
+    "name": "Comerica Bank"
+  }
+},
+{
+  "type": "node",
+  "id": 3569689949,
+  "lat": 33.7675574,
+  "lon": -118.1852500,
+  "tags": {
+    "amenity": "bank",
+    "brand": "U.S. Bank",
+    "brand:wikidata": "Q739084",
+    "name": "U.S. Bank"
+  }
+},
+{
+  "type": "node",
+  "id": 4006042552,
+  "lat": 33.8315599,
+  "lon": -118.1848029,
+  "tags": {
+    "amenity": "bank",
+    "name": "First Bank"
+  }
+},
+{
+  "type": "node",
+  "id": 4378804438,
+  "lat": 33.7734307,
+  "lon": -118.1194965,
+  "tags": {
+    "amenity": "bank",
+    "brand": "U.S. Bank",
+    "brand:wikidata": "Q739084",
+    "check_date": "2024-11-27",
+    "name": "U.S. Bank"
+  }
+},
+{
+  "type": "node",
+  "id": 4392110125,
+  "lat": 33.7972236,
+  "lon": -118.1224887,
+  "tags": {
+    "amenity": "bank"
+  }
+},
+{
+  "type": "node",
+  "id": 4696781890,
+  "lat": 33.7787477,
+  "lon": -118.1890877,
+  "tags": {
+    "addr:housenumber": "940",
+    "addr:postcode": "90813",
+    "addr:street": "Long Beach Boulevard",
+    "amenity": "bank",
+    "brand": "Chase",
+    "brand:wikidata": "Q524629",
+    "check_date": "2024-09-17",
+    "check_date:opening_hours": "2024-09-17",
+    "name": "Chase",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-14:00; Su closed",
+    "phone": "+1 562-951-1014",
+    "website": "https://locator.chase.com/ca/long-beach/940-long-beach-blvd"
+  }
+},
+{
+  "type": "node",
+  "id": 4696800295,
+  "lat": 33.8047346,
+  "lon": -118.1902630,
+  "tags": {
+    "addr:housenumber": "251",
+    "addr:postcode": "90806",
+    "addr:street": "East Willow Street",
+    "amenity": "bank",
+    "brand": "Wells Fargo",
+    "brand:wikidata": "Q744149",
+    "name": "Wells Fargo",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-16:00"
+  }
+},
+{
+  "type": "node",
+  "id": 5636402123,
+  "lat": 33.7623018,
+  "lon": -118.1390386,
+  "tags": {
+    "amenity": "bank",
+    "brand": "Wells Fargo",
+    "brand:wikidata": "Q744149",
+    "name": "Wells Fargo"
+  }
+},
+{
+  "type": "node",
+  "id": 5636407727,
+  "lat": 33.7615004,
+  "lon": -118.1373642,
+  "tags": {
+    "amenity": "bank",
+    "check_date": "2024-08-24",
+    "name": "Farmers & Merchants Bank"
+  }
+},
+{
+  "type": "node",
+  "id": 5636407827,
+  "lat": 33.7618083,
+  "lon": -118.1380944,
+  "tags": {
+    "amenity": "bank",
+    "name": "SchoolsFirst Federal Credit Union"
+  }
+},
+{
+  "type": "node",
+  "id": 5636459428,
+  "lat": 33.7587096,
+  "lon": -118.1316131,
+  "tags": {
+    "amenity": "bank",
+    "name": "Luther Burbank Savings"
+  }
+},
+{
+  "type": "node",
+  "id": 5638625346,
+  "lat": 33.7669155,
+  "lon": -118.1976883,
+  "tags": {
+    "amenity": "bank",
+    "name": "California Bank and Trust"
+  }
+},
+{
+  "type": "node",
+  "id": 5638625548,
+  "lat": 33.7666510,
+  "lon": -118.1857380,
+  "tags": {
+    "amenity": "bank",
+    "name": "US Bank"
+  }
+},
+{
+  "type": "node",
+  "id": 5638625549,
+  "lat": 33.7668630,
+  "lon": -118.1874228,
+  "tags": {
+    "amenity": "bank",
+    "brand": "Chase",
+    "brand:wikidata": "Q524629",
+    "check_date": "2024-09-17",
+    "check_date:opening_hours": "2024-09-17",
+    "name": "Chase",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-14:00; Su closed",
+    "phone": "+1 562-435-3370",
+    "website": "https://locator.chase.com/ca/long-beach/401-e-ocean-blvd"
+  }
+},
+{
+  "type": "node",
+  "id": 5640778530,
+  "lat": 33.7901892,
+  "lon": -118.1374575,
+  "tags": {
+    "amenity": "bank",
+    "brand": "U.S. Bank",
+    "brand:wikidata": "Q739084",
+    "name": "U.S. Bank"
+  }
+},
+{
+  "type": "node",
+  "id": 5640778532,
+  "lat": 33.7902465,
+  "lon": -118.1385611,
+  "tags": {
+    "amenity": "bank",
+    "name": "Orange County's Credit Union"
+  }
+},
+{
+  "type": "node",
+  "id": 5640830050,
+  "lat": 33.7820923,
+  "lon": -118.1543819,
+  "tags": {
+    "amenity": "bank",
+    "name": "Nix Neighborhood Lending"
+  }
+},
+{
+  "type": "node",
+  "id": 11097280352,
+  "lat": 33.7977140,
+  "lon": -118.1249497,
+  "tags": {
+    "addr:housenumber": "2250",
+    "addr:street": "Bellflower Boulevard",
+    "amenity": "bank",
+    "check_date": "2023-08-07",
+    "name": "South land Credit Union",
+    "website": "https://www.southlandcu.org"
+  }
+},
+{
+  "type": "node",
+  "id": 11799089191,
+  "lat": 33.7963865,
+  "lon": -118.1239711,
+  "tags": {
+    "addr:city": "Long Beach",
+    "addr:housenumber": "5531",
+    "addr:postcode": "90815",
+    "addr:state": "CA",
+    "addr:street": "East Stearns Street",
+    "amenity": "bank",
+    "atm": "yes",
+    "name": "Arrowhead Credit Union",
+    "operator": "Arrowhead Credit Union",
+    "website": "https://www.arrowheadcu.org/findus"
+  }
+},
+{
+  "type": "node",
+  "id": 11973889614,
+  "lat": 33.7707018,
+  "lon": -118.1922173,
+  "tags": {
+    "amenity": "bank",
+    "name": "Farmers & Merchants Bank"
+  }
+},
+{
+  "type": "node",
+  "id": 13683681968,
+  "lat": 33.7676933,
+  "lon": -118.2008948,
+  "tags": {
+    "addr:city": "Long Beach",
+    "addr:housenumber": "1",
+    "addr:postcode": "90831",
+    "addr:state": "CA",
+    "addr:street": "World Trade Center",
+    "addr:unit": "Suite 125",
+    "amenity": "bank",
+    "atm": "yes",
+    "drive_through": "no",
+    "name": "Banc of California",
+    "opening_hours": "Mo-Fr 09:00-16:00"
+  }
+},
+{
+  "type": "way",
+  "id": 238272353,
+  "center": {
+    "lat": 33.7676032,
+    "lon": -118.1907462
+  },
+  "tags": {
+    "addr:city": "Long Beach",
+    "addr:housenumber": "211",
+    "addr:street": "Ocean",
+    "amenity": "bank",
+    "building": "yes",
+    "ele": "37.6",
+    "height": "27.8",
+    "lacounty:ain": "7280029024",
+    "lacounty:bld_id": "503719737916",
+    "name": "Opus Bank",
+    "start_date": "1982"
+  }
+},
+{
+  "type": "way",
+  "id": 290477390,
+  "center": {
+    "lat": 33.7993216,
+    "lon": -118.1249476
+  },
+  "tags": {
+    "addr:housenumber": "2302",
+    "addr:street": "Bellflower Boulevard",
+    "amenity": "bank",
+    "atm": "yes",
+    "building": "retail",
+    "ele": "15.6",
+    "height": "9.3",
+    "lacounty:ain": "7226001008",
+    "lacounty:bld_id": "523701749427",
+    "name": "Farmers & Merchants Bank",
+    "start_date": "1962"
+  }
+},
+{
+  "type": "way",
+  "id": 290477395,
+  "center": {
+    "lat": 33.7972127,
+    "lon": -118.1249080
+  },
+  "tags": {
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Bank of America",
+    "brand:wikidata": "Q487907",
+    "building": "retail",
+    "check_date": "2023-08-07",
+    "ele": "14.4",
+    "height": "8.7",
+    "lacounty:ain": "7226001011",
+    "lacounty:bld_id": "523698748609",
+    "name": "Bank of America",
+    "phone": "+1-800-426-1917",
+    "start_date": "1962",
+    "website": "https://locators.bankofamerica.com/ca/longbeach/financial-centers-long-beach-10916.html"
+  }
+},
+{
+  "type": "way",
+  "id": 292390482,
+  "center": {
+    "lat": 33.7862334,
+    "lon": -118.1405650
+  },
+  "tags": {
+    "amenity": "bank",
+    "atm": "yes",
+    "building": "retail",
+    "ele": "19.4",
+    "height": "12",
+    "lacounty:ain": "7220005004",
+    "lacounty:bld_id": "518951744614",
+    "name": "Comerica",
+    "start_date": "1959"
+  }
+},
+{
+  "type": "way",
+  "id": 295765167,
+  "center": {
+    "lat": 33.7823218,
+    "lon": -118.1549856
+  },
+  "tags": {
+    "amenity": "bank",
+    "atm": "yes",
+    "building": "commercial",
+    "check_date": "2024-05-19",
+    "ele": "19.9",
+    "height": "6.8",
+    "lacounty:ain": "7259016025",
+    "lacounty:bld_id": "514570743199",
+    "name": "Farmers & Merchants Bank",
+    "start_date": "1964"
+  }
+},
+{
+  "type": "way",
+  "id": 303931428,
+  "center": {
+    "lat": 33.8380386,
+    "lon": -118.1843394
+  },
+  "tags": {
+    "amenity": "bank",
+    "building": "retail",
+    "ele": "36.2",
+    "height": "8.6",
+    "lacounty:ain": "7135022051;7135022050;7135022049",
+    "lacounty:bld_id": "505687763354;505695763427;505683763490",
+    "name": "LBS Credit Union",
+    "start_date": "1948"
+  }
+},
+{
+  "type": "way",
+  "id": 306207562,
+  "center": {
+    "lat": 33.7967637,
+    "lon": -118.1249868
+  },
+  "tags": {
+    "amenity": "bank",
+    "brand": "Chase",
+    "brand:wikidata": "Q524629",
+    "building": "commercial",
+    "building:units": "1",
+    "check_date": "2024-09-17",
+    "check_date:opening_hours": "2024-09-17",
+    "ele": "10.9",
+    "height": "5.2",
+    "lacounty:ain": "7226001012",
+    "lacounty:bld_id": "523681748437",
+    "name": "Chase",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-14:00; Su closed",
+    "phone": "+1 562-594-5915",
+    "start_date": "1963",
+    "website": "https://locator.chase.com/ca/long-beach/2220-n-bellflower-blvd"
+  }
+},
+{
+  "type": "way",
+  "id": 306207570,
+  "center": {
+    "lat": 33.7946217,
+    "lon": -118.1247240
+  },
+  "tags": {
+    "amenity": "bank",
+    "brand": "Wells Fargo",
+    "brand:wikidata": "Q744149",
+    "building": "retail",
+    "ele": "12.0",
+    "height": "5.9",
+    "lacounty:ain": "7225001020",
+    "lacounty:bld_id": "523756747635",
+    "name": "Wells Fargo",
+    "start_date": "1996"
+  }
+},
+{
+  "type": "way",
+  "id": 350394438,
+  "center": {
+    "lat": 33.7792329,
+    "lon": -118.1418203
+  },
+  "tags": {
+    "amenity": "bank",
+    "building": "retail",
+    "ele": "16.8",
+    "height": "10.7",
+    "lacounty:ain": "7241012140",
+    "lacounty:bld_id": "518588742063",
+    "name": "LBS Financial Credit Union",
+    "office": "yes",
+    "start_date": "1926"
+  }
+},
+{
+  "type": "way",
+  "id": 351202548,
+  "center": {
+    "lat": 33.7675470,
+    "lon": -118.1900232
+  },
+  "tags": {
+    "amenity": "bank",
+    "building": "commercial",
+    "ele": "60.9",
+    "height": "50.5",
+    "lacounty:ain": "7280029031",
+    "lacounty:bld_id": "503879737763",
+    "name": "International City Bank",
+    "start_date": "1979"
+  }
+},
+{
+  "type": "way",
+  "id": 362511155,
+  "center": {
+    "lat": 33.8321052,
+    "lon": -118.1651325
+  },
+  "tags": {
+    "addr:city": "Long Beach",
+    "addr:housenumber": "2240",
+    "addr:postcode": "90807",
+    "addr:state": "CA",
+    "addr:street": "Carson Street",
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Chase",
+    "brand:wikidata": "Q524629",
+    "building": "yes",
+    "check_date": "2024-09-17",
+    "check_date:opening_hours": "2024-09-17",
+    "drive_through": "yes",
+    "name": "Chase",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-14:00; Su closed",
+    "phone": "+1 562-997-9230",
+    "website": "https://locator.chase.com/ca/long-beach/2240-e-carson-st"
+  }
+},
+{
+  "type": "way",
+  "id": 385393269,
+  "center": {
+    "lat": 33.7591461,
+    "lon": -118.1129380
+  },
+  "tags": {
+    "amenity": "bank",
+    "brand": "City National Bank",
+    "brand:wikidata": "Q5123314",
+    "building": "yes",
+    "name": "City National Bank"
+  }
+},
+{
+  "type": "way",
+  "id": 385393291,
+  "center": {
+    "lat": 33.7608257,
+    "lon": -118.1156715
+  },
+  "tags": {
+    "amenity": "bank",
+    "brand": "Wells Fargo",
+    "brand:wikidata": "Q744149",
+    "building": "yes",
+    "name": "Wells Fargo"
+  }
+},
+{
+  "type": "way",
+  "id": 385397316,
+  "center": {
+    "lat": 33.7670042,
+    "lon": -118.1171913
+  },
+  "tags": {
+    "amenity": "bank",
+    "building": "retail",
+    "check_date": "2024-11-27",
+    "ele": "10.9",
+    "height": "7.6",
+    "lacounty:ain": "7242025032",
+    "lacounty:bld_id": "526059737614",
+    "name": "First Bank",
+    "start_date": "1988"
+  }
+},
+{
+  "type": "way",
+  "id": 385676421,
+  "center": {
+    "lat": 33.8269823,
+    "lon": -118.1846651
+  },
+  "tags": {
+    "amenity": "bank",
+    "brand": "Bank of America",
+    "brand:wikidata": "Q487907",
+    "building": "commercial",
+    "ele": "37.1",
+    "height": "10.1",
+    "lacounty:ain": "7138031024",
+    "lacounty:bld_id": "505624759464",
+    "name": "Bank of America",
+    "start_date": "1955",
+    "website": "https://locators.bankofamerica.com/ca/longbeach/financial-centers-long-beach-1310.html"
+  }
+},
+{
+  "type": "way",
+  "id": 441069456,
+  "center": {
+    "lat": 33.7751207,
+    "lon": -118.1510498
+  },
+  "tags": {
+    "amenity": "bank",
+    "building": "commercial",
+    "ele": "24.9",
+    "height": "6.3",
+    "lacounty:ain": "7258025034",
+    "lacounty:bld_id": "515757740571",
+    "name": "One West Bank",
+    "start_date": "1972"
+  }
+},
+{
+  "type": "way",
+  "id": 441332163,
+  "center": {
+    "lat": 33.7608184,
+    "lon": -118.1355006
+  },
+  "tags": {
+    "addr:housenumber": "5101 E",
+    "addr:postcode": "90803",
+    "addr:street": "2nd Street",
+    "amenity": "bank",
+    "brand": "Bank of America",
+    "brand:wikidata": "Q487907",
+    "building": "commercial",
+    "check_date": "2025-12-23",
+    "ele": "10.0",
+    "height": "7.8",
+    "lacounty:ain": "7249030023",
+    "lacounty:bld_id": "520481735364",
+    "name": "Bank of America",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-13:00",
+    "phone": "+1-562-624-4674",
+    "start_date": "1968",
+    "website": "https://locators.bankofamerica.com/ca/longbeach/financial-centers-long-beach-1287.html"
+  }
+},
+{
+  "type": "way",
+  "id": 441340800,
+  "center": {
+    "lat": 33.7575939,
+    "lon": -118.1280062
+  },
+  "tags": {
+    "alt_name": "UnionBank",
+    "amenity": "bank",
+    "brand": "Union Bank",
+    "brand:wikidata": "Q1442804",
+    "building": "commercial",
+    "ele": "8.8",
+    "height": "6.5",
+    "lacounty:ain": "7244015091",
+    "lacounty:bld_id": "522748734191",
+    "name": "Union Bank",
+    "start_date": "1975"
+  }
+},
+{
+  "type": "way",
+  "id": 621869109,
+  "center": {
+    "lat": 33.7892072,
+    "lon": -118.1410986
+  },
+  "tags": {
+    "addr:city": "Long Beach",
+    "addr:housenumber": "4411",
+    "addr:postcode": "90804",
+    "addr:state": "CA",
+    "addr:street": "Pacific Coast Highway",
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Wells Fargo",
+    "brand:wikidata": "Q744149",
+    "building": "commercial",
+    "building:levels": "1",
+    "drive_through": "no",
+    "name": "Wells Fargo",
+    "phone": "+1-562-735-2510"
+  }
+},
+{
+  "type": "way",
+  "id": 621871433,
+  "center": {
+    "lat": 33.7889043,
+    "lon": -118.1404435
+  },
+  "tags": {
+    "addr:city": "Long Beach",
+    "addr:housenumber": "4501",
+    "addr:postcode": "90804",
+    "addr:state": "CA",
+    "addr:street": "Pacific Coast Highway",
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Chase",
+    "brand:wikidata": "Q524629",
+    "building": "yes",
+    "check_date": "2024-09-17",
+    "drive_through": "yes",
+    "name": "Chase",
+    "phone": "+1-562-498-2495",
+    "website": "https://locator.chase.com/ca/long-beach/4501-e-pacific-coast-hwy"
+  }
+}
+
+  ]
+}

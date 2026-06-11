@@ -1,0 +1,2462 @@
+[
+ {
+  "src": "SOD",
+  "inst": "First Bank",
+  "cert": 12229,
+  "addr": "13641 Central Ave, Ste I",
+  "city": "Chino",
+  "zip": "91710",
+  "branch": "Chino Branch",
+  "hq": "St. Louis, MO"
+ },
+ {
+  "src": "SOD",
+  "inst": "BMO Bank National Association",
+  "cert": 16571,
+  "addr": "12545 Central Ave",
+  "city": "Chino",
+  "zip": "91710",
+  "branch": "Chino Branch",
+  "hq": "Chicago, IL"
+ },
+ {
+  "src": "SOD",
+  "inst": "BMO Bank National Association",
+  "cert": 16571,
+  "addr": "8311 Haven Ave, Ste 100",
+  "city": "Rancho Cucamonga",
+  "zip": "91730",
+  "branch": "Rancho Cucamonga Branch",
+  "hq": "Chicago, IL"
+ },
+ {
+  "src": "SOD",
+  "inst": "BMO Bank National Association",
+  "cert": 16571,
+  "addr": "5370 Jefferson Ave",
+  "city": "Chino",
+  "zip": "91710",
+  "branch": "Chino Wealth Management Branch Office",
+  "hq": "Chicago, IL"
+ },
+ {
+  "src": "SOD",
+  "inst": "City National Bank",
+  "cert": 17281,
+  "addr": "3633 Inland Empire Blvd, Ste 100",
+  "city": "Ontario",
+  "zip": "91764",
+  "branch": "Ontario Branch",
+  "hq": "Los Angeles, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Cathay Bank",
+  "cert": 18503,
+  "addr": "2195 S Grove Ave",
+  "city": "Ontario",
+  "zip": "91761",
+  "branch": "Ontario Branch",
+  "hq": "Los Angeles, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Cathay Bank",
+  "cert": 18503,
+  "addr": "9759 Base Line Rd",
+  "city": "Rancho Cucamonga",
+  "zip": "91730",
+  "branch": "Cathay Bank Rancho Cucamonga Branch",
+  "hq": "Los Angeles, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Citizens Business Bank",
+  "cert": 21716,
+  "addr": "701 N Haven Ave",
+  "city": "Ontario",
+  "zip": "91764",
+  "branch": "Citizens Business Bank",
+  "hq": "Ontario, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Citizens Business Bank",
+  "cert": 21716,
+  "addr": "12808 Central Ave",
+  "city": "Chino",
+  "zip": "91710",
+  "branch": "Chino Branch",
+  "hq": "Ontario, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Citizens Business Bank",
+  "cert": 21716,
+  "addr": "301 E Vanderbilt Way",
+  "city": "San Bernardino",
+  "zip": "92408",
+  "branch": "Tri City Branch",
+  "hq": "Ontario, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Citizens Business Bank",
+  "cert": 21716,
+  "addr": "9244 Sierra Ave",
+  "city": "Fontana",
+  "zip": "92335",
+  "branch": "Fontana Branch",
+  "hq": "Ontario, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Citizens Business Bank",
+  "cert": 21716,
+  "addr": "818 N Mountain Ave",
+  "city": "Upland",
+  "zip": "91786",
+  "branch": "Upland Branch",
+  "hq": "Ontario, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Citizens Business Bank",
+  "cert": 21716,
+  "addr": "1555 E Highland Ave",
+  "city": "San Bernardino",
+  "zip": "92404",
+  "branch": "San Bernardino Branch",
+  "hq": "Ontario, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Zions Bancorporation, N.A.",
+  "cert": 2270,
+  "addr": "9590 Foothill Blvd",
+  "city": "Rancho Cucamonga",
+  "zip": "91730",
+  "branch": "Rancho Cucamonga  Branch",
+  "hq": "Salt Lake City, UT"
+ },
+ {
+  "src": "SOD",
+  "inst": "Zions Bancorporation, N.A.",
+  "cert": 2270,
+  "addr": "5455 Riverside Dr",
+  "city": "Chino",
+  "zip": "91710",
+  "branch": "Chino Branch",
+  "hq": "Salt Lake City, UT"
+ },
+ {
+  "src": "SOD",
+  "inst": "Banc of California",
+  "cert": 24045,
+  "addr": "569 N Mountain Ave",
+  "city": "Upland",
+  "zip": "91786",
+  "branch": "Upland Branch",
+  "hq": "Los Angeles, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Banc of California",
+  "cert": 24045,
+  "addr": "9680 Haven Ave, Ste 100",
+  "city": "Rancho Cucamonga",
+  "zip": "91730",
+  "branch": "Rancho Cucamonga Branch",
+  "hq": "Los Angeles, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Banc of California",
+  "cert": 24045,
+  "addr": "2401 S Grove Ave",
+  "city": "Ontario",
+  "zip": "91761",
+  "branch": "Ontario Branch",
+  "hq": "Los Angeles, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of Hope",
+  "cert": 26610,
+  "addr": "1040 S Mount Vernon Ave, Ste A",
+  "city": "Colton",
+  "zip": "92324",
+  "branch": "Inland Branch",
+  "hq": "Los Angeles, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Banner Bank",
+  "cert": 28489,
+  "addr": "255 S Riverside Ave",
+  "city": "Rialto",
+  "zip": "92376",
+  "branch": "Rialto Branch",
+  "hq": "Walla Walla, WA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Banner Bank",
+  "cert": 28489,
+  "addr": "11930 Foothill Blvd",
+  "city": "Rancho Cucamonga",
+  "zip": "91739",
+  "branch": "Rancho Cucamonga Branch",
+  "hq": "Walla Walla, WA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Banner Bank",
+  "cert": 28489,
+  "addr": "368 E Vanderbilt Way",
+  "city": "San Bernardino",
+  "zip": "92408",
+  "branch": "San Bernardino Branch",
+  "hq": "Walla Walla, WA"
+ },
+ {
+  "src": "SOD",
+  "inst": "East West Bank",
+  "cert": 31628,
+  "addr": "3237 E Guasti Rd, Ste 110",
+  "city": "Ontario",
+  "zip": "91761",
+  "branch": "Ontario Commercial Banking Center",
+  "hq": "Pasadena, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "East West Bank",
+  "cert": 31628,
+  "addr": "9775 Base Line Rd, Unit 109",
+  "city": "Rancho Cucamonga",
+  "zip": "91730",
+  "branch": "Rancho Cucamonga Ranch 99 In-Store Branch",
+  "hq": "Pasadena, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Pacific Premier Bank, National Association",
+  "cert": 32172,
+  "addr": "306 W 2nd St, Ste 100",
+  "city": "San Bernardino",
+  "zip": "92401",
+  "branch": "San Bernardino Branch",
+  "hq": "Irvine, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "HomeStreet Bank",
+  "cert": 32489,
+  "addr": "9714 Sierra Ave, Ste 101",
+  "city": "Fontana",
+  "zip": "92335",
+  "branch": "Fontana Branch",
+  "hq": "Seattle, WA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Flagstar Bank, National Association",
+  "cert": 32541,
+  "addr": "3257 E Guasti Rd, Ste 320",
+  "city": "Ontario",
+  "zip": "91761",
+  "branch": "Ontario Branch Office",
+  "hq": "Hicksville, NY"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "12747 Central Ave",
+  "city": "Chino",
+  "zip": "91710",
+  "branch": "Chino Valley Main Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "9719 Foothill Blvd",
+  "city": "Rancho Cucamonga",
+  "zip": "91730",
+  "branch": "Cucamonga Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "22377 Barton Rd",
+  "city": "Grand Terrace",
+  "zip": "92313",
+  "branch": "Grand Terrace Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "409 E Foothill Blvd",
+  "city": "Rialto",
+  "zip": "92376",
+  "branch": "Rialto-Foothill Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "10048 Sierra Ave",
+  "city": "Fontana",
+  "zip": "92335",
+  "branch": "Valley And Sierra Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "8023 Citrus Ave",
+  "city": "Fontana",
+  "zip": "92336",
+  "branch": "Foothill Citrus Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "735 N Euclid Ave",
+  "city": "Ontario",
+  "zip": "91762",
+  "branch": "Ontario Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "15092 Summit Ave",
+  "city": "Fontana",
+  "zip": "92336",
+  "branch": "North Fontana Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "303 N D St",
+  "city": "San Bernardino",
+  "zip": "92401",
+  "branch": "San Bernardino Main Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "130 W 40th St",
+  "city": "San Bernardino",
+  "zip": "92407",
+  "branch": "Sierra Way-40Th Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "2011 E Highland Ave",
+  "city": "San Bernardino",
+  "zip": "92404",
+  "branch": "Sterling-Highland Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "7387 Day Creek Blvd",
+  "city": "Rancho Cucamonga",
+  "zip": "91739",
+  "branch": "Victoria Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "1916 N Campus Ave",
+  "city": "Upland",
+  "zip": "91784",
+  "branch": "Colonies Crossroads Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "11570 4th St",
+  "city": "Rancho Cucamonga",
+  "zip": "91730",
+  "branch": "The Mills Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "1211 W Foothill Blvd",
+  "city": "Upland",
+  "zip": "91786",
+  "branch": "North Upland Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "11159 Sierra Ave",
+  "city": "Fontana",
+  "zip": "92337",
+  "branch": "South Fontana Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "240 N Euclid Ave",
+  "city": "Ontario",
+  "zip": "91762",
+  "branch": "Ontario Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "5120 Moreno St",
+  "city": "Montclair",
+  "zip": "91763",
+  "branch": "Montclair Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "2500 S Grove Ave",
+  "city": "Ontario",
+  "zip": "91761",
+  "branch": "South Ontario Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "14307 Baseline Ave",
+  "city": "Fontana",
+  "zip": "92336",
+  "branch": "Fontana North Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "10540 Foothill Blvd",
+  "city": "Rancho Cucamonga",
+  "zip": "91730",
+  "branch": "Rancho Cucamonga Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "12273 Highland Ave",
+  "city": "Rancho Cucamonga",
+  "zip": "91739",
+  "branch": "Highland & Daycreek Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "12455 Central Ave",
+  "city": "Chino",
+  "zip": "91710",
+  "branch": "Chino Main Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "4141 Inland Empire Blvd Fl 3",
+  "city": "Ontario",
+  "zip": "91764",
+  "branch": "Ontario Pb - Satellite Office",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "1919 N Campus Ave",
+  "city": "Upland",
+  "zip": "91784",
+  "branch": "Upland Colonies Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "15282 Summit Ave",
+  "city": "Fontana",
+  "zip": "92336",
+  "branch": "Falcon Ridge Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "11205 Sierra Ave",
+  "city": "Fontana",
+  "zip": "92337",
+  "branch": "Sierra Crossroads Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "8071 Day Creek Blvd",
+  "city": "Rancho Cucamonga",
+  "zip": "91739",
+  "branch": "Victoria Garden Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "151 W Base Line Rd",
+  "city": "Rialto",
+  "zip": "92376",
+  "branch": "Rialto Superior Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "16175 Sierra Lakes Pkwy",
+  "city": "Fontana",
+  "zip": "92336",
+  "branch": "Sierra Lake Village Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "4240 E 4th St",
+  "city": "Ontario",
+  "zip": "91764",
+  "branch": "Ontario Mills Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "334 W 3rd St",
+  "city": "San Bernardino",
+  "zip": "92401",
+  "branch": "San Bernardino Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "190 W Foothill Blvd",
+  "city": "Rialto",
+  "zip": "92376",
+  "branch": "Rialto Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "296 W Highland Ave",
+  "city": "San Bernardino",
+  "zip": "92405",
+  "branch": "Highland Arrowhead Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "811 W Foothill Blvd",
+  "city": "Upland",
+  "zip": "91786",
+  "branch": "Upland Town Center Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Chino Commercial Bank, N.A.",
+  "cert": 35366,
+  "addr": "14245 Pipeline Ave",
+  "city": "Chino",
+  "zip": "91710",
+  "branch": "Chino Commercial Bank, N.A.",
+  "hq": "Chino, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Chino Commercial Bank, N.A.",
+  "cert": 35366,
+  "addr": "1551 S Grove Ave",
+  "city": "Ontario",
+  "zip": "91761",
+  "branch": "Ontario Branch Office",
+  "hq": "Chino, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Chino Commercial Bank, N.A.",
+  "cert": 35366,
+  "addr": "8229 Rochester Ave",
+  "city": "Rancho Cucamonga",
+  "zip": "91730",
+  "branch": "Rancho Cucamonga Branch",
+  "hq": "Chino, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Chino Commercial Bank, N.A.",
+  "cert": 35366,
+  "addr": "300 N Mountain Ave",
+  "city": "Upland",
+  "zip": "91786",
+  "branch": "Upland Branch",
+  "hq": "Chino, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Golden State Bank",
+  "cert": 57585,
+  "addr": "870 N Mountain Ave",
+  "city": "Upland",
+  "zip": "91786",
+  "branch": "Upland Branch Office",
+  "hq": "Glendale, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "2020 E Highland Ave",
+  "city": "San Bernardino",
+  "zip": "92404",
+  "branch": "Highland And Sterling Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "8730 19th St",
+  "city": "Rancho Cucamonga",
+  "zip": "91701",
+  "branch": "Rancho Cucamonga Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "330 N D St",
+  "city": "San Bernardino",
+  "zip": "92401",
+  "branch": "Plaza D Street Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "101 E Foothill Blvd",
+  "city": "Rialto",
+  "zip": "92376",
+  "branch": "Rialto Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "315 W Highland Ave",
+  "city": "San Bernardino",
+  "zip": "92405",
+  "branch": "West Highland Ave Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "31 W Foothill Blvd",
+  "city": "Upland",
+  "zip": "91786",
+  "branch": "Upland Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "14518 Baseline Ave",
+  "city": "Fontana",
+  "zip": "92336",
+  "branch": "Fontana Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "12193 Central Ave",
+  "city": "Chino",
+  "zip": "91710",
+  "branch": "Chino - Towne Center Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "16879 Sierra Lakes Pkwy",
+  "city": "Fontana",
+  "zip": "92336",
+  "branch": "Fontana - Sierra Lakes",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "2633 E Riverside Dr",
+  "city": "Ontario",
+  "zip": "91761",
+  "branch": "South Ontario Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "1905 N Campus Ave",
+  "city": "Upland",
+  "zip": "91784",
+  "branch": "Upland - Colonies Crossroads Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "8108 Milliken Ave",
+  "city": "Rancho Cucamonga",
+  "zip": "91730",
+  "branch": "Milliken Ave And Foothill Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "15320 Summit Ave",
+  "city": "Fontana",
+  "zip": "92336",
+  "branch": "Falcon Ridge Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "7033 Schaefer Ave, 1a",
+  "city": "Chino",
+  "zip": "91710",
+  "branch": "Euclid Ave Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "16120 Foothill Blvd",
+  "city": "Fontana",
+  "zip": "92335",
+  "branch": "Foothill And Citrus Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "959 Kendall Dr",
+  "city": "San Bernardino",
+  "zip": "92407",
+  "branch": "Kendall & Shandin Hills Bnk Ctr Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "9700 19th St",
+  "city": "Rancho Cucamonga",
+  "zip": "91737",
+  "branch": "Archibald & 19Th Banking Center",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "2005 E Washington St",
+  "city": "Colton",
+  "zip": "92324",
+  "branch": "Washington And Cooley Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "1070 N Mountain Ave",
+  "city": "Ontario",
+  "zip": "91762",
+  "branch": "Mountain & 4Th Banking Center Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "17042 Slover Ave",
+  "city": "Fontana",
+  "zip": "92337",
+  "branch": "Sierra & Slover Banking Center",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "3800 Grand Ave",
+  "city": "Chino",
+  "zip": "91710",
+  "branch": "Grand & Roswell  Banking Center Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "10598 Base Line Rd",
+  "city": "Rancho Cucamonga",
+  "zip": "91701",
+  "branch": "Baseline & Haven Banking Center Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "3470 E Ontario Ranch Rd",
+  "city": "Ontario",
+  "zip": "91761",
+  "branch": "Ontario Ranch Rd And Haven Ave Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "PNC Bank, National Association",
+  "cert": 6384,
+  "addr": "22729 Barton Rd",
+  "city": "Grand Terrace",
+  "zip": "92313",
+  "branch": "Grand Terrace Branch",
+  "hq": "Wilmington, DE"
+ },
+ {
+  "src": "SOD",
+  "inst": "PNC Bank, National Association",
+  "cert": 6384,
+  "addr": "815 W Holt Blvd",
+  "city": "Ontario",
+  "zip": "91762",
+  "branch": "Ontario Superior Branch",
+  "hq": "Wilmington, DE"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "4261 Inland Empire Blvd Ste 102",
+  "city": "Ontario",
+  "zip": "91764",
+  "branch": "Ontario Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "4594 University Pkwy",
+  "city": "San Bernardino",
+  "zip": "92407",
+  "branch": "San Bernardino Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "3075 S Archibald Ave",
+  "city": "Ontario",
+  "zip": "91761",
+  "branch": "Ontario Ralphs Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "12801 Central Ave",
+  "city": "Chino",
+  "zip": "91710",
+  "branch": "Chino Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "20 E Foothill Blvd",
+  "city": "Upland",
+  "zip": "91786",
+  "branch": "Upland Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "9696 Base Line Rd",
+  "city": "Rancho Cucamonga",
+  "zip": "91701",
+  "branch": "Alto Loma Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "6644 Carnelian St",
+  "city": "Rancho Cucamonga",
+  "zip": "91701",
+  "branch": "Rancho Cucamonga Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "9090 Central Ave",
+  "city": "Montclair",
+  "zip": "91763",
+  "branch": "Montclair Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "333 N Euclid Ave",
+  "city": "Ontario",
+  "zip": "91762",
+  "branch": "Ontario - Euclid Avenue Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "4061 Grand Ave",
+  "city": "Chino",
+  "zip": "91710",
+  "branch": "Chino Spectrum Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "7400 Cherry Ave",
+  "city": "Fontana",
+  "zip": "92336",
+  "branch": "Fontana Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "2280 S Grove Ave",
+  "city": "Ontario",
+  "zip": "91761",
+  "branch": "Ontario - Grove Avenue  Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "6989 Schaefer Ave",
+  "city": "Chino",
+  "zip": "91710",
+  "branch": "EuclidSchaefer Stater Brothers",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "6351 Haven Ave",
+  "city": "Rancho Cucamonga",
+  "zip": "91737",
+  "branch": "Haven Avenue Vons Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "15222 Summit Ave",
+  "city": "Fontana",
+  "zip": "92336",
+  "branch": "Falcon Ridge Stater Bros Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "11551 Foothill Blvd",
+  "city": "Rancho Cucamonga",
+  "zip": "91730",
+  "branch": "Rancho Cucamonga Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "290 E Highland Ave",
+  "city": "San Bernardino",
+  "zip": "92404",
+  "branch": "Waterman & Highland Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "2115 W Baseline Rd",
+  "city": "Upland",
+  "zip": "91784",
+  "branch": "Upland Sycamore Hills Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "Citibank, National Association",
+  "cert": 7213,
+  "addr": "160 W Foothill Blvd",
+  "city": "Upland",
+  "zip": "91786",
+  "branch": "Upland",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Citibank, National Association",
+  "cert": 7213,
+  "addr": "10590 Base Line Rd",
+  "city": "Rancho Cucamonga",
+  "zip": "91701",
+  "branch": "Rancho Cucamonga Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Citibank, National Association",
+  "cert": 7213,
+  "addr": "8501 Sierra Ave",
+  "city": "Fontana",
+  "zip": "92335",
+  "branch": "Fontana-Downtown",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Citibank, National Association",
+  "cert": 7213,
+  "addr": "615 N La Cadena Dr",
+  "city": "Colton",
+  "zip": "92324",
+  "branch": "Colton",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Comerica Bank",
+  "cert": 983,
+  "addr": "4295 Concours",
+  "city": "Ontario",
+  "zip": "91764",
+  "branch": "Ontario Branch",
+  "hq": "Dallas, TX"
+ },
+ {
+  "src": "SOD",
+  "inst": "Comerica Bank",
+  "cert": 983,
+  "addr": "12035 Foothill Blvd",
+  "city": "Rancho Cucamonga",
+  "zip": "91730",
+  "branch": "Rancho Cucamonga Banking Center",
+  "hq": "Dallas, TX"
+ },
+ {
+  "src": "SOD",
+  "inst": "First Bank",
+  "cert": 12229,
+  "addr": "7862 Limonite Avenue",
+  "city": "Jurupa Valley",
+  "zip": "92509",
+  "branch": "Jurupa Valley Branch",
+  "hq": "St. Louis, MO"
+ },
+ {
+  "src": "SOD",
+  "inst": "First Bank",
+  "cert": 12229,
+  "addr": "11010 Limonite Ave",
+  "city": "Jurupa Valley",
+  "zip": "91752",
+  "branch": "Mira Loma Branch",
+  "hq": "St. Louis, MO"
+ },
+ {
+  "src": "SOD",
+  "inst": "City National Bank",
+  "cert": 17281,
+  "addr": "3484 Central Ave",
+  "city": "Riverside",
+  "zip": "92506",
+  "branch": "Riverside Main Branch",
+  "hq": "Los Angeles, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "HCN Bank",
+  "cert": 21606,
+  "addr": "3715 Sunnyside Dr",
+  "city": "Riverside",
+  "zip": "92506",
+  "branch": "Hcn Bank",
+  "hq": "Riverside, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Citizens Business Bank",
+  "cert": 21716,
+  "addr": "3695 Main St",
+  "city": "Riverside",
+  "zip": "92501",
+  "branch": "Riverside Branch",
+  "hq": "Ontario, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "C3bank, National Association",
+  "cert": 25249,
+  "addr": "3727 Arlington Ave",
+  "city": "Riverside",
+  "zip": "92506",
+  "branch": "Riverside Branch",
+  "hq": "Encinitas, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Banner Bank",
+  "cert": 28489,
+  "addr": "5030 Arlington Ave",
+  "city": "Riverside",
+  "zip": "92504",
+  "branch": "Riverside Branch",
+  "hq": "Walla Walla, WA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Provident Savings Bank, F.S.B.",
+  "cert": 30879,
+  "addr": "6570 Magnolia Ave",
+  "city": "Riverside",
+  "zip": "92506",
+  "branch": "Provident Savings Bank, F.S.B.",
+  "hq": "Riverside, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Provident Savings Bank, F.S.B.",
+  "cert": 30879,
+  "addr": "5225 Canyon Crest Drive, Suite 30",
+  "city": "Riverside",
+  "zip": "92507",
+  "branch": "5225 Canyon Crest Dr Branch",
+  "hq": "Riverside, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Provident Savings Bank, F.S.B.",
+  "cert": 30879,
+  "addr": "4001 Main St",
+  "city": "Riverside",
+  "zip": "92501",
+  "branch": "4001 Main Street Branch",
+  "hq": "Riverside, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Provident Savings Bank, F.S.B.",
+  "cert": 30879,
+  "addr": "19348 Van Buren Blvd, Ste 119",
+  "city": "Riverside",
+  "zip": "92508",
+  "branch": "Van Buren Blvd Branch",
+  "hq": "Riverside, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Provident Savings Bank, F.S.B.",
+  "cert": 30879,
+  "addr": "3312 La Sierra Ave, Ste 105",
+  "city": "Riverside",
+  "zip": "92503",
+  "branch": "Riverside Branch",
+  "hq": "Riverside, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Provident Savings Bank, F.S.B.",
+  "cert": 30879,
+  "addr": "6570 Magnolia Ave",
+  "city": "Riverside",
+  "zip": "92506",
+  "branch": "Magnolia Avenue Branch",
+  "hq": "Riverside, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Pacific Premier Bank, National Association",
+  "cert": 32172,
+  "addr": "3403 10th St, Ste 100",
+  "city": "Riverside",
+  "zip": "92501",
+  "branch": "Riverside Branch",
+  "hq": "Irvine, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "HomeStreet Bank",
+  "cert": 32489,
+  "addr": "3844 La Sierra Ave, Ste A",
+  "city": "Riverside",
+  "zip": "92505",
+  "branch": "Riverside Branch",
+  "hq": "Seattle, WA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "1680 University Ave",
+  "city": "Riverside",
+  "zip": "92507",
+  "branch": "U.C. Riverside Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "6370 Magnolia Ave",
+  "city": "Riverside",
+  "zip": "92506",
+  "branch": "Magnolia Center Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "351 E Alessandro Blvd",
+  "city": "Riverside",
+  "zip": "92508",
+  "branch": "Mission Grove Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "12511 Limonite Ave",
+  "city": "Mira Loma",
+  "zip": "91752",
+  "branch": "Eastvale Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "10297 Magnolia Ave",
+  "city": "Riverside",
+  "zip": "92503",
+  "branch": "Magnolia-Tyler Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "14284 Schleisman Rd",
+  "city": "Eastvale",
+  "zip": "92880",
+  "branch": "West Eastvale Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "3750 University Ave",
+  "city": "Riverside",
+  "zip": "92501",
+  "branch": "Riverside Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "3765 Tyler St",
+  "city": "Riverside",
+  "zip": "92503",
+  "branch": "Galleria At Tyler Branch, The",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "8330 Limonite Ave",
+  "city": "Riverside",
+  "zip": "92509",
+  "branch": "Limonite & Clay Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "6189 Magnolia Ave",
+  "city": "Riverside",
+  "zip": "92506",
+  "branch": "Magnolia Center Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "483 E Alessandro Blvd",
+  "city": "Riverside",
+  "zip": "92508",
+  "branch": "Mission Village Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "4800 Magnolia Ave",
+  "city": "Riverside",
+  "zip": "92506",
+  "branch": "Ca Riverside County 1 Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Icon Business Bank",
+  "cert": 59314,
+  "addr": "3390 University Ave, Suite 400",
+  "city": "Riverside",
+  "zip": "92501",
+  "branch": "Icon Business Bank",
+  "hq": "Riverside, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "6245 Riverside Ave",
+  "city": "Riverside",
+  "zip": "92506",
+  "branch": "Riverside Ave Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "7800 Limonite Ave",
+  "city": "Riverside",
+  "zip": "92509",
+  "branch": "Jurupa Valley Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "6060 Hamner Ave",
+  "city": "Eastvale",
+  "zip": "91752",
+  "branch": "Mira Loma - Eastvale Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "8705 Trautwein Rd",
+  "city": "Riverside",
+  "zip": "92508",
+  "branch": "Riverside - Orangecrest Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "1299 University Ave, Ste 105",
+  "city": "Riverside",
+  "zip": "92507",
+  "branch": "Riverside Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "10355 Magnolia Ave",
+  "city": "Riverside",
+  "zip": "92505",
+  "branch": "Magnolia Ave And Tyler Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "7042 Archibald Ave",
+  "city": "Eastvale",
+  "zip": "92880",
+  "branch": "Eastvale Archibald Banking Center Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "5225 Canyon Crest Dr, Ste 85",
+  "city": "Riverside",
+  "zip": "92507",
+  "branch": "Canyon Crest Towne Centre Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "PNC Bank, National Association",
+  "cert": 6384,
+  "addr": "3600 Tyler St",
+  "city": "Riverside",
+  "zip": "92503",
+  "branch": "Tyler  Riverside Branch",
+  "hq": "Wilmington, DE"
+ },
+ {
+  "src": "SOD",
+  "inst": "PNC Bank, National Association",
+  "cert": 6384,
+  "addr": "5395 Canyon Crest Dr",
+  "city": "Riverside",
+  "zip": "92507",
+  "branch": "Canyon Crest Branch",
+  "hq": "Wilmington, DE"
+ },
+ {
+  "src": "SOD",
+  "inst": "PNC Bank, National Association",
+  "cert": 6384,
+  "addr": "5242 Arlington Ave",
+  "city": "Riverside",
+  "zip": "92504",
+  "branch": "Hardman Center Branch",
+  "hq": "Wilmington, DE"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "3520 Riverside Plaza Dr",
+  "city": "Riverside",
+  "zip": "92506",
+  "branch": "Riverside & Union Vons Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "5800 Van Buren Blvd, Ste 104",
+  "city": "Riverside",
+  "zip": "92503",
+  "branch": "Riverside El Tapatio Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "19059 Van Buren Blvd",
+  "city": "Riverside",
+  "zip": "92508",
+  "branch": "Riverside - Orangecrest Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "3350 La Sierra Ave",
+  "city": "Riverside",
+  "zip": "92503",
+  "branch": "La Sierra Avenue Ralphs Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "9811 Magnolia Ave, Ste B",
+  "city": "Riverside",
+  "zip": "92503",
+  "branch": "Arlington Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "9103 Mission Blvd",
+  "city": "Riverside",
+  "zip": "92509",
+  "branch": "Glen Avon Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "3625 Vine St",
+  "city": "Riverside",
+  "zip": "92507",
+  "branch": "Riverside Downtown",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "Citibank, National Association",
+  "cert": 7213,
+  "addr": "3605 Central Ave",
+  "city": "Riverside",
+  "zip": "92506",
+  "branch": "Riverside Plaza Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Citibank, National Association",
+  "cert": 7213,
+  "addr": "3580 Tyler St",
+  "city": "Riverside",
+  "zip": "92503",
+  "branch": "Riverside-Tyler Mall",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Citibank, National Association",
+  "cert": 7213,
+  "addr": "1651 University Ave",
+  "city": "Riverside",
+  "zip": "92507",
+  "branch": "1651 University Avenue Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Citizens Business Bank",
+  "cert": 21716,
+  "addr": "1095 N Garey Ave",
+  "city": "Pomona",
+  "zip": "91767",
+  "branch": "Pomona Branch",
+  "hq": "Ontario, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Zions Bancorporation, N.A.",
+  "cert": 2270,
+  "addr": "102 Yale Ave",
+  "city": "Claremont",
+  "zip": "91711",
+  "branch": "Claremont Branch",
+  "hq": "Salt Lake City, UT"
+ },
+ {
+  "src": "SOD",
+  "inst": "Banc of California",
+  "cert": 24045,
+  "addr": "223 W Foothill Blvd",
+  "city": "Claremont",
+  "zip": "91711",
+  "branch": "Claremont Branch",
+  "hq": "Los Angeles, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Community Commerce Bank",
+  "cert": 26363,
+  "addr": "358 W Foothill Blvd",
+  "city": "Claremont",
+  "zip": "91711",
+  "branch": "Community Commerce Bank",
+  "hq": "Claremont, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Community Commerce Bank",
+  "cert": 26363,
+  "addr": "390 W Foothill Blvd",
+  "city": "Claremont",
+  "zip": "91711",
+  "branch": "Claremont Branch",
+  "hq": "Claremont, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Balboa Thrift and Loan Association",
+  "cert": 26704,
+  "addr": "269 W Bonita Ave",
+  "city": "Claremont",
+  "zip": "91711",
+  "branch": "Claremont Branch",
+  "hq": "Chula Vista, CA"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "444 S Garey Ave",
+  "city": "Pomona",
+  "zip": "91766",
+  "branch": "Pomona Main Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Bank of America, National Association",
+  "cert": 3510,
+  "addr": "339 Yale Ave",
+  "city": "Claremont",
+  "zip": "91711",
+  "branch": "Claremont Branch",
+  "hq": "Charlotte, NC"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "321 E Holt Ave",
+  "city": "Pomona",
+  "zip": "91767",
+  "branch": "Pomona Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "Wells Fargo Bank, National Association",
+  "cert": 3511,
+  "addr": "203 Yale Ave",
+  "city": "Claremont",
+  "zip": "91711",
+  "branch": "Claremont Branch",
+  "hq": "Sioux Falls, SD"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "100 W 2nd St",
+  "city": "Pomona",
+  "zip": "91766",
+  "branch": "Pomona Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "400 N Indian Hill Blvd",
+  "city": "Claremont",
+  "zip": "91711",
+  "branch": "Claremont Branch",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "JPMorgan Chase Bank, National Association",
+  "cert": 628,
+  "addr": "805 W Foothill Blvd",
+  "city": "Claremont",
+  "zip": "91711",
+  "branch": "Foothill & Mountain Banking Center",
+  "hq": "Columbus, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "101 W Mission Blvd, Ste 105",
+  "city": "Pomona",
+  "zip": "91766",
+  "branch": "Mission & Garey Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "SOD",
+  "inst": "U.S. Bank National Association",
+  "cert": 6548,
+  "addr": "393 W Foothill Blvd",
+  "city": "Claremont",
+  "zip": "91711",
+  "branch": "Claremont Branch",
+  "hq": "Cincinnati, OH"
+ },
+ {
+  "src": "NCUA",
+  "inst": "RANCHO",
+  "cert": "1204",
+  "addr": "705 W Arrow Hwy",
+  "city": "Claremont",
+  "zip": "91711",
+  "branch": "Claremont",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "NAVY FEDERAL CREDIT UNION",
+  "cert": "5536",
+  "addr": "6365 Valley Springs Pkwy",
+  "city": "Riverside",
+  "zip": "92507",
+  "branch": "Riverside CA",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "NAVY FEDERAL CREDIT UNION",
+  "cert": "5536",
+  "addr": "4190 E 4th St Ste A",
+  "city": "Ontario",
+  "zip": "91764",
+  "branch": "Ontario CA",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "NAVY FEDERAL CREDIT UNION",
+  "cert": "5536",
+  "addr": "1049 Harriman Pl",
+  "city": "San Bernardino",
+  "zip": "92408",
+  "branch": "San Bernardino CA",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "INLAND VALLEY",
+  "cert": "5684",
+  "addr": "9389 Cherry Ave",
+  "city": "Fontana",
+  "zip": "92335",
+  "branch": "9389 cherry ave",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "INTERFAITH",
+  "cert": "5816",
+  "addr": "9040 Benson Ave",
+  "city": "Montclair",
+  "zip": "91763",
+  "branch": "Interfaith FCU",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "THINKWISE",
+  "cert": "7770",
+  "addr": "599 N E St",
+  "city": "San Bernardino",
+  "zip": "92401",
+  "branch": "E Street Branch (HQ)",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "THINKWISE",
+  "cert": "7770",
+  "addr": "1270 Renaissance Pkwy",
+  "city": "Rialto",
+  "zip": "92376",
+  "branch": "Rialto Branch",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "RIZE",
+  "cert": "7835",
+  "addr": "975 N Haven Ave",
+  "city": "Ontario",
+  "zip": "91764",
+  "branch": "Ontario Branch",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "CERTIFIED",
+  "cert": "9230",
+  "addr": "420 E Hospitality Ln Ste A6",
+  "city": "San Bernardino",
+  "zip": "92408",
+  "branch": "San Bernardino",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "LA LOMA",
+  "cert": "10351",
+  "addr": "11498 Pierce St Ste D",
+  "city": "Riverside",
+  "zip": "92505",
+  "branch": "La Sierra Branch",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "FOOTHILL",
+  "cert": "12425",
+  "addr": "1365 E 19th St Ste F",
+  "city": "Upland",
+  "zip": "91784",
+  "branch": "Upland",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "FONTANA",
+  "cert": "12898",
+  "addr": "17235 Arrow Blvd",
+  "city": "Fontana",
+  "zip": "92335",
+  "branch": "Fontana Federal Credit Union",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "FONTANA",
+  "cert": "12898",
+  "addr": "145 E Mill St",
+  "city": "San Bernardino",
+  "zip": "92408",
+  "branch": "DOCU-TRUST",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "ONTARIO PUBLIC EMPLOYEES",
+  "cert": "13044",
+  "addr": "202 W B St",
+  "city": "Ontario",
+  "zip": "91762",
+  "branch": "OPEFCU",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "CAL STATE L.A.",
+  "cert": "14499",
+  "addr": "3530 POMONA BLVD",
+  "city": "Pomona",
+  "zip": "91768",
+  "branch": "PACIFIC FEDERAL CREDIT UNION",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "VIDA",
+  "cert": "14542",
+  "addr": "1520 N Palmetto Ave",
+  "city": "Ontario",
+  "zip": "91762",
+  "branch": "Vida FCU",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "CHAFFEY",
+  "cert": "16030",
+  "addr": "11563 Foothill Blvd Ste 101",
+  "city": "Rancho Cucamonga",
+  "zip": "91730",
+  "branch": "Rancho Cucamonga",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "CHAFFEY",
+  "cert": "16030",
+  "addr": "1024 W Foothill Blvd",
+  "city": "Upland",
+  "zip": "91786",
+  "branch": "Upland",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "CHAFFEY",
+  "cert": "16030",
+  "addr": "1014 W Foothill Blvd Ste C",
+  "city": "Upland",
+  "zip": "91786",
+  "branch": "Upland Admin",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "W S S C",
+  "cert": "16268",
+  "addr": "9692 Haven Ave",
+  "city": "Rancho Cucamonga",
+  "zip": "91730",
+  "branch": "CO-OP Shared Branching",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "CALCOM",
+  "cert": "18623",
+  "addr": "1880 N Garey Ave Ste A",
+  "city": "Pomona",
+  "zip": "91767",
+  "branch": "Pomona",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "U.P.S. EMPLOYEES",
+  "cert": "21532",
+  "addr": "3110 INLAND EMPIRE BLVD STE A",
+  "city": "Ontario",
+  "zip": "91764",
+  "branch": "UPS EFCU",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "SCHOOLSFIRST",
+  "cert": "24212",
+  "addr": "10910 Foothill Blvd",
+  "city": "Rancho Cucamonga",
+  "zip": "91730",
+  "branch": "21 - Rancho Cucamonga",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "SCHOOLSFIRST",
+  "cert": "24212",
+  "addr": "4204 Riverwalk Pkwy Ste 100",
+  "city": "Riverside",
+  "zip": "92505",
+  "branch": "41 - Riverside-Riverwalk (ROC)",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "SCHOOLSFIRST",
+  "cert": "24212",
+  "addr": "161 E 40th St",
+  "city": "San Bernardino",
+  "zip": "92404",
+  "branch": "23 - San Bernardino In-Store",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "SCHOOLSFIRST",
+  "cert": "24212",
+  "addr": "4005 Grand Ave Ste D",
+  "city": "Chino",
+  "zip": "91710",
+  "branch": "43 - Chino Valley",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "SCHOOLSFIRST",
+  "cert": "24212",
+  "addr": "1895 N Campus Ave Ste C",
+  "city": "Upland",
+  "zip": "91784",
+  "branch": "67 - Upland",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "SCHOOLSFIRST",
+  "cert": "24212",
+  "addr": "3801 W Temple Ave Bldg 66",
+  "city": "Pomona",
+  "zip": "91768",
+  "branch": "73 - Cal Poly District Branch",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "SCHOOLSFIRST",
+  "cert": "24212",
+  "addr": "5225 Canyon Crest Dr",
+  "city": "Riverside",
+  "zip": "92507",
+  "branch": "31 - Riverside - Canyon Crest",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "AMERICA FIRST",
+  "cert": "24694",
+  "addr": "401 W 2nd St",
+  "city": "San Bernardino",
+  "zip": "92401",
+  "branch": "San Bernardino",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "THE FIRST FINANCIAL",
+  "cert": "24875",
+  "addr": "2855 E Guasti RD STE 202",
+  "city": "Ontario",
+  "zip": "91761",
+  "branch": "Financial Service Centers Cooperative, Inc.",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "THE FIRST FINANCIAL",
+  "cert": "24875",
+  "addr": "8750 Central Ave",
+  "city": "Montclair",
+  "zip": "91763",
+  "branch": "Montclair Branch",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "ALTURA",
+  "cert": "24969",
+  "addr": "2847 Campus Pkwy",
+  "city": "Riverside",
+  "zip": "92507",
+  "branch": "Altura Credit Union - Operation & Technology Center",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "ALTURA",
+  "cert": "24969",
+  "addr": "6403 Riverside Ave",
+  "city": "Riverside",
+  "zip": "92506",
+  "branch": "Riverside Avenue Branch 1",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "ALTURA",
+  "cert": "24969",
+  "addr": "2692 Canyon Springs Pkwy Ste C",
+  "city": "Riverside",
+  "zip": "92507",
+  "branch": "Canyon Springs Branch 4",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "ALTURA",
+  "cert": "24969",
+  "addr": "3451 14th St",
+  "city": "Riverside",
+  "zip": "92501",
+  "branch": "14th Street Branch 6",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "ALTURA",
+  "cert": "24969",
+  "addr": "10725 Magnolia Ave",
+  "city": "Riverside",
+  "zip": "92505",
+  "branch": "Magnolia Branch 10",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "ALTURA",
+  "cert": "24969",
+  "addr": "1616 University Ave",
+  "city": "Riverside",
+  "zip": "92507",
+  "branch": "University Branch 15",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "ALTURA",
+  "cert": "24969",
+  "addr": "5010 Hamner Ave Ste 120",
+  "city": "Eastvale",
+  "zip": "91752",
+  "branch": "Eastvale Branch 19",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "ALTURA",
+  "cert": "24969",
+  "addr": "17094 Van Buren Blvd",
+  "city": "Riverside",
+  "zip": "92504",
+  "branch": "Woodcrest Branch 17",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "ARROWHEAD",
+  "cert": "24973",
+  "addr": "8686 Haven Ave",
+  "city": "Rancho Cucamonga",
+  "zip": "91730",
+  "branch": "Corporate -Haven",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "ARROWHEAD",
+  "cert": "24973",
+  "addr": "1432 S Riverside Ave",
+  "city": "Rialto",
+  "zip": "92376",
+  "branch": "Rialto",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "ARROWHEAD",
+  "cert": "24973",
+  "addr": "6135 Van Buren Blvd",
+  "city": "Riverside",
+  "zip": "92503",
+  "branch": "Riverside",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "ARROWHEAD",
+  "cert": "24973",
+  "addr": "8686 Haven Ave",
+  "city": "Rancho Cucamonga",
+  "zip": "91730",
+  "branch": "Rancho Cucamonga",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "ARROWHEAD",
+  "cert": "24973",
+  "addr": "81 W Foothill Blvd",
+  "city": "Upland",
+  "zip": "91786",
+  "branch": "Upland In-Store",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "ARROWHEAD",
+  "cert": "24973",
+  "addr": "16944 S Highland Ave",
+  "city": "Fontana",
+  "zip": "92336",
+  "branch": "Fontana",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "ARROWHEAD",
+  "cert": "24973",
+  "addr": "6170 Hamner Ave",
+  "city": "Eastvale",
+  "zip": "91752",
+  "branch": "Eastvale In-Store",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "ARROWHEAD",
+  "cert": "24973",
+  "addr": "575 E Hospitality Ln",
+  "city": "San Bernardino",
+  "zip": "92408",
+  "branch": "San Bernardino",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "ARROWHEAD",
+  "cert": "24973",
+  "addr": "5275 Holt Blvd",
+  "city": "Montclair",
+  "zip": "91763",
+  "branch": "Montclair",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "ARROWHEAD",
+  "cert": "24973",
+  "addr": "701 S Mount Vernon Ave",
+  "city": "San Bernardino",
+  "zip": "92410",
+  "branch": "San Bernardino - SBVC Campus",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "ARROWHEAD",
+  "cert": "24973",
+  "addr": "4012 Grand Ave Ste A",
+  "city": "Chino",
+  "zip": "91710",
+  "branch": "Chino",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "ORANGE COUNTY'S",
+  "cert": "24981",
+  "addr": "8401 Pine Ave Ste 110",
+  "city": "Chino",
+  "zip": "91708",
+  "branch": "Orange County's CU",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "CREDIT UNION OF SOUTHERN CA, A",
+  "cert": "24983",
+  "addr": "737 Rio Rancho Rd",
+  "city": "Pomona",
+  "zip": "91766",
+  "branch": "Pomona Branch",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "CREDIT UNION OF SOUTHERN CA, A",
+  "cert": "24983",
+  "addr": "2777 E Guasti Rd",
+  "city": "Ontario",
+  "zip": "91761",
+  "branch": "Ontario Branch",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "CREDIT UNION OF SOUTHERN CA, A",
+  "cert": "24983",
+  "addr": "16014 Foothill Blvd",
+  "city": "Fontana",
+  "zip": "92335",
+  "branch": "Fontana Branch",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "CREDIT UNION OF SOUTHERN CA, A",
+  "cert": "24983",
+  "addr": "19100 Slover Ave",
+  "city": "Bloomington",
+  "zip": "92316",
+  "branch": "Bloomington Branch",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "CREDIT UNION OF SOUTHERN CA, A",
+  "cert": "24983",
+  "addr": "4333 Orange St Ste 100",
+  "city": "Riverside",
+  "zip": "92501",
+  "branch": "Riverside Branch",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "THE GOLDEN 1",
+  "cert": "61650",
+  "addr": "2254 S Euclid Ave Ste A",
+  "city": "Ontario",
+  "zip": "91762",
+  "branch": "Ontario",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "ALTA VISTA",
+  "cert": "64531",
+  "addr": "2025 N RIVERSIDE AVE",
+  "city": "Rialto",
+  "zip": "92377",
+  "branch": "RIVERSIDE AVE BRANCH",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "WESCOM CENTRAL",
+  "cert": "66703",
+  "addr": "4330 Mills Cir",
+  "city": "Ontario",
+  "zip": "91764",
+  "branch": "Ontario",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "WESCOM CENTRAL",
+  "cert": "66703",
+  "addr": "3790 Tyler St",
+  "city": "Riverside",
+  "zip": "92503",
+  "branch": "Riverside",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "COLLEGEDALE",
+  "cert": "68167",
+  "addr": "9692 Haven Ave",
+  "city": "Rancho Cucamonga",
+  "zip": "91730",
+  "branch": "CO-OP",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "AMERICAN FIRST",
+  "cert": "68485",
+  "addr": "6102 Orbis Way Ste 550",
+  "city": "Eastvale",
+  "zip": "92880",
+  "branch": "Eastvale",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "FIRST CITY",
+  "cert": "68503",
+  "addr": "250 W 1st St Ste 150",
+  "city": "Claremont",
+  "zip": "91711",
+  "branch": "Claremont Branch",
+  "hq": ""
+ },
+ {
+  "src": "NCUA",
+  "inst": "CAHP",
+  "cert": "95071",
+  "addr": "9471 Pittsburgh Ave",
+  "city": "Rancho Cucamonga",
+  "zip": "91730",
+  "branch": "Southern Branch",
+  "hq": ""
+ }
+]

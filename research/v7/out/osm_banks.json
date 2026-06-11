@@ -1,0 +1,452 @@
+[
+ {
+  "name": "Banc of California",
+  "brand": "",
+  "addr": "1 World Trade Center",
+  "city": "Long Beach",
+  "lat": 33.7676933,
+  "lon": -118.2008948,
+  "miles": 0.09,
+  "osm_id": "node/13683681968"
+ },
+ {
+  "name": "California Bank and Trust",
+  "brand": "",
+  "addr": "",
+  "city": "",
+  "lat": 33.7669155,
+  "lon": -118.1976883,
+  "miles": 0.11,
+  "osm_id": "node/5638625346"
+ },
+ {
+  "name": "Wells Fargo",
+  "brand": "Wells Fargo",
+  "addr": "",
+  "city": "",
+  "lat": 33.7674209,
+  "lon": -118.193519,
+  "miles": 0.34,
+  "osm_id": "node/3569409018"
+ },
+ {
+  "name": "Farmers & Merchants Bank",
+  "brand": "",
+  "addr": "",
+  "city": "",
+  "lat": 33.7707018,
+  "lon": -118.1922173,
+  "miles": 0.47,
+  "osm_id": "node/11973889614"
+ },
+ {
+  "name": "Opus Bank",
+  "brand": "",
+  "addr": "211 Ocean",
+  "city": "Long Beach",
+  "lat": 33.7676032,
+  "lon": -118.1907462,
+  "miles": 0.5,
+  "osm_id": "way/238272353"
+ },
+ {
+  "name": "International City Bank",
+  "brand": "",
+  "addr": "",
+  "city": "",
+  "lat": 33.767547,
+  "lon": -118.1900232,
+  "miles": 0.54,
+  "osm_id": "way/351202548"
+ },
+ {
+  "name": "Comerica Bank",
+  "brand": "Comerica Bank",
+  "addr": "",
+  "city": "",
+  "lat": 33.7679081,
+  "lon": -118.18898,
+  "miles": 0.6,
+  "osm_id": "node/3569410924"
+ },
+ {
+  "name": "Chase",
+  "brand": "Chase",
+  "addr": "",
+  "city": "",
+  "lat": 33.766863,
+  "lon": -118.1874228,
+  "miles": 0.69,
+  "osm_id": "node/5638625549"
+ },
+ {
+  "name": "US Bank",
+  "brand": "",
+  "addr": "",
+  "city": "",
+  "lat": 33.766651,
+  "lon": -118.185738,
+  "miles": 0.79,
+  "osm_id": "node/5638625548"
+ },
+ {
+  "name": "U.S. Bank",
+  "brand": "U.S. Bank",
+  "addr": "",
+  "city": "",
+  "lat": 33.7675574,
+  "lon": -118.18525,
+  "miles": 0.82,
+  "osm_id": "node/3569689949"
+ },
+ {
+  "name": "Chase",
+  "brand": "Chase",
+  "addr": "940 Long Beach Boulevard",
+  "city": "",
+  "lat": 33.7787477,
+  "lon": -118.1890877,
+  "miles": 0.99,
+  "osm_id": "node/4696781890"
+ },
+ {
+  "name": "Wells Fargo",
+  "brand": "Wells Fargo",
+  "addr": "251 East Willow Street",
+  "city": "",
+  "lat": 33.8047346,
+  "lon": -118.190263,
+  "miles": 2.63,
+  "osm_id": "node/4696800295"
+ },
+ {
+  "name": "Farmers & Merchants Bank",
+  "brand": "",
+  "addr": "",
+  "city": "",
+  "lat": 33.7823218,
+  "lon": -118.1549856,
+  "miles": 2.75,
+  "osm_id": "way/295765167"
+ },
+ {
+  "name": "Nix Neighborhood Lending",
+  "brand": "",
+  "addr": "",
+  "city": "",
+  "lat": 33.7820923,
+  "lon": -118.1543819,
+  "miles": 2.78,
+  "osm_id": "node/5640830050"
+ },
+ {
+  "name": "One West Bank",
+  "brand": "",
+  "addr": "",
+  "city": "",
+  "lat": 33.7751207,
+  "lon": -118.1510498,
+  "miles": 2.83,
+  "osm_id": "way/441069456"
+ },
+ {
+  "name": "LBS Financial Credit Union",
+  "brand": "",
+  "addr": "",
+  "city": "",
+  "lat": 33.7792329,
+  "lon": -118.1418203,
+  "miles": 3.41,
+  "osm_id": "way/350394438"
+ },
+ {
+  "name": "Wells Fargo",
+  "brand": "Wells Fargo",
+  "addr": "",
+  "city": "",
+  "lat": 33.7623018,
+  "lon": -118.1390386,
+  "miles": 3.49,
+  "osm_id": "node/5636402123"
+ },
+ {
+  "name": "SchoolsFirst Federal Credit Union",
+  "brand": "",
+  "addr": "",
+  "city": "",
+  "lat": 33.7618083,
+  "lon": -118.1380944,
+  "miles": 3.54,
+  "osm_id": "node/5636407827"
+ },
+ {
+  "name": "Farmers & Merchants Bank",
+  "brand": "",
+  "addr": "",
+  "city": "",
+  "lat": 33.7615004,
+  "lon": -118.1373642,
+  "miles": 3.59,
+  "osm_id": "node/5636407727"
+ },
+ {
+  "name": "Comerica",
+  "brand": "",
+  "addr": "",
+  "city": "",
+  "lat": 33.7862334,
+  "lon": -118.140565,
+  "miles": 3.62,
+  "osm_id": "way/292390482"
+ },
+ {
+  "name": "Wells Fargo",
+  "brand": "Wells Fargo",
+  "addr": "4411 Pacific Coast Highway",
+  "city": "Long Beach",
+  "lat": 33.7892072,
+  "lon": -118.1410986,
+  "miles": 3.67,
+  "osm_id": "way/621869109"
+ },
+ {
+  "name": "Bank of America",
+  "brand": "Bank of America",
+  "addr": "5101 E 2nd Street",
+  "city": "",
+  "lat": 33.7608184,
+  "lon": -118.1355006,
+  "miles": 3.7,
+  "osm_id": "way/441332163"
+ },
+ {
+  "name": "Chase",
+  "brand": "Chase",
+  "addr": "4501 Pacific Coast Highway",
+  "city": "Long Beach",
+  "lat": 33.7889043,
+  "lon": -118.1404435,
+  "miles": 3.7,
+  "osm_id": "way/621871433"
+ },
+ {
+  "name": "Wells Fargo",
+  "brand": "Wells Fargo",
+  "addr": "",
+  "city": "",
+  "lat": 33.7921801,
+  "lon": -118.1417558,
+  "miles": 3.73,
+  "osm_id": "node/2714096768"
+ },
+ {
+  "name": "Chase",
+  "brand": "Chase",
+  "addr": "",
+  "city": "",
+  "lat": 33.7600437,
+  "lon": -118.1349585,
+  "miles": 3.74,
+  "osm_id": "node/1544613626"
+ },
+ {
+  "name": "Orange County's Credit Union",
+  "brand": "",
+  "addr": "",
+  "city": "",
+  "lat": 33.7902465,
+  "lon": -118.1385611,
+  "miles": 3.84,
+  "osm_id": "node/5640778532"
+ },
+ {
+  "name": "U.S. Bank",
+  "brand": "U.S. Bank",
+  "addr": "",
+  "city": "",
+  "lat": 33.7901892,
+  "lon": -118.1374575,
+  "miles": 3.89,
+  "osm_id": "node/5640778530"
+ },
+ {
+  "name": "Luther Burbank Savings",
+  "brand": "",
+  "addr": "",
+  "city": "",
+  "lat": 33.7587096,
+  "lon": -118.1316131,
+  "miles": 3.94,
+  "osm_id": "node/5636459428"
+ },
+ {
+  "name": "Union Bank",
+  "brand": "Union Bank",
+  "addr": "",
+  "city": "",
+  "lat": 33.7575939,
+  "lon": -118.1280062,
+  "miles": 4.16,
+  "osm_id": "way/441340800"
+ },
+ {
+  "name": "Bank of America",
+  "brand": "Bank of America",
+  "addr": "",
+  "city": "",
+  "lat": 33.8269823,
+  "lon": -118.1846651,
+  "miles": 4.2,
+  "osm_id": "way/385676421"
+ },
+ {
+  "name": "First Bank",
+  "brand": "",
+  "addr": "",
+  "city": "",
+  "lat": 33.8315599,
+  "lon": -118.1848029,
+  "miles": 4.51,
+  "osm_id": "node/4006042552"
+ },
+ {
+  "name": "U.S. Bank",
+  "brand": "U.S. Bank",
+  "addr": "",
+  "city": "",
+  "lat": 33.7734307,
+  "lon": -118.1194965,
+  "miles": 4.61,
+  "osm_id": "node/4378804438"
+ },
+ {
+  "name": "Wells Fargo",
+  "brand": "Wells Fargo",
+  "addr": "",
+  "city": "",
+  "lat": 33.7946217,
+  "lon": -118.124724,
+  "miles": 4.69,
+  "osm_id": "way/306207570"
+ },
+ {
+  "name": "First Bank",
+  "brand": "",
+  "addr": "",
+  "city": "",
+  "lat": 33.7670042,
+  "lon": -118.1171913,
+  "miles": 4.72,
+  "osm_id": "way/385397316"
+ },
+ {
+  "name": "Chase",
+  "brand": "Chase",
+  "addr": "",
+  "city": "",
+  "lat": 33.7967637,
+  "lon": -118.1249868,
+  "miles": 4.73,
+  "osm_id": "way/306207562"
+ },
+ {
+  "name": "Bank of America",
+  "brand": "Bank of America",
+  "addr": "",
+  "city": "",
+  "lat": 33.7972127,
+  "lon": -118.124908,
+  "miles": 4.75,
+  "osm_id": "way/290477395"
+ },
+ {
+  "name": "South land Credit Union",
+  "brand": "",
+  "addr": "2250 Bellflower Boulevard",
+  "city": "",
+  "lat": 33.797714,
+  "lon": -118.1249497,
+  "miles": 4.76,
+  "osm_id": "node/11097280352"
+ },
+ {
+  "name": "Arrowhead Credit Union",
+  "brand": "",
+  "addr": "5531 East Stearns Street",
+  "city": "Long Beach",
+  "lat": 33.7963865,
+  "lon": -118.1239711,
+  "miles": 4.78,
+  "osm_id": "node/11799089191"
+ },
+ {
+  "name": "Farmers & Merchants Bank",
+  "brand": "",
+  "addr": "2302 Bellflower Boulevard",
+  "city": "",
+  "lat": 33.7993216,
+  "lon": -118.1249476,
+  "miles": 4.81,
+  "osm_id": "way/290477390"
+ },
+ {
+  "name": "Wells Fargo",
+  "brand": "Wells Fargo",
+  "addr": "",
+  "city": "",
+  "lat": 33.7608257,
+  "lon": -118.1156715,
+  "miles": 4.83,
+  "osm_id": "way/385393291"
+ },
+ {
+  "name": "?",
+  "brand": "",
+  "addr": "",
+  "city": "",
+  "lat": 33.7972236,
+  "lon": -118.1224887,
+  "miles": 4.88,
+  "osm_id": "node/4392110125"
+ },
+ {
+  "name": "Chase",
+  "brand": "Chase",
+  "addr": "2240 Carson Street",
+  "city": "Long Beach",
+  "lat": 33.8321052,
+  "lon": -118.1651325,
+  "miles": 4.89,
+  "osm_id": "way/362511155"
+ },
+ {
+  "name": "LBS Credit Union",
+  "brand": "",
+  "addr": "",
+  "city": "",
+  "lat": 33.8380386,
+  "lon": -118.1843394,
+  "miles": 4.96,
+  "osm_id": "way/303931428"
+ },
+ {
+  "name": "NuVision Credit Union",
+  "brand": "",
+  "addr": "",
+  "city": "",
+  "lat": 33.832156,
+  "lon": -118.1611485,
+  "miles": 4.99,
+  "osm_id": "node/3046552087"
+ },
+ {
+  "name": "City National Bank",
+  "brand": "City National Bank",
+  "addr": "",
+  "city": "",
+  "lat": 33.7591461,
+  "lon": -118.112938,
+  "miles": 5.0,
+  "osm_id": "way/385393269"
+ }
+]

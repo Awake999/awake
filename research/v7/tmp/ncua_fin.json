@@ -1,0 +1,132 @@
+{
+ "fin": {
+  "5536": {
+   "assets": "203558954708",
+   "shares_dep": "173175282887"
+  },
+  "5684": {
+   "assets": "54343947",
+   "shares_dep": "49523720"
+  },
+  "7770": {
+   "assets": "121225084",
+   "shares_dep": "107843284"
+  },
+  "7835": {
+   "assets": "1309314002",
+   "shares_dep": "1060948355"
+  },
+  "12898": {
+   "assets": "17231223",
+   "shares_dep": "15829160"
+  },
+  "16030": {
+   "assets": "229064484",
+   "shares_dep": "201755533"
+  },
+  "16268": {
+   "assets": "34955726",
+   "shares_dep": "31576479"
+  },
+  "24212": {
+   "assets": "36737428874",
+   "shares_dep": "31586617738"
+  },
+  "24973": {
+   "assets": "2905838677",
+   "shares_dep": "2404987359"
+  },
+  "24983": {
+   "assets": "3942853719",
+   "shares_dep": "3110791031"
+  },
+  "64531": {
+   "assets": "211726159",
+   "shares_dep": "191614896"
+  },
+  "66703": {
+   "assets": "6472794298",
+   "shares_dep": "4397748939"
+  },
+  "68167": {
+   "assets": "44663588",
+   "shares_dep": "40382885"
+  },
+  "95071": {
+   "assets": "403972301",
+   "shares_dep": "365689071"
+  }
+ },
+ "names": {
+  "5536": [
+   "NAVY FEDERAL CREDIT UNION",
+   "VIENNA",
+   "VA"
+  ],
+  "5684": [
+   "INLAND VALLEY",
+   "fontana",
+   "CA"
+  ],
+  "7770": [
+   "THINKWISE",
+   "San Bernardino",
+   "CA"
+  ],
+  "7835": [
+   "RIZE",
+   "EL MONTE",
+   "CA"
+  ],
+  "12898": [
+   "FONTANA",
+   "Fontana",
+   "CA"
+  ],
+  "16030": [
+   "CHAFFEY",
+   "Upland",
+   "CA"
+  ],
+  "16268": [
+   "W S S C",
+   "Laurel",
+   "MD"
+  ],
+  "24212": [
+   "SCHOOLSFIRST",
+   "SANTA ANA",
+   "CA"
+  ],
+  "24973": [
+   "ARROWHEAD",
+   "Rancho Cucamong",
+   "CA"
+  ],
+  "24983": [
+   "CREDIT UNION OF SOUTHERN CA, A",
+   "Anaheim",
+   "CA"
+  ],
+  "64531": [
+   "ALTA VISTA",
+   "REDLANDS",
+   "CA"
+  ],
+  "66703": [
+   "WESCOM CENTRAL",
+   "PASADENA",
+   "CA"
+  ],
+  "68167": [
+   "COLLEGEDALE",
+   "Collegedale",
+   "TN"
+  ],
+  "95071": [
+   "CAHP",
+   "SACRAMENTO",
+   "CA"
+  ]
+ }
+}

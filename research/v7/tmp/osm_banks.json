@@ -1,0 +1,443 @@
+[
+ {
+  "name": "Wells Fargo",
+  "lat": 34.1386542,
+  "lon": -117.4522258,
+  "dist": 0.44,
+  "addr": "",
+  "city": "",
+  "brand": "Wells Fargo"
+ },
+ {
+  "name": "Chase",
+  "lat": 34.1392727,
+  "lon": -117.4366315,
+  "dist": 1.19,
+  "addr": "",
+  "city": "",
+  "brand": "Chase"
+ },
+ {
+  "name": "Arrowhead Credit Union",
+  "lat": 34.1347728,
+  "lon": -117.4352255,
+  "dist": 1.2,
+  "addr": "16944 South Highland Avenue",
+  "city": "Fontana",
+  "brand": ""
+ },
+ {
+  "name": "Chase",
+  "lat": 34.1508136,
+  "lon": -117.4692142,
+  "dist": 1.43,
+  "addr": "",
+  "city": "",
+  "brand": "Chase"
+ },
+ {
+  "name": "Wells Fargo",
+  "lat": 34.1506694,
+  "lon": -117.471463,
+  "dist": 1.49,
+  "addr": "",
+  "city": "",
+  "brand": "Wells Fargo"
+ },
+ {
+  "name": "Bank of America",
+  "lat": 34.1486372,
+  "lon": -117.4751811,
+  "dist": 1.52,
+  "addr": "15092 Summit Avenue",
+  "city": "Fontana",
+  "brand": "Bank of America"
+ },
+ {
+  "name": "Bank of America",
+  "lat": 34.1077677,
+  "lon": -117.4530493,
+  "dist": 1.77,
+  "addr": "",
+  "city": "",
+  "brand": "Bank of America"
+ },
+ {
+  "name": "Credit Union of Southern California",
+  "lat": 34.1075839,
+  "lon": -117.4556163,
+  "dist": 1.77,
+  "addr": "16014 Foothill Boulevard",
+  "city": "Fontana",
+  "brand": ""
+ },
+ {
+  "name": "Chase",
+  "lat": 34.1072837,
+  "lon": -117.4521543,
+  "dist": 1.81,
+  "addr": "",
+  "city": "",
+  "brand": "Chase"
+ },
+ {
+  "name": "Chase",
+  "lat": 34.1070486,
+  "lon": -117.4522301,
+  "dist": 1.82,
+  "addr": "",
+  "city": "",
+  "brand": "Chase"
+ },
+ {
+  "name": "Chase",
+  "lat": 34.1231362,
+  "lon": -117.4881214,
+  "dist": 1.96,
+  "addr": "",
+  "city": "",
+  "brand": "Chase"
+ },
+ {
+  "name": "Wells Fargo",
+  "lat": 34.1210334,
+  "lon": -117.4929398,
+  "dist": 2.27,
+  "addr": "",
+  "city": "",
+  "brand": "Wells Fargo"
+ },
+ {
+  "name": "Citibank",
+  "lat": 34.0989744,
+  "lon": -117.434982,
+  "dist": 2.66,
+  "addr": "",
+  "city": "",
+  "brand": "Citibank"
+ },
+ {
+  "name": "Fontana Federal Credit Union",
+  "lat": 34.0990928,
+  "lon": -117.4286152,
+  "dist": 2.83,
+  "addr": "17235 Arrow Boulevard",
+  "city": "Fontana",
+  "brand": ""
+ },
+ {
+  "name": "Thinkwise Credit Union",
+  "lat": 34.1352555,
+  "lon": -117.3966856,
+  "dist": 3.4,
+  "addr": "",
+  "city": "",
+  "brand": ""
+ },
+ {
+  "name": "Citizens Business Bank",
+  "lat": 34.0859196,
+  "lon": -117.4360678,
+  "dist": 3.46,
+  "addr": "9244 Sierra Avenue",
+  "city": "Fontana",
+  "brand": ""
+ },
+ {
+  "name": "Citizens Business Bank",
+  "lat": 34.0854903,
+  "lon": -117.4360722,
+  "dist": 3.49,
+  "addr": "9244 Sierra Avenue",
+  "city": "Fontana",
+  "brand": ""
+ },
+ {
+  "name": "Inland Valley Federal Credit Union",
+  "lat": 34.08316,
+  "lon": -117.4884198,
+  "dist": 3.92,
+  "addr": "9389 Cherry Avenue",
+  "city": "Fontana",
+  "brand": ""
+ },
+ {
+  "name": "Bank of America",
+  "lat": 34.0713451,
+  "lon": -117.4360469,
+  "dist": 4.43,
+  "addr": "10048 Sierra Avenue",
+  "city": "Fontana",
+  "brand": "Bank of America"
+ },
+ {
+  "name": "Wells Fargo",
+  "lat": 34.1342029,
+  "lon": -117.537389,
+  "dist": 4.65,
+  "addr": "12273 Highland Ave",
+  "city": "Etiwanda",
+  "brand": "Wells Fargo"
+ },
+ {
+  "name": "Bank of America",
+  "lat": 34.119366,
+  "lon": -117.5362311,
+  "dist": 4.68,
+  "addr": "",
+  "city": "",
+  "brand": "Bank of America"
+ },
+ {
+  "name": "U.S. Bank",
+  "lat": 34.107265,
+  "lon": -117.5366908,
+  "dist": 4.94,
+  "addr": "",
+  "city": "",
+  "brand": "U.S. Bank"
+ },
+ {
+  "name": "Wells Fargo",
+  "lat": 34.1068248,
+  "lon": -117.5366259,
+  "dist": 4.95,
+  "addr": "10540 Foothill Blvd",
+  "city": "Rancho Cucamonga",
+  "brand": "Wells Fargo"
+ },
+ {
+  "name": "Chase",
+  "lat": 34.0635082,
+  "lon": -117.4328407,
+  "dist": 5.0,
+  "addr": "",
+  "city": "",
+  "brand": "Chase"
+ },
+ {
+  "name": "Bank of America",
+  "lat": 34.1216585,
+  "lon": -117.3688014,
+  "dist": 5.06,
+  "addr": "",
+  "city": "",
+  "brand": "Bank of America"
+ },
+ {
+  "name": "Alta Vista Credit Union",
+  "lat": 34.1375514,
+  "lon": -117.366552,
+  "dist": 5.13,
+  "addr": "2025 North Riverside Avenue",
+  "city": "Rialto",
+  "brand": ""
+ },
+ {
+  "name": "Chaffey Federal Credit Union",
+  "lat": 34.1059221,
+  "lon": -117.5513627,
+  "dist": 5.76,
+  "addr": "11563 Foothill Boulevard",
+  "city": "Rancho Cucamonga",
+  "brand": ""
+ },
+ {
+  "name": "Bank of America",
+  "lat": 34.0509269,
+  "lon": -117.4348914,
+  "dist": 5.81,
+  "addr": "11159 Sierra Avenue",
+  "city": "Fontana",
+  "brand": "Bank of America"
+ },
+ {
+  "name": "Wells Fargo",
+  "lat": 34.0503084,
+  "lon": -117.4349246,
+  "dist": 5.85,
+  "addr": "11205 Sierra Avenue",
+  "city": "Fontana",
+  "brand": "Wells Fargo"
+ },
+ {
+  "name": "U.S. Bank",
+  "lat": 34.1210691,
+  "lon": -117.5576467,
+  "dist": 5.87,
+  "addr": "11343 Base Line Road",
+  "city": "Rancho Cucamonga",
+  "brand": "U.S. Bank"
+ },
+ {
+  "name": "Chase",
+  "lat": 34.1060122,
+  "lon": -117.5582217,
+  "dist": 6.13,
+  "addr": "8108 Milliken Avenue",
+  "city": "Rancho Cucamonga",
+  "brand": "Chase"
+ },
+ {
+  "name": "Arrowhead Credit Union",
+  "lat": 34.0751687,
+  "lon": -117.3715626,
+  "dist": 6.28,
+  "addr": "1432 South Riverside Avenue",
+  "city": "Rialto",
+  "brand": ""
+ },
+ {
+  "name": "Schools First Federal Credit Union",
+  "lat": 34.107051,
+  "lon": -117.5664805,
+  "dist": 6.56,
+  "addr": "10910 Foothill Boulevard",
+  "city": "Rancho Cucamonga",
+  "brand": ""
+ },
+ {
+  "name": "Bank of America",
+  "lat": 34.0776341,
+  "lon": -117.5506331,
+  "dist": 6.63,
+  "addr": "11570 4th Street",
+  "city": "Rancho Cucamonga",
+  "brand": "Bank of America"
+ },
+ {
+  "name": "CAHP Credit Union",
+  "lat": 34.0809776,
+  "lon": -117.5555737,
+  "dist": 6.74,
+  "addr": "9471 Pittsburgh Avenue",
+  "city": "Rancho Cucamonga",
+  "brand": ""
+ },
+ {
+  "name": "Chase",
+  "lat": 34.1217759,
+  "lon": -117.5733759,
+  "dist": 6.75,
+  "addr": "10598 Base Line Road",
+  "city": "Rancho Cucamonga",
+  "brand": "Chase"
+ },
+ {
+  "name": "Citibank",
+  "lat": 34.1218837,
+  "lon": -117.5741974,
+  "dist": 6.8,
+  "addr": "10590 Base Line Road",
+  "city": "Rancho Cucamonga",
+  "brand": "Citibank"
+ },
+ {
+  "name": "Wells Fargo",
+  "lat": 34.1069245,
+  "lon": -117.5748036,
+  "dist": 7.03,
+  "addr": "",
+  "city": "",
+  "brand": "Wells Fargo"
+ },
+ {
+  "name": "Wescom",
+  "lat": 34.0729054,
+  "lon": -117.5568463,
+  "dist": 7.11,
+  "addr": "4330 Mills Circle",
+  "city": "Ontario",
+  "brand": ""
+ },
+ {
+  "name": "Wells Fargo",
+  "lat": 34.0768681,
+  "lon": -117.5605989,
+  "dist": 7.13,
+  "addr": "",
+  "city": "",
+  "brand": "Wells Fargo"
+ },
+ {
+  "name": "Comerica Bank",
+  "lat": 34.0748484,
+  "lon": -117.5588451,
+  "dist": 7.13,
+  "addr": "",
+  "city": "",
+  "brand": "Comerica Bank"
+ },
+ {
+  "name": "Bank of the West",
+  "lat": 34.1024652,
+  "lon": -117.575311,
+  "dist": 7.14,
+  "addr": "8311 Haven Ave",
+  "city": "Rancho Cucamonga",
+  "brand": "Bank of the West"
+ },
+ {
+  "name": "U.S. Bank",
+  "lat": 34.0722031,
+  "lon": -117.5591196,
+  "dist": 7.24,
+  "addr": "",
+  "city": "",
+  "brand": "U.S. Bank"
+ },
+ {
+  "name": "Arrowhead Credit Union",
+  "lat": 34.0957808,
+  "lon": -117.5767379,
+  "dist": 7.37,
+  "addr": "8686 Haven Avenue",
+  "city": "Rancho Cucamonga",
+  "brand": ""
+ },
+ {
+  "name": "Mission Oaks National Bank",
+  "lat": 34.0720601,
+  "lon": -117.5625943,
+  "dist": 7.41,
+  "addr": "800 Ferrari Ln",
+  "city": "Ontario",
+  "brand": ""
+ },
+ {
+  "name": "?",
+  "lat": 34.1212168,
+  "lon": -117.5922713,
+  "dist": 7.83,
+  "addr": "",
+  "city": "",
+  "brand": ""
+ },
+ {
+  "name": "Chase",
+  "lat": 34.1331523,
+  "lon": -117.5931867,
+  "dist": 7.84,
+  "addr": "9700 Archibald Avenue",
+  "city": "Alta Loma",
+  "brand": "Chase"
+ },
+ {
+  "name": "U.S. Bank",
+  "lat": 34.1218332,
+  "lon": -117.5938801,
+  "dist": 7.92,
+  "addr": "",
+  "city": "",
+  "brand": "U.S. Bank"
+ },
+ {
+  "name": "SCE Federal Credit Union",
+  "lat": 34.0756297,
+  "lon": -117.5766828,
+  "dist": 7.96,
+  "addr": "975 Haven Avenue",
+  "city": "Ontario",
+  "brand": ""
+ }
+]

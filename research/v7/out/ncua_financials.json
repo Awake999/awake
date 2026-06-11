@@ -1,0 +1,240 @@
+{
+ "566": {
+  "asset_k": 3935777,
+  "shares_k": 3297429,
+  "name": "NUVISION",
+  "hq": "Huntington Beac, CA",
+  "charter": "566"
+ },
+ "1074": {
+  "asset_k": 1366674,
+  "shares_k": 1162631,
+  "name": "FARMERS INSURANCE",
+  "hq": "Burbank, CA",
+  "charter": "1074"
+ },
+ "1207": {
+  "asset_k": 1278292,
+  "shares_k": 1146363,
+  "name": "LOS ANGELES",
+  "hq": "Glendale, CA",
+  "charter": "1207"
+ },
+ "1438": {
+  "asset_k": 279271,
+  "shares_k": 235285,
+  "name": "LONG BEACH CITY EMPLOYEES",
+  "hq": "Signal Hill, CA",
+  "charter": "1438"
+ },
+ "3526": {
+  "asset_k": 192652,
+  "shares_k": 168328,
+  "name": "SCHOOLS",
+  "hq": "Torrance, CA",
+  "charter": "3526"
+ },
+ "4142": {
+  "asset_k": 6443715,
+  "shares_k": 5720278,
+  "name": "KINECTA",
+  "hq": "Manhattan Beach, CA",
+  "charter": "4142"
+ },
+ "5530": {
+  "asset_k": 98985,
+  "shares_k": 77765,
+  "name": "VA DESERT PACIFIC",
+  "hq": "Long Beach, CA",
+  "charter": "5530"
+ },
+ "5536": {
+  "asset_k": 203558955,
+  "shares_k": 173175283,
+  "name": "NAVY FEDERAL CREDIT UNION",
+  "hq": "Vienna, VA",
+  "charter": "5536"
+ },
+ "5960": {
+  "asset_k": 3207,
+  "shares_k": 2571,
+  "name": "U.S.B. EMPLOYEES",
+  "hq": "Wilmington, CA",
+  "charter": "5960"
+ },
+ "7817": {
+  "asset_k": 118186,
+  "shares_k": 90009,
+  "name": "SEA AIR",
+  "hq": "Seal Beach, CA",
+  "charter": "7817"
+ },
+ "8261": {
+  "asset_k": 29131,
+  "shares_k": 25569,
+  "name": "MATTEL",
+  "hq": "El Segundo, CA",
+  "charter": "8261"
+ },
+ "10433": {
+  "asset_k": 64385,
+  "shares_k": 48291,
+  "name": "BOPTI",
+  "hq": "San Pedro, CA",
+  "charter": "10433"
+ },
+ "12543": {
+  "asset_k": 160035,
+  "shares_k": 147984,
+  "name": "TORRANCE COMMUNITY",
+  "hq": "Torrance, CA",
+  "charter": "12543"
+ },
+ "14650": {
+  "asset_k": 67162,
+  "shares_k": 56292,
+  "name": "PARISHIONERS",
+  "hq": "Torrance, CA",
+  "charter": "14650"
+ },
+ "15732": {
+  "asset_k": 8983074,
+  "shares_k": 8086504,
+  "name": "COMMUNITYAMERICA",
+  "hq": "Lenexa, KS",
+  "charter": "15732"
+ },
+ "17623": {
+  "asset_k": 1204193,
+  "shares_k": 1041171,
+  "name": "HONDA",
+  "hq": "Torrance, CA",
+  "charter": "17623"
+ },
+ "18623": {
+  "asset_k": 82609,
+  "shares_k": 68281,
+  "name": "CALCOM",
+  "hq": "Long Beach, CA",
+  "charter": "18623"
+ },
+ "24212": {
+  "asset_k": 36737429,
+  "shares_k": 31586618,
+  "name": "SCHOOLSFIRST",
+  "hq": "Santa Ana, CA",
+  "charter": "24212"
+ },
+ "24802": {
+  "asset_k": 2405735,
+  "shares_k": 1736937,
+  "name": "SELF-HELP",
+  "hq": "Durham, NC",
+  "charter": "24802"
+ },
+ "24875": {
+  "asset_k": 746456,
+  "shares_k": 725371,
+  "name": "THE FIRST FINANCIAL",
+  "hq": "Pasadena, CA",
+  "charter": "24875"
+ },
+ "24916": {
+  "asset_k": 601927,
+  "shares_k": 546856,
+  "name": "I.L.W.U.",
+  "hq": "Long Beach, CA",
+  "charter": "24916"
+ },
+ "24973": {
+  "asset_k": 2905839,
+  "shares_k": 2404987,
+  "name": "ARROWHEAD",
+  "hq": "Rancho Cucamong, CA",
+  "charter": "24973"
+ },
+ "24980": {
+  "asset_k": 5413638,
+  "shares_k": 4866121,
+  "name": "CALIFORNIA",
+  "hq": "Glendale, CA",
+  "charter": "24980"
+ },
+ "24981": {
+  "asset_k": 3074686,
+  "shares_k": 2584116,
+  "name": "ORANGE COUNTY'S",
+  "hq": "Santa Ana, CA",
+  "charter": "24981"
+ },
+ "65059": {
+  "asset_k": 80586,
+  "shares_k": 68574,
+  "name": "NIKKEI",
+  "hq": "Gardena, CA",
+  "charter": "65059"
+ },
+ "66703": {
+  "asset_k": 6472794,
+  "shares_k": 4397749,
+  "name": "WESCOM CENTRAL",
+  "hq": "Pasadena, CA",
+  "charter": "66703"
+ },
+ "67921": {
+  "asset_k": 204273,
+  "shares_k": 145634,
+  "name": "LONG BEACH FIREMEN S",
+  "hq": "Long Beach, CA",
+  "charter": "67921"
+ },
+ "68415": {
+  "asset_k": 1292892,
+  "shares_k": 1067283,
+  "name": "SOUTHLAND",
+  "hq": "Los Alamitos, CA",
+  "charter": "68415"
+ },
+ "68457": {
+  "asset_k": 2247379,
+  "shares_k": 1787836,
+  "name": "FINANCIAL PARTNERS",
+  "hq": "Downey, CA",
+  "charter": "68457"
+ },
+ "68460": {
+  "asset_k": 2191341,
+  "shares_k": 1897558,
+  "name": "LBS FINANCIAL",
+  "hq": "Long Beach, CA",
+  "charter": "68460"
+ },
+ "68503": {
+  "asset_k": 952449,
+  "shares_k": 818167,
+  "name": "FIRST CITY",
+  "hq": "Pasadena, CA",
+  "charter": "68503"
+ },
+ "86063": {
+  "asset_k": 78185,
+  "shares_k": 68686,
+  "name": "POSTCITY FINANCIAL",
+  "hq": "Long Beach, CA",
+  "charter": "86063"
+ },
+ "95052": {
+  "asset_k": 164333,
+  "shares_k": 146169,
+  "name": "SOUTH BAY",
+  "hq": "Redondo Beach, CA",
+  "charter": "95052"
+ },
+ "95073": {
+  "asset_k": 16279,
+  "shares_k": 14926,
+  "name": "MID-CITIES",
+  "hq": "Compton, CA",
+  "charter": "95073"
+ }
+}

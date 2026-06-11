@@ -1,0 +1,955 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-08T06:09:44Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 519579451,
+  "lat": 34.1342029,
+  "lon": -117.5373890,
+  "tags": {
+    "addr:city": "Etiwanda",
+    "addr:housenumber": "12273",
+    "addr:postcode": "91739",
+    "addr:state": "CA",
+    "addr:street": "Highland Ave",
+    "addr:suite": "138",
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Wells Fargo",
+    "brand:wikidata": "Q744149",
+    "name": "Wells Fargo",
+    "phone": "+1 909 646 9700",
+    "source": "survey;image;yahoo_imagry",
+    "source_ref": "AM909_DSCP"
+  }
+},
+{
+  "type": "node",
+  "id": 588191479,
+  "lat": 34.0720601,
+  "lon": -117.5625943,
+  "tags": {
+    "addr:city": "Ontario",
+    "addr:housenumber": "800",
+    "addr:postcode": "91764",
+    "addr:state": "CA",
+    "addr:street": "Ferrari Ln",
+    "addr:street_direction_prefix": "N",
+    "addr:suite": "200",
+    "amenity": "bank",
+    "atm": "yes",
+    "building": "yes",
+    "name": "Mission Oaks National Bank",
+    "source": "survey;image;usgs_imagery",
+    "source_ref": "AM909_DSCQ4302",
+    "url": "http://www.missionoaksbank.com/site/location.html#ontario"
+  }
+},
+{
+  "type": "node",
+  "id": 1158422337,
+  "lat": 34.1069245,
+  "lon": -117.5748036,
+  "tags": {
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Wells Fargo",
+    "brand:wikidata": "Q744149",
+    "name": "Wells Fargo",
+    "source": "bing_imagery_0.06m_200701;local_knowledge"
+  }
+},
+{
+  "type": "node",
+  "id": 4815981171,
+  "lat": 34.0756297,
+  "lon": -117.5766828,
+  "tags": {
+    "addr:city": "Ontario",
+    "addr:housenumber": "975",
+    "addr:postcode": "91764",
+    "addr:state": "CA",
+    "addr:street": "Haven Avenue",
+    "amenity": "bank",
+    "atm": "yes",
+    "drive_through": "no",
+    "name": "SCE Federal Credit Union"
+  }
+},
+{
+  "type": "node",
+  "id": 7159440852,
+  "lat": 34.1218837,
+  "lon": -117.5741974,
+  "tags": {
+    "addr:city": "Rancho Cucamonga",
+    "addr:housenumber": "10590",
+    "addr:postcode": "91701",
+    "addr:state": "CA",
+    "addr:street": "Base Line Road",
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Citibank",
+    "brand:wikidata": "Q857063",
+    "name": "Citibank",
+    "opening_hours": "Mo-Fr 10:00-17:00; Sa 10:00-14:00",
+    "phone": "+1-909-297-5335",
+    "short_name": "Citi"
+  }
+},
+{
+  "type": "node",
+  "id": 8581539082,
+  "lat": 34.1077677,
+  "lon": -117.4530493,
+  "tags": {
+    "amenity": "bank",
+    "brand": "Bank of America",
+    "brand:wikidata": "Q487907",
+    "name": "Bank of America",
+    "website": "https://locators.bankofamerica.com/ca/fontana/financial-centers-fontana-15866.html"
+  }
+},
+{
+  "type": "node",
+  "id": 9411654726,
+  "lat": 34.0722031,
+  "lon": -117.5591196,
+  "tags": {
+    "amenity": "bank",
+    "brand": "U.S. Bank",
+    "brand:wikidata": "Q739084",
+    "name": "U.S. Bank"
+  }
+},
+{
+  "type": "node",
+  "id": 10248136479,
+  "lat": 34.0809776,
+  "lon": -117.5555737,
+  "tags": {
+    "addr:city": "Rancho Cucamonga",
+    "addr:housenumber": "9471",
+    "addr:postcode": "91730",
+    "addr:state": "CA",
+    "addr:street": "Pittsburgh Avenue",
+    "amenity": "bank",
+    "atm": "yes",
+    "name": "CAHP Credit Union",
+    "website": "https://cahpcu.org/Contact-Us"
+  }
+},
+{
+  "type": "node",
+  "id": 11798930518,
+  "lat": 34.0957808,
+  "lon": -117.5767379,
+  "tags": {
+    "addr:city": "Rancho Cucamonga",
+    "addr:housenumber": "8686",
+    "addr:postcode": "91730",
+    "addr:state": "CA",
+    "addr:street": "Haven Avenue",
+    "amenity": "bank",
+    "atm": "yes",
+    "name": "Arrowhead Credit Union",
+    "operator": "Arrowhead Credit Union",
+    "website": "https://www.arrowheadcu.org/findus"
+  }
+},
+{
+  "type": "node",
+  "id": 12319305282,
+  "lat": 34.0729054,
+  "lon": -117.5568463,
+  "tags": {
+    "addr:city": "Ontario",
+    "addr:housenumber": "4330",
+    "addr:postcode": "91764",
+    "addr:state": "CA",
+    "addr:street": "Mills Circle",
+    "amenity": "bank",
+    "atm": "yes",
+    "name": "Wescom"
+  }
+},
+{
+  "type": "node",
+  "id": 12647066089,
+  "lat": 34.1070510,
+  "lon": -117.5664805,
+  "tags": {
+    "addr:city": "Rancho Cucamonga",
+    "addr:housenumber": "10910",
+    "addr:postcode": "91730",
+    "addr:state": "CA",
+    "addr:street": "Foothill Boulevard",
+    "amenity": "bank",
+    "atm": "yes",
+    "drive_through": "no",
+    "name": "Schools First Federal Credit Union",
+    "website": "https://online.schoolsfirstfcu.org/gateway/schoolsfirstfcu/branch-locator#/details;selectedBranch=branch21"
+  }
+},
+{
+  "type": "node",
+  "id": 12647081920,
+  "lat": 34.1059221,
+  "lon": -117.5513627,
+  "tags": {
+    "addr:city": "Rancho Cucamonga",
+    "addr:housenumber": "11563",
+    "addr:postcode": "91730",
+    "addr:state": "CA",
+    "addr:street": "Foothill Boulevard",
+    "addr:unit": "#101",
+    "amenity": "bank",
+    "atm": "yes",
+    "drive_through": "no",
+    "name": "Chaffey Federal Credit Union",
+    "website": "https://chaffey.com/locations"
+  }
+},
+{
+  "type": "way",
+  "id": 40040880,
+  "center": {
+    "lat": 34.1024652,
+    "lon": -117.5753110
+  },
+  "tags": {
+    "addr:city": "Rancho Cucamonga",
+    "addr:housenumber": "8311",
+    "addr:postcode": "91730",
+    "addr:state": "CA",
+    "addr:street": "Haven Ave",
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Bank of the West",
+    "brand:wikidata": "Q2881919",
+    "building": "yes",
+    "name": "Bank of the West",
+    "source": "survey;image;usgs_imagery;local_government",
+    "source_ref": "AM909_DSCN6656"
+  }
+},
+{
+  "type": "way",
+  "id": 46141578,
+  "center": {
+    "lat": 34.0768681,
+    "lon": -117.5605989
+  },
+  "tags": {
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Wells Fargo",
+    "brand:wikidata": "Q744149",
+    "building": "yes",
+    "name": "Wells Fargo",
+    "source": "survey;image;usgs_imagery",
+    "source_ref": "AM909_DSCQ4286"
+  }
+},
+{
+  "type": "way",
+  "id": 46141618,
+  "center": {
+    "lat": 34.0776341,
+    "lon": -117.5506331
+  },
+  "tags": {
+    "addr:city": "Rancho Cucamonga",
+    "addr:housenumber": "11570",
+    "addr:postcode": "91730",
+    "addr:state": "CA",
+    "addr:street": "4th Street",
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Bank of America",
+    "brand:wikidata": "Q487907",
+    "building": "yes",
+    "name": "Bank of America",
+    "source": "survey;image;usgs_imagery",
+    "source_ref": "AM909_DSCQ4353",
+    "website": "https://locators.bankofamerica.com/ca/ranchocucamonga/financial-centers-rancho-cucamonga-15995.html"
+  }
+},
+{
+  "type": "way",
+  "id": 62145707,
+  "center": {
+    "lat": 34.1217759,
+    "lon": -117.5733759
+  },
+  "tags": {
+    "addr:city": "Rancho Cucamonga",
+    "addr:housenumber": "10598",
+    "addr:postcode": "91701",
+    "addr:state": "CA",
+    "addr:street": "Base Line Road",
+    "amenity": "bank",
+    "brand": "Chase",
+    "brand:wikidata": "Q524629",
+    "building": "yes",
+    "name": "Chase",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-16:00",
+    "phone": "+1-909-244-1740"
+  }
+},
+{
+  "type": "way",
+  "id": 133828107,
+  "center": {
+    "lat": 34.1392727,
+    "lon": -117.4366315
+  },
+  "tags": {
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Chase",
+    "brand:wikidata": "Q524629",
+    "building": "yes",
+    "check_date": "2024-09-17",
+    "check_date:opening_hours": "2024-09-17",
+    "name": "Chase",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-14:00; Su closed",
+    "phone": "+1 909-357-9838",
+    "source": "bing_imagery_0.25m_201005;survey;image",
+    "source_ref": "AM909_DSCY2304",
+    "website": "https://locator.chase.com/ca/fontana/16879-sierra-lakes-pkwy"
+  }
+},
+{
+  "type": "way",
+  "id": 160374659,
+  "center": {
+    "lat": 34.1486372,
+    "lon": -117.4751811
+  },
+  "tags": {
+    "addr:city": "Fontana",
+    "addr:housenumber": "15092",
+    "addr:postcode": "92336",
+    "addr:state": "CA",
+    "addr:street": "Summit Avenue",
+    "amenity": "bank",
+    "brand": "Bank of America",
+    "brand:wikidata": "Q487907",
+    "building": "yes",
+    "name": "Bank of America",
+    "website": "https://locators.bankofamerica.com/ca/fontana/financial-centers-fontana-12968.html"
+  }
+},
+{
+  "type": "way",
+  "id": 238015234,
+  "center": {
+    "lat": 34.1068248,
+    "lon": -117.5366259
+  },
+  "tags": {
+    "addr:city": "Rancho Cucamonga",
+    "addr:housenumber": "10540",
+    "addr:postcode": "91730",
+    "addr:street": "Foothill Blvd",
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Wells Fargo",
+    "brand:wikidata": "Q744149",
+    "building": "commercial",
+    "drive_through": "no",
+    "name": "Wells Fargo",
+    "source": "survey;bing_imagery"
+  }
+},
+{
+  "type": "way",
+  "id": 238015628,
+  "center": {
+    "lat": 34.1072650,
+    "lon": -117.5366908
+  },
+  "tags": {
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "U.S. Bank",
+    "brand:wikidata": "Q739084",
+    "building": "commercial",
+    "drive_through": "yes",
+    "name": "U.S. Bank",
+    "source": "Bing,survey"
+  }
+},
+{
+  "type": "way",
+  "id": 276292161,
+  "center": {
+    "lat": 34.1218332,
+    "lon": -117.5938801
+  },
+  "tags": {
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "U.S. Bank",
+    "brand:wikidata": "Q739084",
+    "building": "yes",
+    "name": "U.S. Bank",
+    "source": "survey;image;usgs_imagery",
+    "source_ref": "AM909_DSCQ4208"
+  }
+},
+{
+  "type": "way",
+  "id": 469765924,
+  "center": {
+    "lat": 34.1331523,
+    "lon": -117.5931867
+  },
+  "tags": {
+    "addr:city": "Alta Loma",
+    "addr:housenumber": "9700",
+    "addr:postcode": "91737",
+    "addr:state": "CA",
+    "addr:street": "Archibald Avenue",
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Chase",
+    "brand:wikidata": "Q524629",
+    "building": "yes",
+    "drive_through": "yes",
+    "name": "Chase",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-16:00"
+  }
+},
+{
+  "type": "way",
+  "id": 586387360,
+  "center": {
+    "lat": 34.1508136,
+    "lon": -117.4692142
+  },
+  "tags": {
+    "amenity": "bank",
+    "brand": "Chase",
+    "brand:wikidata": "Q524629",
+    "building": "yes",
+    "check_date": "2024-09-17",
+    "check_date:opening_hours": "2024-09-17",
+    "name": "Chase",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-14:00; Su closed",
+    "phone": "+1 909-899-5086",
+    "website": "https://locator.chase.com/ca/fontana/15320-summit-ave"
+  }
+},
+{
+  "type": "way",
+  "id": 586387363,
+  "center": {
+    "lat": 34.1506694,
+    "lon": -117.4714630
+  },
+  "tags": {
+    "amenity": "bank",
+    "brand": "Wells Fargo",
+    "brand:wikidata": "Q744149",
+    "building": "yes",
+    "drive_through": "yes",
+    "name": "Wells Fargo"
+  }
+},
+{
+  "type": "way",
+  "id": 665713134,
+  "center": {
+    "lat": 34.1212168,
+    "lon": -117.5922713
+  },
+  "tags": {
+    "amenity": "bank",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 706581865,
+  "center": {
+    "lat": 34.1210691,
+    "lon": -117.5576467
+  },
+  "tags": {
+    "addr:city": "Rancho Cucamonga",
+    "addr:housenumber": "11343",
+    "addr:postcode": "91730",
+    "addr:state": "CA",
+    "addr:street": "Base Line Road",
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "U.S. Bank",
+    "brand:wikidata": "Q739084",
+    "building": "yes",
+    "drive_through": "yes",
+    "name": "U.S. Bank",
+    "opening_hours": "Mo-Th 09:00-17:00; Fr 09:00-18:00; Sa 09:00-13:00",
+    "phone": "+1-909-483-5600",
+    "source": "local knowledge"
+  }
+},
+{
+  "type": "way",
+  "id": 722615089,
+  "center": {
+    "lat": 34.1231362,
+    "lon": -117.4881214
+  },
+  "tags": {
+    "amenity": "bank",
+    "brand": "Chase",
+    "brand:wikidata": "Q524629",
+    "building": "yes",
+    "check_date": "2024-09-17",
+    "check_date:opening_hours": "2024-09-17",
+    "name": "Chase",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-14:00; Su closed",
+    "phone": "+1 909-829-6071",
+    "website": "https://locator.chase.com/ca/fontana/14518-baseline-ave"
+  }
+},
+{
+  "type": "way",
+  "id": 819987793,
+  "center": {
+    "lat": 34.1072837,
+    "lon": -117.4521543
+  },
+  "tags": {
+    "access": "customers",
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Chase",
+    "brand:wikidata": "Q524629",
+    "building": "roof",
+    "clearance": "9' 3\"",
+    "drive_through": "yes",
+    "name": "Chase",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "way",
+  "id": 819987798,
+  "center": {
+    "lat": 34.1070486,
+    "lon": -117.4522301
+  },
+  "tags": {
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Chase",
+    "brand:wikidata": "Q524629",
+    "building": "yes",
+    "check_date": "2024-09-17",
+    "check_date:opening_hours": "2024-09-17",
+    "drive_through": "no",
+    "name": "Chase",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-14:00; Su closed",
+    "phone": "+1 909-356-8417",
+    "website": "https://locator.chase.com/ca/fontana/16120-foothill-blvd"
+  }
+},
+{
+  "type": "way",
+  "id": 858692930,
+  "center": {
+    "lat": 34.1193660,
+    "lon": -117.5362311
+  },
+  "tags": {
+    "amenity": "bank",
+    "brand": "Bank of America",
+    "brand:wikidata": "Q487907",
+    "building": "yes",
+    "name": "Bank of America",
+    "website": "https://locators.bankofamerica.com/ca/ranchocucamonga/financial-centers-rancho-cucamonga-15820.html"
+  }
+},
+{
+  "type": "way",
+  "id": 921518249,
+  "center": {
+    "lat": 34.1386542,
+    "lon": -117.4522258
+  },
+  "tags": {
+    "amenity": "bank",
+    "brand": "Wells Fargo",
+    "brand:wikidata": "Q744149",
+    "building": "yes",
+    "layer": "1",
+    "name": "Wells Fargo"
+  }
+},
+{
+  "type": "way",
+  "id": 922322517,
+  "center": {
+    "lat": 34.1347728,
+    "lon": -117.4352255
+  },
+  "tags": {
+    "addr:city": "Fontana",
+    "addr:housenumber": "16944",
+    "addr:postcode": "92336",
+    "addr:state": "CA",
+    "addr:street": "South Highland Avenue",
+    "amenity": "bank",
+    "atm": "yes",
+    "building": "yes",
+    "drive_through": "no",
+    "layer": "1",
+    "name": "Arrowhead Credit Union",
+    "operator": "Arrowhead Credit Union",
+    "website": "https://www.arrowheadcu.org/findus"
+  }
+},
+{
+  "type": "way",
+  "id": 922728723,
+  "center": {
+    "lat": 34.1352555,
+    "lon": -117.3966856
+  },
+  "tags": {
+    "amenity": "bank",
+    "building": "yes",
+    "name": "Thinkwise Credit Union"
+  }
+},
+{
+  "type": "way",
+  "id": 923570327,
+  "center": {
+    "lat": 34.1075839,
+    "lon": -117.4556163
+  },
+  "tags": {
+    "addr:city": "Fontana",
+    "addr:housenumber": "16014",
+    "addr:postcode": "92335",
+    "addr:state": "CA",
+    "addr:street": "Foothill Boulevard",
+    "amenity": "bank",
+    "atm": "yes",
+    "building": "yes",
+    "name": "Credit Union of Southern California",
+    "operator": "Credit Union of Southern California",
+    "website": "https://www.cusocal.org/Access/Branches-and-ATMs/Fontana-Branch"
+  }
+},
+{
+  "type": "way",
+  "id": 933090933,
+  "center": {
+    "lat": 34.0713451,
+    "lon": -117.4360469
+  },
+  "tags": {
+    "addr:city": "Fontana",
+    "addr:housenumber": "10048",
+    "addr:postcode": "92335",
+    "addr:state": "CA",
+    "addr:street": "Sierra Avenue",
+    "amenity": "bank",
+    "brand": "Bank of America",
+    "brand:wikidata": "Q487907",
+    "building": "yes",
+    "name": "Bank of America",
+    "website": "https://locators.bankofamerica.com/ca/fontana/financial-centers-fontana-11744.html"
+  }
+},
+{
+  "type": "way",
+  "id": 950220637,
+  "center": {
+    "lat": 34.0831600,
+    "lon": -117.4884198
+  },
+  "tags": {
+    "addr:city": "Fontana",
+    "addr:housenumber": "9389",
+    "addr:postcode": "92335",
+    "addr:state": "CA",
+    "addr:street": "Cherry Avenue",
+    "amenity": "bank",
+    "atm": "yes",
+    "building": "yes",
+    "drive_through": "yes",
+    "layer": "1",
+    "name": "Inland Valley Federal Credit Union",
+    "operator": "Inland Valley Federal Credit Union",
+    "website": "https://www.ivfcu.org/"
+  }
+},
+{
+  "type": "way",
+  "id": 960830182,
+  "center": {
+    "lat": 34.0748484,
+    "lon": -117.5588451
+  },
+  "tags": {
+    "amenity": "bank",
+    "brand": "Comerica Bank",
+    "brand:wikidata": "Q1114148",
+    "building": "yes",
+    "name": "Comerica Bank"
+  }
+},
+{
+  "type": "way",
+  "id": 960843153,
+  "center": {
+    "lat": 34.1060122,
+    "lon": -117.5582217
+  },
+  "tags": {
+    "addr:city": "Rancho Cucamonga",
+    "addr:housenumber": "8108",
+    "addr:postcode": "91730",
+    "addr:state": "CA",
+    "addr:street": "Milliken Avenue",
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Chase",
+    "brand:wikidata": "Q524629",
+    "building": "yes",
+    "check_date": "2024-09-17",
+    "check_date:opening_hours": "2024-09-17",
+    "name": "Chase",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-14:00; Su closed",
+    "phone": "+1 909-944-2085",
+    "website": "https://locator.chase.com/ca/rancho-cucamonga/8108-milliken-ave"
+  }
+},
+{
+  "type": "way",
+  "id": 971245074,
+  "center": {
+    "lat": 34.0503084,
+    "lon": -117.4349246
+  },
+  "tags": {
+    "addr:city": "Fontana",
+    "addr:housenumber": "11205",
+    "addr:postcode": "92337",
+    "addr:state": "CA",
+    "addr:street": "Sierra Avenue",
+    "amenity": "bank",
+    "brand": "Wells Fargo",
+    "brand:wikidata": "Q744149",
+    "building": "yes",
+    "layer": "1",
+    "name": "Wells Fargo"
+  }
+},
+{
+  "type": "way",
+  "id": 971245076,
+  "center": {
+    "lat": 34.0509269,
+    "lon": -117.4348914
+  },
+  "tags": {
+    "addr:city": "Fontana",
+    "addr:housenumber": "11159",
+    "addr:postcode": "92337",
+    "addr:state": "CA",
+    "addr:street": "Sierra Avenue",
+    "amenity": "bank",
+    "brand": "Bank of America",
+    "brand:wikidata": "Q487907",
+    "building": "yes",
+    "layer": "1",
+    "name": "Bank of America"
+  }
+},
+{
+  "type": "way",
+  "id": 971276907,
+  "center": {
+    "lat": 34.0635082,
+    "lon": -117.4328407
+  },
+  "tags": {
+    "amenity": "bank",
+    "brand": "Chase",
+    "brand:wikidata": "Q524629",
+    "building": "yes",
+    "check_date": "2024-09-17",
+    "check_date:opening_hours": "2024-09-17",
+    "name": "Chase",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00-14:00; Su closed",
+    "phone": "+1 909-574-3687",
+    "website": "https://locator.chase.com/ca/fontana/17042-slover-ave"
+  }
+},
+{
+  "type": "way",
+  "id": 974568204,
+  "center": {
+    "lat": 34.0990928,
+    "lon": -117.4286152
+  },
+  "tags": {
+    "addr:city": "Fontana",
+    "addr:housenumber": "17235",
+    "addr:postcode": "92335",
+    "addr:state": "CA",
+    "addr:street": "Arrow Boulevard",
+    "amenity": "bank",
+    "building": "yes",
+    "drive_through": "no",
+    "name": "Fontana Federal Credit Union",
+    "website": "https://www.fontanafcu.org/"
+  }
+},
+{
+  "type": "way",
+  "id": 978621802,
+  "center": {
+    "lat": 34.0854903,
+    "lon": -117.4360722
+  },
+  "tags": {
+    "addr:city": "Fontana",
+    "addr:housenumber": "9244",
+    "addr:postcode": "92335",
+    "addr:state": "CA",
+    "addr:street": "Sierra Avenue",
+    "amenity": "bank",
+    "building": "yes",
+    "name": "Citizens Business Bank",
+    "operator": "Citizens Business Bank",
+    "website": "https://www.cbbank.com/"
+  }
+},
+{
+  "type": "way",
+  "id": 979969897,
+  "center": {
+    "lat": 34.0859196,
+    "lon": -117.4360678
+  },
+  "tags": {
+    "addr:city": "Fontana",
+    "addr:housenumber": "9244",
+    "addr:postcode": "92335",
+    "addr:state": "CA",
+    "addr:street": "Sierra Avenue",
+    "amenity": "bank",
+    "building": "yes",
+    "name": "Citizens Business Bank",
+    "operator": "Citizens Business Bank",
+    "website": "https://www.cbbank.com/locations/fontana-business-financial-center/"
+  }
+},
+{
+  "type": "way",
+  "id": 979969955,
+  "center": {
+    "lat": 34.0989744,
+    "lon": -117.4349820
+  },
+  "tags": {
+    "amenity": "bank",
+    "brand": "Citibank",
+    "brand:wikidata": "Q857063",
+    "building": "yes",
+    "name": "Citibank",
+    "short_name": "Citi"
+  }
+},
+{
+  "type": "way",
+  "id": 1071220618,
+  "center": {
+    "lat": 34.1375514,
+    "lon": -117.3665520
+  },
+  "tags": {
+    "addr:city": "Rialto",
+    "addr:housenumber": "2025",
+    "addr:postcode": "92377",
+    "addr:state": "CA",
+    "addr:street": "North Riverside Avenue",
+    "amenity": "bank",
+    "atm": "yes",
+    "building": "yes",
+    "drive_through": "yes",
+    "name": "Alta Vista Credit Union",
+    "opening_hours:drive_through": "24/7",
+    "operator": "Alta Vista Credit Union",
+    "website": "https://altavistacu.org/personal/about/branches-atms/"
+  }
+},
+{
+  "type": "way",
+  "id": 1071236001,
+  "center": {
+    "lat": 34.1216585,
+    "lon": -117.3688014
+  },
+  "tags": {
+    "amenity": "bank",
+    "brand": "Bank of America",
+    "brand:wikidata": "Q487907",
+    "building": "yes",
+    "name": "Bank of America"
+  }
+},
+{
+  "type": "way",
+  "id": 1270557591,
+  "center": {
+    "lat": 34.0751687,
+    "lon": -117.3715626
+  },
+  "tags": {
+    "addr:city": "Rialto",
+    "addr:housenumber": "1432",
+    "addr:postcode": "92376",
+    "addr:state": "CA",
+    "addr:street": "South Riverside Avenue",
+    "amenity": "bank",
+    "atm": "yes",
+    "building": "yes",
+    "name": "Arrowhead Credit Union",
+    "operator": "Arrowhead Credit Union",
+    "website": "https://www.arrowheadcu.org/findus"
+  }
+},
+{
+  "type": "way",
+  "id": 1343391537,
+  "center": {
+    "lat": 34.1210334,
+    "lon": -117.4929398
+  },
+  "tags": {
+    "amenity": "bank",
+    "brand": "Wells Fargo",
+    "brand:wikidata": "Q744149",
+    "building": "yes",
+    "layer": "1",
+    "name": "Wells Fargo"
+  }
+}
+
+  ]
+}
