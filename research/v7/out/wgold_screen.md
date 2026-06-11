@@ -1,0 +1,53 @@
+# W-GOLD Screen — GOLD Discovery Method gaps (institutions with no funding-table rows)
+Screened: 2026-06-11. Method: own-site disclosures first (creditor lines, agreement PDFs extracted via pypdf), then CFPB/DoC/forums. CA join tested from Fontana 92336 / Long Beach 90802 perspective. All quotes verbatim with dates.
+
+## 1. Lafayette FCU (lfcu.org, Rockville MD) — GOLD-CANDIDATE — and YES, this is almost certainly the mentor's "LFCU"
+**Mentor-seed match:** Every claimed attribute matches Lafayette, not Langley: (a) nationwide join via **Home Ownership Financial Literacy Council (HOFLC), one-time $10**, "automatically enrolled during account opening" (lfcu.org/open-an-account, 2026-06-11); (b) **Business Mastercard** marketed with "High limits — get the amount of credit you need to support your business goals"; (c) rewards = **CURewards** (Velera/PSCU platform used by self-issuing CUs — Elan shops never use CURewards). Langley FCU (Newport News VA, langleyfcu.org) has none of these markers. Name-twins excluded: Lafayette Schools FCU (Lafayette, LA) and the DoC "[LA only] Lafayette Federal Credit Union" checking-bonus hard-pull DP (slug `la-only-lafayette-federal-credit-union…`, now 404) is the **Louisiana** entity — do not import that DP onto Maryland lfcu.org.
+
+- **Join from CA:** YES — fully online at apply.lfcu.org/account-opening, HOFLC $10 one-time, any US state. $2.14B assets (Wikipedia, Feb-2026).
+- **Self-UW:** Likely self-issued. Evidence: CURewards; application rails are LFCU-owned (loans.lfcu.org consumer; businessbanking@lfcu.org / 240-292-5670 / business-officer meeting for biz card); zero Elan/TCM branding sitewide; consumer APR grid 11.65%–18.00% (WSJ Prime + margin) published by LFCU itself. **Open item:** creditor line on the Business Mastercard agreement not yet captured (CFPB issuer slug 404; agreement PDF not posted online).
+- **Limits/APR (biz):** not published — "high limits" marketing only; biz APR absent from rates page.
+- **Docs (biz):** not published; business onboarding is officer-mediated. **Remote CA-LLC business account = unverified** (no DPs found; expect officer call).
+- **Bureau:** consumer cards = **Equifax hard** (WalletHub/aggregators); reports to all 3. No biz-card DPs found anywhere.
+- **Chex at membership:** UNKNOWN — not on DoC Chex list. Own Membership Disclosure (eff. 07/01/2025, extracted via pypdf): "you authorize us to make inquiry to determine your employment history and to obtain information concerning any accounts with other institutions and your credit history, including consumer credit reports" — CRA screening reserved, vendor unnamed. Chex at BUSINESS opening: unknown.
+- Links: https://www.lfcu.org/open-an-account/ | https://www.lfcu.org/business/credit-card/ | https://www.lfcu.org/disclosures/ | https://www.lfcu.org/personal/credit-cards/ | https://www.doctorofcredit.com/md-d-c-va-lafayette-federal-credit-union-mastercard-600-in-gift-cards-or-650-in-flights/
+
+## 2. Digital FCU (DCU, Marlborough MA) — NO-GO for CA business card; consumer reference only
+**Merger bombshell:** DCU's own business application PDF: "Digital Federal Credit Union and First Technology Federal Credit Union merged… legal name First Technology Federal Credit Union, effective January 1, 2026" (Charter **#23521**), operating as two divisions.
+- **Self-UW:** YES — own Business Visa agreement (rev 2026): "'we', 'us' and 'our' mean Digital Federal Credit Union, a division of First Technology Federal Credit Union and its successor(s)". App rail secureforms.dcu.org.
+- **Product/limits:** Business Visa Platinum — published "**MAXIMUM LINE $25,000**", as low as 12.50% (Prime+5.00%, floor 9.99%), $0 annual/BT/CA fees; Platinum Plus = unlimited cards/separate limits, consolidated pay.
+- **Geofence (the killer):** both biz Visa pages footer: "**Available in - MA, NH, RI, ME, VT and CT**" (2026-06-11). Business-entity membership only for entities **located in** listed MA communities or Lane County/State-of-OR. Docs PDF: physical business address required, "PO boxes and virtual offices are not acceptable"; LLC = Articles + IRS EIN letter.
+- **Individual join from CA:** yes — Reach Out for Schools "memberships start at $10" (also FFA $8) at account opening.
+- **Chex/bureau:** **Pulls ChexSystems at membership** (DoC Chex list "Does pull", mixed DPs) + **soft Equifax** (DoC join guide; 2025 DP "DCU soft pulls Equifax"). Chex at business opening: vendor unnamed in 25-page biz application.
+- **Watch:** First Tech division may open new rails post-merger.
+- Links: https://www.dcu.org/borrow/commercial-lending/small-business/business-visa.html | …/business-visa-plus.html | https://www.dcu.org/content/dam/dcu/global/generic/documents/business-visa-disclosure.pdf | https://www.dcu.org/content/dam/dcu/pdfs/business-account-application.pdf | https://www.dcu.org/membership/member-eligibility.html | https://www.doctorofcredit.com/join-dcu-credit-union/
+
+## 3. Truliant FCU (Winston-Salem NC) — documented NO-GO for CA business (conflict RESOLVED — prior note was right)
+- Consumer join: "Residents of any U.S. state can join for free through the American Consumer Council" (online). BUT business membership page (2026-06-11): "**Business must be locally owned and have access to a Truliant branch**" (NC/SC/VA) + "**All owners/authorized signers of business must be present at account opening**" + "Please visit your nearest branch to open your business accounts." No online business opening. → CA resident can join as a consumer; CA business cannot get the biz card.
+- Self-UW: YES — Business Visa agreement G-17928 (09/24/2025): "'We', 'us' and 'ours' means this Credit Union"; Account = "your Business VISA Credit Card Line of Credit Account" (true revolving/self-replenishing LOC). Product: **MaxBack Business** — 1.50% cash back, $300/$3K bonus, 0% intro 9 mo then 15.99–17.99%, "credit limits up to $50,000". In-house pre-approvals in online banking "Loan Offers".
+- Chex: DoC list "Does pull" at membership. EWS: none found.
+- Links: https://www.truliantfcu.org/business/bank/become-a-business-member | https://www.truliantfcu.org/business/borrow/credit-cards | https://www.truliantfcu.org/getmedia/726f547b-cac3-40f4-af61-6ee03ae517ac/G-17928-Visa-Business-09242025.pdf
+
+## 4. Northeast Bank (MINNEAPOLIS MN, nebankmn.com, FDIC CERT 16659, $838M) — REFERENCE
+- CorServ **Account Issuer** confirmed: "transitioned out of their Agent Bank programs to CorServ's Account Issuer Program"; bank "maintain[s] control over credit decisions" (CorServ PR). App rail nebankmn.myapexcard.com (CorServ Apex) — bank-held paper for 4 business Mastercards + Commercial Card ($50K+/mo spend; nonprofits/charter schools/churches/co-ops must use Commercial Card).
+- **"The credit card programs listed are for existing Northeast Bank customers only"** — no remote CA deposit path. Not actionable; keep as CorServ model proof.
+- **Name-twin:** Northeast Bank, Portland **ME** (CERT 19690, $5.0B) is **ELAN**: "The creditor and issuer of these cards is Elan Financial Services, pursuant to separate licenses from Visa U.S.A. Inc., and Mastercard International Incorporated." (northeastbank.com, 2026-06-11). Don't cross-attribute.
+- Links: https://www.nebankmn.com/businesscreditcards | https://www.corservsolutions.com/northeast-bank-partners-with-corserv-to-implement-a-comprehensive-credit-card-program-for-business-and-commercial-customers/
+
+## 5. Capitol Federal (CapFed, Topeka KS, FDIC CERT 27981, $9.84B) — REFERENCE
+- Split model: small-biz cards = **Elan** ("The creditor and issuer of these cards is Elan Financial Services…", capfed.com); **commercial suite = CorServ Account Issuer** (announced **March 2026**): Corporate/Corporate Rewards, Purchasing/Secured Purchasing, Fleet, virtual+ghost cards; CapFed keeps "greater oversight of underwriting, data, and customer experience" with "higher direct margin than traditional agent referral structures."
+- KS/MO footprint; no remote CA path. Reference for the in-house-commercial trend (incl. **Secured Purchasing** card — interesting structure).
+- Links: https://www.corservsolutions.com/capitol-federal-savings-bank-partners-with-corserv-to-meet-commercial-customer-credit-card-demand/ | https://www.capfed.com/business/business-accounts/credit-cards/
+
+## 6. Blacklist confirms (verbatim for integrator)
+- **Preferred Bank (LA)** — CONFIRMED Elan: "The creditor and issuer of these cards is Elan Financial Services, pursuant to separate licenses from Visa U.S.A. Inc., and Mastercard International Incorporated." — https://www.preferredbank.com/business/loans-and-credit/credit-cards (2026-06-11)
+- **Gateway Bank Oakland — ATTRIBUTION FIX:** Oakland's Gateway Bank FSB (gatewayfsb.com, CERT 33103) lists **no credit cards at all** (full product menu checked 2026-06-11). The Elan page at gateway.bank/resources/elan-credit-card ("The creditor and issuer of these cards is Elan Financial Services, pursuant to a license from Visa U.S.A. Inc.") belongs to **Gateway Bank, Mendota Heights, MN** (routing 096017337) — a name-twin. If our table's Gateway row cites gateway.bank, correct it: Oakland = no card product, still NO-GO.
+- **Mokelumne FCU (Lodi CA)** — CONFIRMED Elan: "Elan™ Credit Cards is an added benefit to the members of Mokelumne Federal Credit Union. The creditor and issuer of these cards is Elan Financial Services, pursuant to separate licenses from Visa U.S.A. Inc., and Mastercard International Incorporated." — https://www.mokelumnefcu.com/loans-services/elan-visa (2026-06-11; live domain is mokelumnefcu.com, not mokefcu.org)
+
+## 7. Pinnacle Bank CALIFORNIA — disambiguation (FDIC full-name sweep, 2026-06-11)
+Only **one live CA-chartered Pinnacle**: **Pinnacle Bank, Gilroy CA — CERT 58297** (state commercial bank, est. 2006, ~$946M, domain pinnacle.bank, DFPI-regulated). Its product menu has **no credit card, business or personal**. There is no separate "Pinnacle Bank California" charter. Live name-twins elsewhere (any biz-card sighting belongs to these): Nashville TN CERT 35583 (pnfp.com — has biz cards), Jasper AL CERT 29548 (pinnaclebanc.com — Business Card Services), Lincoln NE CERT 10634, Fort Worth TX CERT 20231, Marshalltown IA CERT 252, Pikeville KY CERT 22355, Cody WY CERT 2232. → NO-GO/non-entity for CA biz card.
+
+## Open items for next pass
+1. LFCU Business Mastercard creditor line (request agreement via businessbanking@lfcu.org) + biz APR/limit sheet.
+2. LFCU remote business-account opening for a CA LLC (call 240-292-5670) + screening vendor at membership and biz opening (Chex vs QualiFile vs EWS).
+3. First Tech (post-DCU-merger) business rails — does the First Tech division offer a CA-accessible business card?
