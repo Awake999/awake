@@ -23,3 +23,14 @@ Kinecta,(2nd priority),EX,"Corroborated: Kinecta uses Experian for card applicat
 SDCCU,(2nd priority),EX-believed,"myFICO SDCCU DP thread: hard pull on Experian reported (membership context); card-specific bureau consistent with EX belief.",2023-2024,n/a (prior DP SUPPORTED),COMMUNITY-DP (membership proxy),expect EX; confirm at application,https://ficoforums.myfico.com/t5/Credit-Cards/San-DIego-County-Credit-Union-SDCCU-Does-anyone-have-any-DP-s-or/td-p/6761567
 Premier America CU,(2nd priority),EX x2,"No new public DP found; prior EX x2 stands unchallenged.",prior DPs,n/a,COMMUNITY-DP (prior),use prior (EX); confirm at application,(none found)
 Enterprise Bank & Trust,(2nd priority),(none),"No bureau DP found; offers in-house Mastercard biz cards.",n/a,n/a,UNKNOWN,ask at application,https://www.enterprisebank.com/business/credit-cards
+UMB,(2nd priority),(none),"myFICO DPs mixed: one EQ pull DP; other reports cite TU score checks. No CA biz-specific DP.",2023-2025,n/a,COMMUNITY-DP (mixed/consumer),expect EQ or TU; confirm at application,https://ficoforums.myfico.com/t5/Credit-Cards/UMB-Bank-Approval-Criteria-Quirks/td-p/6804033
+Comerica,(2nd priority),(none),"No bureau DP found.",n/a,n/a,UNKNOWN,ask at application,(none found)
+Cathay Bank,(2nd priority),(none),"Card creditor/issuer = Elan Financial Services (per bank card pages) - bureau is Elan's variable choice (EX/EQ/TU).",2026-06 (site),n/a,VERIFIED-disclosure (issuer) + Elan-variable bureau,treat as Elan; ask at application,https://www.cathaybank.com/business/credit-cards
+East West Bank,(2nd priority),(none),"Card program consistent with Elan agent-issuance pattern of peer banks (Cathay/Hanmi/Bank of Hope confirmed Elan); EWB not explicitly confirmed - verify.",2026-06,n/a,UNKNOWN (likely Elan),verify issuer then treat as Elan,(inference - verify)
+Hanmi Bank,(2nd priority),(none),"Card creditor/issuer = Elan Financial Services - bureau is Elan's variable choice.",2026-06 (site),n/a,VERIFIED-disclosure (issuer) + Elan-variable bureau,treat as Elan; ask at application,https://www.hanmi.com/personal/credit-cards/
+Bank of Hope,(2nd priority),(none),"Card creditor/issuer = Elan Financial Services - bureau is Elan's variable choice.",2026-06 (site),n/a,VERIFIED-disclosure (issuer) + Elan-variable bureau,treat as Elan; ask at application,https://www.bankofhope.com/personal-banking/credit-cards
+Stanford FCU,(2nd priority),(none),"No bureau DP found.",n/a,n/a,UNKNOWN,ask at application,https://www.sfcu.org/personal/credit-cards/
+Valley Strong CU,(2nd priority),(none),"No bureau DP found.",n/a,n/a,UNKNOWN,ask at application,(none found)
+Wescom CU,(2nd priority),(none),"No bureau DP found.",n/a,n/a,UNKNOWN,ask at application,(none found)
+BCU,(2nd priority),(none),"No bureau DP found.",n/a,n/a,UNKNOWN,ask at application,(none found)
+Skyla CU,(2nd priority),(none),"No bureau DP found.",n/a,n/a,UNKNOWN,ask at application,(none found)
