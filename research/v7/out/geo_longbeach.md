@@ -37,12 +37,12 @@
 | 21 | POSTCITY FINANCIAL | CU | 2371 Grand Ave, Long Beach, CA 90809 | 3.76 | Charter 86063 | Long Beach, CA | $78.2M | $68.7M | 1 | No | NCUA |
 | 22 | SELF-HELP | CU | 1000 N Avalon Blvd, Wilmington, CA 90744 | 3.78 | Charter 24802 | Durham, NC | $2.41B | $1.74B | 1 | Yes — Self-Help Federal Credit Union | NCUA |
 | 23 | ORANGE COUNTY'S | CU | 1802 Ximeno Ave, Long Beach, CA 90815 | 3.81 | Charter 24981 | Santa Ana, CA | $3.07B | $2.58B | 1 | Yes — Orange County's Credit Union | NCUA+OSM+web |
-| 24 | U.S.B. EMPLOYEES | CU | 300 Falcon St, Wilmington, CA 90744 | 3.91 | Charter 5960 | Wilmington, CA | $3.2M | $2.6M | 1 | Yes — U.S. Bank (direct) | NCUA |
+| 24 | U.S.B. EMPLOYEES | CU | 300 Falcon St, Wilmington, CA 90744 | 3.91 | Charter 5960 | Wilmington, CA | $3.2M | $2.6M | 1 | No | NCUA |
 | 25 | Washington Federal Bank | Bank | 5348 E 2nd St, Long Beach, CA 90803 | 3.94 | CERT 28088 | Seattle, WA | $27.55B | $21.24B | 1 | Yes — WaFd Bank | SOD+OSM |
 | 26 | United Business Bank | Bank | 3750 Kilroy Airport Way, Ste 130, Long Beach, CA 90806 | 4.09 | CERT 57716 | Walnut Creek, CA | $2.63B | $2.27B | 1 | Yes — United Business Bank | SOD |
 | 27 | LONG BEACH FIREMEN S | CU | 2245 Argonne Ave, Long Beach, CA 90815 | 4.19 | Charter 67921 | Long Beach, CA | $204.3M | $145.6M | 1 | No | NCUA |
 | 28 | NUVISION | CU | 2350 E 223rd St, Carson, CA 90810 | 4.38 | Charter 566 | Huntington Beac, CA | $3.94B | $3.30B | 2 | Yes — Nuvision Credit Union | NCUA+OSM |
-| 29 | First Bank | Bank | 4040 Atlantic Ave, Long Beach, CA 90807 | 4.49 | CERT 12229 | St. Louis, MO | $6.69B | $5.94B | 2 | No | SOD+OSM |
+| 29 | First Bank | Bank | 4040 Atlantic Ave, Long Beach, CA 90807 | 4.49 | CERT 12229 | St. Louis, MO | $6.69B | $5.94B | 2 | Yes — First Bank (MO) | SOD+OSM |
 | 30 | ARROWHEAD | CU | 5531 E Stearns St, Long Beach, CA 90815 | 4.75 | Charter 24973 | Rancho Cucamong, CA | $2.91B | $2.40B | 1 | Yes — Arrowhead Credit Union | NCUA+OSM |
 | 31 | BOPTI | CU | 1451 S Seaside Ave, San Pedro, CA 90731 | 4.78 | Charter 10433 | San Pedro, CA | $64.4M | $48.3M | 1 | No | NCUA |
 | 32 | Poppy Bank | Bank | 6290 E Pacific Coast Hwy, Long Beach, CA 90803 | 4.9 | CERT 57903 | Santa Rosa, CA | $7.80B | $6.02B | 1 | Yes — Poppy Bank | SOD |
@@ -55,6 +55,7 @@
 - **Luther Burbank Savings, 5348 E 2nd St (3.94 mi)** — stale OSM tag; Luther Burbank merged into WaFd; SOD lists it as Washington Federal Bank (in table).
 - **Union Bank (downtown, OSM/Chamber web listing)** — stale; MUFG Union Bank merged into U.S. Bank (2023).
 - **Nix Neighborhood Lending, ~2.78 mi (node/5640830050)** — check-cashing/consumer-lending storefront (ex-Kinecta 'Nix'), not an insured bank or CU branch; excluded from the census.
+- **Unnamed amenity=bank node, ~4.88 mi (node/4392110125)** — no name tag in OSM; could not be attributed to an institution. Excluded.
 - **Beach Business Bank, 180 E Ocean Blvd** — web find (Yelp): CLOSED; was merged into First Foundation Bank lineage. Excluded.
 
 No live, insured institution within 5 mi was found by OSM/web that is absent from FDIC SOD / NCUA data — the organic layer's net new value was confirming on-the-ground presence and flagging the four stale tags above.

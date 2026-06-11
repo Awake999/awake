@@ -36,9 +36,11 @@ for e in inst.values():
 v6names = [r[2] for r in list(csv.reader(open("/home/user/awake/research/v6/deliverables/ca_business_credit_funding_v6_funding_table.csv")))[1:] if len(r)>2]
 v6map = {norm(n): n for n in v6names}
 ALIAS_V6 = {"ZIONS BANCORPORATION":"California Bank & Trust","JPMORGAN CHASE":"Chase (JPMorgan Chase)",
- "CITIBANK":"Citi (Citibank)","FIRST CITIZENS AND":"First Citizens Bank","WASHINGTON":"WaFd Bank","NUVISION":"Nuvision Credit Union","U S":"U.S. Bank (direct)","SCHOOLSFIRST":"SchoolsFirst Federal Credit Union","FINANCIAL PARTNERS":"Financial Partners Credit Union","SOUTHERN CALIFORNIA":"Credit Union of Southern California (CU SoCal)"}
+ "CITIBANK":"Citi (Citibank)","FIRST CITIZENS AND":"First Citizens Bank","WASHINGTON":"WaFd Bank","NUVISION":"Nuvision Credit Union","SCHOOLSFIRST":"SchoolsFirst Federal Credit Union","FINANCIAL PARTNERS":"Financial Partners Credit Union","SOUTHERN CALIFORNIA":"Credit Union of Southern California (CU SoCal)"}
+EXACT_V6 = {"U S":"U.S. Bank (direct)","FIRST":"First Bank (MO)"}
 def v6_match(name):
     n = norm(name)
+    if n in EXACT_V6: return EXACT_V6[n]
     if n in v6map: return v6map[n]
     for k,v in ALIAS_V6.items():
         if k in n or n==k: return v
