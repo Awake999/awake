@@ -184,6 +184,70 @@ upd("SoFi Bank, N.A.",
     Other_link=DOC_EWS,
     Notes="SF-HQ national bank. EWS inquiries on open + GIACT on linking.")
 
+# ---------- Phase 2: targeted web sweep 2026-06-12 ----------
+upd("East West Bank",
+    ChexSystems="Yes — Crediful: uses Chex to screen checking applicants; own Deposit Agreement (eff. 2024-06-01) 'New Account Verification' = generic 'check or credit reporting agency', vendor UNNAMED [COMMUNITY-DP (Crediful) + Generic-CRA-clause (own doc); 2026-06-12]",
+    Chex_link="https://www.crediful.com/chexsystems/east-west-bank/",
+    EWS="Generic-CRA-clause (vendor unnamed) — own Deposit Agreement names no EWS; 0 'Early Warning' hits in 60-pg doc [VERIFIED-absence; 2026-06-12]",
+    EWS_link="https://www.eastwestbank.com/content/dam/ewb-dotcom/docs/terms-and-conditions/Deposit_Account_Agreement.pdf",
+    LexisNexis_SageStream="Not named in own 60-pg Deposit Agreement [VERIFIED-absence; 2026-06-12] — inquiry-side UNKNOWN",
+    LN_link="https://www.eastwestbank.com/content/dam/ewb-dotcom/docs/terms-and-conditions/Deposit_Account_Agreement.pdf",
+    Notes="P2: agreement quote: 'We may use a third-party service to verify and obtain information regarding your previous banking relationships... credit information from a check or credit reporting agency'.")
+
+upd("Cathay Bank",
+    ChexSystems="Generic-CRA-clause (vendor unnamed) — own Deposit Account Agreement (consumer+business) sec.50 'Use of Consumer Reporting Agencies': 'third party services to verify... previous banking relationships'; ChexSystems never named; one weak undated forum claim of NO Chex stands [VERIFIED-absence (own doc) + weak COMMUNITY-DP; 2026-06-12]",
+    Chex_link="https://www.cathaybank.com/documents/personal/digital-account-opening/deposit-account-agreement.pdf",
+    EWS="Generic-CRA-clause (vendor unnamed) — 0 EWS hits in 40-pg agreement [VERIFIED-absence; 2026-06-12]",
+    EWS_link="https://www.cathaybank.com/documents/personal/digital-account-opening/deposit-account-agreement.pdf",
+    LexisNexis_SageStream="Not named in own agreement [VERIFIED-absence; 2026-06-12] — inquiry-side UNKNOWN",
+    LN_link="https://www.cathaybank.com/documents/personal/digital-account-opening/deposit-account-agreement.pdf",
+    Notes="P2: also sec.14 'Consent to Gather Information' = generic credit-reporting-agency authorization. High-value verification call target.")
+
+upd("Golden 1 Credit Union",
+    ChexSystems="Yes — pulls Chex and is INQUIRY-SENSITIVE ('signing up for lots of bank bonuses => struggle to be approved for membership') [DOC-LIST; 2026-06-12 search]",
+    Chex_link="https://www.doctorofcredit.com/banks-credit-unions-chexsystems-inquiry-sensitive/",
+    Other_secondary="Equifax HARD pull just to join (credit bureau, noted for completeness) [COMMUNITY-DP; 2026-06-12]",
+    Other_link="https://www.doctorofcredit.com/banks-credit-unions-dodont-pull-chexsystems/",
+    Notes="P2 UPGRADE vs UNKNOWN. Non-CA join requires Financial Fitness Association ($5).")
+
+upd("SchoolsFirst Federal Credit Union",
+    ChexSystems="Yes — VERIFIED own product pages: 'ChexSystems verification and $25 minimum opening deposit required' (Free Checking, Investment Checking; Liquid Advantage MM = Chex + $2,000) [VERIFIED (own site); 2026-06-12]",
+    Chex_link="https://www.schoolsfirstfcu.org/products/checking-savings/checking/free-checking/",
+    EWS="No screening evidence — only Zelle (EWS-owned product) infrastructure on site [searched 2026-06-12; UNKNOWN]",
+    EWS_link="—",
+    Notes="P2 UPGRADE vs UNKNOWN — own-site VERIFIED Chex. Education FOM gate still applies.")
+
+upd("Mechanics Bank",
+    ChexSystems="Yes — VERIFIED own Personal Account Agreement (doc dated 2026-03-23): 'new accounts are subject to verification through ChexSystems (the Reporting Agency) and may be declined based in whole or in part on information obtained in a report' [VERIFIED (own doc); 2026-06-12]",
+    Chex_link="https://www.mechanicsbank.com/contentassets/9e0348bebd2b44b2a8fa059267bcab78/1200-personal-account-agreement-disclosure-mkt10000-v3-final-mkt-copy.pdf",
+    EWS="Not named in own 20-pg Personal Account Agreement [VERIFIED-absence; 2026-06-12] — inquiry-side UNKNOWN",
+    EWS_link="https://www.mechanicsbank.com/contentassets/9e0348bebd2b44b2a8fa059267bcab78/1200-personal-account-agreement-disclosure-mkt10000-v3-final-mkt-copy.pdf",
+    LexisNexis_SageStream="Not named in own agreement [VERIFIED-absence; 2026-06-12]",
+    LN_link="https://www.mechanicsbank.com/contentassets/9e0348bebd2b44b2a8fa059267bcab78/1200-personal-account-agreement-disclosure-mkt10000-v3-final-mkt-copy.pdf",
+    Notes="P2 UPGRADE vs UNKNOWN. Also reports to 'credit bureaus, including ChexSystems' on unpaid balances.")
+
+upd("Axos Bank",
+    ChexSystems="Yes — UPGRADE to VERIFIED: own support FAQ: 'Axos will not be able to process or approve your application with a ChexSystems freeze in place' — applies to PERSONAL and BUSINESS accounts; DoC: 6 DPs, NOT inquiry-sensitive (approved 50+/12mo) [VERIFIED (own FAQ) + DOC-LIST; 2026-06-12]",
+    Chex_link="https://www.axosbank.com/business/support/faqs",
+    Notes="P2 UPGRADE: Chex freeze = hard blocker incl. business banking.")
+
+upd("Bank of America",
+    LexisNexis_SageStream="Yes — uses SageStream 'Credit Optics' score data for CREDIT decisions (cards/loans); 'extremely unlikely to deny for frozen SageStream' unless thin traditional file [DOC-LIST; article 2016-08-08]",
+    LN_link="https://www.doctorofcredit.com/bank-america-now-uses-sagestream-credit-optics-score-data-credit-decisions/",
+    Notes="P2: SageStream usage is credit-side, not deposit-screening; recorded per 4-column scheme.")
+
+upd("U.S. Bank (direct)",
+    Notes="P2: DoC article 'Two Credit Bureaus You Should Freeze Before You Apply For A U.S Bank Credit Card' (2015-05-26, since updated): SageStream (ex-IDA, now LexisNexis Risk Solutions) + ARS (Advanced Resolution Services, 5005 Rockside Rd, Independence OH); US Bank still approves when reports frozen/unavailable. Grade upgraded to DOC-LIST. https://www.doctorofcredit.com/two-credit-bureaus-you-should-freeze-before-you-apply-for-a-u-s-bank-credit-card/")
+
+for nm in ("Pacific Premier Bank", "Westamerica Bank", "Umpqua Bank (Columbia)", "California Coast Credit Union"):
+    upd(nm, Notes="P2: web-searched 2026-06-12 — no public deposit agreement naming a vendor and no DoC/forum DPs found; all four columns remain UNKNOWN (never guess).")
+
+# systemic QualiFile-LexisNexis linkage note
+for nm, base in rows.items():
+    pass  # documented in secondary_bureaus.md instead of per-row spam
+upd("Banner Bank",
+    Notes="SYSTEMIC (DoC): banks using the Chex QualiFile SCORE indirectly pull LexisNexis — frozen LexisNexis => abnormal Chex score => auto-decline 'citing frozen Chex'. Directly relevant to Banner's QualiFile auto-deny.")
+
 # ---------- write ----------
 FIELDS = ["Institution", "ChexSystems", "Chex_link", "EWS", "EWS_link",
           "LexisNexis_SageStream", "LN_link", "Other_secondary", "Other_link", "Notes"]
