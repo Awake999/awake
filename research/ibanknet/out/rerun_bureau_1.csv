@@ -1,0 +1,13 @@
+Rank,Institution,Current_grade,Current_bureau,Underwriter,Card
+1,"Bank of America, National Association",COMMUNITY-DP,EX-usual (CA mixed: EX/TU/EQ),SELF,YES
+27,REDWOOD CREDIT UNION,CONSUMER-PROXY,EQ (EQ FICO 5 for ALL credit products incl CLIs),SELF,YES
+45,CALIFORNIA FEDERAL CREDIT UNION (California Credit Union / ccu.com),CONSUMER-PROXY,Experian per myFICO DP ('after CCU and North Islan,,
+89,MidFirst Bank,CONSUMER-PROXY,"Mixed/any of three (WalletHub: 'may use EX, EQ, or",SELF,YES
+28,TRI COUNTIES BANK,UNKNOWN,UNKNOWN - no bureau DPs found on myFICO/CreditBoar,SELF,YES
+62,VALLEY STRONG CREDIT UNION,UNKNOWN,UNKNOWN (no DPs found),SELF,YES
+81,WEST COAST COMMUNITY BANK,UNKNOWN,UNKNOWN — zero pull DPs for WCCB or its prior name,SELF,YES
+98,MONTECITO BANK & TRUST,UNKNOWN,UNKNOWN - no bureau DPs; own Consumer Credit Card ,SELF,YES
+114,SAN FRANCISCO FIRE CREDIT UNION,UNKNOWN,UNKNOWN - zero pull DPs across myFICO/Reddit/Credi,SELF,YES
+141,HONDA FEDERAL CREDIT UNION,UNKNOWN,UNKNOWN — no pull DPs for Honda FCU cards (search ,SELF,YES
+182,UNCLE CREDIT UNION,UNKNOWN,UNKNOWN - no pull DPs (myFICO/Reddit/Yelp/BBB chec,SELF,YES
+249,"Sunflower Bank, National Association",UNKNOWN,UNKNOWN - no pull DPs; bank pages 403-block bots a,SELF,YES

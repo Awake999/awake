@@ -1,0 +1,13 @@
+Rank,Institution,Current_grade,Current_bureau,Underwriter,Card
+6,"Citibank, N.A. (AAdvantage Biz / Costco Biz)",CONSUMER-PROXY,Experian or Equifax most common nationally; AAdvan,,
+34,SAN DIEGO COUNTY CREDIT UNION,CONSUMER-PROXY,Experian — membership + card DPs on myFICO report ,SELF,YES
+69,PROVIDENT CREDIT UNION,CONSUMER-PROXY,UNKNOWN bureau — SuperMoney confirms hard pull on ,SELF,YES
+126,"UMB Bank, National Association",CONSUMER-PROXY,TU-usual (consumer DPs); biz Visa Signature Busine,SELF,YES
+50,TRAVIS CREDIT UNION,UNKNOWN,UNKNOWN — no indexed bureau DP for Travis CU on my,SELF,YES
+75,PREMIER AMERICA CREDIT UNION,UNKNOWN,UNKNOWN — three search passes found zero bureau DP,SELF,YES
+92,AVIDBANK,UNKNOWN,"UNKNOWN — commercial card program, no pull DPs any",SELF,YES
+109,BENEFICIAL STATE BANK,UNKNOWN,UNKNOWN — no pull DPs; terms not even published (b,SELF,YES
+125,CHRISTIAN COMMUNITY CREDIT UNION,UNKNOWN,UNKNOWN — no pull DPs for either Christian Communi,SELF,YES
+169,AMERICA'S CHRISTIAN CREDIT UNION,UNKNOWN,UNKNOWN - no pull DPs anywhere (niche ministry-foc,SELF,YES
+202,Shinhan Bank America,UNKNOWN,UNKNOWN — no pull DPs; primary deposit/loan relati,SELF,YES
+341,Bank of Guam,UNKNOWN,UNKNOWN (no DPs; Guam-based underwriting),SELF,YES

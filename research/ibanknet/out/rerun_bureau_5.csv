@@ -1,0 +1,13 @@
+Rank,Institution,Current_grade,Current_bureau,Underwriter,Card
+20,"Zions Bancorporation, N.A.",CONSUMER-PROXY,Mixed TU/EQ/EX by geography (consumer DPs); no biz,SELF,YES
+41,KINECTA FEDERAL CREDIT UNION,CONSUMER-PROXY,EX (single consumer DP),SELF,YES
+85,ALTURA FEDERAL CREDIT UNION,CONSUMER-PROXY,Experian per myFICO DPs ('Altura pulls EXP'); $20K,SELF,YES
+17,Western Alliance Bank,UNKNOWN,UNKNOWN — no bureau DPs surfaced on myFICO/CreditB,SELF,YES
+53,FIVE STAR BANK,UNKNOWN,UNKNOWN (no DPs for the Roseville CA bank),SELF,YES
+79,Banner Bank,VERIFIED-DISCLOSURE,UNKNOWN bureau; personal pull confirmed structural,SELF,YES
+95,COAST CENTRAL CREDIT UNION,UNKNOWN,UNKNOWN (no DPs; paper-app channel),SELF,YES
+110,MONTERRA CREDIT UNION,UNKNOWN,UNKNOWN for cards (checking DP: soft online / hard,SELF,YES
+134,SESLOC CREDIT UNION,UNKNOWN,UNKNOWN (no DPs),SELF,YES
+172,SACRAMENTO CREDIT UNION,UNKNOWN,UNKNOWN — no pull DPs indexed,SELF,YES
+221,YOLO FEDERAL CREDIT UNION,UNKNOWN,UNKNOWN — no pull DPs indexed,SELF,YES
+373,SLO CREDIT UNION,UNKNOWN,UNKNOWN - zero forum footprint; local case-by-case,SELF,YES
