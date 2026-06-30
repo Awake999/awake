@@ -1,0 +1,36 @@
+Institution,Type,Issuer rail,Bureau hard-pulled (biz),Hard/Soft,Evidence grade,DP date,Source link,myFICO,CredBoards,Reddit,DoC,WalletHub,OwnDisc
+BMO Bank National Association,Bank,SELF,TU,HARD,COMMUNITY-DP,2023-2025,https://fairfigure.com/blog/business-credit-cards-that-pull-transunion,Y,,,,,Y
+City National Bank,Bank,SELF,EX (consumer Crystal DPs; commercial card undisclosed),HARD,CONSUMER-PROXY,2019-2021 (Crystal,https://ficoforums.myfico.com/t5/Credit-Cards/City-National-Bank-Crystal-credit-card-review/td-p/5469704,Y,,,,,Y
+PATELCO,CU,SELF (Mastercard),EX,HARD (personal c,CONSUMER-PROXY,2020-2024 (consume,https://ficoforums.myfico.com/t5/Credit-Card-Approvals/Patelco-CU-Pure-MasterCard-10-000-00-Approved/td-p/6314291,Y,,,,,Y
+PROVIDENT,CU,SELF,UNKNOWN,HARD (no soft pr,CONSUMER-PROXY,n/a,https://www.providentcu.org/business/business-credit-cards,,,,,,Y
+THE GOLDEN 1,CU,SELF,EX,HARD,CONSUMER-PROXY,~2019-2024,https://ficoforums.myfico.com/t5/Credit-Cards/Golden-1-Credit-Union-Which-Bureau-do-they-Pull/td-p/5424465,Y,,,,,Y
+"Zions Bancorporation, N.A.",Bank,SELF,UNKNOWN (consumer DPs mixed TU/EQ/EX by geography),HARD,CONSUMER-PROXY,2013 (stale consum,https://ficoforums.myfico.com/t5/Credit-Cards/Anyone-with-experience-Zion-Bancorp/td-p/1835533,Y,,,,,Y
+Bank of Marin,Bank,Elan,follows-rail (TU-usual; EX/EQ possible),HARD,RAIL-INFERENCE,2022-2025,https://ficoforums.myfico.com/t5/Business-Credit/Elan-Business-Cards-Credit-Bureau-Pull/td-p/6666184,Y,,,,,
+Cathay Bank,Bank,Elan,follows-rail,HARD (shows as E,RAIL-INFERENCE,2023-2025,https://ficoforums.myfico.com/t5/Business-Credit/Elan-Business-Cards-Credit-Bureau-Pull/td-p/6666184,Y,,,,,
+East West Bank,Bank,Elan,follows-rail,HARD (shows as E,RAIL-INFERENCE,2023-2025,https://www.eastwestbank.com/en/small-mid-size-businesses/disbursements-and-payments,Y,,,,,
+"EverBank, National Association",Bank,Elan,follows-rail,HARD (shows as E,RAIL-INFERENCE,2023-2025,https://ficoforums.myfico.com/t5/Business-Credit/Elan-Business-Cards-Credit-Bureau-Pull/td-p/6666184,Y,,,,,Y
+Farmers & Merchants Bank of Central California,Bank,Elan,follows-rail (TU-usual; EX/EQ possible),HARD,RAIL-INFERENCE,2022-2025,https://www.fmb.com/,Y,,,,,
+First Federal Savings and Loan Association of San Rafael,Bank,Elan,follows-rail,HARD (shows as E,RAIL-INFERENCE,2023-2025,https://ffsavings.com/,Y,,,,,
+First Foundation Bank,Bank,Elan,follows-rail (TU-usual; EX/EQ possible),HARD,RAIL-INFERENCE,2022-2025,https://www.firstfoundationinc.com/credit-card-login,Y,,,,,Y
+Heritage Bank of Commerce,Bank,Elan,follows-rail (TU-usual; EX/EQ possible),HARD,RAIL-INFERENCE,2022-2025 (Elan ra,https://www.cbbank.com/business-services/business-credit-cards,Y,,,,,Y
+Mechanics Bank,Bank,Elan,follows-rail (TU-usual; EX/EQ possible),HARD,RAIL-INFERENCE,2022-2025,https://ficoforums.myfico.com/t5/Business-Credit/Elan-Business-Cards-Credit-Bureau-Pull/td-p/6666184,Y,,,,Y,
+Metropolitan Bank,Bank,Elan,follows-rail,HARD (shows as E,RAIL-INFERENCE,2023-2025,https://mbonlineportal.com/business/business-credit-cards/,Y,,,,,Y
+Poppy Bank,Bank,Elan,follows-rail,HARD (shows as E,RAIL-INFERENCE,2023-2025,https://www.poppy.bank/business-checking-accounts/,Y,,,,,Y
+United Business Bank,Bank,Elan,follows-rail,HARD (presumed; ,RAIL-INFERENCE,2023-2025,https://www.unitedbusinessbank.com/loans-credit/business-credit/business-credit-cards.html,Y,,,,,
+BLUPEAK,CU,SELF,UNKNOWN,HARD (presumed),UNKNOWN,n/a,https://www.blupeak.com/member-assistance/digital-banking/,,,,Y,,
+Beneficial State Bank,Bank,SELF (issuer/rail undisc,UNKNOWN,HARD (assumed),UNKNOWN,n/a,https://wallethub.com/credit-cards/beneficial-state-bank-13004997i,,,,,Y,Y
+Commercial Bank of California,Bank,SELF,UNKNOWN,UNKNOWN,UNKNOWN,n/a,https://cbcal.com/,,,,,,Y
+Fremont Bank,Bank,SELF (CorServ/Apex),UNKNOWN,HARD (presumed),UNKNOWN,n/a,https://www.fremontbank.com/business/credit/platinum-rewards-credit-card,,,,,,Y
+NUVISION,CU,SELF (self-branded Visa;,UNKNOWN,HARD (presumed),UNKNOWN,n/a,https://nuvisionfederal.com/business-banking/credit-cards,,,,,,Y
+SELF-HELP,CU,SELF (Mastercard),UNKNOWN,HARD (presumed),UNKNOWN,n/a,https://www.self-helpfcu.org/business,,,,,,Y
+Summit Bank,Bank,SELF (third-party provid,UNKNOWN,HARD (presumed),UNKNOWN,n/a,https://www.summitbanking.com/business/loans/credit-cards/,,,,,,Y
+Western Alliance Bank,Bank,SELF,UNKNOWN,HARD (presumed; ,UNKNOWN,n/a,https://www.westernalliancebancorporation.com/small-business/credit-cards/business-plus-credit-card,,,,,,Y
+COMMUNITYAMERICA,CU,SELF,UNKNOWN (weak TU lean),HARD,CONSUMER-PROXY,~2018-2024,https://www.communityamerica.com/business/borrow/business-financing/business-credit-cards,Y,,,,,Y
+1ST UNITED,CU,SELF,UNKNOWN (no business card product found),n/a,UNKNOWN,n/a,https://www.1stunitedcu.org/loans-and-credit/product/credit-cards,,,,,,Y
+Bank of the Orient,Bank,n/a,UNKNOWN (no business card product found),n/a,UNKNOWN,n/a,https://www.bankorient.com/en-us/,,,,,,Y
+F3,CU,SELF,UNKNOWN (no business card product found),n/a,UNKNOWN,n/a,https://www.f3creditunion.com/product/visa-credit-cards/,,,,,,
+"Gateway Bank, F.S.B.",Bank,n/a,UNKNOWN (no business card product found),n/a,UNKNOWN,n/a,https://www.gatewayfsb.com/,,,,,,
+I.L.W.U.,CU,SELF,UNKNOWN (no business card product found),n/a,UNKNOWN,n/a,https://www.ilwucu.org/loans/credit_cards,,,,,,
+"Industrial and Commercial Bank of China USA, National Association",Bank,SELF (no business card i,UNKNOWN,UNKNOWN,UNKNOWN,n/a,https://www.icbc-us.com/en/column/1438058492123824159.html,,,,Y,,
+SEA WEST COAST GUARD,CU,SELF (no business card i,UNKNOWN,HARD (presumed),UNKNOWN,n/a,https://seawest.coop/credit-cards,,,,,,Y
+UTILITY DISTRICT,CU,SELF (no business card; ,UNKNOWN,UNKNOWN,UNKNOWN,n/a,https://udcu.org/,,,,,,
