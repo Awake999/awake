@@ -75,3 +75,6 @@ mycommunitycc.com apply link in searches and were not positively confirmed on th
 - https://www.ovcb.com/commerical/loans/credit-cards/
 - https://www.tcmbank.com/cardholder-services ; https://www.tcmbank.com/contact-us
 - FDIC BankFind API (CERTs 25869, 58297, 19434, 33457; call reports 2026-03-31)
+
+
+> **CORRECTION 2026-06-30:** TCM Bank hard-inquiry bureau = **UNKNOWN / under-documented** (re-verified). The earlier "Experian" call was hearsay + a TCB misattribution; TransUnion is also unsupported. TCM names no bureau in its agreement. Confirm directly: TCM underwriting 1-800-883-0131. See tcm_bureau_verify.md.

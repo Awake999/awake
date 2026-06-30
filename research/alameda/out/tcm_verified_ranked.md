@@ -73,3 +73,6 @@ Searches for `mycommunitycc.com California bank business credit card` and `TCM B
 - Woori America Bank: https://www.wooriamericabank.com/Business-Credit-Cards (MyCardStatement; no mycommunitycc rail)
 - Wallis Bank: https://www.wallisbank.com/visa-business-credit-cards/ (bot-walled; no TCM evidence)
 - FDIC BankFind: https://banks.data.fdic.gov/bankfind-suite/
+
+
+> **CORRECTION 2026-06-30:** TCM Bank hard-inquiry bureau = **UNKNOWN / under-documented** (re-verified). The earlier "Experian" call was hearsay + a TCB misattribution; TransUnion is also unsupported. TCM names no bureau in its agreement. Confirm directly: TCM underwriting 1-800-883-0131. See tcm_bureau_verify.md.
