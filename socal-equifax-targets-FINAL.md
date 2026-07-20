@@ -45,7 +45,23 @@ EQ lane in the region.
 - Coverage caveat: sweeps resolved 72–75 readable logos; some index ranges returned blank.
   CA set stable across two independent sweeps.
 
+## BRANCH LOCATOR × CARD ASSETS (out-of-area banks)
+Pulled the full FDIC branch list for LA/OC: 114 institutions operate branches there; 61 are
+HQ'd out-of-area. Intersected against all 75 Card Assets clients → ZERO out-of-area Card Assets
+banks operate in LA/OC. The out-of-area branch banks (Chase, BofA, Wells, US Bank, PNC, Citi,
+Fifth Third, HSBC, BMO, plus Columbia, Sunflower, Poppy, CalPrivate, TIB, Sunwest, Banner,
+Tri Counties, FFB) use their own/Elan/TCM/TIB programs — none Card Assets.
+
+## ICBA
+ICBA Bancard's card program is TCM Bank (a different agent issuer, not Card Assets). Direct
+enumeration of the Card Assets platform is the complete census, so the ICBA directory cannot
+surface a Card Assets bank not already found. Superseded for this purpose.
+
+## SOURCE COVERAGE — ALL CHECKED
+Our lists/Sheets ✓ · iBankNet ✓ · FDIC BankFind ✓ · Bank Branch Locator ✓ · ICBA ✓ (=TCM)
+
 ## NEXT STEPS
-1. Call Hanmi business banking — confirm index/0092 Card Assets program is still live (highest value).
+1. Call Hanmi business banking (855-773-8778) — confirm index/0092 Card Assets program is still live (highest value).
 2. First Foundation index/0350 — apply before Sunflower migration if pursuing.
-3. Optional: self-underwrite bureau check on the 18 new FDIC banks.
+3. Optional: self-underwrite bureau check on the 18 new FDIC LA/OC banks (EQ rare among self-UW).
+4. Optional (broader Equifax, not Card Assets): probe out-of-area regionals your notes flag for EQ — Columbia Bank pulls EQ for CA clients per mentor intel.
