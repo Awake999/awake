@@ -1,0 +1,997 @@
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--
+##########################################################################
+#
+# FILE :         /callreports/ilclist.shtml
+# COPYRIGHT :    HighRidge Technologies Incorporated
+# PURPOSE :      iBanknet Leading Institutions Page
+#
+##########################################################################
+-->
+
+<HTML>
+<HEAD>
+
+<TITLE>iBanknet | Wisconsin - Federal Savings Banks </TITLE>
+
+<META content="text/html; charset=iso-8859-1" http-equiv=Content-Type>
+<META content="MSHTML 5.00.2614.3500" name=GENERATOR>
+<META name="Description" content="iBanknet | Wisconsin - Federal Savings Banks">
+<META name="keywords" content="iBanknet | Wisconsin - Federal Savings Banks">
+
+<!-- ibanknetutilities.inc : Start -->
+
+<script Language="JavaScript">
+if (top!=self) top.location.href=self.location.href;
+
+// *-------------------------------------------------------------------------
+// * Javascript Utilities Include
+// *-------------------------------------------------------------------------
+
+
+// * Get and Write the current Date function
+function getDatestamp() {
+	var today = new Date();
+	var cc_days = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+	var cc_months = new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+	var cc_year = today.getYear();
+	if (cc_year > 99 && cc_year < 200) {cc_year += 1900} else { if (cc_year < 100) {cc_year = 2000 + cc_year}}
+
+    document.write('\n' +
+				'<center>\n' +
+				'       <font class="description">\n' +
+					cc_months[today.getMonth()] + '&nbsp;' + today.getDate() + ' | ' + cc_year + '\n' +
+				'       </font>\n' +
+				'</center>\n')
+
+/*				cc_days[today.getDay()] + '<br>' + cc_months[today.getMonth()] + '&nbsp;' + today.getDate() + ' | ' + cc_year + '\n' +  */
+
+}
+
+// * Process the requested link
+function SubmitLink(f, e) {
+    if (e.options.selectedIndex <= 0)
+	return false;
+    else {
+	f.action = e.options[e.selectedIndex].value;
+	f.submit();
+    }
+}
+
+function SubmitEmail(user,domain) {
+    locationstring = "mailto:" + user + "@" + domain;
+    window.location = locationstring;
+}
+
+</script>
+
+<!--
+SiteSeal Html Builder Code:
+Shows the logo at URL https://seal.networksolutions.com/images/confirmsqblue.gif
+Logo type is  ("NETSS")
+<script language="JavaScript" src="https://seal.networksolutions.com/siteseal/javascript/siteseal.js" type="text/javascript"></script>
+//-->
+
+
+<!-- Google Analytics 4 : Start -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T623J4PDWH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-18474688-1');
+  gtag('config', 'G-T623J4PDWH');
+</script>
+<!-- Google Analytics 4 : End -->
+
+
+<!-- Google Analytics : Start -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18474688-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- Google Analytics : End -->
+
+
+
+<!-- ibanknetutilities.inc : End -->
+
+    
+	<!--*** Google reCAPTCHA : Start 
+	<script src="https://www.google.com/recaptcha/api.js?render=6LcaIC8lAAAAAPtj9FhNWj7Wxwo2aB045dpxOw_x"></script>
+	<script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LcaIC8lAAAAAPtj9FhNWj7Wxwo2aB045dpxOw_x', { action: 'filist' }).then(function (token) {
+                //console.log('reCAPTCHA token', token);
+                validateReCaptcha(token);
+            });
+        });
+
+        // * Get the ibanknet base content using xmlhttp
+        function validateReCaptcha(token) {
+            var xmlhttp = get_RequestObject();  // create a new request object
+            var tab1html = '';
+            // do the xmlhttp to get the content
+            xmlhttp.open("GET", "/scripts/reCaptcha.aspx?token=" + token, true);
+
+            xmlhttp.onreadystatechange = function () {
+                if (xmlhttp.readyState == 4) {
+                    let status = xmlhttp.responseText;
+                    status = status.trim();
+                    //alert(status);
+                    if (status == "false") {
+                        window.location.href = "/error.shtml"
+                    }
+                    //                    document.getElementById("result").innerHTML = xmlhttp.responseText;
+                }
+            }
+            xmlhttp.send(null)
+        } // end get_ibanknetbase function
+
+        // * Get the xmlhttp request object depending on the browser
+        function get_RequestObject() {
+            var objRequest;
+            if (window.ActiveXObject) {
+                if (tc) {
+                    try {
+                        objRequest = new ActiveXObject('Msxml2.XMLHTTP');  // IE 6+
+                    }
+                    catch (e) {
+                        try {
+                            objRequest = new ActiveXObject('Microsoft.XMLHTTP');  // IE 5.5
+                        }
+                        catch (f) { }
+                    }
+                } else {
+                    objRequest = new ActiveXObject('Microsoft.XMLHTTP');  // ? IE 5.0 ?
+                }
+            } else if (window.XMLHttpRequest) {
+                objRequest = new XMLHttpRequest();  // All other browsers, inc. IE 7 and DOM 3
+            }
+            return objRequest;
+        } // end get_RequestObject function
+
+    </script>-->
+	<!--*** Google reCAPTCHA : End -->
+	
+
+
+</HEAD>
+
+<!-- Header : Start -->
+
+<!-- iBanknet Stylesheet Link -->
+<link REL="STYLESHEET" TYPE="text/css" HREF="/stylesheets/ibanknet2.css">
+<link REL="STYLESHEET" TYPE="text/css" HREF="/stylesheets/ibn1438.css">
+
+<BODY bgcolor="#FFFFFF" style="margin: 0px" onload="window.defaultStatus='Wisconsin - Federal Savings Banks'">
+
+<!-- new -->
+<TABLE width=100% cellSpacing=0 cellPadding=0 bgColor=#ffffff border=0><tr><td>
+<!-- new -->
+
+<!-- TOP NAVIGATION :  Start -->
+<TABLE width=100% bgcolor=#f0f1f5 width="100%" cellpadding=0 border="0" cellspacing=0>
+
+<!-- ibanknetheader.inc : Start -->
+
+<!-- Header.inc : Start -->
+
+<!--
+SiteSeal Html Builder Code:
+Shows the logo at URL https://seal.networksolutions.com/images/confirmsqblue.gif
+Logo type is  ("NETSS")
+<script language="JavaScript" src="https://seal.networksolutions.com/siteseal/javascript/siteseal.js" type="text/javascript"></script>
+//-->
+
+
+
+<tr>
+    <td align="top"><br /></td>
+    <td align="center">
+
+      <!-- #BANNERAD -->
+ 
+<!-- #GOOGLE ADSENSE -->
+<script type="text/javascript"><!--
+    google_ad_client = "pub-9598466570540266";
+    /* 728x90, created 8/28/10 */
+    google_ad_slot = "0094210102";
+    google_ad_width = 728;
+    google_ad_height = 90;
+//-->
+</script>
+<!-- orig
+	<script type="text/javascript"
+		    src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+		</script>
+-->
+<!-- Code generated 20230906 : start -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9598466570540266"
+     crossorigin="anonymous"></script>
+<!-- iBanknet Header Banner 728x90 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-9598466570540266"
+     data-ad-slot="0094210102"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- Code generated 20230906 : end -->
+<!-- #GOOGLE ADSENSE -->
+
+<!-- #ENDBANNERAD -->
+  </td></tr>
+
+
+  <!-- search button -->
+<!--
+  <tr>
+    <td class=pagebody vAlign=top colspan=2 align=right>
+      &nbsp;::&nbsp;</b><A class=topnav  title="[Query Google Base]" href="/scripts/callreports/googlebase.aspx"
+                        target=new>search</A>
+
+      &nbsp;::&nbsp;</b><A class=topnav title="[site map]" href="/sitemap/index.shtml" >site map</A> </td>
+  </tr>
+-->
+<!--
+  <tr><td class=pagebody colspan=2 nowrap valign=top align=right><form name="searchform" method=POST accept-charset="iso-8859-1" action="/search.shtml"><input class=textbox type="text" name="searchtxt" maxlength="1991" size="12" style='font-family: verdana, arial, geneva, sans-serif; font-size: 11px;'>&nbsp;&nbsp;<input type="submit" value="search" class="button"><b>&nbsp;::&nbsp;</b><A href="/sitemap/index.shtml" title="[site map]" class="topnav">site map</A></td></form></tr>
+-->
+  <!-- logo -->
+<tr>
+  <td align="top" width="1%">
+    <a href="/index.html">
+      <img src="/images/ibanknet.gif" width="175" height="50" border="0" title="[iBanknet Financial Reports Center]">
+    </a>
+  </td>
+  <!-- <td align="top"><br /></td> -->
+  <td align="right" valign="bottom" colspan="2"><br /><form action="https://www.ibanknet.com/searchresults.shtml" id="cse-search-box"><div><input type="hidden" name="cx" value="partner-pub-9598466570540266:ttwwmv-8cjp" /><input type="hidden" name="cof" value="FORID:10" /><input type="hidden" name="ie" value="ISO-8859-1" /><input type="text" name="q" size="17" style='font-family: verdana, arial, geneva, sans-serif; font-size: 10px;' />&nbsp;<input type="submit" name="sa" style='font-family: verdana, arial, geneva, sans-serif; font-size: 10px;' value="Search" /></form><script type="text/javascript" src="https://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script></td>
+</tr>
+
+  <!-- top nav & view cart -->
+  <tr>
+    <td colspan="2" align="center" width="100%">
+      <TABLE border="0" cellpadding="0" cellspacing="0">
+	    <tr><td align=center valign=top NOWRAP width=90%><font class="topnav">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>&nbsp;&nbsp;::&nbsp;&nbsp;<a href="/widgets/index.shtml" class="topnav" title="[widgets/gadgets]">Widgets</a>&nbsp;&nbsp;::&nbsp;&nbsp;<a href="/about/index.shtml" class="topnav" title="[about]">About</a>&nbsp;&nbsp;::&nbsp;&nbsp;<a href="/news/index.shtml" class="topnav" title="[news]">News</a>&nbsp;&nbsp;::&nbsp;&nbsp;<a href="/contact/index.shtml" class="topnav" title="[contact]">Contact</a>&nbsp;&nbsp;::&nbsp;&nbsp;</font></B></td><td nowrap width=1% valign=top align=right><br /><br /></td></tr>
+      </TABLE>
+    </td>
+  </tr>
+<!-- Header.inc : End -->
+
+
+<!-- ibanknetheader.inc : End -->
+
+  <tr bgcolor="#dde3eb"><td height=1 colspan=2><IMG height=1 alt="" src="/images/spacer.gif" border=0 /><font class="dotpointer">:&middot;&nbsp;</font><font class="subnavtext">wisconsin - federal savings banks</td></tr>
+</TABLE>
+<!-- TOP NAVIGATION :  End -->
+
+<!-- Header : End -->
+
+
+<!-- Page Body : Start -->
+
+<TABLE border="0" cellpadding="0" width="100%">
+
+<TR>
+<TD WIDTH=1 BGCOLOR="#ffffff" rowspan="3"><img src="/Images/Transparent.gif" width=1 height=1 border=0></TD>
+<TD width="5" rowspan="3">&nbsp;</TD>
+<TD rowspan="3" valign="top">
+
+<!-- LEFT NAVIGATION :  Start -->
+<table cellpadding=0 border="0" cellspacing=0>
+  <tr class=pagebody>
+   <td width="15%" valign="top">
+
+		<br />
+
+        <!--CURRENT DATE -->
+        <script>getDatestamp();</script>
+
+		<br />
+
+		<!-- ibanknetlogin.inc : Start -->
+		<!-- iBankneSideNav.inc : Start -->
+<table cellSpacing="0" cellPadding="2" width="100%" border="0">
+  <!-- Featured -->
+  <tr bgColor="#333366">
+    <td class="leftnavtitle11white" colspan="2">
+      <center>Featured</center>
+    </td>
+  </tr>
+<!--
+
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[National Summary of Deposits]" href="/scripts/callreports/filist.aspx?type=sodsummary" >2025 National Summary of Deposits</A>
+    </td>
+  </tr>
+    <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[COVID-19 PPP National Summary]" href="/scripts/callreports/fiList.aspx?type=pppsummary">COVID-19 PPP National Summary</A>
+    </td>
+  </tr>
+  -->
+
+<!--
+  <tr class="leftnavtext11" vAlign="top">
+    <td><img src="/images/sec16x16.jpg" border="0" /></td>
+    <td>
+      <A href="/scripts/callreports/fiList.aspx?type=secbanks" class=leftnavtext11 title="[SEC Banks]">SEC Banks</A>
+    </td>
+  </tr>
+-->
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[Bank Mergers and Acquisitions]" href="/scripts/callreports/fiList.aspx?type=bankmanda">Bank Mergers &amp; Acquisitions</A>
+    </td>
+  </tr>
+    <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[Holding Company Mergers and Acquisitions]" href="/scripts/callreports/fiList.aspx?type=bhcmanda">Holding Company Mergers &amp; Acquisitions</A>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[Credit Union Mergers and Acquisitions]" href="/scripts/callreports/fiList.aspx?type=ncuamanda">Credit Union Mergers &amp; Acquisitions</A>
+    </td>
+  </tr>
+
+  <!--
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[Bank Filing Updates]" href="/scripts/callreports/fiList.aspx?type=filingupdates" >Bank Filing Updates</A>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[Holding Company Filing Updates]" href="/scripts/callreports/fiList.aspx?type=fryfilingupdates" >Holding Company Filing Updates</A>
+    </td>
+  </tr>
+  -->
+  <!--
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[Institution Failures]" href="/scripts/callreports/filist.aspx?type=failures" >Institution Failures</A>
+    </td>
+  </tr>
+  -->
+  <tr><td colspan="2"><br /></td>  </tr>
+
+  <!-- Top Institutions -->
+  <tr bgColor="#eeeeee">
+    <td class="leftnavtitle11" colspan="2">
+      <center>Top Institutions</center>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>
+      <img src="/images/holdingcompany16x16.jpg" border="0" />
+    </td>
+    <td>
+      <A class="leftnavtext11" title="[Holding Companies]" href="/scripts/callreports/fiList.aspx?type=fry9" >Holding Companies</A>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>
+      <img src="/images/bank16x16.jpg" border="0" />
+    </td>
+    <td>
+      <A class="leftnavtext11" title="[Banks]" href="/scripts/callreports/fiList.aspx?type=031" >Banks</A>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>
+      <img src="/images/thrift16x16.jpg" border="0" />
+    </td>
+    <td>
+      <A class="leftnavtext11" title="[Federal Savings Banks]" href="/scripts/callreports/fiList.aspx?type=ots" >Federal Savings Banks</A>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>
+      <img src="/images/creditunion16x16.jpg" border="0" />
+    </td>
+    <td>
+      <A class="leftnavtext11" title="[Credit Unions]" href="/scripts/callreports/fiList.aspx?type=ncua" >Credit Unions</A>
+    </td>
+  </tr>
+
+  <tr><td colspan="2"><br /></td></tr>
+
+  <!-- SEC Submissions -->
+  <tr bgColor="#eeeeee">
+    <td class="leftnavtitle11" colspan="2">
+      <center>SEC Submissions</center>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td><img src="/images/sec16x16.jpg" border="0" /></td>
+    <td>
+      <A class="leftnavtext11" title="[SEC Banks]" href="/scripts/callreports/fiList.aspx?type=secbanks" >Banks</A>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td><img src="/images/sec16x16.jpg" border="0" /></td>
+    <td>
+      <A class="leftnavtext11" title="[SEC Savings Associations]" href="/scripts/callreports/fiList.aspx?type=secfsa" >Savings Associations</A>
+    </td>
+  </tr>
+    <tr class="leftnavtext11" vAlign="top">
+    <td><img src="/images/sec16x16.jpg" border="0" /></td>
+    <td>
+      <A href="/scripts/callreports/fiList.aspx?type=secfca" class=leftnavtext11 title="[Federal Credit Agencies]">Federal Credit Agencies</A>
+    </td>
+  </tr>
+<!--
+    <tr class="leftnavtext11" vAlign="top">
+    <td><img src="/images/sec16x16.jpg" border="0" /></td>
+    <td>
+      <A class="leftnavtext11" title="[SEC Banks]" href="/scripts/callreports/fiList.aspx?type=secbanksnec" >Commercial Banks (NEC)</A>
+    </td>
+  </tr>
+  -->
+
+  <tr><td colspan="2"><br /></td></tr>
+
+  <!-- Specialized Banks -->
+  <tr bgColor="#eeeeee">
+    <td class="leftnavtitle11" colspan="2">
+      <center>Specialized Banks</center>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[SCorp Banks]" href="/scripts/callreports/fiList.aspx?type=scorp" >SCorp Banks</A>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[Industrial Loan Companies]" href="/scripts/callreports/fiList.aspx?type=ilc" >Industrial Loan Companies</A>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[Foreign Banking Organizations]" href="/scripts/callreports/fiList.aspx?type=fbo" >Foreign Banking Organizations</A>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[Non-Depository Trust Banks]" href="/scripts/callreports/fiList.aspx?type=ndtrust">Non-Depository Trust Banks</A>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[Bankers Banks]" href="/scripts/callreports/fiList.aspx?type=bb" >Bankers Banks</A>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[Credit Card Banks]" href="/scripts/callreports/fiList.aspx?type=creditcard" >Credit Card Banks</A>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[Custodial Banks]" href="/scripts/callreports/filist.aspx?type=custodial" >Custodial Banks</A>
+    </td>
+  </tr>
+
+  <tr><td colspan="2"><br /></td></tr>
+
+  <!-- Bank Map -->
+  <tr bgColor="#eeeeee">
+    <td class="leftnavtitle11" colspan="2">
+      <center>Bank Map</center>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td colspan="2" align="center">
+      <A title="[Interactive Bank Map]" href="/bankmap/index.shtml">
+        <IMG src="/images/maps/usmap_nav.gif" border="0">
+      </A>
+    </td>
+  </tr>
+
+  <tr><td colspan="2"><br /></td></tr>
+
+  <!-- General Interest -->
+  <tr bgColor="#eeeeee">
+    <td class="leftnavtitle11" colspan="2">
+      <center>General Interest</center>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[COVID-19 PPP National Summary]" href="/scripts/callreports/fiList.aspx?type=pppsummary">COVID-19 PPP National Summary</A>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[New Formations]" href="/scripts/callreports/filist.aspx?type=newformations" >New Formations</A>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[De Novo Banks]" href="/scripts/callreports/filist.aspx?type=denovo" >De Novo Banks</A>
+    </td>
+  </tr>
+  <!--
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[Holding Company Filing Updates]" href="/scripts/callreports/fiList.aspx?type=fryfilingupdates" >Holding Company Filing Updates</A>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[Bank Filing Updates]" href="/scripts/callreports/fiList.aspx?type=filingupdates" >Bank Filing Updates</A>
+    </td>
+  </tr>
+  -->
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[Institution Failures]" href="/scripts/callreports/filist.aspx?type=failures" >Institution Failures</A>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[America's Oldest Banks]" href="/scripts/callreports/filist.aspx?type=oldestbanks" >America's Oldest Banks</A>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[National Summary of Deposits]" href="/scripts/callreports/filist.aspx?type=sodsummary" >National Summary of Deposits</A>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[External Auditors]" href="/scripts/callreports/filist.aspx?type=auditor" >External Auditors</A>
+    </td>
+  </tr>
+
+  <tr><td colspan="2"><br /></td></tr>
+
+  <!-- Mergers & Acquisitions -->
+  <tr bgColor="#eeeeee">
+    <td class="leftnavtitle11" colspan="2">
+      <center>
+        Mergers &amp; Acquisitions
+      </center>     
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[Holding Company Mergers and Acquisitions]" href="/scripts/callreports/fiList.aspx?type=bhcmanda">Holding Company Mergers &amp; Acquisitions</A>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[Bank Mergers and Acquisitions]" href="/scripts/callreports/fiList.aspx?type=bankmanda">Bank Mergers &amp; Acquisitions</A>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[Credit Union Mergers and Acquisitions]" href="/scripts/callreports/fiList.aspx?type=ncuamanda">Credit Union Mergers &amp; Acquisitions</A>
+    </td>
+  </tr>
+
+  <tr><td colspan="2"><br /></td></tr>
+
+  <!-- Off Balance Sheet -->
+  <tr bgColor="#eeeeee">
+    <td class="leftnavtitle11" colspan="2">
+      <center>Off Balance Sheet</center>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[Holding Company Credit Default Swaps]" href="/scripts/callreports/filist.aspx?type=hccds" >Holding Company Credit Default Swaps</A>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[Bank Credit Default Swaps]" href="/scripts/callreports/filist.aspx?type=bankcds" >Bank Credit Default Swaps</A>
+    </td>
+  </tr>
+<!--
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[Foreign Banking Organization (FBO) Credit Default Swaps]" href="/scripts/callreports/filist.aspx?type=fbocds" >FBO Credit Default Swaps</A>
+    </td>
+  </tr>
+-->
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[Derivatives]" href="/scripts/callreports/filist.aspx?type=derivatives" >Derivatives</A>
+    </td>
+  </tr>
+  <tr class="leftnavtext11" vAlign="top">
+    <td>::</td>
+    <td>
+      <A class="leftnavtext11" title="[Credit Union Derivatives]" href="/scripts/callreports/filist.aspx?type=ncuaderivatives" >Credit Union Derivatives</A>
+    </td>
+  </tr>
+
+</table>
+<!-- iBankneSideNav.inc : End -->
+
+		<!-- ibanknetlogin.inc : End -->
+      
+      <br>
+      </td>
+<!-- LEFT NAVIGATION :  End -->
+      
+<!-- LEFT/MIDDLE SEPARATOR :  Start -->
+    <td width="5" bgcolor="#ffffff" rowspan="10"><img src="/images/blank.gif" width="10"></td>
+    <td width="1" bgcolor="#333366" rowspan="5"><img src="/images/blank.gif" width="1"></td>
+    <td width="10" rowspan="5">&nbsp;</td>
+<!-- LEFT/MIDDLE SEPARATOR :  End -->
+
+<!-- MIDDLE NAVIGATION :  Start -->
+    <td width="80%" height="100%" rowspan="5" valign="top" cellpadding=5 cellspacing=0 border=0 class=pagebody>
+
+		<!-- #BeginEditable "text" -->
+		<a name='top' />
+
+		<br />
+
+		<div class="blockuhilite"><font class="blockuhilite">Wisconsin - Federal Savings Banks</font></div><font class="pagebody">
+		<br />
+		<center><table width="95%" cellpadding="4" cellspacing="0" border="0">
+		<tr>
+                <td class="pagebody">
+Following is a comprehensive list of Federal Savings Banks based in Wisconsin.<br /><br />This list can be sequenced by institution name, federal regulator, city, deposit asset ratio, deposits or total assets by clicking on the label at the head of the column. 
+		</td></tr>
+       <tr>
+		<td  align="right">
+		<p><font class="pagebody">
+
+		</p>
+       </td></tr><td /><tr /></table></center>
+<br><font class="hrblockheadline">Reporting Period - quarter ended <c:period type="date">20260331</c:period> :</font><br /><br />
+<center><table width="95%" cellpadding="2" cellspacing="0" border="0">
+<tr class="hrbgcolor2">
+  <td class="hrbodyboxtitle" nowrap="1" valign="top">
+    <a href="/scripts/callreports/fiList.aspx?type=statethrift&amp;state=55&amp;sort=name">Name</a>
+  </td>
+  <td class="hrbodyboxtitle" nowrap="1" valign="top">
+    <a href="/scripts/callreports/fiList.aspx?type=statethrift&amp;state=55&amp;sort=regagency">Regulator</a>
+  </td>
+  <td class="hrbodyboxtitle" nowrap="1" valign="top">
+    <a href="/scripts/callreports/fiList.aspx?type=statethrift&amp;state=55&amp;sort=city">City</a>
+  </td>
+  <td class="hrbodyboxtitle" nowrap="1" valign="top" align="center">
+    <a href="/scripts/callreports/fiList.aspx?type=statethrift&amp;state=55&amp;sort=depbyassets">Deposits /</a>
+  </td>
+  <td class="hrbodyboxtitle" nowrap="1" valign="top" align="center">
+    <a href="/scripts/callreports/fiList.aspx?type=statethrift&amp;state=55&amp;sort=deposits">Deposits</a>
+  </td>
+  <td class="hrbodyboxtitle" nowrap="1" valign="top" align="center">
+    <a href="/scripts/callreports/fiList.aspx?type=statethrift&amp;state=55&amp;sort=assets">Assets</a>
+  </td>
+</tr>
+<tr class="hrbgcolor2">
+  <td class="pagebody" colspan="3">
+    <br>
+  </td>
+  <td class="hrbodyboxtitle" nowrap="1" valign="top" align="center">
+    <a href="/scripts/callreports/fiList.aspx?type=statethrift&amp;state=55&amp;sort=depbyassets">Assets</a>
+  </td>
+  <td class="pagebodysm" nowrap="1" colspan="2" align="center">(USD, in thousands)</td>
+</tr>
+<tr class="altrowcontent">
+  <td class="pagebody" valign="top" width="50%">
+    <img src="/images/thrift12x12.jpg" border="0" width="12" height="12"> <a class="pagebody" href="/scripts/callreports/getbank.aspx?ibnid=usa_2992547">JOHN DEERE FINANCIAL, F.S.B.</a></td>
+  <td class="pagebody" nowrap="1" align="center" valign="top">OCC</td>
+  <td class="pagebody" align="left" valign="top">Madison</td>
+  <td class="pagebody" align="center" width="10%" nowrap="1" valign="top">0.3309</td>
+  <td class="pagebody" align="right" width="10%" nowrap="1" valign="top">1,358,969</td>
+  <td class="pagebody" align="right" width="10%" nowrap="1" valign="top">4,106,696</td>
+</tr>
+<tr class="bodycontent">
+  <td class="pagebody" valign="top" width="50%">
+    <img src="/images/thrift12x12.jpg" border="0" width="12" height="12"> <a class="pagebody" href="/scripts/callreports/getbank.aspx?ibnid=usa_27070">PREVAIL BANK</a></td>
+  <td class="pagebody" nowrap="1" align="center" valign="top">OCC</td>
+  <td class="pagebody" align="left" valign="top">Medford</td>
+  <td class="pagebody" align="center" width="10%" nowrap="1" valign="top">0.7485</td>
+  <td class="pagebody" align="right" width="10%" nowrap="1" valign="top">757,718</td>
+  <td class="pagebody" align="right" width="10%" nowrap="1" valign="top">1,012,360</td>
+</tr>
+<tr class="altrowcontent">
+  <td class="pagebody" valign="top" width="50%">
+    <img src="/images/thrift12x12.jpg" border="0" width="12" height="12"> <a class="pagebody" href="/scripts/callreports/getbank.aspx?ibnid=usa_713476">PYRAMAX BANK, FSB</a></td>
+  <td class="pagebody" nowrap="1" align="center" valign="top">OCC</td>
+  <td class="pagebody" align="left" valign="top">Greenfield</td>
+  <td class="pagebody" align="center" width="10%" nowrap="1" valign="top">0.6766</td>
+  <td class="pagebody" align="right" width="10%" nowrap="1" valign="top">402,723</td>
+  <td class="pagebody" align="right" width="10%" nowrap="1" valign="top">595,181</td>
+</tr>
+<tr class="bodycontent">
+  <td class="pagebody" valign="top" width="50%">
+    <img src="/images/thrift12x12.jpg" border="0" width="12" height="12"> <a class="pagebody" href="/scripts/callreports/getbank.aspx?ibnid=usa_3017081">NORTHWESTERN MUTUAL WEALTH MANAGEMENT</a></td>
+  <td class="pagebody" nowrap="1" align="center" valign="top">OCC</td>
+  <td class="pagebody" align="left" valign="top">Milwaukee</td>
+  <td class="pagebody" align="center" width="10%" nowrap="1" valign="top">0.0969</td>
+  <td class="pagebody" align="right" width="10%" nowrap="1" valign="top">50,500</td>
+  <td class="pagebody" align="right" width="10%" nowrap="1" valign="top">521,260</td>
+</tr>
+<tr class="altrowcontent">
+  <td class="pagebody" valign="top" width="50%">
+    <img src="/images/thrift12x12.jpg" border="0" width="12" height="12"> <a class="pagebody" href="/scripts/callreports/getbank.aspx?ibnid=usa_28675">CUMBERLAND FEDERAL BANK, FSB</a></td>
+  <td class="pagebody" nowrap="1" align="center" valign="top">OCC</td>
+  <td class="pagebody" align="left" valign="top">Cumberland</td>
+  <td class="pagebody" align="center" width="10%" nowrap="1" valign="top">0.7977</td>
+  <td class="pagebody" align="right" width="10%" nowrap="1" valign="top">262,145</td>
+  <td class="pagebody" align="right" width="10%" nowrap="1" valign="top">328,621</td>
+</tr>
+<tr class="bodycontent">
+  <td class="pagebody" valign="top" width="50%">
+    <img src="/images/thrift12x12.jpg" border="0" width="12" height="12"> <a class="pagebody" href="/scripts/callreports/getbank.aspx?ibnid=usa_331076">FIRST FEDERAL BANK OF WISCONSIN</a></td>
+  <td class="pagebody" nowrap="1" align="center" valign="top">OCC</td>
+  <td class="pagebody" align="left" valign="top">Waukesha</td>
+  <td class="pagebody" align="center" width="10%" nowrap="1" valign="top">0.7594</td>
+  <td class="pagebody" align="right" width="10%" nowrap="1" valign="top">211,664</td>
+  <td class="pagebody" align="right" width="10%" nowrap="1" valign="top">278,732</td>
+</tr>
+<tr class="altrowcontent">
+  <td class="pagebody" valign="top" width="50%">
+    <img src="/images/thrift12x12.jpg" border="0" width="12" height="12"> <a class="pagebody" href="/scripts/callreports/getbank.aspx?ibnid=usa_686570">LADYSMITH FEDERAL SAVINGS AND LOAN ASSOCIATION</a></td>
+  <td class="pagebody" nowrap="1" align="center" valign="top">OCC</td>
+  <td class="pagebody" align="left" valign="top">Ladysmith</td>
+  <td class="pagebody" align="center" width="10%" nowrap="1" valign="top">0.7684</td>
+  <td class="pagebody" align="right" width="10%" nowrap="1" valign="top">70,604</td>
+  <td class="pagebody" align="right" width="10%" nowrap="1" valign="top">91,880</td>
+</tr>
+<tr class="bodycontent">
+  <td class="pagebody" valign="top" width="50%">
+    <img src="/images/thrift12x12.jpg" border="0" width="12" height="12"> <a class="pagebody" href="/scripts/callreports/getbank.aspx?ibnid=usa_2745529">THRIVENT TRUST COMPANY</a></td>
+  <td class="pagebody" nowrap="1" align="center" valign="top">OCC</td>
+  <td class="pagebody" align="left" valign="top">Appleton</td>
+  <td class="pagebody" align="center" width="10%" nowrap="1" valign="top">0.1313</td>
+  <td class="pagebody" align="right" width="10%" nowrap="1" valign="top">2,000</td>
+  <td class="pagebody" align="right" width="10%" nowrap="1" valign="top">15,233</td>
+</tr></table></center><br /><br />
+
+		</p></center>
+		<p class="botnav">
+		iBanknet.com makes no claims as to the accuracy of the financial information contained on iBanknet.com and will not be held liable for any use of this information.
+		The information on iBanknet.com is for personal use only.  Any other use of this information is prohibited without obtaining prior written permission.
+		</p>
+
+		
+	    <p /><br />
+ 
+<!-- #LOWERBANNERAD -->
+	<center> 
+ 
+<!-- #GOOGLE ADSENSE -->
+<script type="text/javascript"><!--
+    google_ad_client = "pub-9598466570540266";
+    /* iBanknet Banner (small) 468x60 */
+    google_ad_slot = "2934049382";
+    google_ad_width = 468;
+    google_ad_height = 60;
+//-->
+</script>
+<!-- orig
+    <script type="text/javascript"
+	src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+    </script>
+-->
+<!-- Code generated 20230906 : start -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9598466570540266"
+     crossorigin="anonymous"></script>
+<!-- iBanknet Banner (small) 468x60 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-9598466570540266"
+     data-ad-slot="2934049382"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- Code generated 20230906 : end -->
+<!-- #GOOGLE ADSENSE -->
+
+</center> 
+
+<!-- #ENDLOWERBANNERAD -->
+
+	    <p /><br />
+
+
+
+		<!-- #EndEditable -->
+	    
+	 </td>
+
+     <!-- right-column spacer -->
+<!--     <td width="5" rowspan="5"><img src="/images/blank.gif" width="5"></td>  -->
+
+	<!-- right column ads -->
+    <td valign=top width=5>
+	
+<!-- adscolumn.inc : Start -->
+          <table>
+<!-- #TOWERAD -->
+<!--
+           <tr>
+            <td><a href="http://www.ibanknet.com" title="[iBanknet]"><IMG title="[iBanknet Tower Ad]" src="/images/iBanknetTowerAd.jpg" border=0></a></td>
+           </tr>
+-->
+           <tr><td align=center><br />
+<!-- #GOOGLE ADSENSE -->
+<script type="text/javascript"><!--
+    google_ad_client = "pub-9598466570540266";
+    /* iBanknet Skyscraper 120x600 */
+    google_ad_slot = "1479615252";
+    google_ad_width = 120;
+    google_ad_height = 600;
+//-->
+</script>
+<!-- orig
+	<script type="text/javascript"
+		    src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+		</script>
+-->
+<!-- Code generated 20230906 : start -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9598466570540266"
+     crossorigin="anonymous"></script>
+<!-- iBanknet Skyscraper 120x600 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:120px;height:600px"
+     data-ad-client="ca-pub-9598466570540266"
+     data-ad-slot="1479615252"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<!-- Code generated 20230906 : end -->
+<!-- #GOOGLE ADSENSE -->
+          </td></tr>
+
+<!-- #ENDTOWERAD -->
+          
+<!-- #BUTTON1AD -->
+
+<!-- #ENDBUTTON1AD -->
+
+<!-- #BUTTON2AD -->
+
+<!-- #ENDBUTTON2AD -->
+
+<!-- #BUTTON3AD -->
+
+<!-- #ENDBUTTON3AD -->
+          
+<!-- #TILE1AD -->
+
+<!-- #ENDTILE1AD -->
+          
+<!-- #TILE2AD -->
+
+<!-- #ENDTILE2AD -->
+          
+<!-- #TILE3AD -->
+
+<!-- #ENDTILE3AD -->
+          </table>
+<!-- adscolumn.inc : End -->
+
+
+    </td>
+
+   </tr>
+
+   <!-- Row Separator -->
+   <tr>
+	<td colspan="6" width="10%" valign="top">&nbsp;</td>
+   </tr>
+
+  </table>
+  </td>
+<!-- MIDDLE NAVIGATION :  End -->
+
+</tr>
+</table>
+
+<!-- ibanknetfooter.inc : Start -->
+<!-- Footer.inc : Start -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td height=1 bgcolor="#333366"><IMG height=1 width=10 alt="" src="/images/spacer.gif" border=0 /></td></tr>
+<!-- footer ad --> 
+<!-- #FOOTERAD -->
+
+<!-- #ENDFOOTERAD -->
+</table>
+<DIV align=center class="botnav"><BR>
+|&nbsp;<A href="/index.html" class="botnav" title="[home]">HOME</A>&nbsp;
+|&nbsp;<A href="/widgets/index.shtml" class="botnav" title="[widgets]">WIDGETS</A>&nbsp;
+|&nbsp;<A href="/about/index.shtml" class="botnav" title="[about]">ABOUT</A>&nbsp;
+|&nbsp;<A href="/news/index.shtml" class="botnav" title="[news]">NEWS</A>&nbsp;
+|&nbsp;<A href="/contact/index.shtml" class="botnav" title="[contact]">CONTACT</A>&nbsp;
+|&nbsp;<A href="/websitepolicies.shtml" class="botnav" title="[website policies]">WEBSITE POLICIES</A>&nbsp;
+|&nbsp;<A href="/sitemap/index.shtml" class="botnav" title="[site map]">SITE MAP</A>&nbsp;
+|
+<BR />
+<BR>
+<center>
+<table width="50%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="botnav" align=right width="50%" nowrap>Copyright &copy; 2026 </td><td align=left width=50%><A href="https://www.ibanknet.com" target="_blank"><img src="/images/ibanknetthumb.gif" border="0" title="[iBanknet]"></a></td>
+</tr>
+</table>
+</center>
+
+</DIV>
+<center>
+<table width="50%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="botnav" nowrap align="center">Source of Data: FDIC, FRB, NCUA, OCC, SEC, U.S. Department of the Treasury</td>
+</tr>
+</table>
+</center>
+
+<br />
+<!-- Footer.inc : End -->
+<!--
+SiteSeal Html Builder Code:
+Shows the logo at URL https://seal.networksolutions.com/images/confirmrecblue.gif
+Logo type is  ("NETSS")
+//-->
+<!--
+<center>
+<script language="JavaScript" type="text/javascript"> SiteSeal("https://seal.networksolutions.com/images/confirmrecblue.gif", "NETSS", "none");</script>
+<br>
+</center>
+-->
+
+<!-- ibanknetfooter.inc : End -->
+
+<!-- new -->
+</td></tr></TABLE>
+<!-- new -->
+
+</BODY>
+</HTML>
+
