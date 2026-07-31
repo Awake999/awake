@@ -57,6 +57,38 @@ ICBA Bancard's card program is TCM Bank (a different agent issuer, not Card Asse
 enumeration of the Card Assets platform is the complete census, so the ICBA directory cannot
 surface a Card Assets bank not already found. Superseded for this purpose.
 
+## ⚠️ CORRECTION (2026-07-31) — Partners Bank of California is NOT Card Assets
+Earlier this bank was rated "LIKELY Card Assets" based on its Mastercard business card with
+"Preferred Points" rewards and a cardaccount.net servicing login. That was WRONG.
+**"Preferred Points" + 1 pt/$ capped at 10,000 pts/month + cardaccount.net + mypreferredpoints.com
+is the signature of TIB, N.A. (The Independent BankersBank)** — a different agent issuer.
+Confirmed by three East Bay banks running the identical program (Summit Bank Oakland, Gateway Bank
+Oakland, Pinnacle Bank Gilroy), each naming TIB explicitly on their own pages.
+NAME-COLLISION TRAP: cardaccount.net brands itself "Card Service Center" = TIB.
+Card Assets is thecardservicescenter.com / 24-7cardaccess.com. Do not conflate.
+=> LA/OC confirmed Card Assets set is First Foundation (0350) + Hanmi (0092) ONLY.
+
+## ALAMEDA / BAY AREA (2026-07-31)
+- ZERO Card Assets banks HQ'd in Alameda County or anywhere in NorCal. The Card Assets census is
+  now 100% resolved (all 75 national clients identified by logo) — no NorCal client exists.
+- BUT both Card Assets lanes have Alameda County branches:
+  * Sunflower Bank (dba First Foundation) — 323 20th St, Oakland  -> index/0350
+  * Hanmi Bank — 7912 Dublin Blvd, Dublin -> index/0092
+  These are the only Equifax lanes reachable in the county.
+- Alameda-native options all resolve to Experian/TransUnion: Fremont Bank (CorServ/Apex ->
+  Pinnacle TN, EX), Patelco (self-issued, EX), Mechanics Bank (Elan, TU).
+- Elan in East Bay: Mechanics Bank, Bank of San Francisco. TCM: Metropolitan Bank Oakland.
+- TIB is the largest East Bay cluster: Summit, Gateway, Pinnacle Gilroy.
+- Redwood CU = self-issued + Equifax FICO 5 (community grade) but Alameda is OUTSIDE its field
+  of membership with no buy-in path.
+- Defunct (purge from lists): SafeAmerica CU (merged into Nuvision 2/2025), Cooperative Center
+  FCU Berkeley (merged into Nuvision 6/2024).
+
+## KEY RULE — Elan and TCM are EXCLUSION sets for Equifax
+The agent issuer decides the bureau, not the bank. Elan -> TransUnion primary;
+TCM Bank -> Experian. So any Elan or TCM bank is automatically disqualified as an Equifax lane.
+Use issuer identification as the fastest disqualifier. (Grade: secondary source, not primary.)
+
 ## SOURCE COVERAGE — ALL CHECKED
 Our lists/Sheets ✓ · iBankNet ✓ · FDIC BankFind ✓ · Bank Branch Locator ✓ · ICBA ✓ (=TCM)
 
