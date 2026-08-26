@@ -1,0 +1,31 @@
+Bank,CERT,Branch,Address,City,Zip,Branch_deposits_$K,lat,lon,Distance_mi
+East West Bank,31628,Oakland Webster Branch,900 Webster St,Oakland,94607,980583,37.799974032082,-122.27088285402,2.9
+East West Bank,31628,Fremont Mission Blvd. Branch,46615 Mission Blvd,Fremont,94539,528561,37.490869418003,-121.928518106123,25.5
+East West Bank,31628,Fremont - Paseo Branch,"34420 Fremont Blvd, Ste F",Fremont,94555,496554,37.574930561299,-122.04072347719,17.1
+Cathay Bank,18503,Fremont Mission Branch,46750 Mission Blvd,Fremont,94539,396316,37.49040870894,-121.928648730054,25.6
+East West Bank,31628,Newark Branch,"35233 Newark Blvd, Ste E",Newark,94560,259901,37.549063359115,-122.04677417031,18.3
+Mechanics Bank,1768,Berkeley Office,2301 Shattuck Ave,Berkeley,94704,238973,37.867569644837,-122.267643441764,7.2
+East West Bank,31628,Pleasanton Branch,"4299 Rosewood Dr, Ste 108",Pleasanton,94588,231982,37.699798736266,-121.875666606845,20.5
+Poppy Bank,57903,Alameda Branch,2531 Blanding Ave,Alameda,94501,216259,37.769440605553,-122.235163621087,0.5
+Heritage Bank of Commerce,33905,Pleasanton Office,300 Main St,Pleasanton,94566,198341,37.65875073608,-121.876698668122,21.3
+Poppy Bank,57903,Pleasanton Branch,"5870 Stoneridge Mall Rd, Ste 100",Pleasanton,94588,180341,37.695495642845,-121.932149277174,17.6
+Mechanics Bank,1768,North Berkeley Branch,1801 Solano Ave,Berkeley,94707,166681,37.891371435319,-122.279834292814,9.0
+Bank of Marin,32779,Alameda South Shore Branch,2208 S Shore Ctr,Alameda,94501,161233,,,
+Cathay Bank,18503,Union City Branch,1701 Decoto Rd,Union City,94587,153182,,,
+Mechanics Bank,1768,Albany Branch,801 San Pablo Ave,Albany,94706,144830,37.891771297136,-122.299328285201,9.3
+Cathay Bank,18503,Oakland Branch,710 Webster St,Oakland,94607,140691,37.798657796189,-122.271692043575,2.8
+Cathay Bank,18503,Dublin Branch,7190 Regional St,Dublin,94568,132024,,,
+Bank of Marin,32779,Oakland Branch,"180 Grand Ave, Ste 1545",Oakland,94612,131404,37.811109248022,-122.263050002314,3.4
+Mechanics Bank,1768,Oakland Branch,"1999 Harrison St, Ste 100",Oakland,94612,119975,37.80805353616,-122.264600575719,3.2
+Heritage Bank of Commerce,33905,Livermore Branch,1987 1st St,Livermore,94550,108728,37.680715607795,-121.771435108767,26.4
+Metropolitan Bank,25869,Oakland Chinatown Branch,381 8th St,Oakland,94607,88950,37.799493212814,-122.272179024952,2.9
+Heritage Bank of Commerce,33905,Fremont Branch,3137 Stevenson Blvd,Fremont,94538,81733,37.547797493682,-121.972293014274,21.0
+Poppy Bank,57903,Fremont Branch,39152 Paseo Padre Pkwy,Fremont,94538,72889,37.553153985403,-121.979972850144,20.5
+Bank of Marin,32779,Alameda Marina Village Branch,805 Marina Village Pkwy,Alameda,94501,58167,37.787985748592,-122.276622433858,2.5
+Westamerica Bank,3430,Pleasanton Branch,"5700 Stoneridge Mall Rd, Ste 110",Pleasanton,94588,47607,37.692097517923,-121.929257809632,17.8
+Heritage Bank of Commerce,33905,Oakland Branch,"1111 Broadway, Ste 1650",Oakland,94607,43870,37.802425198104,-122.272528792132,3.1
+Metropolitan Bank,25869,Metropolitan Bank,250 E 18th St,Oakland,94606,41633,37.800062506924,-122.25269375762,2.5
+Farmers & Merchants Bank of Central California,1331,Montclair Branch,6182 Antioch St,Oakland,94611,41413,37.825884740512,-122.209075493664,4.6
+"EverBank, National Association",34775,Oakland Branch,735 Webster St,Oakland,94607,37261,37.79885111574,-122.271733395088,2.8
+"EverBank, National Association",34775,Fremont Branch,38990 Paseo Padre Pkwy,Fremont,94538,24726,37.553710234341,-121.981036636302,20.4
+First Foundation Bank,58647,Oakland Office,323 20th St,Oakland,94612,22150,37.808213635116,-122.265285048707,3.2
