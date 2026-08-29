@@ -1,0 +1,14 @@
+# Local transcript cache — NEVER commit.
+# Raw meeting transcripts contain consumer credit PII (account numbers, home
+# addresses, SSN / identity-theft case details), employee compensation and
+# performance discussions, and credential references. They live permanently in
+# Fathom; this directory is only a working cache for a single session.
+archive/
+*.transcript.txt
+*.transcript.json
+
+# Scratch
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
