@@ -36,10 +36,10 @@
 | 2026-08-25 | Impromptu Zoom Meeting (Rosemarie Anne Fabian) | 176731448 | 798529571 | no |
 | 2026-08-25 | Impromptu Zoom Meeting (Sabrina Neves) | 176664762 | 798393367 | no |
 | 2026-08-25 | Tech Call w/ Daniel Jimenez | 176649683 | 796488274 | yes → `2026-08-25--tech-call-daniel-jimenez--176649683/` |
-| 2026-08-25 | APW - Daily Sync (Ina) | 176612115 | 796919606 | no |
-| 2026-08-25 | APW - Daily Sync (Rosemarie) | 176612379 | 796092304 | no |
+| 2026-08-25 | APW - Daily Sync (Ina) | 176612115 | 796919606 | yes → `2026-08-25--apw-daily-sync-ina--176612115/` (+raw) |
+| 2026-08-25 | APW - Daily Sync (Rosemarie) | 176612379 | 796092304 | yes → `2026-08-25--apw-daily-sync-rosemarie--176612379/` (+raw; duplicate capture of same sync) |
 | 2026-08-25 | Impromptu Zoom Meeting | 176612153 | 798282012 | no |
-| 2026-08-25 | APW - Daily Sync (Sabrina) | 176587651 | 796488288 | no |
+| 2026-08-25 | APW - Daily Sync (Sabrina) | 176587651 | 796488288 | yes → `2026-08-25--apw-daily-sync-sabrina--176587651/` (+raw; third capture of same sync) |
 | 2026-08-25 | Impromptu Zoom Meeting (Ina) | 176566669 | 798180477 | no |
 | 2026-08-25 | Dispute Team - Daily Zoom Meeting | 176562530 | 798172465 | yes → `2026-08-25--dispute-team-daily-zoom--176562530/` (+raw) |
 | 2026-08-25 | Impromptu Zoom Meeting | 176360534 | 797219041 | no |
