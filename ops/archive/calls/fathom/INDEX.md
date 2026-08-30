@@ -31,7 +31,7 @@
 | 2026-08-26 | Impromptu Zoom Meeting | 176815084 | 798940357 | no |
 | 2026-08-26 | Michael Moore - Guaranteed Funding | 176802936 | 795906439 | yes → `2026-08-26--michael-moore-guaranteed-funding--176802936/` — THE close call ($1K deposit, 'We are a go') |
 | 2026-08-26 | Impromptu Zoom Meeting | 176797747 | 798796991 | no |
-| 2026-08-25 | Nick Samara - Guaranteed Funding | 176779823 | 795906442 | no |
+| 2026-08-25 | Nick Samara - Guaranteed Funding | 176779823 | 795906442 | yes → `2026-08-25--nick-samara-guaranteed-funding--176779823/` (+raw) |
 | 2026-08-25 | Impromptu Zoom Meeting | 176753966 | 798581474 | no |
 | 2026-08-25 | Impromptu Zoom Meeting (Rosemarie Anne Fabian) | 176731448 | 798529571 | no |
 | 2026-08-25 | Impromptu Zoom Meeting (Sabrina Neves) | 176664762 | 798393367 | no |
@@ -56,7 +56,7 @@
 | 2026-08-20 | Impromptu Zoom Meeting | 175448782 | 793137663 | no |
 | 2026-08-20 | Karl Krummenacher - Guaranteed Funding | 175440897 | 791088813 | yes → `2026-08-20--karl-krummenacher-guaranteed-funding--175440897/` — the whale call (Modern Thyroid, $8M rev, exit plan) |
 | 2026-08-20 | Impromptu Zoom Meeting | 175052490 | 791883972 | no |
-| 2026-08-20 | Michael Moore - Guaranteed Funding | 175044393 | 791826979 | no |
+| 2026-08-20 | Michael Moore - Guaranteed Funding | 175044393 | 791826979 | yes → `2026-08-20--michael-moore-guaranteed-funding--175044393/` (+raw) |
 | 2026-08-20 | Impromptu Zoom Meeting | 175036919 | 791773496 | no |
 | 2026-08-19 | Impromptu Zoom Meeting | 175025137 | 791712438 | no |
 | 2026-08-19 | Impromptu Zoom Meeting | 174987192 | 791570447 | no |
@@ -73,7 +73,7 @@
 | 2026-08-18 | Impromptu Zoom Meeting (Sabrina) | 174397848 | 789590405 | no |
 | 2026-08-17 | Impromptu Zoom Meeting (Carla Valentina Stivala) | 174120399 | 788351529 | no |
 | 2026-08-17 | Impromptu Zoom Meeting | 174119189 | 788334715 | no |
-| 2026-08-17 | Connor Robertson - Guaranteed Funding | 174098114 | 788222126 | no |
+| 2026-08-17 | Connor Robertson - Guaranteed Funding | 174098114 | 788222126 | n/a — verified 8/30: Fathom holds NO transcript for this meeting |
 | 2026-08-17 | Impromptu Zoom Meeting | 174081239 | 788184013 | no |
 | 2026-08-17 | Impromptu Zoom Meeting | 173958367 | 787910378 | no |
 | 2026-08-14 | Impromptu Zoom Meeting | 173605709 | 786067791 | no |
