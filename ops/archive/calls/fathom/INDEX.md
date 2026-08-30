@@ -8,10 +8,10 @@
 |---|---|---|---|---|
 | 2026-08-28 | Impromptu Zoom Meeting (Ina Grace Langub) ★ AG escalation pt 2 | 178010725 | 803353666 | yes → `2026-08-28--ag-escalation-strategy-part-2--178010725/` |
 | 2026-08-28 | Impromptu Zoom Meeting ★ AG escalation strategy | 178010625 | 803352097 | yes → `2026-08-28--ag-escalation-strategy--178010625/` |
-| 2026-08-28 | Impromptu Zoom Meeting | 178009344 | 803341537 | no |
+| 2026-08-28 | Impromptu Zoom Meeting | 178009344 | 803341537 | yes → `2026-08-28--carla-eod-sod-trello--178009344/` |
 | 2026-08-28 | Client Call (CSM) ★ Funnel rebuild w/ Jacob (Sep 1 A/B) | 177941051 | 801234866 | yes → `2026-08-28--funnel-rebuild-with-jacob--177941051/` |
 | 2026-08-28 | Impromptu Zoom Meeting ★ Revenue diagnosis ($0 August) | 177894725 | 803087357 | yes → `2026-08-28--revenue-diagnosis-zero-august--177894725/` |
-| 2026-08-28 | Impromptu Zoom Meeting ★ ICP mismatch | 177881372 | 803053542 | no |
+| 2026-08-28 | Impromptu Zoom Meeting ★ ICP mismatch | 177881372 | 803053542 | yes → `2026-08-28--constantine-icp-mismatch--177881372/` |
 | 2026-08-28 | Impromptu Zoom Meeting | 177853139 | 802994217 | no |
 | 2026-08-28 | Impromptu Zoom Meeting | 177851352 | 802985297 | no |
 | 2026-08-27 | Impromptu Zoom Meeting | 177669876 | 801909953 | no |
