@@ -24,17 +24,17 @@ Complete enumeration pulled 2026-08-30 (public + private + archived). The `expor
 | #-agenda-for-the-next-day | C0BRRMJKC4A | public | 8/21 Alan | ✅ `agenda-for-the-next-day/2026-08.md` (complete) — Alan's master work orders |
 | #admin-ops-agenda | C0BS96K5U4V | private | 8/24 Lynn | ✅ `admin-ops-agenda/2026-08.md` (complete) |
 | #admin-ops-staff | C0BRFC0CL5A | private | 8/19 Lynn | ✅ `admin-ops-staff/2026-08.md` (complete) — CRM template, hiring campaign, Daily Meeting SOP |
-| #apw-staff-questions | C0BP25E26NQ | private | 8/8 Alan | no |
-| #employee-questions | C0BNEBW39V5 | public | 8/7 Lynn | no |
-| #carla-start-of-day-reports | C0BQBKD0HRU | private, ARCHIVED | 8/14 Lynn | no |
-| #grace-start-of-day-reports | C0BQ7BN122X | private, ARCHIVED | 8/14 Lynn | no |
-| #-announcements | C0ACT0FF9B9 | public | 2/5 Alan | no |
-| #-team-shoutouts | C0BQVPFTW07 | public | 8/19 Carla | no |
-| #vibe-lounge | C0BRB07QSM8 | public | 8/19 Carla | no |
-| #birthday-wishes | C0BR4T5SK8T | public | 8/19 Carla | no |
-| #social | C0ADC1V8DUL | public | 2/5 Alan | no |
+| #apw-staff-questions | C0BP25E26NQ | private | 8/8 Alan | ✅ `apw-staff-questions/2026-08.md` (complete) — help SOP + dispute doctrine Q&A |
+| #employee-questions | C0BNEBW39V5 | public | 8/7 Lynn | ✅ empty — verified 8/30: joins only, zero content |
+| #carla-start-of-day-reports | C0BQBKD0HRU | private, ARCHIVED | 8/14 Lynn | ✅ `carla-start-of-day-reports/2026-08.md` (complete) |
+| #grace-start-of-day-reports | C0BQ7BN122X | private, ARCHIVED | 8/14 Lynn | ✅ `grace-start-of-day-reports/2026-08.md` (complete) — account-level dispute ledgers |
+| #-announcements | C0ACT0FF9B9 | public | 2/5 Alan | ✅ `announcements/2026-02-to-2026-08.md` (complete) — strike system, culture doc, SOD/EOD templates |
+| #-team-shoutouts | C0BQVPFTW07 | public | 8/19 Carla | ✅ `team-shoutouts/2026-08.md` (complete) |
+| #vibe-lounge | C0BRB07QSM8 | public | 8/19 Carla | ✅ `vibe-lounge/2026-08.md` (complete) |
+| #birthday-wishes | C0BR4T5SK8T | public | 8/19 Carla | ✅ `birthday-wishes/2026-08.md` (complete) |
+| #social | C0ADC1V8DUL | public | 2/5 Alan | ✅ `social/2026-02-to-2026-08.md` (complete) |
 | #alan-nguyen (Krysten) | C0AD1CR7QP5 | private | 2/5 Krysten | no — external/coaching channel |
 | #alan-nguyen9145 (Kai Bax) | C0AJ9D4NEQ4 | private | 3/2 Kai Bax | no — SCIO owner channel |
-| #bloc-ref-alan-nguyen | C0BFVDYRYBH | private, ARCHIVED | 7/9 Alan | no |
+| #bloc-ref-alan-nguyen | C0BFVDYRYBH | private, ARCHIVED | 3/26 Aaron Wang (FFF) | ✅ `bloc-ref-alan-nguyen/2026-03-to-2026-07.md` (complete) — Funding For Freedom BLOC referral partner |
 
 **Not covered by channel exports:** DMs (Alan↔Lynn, Alan↔Carla, Alan↔Grace, Alan↔Anne, etc.) — the Slack API exposes DM history per conversation; a DM-export pass is queued after channels. Audio files found in any export are logged in `../audio/README.md`.
