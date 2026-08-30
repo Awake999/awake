@@ -187,3 +187,10 @@ Only trace: **Kai Bax** created private channel #alan-nguyen9145 in the *scale-c
 - **GHL:** call volumes, speed-to-lead, show-rate by setter, pipeline-stage timestamps, and which staffer touched which contact — the only way to attribute show-rate/booking outcomes to Lynn/Carla individually.
 - **Payroll totals:** exact amounts paid to Carla and Lynn are not in any reviewed source, so cost-vs-output ratios were computable only for Anne (~$640/mo), Grace (~$640/mo), ML ($1,000/mo).
 - **Sep 4 ruling inputs (Anne & Grace):** the 80–90% independence criterion needs 8/29–9/3 observation of whether the special-handlings escalation sequence and AG-escalation SOP run without Alan's live correction; plus Teramind hours and a per-day bureau-call count. Current evidence shows trajectory (both improving, Anne fastest recent completions, Grace best documentation) but not yet independence.
+
+---
+## ⚠️ CORRECTION APPENDED 2026-08-30 (do not read the above without this)
+1. **Carla's Teramind WAS INSTALLED 8/30 on a recorded Fathom call, per Alan directly.** The evidence window above closed 8/28; "no completion evidence by 8/28" was accurate then, but the derived summary phrasing "never installed" was an over-hardening and is retracted. Install recording not yet visible in the Fathom API at correction time — link to be added when it syncs.
+2. **This review contains ZERO direct Teramind data.** All Teramind references are secondhand (meeting mentions/action items). Direct data requires Teramind API/CSV (register item 49).
+3. **Carla Teramind ask-trail with links:** 8/12 fathom.video/calls/782770712 · 8/26 /800411730 · 8/27 /801291099 · 8/27 /801601613 · 8/27 /798787726 · ✅ resolved 8/30 (Alan; recorded).
+4. **Standing evidence standard (register #57):** every claim in any summary carries clickable source + verbatim date + evidence window; claims outliving their window are re-verified, never repeated. Fathom API absence ≠ absence (register #59: Connor 8/17, Carla 8/30 both existed while invisible to the API).
