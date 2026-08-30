@@ -1,0 +1,14 @@
+# APW OPS — READ THIS FIRST (auto-loaded by every local Claude session)
+
+You are working inside the Ascend Prime Wealth ops repo. **Before doing anything:**
+
+1. **Read [`ops/SOP.md`](ops/SOP.md)** — the binding laws (verbatim checklists, evidence links, raw originals, scan-ready output) + lane ownership + the sync ritual (git pull first, push after every batch).
+2. **Read [`ops/REGISTER.md`](ops/REGISTER.md)** — every ask Alan has made, verbatim, numbered, with status + grade. Grep `LANE-SYNC` for cross-lane notices. If your task isn't on the register, it gets a numbered line before work starts.
+3. **Alan's original prompts, in full:** [`ops/prompts/ALL_PROMPTS_FULL.md`](ops/prompts/ALL_PROMPTS_FULL.md) (every prompt verbatim, chronological) and [`ops/prompts/2026-08-30-full-funnel-spec.md`](ops/prompts/2026-08-30-full-funnel-spec.md) (the governing spec). **Prompts govern over any brief or summary.**
+4. **Find anything:** [`ops/INDEX.md`](ops/INDEX.md) — clickable pointers to every dashboard, database, audit, and decision across Notion/GitHub/Drive/GHL.
+
+**The laws in one line each:** every ask → verbatim numbered checklist · every claim → clickable link + date + evidence window · raw originals beside every summary, never replaced · verified/derived/unknown labels, never guess · scan-ready output, TLDR first · pull before work, push after every batch (unpushed work dies with the container).
+
+**Lane ownership (single-writer):** Lane 1 (cloud command) owns REGISTER/SOP/INDEX/Notion-ops · Lane 2 owns `ops/dashboard/` · Lane 3 owns `ops/archive/` (append-only) · Lane 4 (this PC) owns `ops/archive/ghl/` + `ops/lane4/` + browser tasks. Everyone writes their own `ops/process-log/YYYY-MM-DD-<lane>.md`, never another lane's.
+
+Dashboard live URL: https://claude.ai/code/artifact/c6ad801c-50fc-49d3-847a-e6a8b0ddd392
