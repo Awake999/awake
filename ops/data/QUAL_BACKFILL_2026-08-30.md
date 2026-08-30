@@ -34,8 +34,8 @@
 | Blank (never assessed) | 94 | **75** |
 
 ## Open items produced by this pass
-1. **Nick S. bankruptcy ruling** (rule vs Alan's on-call waiver) — flagged on his row.
-2. **Ashwini stage**: on-call close 7/28 + $1,500 paid supports Closed Won — held at Offer Made pending Whop verification (Lane 4 Task 8).
+1. **Nick S. bankruptcy ruling** — Alan ruled 8/30: aged bankruptcies are CASE-BY-CASE, each file needs his personal sign-off; Nick's specific sign-off still pending, label + flag stand.
+2. **Ashwini stage** — Alan ruled 8/30: hold at Offer Made until Whop proves the $1,500 landed (Lane 4 Task 8), then auto-upgrade with payment evidence.
 3. **Pradeep's $300 Monday deposit** — Whop check decides Downsell vs Unq-No Funds.
 4. The 5 explicit Not-Yet-Assessed get labeled live at their next call (Connor: Sep 1 4pm ET).
 5. 75 blanks: 31 at Booked Call labeled per call from Sep 1 (call-outcome automation phase 2); the rest at triage or honestly never.
