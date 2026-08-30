@@ -73,14 +73,14 @@
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     mask-composite: exclude;
     opacity: 0; pointer-events: none;
-    animation: brot 1.8s linear infinite paused;
+    animation: brot 4.5s linear infinite paused;
     transition: opacity .22s ease, padding .22s ease;
   }
   .panel:hover::after, .tile:hover::after, .dl:hover::after, details.card:hover::after, .trio .cell:hover::after {
     opacity: 1; padding: 3px; animation-play-state: running;
     filter: brightness(1.3) saturate(1.25) drop-shadow(0 0 6px rgba(51,214,245,.55));
   }
-  .hero .ring { inset: -2px; border-radius: 14px; padding: 2.2px; opacity: 1; animation: brot 5s linear infinite running; filter: drop-shadow(0 0 8px rgba(51,214,245,.35)); }
+  .hero .ring { inset: -2px; border-radius: 14px; padding: 2.2px; opacity: 1; animation: brot 10s linear infinite running; filter: drop-shadow(0 0 8px rgba(51,214,245,.35)); }
 
   /* pointer glare inside the box */
   .panel::before, .tile::before, .dl::before, details.card::before, .trio .cell::before {
@@ -319,7 +319,7 @@
     background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
     padding: 24px 24px 20px; box-shadow: var(--shadow);
     display: grid; grid-template-columns: minmax(210px, auto) 1fr; gap: 12px 36px; align-items: center;
-    position: relative; overflow: hidden;
+    position: relative;
   }
   .hero::after {
     content: ""; position: absolute; inset: 7px; pointer-events: none; opacity: .5;
@@ -619,6 +619,18 @@
   .rfilters button:hover { color: var(--ink); border-color: var(--w-cyan); }
   .rfilters .rsum { margin-left: auto; color: var(--ink); font-size: 12.5px; }
 
+  #pane-prospects table { min-width: 0 !important; }
+  #pane-prospects td.why { max-width: none; }
+  #ghlbook th:nth-child(4), #ghlbook td:nth-child(4),
+  #ghlbook th:nth-child(5), #ghlbook td:nth-child(5),
+  #ghlbook th:nth-child(10), #ghlbook td:nth-child(10),
+  #ghlbook th:nth-child(11), #ghlbook td:nth-child(11) { display: none; }
+  #ghlbook table { font-size: 12.5px; }
+  details.rawbook > summary { cursor: pointer; font-size: 13.5px; font-weight: 700; padding: 12px 16px; color: var(--ink); list-style: none; }
+  details.rawbook > summary::-webkit-details-marker { display: none; }
+  details.rawbook > summary .chev2 { color: var(--ink-3); margin-right: 8px; }
+  details.rawbook[open] > summary .chev2 { transform: rotate(90deg); display: inline-block; }
+
   #roster-tbl tbody tr.rrow { cursor: pointer; }
   #roster-tbl tbody tr.rrow:hover td { background: rgba(51,214,245,.05); }
   #roster-tbl tbody tr.rrow:focus-visible { outline: 2px solid var(--gold); outline-offset: -2px; }
@@ -904,6 +916,7 @@
       <button type="button" data-chip="triaged" id="chip-triaged" aria-pressed="false">Triaged</button>
     </div>
     <p class="rate-strip" id="rate-strip"></p>
+    <p class="sub" style="margin:-4px 0 12px; font-size:12px; color:var(--ink-3)">Modular truth: every verdict is editable — <strong style="color:var(--ink-2)">click the name → flip Stage / Showed / Qualification in the tracker</strong>; the board recomputes within ~10 min. Wrong row? That’s a one-click fix, not a permanent stat.</p>
     <div class="rfilters" id="rfilters" hidden>
       <label>From <input type="date" id="rf-from"></label>
       <label>To <input type="date" id="rf-to"></label>
@@ -926,13 +939,13 @@
       </select>
     </div>
     <div class="tbl-wrap"><table style="min-width:860px">
-      <thead><tr><th>Person</th><th>Stage</th><th>Showed</th><th>Entry Path</th><th>Qualification</th><th class="num">Ask</th><th class="num">Deal</th><th>Last Touch</th></tr></thead>
+      <thead><tr><th>Person</th><th>Stage</th><th>Showed</th><th>Qualification</th><th class="num">Ask</th><th>Last Touch</th></tr></thead>
       <tbody id="roster-body"></tbody>
     </table></div>
     </div>
     <div id="roster-err" class="fieldfill-empty" hidden></div>
-    <div class="tbl-wrap" id="roster-wrap" hidden><table id="roster-tbl" style="min-width:1180px">
-      <thead><tr><th>Prospect</th><th>Added</th><th>Stage</th><th>Showed</th><th>Entry Path</th><th>Source</th><th class="num">Funding Ask</th><th>Score</th><th class="num">Spd-to-Lead</th><th>Triaged</th><th>Qualification</th><th>No-Close</th><th>Last Touch</th></tr></thead>
+    <div class="tbl-wrap" id="roster-wrap" hidden><table id="roster-tbl" style="min-width:0">
+      <thead><tr><th>Prospect</th><th>Added</th><th>Stage</th><th>Showed</th><th class="num">Ask</th><th>Qualification</th><th>Last Touch</th></tr></thead>
       <tbody></tbody>
     </table></div>
   </div>
@@ -940,8 +953,17 @@
 
 
 <section id="ghlbook">
+  <!-- RAW SYSTEM DATA, not funnel truth: wrapped so noise never reads as metrics -->
   <div class="sec-head"><span class="sic" style="color:var(--w-cyan)"><svg class="ic"><use href="#i-target"/></svg></span><h2>GHL Book — every contact in the system (259)</h2>
     <span class="note">snapshot 2026-08-30 · GHL is local-only, so this table refreshes with each local pull, not live</span></div>
+  <div class="provenance" style="border-left-color: var(--crit); margin-bottom: 12px">
+    <strong>Read this first:</strong> this is the RAW GHL system book — every contact the system ever captured, including duplicates
+    (four “Robert Morawitz” variants) and people who never became leads (e.g. “Ma. Liza Tizon”, captured 8/28).
+    <strong>Nothing here feeds the show rate or any funnel metric</strong> — those compute only from the audited tracker above.
+    Wrong or junk rows get fixed in GHL on the local machine (Lane 4); flag them in #call-outcomes.
+  </div>
+  <details class="rawbook">
+  <summary><span class="chev2">▸</span>Open the raw book (259 contacts — dupes &amp; non-leads included)</summary>
   <div class="panel" data-no-tilt>
     <p class="sub">The whole GHL location, no filter: 259 contacts — 87 ever booked, 99 carry ad attribution, 247 have a measurable first-touch. The 104-row tracker above is the worked subset; this is everyone. <strong style="color:var(--ink)">Name → the GHL contact record</strong> (needs GHL login). Speed-to-lead = contact created → first outbound message/call, from raw GHL messages. 📞/✉️ mark phone/email on file — the values live in the GHL record (click the name) and the local pull CSVs, kept off this hosted page deliberately.</p>
     <div style="display:flex; gap:10px; flex-wrap:wrap; margin:10px 0 14px">
@@ -989,6 +1011,7 @@
     render();
   })();
 </script>
+</details>
 <!-- GHLBOOK:END -->
 
 </div><!-- /prospects -->
@@ -1945,8 +1968,8 @@
         html+="<tr><td class='who'><a href='https://app.notion.com/p/"+r[7]+"'>"+esc(r[0])+"</a></td>"
           +"<td><span class='chip "+(STAGE_CLS[r[1]]||"mut")+"'>"+esc(r[1])+"</span></td>"
           +"<td>"+shHtml+(fid?" <a href='https://fathom.video/calls/"+fid+"'>🎥"+(sec?"²":"")+"</a>":"")+"</td>"
-          +"<td class='why'>"+esc(r[2]||"—")+"</td><td class='why'>"+esc(r[3]||"—")+"</td>"
-          +"<td class='num mono'>"+money(r[4])+"</td><td class='num mono'>"+(r[5]<0?"—":"$"+r[5].toLocaleString())+"</td>"
+          +"<td class='why'>"+esc(r[3]||"—")+"</td>"
+          +"<td class='num mono'>"+money(r[4])+"</td>"
           +"<td class='mono' style='font-size:12px'>"+esc((r[6]||"").slice(5))+"</td></tr>";
       });
       body.innerHTML=html;
@@ -2151,14 +2174,8 @@
         shc.className = 'chip ' + (sh === 'yes' ? 'good' : sh === 'no' ? 'crit' : 'mut');
         shc.textContent = sh === 'yes' ? '✓' : sh === 'no' ? '✕' : '?';
         sc.appendChild(shc); tr.appendChild(sc);
-        td(r['Entry Path'] || '—', 'why');
-        td(r['Source'] || '—', 'why');
         td(typeof r['Funding Ask'] === 'number' ? fmtMoney(r['Funding Ask']) : '—', 'num mono');
-        td(r['Score Band'] || '—', 'why');
-        td(typeof r['Speed to Lead (min)'] === 'number' ? r['Speed to Lead (min)'] + 'm' : '—', 'num mono');
-        td(r['Human Triaged'] || '—', 'why');
         td(r['Qualification'] || '—', 'why');
-        td(r['No-Close Reason'] || '—', 'why');
         td(r['lt'] || '—', 'mono');
         tr.className = 'rrow'; tr.tabIndex = 0;
         tr.setAttribute('aria-label', 'Show details for ' + shortName(r['Client']));
@@ -2166,7 +2183,7 @@
           var next = tr.nextElementSibling;
           if (next && next.classList.contains('rdetail-row')) { next.remove(); return; }
           var dr = document.createElement('tr'); dr.className = 'rdetail-row';
-          var cell = document.createElement('td'); cell.colSpan = 13;
+          var cell = document.createElement('td'); cell.colSpan = 7;
           var grid = document.createElement('div'); grid.className = 'rdetail';
           [['Added', r['Created'] ? String(r['Created']).replace('Z', ' UTC') : '—'],
            ['Stage', r['Stage'] || '—'],
