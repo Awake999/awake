@@ -54,7 +54,7 @@
 | 2026-08-21 | Impromptu Zoom Meeting | 175700871 | 794472254 | no |
 | 2026-08-21 | Impromptu Zoom Meeting | 175468970 | 793262976 | no |
 | 2026-08-20 | Impromptu Zoom Meeting | 175448782 | 793137663 | no |
-| 2026-08-20 | Karl Krummenacher - Guaranteed Funding | 175440897 | 791088813 | no |
+| 2026-08-20 | Karl Krummenacher - Guaranteed Funding | 175440897 | 791088813 | yes → `2026-08-20--karl-krummenacher-guaranteed-funding--175440897/` — the whale call (Modern Thyroid, $8M rev, exit plan) |
 | 2026-08-20 | Impromptu Zoom Meeting | 175052490 | 791883972 | no |
 | 2026-08-20 | Michael Moore - Guaranteed Funding | 175044393 | 791826979 | no |
 | 2026-08-20 | Impromptu Zoom Meeting | 175036919 | 791773496 | no |
