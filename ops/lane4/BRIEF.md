@@ -38,3 +38,7 @@
 3. **Teramind** (register item #49): grab an API token (Teramind admin → API) OR schedule a daily CSV export to the APW Data Hub Drive folder. Either one turns the contractor reports from hearsay into tool data.
 4. **Invite Jacob to Meta Ads Manager** (blocks the Sep 1 10:00 AM PT A/B launch).
 5. **Notion pending join request** — approve/deny ("1 user waiting to join Ascend Prime Wealth", likely ML).
+
+## A4. TASK 9 (added 8/30 night — Alan ruled "Option A now", ping → #call-outcomes)
+
+> TASK 9 — CALL-OUTCOME PING AUTOMATION (GHL UI build, ~45 min, Alan present for Step 0): follow `ops/data/CALL_OUTCOME_BUILD_SOP.md` verbatim — Slack incoming webhook for #call-outcomes (C0BTJL3BPPX), 5 trigger links, 5 outcome workflows (tag+note+status), the appointment-end ping workflow, then the dummy-appointment test in Step 4. This supersedes manual status-setting discipline (#64) with a machine that asks the closer after every call. NOTE: workflow creation is an approved GHL write for THIS build only; still no other writes.
