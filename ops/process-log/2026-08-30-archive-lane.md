@@ -64,3 +64,18 @@ Adopted for this lane immediately: every report/reply/file opens with a TLDR tha
 Adopted: (1) standing audio SOP written into `ops/archive/slack/audio/README.md` — audios downloaded + machine-transcribed by the lane (faster-whisper small, installed in-session; Alan's direction supersedes the earlier no-self-transcription rule), videos linked only, constant re-sweeps, perfect sorting; (2) clickable-links law — every reference in inventories AND chat replies is a named markdown link, never a raw URL. FOR LANE 1: register both verbatim asks; clickable-links extends SCAN-READY LAW.
 
 Status: 23/26 audios in repo; transcription batch running (background job); 3 oversize Grace call audios + Lynn video have real Slack permalinks in the inventory — audios flagged for local download then transcription, video stays link-only.
+
+## Batch: ALL 32 Slack channels exported (2026-08-30, same session, post-compaction)
+
+Every channel in `channels/INDEX.md` now has ✅ (export complete) or ✅-empty (verified zero content). Completed this batch:
+- **#--ascend-prime-wealth-main-chat** — full re-fetch (compaction ate the first pass's pages; re-paginated 6 pages 8/3→8/28), complete export
+- #dispute-team-agenda, #sales-team-updates, #sales-team-chat (Constantine notes + money scripts), #-agenda-for-the-next-day (Alan's master work orders), #admin-ops-agenda, #admin-ops-staff (CRM template, hiring campaign, Daily Meeting SOP), #apw-staff-questions (help SOP), #-announcements (strike system, culture doc, SOD/EOD templates), #social, archived #carla/#grace-start-of-day-reports (Grace's = account-level dispute ledgers), #-team-shoutouts, #vibe-lounge, #birthday-wishes, #bloc-ref-alan-nguyen (FFF referral channel)
+- **#alan-nguyen-leads** (complete + raw p1 archived; 96-entry LeadConnector feed rendered by parser script) + #alan-nguyen-leads-medical
+- **The two external Slack Connect channels — the big finds:**
+  - `alan-nguyen-fff/` — Alan's own journey as a Funding For Freedom CLIENT, Feb–Aug (the 0%-funding dispute, BiggerPockets saga w/ ~$100K claimed damages + reconciliation, CA-entity build, Enterprise Bank BLOC "might be approved"). Raw pages 2-3 archived verbatim + full rendering in export.
+  - `alan-nguyen9145-scaleclients/` — the complete ScaleClients/Kai Bax growth-engine record, Mar–Aug (KPI math, $15K close, show-rate crisis, 8/26 qualified-lead reckoning "burning money for nothing", Clint's 6-point response, Kai engaged 8/28). Raw pages 3-4 archived.
+- Verified empty (re-sweep next run): #apw-tracker-fathom, #sales-team-agenda, #employee-questions
+
+## Batch: audio sweep 2 — external channels (2026-08-30)
+
+Workspace file search does NOT cover Slack Connect channels. Manual sweep of both external channels found **65 more voice notes**. Alan's own 22 downloaded ✅ into `slack/audio/files/` (45 .m4a total now); the 43 posted by Clint/Kai/Fadel are hosted in ScaleClients' workspace — API returns file_not_found — flagged 🔴 local-PC download in `audio/README.md` with poster+date+file-ID locators. Transcription batch 2 chained behind batch 1 (background job b1nbivzu5). Batch 1 (23 files) complete except final file at log time; transcripts committed as they land.
