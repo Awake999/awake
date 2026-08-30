@@ -49,3 +49,9 @@ Read `ops/SOP.md` v1.0 + REGISTER LANE-SYNC block from `claude/new-session-1ofk4
 - **EVIDENCE LAW / VERBATIM / TANDEM / SCAN-READY** — already lane practice; meta files carry links + dates.
 - **Sync ritual** — pull-first / push-after / grep LANE-SYNC / own process-log only: adopted as written. Lane 3 ownership confirmed: `ops/archive/**` append-only.
 - GHL: per LANE-SYNC, Lane 4 delivers GHL originals into `ops/archive/ghl/` — folder + deposit instructions already in place; Todd L. import complete (Contact ID nIy2smghNYT9II3enmQv), awaiting Lane 4's PR.
+
+## Batch: TLDR format rule (Alan, verbatim, 2026-08-30)
+
+> "TL/DR should always be a part of your SOP all throughout, but it should have context. It should also be at the very end, in an actual, easy, simple way, as well as at the beginning."
+
+Adopted for this lane immediately: every report/reply/file opens with a TLDR that carries context, and closes with a plain, simple TLDR restatement. FOR LANE 1: this extends SCAN-READY LAW — please register this verbatim ask and fold into SOP.md next version (archive lane cannot edit SOP.md per single-writer rule).
