@@ -631,6 +631,8 @@
   details.rawbook > summary .chev2 { color: var(--ink-3); margin-right: 8px; }
   details.rawbook[open] > summary .chev2 { transform: rotate(90deg); display: inline-block; }
 
+  .vbtn { background: none; border: none; padding: 0; cursor: pointer; font: inherit; }
+  .vbtn:hover .chip { box-shadow: 0 0 8px rgba(51,214,245,.4); }
   #roster-tbl tbody tr.rrow { cursor: pointer; }
   #roster-tbl tbody tr.rrow:hover td { background: rgba(51,214,245,.05); }
   #roster-tbl tbody tr.rrow:focus-visible { outline: 2px solid var(--gold); outline-offset: -2px; }
@@ -916,7 +918,13 @@
       <button type="button" data-chip="triaged" id="chip-triaged" aria-pressed="false">Triaged</button>
     </div>
     <p class="rate-strip" id="rate-strip"></p>
-    <p class="sub" style="margin:-4px 0 12px; font-size:12px; color:var(--ink-3)">Modular truth: every verdict is editable — <strong style="color:var(--ink-2)">click the name → flip Stage / Showed / Qualification in the tracker</strong>; the board recomputes within ~10 min. Wrong row? That’s a one-click fix, not a permanent stat.</p>
+    <p class="sub" style="margin:-4px 0 12px; font-size:12px; color:var(--ink-3)"><strong style="color:var(--ink-2)">Modular truth, two ways:</strong> tap any ✓/✕/? verdict to correct it on the spot (rates recompute instantly — saved on this device until synced), or click the name to flip the row permanently in Notion (board follows in ~10 min).</p>
+    <div class="provenance" hidden style="border-left-color: var(--warn); margin-bottom:12px">
+      <strong>Your corrections (local, pending sync to the tracker):</strong>
+      <pre id="fix-list" class="mono" style="margin:6px 0; font-size:12px; white-space:pre-wrap"></pre>
+      <button type="button" class="theme-toggle" style="margin-left:0" onclick="try{navigator.clipboard.writeText(document.getElementById('fix-list').textContent)}catch(e){}">Copy for #call-outcomes</button>
+      <button type="button" class="theme-toggle" onclick="window.APW_FIX={};try{localStorage.removeItem('apw-showed-fix')}catch(e){};if(window.renderRoster)window.renderRoster();if(window.applyRosterViewLive)window.applyRosterViewLive();window.APW_FIXLIST();">Clear all</button>
+    </div>
     <div class="rfilters" id="rfilters" hidden>
       <label>From <input type="date" id="rf-from"></label>
       <label>To <input type="date" id="rf-to"></label>
@@ -1145,6 +1153,57 @@
   </div>
   </div>
   <p class="swipe-hint">swipe for phases 2–5 →</p>
+</section>
+
+
+<section id="sequence">
+  <div class="sec-head"><span class="sic" style="color:var(--w-cyan)"><svg class="ic"><use href="#i-filter"/></svg></span><h2>The Sequence — every lead, step by step</h2>
+    <span class="note"><a href="https://github.com/Awake999/awake/blob/claude/dashboard-lane-polish/ops/prompts/2026-08-30-pipeline-sequence-spec.md">Alan's spec, verbatim ↗</a> · ✅ tracked today · ➕ needs a tracker field · 🔒 GHL raw</span></div>
+
+  <div class="panel reveal" data-no-tilt>
+    <p class="sub">Alan's 8/30 sequence, one stage per row, top to bottom — with exactly which field captures each step today. Every ➕ is queued for Lane 1 to add to the tracker so this fills per lead.</p>
+    <div class="ladder" style="flex-direction: column">
+      <div class="rung on"><span class="lv">1</span><span class="why"><strong>Incoming lead — two doors:</strong> A → Opt-In · B → Direct Booking <span class="chip good">✅ Entry Path</span></span></div>
+      <div class="rung part"><span class="lv">2</span><span class="why"><strong>Speed to lead (in-hours):</strong> within 1 minute? within 2 minutes? <span class="chip good">✅ Speed to Lead (min)</span> <span class="chip mut">buckets derived</span> · <strong>out-of-hours:</strong> time-to-contact + when contacted <span class="chip warn">➕ Out-of-Hours flag</span></span></div>
+      <div class="rung dim"><span class="lv">3</span><span class="why"><strong>Intro text sent</strong> — “Hi this is (our name) about to give you a call?” yes/no <span class="chip warn">➕ Intro Text Sent</span></span></div>
+      <div class="rung dim"><span class="lv">4</span><span class="why"><strong>Connected or double-dialed</strong> — yes/no <span class="chip warn">➕ Connect Method</span> <span class="chip mut">🔒 GHL call log holds raws</span></span></div>
+      <div class="rung dim"><span class="lv">5</span><span class="why"><strong>Voicemail (if able) + text follow-up</strong> — yes/no <span class="chip warn">➕ Follow-Up Sent</span></span></div>
+      <div class="rung part"><span class="lv">6</span><span class="why"><strong>Response / answer:</strong> triaged yes/no <span class="chip good">✅ Human Triaged</span> · busy → <strong>rescheduled &amp; BAMFAM to triage</strong> <span class="chip warn">➕ BAMFAM’d</span> · unreachable despite attempts → <strong>how many? what methods?</strong> <span class="chip warn">➕ Attempts + Methods</span> <span class="chip mut">🔒 GHL messages hold raws (8,218)</span></span></div>
+      <div class="rung on"><span class="lv">7</span><span class="why"><strong>Booking</strong> <span class="chip good">✅ Stage</span> → showed? <span class="chip good">✅ verdict + your corrections</span></span></div>
+      <div class="rung on"><span class="lv">8</span><span class="why"><strong>Qualified or unqualified</strong> <span class="chip good">✅ Qualification + Unqualified Reasons</span> — criteria below, verbatim</span></div>
+    </div>
+
+    <div class="ff-h" style="margin-top:18px">The qualifications — Alan, 8/30, verbatim</div>
+    <div class="duo">
+      <div class="panel" style="border-top:3px solid var(--good)">
+        <h3><svg class="ic"><use href="#i-check"/></svg>Primary offer — qualified when ALL of:</h3>
+        <ul style="margin:8px 0 0; padding-left:18px; font-size:13px; color:var(--ink-2)">
+          <li style="margin:4px 0">“strong enough credit” <span class="src">(≈700–720 minimum score gate — Constantine session 8/12)</span></li>
+          <li style="margin:4px 0">“no late payments, collections, charge offs, bankruptcies, etc.”</li>
+          <li style="margin:4px 0">“needs funding (not a license broker, and not no liability funding)”</li>
+          <li style="margin:4px 0">“has the money to pay us”</li>
+        </ul>
+      </div>
+      <div class="panel" style="border-top:3px solid var(--warn)">
+        <h3><svg class="ic"><use href="#i-clock"/></svg>Downsell — qualified when:</h3>
+        <p class="sub" style="margin:8px 0 0">“has the money to pay us to help them optimize their credit so that they can become eligible for funding and the main offer”</p>
+        <p class="sub" style="margin:10px 0 0">Everything else is <strong style="color:var(--crit)">out</strong> — no funds, offer mismatch (broker-only, no-liability seekers), shoppers.</p>
+      </div>
+    </div>
+
+    <div class="ff-h" style="margin-top:18px">The Constantine expansion — mined from the actual sessions</div>
+    <div class="tbl-wrap" style="border:none"><table style="min-width:0">
+      <tbody>
+        <tr><td class="num mono" style="font-size:16px">~10%</td><td class="why">show rate when <strong style="color:var(--ink)">nobody speaks to them</strong> before the call — “if they book a call, it's a 10% show rate, roughly” <a class="src" href="https://app.krisp.ai/m/019f8b048a4d7789b9babd954c38b271?active_tab=ai_notes">Jul 22 ↗</a></td></tr>
+        <tr><td class="num mono" style="font-size:16px">33–50%</td><td class="why">show rate <strong style="color:var(--ink)">when Alan personally speaks to the lead pre-call</strong> — the single biggest lever in APW’s own data <a class="src" href="https://app.krisp.ai/m/019f8b048a4d7789b9babd954c38b271?active_tab=ai_notes">Jul 22 ↗</a></td></tr>
+        <tr><td class="num mono" style="font-size:16px">20–30%</td><td class="why">closer KPI, computed <strong style="color:var(--ink)">only on live (sat) calls</strong> — never on bookings; overall = show rate × close-on-shows <a class="src" href="https://fathom.video/calls/782299252">Aug 13 ↗</a></td></tr>
+        <tr><td class="num mono" style="font-size:16px">~100</td><td class="why">live calls before judging a closer (30 days, 6/day, 5 show) <a class="src" href="https://fathom.video/calls/782299252">Aug 13 ↗</a></td></tr>
+        <tr><td class="num mono" style="font-size:16px">0</td><td class="why">“If you give me people who have no money, who are in debt, who are you going to close? Zero.” — offer-incompatible prospects come out of the close-rate denominator; their losses are <strong style="color:var(--ink)">targeting data, not sales data</strong> <a class="src" href="https://fathom.video/calls/782299252">Aug 13 ↗</a></td></tr>
+        <tr><td class="num mono" style="font-size:16px">⚠</td><td class="why">losing unqualified no-shows is the funnel <strong style="color:var(--ink)">working</strong> (“that's great, man”) · don’t demand credit reports pre-show — friction costs shows; “if you can't get it in time, show up anyway” <a class="src" href="https://app.krisp.ai/m/019e4695872d775b83caec6c53f413d8?active_tab=ai_notes">May 20 ↗</a> · partner + timing qualification happens at triage, not mid-pitch <a class="src" href="https://app.krisp.ai/m/019eb2b79830720da56c1eb4c960250c?active_tab=ai_notes">Jun 10 ↗</a></td></tr>
+      </tbody>
+    </table></div>
+    <p class="sub" style="margin-top:10px">Full mining with timestamps: <a href="https://github.com/Awake999/awake/blob/claude/dashboard-lane-polish/ops/data/CONSTANTINE_SHOWRATE_MINING.md">CONSTANTINE_SHOWRATE_MINING.md ↗</a></p>
+  </div>
 </section>
 
 <section id="pipeline">
@@ -1824,11 +1883,34 @@
     if (hasRec || stage === 'Showed' || stage === 'Offer Made' || stage === 'Closed Won') return 'yes';
     return 'unk';
   };
+  /* Alan's modular corrections: name -> 'yes'|'no'|'unk'; local until synced to Notion */
+  window.APW_FIX = {};
+  try { window.APW_FIX = JSON.parse(localStorage.getItem('apw-showed-fix') || '{}') || {}; } catch (e) {}
+  window.APW_SHOWED_FINAL = function (name, stage, hasRec) {
+    return window.APW_FIX[name] || window.APW_SHOWED(stage, hasRec);
+  };
+  window.APW_CYCLE = function (name) {
+    var order = ['yes', 'no', 'unk'];
+    var cur = window.APW_FIX[name];
+    if (!cur) window.APW_FIX[name] = 'no'; /* first tap on a wrong ✓ usually means "did NOT show" */
+    else { var i = order.indexOf(cur); if (i === order.length - 1) delete window.APW_FIX[name]; else window.APW_FIX[name] = order[i + 1]; }
+    try { localStorage.setItem('apw-showed-fix', JSON.stringify(window.APW_FIX)); } catch (e) {}
+    if (window.renderRoster) try { window.renderRoster(); } catch (e) {}
+    if (window.applyRosterViewLive) try { window.applyRosterViewLive(); } catch (e) {}
+    window.APW_FIXLIST();
+  };
+  window.APW_FIXLIST = function () {
+    var box = document.getElementById('fix-list'); if (!box) return;
+    var keys = Object.keys(window.APW_FIX);
+    box.parentElement.hidden = keys.length === 0;
+    box.textContent = keys.map(function (k) { return k + ' → ' + ({ yes: 'SHOWED ✓', no: 'DID NOT SHOW ✕', unk: 'UNKNOWN ?' })[window.APW_FIX[k]]; }).join('\n');
+  };
   window.APW_RATES = function (c) {
     var el = document.getElementById('rate-strip'); if (!el) return;
     var denom = c.yes + c.no;
     var rate = denom ? Math.round(c.yes / denom * 100) + '%' : '—';
-    el.innerHTML = '<b>' + c.shown + '</b> shown · evidenced show rate <b>' + rate + '</b> (✓' + c.yes + ' / ✕' + c.no + ' · ' + c.unk + ' unknown) · qualified <b>' + c.qual + '</b>' + (c.tri === null ? ' · triaged: live only' : ' · triaged <b>' + c.tri + '</b>');
+    el.innerHTML = '<b>' + c.shown + '</b> shown · evidenced show rate <b>' + rate + '</b> (✓' + c.yes + ' / ✕' + c.no + ' · ' + c.unk + ' unknown) · qualified <b>' + c.qual + '</b>' + (c.tri === null ? ' · triaged: live only' : ' · triaged <b>' + c.tri + '</b>') + (c.fixn ? ' · <b>' + c.fixn + '</b> corrected by you ✎' : '');
+    window.APW_FIXLIST();
   };
   (function () {
     var box = document.getElementById('pchips'); if (!box) return;
@@ -1952,11 +2034,11 @@
       var html="", c={shown:0,yes:0,no:0,unk:0,qual:0,tri:null};
       window.APW_ROSTER.forEach(function(r){
         var f=window.APW_FATHOM[r[0]], sec=f&&f.charAt(0)==="s", fid=sec?f.slice(1):f;
-        var sh=window.APW_SHOWED(r[1], !!fid);
+        var sh=window.APW_SHOWED_FINAL(r[0], r[1], !!fid);
         if(st && r[1]!==st) return;
         if(q && r[0].toLowerCase().indexOf(q)<0) return;
         /* rates are computed over the whole filtered population; chips only narrow the list */
-        if(sh==='yes')c.yes++; else if(sh==='no')c.no++; else c.unk++; if(r[3])c.qual++;
+        if(sh==='yes')c.yes++; else if(sh==='no')c.no++; else c.unk++; if(r[3])c.qual++; if(window.APW_FIX[r[0]])c.fixn=(c.fixn||0)+1;
         var chip=window.APW_CHIP;
         if(chip==='booked' && r[1]!=='Booked Call') return;
         if(chip==='showed' && sh!=='yes') return;
@@ -1964,7 +2046,10 @@
         if(chip==='qualified' && !r[3]) return;
         if(chip==='triaged') return; /* not tracked in the static snapshot */
         c.shown++;
-        var shHtml = sh==='yes' ? "<span class='chip good'>✓</span>" : sh==='no' ? "<span class='chip crit'>✕</span>" : "<span class='chip mut'>?</span>";
+        var fixed = !!window.APW_FIX[r[0]];
+        var shHtml = "<button type='button' class='vbtn' onclick=\"window.APW_CYCLE('"+r[0].replace(/'/g,"\\'")+"')\" title='Tap to correct — cycles ✓ → ✕ → ? → auto'>"
+          +(sh==='yes' ? "<span class='chip good'>✓" : sh==='no' ? "<span class='chip crit'>✕" : "<span class='chip mut'>?")
+          +(fixed?" ✎":"")+"</span></button>";
         html+="<tr><td class='who'><a href='https://app.notion.com/p/"+r[7]+"'>"+esc(r[0])+"</a></td>"
           +"<td><span class='chip "+(STAGE_CLS[r[1]]||"mut")+"'>"+esc(r[1])+"</span></td>"
           +"<td>"+shHtml+(fid?" <a href='https://fathom.video/calls/"+fid+"'>🎥"+(sec?"²":"")+"</a>":"")+"</td>"
@@ -2132,9 +2217,10 @@
         if (to && c2 > to) return false;
         return true;
       }).forEach(function (r) {
-        var sh = window.APW_SHOWED(r['Stage'], false);
+        var sh = window.APW_SHOWED_FINAL(shortName(r['Client']), r['Stage'], false);
         if (sh === 'yes') rc.yes++; else if (sh === 'no') rc.no++; else rc.unk++;
         if (r['Qualification']) rc.qual++; if (r['Human Triaged']) rc.tri++;
+        if (window.APW_FIX[shortName(r['Client'])]) rc.fixn = (rc.fixn || 0) + 1;
       });
       window.APW_RATES(rc);
       var filt = $('rfilters'); if (filt) filt.hidden = false;
@@ -2169,11 +2255,15 @@
         var st = document.createElement('td'); var chip = document.createElement('span');
         chip.className = 'chip ' + (STAGE_CHIP[r['Stage']] || 'mut'); chip.textContent = r['Stage'] || '—';
         st.appendChild(chip); tr.appendChild(st);
-        var sh = window.APW_SHOWED(r['Stage'], false);
-        var sc = document.createElement('td'); var shc = document.createElement('span');
+        var sh = window.APW_SHOWED_FINAL(shortName(r['Client']), r['Stage'], false);
+        var sc = document.createElement('td'); var shb = document.createElement('button');
+        shb.type = 'button'; shb.className = 'vbtn'; shb.title = 'Tap to correct — cycles ✓ → ✕ → ? → auto';
+        var shc = document.createElement('span');
         shc.className = 'chip ' + (sh === 'yes' ? 'good' : sh === 'no' ? 'crit' : 'mut');
-        shc.textContent = sh === 'yes' ? '✓' : sh === 'no' ? '✕' : '?';
-        sc.appendChild(shc); tr.appendChild(sc);
+        shc.textContent = (sh === 'yes' ? '✓' : sh === 'no' ? '✕' : '?') + (window.APW_FIX[shortName(r['Client'])] ? ' ✎' : '');
+        shb.appendChild(shc);
+        (function (nm) { shb.addEventListener('click', function (e) { e.stopPropagation(); window.APW_CYCLE(nm); }); })(shortName(r['Client']));
+        sc.appendChild(shb); tr.appendChild(sc);
         td(typeof r['Funding Ask'] === 'number' ? fmtMoney(r['Funding Ask']) : '—', 'num mono');
         td(r['Qualification'] || '—', 'why');
         td(r['lt'] || '—', 'mono');
