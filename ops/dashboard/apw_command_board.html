@@ -549,7 +549,7 @@
       <div class="tbl-wrap" style="border:none"><table style="min-width:0">
         <tbody>
           <tr><td><span class="chip good">L1</span></td><td class="why">Raw show rate (per person): <strong style="color:var(--ink)">33–35% floor → ~75% ceiling</strong> (tightened 8/30 by GHL ground truth)</td></tr>
-          <tr><td><span class="chip mut">L2</span></td><td class="why">Qualified show rate: <strong style="color:var(--ink)">insufficient data</strong> — <span id="l2-assessed">10 of 104</span> leads assessed; fill the Qualification dropdown per call (full breakdown in §03d below)</td></tr>
+          <tr><td><span class="chip mut">L2</span></td><td class="why">Qualified show rate: <strong style="color:var(--ink)">insufficient data</strong> — <span id="l2-assessed">24 of 104</span> leads assessed; fill the Qualification dropdown per call (full breakdown in §03d below)</td></tr>
           <tr><td><span class="chip good">L3</span></td><td class="why">Close on verified-show people: <strong style="color:var(--ink)">23%</strong> (6 of 26) — inside Constantine's 20–30% live-call benchmark; 8 more sit in Offer Made</td></tr>
           <tr><td><span class="chip warn">L4</span></td><td class="why">Downsell cohort: small-n — dominant no-close reason is <strong style="color:var(--ink)">no funds</strong>, the ICP signal</td></tr>
           <tr><td><span class="chip mut">L5</span></td><td class="why">PRIME path (speed-to-lead + triaged): <strong style="color:var(--ink)">not yet computable</strong> — triage tracking born 8/12; prospective from Sep 1</td></tr>
@@ -567,16 +567,16 @@
 
   <div class="tiles" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; margin-bottom:14px">
     <div class="panel"><h3><span class="chip good">Qualified — Main Offer</span></h3>
-      <div class="mono" id="q-main-n" style="font-size:26px; margin:6px 0 4px">4</div>
+      <div class="mono" id="q-main-n" style="font-size:26px; margin:6px 0 4px">8</div>
       <p class="sub">"strong credit profile AND money to invest into the program — boom"</p></div>
     <div class="panel"><h3><span class="chip warn">Downsell — Credit Rebuild</span></h3>
-      <div class="mono" id="q-down-n" style="font-size:26px; margin:6px 0 4px">3</div>
+      <div class="mono" id="q-down-n" style="font-size:26px; margin:6px 0 4px">9</div>
       <p class="sub">"anything besides bankruptcies and child support, we can help — late payments, charge-offs, collections, hard inquiries"</p></div>
     <div class="panel"><h3><span class="chip crit">Unqualified</span></h3>
-      <div class="mono" id="q-unq-n" style="font-size:26px; margin:6px 0 4px">3</div>
+      <div class="mono" id="q-unq-n" style="font-size:26px; margin:6px 0 4px">7</div>
       <p class="sub">no funds ("don't have $200 to their name") · offer mismatch (Jennifer: no-PG; Ghani: broker-only) · shoppers</p></div>
     <div class="panel"><h3><span class="chip mut">Not Yet Assessed</span></h3>
-      <div class="mono" id="q-unset-n" style="font-size:26px; margin:6px 0 4px">94</div>
+      <div class="mono" id="q-unset-n" style="font-size:26px; margin:6px 0 4px">80</div>
       <p class="sub">the tracking hole itself — see the fix line below</p></div>
   </div>
 
@@ -597,14 +597,28 @@
           <tr><td class="who"><a href="https://app.notion.com/p/3c25bb1ffef48167a52be1cac6373e84">Michael M. (wellness ctr)</a></td><td><span class="chip crit">Unq — No Funds</span></td><td>Nurture</td><td class="why">No funds (~$200) · Late payments · Charge-offs</td></tr>
           <tr><td class="who"><a href="https://app.notion.com/p/3b75bb1ffef481b48d4aea1c126cc0fd">Ghani A.</a></td><td><span class="chip crit">Unq — Mismatch</span></td><td>Showed</td><td class="why">Wants licensed broker only</td></tr>
           <tr><td class="who"><a href="https://app.notion.com/p/3b75bb1ffef481cda846db107d10f959">Jennifer U.</a></td><td><span class="chip crit">Unq — Mismatch</span></td><td>Closed Lost</td><td class="why">Wants no-PG funding · Low income</td></tr>
+          <tr><td class="who"><a href="https://app.notion.com/p/3b75bb1ffef481339557f53bd7f57326">Whitney Y.</a></td><td><span class="chip good">Main Offer</span></td><td>Offer Made</td><td class="why">— (820/823/798, mined 8/30 🎥)</td></tr>
+          <tr><td class="who"><a href="https://app.notion.com/p/3b75bb1ffef481a3b4e6f852fa6328f0">Gunjan P.</a></td><td><span class="chip good">Main Offer</span></td><td>Showed</td><td class="why">— ($400K own funds, mined 8/30 🎥)</td></tr>
+          <tr><td class="who"><a href="https://app.notion.com/p/3b85bb1ffef481868853f960a3db76e7">P Reddy P.</a></td><td><span class="chip good">Main Offer</span></td><td>Showed</td><td class="why">— (722/735/744, mined 8/30 🎥)</td></tr>
+          <tr><td class="who"><a href="https://app.notion.com/p/3b75bb1ffef4812fb11ad477dfe02b9d">Bryan D.</a></td><td><span class="chip good">Main Offer</span></td><td>Showed</td><td class="why">— (~800, $200K bank, mined 8/30 🎥)</td></tr>
+          <tr><td class="who"><a href="https://app.notion.com/p/3b75bb1ffef48172b371e1fd44fdb91e">Matt L.</a></td><td><span class="chip warn">Downsell</span></td><td>Closed Won</td><td class="why">Charge-offs</td></tr>
+          <tr><td class="who"><a href="https://app.notion.com/p/3b75bb1ffef481e1b1d5e2756a6275a3">George J.</a></td><td><span class="chip warn">Downsell</span></td><td>Offer Made</td><td class="why">Thin file / low limits</td></tr>
+          <tr><td class="who"><a href="https://app.notion.com/p/3b75bb1ffef4811cae89c7cbbbd58fb2">Pradeep B.</a></td><td><span class="chip warn">Downsell</span></td><td>Offer Made</td><td class="why">Collections · Hard inquiries · Low limits</td></tr>
+          <tr><td class="who"><a href="https://app.notion.com/p/3b75bb1ffef48156b3a6dcfac60e8e14">Ashwini A.</a></td><td><span class="chip warn">Downsell</span></td><td>Offer Made</td><td class="why">Late payments · Hard inquiries</td></tr>
+          <tr><td class="who"><a href="https://app.notion.com/p/3b75bb1ffef481369488cd0c55476bd4">Carmen M.</a></td><td><span class="chip warn">Downsell</span></td><td>Showed</td><td class="why">Charge-offs · Late payments</td></tr>
+          <tr><td class="who"><a href="https://app.notion.com/p/3bc5bb1ffef4813caf97de68e8ae061c">Yeshaya D.</a></td><td><span class="chip warn">Downsell</span></td><td>Offer Made</td><td class="why">Thin file (build stage)</td></tr>
+          <tr><td class="who"><a href="https://app.notion.com/p/3b75bb1ffef481709737ce87b86dfb67">Allen S.</a></td><td><span class="chip crit">Unq — Other</span></td><td>Showed</td><td class="why">Child support · Collections · Late payments</td></tr>
+          <tr><td class="who"><a href="https://app.notion.com/p/3c85bb1ffef481a3a2d2f0ae3835ac3d">Nick S.</a></td><td><span class="chip crit">Unq — Other ⚠️</span></td><td>Closed Won</td><td class="why">Bankruptcy 8-10yrs old — RULE CONFLICT, Alan to rule</td></tr>
+          <tr><td class="who"><a href="https://app.notion.com/p/3b75bb1ffef481b2a6f5e212c94bede5">Jennifer L.</a></td><td><span class="chip crit">Unq — Other</span></td><td>Unqualified</td><td class="why">non-lead (SCIO test booking)</td></tr>
+          <tr><td class="who"><a href="https://app.notion.com/p/3b75bb1ffef481188c39c241871b9130">Lynn N.</a></td><td><span class="chip crit">Unq — Other</span></td><td>Unqualified</td><td class="why">non-lead (internal team member)</td></tr>
         </tbody>
       </table></div>
     </div>
     <div class="panel">
-      <h3>Why the other <span id="q-hole-n">94</span> are blank — and the fix</h3>
+      <h3>Why the other <span id="q-hole-n">80</span> are blank — and the fix</h3>
       <p class="sub" style="margin-bottom:10px">Honest label: <strong style="color:var(--ink)">unknown, not hidden.</strong> Nobody recorded a qualification verdict per call, ever — same root failure as the show-status hole (§03b).</p>
       <div class="tbl-wrap" style="border:none"><table style="min-width:0"><tbody>
-        <tr><td class="num mono" style="font-size:18px" id="q-backfill-n">15</td><td class="why"><strong style="color:var(--ink)">backfillable now</strong> — people who verifiably Showed or reached Offer Made but carry no label; their call recordings exist, verdicts can be mined and entered</td></tr>
+        <tr><td class="num mono" style="font-size:18px" id="q-backfill-n">5</td><td class="why"><strong style="color:var(--ink)">mined 8/30, undeterminable from tape</strong> — Lonnie (one-sided audio), Johnny + Myla (only internal calls exist), Joe (audio-fail call), Connor (empty recording) — labeled live at their next call; the other 10 backfillable verdicts were mined &amp; entered 8/30</td></tr>
         <tr><td class="num mono" style="font-size:18px">31</td><td class="why">sitting at Booked Call — get labeled live by the closer as each call happens</td></tr>
         <tr><td class="num mono" style="font-size:18px">48</td><td class="why">never reached a call or already resolved without a label (New Lead / Contacted / No-Show / Nurture / closed rows) — labeled at triage, from records, or never, honestly</td></tr>
       </tbody></table></div>
