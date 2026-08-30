@@ -1,0 +1,412 @@
+[
+ {
+  "call": "PUT /contacts/nIy2smghNYT9II3enmQv",
+  "ok": true,
+  "resp": {
+   "succeded": true,
+   "succeeded": true,
+   "contact": {
+    "id": "nIy2smghNYT9II3enmQv",
+    "dateAdded": "2026-06-30T02:27:25.444Z",
+    "type": "lead",
+    "locationId": "WFkoNzKa9J9PxhngsLfl",
+    "phone": "+14154245720",
+    "country": "US",
+    "createdBy": {
+     "source": "lc-phone-api",
+     "channel": "ISTIO_MESH",
+     "sourceId": "WFkoNzKa9J9PxhngsLfl",
+     "timestamp": "2026-06-30T02:27:25.443Z"
+    },
+    "emailLowerCase": "toddloguidice@gmail.com",
+    "fullNameLowerCase": "todd loguidice",
+    "lastName": "LoGuidice",
+    "lastNameLowerCase": "loguidice",
+    "firstName": "Todd",
+    "firstNameLowerCase": "todd",
+    "email": "toddloguidice@gmail.com",
+    "dateUpdated": "2026-08-30T07:09:01.209Z",
+    "tags": [
+     "call booked scio",
+     "client",
+     "closed-won",
+     "mlcs-holdings",
+     "name via lookup",
+     "no-phone-on-file",
+     "personal-guarantor",
+     "prime-protocol",
+     "referral",
+     "zero-upfront-4pct"
+    ],
+    "source": "Referral - Matt L. (brother, co-owner MLCS Holdings)",
+    "companyName": "MLCS Holdings",
+    "followers": [],
+    "customFields": [],
+    "additionalEmails": [],
+    "additionalPhones": []
+   },
+   "traceId": "04b5ad24-3eb3-4814-9872-823ee27e774d"
+  }
+ },
+ {
+  "call": "PUT /opportunities/trnXkuLcYMuTg4iDg8za",
+  "ok": true,
+  "resp": {
+   "opportunity": {
+    "id": "trnXkuLcYMuTg4iDg8za",
+    "name": "Todd LoGuidice - $0 upfront / 4% success fee (household deal w/ Matt L.)",
+    "monetaryValue": 0,
+    "pipelineId": "2JlgwyCzR7AnFqYK4MNu",
+    "pipelineStageId": "bd4f455e-2cc5-40c0-8fc0-306a88d5fbde",
+    "status": "won",
+    "source": "FB SCIO",
+    "lastStatusChangeAt": "2026-08-30T07:09:01.476Z",
+    "lastStageChangeAt": "2026-08-30T07:09:01.470Z",
+    "createdAt": "2026-08-26T20:59:05.633Z",
+    "updatedAt": "2026-08-30T07:09:01.476Z",
+    "contactId": "nIy2smghNYT9II3enmQv",
+    "isAttribute": false,
+    "internalSource": {
+     "type": "CREATED",
+     "id": "aee012b8-a778-4a23-a44c-9745758ced2c",
+     "apiVersion": "2021-04-15",
+     "channel": "ISTIO_MESH",
+     "source": "WORKFLOW_NEW"
+    },
+    "locationId": "WFkoNzKa9J9PxhngsLfl",
+    "lastActionDate": "2026-08-30T07:09:01.476Z",
+    "followers": [],
+    "contact": {
+     "id": "nIy2smghNYT9II3enmQv",
+     "name": "Todd LoGuidice",
+     "companyName": "MLCS Holdings",
+     "email": "toddloguidice@gmail.com",
+     "phone": "+14154245720",
+     "tags": [
+      "call booked scio",
+      "client",
+      "closed-won",
+      "mlcs-holdings",
+      "name via lookup",
+      "no-phone-on-file",
+      "personal-guarantor",
+      "prime-protocol",
+      "referral",
+      "zero-upfront-4pct"
+     ],
+     "followers": []
+    }
+   },
+   "traceId": "bc4f7889-c0ad-4598-b5f0-84ee38ed5ea4"
+  }
+ },
+ {
+  "call": "POST /contacts/nIy2smghNYT9II3enmQv/notes",
+  "ok": true,
+  "resp": {
+   "note": {
+    "id": "dKJSVGvU0toylbzZfJIV",
+    "body": "ROLE - WHAT TODD ACTUALLY IS (import 8/30 from TODD_GHL_IMPORT.md):\nTodd is the credit half of a two-person structure. He co-owns MLCS Holdings (Delaware entity, foreign-filed CA) with his brother Matt L. and acts as PERSONAL GUARANTOR on the entity's funding while Matt's credit is in repair. His credit is the asset being underwritten. He is not a lead - he is a guarantor who became a client through the household deal. Business role: 85% owner as stated on the 7/31 applications (fathom.video/calls/769061378). Fee structure: $0 up front, 4% performance fee payable ONLY on successful funding, from the new funds. Agreement signed: Matt 7/2, Todd countersigned 7/31 (SendLink 'Todd - Matt - APW_Program_Agreement_v3 signed'). Terms source: fathom.video/calls/732157346.",
+    "bodyText": "ROLE - WHAT TODD ACTUALLY IS (import 8/30 from TODD_GHL_IMPORT.md):\nTodd is the credit half of a two-person structure. He co-owns MLCS Holdings (Delaware entity, foreign-filed CA) with his brother Matt L. and acts as PERSONAL GUARANTOR on the entity's funding while Matt's credit is in repair. His credit is the asset being underwritten. He is not a lead - he is a guarantor who became a client through the household deal. Business role: 85% owner as stated on the 7/31 applications (fathom.video/calls/769061378). Fee structure: $0 up front, 4% performance fee payable ONLY on successful funding, from the new funds. Agreement signed: Matt 7/2, Todd countersigned 7/31 (SendLink 'Todd - Matt - APW_Program_Agreement_v3 signed'). Terms source: fathom.video/calls/732157346.",
+    "userId": null,
+    "dateAdded": "2026-08-30T07:09:04.110Z",
+    "contactId": "nIy2smghNYT9II3enmQv",
+    "pinned": false,
+    "relations": []
+   },
+   "traceId": "8cc53ced-ef1e-4290-9c6a-061809b1d616"
+  }
+ },
+ {
+  "call": "POST /contacts/nIy2smghNYT9II3enmQv/notes",
+  "ok": true,
+  "resp": {
+   "note": {
+    "id": "Lzm3VmFuknrNuaOKnlmS",
+    "body": "TIMELINE 2026-06-30: Credit optimization + funding strategy set for Todd. Plan: apply for a 0% interest business card ($5-25K) from a no-seasoning bank; Matt to run the 'nuke' method to remove 4 hard inquiries across all three bureaus (4-day target). Evidence: fathom.video/calls/730356996",
+    "bodyText": "TIMELINE 2026-06-30: Credit optimization + funding strategy set for Todd. Plan: apply for a 0% interest business card ($5-25K) from a no-seasoning bank; Matt to run the 'nuke' method to remove 4 hard inquiries across all three bureaus (4-day target). Evidence: fathom.video/calls/730356996",
+    "userId": null,
+    "dateAdded": "2026-08-30T07:09:04.565Z",
+    "contactId": "nIy2smghNYT9II3enmQv",
+    "pinned": false,
+    "relations": []
+   },
+   "traceId": "c300d85d-caeb-484b-adfd-817a6b4de60f"
+  }
+ },
+ {
+  "call": "POST /contacts/nIy2smghNYT9II3enmQv/notes",
+  "ok": true,
+  "resp": {
+   "note": {
+    "id": "g4RPJSPsHTrQc10GrFl5",
+    "body": "TIMELINE 2026-07-01: Agreement finalized: $0 down, 4% success fee. Strategy: Equifax-only and TransUnion-only cards, then inquiry removal to enable more applications. Evidence: fathom.video/calls/732157346",
+    "bodyText": "TIMELINE 2026-07-01: Agreement finalized: $0 down, 4% success fee. Strategy: Equifax-only and TransUnion-only cards, then inquiry removal to enable more applications. Evidence: fathom.video/calls/732157346",
+    "userId": null,
+    "dateAdded": "2026-08-30T07:09:04.997Z",
+    "contactId": "nIy2smghNYT9II3enmQv",
+    "pinned": false,
+    "relations": []
+   },
+   "traceId": "d7d10733-5707-455c-bbc1-2825fa80dd4d"
+  }
+ },
+ {
+  "call": "POST /contacts/nIy2smghNYT9II3enmQv/notes",
+  "ok": true,
+  "resp": {
+   "note": {
+    "id": "H5PzRiL1AOMMVUt1yN2r",
+    "body": "TIMELINE 2026-07-01: BLOCKER worked live: funding stalled pending a physical Social Security card. Online SSA application required in-person verification (next appt Aug 2026); resolved same call by submitting via ID.me after the standard portal failed to send a code. Emergency-appointment path also opened citing hardship. Evidence: fathom.video/calls/732184668",
+    "bodyText": "TIMELINE 2026-07-01: BLOCKER worked live: funding stalled pending a physical Social Security card. Online SSA application required in-person verification (next appt Aug 2026); resolved same call by submitting via ID.me after the standard portal failed to send a code. Emergency-appointment path also opened citing hardship. Evidence: fathom.video/calls/732184668",
+    "userId": null,
+    "dateAdded": "2026-08-30T07:09:05.426Z",
+    "contactId": "nIy2smghNYT9II3enmQv",
+    "pinned": false,
+    "relations": []
+   },
+   "traceId": "f98afbec-35a5-4804-a6f5-b87683d1508c"
+  }
+ },
+ {
+  "call": "POST /contacts/nIy2smghNYT9II3enmQv/notes",
+  "ok": true,
+  "resp": {
+   "note": {
+    "id": "cEVkufKa4D5Vb4U5hoT6",
+    "body": "TIMELINE 2026-07-02: Matt signs the joint APW Program Agreement v3 ('Matthew Signed' email). Evidence: support@ mailbox",
+    "bodyText": "TIMELINE 2026-07-02: Matt signs the joint APW Program Agreement v3 ('Matthew Signed' email). Evidence: support@ mailbox",
+    "userId": null,
+    "dateAdded": "2026-08-30T07:09:05.907Z",
+    "contactId": "nIy2smghNYT9II3enmQv",
+    "pinned": false,
+    "relations": []
+   },
+   "traceId": "496e7dde-42ea-49d4-83f9-2375a34d379d"
+  }
+ },
+ {
+  "call": "POST /contacts/nIy2smghNYT9II3enmQv/notes",
+  "ok": true,
+  "resp": {
+   "note": {
+    "id": "DjagAiSrpTtp1SjsQurF",
+    "body": "TIMELINE 2026-07-03: Entity strategy decided: foreign file the existing Delaware entity (MLCS Holdings) in Oakland using a vetted virtual address (vs. Matt buying a separate aged CO LLC as an SPV). Evidence: fathom.video/calls/734613825",
+    "bodyText": "TIMELINE 2026-07-03: Entity strategy decided: foreign file the existing Delaware entity (MLCS Holdings) in Oakland using a vetted virtual address (vs. Matt buying a separate aged CO LLC as an SPV). Evidence: fathom.video/calls/734613825",
+    "userId": null,
+    "dateAdded": "2026-08-30T07:09:06.333Z",
+    "contactId": "nIy2smghNYT9II3enmQv",
+    "pinned": false,
+    "relations": []
+   },
+   "traceId": "3c8c8af0-610e-42a3-b106-4615a9b07cf7"
+  }
+ },
+ {
+  "call": "POST /contacts/nIy2smghNYT9II3enmQv/notes",
+  "ok": true,
+  "resp": {
+   "note": {
+    "id": "WMCBWTdIKqWNK6uJAaLJ",
+    "body": "TIMELINE 2026-07-14: MLCS profile optimization for a $300K goal. CRITICAL: a $20 Delaware public-record pull revealed an $85,000 franchise tax assessment - must be corrected by the filing agent (Harvard Business Services) before applying. Evidence: fathom.video/calls/747196033",
+    "bodyText": "TIMELINE 2026-07-14: MLCS profile optimization for a $300K goal. CRITICAL: a $20 Delaware public-record pull revealed an $85,000 franchise tax assessment - must be corrected by the filing agent (Harvard Business Services) before applying. Evidence: fathom.video/calls/747196033",
+    "userId": null,
+    "dateAdded": "2026-08-30T07:09:06.759Z",
+    "contactId": "nIy2smghNYT9II3enmQv",
+    "pinned": false,
+    "relations": []
+   },
+   "traceId": "d5878952-79f4-459e-8ed5-d920a458a59f"
+  }
+ },
+ {
+  "call": "POST /contacts/nIy2smghNYT9II3enmQv/notes",
+  "ok": true,
+  "resp": {
+   "note": {
+    "id": "E44OqWrm4Zq8npwET8ql",
+    "body": "TIMELINE 2026-07-31: Two business card applications submitted: Mechanics Bank (TransUnion pull, 12-mo 0% APR) and First Foundation Bank (Equifax pull, 6-mo 0% APR). Stated annual revenue $1.6M to preserve a future $150K no-doc LOC option; Todd listed as 85% owner to leverage his personal credit. Evidence: fathom.video/calls/769061378",
+    "bodyText": "TIMELINE 2026-07-31: Two business card applications submitted: Mechanics Bank (TransUnion pull, 12-mo 0% APR) and First Foundation Bank (Equifax pull, 6-mo 0% APR). Stated annual revenue $1.6M to preserve a future $150K no-doc LOC option; Todd listed as 85% owner to leverage his personal credit. Evidence: fathom.video/calls/769061378",
+    "userId": null,
+    "dateAdded": "2026-08-30T07:09:07.175Z",
+    "contactId": "nIy2smghNYT9II3enmQv",
+    "pinned": false,
+    "relations": []
+   },
+   "traceId": "76bf1ac8-82d2-4719-b006-2c869a29cf3c"
+  }
+ },
+ {
+  "call": "POST /contacts/nIy2smghNYT9II3enmQv/notes",
+  "ok": true,
+  "resp": {
+   "note": {
+    "id": "MwzTI797N0KsqMJZj0vV",
+    "body": "TIMELINE 2026-07-31: Todd countersigns the joint program agreement. Evidence: support@ mailbox (SendLink)",
+    "bodyText": "TIMELINE 2026-07-31: Todd countersigns the joint program agreement. Evidence: support@ mailbox (SendLink)",
+    "userId": null,
+    "dateAdded": "2026-08-30T07:09:07.598Z",
+    "contactId": "nIy2smghNYT9II3enmQv",
+    "pinned": false,
+    "relations": []
+   },
+   "traceId": "0eef8e33-df6e-424e-8266-e2287bf017fb"
+  }
+ },
+ {
+  "call": "POST /contacts/nIy2smghNYT9II3enmQv/notes",
+  "ok": true,
+  "resp": {
+   "note": {
+    "id": "PBrwZtiUjLpcVXfS6Yuf",
+    "body": "TIMELINE 2026-08-03: Forwards MLCS Holdings application #6301694 (from Gabrielle McGillvery, cardassets.com) and flags a First Foundation Bank query as unrecognized. Evidence: Gmail thread 19fc806c7df95559",
+    "bodyText": "TIMELINE 2026-08-03: Forwards MLCS Holdings application #6301694 (from Gabrielle McGillvery, cardassets.com) and flags a First Foundation Bank query as unrecognized. Evidence: Gmail thread 19fc806c7df95559",
+    "userId": null,
+    "dateAdded": "2026-08-30T07:09:08.017Z",
+    "contactId": "nIy2smghNYT9II3enmQv",
+    "pinned": false,
+    "relations": []
+   },
+   "traceId": "76c6cd1a-7cb3-4140-bfbd-e3523faa6871"
+  }
+ },
+ {
+  "call": "POST /contacts/nIy2smghNYT9II3enmQv/notes",
+  "ok": true,
+  "resp": {
+   "note": {
+    "id": "TvocI4XuIihp4AunHi70",
+    "body": "TIMELINE 2026-08-10: RESOLVED - the 'unrecognized' First Foundation query was their OWN 7/31 application. Not fraud. No dispute needed. Evidence: fathom.video/calls/769061378 confirms the 7/31 EQ-pull application",
+    "bodyText": "TIMELINE 2026-08-10: RESOLVED - the 'unrecognized' First Foundation query was their OWN 7/31 application. Not fraud. No dispute needed. Evidence: fathom.video/calls/769061378 confirms the 7/31 EQ-pull application",
+    "userId": null,
+    "dateAdded": "2026-08-30T07:09:08.463Z",
+    "contactId": "nIy2smghNYT9II3enmQv",
+    "pinned": false,
+    "relations": []
+   },
+   "traceId": "5bc0da18-859c-4969-ab38-d40d925339c4"
+  }
+ },
+ {
+  "call": "POST /contacts/nIy2smghNYT9II3enmQv/notes",
+  "ok": true,
+  "resp": {
+   "note": {
+    "id": "cOns0F0eheVscDbPg1Vg",
+    "body": "DOCUMENTS (links; import 8/30):\n- Todd - 3B tri-bureau credit report: https://drive.google.com/file/d/1jf4Gdb1KHygSDnafLXaWFg-paPTFzQYh/view\n- MLCS CA SOS filing B4841-0906 (Articles): https://drive.google.com/file/d/17BXlGHdvCXHcPN6GUe3ehBNFCWpHyVii/view\n- MLCS Holdings application #6301694: Gmail thread 19fc806c7df95559 (8/3)\n- Joint signed agreement (Todd + Matt, v3): SendLink in support@ mailbox - PDF never downloaded; do this\n- Client Drive folder (all files): https://drive.google.com/drive/folders/1uGJxCdkv8VJAf7L4Bw1bRA3nuW0B-qe2",
+    "bodyText": "DOCUMENTS (links; import 8/30):\n- Todd - 3B tri-bureau credit report: https://drive.google.com/file/d/1jf4Gdb1KHygSDnafLXaWFg-paPTFzQYh/view\n- MLCS CA SOS filing B4841-0906 (Articles): https://drive.google.com/file/d/17BXlGHdvCXHcPN6GUe3ehBNFCWpHyVii/view\n- MLCS Holdings application #6301694: Gmail thread 19fc806c7df95559 (8/3)\n- Joint signed agreement (Todd + Matt, v3): SendLink in support@ mailbox - PDF never downloaded; do this\n- Client Drive folder (all files): https://drive.google.com/drive/folders/1uGJxCdkv8VJAf7L4Bw1bRA3nuW0B-qe2",
+    "userId": null,
+    "dateAdded": "2026-08-30T07:09:09.033Z",
+    "contactId": "nIy2smghNYT9II3enmQv",
+    "pinned": false,
+    "relations": []
+   },
+   "traceId": "715ed948-4790-4f75-8c73-9ec53f79424a"
+  }
+ },
+ {
+  "call": "POST /contacts/nIy2smghNYT9II3enmQv/tasks",
+  "ok": true,
+  "resp": {
+   "task": {
+    "id": "97uae5mroAv4BATQxk7z",
+    "title": "RED: Obtain Government ID for Todd (personal guarantor on live application)",
+    "body": "No Government ID on file for the personal guarantor on a live application. Highest-priority missing document across the entire client base - the PG is who the lender pursues. Request and file.",
+    "dueDate": "2026-09-05T17:00:00.000Z",
+    "completed": false,
+    "contactId": "nIy2smghNYT9II3enmQv"
+   },
+   "traceId": "c4403abe-6d26-4b51-b35f-afbf60ecd58e"
+  }
+ },
+ {
+  "call": "POST /contacts/nIy2smghNYT9II3enmQv/tasks",
+  "ok": true,
+  "resp": {
+   "task": {
+    "id": "ktslvhYnhhGgknjQC3NO",
+    "title": "RED: Confirm/verify phone number on file",
+    "body": "Import package found no phone anywhere in Notion/Fathom/support@. GHL has +14154245720 on this contact - verify it is current and reachable; every touch currently routes through Matt.",
+    "dueDate": "2026-09-05T17:00:00.000Z",
+    "completed": false,
+    "contactId": "nIy2smghNYT9II3enmQv"
+   },
+   "traceId": "94a9d3a0-388f-49c8-b82a-43a022eee3c5"
+  }
+ },
+ {
+  "call": "POST /contacts/nIy2smghNYT9II3enmQv/tasks",
+  "ok": true,
+  "resp": {
+   "task": {
+    "id": "2LQjiIgH6FiEoXBNcLMi",
+    "title": "ORANGE: Verify $85,000 Delaware franchise tax assessment corrected (MLCS)",
+    "body": "Must be corrected by Harvard Business Services before further applications. Status unverified since 7/14.",
+    "dueDate": "2026-09-05T17:00:00.000Z",
+    "completed": false,
+    "contactId": "nIy2smghNYT9II3enmQv"
+   },
+   "traceId": "4ffedd65-6069-474c-8e15-682dce5fb4fa"
+  }
+ },
+ {
+  "call": "POST /contacts/nIy2smghNYT9II3enmQv/tasks",
+  "ok": true,
+  "resp": {
+   "task": {
+    "id": "ZDeZZbO6KgV298WT8Gd3",
+    "title": "ORANGE: Populate Score Band from the 3B report",
+    "body": "Score Band reads Unknown despite the 3B tri-bureau report being on file - open it and populate; it is the number the guarantee rests on.",
+    "dueDate": "2026-09-05T17:00:00.000Z",
+    "completed": false,
+    "contactId": "nIy2smghNYT9II3enmQv"
+   },
+   "traceId": "591229c6-d3bb-496f-9bb2-711d5a4de014"
+  }
+ },
+ {
+  "call": "POST /contacts/nIy2smghNYT9II3enmQv/tasks",
+  "ok": true,
+  "resp": {
+   "task": {
+    "id": "rYJEc9iTXKUV5sdgRH8O",
+    "title": "YELLOW: Close Prime Protocol gaps (EIN letter, operating agreement, bank statements, tax return, income proof)",
+    "body": "No EIN letter (status asserted, not evidenced), no operating agreement (material where two owners share an entity and only one guarantees), no personal/business bank statements (3 months each required), no tax return, no income proof - Income Range reads Unknown for the guarantor.",
+    "dueDate": "2026-09-05T17:00:00.000Z",
+    "completed": false,
+    "contactId": "nIy2smghNYT9II3enmQv"
+   },
+   "traceId": "f1c0c3d5-cfd9-491b-937e-1d4dccbcae6f"
+  }
+ },
+ {
+  "call": "POST /contacts/nIy2smghNYT9II3enmQv/tasks",
+  "ok": true,
+  "resp": {
+   "task": {
+    "id": "VNckLsf1d9A7fxCHVuaE",
+    "title": "YELLOW: Record outcome of application #6301694",
+    "body": "MLCS Holdings application #6301694 has no recorded outcome.",
+    "dueDate": "2026-09-05T17:00:00.000Z",
+    "completed": false,
+    "contactId": "nIy2smghNYT9II3enmQv"
+   },
+   "traceId": "d5880818-1c91-4c8d-a8c8-ad16ae450ff5"
+  }
+ },
+ {
+  "call": "POST /contacts/nIy2smghNYT9II3enmQv/tasks",
+  "ok": true,
+  "resp": {
+   "task": {
+    "id": "H9SXnNLtXtSg6PMFxgco",
+    "title": "DECISION for Alan: should a guarantor carry his own commercial terms?",
+    "body": "Whether a guarantor should carry his own commercial terms at all is an open question for Alan - Closed Won with no Deal Value is currently correct but unusual.",
+    "dueDate": "2026-09-05T17:00:00.000Z",
+    "completed": false,
+    "contactId": "nIy2smghNYT9II3enmQv"
+   },
+   "traceId": "631fae82-38c5-4314-a3c0-7c45425bf719"
+  }
+ }
+]

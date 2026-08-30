@@ -18,17 +18,17 @@
     --good-bg: rgba(61,220,151,.13);
     --warn: #FFE49C; /* champagne-white pending, validated */
     --warn-bg: rgba(255,228,156,.12);
-    --crit: #ED4C8E; /* brand raspberry — the board has NO orange or orange-adjacent reds (Alan, 8/30) */
-    --crit-bg: rgba(237,76,142,.13);
+    --crit: #B44BE8; /* vivid brand purple for negatives — no orange, no pink (Alan, 8/30) */
+    --crit-bg: rgba(180,75,232,.14);
     --link: #6FD0EC;
     --shadow: 0 1px 0 rgba(0,0,0,.4);
     /* Brand gradients per Alan — premium multi-stop families, DECORATIVE ONLY, never a data series */
-    --wing: linear-gradient(90deg, #33D6F5, #9BE8FF, #FFFFFF, #FFE9A1, #F45FB5, #C77DFF, #A96BFF);
+    --wing: linear-gradient(90deg, #33D6F5, #9BE8FF, #FFFFFF, #FFE9A1, #E9B8FF, #C77DFF, #A96BFF);
     --grad-gold: linear-gradient(120deg, #FFFFFF, #FFF6D9 45%, #FFEAA9 75%, #FFDF7E);
     --grad-money: linear-gradient(120deg, #EFFFF6, #8AF7C8 55%, #3DDC97);
     --grad-ice: linear-gradient(120deg, #FFFFFF, #9BE8FF 50%, #33D6F5);
-    --grad-royal: linear-gradient(120deg, #FFFFFF, #E9B8FF 35%, #F45FB5 65%, #A96BFF);
-    --w-cyan: #33D6F5; --w-gold: #FFE9A1; --w-pink: #F45FB5; --w-purple: #A96BFF; --w-green: #3DDC97; --w-violet: #C9A6FF;
+    --grad-royal: linear-gradient(120deg, #FFFFFF, #E9B8FF 35%, #C77DFF 65%, #A96BFF);
+    --w-cyan: #33D6F5; --w-gold: #FFE9A1; --w-pink: #C77DFF; --w-purple: #A96BFF; --w-green: #3DDC97; --w-violet: #C9A6FF;
   }
   /* Single-theme by design: the board is dark in every viewer theme. */
 
@@ -64,7 +64,7 @@
   .panel::after, .tile::after, .dl::after, details.card::after, .trio .cell::after, .hero .ring {
     content: ""; position: absolute; inset: -2px; border-radius: 12px; padding: 2px;
     background: conic-gradient(from var(--angle),
-      #33D6F5, #9BE8FF, #FFFFFF, #FFE38A, #FFD75E, #F45FB5, #C77DFF, #A96BFF, #33D6F5);
+      #33D6F5, #9BE8FF, #FFFFFF, #FFE38A, #FFD75E, #E9B8FF, #C77DFF, #A96BFF, #33D6F5);
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
@@ -88,7 +88,7 @@
   .panel:hover::before, .tile:hover::before, .dl:hover::before, details.card:hover::before, .trio .cell:hover::before { opacity: 1; }
 
   @keyframes edgeglow {
-    0%, 100% { box-shadow: 0 20px 44px rgba(0,0,0,.55), 0 0 26px rgba(51,214,245,.30), 0 0 52px rgba(244,95,181,.16); }
+    0%, 100% { box-shadow: 0 20px 44px rgba(0,0,0,.55), 0 0 26px rgba(51,214,245,.30), 0 0 52px rgba(201,166,255,.18); }
     50% { box-shadow: 0 20px 44px rgba(0,0,0,.55), 0 0 34px rgba(255,215,94,.32), 0 0 60px rgba(169,107,255,.20); }
   }
   .panel, .tile, .dl, details.q-item, details.card, .trio .cell, .hero {
@@ -149,8 +149,8 @@
     animation: wingsweep 9s linear infinite;
   }
   @keyframes heroPulse {
-    0%, 100% { text-shadow: 0 0 16px rgba(237,76,142,.30); }
-    50% { text-shadow: 0 0 34px rgba(237,76,142,.55); }
+    0%, 100% { text-shadow: 0 0 16px rgba(180,75,232,.30); }
+    50% { text-shadow: 0 0 34px rgba(180,75,232,.55); }
   }
   .hero .headline .v { animation: heroPulse 3.2s ease-in-out infinite; }
   @keyframes dotPulse {
@@ -671,8 +671,8 @@
   <div class="tile goldline reveal">
     <span class="k">Open-Pipeline Ask</span>
     <span class="pic"><svg class="ic"><use href="#i-coin"/></svg></span>
-    <span class="v mono" id="tile-ask">$14.4M</span>
-    <span class="s">Client funding asks across <span id="tile-open-n">58</span> open leads — fee basis, not revenue</span>
+    <span class="v mono" id="tile-ask">$13.5M</span>
+    <span class="s">Client funding asks across <span id="tile-open-n">50</span> open leads — fee basis, not revenue</span>
   </div>
   <div class="tile crit reveal">
     <span class="k">Lifetime Ad Spend</span>
@@ -688,8 +688,8 @@
   Every figure links to its evidence — Fathom recordings, Notion records, Drive files.
   Pipeline, attribution and lead counts refresh <strong>live from Notion</strong> when your Notion connector is available (auto-refresh ~5 min);
   everything else is the audited snapshot, redeployed with each daily sweep.
-  The GHL feed remains local-only — <strong>30 Booked-Call outcomes are frozen at import</strong>;
-  unblock via the <a href="https://drive.google.com/file/d/1RqEpBa4Em1iwE_GdHhuk_kxhotBYXPjx/view">local pull runbook</a>.
+  The GHL local pull <strong>ran 8/30</strong> (Lane 4): 16 of 79 Unknown outcomes resolved, 63 unresolvable (statuses unmaintained in GHL) —
+  <a href="https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/archive/ghl/2026-08-30/GHL_PULL_SUMMARY.md">pull summary ↗</a>.
 </details>
 
 <section id="decisions">
@@ -857,10 +857,19 @@
       <button id="rf-clear" type="button">Clear window</button>
       <span class="rsum mono" id="rf-sum"></span>
     </div>
-    <div id="roster-empty" class="fieldfill-empty">Connects when your Notion connector is live — the masthead badge turns green.
-      Until then, the audited truth is in the
-      <a href="https://app.notion.com/p/3cc5bb1ffef481138682fdca2cdd7d23">name-by-name table ↗</a> and the
-      <a href="https://app.notion.com/p/3b75bb1ffef48196aa4efcf029dc732d">Command Center ↗</a>.</div>
+    <div id="roster-empty">
+<p class="sub">Every lead and client, no exceptions. <strong style="color:var(--ink)">Name → their Notion row</strong> (the modular edit surface: flip Stage/Triaged/Qualification, add notes — this board recomputes from it). 🎥 = the actual call recording. Live layer refreshes this table from Notion; blank cells are honestly blank in the tracker, not hidden.</p>
+    <div style="display:flex; gap:10px; flex-wrap:wrap; margin:10px 0 14px">
+      <input id="people-search" type="search" placeholder="Search name…" style="background:var(--raised); border:1px solid var(--line); color:var(--ink); border-radius:6px; padding:7px 12px; font-size:13px; font-family:inherit; min-width:200px">
+      <select id="people-stage" style="background:var(--raised); border:1px solid var(--line); color:var(--ink); border-radius:6px; padding:7px 10px; font-size:13px; font-family:inherit">
+        <option value="">All stages</option><option>Booked Call</option><option>Showed</option><option>Offer Made</option><option>Closed Won</option><option>Closed Lost</option><option>No-Show</option><option>Nurture</option><option>Unqualified</option>
+      </select>
+    </div>
+    <div class="tbl-wrap"><table style="min-width:860px">
+      <thead><tr><th>Person</th><th>Stage</th><th>Entry Path</th><th>Qualification</th><th class="num">Ask</th><th class="num">Deal</th><th>Last Touch</th><th>Show</th></tr></thead>
+      <tbody id="roster-body"></tbody>
+    </table></div>
+    </div>
     <div id="roster-err" class="fieldfill-empty" hidden></div>
     <div class="tbl-wrap" id="roster-wrap" hidden><table id="roster-tbl" style="min-width:1180px">
       <thead><tr><th>Prospect</th><th>Added</th><th>Stage</th><th>Entry Path</th><th>Source</th><th class="num">Funding Ask</th><th>Score</th><th class="num">Spd-to-Lead</th><th>Triaged</th><th>Qualification</th><th>No-Close</th><th>Last Touch</th></tr></thead>
@@ -1012,17 +1021,17 @@
       <p class="sub">Open stages in teal · terminal states muted. Hover a bar for its share.</p>
 
       <div id="funnel">
-      <div class="hbar-row" data-stage="Booked Call"><span class="lbl">Booked Call</span><div class="hbar-track"><div class="hbar" style="width:100%"></div></div><span class="num mono">39</span><span class="tip">39 leads · 47% of book — outcomes frozen pending GHL pull</span></div>
-      <div class="hbar-row" data-stage="Showed"><span class="lbl">Showed</span><div class="hbar-track"><div class="hbar" style="width:28.2%"></div></div><span class="num mono">11</span><span class="tip">11 leads · 13% of book</span></div>
-      <div class="hbar-row" data-stage="Offer Made"><span class="lbl">Offer Made</span><div class="hbar-track"><div class="hbar" style="width:20.5%"></div></div><span class="num mono">8</span><span class="tip">8 leads · 10% of book</span></div>
-      <div class="hbar-row" data-stage="Closed Won"><span class="lbl">Closed Won</span><div class="hbar-track"><div class="hbar" style="width:15.4%"></div></div><span class="num mono">6</span><span class="tip">6 clients · 7% of book</span></div>
-      <div class="hbar-row" data-stage="No-Show"><span class="lbl">No-Show</span><div class="hbar-track"><div class="hbar mut" style="width:30.8%"></div></div><span class="num mono">12</span><span class="tip">12 leads · 14% — no-show recovery dials unworked</span></div>
-      <div class="hbar-row" data-stage="Nurture"><span class="lbl">Nurture</span><div class="hbar-track"><div class="hbar mut" style="width:7.7%"></div></div><span class="num mono">3</span><span class="tip">3 leads in long-term nurture</span></div>
-      <div class="hbar-row" data-stage="Closed Lost"><span class="lbl">Closed Lost</span><div class="hbar-track"><div class="hbar mut" style="width:5.1%"></div></div><span class="num mono">2</span><span class="tip">2 lost</span></div>
-      <div class="hbar-row" data-stage="Unqualified"><span class="lbl">Unqualified</span><div class="hbar-track"><div class="hbar mut" style="width:5.1%"></div></div><span class="num mono">2</span><span class="tip">Team/test rows — excluded from funnel math</span></div>
+      <div class="hbar-row" data-stage="Booked Call"><span class="lbl">Booked Call</span><div class="hbar-track"><div class="hbar" style="width:100%"></div></div><span class="num mono">31</span><span class="tip">31 leads · 37% of book — 63 event outcomes unresolvable (GHL statuses unmaintained)</span></div>
+      <div class="hbar-row" data-stage="Showed"><span class="lbl">Showed</span><div class="hbar-track"><div class="hbar" style="width:35.5%"></div></div><span class="num mono">11</span><span class="tip">11 leads · 13% of book</span></div>
+      <div class="hbar-row" data-stage="Offer Made"><span class="lbl">Offer Made</span><div class="hbar-track"><div class="hbar" style="width:25.8%"></div></div><span class="num mono">8</span><span class="tip">8 leads · 10% of book</span></div>
+      <div class="hbar-row" data-stage="Closed Won"><span class="lbl">Closed Won</span><div class="hbar-track"><div class="hbar" style="width:19.4%"></div></div><span class="num mono">6</span><span class="tip">6 clients · 7% of book</span></div>
+      <div class="hbar-row" data-stage="No-Show"><span class="lbl">No-Show</span><div class="hbar-track"><div class="hbar mut" style="width:64.5%"></div></div><span class="num mono">20</span><span class="tip">20 leads · 24% — 8 added 8/30 by GHL ground truth; recovery dials unworked</span></div>
+      <div class="hbar-row" data-stage="Nurture"><span class="lbl">Nurture</span><div class="hbar-track"><div class="hbar mut" style="width:9.7%"></div></div><span class="num mono">3</span><span class="tip">3 leads in long-term nurture</span></div>
+      <div class="hbar-row" data-stage="Closed Lost"><span class="lbl">Closed Lost</span><div class="hbar-track"><div class="hbar mut" style="width:6.5%"></div></div><span class="num mono">2</span><span class="tip">2 lost</span></div>
+      <div class="hbar-row" data-stage="Unqualified"><span class="lbl">Unqualified</span><div class="hbar-track"><div class="hbar mut" style="width:6.5%"></div></div><span class="num mono">2</span><span class="tip">Team/test rows — excluded from funnel math</span></div>
       </div>
 
-      <p class="sub" style="margin-top:12px">Show → offer → close reads healthy where calls happen; the leak is upstream — <strong style="color:var(--ink)" id="stale-line">41 of 58 open leads untouched 21+ days</strong>, including most Booked-Call rows (partly a data gap: their GHL outcomes are unpulled, not necessarily un-worked). 9 rows were added 8/30 by the roster audit — booked 8/12–8/26, never imported.</p>
+      <p class="sub" style="margin-top:12px">Show → offer → close reads healthy where calls happen; the leak is upstream — <strong style="color:var(--ink)" id="stale-line">33 of 50 open leads untouched 21+ days</strong>, including most Booked-Call rows (partly a data gap: their GHL outcomes are unpulled, not necessarily un-worked). 9 rows were added 8/30 by the roster audit — booked 8/12–8/26, never imported.</p>
     </div>
 
     <div class="panel reveal">
@@ -1049,6 +1058,36 @@
       <div class="legend"><span><span class="swatch" style="background:var(--teal)"></span>720+ — 44</span><span><span class="swatch" style="background:var(--ink-3); opacity:.5"></span>below / unscored — 30</span></div>
     </div>
 
+  </div>
+
+  <div class="panel reveal" style="margin-top:18px">
+    <h3><svg class="ic"><use href="#i-target"/></svg>GHL ground truth — the 8/30 local pull (Lane 4)</h3>
+    <p class="sub">The raw booking system, pulled read-only on Alan's PC and committed to the vault
+      (<a href="https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/archive/ghl/2026-08-30/GHL_PULL_SUMMARY.md">pull summary ↗</a> ·
+      <a href="https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/archive/ghl/2026-08-30/ROSTER_RECONCILIATION.md">reconciliation ↗</a>).
+      GHL holds every raw contact; the 83 tracked leads above are the audited funnel roster.</p>
+    <div class="trio" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr))">
+      <div class="cell"><div class="n mono" style="color:var(--teal)">259</div><div class="t">contacts</div></div>
+      <div class="cell"><div class="n mono" style="color:var(--teal)">144</div><div class="t">appt events</div></div>
+      <div class="cell"><div class="n mono" style="color:var(--teal)">200</div><div class="t">opportunities</div></div>
+      <div class="cell"><div class="n mono" style="color:var(--teal)">8,218</div><div class="t">messages</div></div>
+    </div>
+    <div class="stackbar" role="img" aria-label="GHL appointment statuses: 109 confirmed, 25 cancelled, 8 no-show, 2 showed">
+      <div style="width:75.7%; background:var(--teal)"></div>
+      <div style="width:17.4%; background:var(--ink-3); opacity:.6"></div>
+      <div style="width:5.5%; background:var(--crit)"></div>
+      <div style="width:1.4%; background:var(--good)"></div>
+    </div>
+    <div class="legend">
+      <span><span class="swatch" style="background:var(--teal)"></span>confirmed (never updated) — 109</span>
+      <span><span class="swatch" style="background:var(--ink-3); opacity:.6"></span>cancelled — 25</span>
+      <span><span class="swatch" style="background:var(--crit)"></span>no-show — 8</span>
+      <span><span class="swatch" style="background:var(--good)"></span>showed — 2</span>
+    </div>
+    <p class="sub" style="margin-top:12px"><strong style="color:var(--ink)">What it settled:</strong>
+      16 of the 79 Unknown booking events resolved (10 cancelled · 6 no-show) — the other 63 sit at “confirmed” because GHL was never maintained as a show ledger.
+      UTM: 246/259 contacts carry attribution data, 100 have a utm_source, ad/campaign ids parsed where present.
+      <strong style="color:var(--ink)">GHL Payments is empty</strong> — money moves outside GHL (Nick’s $500 not found there; Jill’s $15K opportunity is marked won 7/23, cash trail elsewhere).</p>
   </div>
 
   <div class="panel reveal" style="margin-top:18px">
@@ -1091,8 +1130,8 @@
       <p class="sub">Per the Constantine framework: rates reported by tier, never blended. Bottom rung first.</p>
       <div class="range-block">
         <div class="rk">L1 raw show rate — floor to ceiling</div>
-        <div class="range"><div class="band" style="left:33%; width:52%"></div></div>
-        <div class="range-labels"><span>0%</span><span><b>33–35%</b> floor</span><span><b>85%</b> ceiling</span><span>100%</span></div>
+        <div class="range"><div class="band" style="left:33%; width:42%"></div></div>
+        <div class="range-labels"><span>0%</span><span><b>33–35%</b> floor</span><span><b>~75%</b> ceiling</span><span>100%</span></div>
       </div>
       <div class="gaugewrap">
         <svg viewBox="0 0 100 60" aria-label="L3 close rate 23 percent">
@@ -1103,7 +1142,7 @@
         <span class="gtxt"><b>L3 close on verified shows</b><br>6 of 26 people — inside the 20–30% live-call benchmark</span>
       </div>
       <div class="ladder">
-        <div class="rung on"><span class="lv">L1</span><span class="why">Raw show rate (per person): <strong>33–35% floor → 85% ceiling</strong></span></div>
+        <div class="rung on"><span class="lv">L1</span><span class="why">Raw show rate (per person): <strong>33–35% floor → ~75% ceiling</strong> — tightened 8/30 by GHL ground truth</span></div>
         <div class="rung dim"><span class="lv">L2</span><span class="why">Qualified show rate: <strong>insufficient data</strong> — ~14 of 83 leads assessed; fill the Qualification dropdown per call</span></div>
         <div class="rung on"><span class="lv">L3</span><span class="why">Close on verified-show people: <strong>23%</strong> (6 of 26) — inside Constantine's 20–30% live-call benchmark; 8 more sit in Offer Made</span></div>
         <div class="rung part"><span class="lv">L4</span><span class="why">Downsell cohort: small-n — dominant no-close reason is <strong>no funds</strong>, the ICP signal</span></div>
@@ -1506,6 +1545,134 @@
   })();
 </script>
 <script>
+  /* ===== Every Person roster: static snapshot (8/30) + live refresh ===== */
+  (function () {
+    // [name, stage, entryPath, qualification, ask, deal(-1=empty), lastTouch, notionId]
+    window.APW_ROSTER = [
+      ["Abayomi S.","Booked Call","","",200000,-1,"2026-04-26","3b75bb1ffef481fa9f86e4206684204f"],
+      ["Andrew W.","Booked Call","","",50000,-1,"2026-07-19","3b75bb1ffef481869d23f7d09c2d40a2"],
+      ["Antonio J.","Booked Call","","",0,-1,"2026-08-02","3b85bb1ffef48189b965cfbb335f4e45"],
+      ["Armand A.","Booked Call","","",50000,-1,"2026-07-19","3b75bb1ffef481efaee2fbc3d59976b8"],
+      ["Behnad Z.","Booked Call","Opt-In Form","",1000000,-1,"2026-08-12","3cc5bb1ffef481af8816c2d2c08d3084"],
+      ["Bryon C.","Booked Call","","",200000,-1,"2026-07-28","3b75bb1ffef4813eb30bd2c500c4fa54"],
+      ["Charlie M.","No-Show","","",50000,-1,"2026-07-14","3b75bb1ffef48180acb2c5f5a1ffdc2c"],
+      ["Dance K.","Booked Call","","",0,-1,"2026-06-22","3b95bb1ffef481e18eeaf24f24d982df"],
+      ["David S.","Booked Call","Opt-In Form","",0,-1,"2026-08-22","3cc5bb1ffef481f88939f53cc87ce6ae"],
+      ["Desi H.","Booked Call","","",0,-1,"2026-08-06","3b85bb1ffef4819795cec21e775976a8"],
+      ["Donnie B.","Booked Call","","",200000,-1,"2026-06-21","3b75bb1ffef4812196a7d7d50da2f94f"],
+      ["Drandre T.","Booked Call","","",500000,-1,"2026-07-15","3b75bb1ffef481cfb17ce3a0dcff26a5"],
+      ["Ed McC.","Booked Call","Opt-In Form","",0,-1,"2026-08-21","3cc5bb1ffef48186bd55ce74f758a29e"],
+      ["George T.","No-Show","Opt-In Form","",0,-1,"2026-08-16","3cc5bb1ffef481d29988dc62318d6502"],
+      ["Jack K.","Booked Call","","",0,-1,"2026-08-04","3b85bb1ffef481cca720c98a6cb75bda"],
+      ["James B.","No-Show","","",300000,-1,"2026-06-30","3b75bb1ffef481d9b3f8c640521a47f3"],
+      ["Jesse H.","Booked Call","","",0,-1,"2026-08-08","3b85bb1ffef4818c8e25fd1196a4aa0c"],
+      ["Jose D.","Booked Call","","",50000,-1,"2026-07-19","3b75bb1ffef481bc9d2afa1d2a1570bd"],
+      ["Jose R.","No-Show","","",100000,-1,"2026-07-05","3b75bb1ffef481b1b6aaf135842b8a8c"],
+      ["Ken'Bre M.","Booked Call","","",1000000,-1,"2026-07-23","3b75bb1ffef481fa98f2e5811afa2b6e"],
+      ["Kesavan R.","Booked Call","","",50000,-1,"2026-07-30","3b75bb1ffef481968ebbcfeaa5cf3d8f"],
+      ["Kevin C.","Booked Call","","",0,-1,"2026-04-27","3b75bb1ffef4811d901fd1cc1fe782ad"],
+      ["Lee M.","Booked Call","Opt-In Form","",0,-1,"2026-08-26","3cc5bb1ffef48111b010e4ca59dbaf18"],
+      ["Michael R.","No-Show","","",0,-1,"2026-07-07","3b85bb1ffef4819fb6bef019eb7a774d"],
+      ["Milad K.","No-Show","","",200000,-1,"2026-06-26","3b75bb1ffef481ca94fbcf584bf97e45"],
+      ["Ms Terry","Booked Call","Opt-In Form","",1000000,-1,"2026-08-13","3cc5bb1ffef481179b6df80d5e0d0616"],
+      ["Nia B.","No-Show","","",50000,-1,"2026-07-11","3b75bb1ffef4813e858cd7b57fa42dc4"],
+      ["Rena S.","Booked Call","","",500000,-1,"2026-07-30","3b75bb1ffef481629415e0f83c291688"],
+      ["Ric I.","No-Show","","",200000,-1,"2026-07-01","3b75bb1ffef4812e8fa0cafdf4bf3917"],
+      ["Rico R.","Booked Call","","",50000,-1,"2026-07-20","3b75bb1ffef48198ae0fd500c2aa0a9e"],
+      ["Robert S.","Booked Call","","",500000,-1,"2026-07-29","3b75bb1ffef48121b4d1f566ff371bbd"],
+      ["Ronrecus G.","Booked Call","","",50000,-1,"2026-07-07","3b75bb1ffef481cca3ecc2d8636e16b0"],
+      ["Sari G.","Booked Call","","",200000,-1,"2026-04-24","3b75bb1ffef481538eb2d66b80bfc8d4"],
+      ["Shamar S.","Booked Call","","",0,-1,"2026-08-03","3b85bb1ffef481ceb271c12cd3a0a9f7"],
+      ["Stephen G.","Booked Call","Opt-In Form","",0,-1,"2026-08-13","3cc5bb1ffef4815bbeaaf99de42db195"],
+      ["Tarlochan S.","Booked Call","Opt-In Form","",0,-1,"2026-08-17","3cc5bb1ffef4815c9007d6cf12e09acf"],
+      ["Tessa N.","Booked Call","Opt-In Form","",0,-1,"2026-08-23","3cc5bb1ffef481549c07dc66fd149ff7"],
+      ["Trent H.","Booked Call","","",0,-1,"2026-08-02","3b85bb1ffef4814b9c85deb83ccca1c4"],
+      ["Vernon L.","Booked Call","","",1000000,-1,"2026-07-17","3b75bb1ffef48163a4b2fd5823564225"],
+      ["Jennifer U.","Closed Lost","","Unqualified - Offer Mismatch",250000,-1,"2026-08-07","3b75bb1ffef481cda846db107d10f959"],
+      ["Zacherly S.","Closed Lost","","",200000,-1,"2026-08-10","3b75bb1ffef48167a5b4c1715b9c50c5"],
+      ["Ed C.","Closed Won","","Qualified - Main Offer",1000000,2000,"2026-08-28","3b75bb1ffef48114b344e6f5db65eea9"],
+      ["Jill P.","Closed Won","","Qualified - Main Offer",300000,15000,"2026-07-31","3b75bb1ffef481cc8fb4fc1e0b1f7728"],
+      ["Leo D.","Closed Won","","Downsell - Credit Rebuild",100000,12000,"2026-08-12","3b75bb1ffef4816f91f6c9cb50c911ad"],
+      ["Matt L.","Closed Won","","",500000,0,"2026-08-28","3b75bb1ffef48172b371e1fd44fdb91e"],
+      ["Nick S. (ExtremeFunMI)","Closed Won","","",200000,500,"2026-08-26","3c85bb1ffef481a3a2d2f0ae3835ac3d"],
+      ["Todd L.","Closed Won","Referral","Qualified - Main Offer",0,0,"2026-08-30","3b75bb1ffef481faab74cd4ceba6e95d"],
+      ["Cordero G.","No-Show","","",200000,-1,"2026-06-30","3b75bb1ffef48196a8c3ebb43e61bb2b"],
+      ["David B.","No-Show","","",100000,-1,"2026-07-07","3b75bb1ffef4818f8e7fe98fe8aff0e2"],
+      ["Eliel N.","No-Show","","",300000,-1,"2026-07-09","3b75bb1ffef4812e985fed7c71e159a3"],
+      ["Fabio C.","No-Show","","",200000,-1,"2026-07-15","3b75bb1ffef4810b82c7f062c2f379d5"],
+      ["Flavio P.","No-Show","","",300000,-1,"2026-07-15","3b75bb1ffef481c38cb5cc095ee83d06"],
+      ["Luis R.","No-Show","","",100000,-1,"2026-06-29","3b75bb1ffef4813fa8a8cd8c696911bc"],
+      ["Marcos M.","No-Show","","",100000,-1,"2026-06-30","3b75bb1ffef48198966ef84e4d312e68"],
+      ["Patrick O.","No-Show","","",100000,-1,"2026-07-28","3b75bb1ffef4812eb09ad2ebc19af162"],
+      ["Pedro (CDL)","No-Show","","",0,-1,"2026-08-18","3c15bb1ffef4810c9a2fc90c5c81c673"],
+      ["Ran D.","No-Show","","",300000,-1,"2026-07-16","3b75bb1ffef481e79383db647c8fb158"],
+      ["Valentino G.","No-Show","","",1000000,-1,"2026-07-11","3b75bb1ffef481d3891ee8b4fcf32aee"],
+      ["Yasantha L.","No-Show","","",500000,-1,"2026-06-27","3b75bb1ffef4812284b9f104b8d0c430"],
+      ["Chris B.","Nurture","","",50000,-1,"2026-08-07","3b75bb1ffef481a18690e80be1452227"],
+      ["Michael M. (wellness ctr)","Nurture","","Unqualified - No Funds",200000,1000,"2026-08-27","3c25bb1ffef48167a52be1cac6373e84"],
+      ["Stefan","Nurture","","",0,-1,"2026-08-18","3c15bb1ffef481139b64f9b6f6e38f5e"],
+      ["Ashwini A.","Offer Made","","",500000,-1,"2026-08-28","3b75bb1ffef48156b3a6dcfac60e8e14"],
+      ["George J.","Offer Made","","",50000,-1,"2026-07-01","3b75bb1ffef481e1b1d5e2756a6275a3"],
+      ["Joe S.","Offer Made","","",0,-1,"2026-08-08","3b75bb1ffef481eabc67f6066358a4c0"],
+      ["Karl K. (Modern Thyroid Clinic)","Offer Made","Referral","Qualified - Main Offer",750000,7500,"2026-08-20","3b95bb1ffef48139a66fd1d90439d729"],
+      ["Pradeep B.","Offer Made","","",200000,-1,"2026-08-07","3b75bb1ffef4811cae89c7cbbbd58fb2"],
+      ["Robert M.","Offer Made","","Downsell - Credit Rebuild",1000000,-1,"2026-08-27","3c95bb1ffef481c8bf6cf87b5915c6e7"],
+      ["Whitney Y.","Offer Made","","",300000,-1,"2026-08-10","3b75bb1ffef481339557f53bd7f57326"],
+      ["Yeshaya D.","Offer Made","","",1500000,-1,"2026-08-14","3bc5bb1ffef4813caf97de68e8ae061c"],
+      ["Allen S.","Showed","","",100000,-1,"2026-07-27","3b75bb1ffef481709737ce87b86dfb67"],
+      ["Bryan (RE dev)","Showed","","",1400000,-1,"2026-08-08","3b75bb1ffef4812fb11ad477dfe02b9d"],
+      ["Carmen M.","Showed","","",25000,-1,"2026-08-01","3b75bb1ffef481369488cd0c55476bd4"],
+      ["Chris M.","Showed","","Downsell - Credit Rebuild",0,-1,"2026-08-27","3c95bb1ffef481c9ab9bd7dd26f6fefd"],
+      ["Connor R.","Showed","Opt-In Form","",0,-1,"2026-08-17","3bf5bb1ffef48150b0a1d7cce41368bb"],
+      ["Ghani A.","Showed","","Unqualified - Offer Mismatch",100000,-1,"2026-07-15","3b75bb1ffef481b48d4aea1c126cc0fd"],
+      ["Gunjan P.","Showed","","",300000,-1,"2026-08-01","3b75bb1ffef481a3b4e6f852fa6328f0"],
+      ["Johnny S.","Showed","","",500000,-1,"2026-07-22","3b75bb1ffef48156870bf0b653e7a02d"],
+      ["Lonnie G.","Showed","","",100000,-1,"2026-06-21","3b75bb1ffef481a7bd5ced6d4ed68151"],
+      ["Myla M.","Showed","","",100000,-1,"2026-07-31","3b75bb1ffef4811cb490c02d65d520de"],
+      ["P Reddy P.","Showed","","",0,-1,"2026-08-10","3b85bb1ffef481868853f960a3db76e7"],
+      ["Jennifer L.","Unqualified","","",200000,-1,"2026-04-30","3b75bb1ffef481b2a6f5e212c94bede5"],
+      ["Lynn N.","Unqualified","","",0,-1,"2026-07-08","3b75bb1ffef481188c39c241871b9130"]
+    ];
+    // Verified show recordings (from BOOKING_ROSTER_AUDIT.md; s = secondary evidence)
+    window.APW_FATHOM = {
+      "Lonnie G.":"718619432","Matt L.":"723857619","Ed C.":"726927356","George J.":"730407363",
+      "Whitney Y.":"735878820","Jill P.":"739063325","Ghani A.":"746607489","Johnny S.":"s754023963",
+      "Allen S.":"759494613","Ashwini A.":"762499930","Leo D.":"762747396","Gunjan P.":"767888047",
+      "Myla M.":"s768849661","Zacherly S.":"766265132","Carmen M.":"768936830","Chris B.":"768297031",
+      "Joe S.":"775117203","Pradeep B.":"775117204","Jennifer U.":"775643888","P Reddy P.":"777298604",
+      "Yeshaya D.":"783351348","Connor R.":"788222126","Karl K. (Modern Thyroid Clinic)":"791088813",
+      "Michael M. (wellness ctr)":"791826979","Nick S. (ExtremeFunMI)":"795906442","Robert M.":"798787726",
+      "Chris M.":"798638035","Todd L.":"800283407","Bryan (RE dev)":"777749171"
+    };
+    var STAGE_CLS = {"Closed Won":"good","Offer Made":"warn","Showed":"gold","Closed Lost":"crit","No-Show":"crit","Unqualified":"mut","Nurture":"mut","Booked Call":"mut","Contacted":"mut","New Lead":"mut"};
+    function esc(s){var d=document.createElement('span');d.textContent=s;return d.innerHTML;}
+    function money(n){return !n||n<=0?"—":(n>=1e6?"$"+(n/1e6).toFixed(1).replace(/\.0$/,"")+"M":"$"+Math.round(n/1e3)+"K");}
+    window.renderRoster = function () {
+      var q=(document.getElementById('people-search').value||"").toLowerCase();
+      var st=document.getElementById('people-stage').value;
+      var body=document.getElementById('roster-body'); if(!body) return;
+      var html="", n=0;
+      window.APW_ROSTER.forEach(function(r){
+        if(st && r[1]!==st) return;
+        if(q && r[0].toLowerCase().indexOf(q)<0) return;
+        n++;
+        var f=window.APW_FATHOM[r[0]], sec=f&&f.charAt(0)==="s", fid=sec?f.slice(1):f;
+        html+="<tr><td class='who'><a href='https://app.notion.com/p/"+r[7]+"'>"+esc(r[0])+"</a></td>"
+          +"<td><span class='chip "+(STAGE_CLS[r[1]]||"mut")+"'>"+esc(r[1])+"</span></td>"
+          +"<td class='why'>"+esc(r[2]||"—")+"</td><td class='why'>"+esc(r[3]||"—")+"</td>"
+          +"<td class='num mono'>"+money(r[4])+"</td><td class='num mono'>"+(r[5]<0?"—":"$"+r[5].toLocaleString())+"</td>"
+          +"<td class='mono' style='font-size:12px'>"+esc((r[6]||"").slice(5))+"</td>"
+          +"<td>"+(fid?"<a href='https://fathom.video/calls/"+fid+"'>🎥"+(sec?"²":"")+"</a>":"")+"</td></tr>";
+      });
+      body.innerHTML=html;
+      var pc=document.getElementById('people-count'); if(pc) pc.textContent=window.APW_ROSTER.length+(n<window.APW_ROSTER.length?" ("+n+" shown)":"");
+    };
+    document.getElementById('people-search').addEventListener('input', window.renderRoster);
+    document.getElementById('people-stage').addEventListener('change', window.renderRoster);
+    window.renderRoster();
+  })();
+</script>
+<script>
   /* ===== Live layer: refreshes pipeline stats from the viewer's Notion connector ===== */
   (async function () {
     var $ = function (id) { return document.getElementById(id); };
@@ -1522,8 +1689,8 @@
 
     // Snapshot values, restored if live access is revoked
     var SNAP = {
-      total: 83, open: 58, askM: '$14.4M', stale: '41 of 58 open leads untouched 21+ days',
-      stages: { 'Booked Call': 39, 'Showed': 11, 'Offer Made': 8, 'Closed Won': 6, 'No-Show': 12, 'Nurture': 3, 'Closed Lost': 2, 'Unqualified': 2 },
+      total: 83, open: 50, askM: '$13.5M', stale: '33 of 50 open leads untouched 21+ days',
+      stages: { 'Booked Call': 31, 'Showed': 11, 'Offer Made': 8, 'Closed Won': 6, 'No-Show': 20, 'Nurture': 3, 'Closed Lost': 2, 'Unqualified': 2 },
       attr: { v: 1, m: 11, u: 71 }, src: 'Meta Ad 75 · Other 4 · Referral 2 · Unknown 2'
     };
 
