@@ -1,5 +1,5 @@
 # APW MULTI-LANE OPERATING SOP — binding on every lane
-*v1.0 · 2026-08-30 · Owner: Lane 1 (Command). A lane that has not read this file this session may not write anything.*
+*v1.2 · 2026-08-30 (v1.1 laws; v1.2 adds §1.9 Interaction Protocol) · Owner: Lane 1 (Command). A lane that has not read this file this session may not write anything.*
 
 ## 0. THE NEVER-MISS PROTOCOL (Law 0 — outranks everything; from Alan: "plan a strategy to NEVER miss on a user prompt. ESPECIALLY a 2nd reprompt")
 
@@ -22,6 +22,21 @@ Root causes of every miss to date: compression reflex, answering the adjacent qu
 6. **CLICKABLE LAW** — *"the links are supposed to be clickable URLs."* Every reference in any human-facing surface is a clickable https URL — bare IDs and `collection://` URIs live only in machine columns of pointer-map.md.
 7. **BUTTON LAW** — *"every time you push out a response, it should be an easy response for me to respond to with buttons. Without fail."* Every reply to a live Alan message ends with tappable option buttons (AskUserQuestion) covering the open decisions — free-text always remains available. Exception: autonomous/scheduled cycle reports (nobody present to tap) end with a "reply with any of: ..." quick-answer line instead.
 8. **SCAN-READY LAW** — *"Everything you should be saying should be scan-ready and easy."* Every report, file, and reply: TLDR first, tables over prose, one glance = the state. Applies to all lanes.
+
+## 1.9 INTERACTION PROTOCOL (Alan verbatim spec 8/30, CONFIRMED — binding on every current and FUTURE lane/agent, every user prompt)
+*Spec: [ops/prompts/2026-08-30-interaction-protocol-spec.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/prompts/2026-08-30-interaction-protocol-spec.md) · Checklist: [ops/data/INTERACTION_PROTOCOL_CHECKLIST.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/INTERACTION_PROTOCOL_CHECKLIST.md) · Notion hard-code: linked from the register mirror.*
+
+The loop, for EVERY user prompt:
+1. **PARSE** — break the WHOLE prompt into a verbatim-anchored numbered checklist: one line per ask, big text blocks become checkable lines, zero fidelity loss.
+2. **PRESENT** — that checklist appears IN the response for the user to confirm / deny / add to, BEFORE work starts.
+3. **STORE** — the checklist is hard-coded: repo file (ops/data/) + Notion mirror + register line, with clickable links in the response (compaction-proof).
+4. **ADD** — Claude appends its own improvement suggestions — for AI and for humans; beginner-friendly AND master-grade, never sacrificing the beginner.
+5. **DISCLOSE (model/effort/tokens)** — the plan block ends with: which model+effort served THIS prompt (verify via the session record; ask if unknown) · recommended model/effort + reasoning (incl. whether ultracode/extra/max is needed, for plan AND execution) · estimated tokens · estimated time · sustainable runway before limits, accounting for token limits + daily/weekly/monthly usage + Fable 5 usage + plan usage (20x max). Order is always: RAW data first, optimized plan second, options third — never pre-shrink to save tokens. If mid-execution the model/effort becomes the bottleneck, SAY SO and offer a rerun.
+6. **ASK-THEN-EXECUTE** — execute only on the user's confirm.
+7. **SCORECARD** — after execution, a cross-off table, one row per checklist item, columns: Item · Done? · Status · % complete · Quality · Why rated that way · Suggested improvements · Clickable link straight to the work · Before → After.
+8. **CLOSE** — every final output ends with buttons (incl. Claude-suggested options) + a timeline tracker + progress trackers of the micro AND the macro.
+
+Standing exception unchanged (§1.7): autonomous/scheduled runs close with a quick-answer line instead of buttons. New lanes inherit this automatically via the root CLAUDE.md.
 
 ## 1c. RATIFIED ARCHITECTURE (Alan: "47 go", 8/30)
 One front door, one job per tool: **Notion = index + live client data** · Google Docs = long-form working docs · Sheets = number grids · Trello = task execution/accountability · Slack = signals only (anything lasting gets a home + link within 24h) · GitHub vault = permanence + raws · GHL = funnel ground truth (statuses maintained per #64) · **Whop = payments source of truth (Alan: "65 whop")**. Three enforcement rules: nothing lives in two places · every new doc registers at the front door within 24h · Slack is ephemeral by policy.
