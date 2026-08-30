@@ -549,7 +549,7 @@
       <div class="tbl-wrap" style="border:none"><table style="min-width:0">
         <tbody>
           <tr><td><span class="chip good">L1</span></td><td class="why">Raw show rate (per person): <strong style="color:var(--ink)">33–35% floor → ~75% ceiling</strong> (tightened 8/30 by GHL ground truth)</td></tr>
-          <tr><td><span class="chip mut">L2</span></td><td class="why">Qualified show rate: <strong style="color:var(--ink)">insufficient data</strong> — ~14 of 83 leads assessed; fill the Qualification dropdown per call</td></tr>
+          <tr><td><span class="chip mut">L2</span></td><td class="why">Qualified show rate: <strong style="color:var(--ink)">insufficient data</strong> — <span id="l2-assessed">10 of 104</span> leads assessed; fill the Qualification dropdown per call (full breakdown in §03d below)</td></tr>
           <tr><td><span class="chip good">L3</span></td><td class="why">Close on verified-show people: <strong style="color:var(--ink)">23%</strong> (6 of 26) — inside Constantine's 20–30% live-call benchmark; 8 more sit in Offer Made</td></tr>
           <tr><td><span class="chip warn">L4</span></td><td class="why">Downsell cohort: small-n — dominant no-close reason is <strong style="color:var(--ink)">no funds</strong>, the ICP signal</td></tr>
           <tr><td><span class="chip mut">L5</span></td><td class="why">PRIME path (speed-to-lead + triaged): <strong style="color:var(--ink)">not yet computable</strong> — triage tracking born 8/12; prospective from Sep 1</td></tr>
@@ -560,10 +560,64 @@
   </div>
 </section>
 
+<!-- ============ QUALIFIED vs UNQUALIFIED ============ -->
+<section id="qual">
+  <div class="sec-head"><span class="mark">03d</span><h2>Qualified vs Unqualified — who, and why</h2>
+    <span class="note">Alan's taxonomy, verbatim · edit any person's Qualification in <a href="https://app.notion.com/p/a9adc601acc44b61b80f48969e764522">the tracker ↗</a> and this recomputes</span></div>
+
+  <div class="tiles" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; margin-bottom:14px">
+    <div class="panel"><h3><span class="chip good">Qualified — Main Offer</span></h3>
+      <div class="mono" id="q-main-n" style="font-size:26px; margin:6px 0 4px">4</div>
+      <p class="sub">"strong credit profile AND money to invest into the program — boom"</p></div>
+    <div class="panel"><h3><span class="chip warn">Downsell — Credit Rebuild</span></h3>
+      <div class="mono" id="q-down-n" style="font-size:26px; margin:6px 0 4px">3</div>
+      <p class="sub">"anything besides bankruptcies and child support, we can help — late payments, charge-offs, collections, hard inquiries"</p></div>
+    <div class="panel"><h3><span class="chip crit">Unqualified</span></h3>
+      <div class="mono" id="q-unq-n" style="font-size:26px; margin:6px 0 4px">3</div>
+      <p class="sub">no funds ("don't have $200 to their name") · offer mismatch (Jennifer: no-PG; Ghani: broker-only) · shoppers</p></div>
+    <div class="panel"><h3><span class="chip mut">Not Yet Assessed</span></h3>
+      <div class="mono" id="q-unset-n" style="font-size:26px; margin:6px 0 4px">94</div>
+      <p class="sub">the tracking hole itself — see the fix line below</p></div>
+  </div>
+
+  <div class="duo">
+    <div class="panel">
+      <h3>Every assessed person — one row each</h3>
+      <p class="sub">Name → their editable Notion row. Reasons are the modular checkboxes from the tracker.</p>
+      <div class="tbl-wrap"><table style="min-width:560px">
+        <thead><tr><th>Person</th><th>Bucket</th><th>Stage</th><th>Why (their reasons)</th></tr></thead>
+        <tbody id="q-assessed-body">
+          <tr><td class="who"><a href="https://app.notion.com/p/3b75bb1ffef48114b344e6f5db65eea9">Ed C.</a></td><td><span class="chip good">Main Offer</span></td><td>Closed Won</td><td class="why">—</td></tr>
+          <tr><td class="who"><a href="https://app.notion.com/p/3b75bb1ffef481cc8fb4fc1e0b1f7728">Jill P.</a></td><td><span class="chip good">Main Offer</span></td><td>Closed Won</td><td class="why">—</td></tr>
+          <tr><td class="who"><a href="https://app.notion.com/p/3b95bb1ffef48139a66fd1d90439d729">Karl K.</a></td><td><span class="chip good">Main Offer</span></td><td>Offer Made</td><td class="why">—</td></tr>
+          <tr><td class="who"><a href="https://app.notion.com/p/3b75bb1ffef481faab74cd4ceba6e95d">Todd L.</a></td><td><span class="chip good">Main Offer</span></td><td>Closed Won</td><td class="why">—</td></tr>
+          <tr><td class="who"><a href="https://app.notion.com/p/3c95bb1ffef481c9ab9bd7dd26f6fefd">Chris M.</a></td><td><span class="chip warn">Downsell</span></td><td>Showed</td><td class="why">Late payments · Collections</td></tr>
+          <tr><td class="who"><a href="https://app.notion.com/p/3b75bb1ffef4816f91f6c9cb50c911ad">Leo D.</a></td><td><span class="chip warn">Downsell</span></td><td>Closed Won</td><td class="why">—</td></tr>
+          <tr><td class="who"><a href="https://app.notion.com/p/3c95bb1ffef481c8bf6cf87b5915c6e7">Robert M.</a></td><td><span class="chip warn">Downsell</span></td><td>Offer Made</td><td class="why">Thin file / low limits · Low income</td></tr>
+          <tr><td class="who"><a href="https://app.notion.com/p/3c25bb1ffef48167a52be1cac6373e84">Michael M. (wellness ctr)</a></td><td><span class="chip crit">Unq — No Funds</span></td><td>Nurture</td><td class="why">No funds (~$200) · Late payments · Charge-offs</td></tr>
+          <tr><td class="who"><a href="https://app.notion.com/p/3b75bb1ffef481b48d4aea1c126cc0fd">Ghani A.</a></td><td><span class="chip crit">Unq — Mismatch</span></td><td>Showed</td><td class="why">Wants licensed broker only</td></tr>
+          <tr><td class="who"><a href="https://app.notion.com/p/3b75bb1ffef481cda846db107d10f959">Jennifer U.</a></td><td><span class="chip crit">Unq — Mismatch</span></td><td>Closed Lost</td><td class="why">Wants no-PG funding · Low income</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div class="panel">
+      <h3>Why the other <span id="q-hole-n">94</span> are blank — and the fix</h3>
+      <p class="sub" style="margin-bottom:10px">Honest label: <strong style="color:var(--ink)">unknown, not hidden.</strong> Nobody recorded a qualification verdict per call, ever — same root failure as the show-status hole (§03b).</p>
+      <div class="tbl-wrap" style="border:none"><table style="min-width:0"><tbody>
+        <tr><td class="num mono" style="font-size:18px" id="q-backfill-n">12</td><td class="why"><strong style="color:var(--ink)">backfillable now</strong> — people who verifiably Showed or reached Offer Made but carry no label; their call recordings exist, verdicts can be mined and entered</td></tr>
+        <tr><td class="num mono" style="font-size:18px">31</td><td class="why">sitting at Booked Call — get labeled live by the closer as each call happens</td></tr>
+        <tr><td class="num mono" style="font-size:18px">51</td><td class="why">never reached a call (New Lead / Contacted / No-Show / Nurture) — labeled at triage or never, honestly</td></tr>
+      </tbody></table></div>
+      <p class="sub" style="margin-top:10px"><strong style="color:var(--ink)">The machine fix (approved 8/30):</strong> after every call the closer gets the #call-outcomes Slack ping (one tap = outcome), and phase 2 adds the pre-filled page that captures the qualification bucket + reason on the same screen. From Sep 1 this table fills itself; the count above should march toward zero.</p>
+      <p class="sub" style="margin-top:6px">Human triage tracking: <span id="q-triage-line">2 of 104 marked triaged (both "before booking")</span> — the PRIME-path metric (L5) starts computing when this fills.</p>
+    </div>
+  </div>
+</section>
+
 <!-- ============ EVERY PERSON ============ -->
 <section id="people">
   <div class="sec-head"><span class="mark">03c</span><h2>Every Person — the full book, one row each</h2>
-    <span class="note"><span id="people-count">83</span> tracked · click a name to open + edit their profile</span></div>
+    <span class="note"><span id="people-count">104</span> tracked · click a name to open + edit their profile</span></div>
   <div class="panel">
     <p class="sub">Every lead and client, no exceptions. <strong style="color:var(--ink)">Name → their Notion row</strong> (the modular edit surface: flip Stage/Triaged/Qualification, add notes — this board recomputes from it). 🎥 = the actual call recording. Live layer refreshes this table from Notion; blank cells are honestly blank in the tracker, not hidden.</p>
     <div style="display:flex; gap:10px; flex-wrap:wrap; margin:10px 0 14px">
@@ -959,9 +1013,9 @@
 
     // Snapshot values, restored if live access is revoked
     var SNAP = {
-      total: 83, open: 50, askM: '$13.5M', stale: '33 of 50 open leads untouched 21+ days',
-      stages: { 'Booked Call': 31, 'Showed': 11, 'Offer Made': 8, 'Closed Won': 6, 'No-Show': 20, 'Nurture': 3, 'Closed Lost': 2, 'Unqualified': 2 },
-      attr: { v: 1, m: 11, u: 71 }, src: 'Meta Ad 75 · Other 4 · Referral 2 · Unknown 2'
+      total: 104, open: 74, askM: '$13.8M', stale: '50 of 74 open leads untouched 21+ days',
+      stages: { 'New Lead': 19, 'Contacted': 2, 'Booked Call': 31, 'Showed': 11, 'Offer Made': 8, 'Closed Won': 6, 'No-Show': 20, 'Nurture': 3, 'Closed Lost': 2, 'Unqualified': 2 },
+      attr: { v: 91, m: 2, u: 11 }, src: 'Meta Ad 97 · Other 3 · Referral 2 · Unknown 2'
     };
 
     function fmtMoney(n) {
@@ -993,6 +1047,45 @@
       if ($('attr-m-n')) $('attr-m-n').textContent = stats.attr.m;
       if ($('attr-u-n')) $('attr-u-n').textContent = stats.attr.u;
       if ($('src-mix')) $('src-mix').textContent = stats.src;
+    }
+
+    function renderQualLive(rows) {
+      var CHIP = { 'Qualified - Main Offer': ['good', 'Main Offer'], 'Downsell - Credit Rebuild': ['warn', 'Downsell'],
+        'Unqualified - No Funds': ['crit', 'Unq — No Funds'], 'Unqualified - Offer Mismatch': ['crit', 'Unq — Mismatch'],
+        'Unqualified - Other': ['crit', 'Unq — Other'] };
+      var main = 0, down = 0, unq = 0, unset = 0, backfill = 0, triaged = 0, triBefore = 0, assessed = [];
+      rows.forEach(function (r) {
+        var q = r['Qualification'] || '';
+        if (q === 'Qualified - Main Offer') main++;
+        else if (q === 'Downsell - Credit Rebuild') down++;
+        else if (q.indexOf('Unqualified') === 0) unq++;
+        else {
+          unset++;
+          var s = r['Stage'] || '';
+          if (s === 'Showed' || s === 'Offer Made') backfill++;
+        }
+        if (CHIP[q]) {
+          var reasons = [];
+          try { reasons = JSON.parse(r['ur'] || '[]'); } catch (e) {}
+          assessed.push([r['Client'] || '?', q, r['Stage'] || '', reasons.join(' · ') || '—', (r.url || '').split('/').pop()]);
+        }
+        var h = r['ht'] || '';
+        if (h.indexOf('Yes') === 0) { triaged++; if (h === 'Yes - before booking') triBefore++; }
+      });
+      function set(id, v) { var el = document.getElementById(id); if (el) el.textContent = v; }
+      set('q-main-n', main); set('q-down-n', down); set('q-unq-n', unq); set('q-unset-n', unset);
+      set('q-hole-n', unset); set('q-backfill-n', backfill);
+      set('l2-assessed', (main + down + unq) + ' of ' + rows.length);
+      set('q-triage-line', triaged + ' of ' + rows.length + ' marked triaged (' + triBefore + ' before booking)');
+      var tb = document.getElementById('q-assessed-body');
+      if (tb && assessed.length) {
+        assessed.sort(function (a, b) { return a[1] === b[1] ? (a[0] < b[0] ? -1 : 1) : (a[1] < b[1] ? -1 : 1); });
+        tb.innerHTML = assessed.map(function (p) {
+          var c = CHIP[p[1]] || ['mut', p[1]];
+          return '<tr><td class="who"><a href="https://app.notion.com/p/' + p[4] + '">' + p[0] + '</a></td>' +
+            '<td><span class="chip ' + c[0] + '">' + c[1] + '</span></td><td>' + p[2] + '</td><td class="why">' + p[3] + '</td></tr>';
+        }).join('');
+      }
     }
 
     function computeStats(rows) {
@@ -1031,7 +1124,7 @@
 
       var DS = 'collection://5614ffa0-e3d0-40cb-ae64-b32ec52e288c';
       var input = { data: { data_source_urls: [DS], query:
-        'SELECT url, "Client", "Stage", "Entry Path", "Qualification", "Attribution Confidence", "Source", "Funding Ask", "Deal Value", "date:Last Touch:start" AS lt FROM "' + DS + '"' } };
+        'SELECT url, "Client", "Stage", "Entry Path", "Qualification", "Unqualified Reasons" AS ur, "Human Triaged" AS ht, "Attribution Confidence", "Source", "Funding Ask", "Deal Value", "date:Last Touch:start" AS lt FROM "' + DS + '"' } };
       var applied = false;
 
       mcp.watchTool('Notion', 'notion-query-data-sources', input, function (ev) {
@@ -1053,6 +1146,7 @@
             }).sort(function (a, b) { return a[1] === b[1] ? (a[0] < b[0] ? -1 : 1) : (a[1] < b[1] ? -1 : 1); });
             if (window.renderRoster) window.renderRoster();
           } catch (e) { /* roster keeps snapshot */ }
+          try { renderQualLive(rows); } catch (e) { /* qual section keeps snapshot */ }
           applied = true;
           var ts = (ev.result.cache && ev.result.cache.storedAt) ? new Date(ev.result.cache.storedAt) : new Date();
           setBadge('live', 'Live · Notion · ' + ts.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }));
