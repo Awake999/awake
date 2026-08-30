@@ -4,6 +4,21 @@ Verbatim Fathom transcript (raw API response beside this file as transcript-raw.
 
 ---
 
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (20:00 to 30:00)](#chapter-3-2000-to-3000)
+- [Chapter 4 (30:00 to 40:00)](#chapter-4-3000-to-4000)
+- [Chapter 5 (40:00 to 50:00)](#chapter-5-4000-to-5000)
+- [Chapter 6 (50:00 to 1:00:00)](#chapter-6-5000-to-10000)
+
+
+
+## Chapter 1 (00:00 to 10:00)
+
 [00:00](https://fathom.video/calls/791826979?timestamp=0) MICHAEL MOORE: Hey, Michael, how are you doing?
 [00:02](https://fathom.video/calls/791826979?timestamp=2) Alan Nguyen: Hello.
 [00:04](https://fathom.video/calls/791826979?timestamp=4) MICHAEL MOORE: How's it going?
@@ -47,6 +62,9 @@ Verbatim Fathom transcript (raw API response beside this file as transcript-raw.
 [07:06](https://fathom.video/calls/791826979?timestamp=426) MICHAEL MOORE: No, I mean, and so the thing is, I've been offered 16 and it, you know, the, the, it was very expensive money. You know, the interest rate to pay it back was very high, you know, and, you know, I, I didn't, I didn't take it. And so, you know, but, like, you said interest rate was high.
 [07:33](https://fathom.video/calls/791826979?timestamp=453) Alan Nguyen: Was that like, an MCA loan or what was that exactly?
 [07:38](https://fathom.video/calls/791826979?timestamp=458) MICHAEL MOORE: It was like a Marisave lending tree, you know, and, and, you know, I was working with some guy and he, you know, he, he found investors that were willing to take it on and, you know, they were going to give me $16,000. And then I had to pay an additional nine. And so basically what it is, is I have, I basically pulled my retirement and I have used all my money. I have $10,000 left and it's not going to last three weeks. And like, I'm already missing credit card payments. And so what happened was I was diagnosed with cancer and I had a, you can see my leg right here. There's a surgical wound right here. And, and so it, it messed, it messed everything up, but, you know, luckily it's gone for right now and I have to continue with the medical therapy. And so I'm being, I'm being taken care of by Duke Oncology and, I, and so I am sitting in, in the holistic house right now and we're back on track and I have, you know, to finish the addition construction project. And, you know, we're looking at about, 20 to $30,000 to complete the building projects, you know, to, to close everything up. And then, you know, I mean, I, I would say. $50,000 would take care of everything. And so what has happened is when I got diagnosed with cancer, I had to stop working for the hospital. And so I actually worked for Michael Jordan. Oh, wow. at his primary care clinic in downtown Wilmington. And it's actually, it was not a good experience, to say the least. And so the entire system is broken. And so I needed to part ways. You know, it was fun in the beginning, but I realized that it's not where I need to be. So I'm going back to the military. And so I'm an army doctor. I was an army doctor for 15 years. And then I got out of the Army, and I was a civilian doctor for 20 years, and so that's 35 years. And so now I just – I interviewed this morning with the VA medical center here in town. And to get back into that system, it's going to take about four, maybe even five months to get back in. So I don't have a paycheck from anybody, and I am trying to scramble here to get short-term back-to-work travel doctor assignments. And it looks as though I may be going to Hibbing, Minnesota. Okay. And I'm going to be, I was supposed to go to Massachusetts, and that's what started the whole thing. They recruited me to go to Massachusetts to a Veterans Administration there, to work temporary there, and now they're shifting it to Hibbing, Minnesota. It's ironic, you're from Minnesota. And I looked up Hibbing, Hibbing, Minnesota for the first time just two hours ago. And I see it's located right above Duluth. So I would fly into Hibbing, Minnesota in about two weeks. Oh, wow.
+
+## Chapter 2 (10:00 to 20:00)
+
 [12:43](https://fathom.video/calls/791826979?timestamp=763) Alan Nguyen: That's soon.
 [12:43](https://fathom.video/calls/791826979?timestamp=763) MICHAEL MOORE: And so I would be working there as a temporary travel doctor. Okay. But I can't wait two weeks to get a paycheck. . Now, the paycheck there is $160. $150 an hour pay. And so, you know, if I work full time and $160, you know, I'll make like $10,000 a week almost. And, but I have to, you know, it's like $8,000 a week or so. And so I would have to, I'm getting, I'm going to, I don't want to get behind on any of my mortgage payments.
 [13:24](https://fathom.video/calls/791826979?timestamp=804) Alan Nguyen: And, and so I can't do anything.
@@ -63,6 +81,9 @@ Verbatim Fathom transcript (raw API response beside this file as transcript-raw.
 [16:25](https://fathom.video/calls/791826979?timestamp=985) MICHAEL MOORE: Hopefully, we can find- So what happened was my debt-to-income ratio, I don't have income. And because I haven't worked, my last paycheck was like a month ago and, you know, Amerisave and LendingTree, I sent them copies of my paycheck. I sent them copies of my bank statements. And so they see that I have a personal checking account and then I have a business checking account. And in- You can see I moved $80,000, $100,000, all over the past three and four months into my business operating account. And what happened was when I moved that money, I transferred money on my phone from one account to the other account. And Amerisave and LendingTree told me, don't do that again. Make sure you withdraw the money and then deposit the money. We can't count that income because you didn't deposit the money. And there's nothing I can do now. It's too late now. And so what happened was when I was diagnosed with cancer, I'm terminal. Like, I'm supposed to know. And so I kind of went into a funk and I was like, you know what, just spend all my money. What does it matter? I don't care. I'm throw everything in this house. And then those that come behind me will have it. And then I'm told the cancer's gone.
 [18:26](https://fathom.video/calls/791826979?timestamp=1106) Alan Nguyen: Oh, wow. That's actually good news. .
 [18:29](https://fathom.video/calls/791826979?timestamp=1109) MICHAEL MOORE: And so I had it surgically removed, but I have a $5,000 bill with Duke Medical Center that I can't even pay. I have to go on financial aid or payment plan for two years, like $50 a month for two years, something like that. And so what happened was I didn't go back to work. I didn't apply to go back to work two months ago, which is what I should have done. That's the mistake I made. And so now I have put that ball in motion and it looks like I'm going to get hired, but it's a slow process. But this Hibbing, Minnesota, they're talking to me today about that. They moved me from Massachusetts to Hibbing, Minnesota, and I'll find out more and more tomorrow. And so I may be up in Minnesota in like two weeks. So there's no sense of me going to new labor work, you know. And so like I just need to be patient and basically I'm going to sell everything I have in my garage and, you know, garage sale stuff, you know, eBay stuff. But, you know, one of my guys from LendingTree or Amerisave said, look, if you take a loan for like $10,000. And pay it back. Then you're in the system. And it's kind of like getting a credit card for $500, you know, and pay it off, you know, and then we'll give you one for $2,000. And so when you are a second time applicant and you're already in the system, then you've got credibility.
+
+## Chapter 3 (20:00 to 30:00)
+
 [20:22](https://fathom.video/calls/791826979?timestamp=1222) Alan Nguyen: Makes sense. But it's slow. . Now, once I get working again, I mean, once I get hired, I'm going to make $300,000 a year.
 [20:31](https://fathom.video/calls/791826979?timestamp=1231) MICHAEL MOORE: You know, it's, you know, it's, it's, I'll restore everything. But for the next, for the next three months, I need to dig in and find someone to help me with a $10,000 loan, $20,000 loan, a $30,000 loan. That has not so much of an impact of, you know, I get almost paid half the loan back. And, you know, you know, you know, he was going to lend me $10,000. I had to pay him. Thank was going to lend me $16,000, and I had to pay him $10,000 back.
 [21:05](https://fathom.video/calls/791826979?timestamp=1265) Alan Nguyen: that's crazy.
@@ -105,6 +126,9 @@ Verbatim Fathom transcript (raw API response beside this file as transcript-raw.
 [29:08](https://fathom.video/calls/791826979?timestamp=1748) MICHAEL MOORE: And I don't have the insurance anymore. And my portion of the medical bill is like the portion I'm responsible for is about $5,000 total.
 [29:22](https://fathom.video/calls/791826979?timestamp=1762) Alan Nguyen: And what does that do? I'm not paying that right now, but that's an example.
 [29:26](https://fathom.video/calls/791826979?timestamp=1766) MICHAEL MOORE: And then like, you know, well, what it is, is my credit card bills. And so my credit card bills are $75,000. And so what I did was I enrolled with a debt relief program and I'm with J.G. Wentworth and they are negotiating with Bank of America, Citibank, and Wells Fargo. So Bank of America, I owe $47,000 on a credit card. And... And Wells Fargo and Citibank, I owe $10,000, so, you know, it's like, you know, close to $70,000. And so I went to J.G. Wentworth, and I'm in their debt relief program. When did you start that?
+
+## Chapter 4 (30:00 to 40:00)
+
 [30:17](https://fathom.video/calls/791826979?timestamp=1817) Alan Nguyen: Last month.
 [30:18](https://fathom.video/calls/791826979?timestamp=1818) MICHAEL MOORE: So they're drawing $400 out of my account every two weeks.
 [30:25](https://fathom.video/calls/791826979?timestamp=1825) Alan Nguyen: so, debt relief programs are, it's an interesting thing. I think the sell is the long-term, right? Like, you owe $75K now, you work with us, you pay us X amount per month, we help reconsolidate how much you actually owe. So now you owe a fraction of what you originally owed. Did they tell you that it destroys your credit in the process?
@@ -160,6 +184,9 @@ Verbatim Fathom transcript (raw API response beside this file as transcript-raw.
 [39:20](https://fathom.video/calls/791826979?timestamp=2360) Alan Nguyen: . So typically when it comes to the solution, we have and can help people that are in challenges like yourself, but it becomes extremely difficult once we've passed those dates already. So like, like, I guess I should ask aside from Bank of America, which is so potentially solvable today, we have like essentially already missed the payments for one or two other cards. I understanding that correctly?
 [39:48](https://fathom.video/calls/791826979?timestamp=2388) MICHAEL MOORE: I can't tell you if we've missed a payment just yet, but I can sit here on my phone and look at it.
 [39:56](https://fathom.video/calls/791826979?timestamp=2396) Alan Nguyen: . I mean, that would be extremely helpful because that'll, you know, probably help us see how we can actually help you because, if you can find out the minimum payment date for, you know, your other two cards outside of Bank of America, that would be super helpful.
+
+## Chapter 5 (40:00 to 50:00)
+
 [40:09](https://fathom.video/calls/791826979?timestamp=2409) MICHAEL MOORE: Hold on one second, hold on one second.
 [40:11](https://fathom.video/calls/791826979?timestamp=2411) Alan Nguyen: Awesome.
 [40:58](https://fathom.video/calls/791826979?timestamp=2458) MICHAEL MOORE: JG Wentworth is not good. Good. And what I need, Kim, is I need to find out when does the Citibank credit card do? When is the Wells Fargo credit card do? And when is the Bank of America credit card do? Those three credit cards. I need a due date. Hold on one second, Alan. Sounds good. Okay, good show. Okay. This is Kim. Hey, Kim.
@@ -184,6 +211,9 @@ Verbatim Fathom transcript (raw API response beside this file as transcript-raw.
 [49:30](https://fathom.video/calls/791826979?timestamp=2970) Alan Nguyen: So pretty much the same thing. go back to Wells Fargo. Okay. So just to clarify before I, you know, share with you a strategy, do you, like, are there any other negatives currently reporting, like collections, charge-offs?
 [49:48](https://fathom.video/calls/791826979?timestamp=2988) MICHAEL MOORE: Wells Fargo has my FICO score 663.
 [49:55](https://fathom.video/calls/791826979?timestamp=2995) Alan Nguyen: that's fine. It's all utilization-based. And, you know, that's. But my question is to be able to best help you with an actual viable strategy that can help put you in the best position possible. What am I asking here?
+
+## Chapter 6 (50:00 to 1:00:00)
+
 [50:13](https://fathom.video/calls/791826979?timestamp=3013) MICHAEL MOORE: So what I'm getting from you, Alan, I'm getting from you, don't do J.G. Wentworth and cancel that program.
 [50:22](https://fathom.video/calls/791826979?timestamp=3022) Alan Nguyen: Well, if I was in your position, I would try to do everything in my power to not default. Because the moment you start defaulting, and that stuff shows up on the credit bureaus, and that stuff stuck with you for years, right? And even if you're in a good spot, one, two, three, five years down the line, you're going to have all these late payments and all these debt settlement things on your credit report. And it'll affect your future funding if, let's say, you wanted to get business funding for your business and things of that nature. It's all going to follow you, essentially.
 [50:54](https://fathom.video/calls/791826979?timestamp=3054) MICHAEL MOORE: And so if I pay that, well, tell them what you're saying. Not necessarily. In the mortgage industry, where I'm at, all you need to do is say, this is a period of my life where I had X, Y, and Z transitions, and they're all verifiable. That's all you need to do. And when you show recourse that says, now that I started making payments again, everything is current again, my credit score is going up because of that, everything's fine. absolutely.

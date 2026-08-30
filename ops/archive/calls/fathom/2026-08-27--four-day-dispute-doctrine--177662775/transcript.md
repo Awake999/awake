@@ -1,6 +1,17 @@
 # Transcript — 4-day dispute doctrine (2026-08-27, Fathom call 801867207)
 
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+
+
 ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
+
+
+## Chapter 1 (00:00 to 10:00)
 
 [00:02](https://fathom.video/calls/801867207?timestamp=2) Ina Grace Langub: How you doing? I'm doing, I think I'm doing, okay. Okay. I'm doing good.
 [00:14](https://fathom.video/calls/801867207?timestamp=14) Alan Nguyen: tell me more about that and let me know how I can best support you.
@@ -26,6 +37,9 @@ ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
 [08:49](https://fathom.video/calls/801867207?timestamp=529) Alan Nguyen: Whether you agree with it or you don't agree with it, it's not going to make a difference.
 [08:52](https://fathom.video/calls/801867207?timestamp=532) Ina Grace Langub: No.
 [08:53](https://fathom.video/calls/801867207?timestamp=533) Alan Nguyen: Because the profile has been processed in the improper way. So it's going down like. So It's like, imagine, imagine you're in a mailroom and then you have a box and the package needs to go in this truck that goes to the person's house. But now the person's putting the box, that's the four-day, the four-day dispute, right? The person's taking the package and putting it over here to a different country 30 days later, right? It's, it's a, we need to just make sure, like, it's a different process. But typically if they're saying 30 days, it's never going to turn out positive. Like, like 99% plus, it's not going to turn out positive. So like, at that point, if you don't to argue with you can hang up, record it, learn, send it in, learn from it. But usually there's something, something that happened in that process, right? That if we check, tweak that one thing, it'd make a difference. And that thing could be like, one, can they see the documentation? That's a huge thing. Because if they couldn't, then you're wasting your time, right? The second part is like, if even. If you're consistently getting a hold of supervisors and they're saying the same thing, like, again, are these supervisors accessing the documentation themselves or are they just kind of looking at the notes and saying, based off the notes, you know what I mean? It's different, right? Because it's one thing to say, I'm going to look at a computer. Another thing to say, okay, I'm actually going to do this myself. And then that's the second thing. The third thing is, are we talking to people within the United States? Are these people, these supervisors from the United States? Probably not, right? Not.
+
+## Chapter 2 (10:00 to 20:00)
+
 [10:33](https://fathom.video/calls/801867207?timestamp=633) Ina Grace Langub: . Brenda, I think Brenda is from the United States because I did it before. . I think I know some of the representatives because I talk to them every day, the same name. But regarding for Brenda, I have experienced a time that I dispute for Business Days and that account is... So they can be able to, she can also dispute the account at the same time when it is connected to something like that.
 [11:20](https://fathom.video/calls/801867207?timestamp=680) Alan Nguyen: well, okay. So we'll do this, I'm gonna share through this document, review today, dispute team 8, 27, 20, 26. Build your own, own SLP based on this, submit for live review, ensure no mistakes. And so I'm going share this with both of you, link, black, you, you have a call, do I have call?
 [12:30](https://fathom.video/calls/801867207?timestamp=750) Ina Grace Langub: Did someone say that?
@@ -37,3 +51,4 @@ ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
 [14:32](https://fathom.video/calls/801867207?timestamp=872) Ina Grace Langub: Okay. Okay.
 [14:33](https://fathom.video/calls/801867207?timestamp=873) Alan Nguyen: Thanks, Grace.
 [14:35](https://fathom.video/calls/801867207?timestamp=875) Ina Grace Langub: Thank you, Sir Alan. Alan.
+

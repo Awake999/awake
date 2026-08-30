@@ -1,5 +1,17 @@
 # Transcript — SCIO Sales Consulting (2026-06-16, Krisp meeting 019ed1d72a0e73e8a08717617d8fedd6)
 
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (20:00 to 30:00)](#chapter-3-2000-to-3000)
+- [Chapter 4 (30:00 to 40:00)](#chapter-4-3000-to-4000)
+- [Chapter 5 (40:00 to 50:00)](#chapter-5-4000-to-5000)
+- [Chapter 6 (50:00 to 1:00:00)](#chapter-6-5000-to-10000)
+
+
 ORIGINAL VERBATIM TRANSCRIPT from Krisp. Link: https://app.krisp.ai/m/019ed1d72a0e73e8a08717617d8fedd6
 
 # SCIO Sales Consulting
@@ -9,6 +21,9 @@ ORIGINAL VERBATIM TRANSCRIPT from Krisp. Link: https://app.krisp.ai/m/019ed1d72a
 
 ## Transcript 2
 # Transcript
+
+## Chapter 1 (00:00 to 10:00)
+
 **constantine@scaleclients.io | 00:00**
 That has not worked the way he wanted it to work, and now he's extrapolating that to believe that meta ads don't work.
 
@@ -139,6 +154,9 @@ Okay. Then, of course, I would say definitely a good thing is to structure the d
 Then, once we're done with that specific stage, what questions do you have specifically on stage one of the first phase? Then he asks questions or he doesn't have any questions. Then, once we're done, paste it out, stage two. Paste it out, stage three.
 That's our whole process, A to Z. So that's exactly how we're going to help you get to $50,000 over the course of the next six months or whatever his goal was in discovery. Now, before we get to next steps, what questions do we have there?
 That's the whole process, and then we let him ask questions. Cool. How do you feel about it? Scale of 1 to 10. We let him rate himself. Wire you that number, get his buy-in. Write all the stuff that we talked about in the training to make sure that his certainty is super high before we start talking about money or anything else.
+
+
+## Chapter 2 (10:00 to 20:00)
 
 **Speaker 3 | 10:46**
 Okay. If you're not happy with us, you can cancel. So and then we would have you spend between $1,000 and $3,000 a month. That's what most of our contractors do on that. Yeah, we just set a system together and help you get those new picture models in the bathroom.
@@ -282,6 +300,9 @@ So for example, if you got to do much by yourself in one year, you'd extra $6,00
 Yeah, exactly. You understand opportunity costs every month. You see how every month you're not in taxes, you're causing yourself a statement for you. That means in order to make this investment worthwhile, you have to do it just one month faster.
 Not only do you have the extra money in your bank account, but you have the sales you can keep using. So the investment for that is $5,000. I would like to see them get the roll we get together but I mean Hexa Python and that's as... Yeah, I think it's as... For now, it's done. Yeah, so people don't come to... Because they can have the money right?
 I'll make more money for you, though. You have $5,000, yeah? If I had a solid bank account by Miro... Yeah, right now my bank account is going to sync and my bank's going to be like, "You want to overdraw that much? [Laughter] So for... I guess. No, like I said, people don't have the money. You're breaking it up in a more digestible chunk to help you get into it. How much do you...? So for you, man, you got $1,200.
+
+
+## Chapter 3 (20:00 to 30:00)
 
 **constantine@scaleclients.io | 20:14**
 Yeah, he did the money aside, but it was kind of like not completely.
@@ -449,6 +470,9 @@ because I had to re-explain myself when his partner joined three-fourths way thr
 But for as off the rails as I got this call, we've had a really good relationship with them so far, and they love working with our team. So we've rebuilt our discovery call script. This was in the middle of us rebuilding the script anyway, but we definitely rebuilt it based off of how this call went.
 We want to start running ads towards lead intake companies that work specifically with law firms because it's a better working relationship with us than working directly with the lawyers themselves.
 
+
+## Chapter 4 (30:00 to 40:00)
+
 **constantine@scaleclients.io | 33:29**
 Okay, got it. So basically, you close this deal, and the part that you want reviewed is discovery, where you want to see if you were able to get to the point faster or what. What's the main thing that you're looking for here?
 
@@ -558,6 +582,9 @@ Yeah, exactly.
 Creative photo and video are made by AI, and the funnel itself and campaigns are managed and monitored by the agents. That way, we are never going above those intended cost per lead numbers. $100 and any time because of that immediately sap up the creative and tagged for its new cycle.
 So that way we're maintaining that because like in math, a $5,000 a month as spent we're getting to 45 clients that would average out to 15 a month and it would really be 50 qualified. So 50 qualified leads from a 15 sign, that's 30%.
 So what we find is the number of qualified leads is the highest it can be. I'm sorry, the lowest it can be at a $5,000 as spent is 100. I'm sorry, it is $100. What's going above that change and we start to slow down and Patrick... Well, actually, Mul.
+
+
+## Chapter 5 (40:00 to 50:00)
 
 **Speaker 6 | 40:25**
 Please just skip ahead to the presentation part because at a certain point I start showing my screen and the cameras get cut off. Yeah, so this is when his partner joins and I loop back for him.
@@ -721,6 +748,9 @@ So that way you can do a lot of that back and forth stuff. You can have a conver
 So the only thing that I would say here, at least for this very last part, is always try to get some kind of a commitment, some kind of a tie down on the end of that call. So if they're not going to move forward, if they're not saying, "Send me the agreement."
 But regardless, even if they say, "Send me the agreement," you say, "Yep. Sounds good. I'm going to schedule a meeting with you." Just make the assumption in 24 hours. So that way, if you have any questions about it or you want to just go ahead and proceed with onboarding, we have that time scheduled
 and locked in the calendar. Sound good? Yes, cool. Then book it. But overall, I mean, good job you closed a deal.
+
+
+## Chapter 6 (50:00 to 1:00:00)
 
 **Speaker 6 | 50:38**
 Yeah. And the I guess the only thing really quick if you have time, you don't have to like analyze it too deep is that through the link in the chat for our visual, which is a page that I share on the call.

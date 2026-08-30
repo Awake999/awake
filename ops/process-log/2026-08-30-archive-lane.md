@@ -34,6 +34,18 @@ Lane: canonical data store (`ops/archive/**` only). Branch: `claude/archive-lane
 - **Fathom: 25/234 archived** (+2 verified no-content). New this batch: Nick Samara 8/25+8/26 (+raw), Michael Moore 8/20 (+raw) + **8/26 close call ("We are a go", $1K custom deposit)**, Karl Krummenacher 8/20 whale call (Modern Thyroid $8M/yr, $500-750K BLOC at prime-minus-1, exit plan), Daniel Jimenez GHL tech call 8/25, dispute-team dailies 8/25+8/26 (+raw), all three 8/25 daily-sync captures (+raw, coexistence). Connor Robertson 8/17: Fathom holds NO transcript.
 - **Slack audio transcription:** batch 1 (23 files) COMPLETE — all transcripts committed + linked in README table. Batch 2 COMPLETE — **all 45 voice notes in the repo are transcribed**, every inventory row links its transcript (commit 96acbce). Remaining audio work is local-PC only: 3 oversize Grace call audios + 43 external-hosted ScaleClients voice notes.
 
+## Batch: formatting SOP v1.0 (Alan, verbatim, 2026-08-30)
+
+> "the longer ones, please split them up and transcribe them"
+> "also please optimize and organize and format to be human + AI friendly simultaneously so it's not just giant blocks of text for humans. make it easy to navigate thank you"
+> "plan it out if you need to with the intention to create a flawless SOP"
+
+Delivered as **`ops/archive/SOP-formatting.md`** (8 laws: HEADER / CHAPTERS / CONTENTS / SPLIT / VERBATIM / AUDIO / CONSTANT UPDATES / HUMAN+AI TANDEM) + two committed, idempotent, any-machine tools in **`ops/archive/tools/`**:
+- `format_transcripts.py` — 10-min chapters + clickable TOC on every transcript; >150KB files split into linked `transcript-part-N.md` files with `transcript.md` as index. Applied across the archive: **41 call transcripts + 45 audio transcripts processed; 38 chaptered; 5 monsters split** (Krisp 8/4 SCIO → 5 parts; Zoom 7/6 marathon → 4 parts; Krisp 8/19 + 8/28 and Fathom 8/26 dispute daily → 2 parts each). Verbatim preservation VERIFIED line-by-line against raws for every split (3-4 empty Krisp section-label lines initially dropped from preambles were restored; tool patched so part 1 always keeps the preamble).
+- `transcribe.py` — standing transcriber (supersedes the scratchpad copy): any new audio in `slack/audio/files/` on any machine; long recordings come out pre-chaptered with TOC. This is the "split them up and transcribe" answer for the 46 locally-downloadable files.
+Download retries re-confirmed the hard limits: Slack API 10MB cap (file_too_large) + external-workspace files invisible (file_not_found) — server-side splitting impossible because the download itself is refused; the split/transcribe pipeline runs the moment files land locally.
+FOR LANE 1: register the three verbatim asks above; SOP-formatting.md extends SCAN-READY LAW.
+
 ## Resume points (next run starts here)
 
 *(Updated end-of-day 8/30 — supersedes the earlier version of this list.)*

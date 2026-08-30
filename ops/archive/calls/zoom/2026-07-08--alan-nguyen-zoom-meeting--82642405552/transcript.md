@@ -4,6 +4,20 @@ Zoom uuid `7qeXkfk6Tm6p2MNCIkWtpw==`, 45m. Official Zoom audio transcript, verba
 
 ---
 
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (20:00 to 30:00)](#chapter-3-2000-to-3000)
+- [Chapter 4 (30:00 to 40:00)](#chapter-4-3000-to-4000)
+- [Chapter 5 (40:00 to 50:00)](#chapter-5-4000-to-5000)
+
+
+
+## Chapter 1 (00:00 to 10:00)
+
 **Alan Nguyen** [00:00:00]: on…
 **Alan Nguyen** [00:00:02]: Okay, awesome. Not recording. Oh, also, I was wondering, too, the past… the previous Zoom… previous Zoom call, did my AI… my Fathom NoteTaker, did it automatically send you the notes? The recap?
 **Alan Nguyen** [00:00:13]: Nice to meet you.
@@ -139,6 +153,9 @@ Zoom uuid `7qeXkfk6Tm6p2MNCIkWtpw==`, 45m. Official Zoom audio transcript, verba
 **Alan Nguyen** [00:09:46]: Yeah, so the,
 **Alan Nguyen** [00:09:48]: I think we talked about this before, too. When it comes to the notes, you can take notes, that's fine. But if you're taking notes to the degree where it's now.
 **Alan Nguyen** [00:09:59]: Removing your presence from, like, the, like, a normal conversation, just let them know, be like, okay, I'm just writing that down, just so they're not, like, wondering what's going on
+
+## Chapter 2 (10:00 to 20:00)
+
 **Alan Nguyen** [00:10:09]: So, let's try that again as you're, like, writing the notes, and I just said my response, I said 100K to do…
 **Alan Nguyen** [00:10:16]: Yada, yada.
 **boolynn** [00:10:19]: Should I start? Wait, should I start over with this or should I just move on?
@@ -285,6 +302,9 @@ Zoom uuid `7qeXkfk6Tm6p2MNCIkWtpw==`, 45m. Official Zoom audio transcript, verba
 **boolynn** [00:19:39]: Did I get that right?
 **Alan Nguyen** [00:19:42]: Yeah, this is what sounds about right.
 **boolynn** [00:19:46]: Perfect. Well, what I can do for you is check to see if I have an appointment with one of our funding specialists who have personally secured themselves over 500K in funding and are helping clients achieve similar results to see how we can best help you attain that 100K funding.
+
+## Chapter 3 (20:00 to 30:00)
+
 **boolynn** [00:20:06]: as soon as possible.
 **boolynn** [00:20:08]: Are you open to that?
 **Alan Nguyen** [00:20:10]: Mmm.
@@ -430,6 +450,9 @@ Zoom uuid `7qeXkfk6Tm6p2MNCIkWtpw==`, 45m. Official Zoom audio transcript, verba
 **boolynn** [00:29:45]: for my brain.
 **Alan Nguyen** [00:29:48]: What does your does your grandpa not not have a fan?
 **boolynn** [00:29:53]: He he has a pan. I've made eggs with it before, but I just don't know where it is unless he threw it away.
+
+## Chapter 4 (30:00 to 40:00)
+
 **boolynn** [00:30:01]: then I don't know. And then also, it's kind of like weird for me to cook here, because it's like there's no ventilation, and then I have to do things like a certain way, and I'm not sure like exactly how.
 **boolynn** [00:30:14]: He wants it, but I mean.
 **Alan Nguyen** [00:30:17]: I don't know.
@@ -568,6 +591,9 @@ Zoom uuid `7qeXkfk6Tm6p2MNCIkWtpw==`, 45m. Official Zoom audio transcript, verba
 **boolynn** [00:39:50]: It says immediate action required.
 **Alan Nguyen** [00:39:53]: Okay, what about it?
 **boolynn** [00:39:56]: There's instructions in there on how to get a Pdf. Just to get your updated credit report.
+
+## Chapter 5 (40:00 to 50:00)
+
 **boolynn** [00:40:03]: It's very easy.
 **boolynn** [00:40:05]: Oh.
 **Alan Nguyen** [00:40:10]: Okay, yep, I see it.

@@ -4,6 +4,19 @@ Verbatim Fathom transcript, [call 796488274](https://fathom.video/calls/79648827
 
 ---
 
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (20:00 to 30:00)](#chapter-3-2000-to-3000)
+- [Chapter 4 (30:00 to 40:00)](#chapter-4-3000-to-4000)
+
+
+
+## Chapter 1 (00:00 to 10:00)
+
 [00:00](https://fathom.video/calls/796488274?timestamp=0) Daniel Jimenez: We'll connect the chat. Any questions regarding any GHL tech domains, something of that nature? Alan knows.
 [00:14](https://fathom.video/calls/796488274?timestamp=14) Alan Nguyen: I have a question. Thank you, Daniel. And I had a question on, remember like a while ago, we had that like weird bug where there's that testimonial thing that was showing up on the page, and I couldn't like easily see it in the code, like, but you said you fixed it, like, what was causing that? How did you fix it?
 [00:36](https://fathom.video/calls/796488274?timestamp=36) Daniel Jimenez: I think it was a bug, to be honest, because I also duplicated the site, like the thank you page, and it was also going to that new duplicate. So essentially what I did, I just create one from scratch, and I added the code, and then the bottom section with the testimonials, I created that. So for some reason, was just like creating a bug with that thank you page that was originally added through the snapshot, right? So it was weird, to be honest.
@@ -66,6 +79,9 @@ Verbatim Fathom transcript, [call 796488274](https://fathom.video/calls/79648827
 [09:49](https://fathom.video/calls/796488274?timestamp=589) Alan Nguyen: Awesome. Appreciate that, Daniel. . That's super helpful.
 
 [09:52](https://fathom.video/calls/796488274?timestamp=592) Daniel Jimenez: . I have a question. mean? of About GHL calendars, I want to book the book application option. So you want a way to have an option between in-person or Google Meet?
+
+## Chapter 2 (10:00 to 20:00)
+
 [10:17](https://fathom.video/calls/796488274?timestamp=617) Ashley Kedra @ashleykedra: I have this in there, like the, not the funnel, well, in the funnel, I guess, but in the question, like the questionnaire. So if they click yes in-person or no in-person, I still want them to be able to schedule time, but I didn't know if there was a way to, like, reflect, okay, if it's an in-person, here's the location for in-person, and if it was a Google Meet, then here's, here's a way for a Google Meet.
 [10:48](https://fathom.video/calls/796488274?timestamp=648) Daniel Jimenez: Let me just open up your account.
 [10:51](https://fathom.video/calls/796488274?timestamp=651) Ashley Kedra @ashleykedra: It's for, I gave you access, it's actually peak performance.
@@ -129,6 +145,9 @@ Verbatim Fathom transcript, [call 796488274](https://fathom.video/calls/79648827
 [19:43](https://fathom.video/calls/796488274?timestamp=1183) Ginelle Healy: Oh they won't leave. CCC is like an automotive specialized, it does estimates, it orders parts, it's got everything, so they're not going to leave that. That's what a lot of body shops use, so...
 [19:54](https://fathom.video/calls/796488274?timestamp=1194) Daniel Jimenez: So you wanted to create a Facebook Instant Form, or a GHL one?
 [19:59](https://fathom.video/calls/796488274?timestamp=1199) Ginelle Healy: talk A I think we're creating an instant form. We have an instant form on ours? . Sorry, I'm asking my husband. . So the current ad we're running for ourselves is an instant form then that goes to the booking calendar after they fill it out, I think.
+
+## Chapter 3 (20:00 to 30:00)
+
 [20:15](https://fathom.video/calls/796488274?timestamp=1215) Daniel Jimenez: .
 [20:16](https://fathom.video/calls/796488274?timestamp=1216) Ginelle Healy: We're working with Mason. I don't know if you remember making our funnel, but I think that's how it works. So we wanted to do something similar to them.
 [20:22](https://fathom.video/calls/796488274?timestamp=1222) Daniel Jimenez: . well, if you want to share your screen, does your client, you already created a GHL, account for your client, right?
@@ -225,6 +244,9 @@ Verbatim Fathom transcript, [call 796488274](https://fathom.video/calls/79648827
 [29:47](https://fathom.video/calls/796488274?timestamp=1787) Ginelle Healy: So if we don't do the instant form in Facebook, it redirects them to the lead form or the survey page or whatnot.
 [29:55](https://fathom.video/calls/796488274?timestamp=1795) Daniel Jimenez: And if they don't fill that out and click submit, even if they don't book.
 [29:59](https://fathom.video/calls/796488274?timestamp=1799) Ginelle Healy: . But if they don't click submit, then we've lost all their information.
+
+## Chapter 4 (30:00 to 40:00)
+
 [30:02](https://fathom.video/calls/796488274?timestamp=1802) Daniel Jimenez: We don't have anything captured. Is that right? With the survey, we can add a partial information collection, something of that nature. You'll be able to, partial submits, you'll have like their information, but if they don't book a call yet, most of the information will be gone. So maybe starting with a Facebook native form would be better, like to grab more leads. And then once you know, like, the results for that, you can come for a survey then.
 [30:35](https://fathom.video/calls/796488274?timestamp=1835) Ginelle Healy: So then I would just do a Facebook instant form that goes to the booking calendar.
 [30:40](https://fathom.video/calls/796488274?timestamp=1840) Daniel Jimenez: exactly. And on the booking calendar, you need to have the lead event then.
@@ -242,4 +264,5 @@ Verbatim Fathom transcript, [call 796488274](https://fathom.video/calls/79648827
 [33:20](https://fathom.video/calls/796488274?timestamp=2000) Daniel Jimenez: It'll be created as a contact.
 [33:22](https://fathom.video/calls/796488274?timestamp=2002) Ashley Kedra @ashleykedra: Okay. Perfect. Thank you.
 [33:25](https://fathom.video/calls/796488274?timestamp=2005) Daniel Jimenez: for sure. guys, any, any other questions so far? I don't see. well, I don't see any other question on, on Zoom chat, and I don't see anyone else on the waiting room. So, we'd appreciate your time. this call, of course, is getting recorded, so. We'll be adding that into the classroom for you to see it for the future. And any questions, you can let me know. I see most of you are on Slack, so that's great. You can get me there. Thank you so much for your time, guys. Bye-bye.
+
 

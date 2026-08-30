@@ -1,6 +1,21 @@
 # Transcript — Chris Mclean, Guaranteed Funding (2026-08-27, Fathom call 798638035)
 
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (20:00 to 30:00)](#chapter-3-2000-to-3000)
+- [Chapter 4 (30:00 to 40:00)](#chapter-4-3000-to-4000)
+- [Chapter 5 (40:00 to 50:00)](#chapter-5-4000-to-5000)
+- [Chapter 6 (50:00 to 1:00:00)](#chapter-6-5000-to-10000)
+
+
 ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
+
+
+## Chapter 1 (00:00 to 10:00)
 
 [00:03](https://fathom.video/calls/798638035?timestamp=3) Alan Nguyen: Hey, Chris, how's it going?
 [00:18](https://fathom.video/calls/798638035?timestamp=18) chris’s iPhone: it going? Hi, what's going on?
@@ -47,6 +62,9 @@ ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
 [09:24](https://fathom.video/calls/798638035?timestamp=564) Alan Nguyen: I guess what I'm saying is that Amex is the type of people that if you max out your cards and pay them down, they're the type of that don't see that as a positive thing in the grand scheme of things. They're the type of that will like lower your limit because you did that. So...
 [09:40](https://fathom.video/calls/798638035?timestamp=580) chris’s iPhone: Because that paid off?
 [09:44](https://fathom.video/calls/798638035?timestamp=584) Alan Nguyen: Just because you charge up utilization too high. I don't agree with it. I'm sorry, charge up too high and then hold the balance. But it could be different because it's a hybrid. I'd be interested to see. So there's two ways we can go about it. The positive side of keeping it open is if we... Everything else on your profile was like... Perfect. And then all the cards were paid down to 1% 7% utilization, no inquiries, no negatives, and that that card was paid down to 1% to 3% as well too, the Credit One Amex card, there's a chance that if you applied from that perfect place, or as perfect as possible place, there's a chance that they could increase your limit. And if it's a four-figure limit after that point, it might be worth keeping it on, because it's Amex. Because now you have a major national bank name.
+
+## Chapter 2 (10:00 to 20:00)
+
 [10:29](https://fathom.video/calls/798638035?timestamp=629) chris’s iPhone: That's what the Credit One bank card is. It's an Amex Credit One card. Got it.
 [10:35](https://fathom.video/calls/798638035?timestamp=635) Alan Nguyen: Got it. so the question is, what's our timeline right now? How soon do we need this funding?
 [10:43](https://fathom.video/calls/798638035?timestamp=643) chris’s iPhone: Probably on the timeline within the next month, month and a half.
@@ -86,6 +104,9 @@ ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
 [18:49](https://fathom.video/calls/798638035?timestamp=1129) chris’s iPhone: About five months ago, four or five months ago.
 [18:56](https://fathom.video/calls/798638035?timestamp=1136) Alan Nguyen: Okay. If you can, I'd write this down too. Try to find out the exact date. That that was done, just so we can plan out the increase on that. What was the starting limit on that card before the increase? Just 500. Okay. And they gave me the 500 with a 690. .
 [19:17](https://fathom.video/calls/798638035?timestamp=1157) chris’s iPhone: The that kills me is I don't understand how I'm not getting high credit limits. I make over 100,000. I had some, I had an old, I had a, because I'm in sales, so I had, like, doing COVID, I had some late payments because, I mean, nobody was open. And then I got some stuff off my credit. And then the collections on there now is, like, stuff I was fighting for when I moved from Georgia to here with the last landlord and with Georgia Power, which is crazy because it shouldn't have been what it was. So, like, I was sending letters and, like, just, like, give me an item on this. And then they just, they did it. They put it, they put that . When they sent me the letters, I actually itemized this, they sent that, I sent back what I had with pictures and stuff, and then before I even got the response back, they put it on my credit. And at that point, I was pissed off. You know what saying? So the thing that's now, like, I pay it tomorrow, but it's just like, do you take it off if I pay it? Or are you not going to take it off if I pay it?
+
+## Chapter 3 (20:00 to 30:00)
+
 [20:26](https://fathom.video/calls/798638035?timestamp=1226) Alan Nguyen: The late payment?
 [20:27](https://fathom.video/calls/798638035?timestamp=1227) chris’s iPhone: not going to solving in like the next month. You know what I mean? Seriously, like in the next month. It's just like, I need to understand the best way forward to achieve the goals I want. Do you know what I'm And your goals, I'm assuming, is to get a large amount of funding quickly, or what are your goals specifically? Yes. Yes. . That and then long-term. Things for myself, outside of the business. You know what saying? I want to be able to get funding immediately, and then I still want to be able to get rid of these secondary cards. I don't want to have cards that are like 30-35% interest. I don't want that. I want 0% interest cards. I want to be able to maybe have, I mean, you know, they made that FICO score so crazy. You do understand. The credit mix. Because I haven't bought a house or none of that stuff. You know what mean? I only have, the debt that you see, the debt that you see right there on my, it's all the debt I have. Period. It's all the debt I have. My credit card debt and my car is all the debt that's in my name. And we're talking about, we're talking about $11,000 on a car and probably another 10. $11,000 in credit cards. That's all the debt I got. That's all the debt I had. But the problem is, it's like trying to get, trying to make the decision of what to pay off, the higher interest rates, 30, 35 cents, and get them out of the way. Once I get them out of the way, you know what mean? My wife's a PA, bro. Like, you know what mean? Like, will pile up quickly in six, eight, like, on my own. it's just, like, deciding, like, what to do to put myself in a position to where I'm in the high sevens. I'm in the high sevens. And I really have no debt-to-income ratio. And so that's one of the things that I was, like, the things I was, like, asking you about is because, like, when I close some of these cards, that changes my debt-to-income ratio. And how would that affect?
 [22:53](https://fathom.video/calls/798638035?timestamp=1373) Alan Nguyen: The reduction of the cards will not affect your DTI. Oh, well, I guess the... The payment, the down payment, the paying down your cards will benefit your DTI, right? But removing cards isn't going to change that because you're not, you're not changing anything about your income. And if the debt's paid off, whether the card's open or not, the debt's paid off.
@@ -112,6 +133,9 @@ ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
 [29:46](https://fathom.video/calls/798638035?timestamp=1786) chris’s iPhone: My birth year is 1973, and you need the whole social, you ready?
 [29:52](https://fathom.video/calls/798638035?timestamp=1792) Alan Nguyen: it's asking for the whole one, strangely enough.
 [29:55](https://fathom.video/calls/798638035?timestamp=1795) chris’s iPhone: 2-4-0-1-9-4-1-9.
+
+## Chapter 4 (30:00 to 40:00)
+
 [30:18](https://fathom.video/calls/798638035?timestamp=1818) Alan Nguyen: But I was able to get in, it's just loading.
 [30:29](https://fathom.video/calls/798638035?timestamp=1829) chris’s iPhone: sent you to log in to Experian, did you get it?
 [30:34](https://fathom.video/calls/798638035?timestamp=1834) Alan Nguyen: think we did that yesterday, and I think I was maybe like, I'm not sure if I was on the road, so I think it was on my laptop when I signed in. I think that's why it's asked me to do it again here. See, we have Merrick, the only late payment on Experian.
@@ -143,6 +167,9 @@ ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
 [38:24](https://fathom.video/calls/798638035?timestamp=2304) Alan Nguyen: Hold on.
 [38:25](https://fathom.video/calls/798638035?timestamp=2305) chris’s iPhone: Avance, keep. Navy Federal, keep. Now, once I get everything back up, let me ask you your opinion about this. I can do a pre-approval on a... Chase card, they send me stuff sometimes, where I can do a pre-approval with no credit check on that. Is it beneficiary to see if I can get a Chase credit card? It can be, but not right now. You don't want to enter their system with your profile looking the way it is right now. Well, no, not right now. I'm talking about when everything's cleaned up.
 [39:27](https://fathom.video/calls/798638035?timestamp=2367) Alan Nguyen: when everything's cleaned up, we can implement a strategy that can help you most likely get, because I'm assuming if you try to do it yourself, after we remove the collections and the late payments, annually lowered all your utilization, if you apply that, I would expect you'd probably get like $5,100 a limit. Sounds like something Chase would do. You get 0% of people like the Chase Freedom card or whatever it is, but there's a strategy that we can implement that has been shown in the same type of profiles that would have done the strategy versus not. The strategy, we've been seeing $5,000 versus $10,000 to $20,000 limits on the personal card.
+
+## Chapter 5 (40:00 to 50:00)
+
 [40:05](https://fathom.video/calls/798638035?timestamp=2405) chris’s iPhone: How do get to a place to where I can get the funding and still get on a personal note? So the funding, that's going to be like a business card or business credit. And then when it comes to a personal side, how do I get to those limits that are 10, 20, 50, 0% interest for 18 months, 20 months?
 [40:31](https://fathom.video/calls/798638035?timestamp=2431) Alan Nguyen: If I just like follow the system, just doing what we're doing right now, like, well, we'll get there, you know, we optimize this and then implement further strategies and then those will get the larger limits on your profile and then, basically that.
 [40:46](https://fathom.video/calls/798638035?timestamp=2446) chris’s iPhone: Okay. Is there anything else you want me to write down or the exact thing that you want me to do?
@@ -198,6 +225,9 @@ ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
 [49:39](https://fathom.video/calls/798638035?timestamp=2979) chris’s iPhone: You like a credit council?
 [49:43](https://fathom.video/calls/798638035?timestamp=2983) Alan Nguyen: something like that, like, credit consulting, coaching, stuff like that. yes, it looks like we have a late payment on Merrick with the Experian, but I think that's...
 [49:56](https://fathom.video/calls/798638035?timestamp=2996) chris’s iPhone: That's one from December of last year.
+
+## Chapter 6 (50:00 to 1:00:00)
+
 [50:00](https://fathom.video/calls/798638035?timestamp=3000) Alan Nguyen: . There shouldn't be...
 [50:02](https://fathom.video/calls/798638035?timestamp=3002) chris’s iPhone: but that's the end or the end, it's on there.
 [50:05](https://fathom.video/calls/798638035?timestamp=3005) Alan Nguyen: we can definitely dispute it. it's just, I don't think, I cannot imagine it being the hardest thing. We just literally removed like nine for someone the other day. So I don't think it's going to be a huge, big deal. Okay, so I'm just going to save these so I don't have to keep logging in. Okay, so Experian looks solid. There's only one, oh, three weights, three weights on Experian and one collections.

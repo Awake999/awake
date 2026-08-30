@@ -4,6 +4,20 @@ Verbatim Fathom transcript, [call 795906439](https://fathom.video/calls/79590643
 
 ---
 
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (20:00 to 30:00)](#chapter-3-2000-to-3000)
+- [Chapter 4 (30:00 to 40:00)](#chapter-4-3000-to-4000)
+- [Chapter 5 (40:00 to 50:00)](#chapter-5-4000-to-5000)
+
+
+
+## Chapter 1 (00:00 to 10:00)
+
 [00:00](https://fathom.video/calls/795906439?timestamp=0) Michael Moore: Oh, good.
 [00:01](https://fathom.video/calls/795906439?timestamp=1) Alan Nguyen: It looks like I think there's okay, awesome. sorry about that. Thank you for your patience. I just had a meeting that just carried over just a little bit longer. But we're here now. And well, what's the catch cramp today? What's the status for everything?
 [00:17](https://fathom.video/calls/795906439?timestamp=17) MICHAEL MOORE: And so I sent you all the documents, including the three bureau.
@@ -59,6 +73,9 @@ Verbatim Fathom transcript, [call 795906439](https://fathom.video/calls/79590643
 [09:48](https://fathom.video/calls/795906439?timestamp=588) MICHAEL MOORE: there's six bank statements and there's three mortgage statements. Okay. .
 [09:55](https://fathom.video/calls/795906439?timestamp=595) Alan Nguyen: The mortgage statement.
 [09:56](https://fathom.video/calls/795906439?timestamp=596) MICHAEL MOORE: It's, it's a six credit cards. And three mortgage statements.
+
+## Chapter 2 (10:00 to 20:00)
+
 [10:02](https://fathom.video/calls/795906439?timestamp=602) Alan Nguyen: Okay. The mortgage statements were, like, for those, you just got to make sure you make the minimum payment for this month?
 [10:09](https://fathom.video/calls/795906439?timestamp=609) MICHAEL MOORE: we will.
 [10:11](https://fathom.video/calls/795906439?timestamp=611) Alan Nguyen: Okay, awesome. But the utilization is pretty much only determined off of the credit cards, which heavily affect your credit score. So let's see. The statement period here. Let me expand these. Oops. Okay. So this is your statement period. Let me filter by this. Okay, so basically, today is the 25th. So based off of the states, you just had your city diamond preferred statement period end yesterday. And your minimum payment due date for that was about the 22nd, so three days ago.
@@ -96,6 +113,9 @@ Verbatim Fathom transcript, [call 795906439](https://fathom.video/calls/79590643
 [18:57](https://fathom.video/calls/795906439?timestamp=1137) Alan Nguyen: So none of these are required to be. And they're easily removable. So we do that for you. basically make sure that, you you have three name formats right now, including an AKA, also known as. We make sure that all those get down to one. You have three addresses on Equifax. We trim that down to one, ideally aligned with your driver's license. The same, you know, address. And then utilization, we talked about that. And it looks like that's pretty much it. Inquiries. Name, one name, one address, no employers. And that's pretty much it.
 [19:39](https://fathom.video/calls/795906439?timestamp=1179) MICHAEL MOORE: Okay. And then, okay. And then do I pay you money to do this or how is.
 [19:48](https://fathom.video/calls/795906439?timestamp=1188) Alan Nguyen: . So typically how this works is what we do is for those that, you know, we decided to work with essentially for your situation is tricky. Right. And I, and I want to be able to. Time this correctly in terms of like that, where'd that calendar go? Because typically how we do this is we typically offer everybody a like a deposit up front, like a small deposit up front, just to be able to get things running. And, you know, the clients that we do take on, we have the confidence that we'll be able to help succeed for them. And then that deposit is typically a refundable deposit, as in if we're for whatever reason, right, we're unable to perform in the way that we were intending or said that we're going to perform. Then, and we don't get you the results that you're looking for, then, you we just give you a full refund, no questions asked, essentially. But we've never had to redeem that for anybody, because we're only really saying yes to anyone and everyone that we know that we'll be able to serve, if that makes sense.
+
+## Chapter 3 (20:00 to 30:00)
+
 [20:47](https://fathom.video/calls/795906439?timestamp=1247) MICHAEL MOORE: Right, I understand.
 [20:48](https://fathom.video/calls/795906439?timestamp=1248) Alan Nguyen: but that's just, you know, that's just a thing of like good faith to, you know, help people feel more safe with, with everything. Okay, so that's, Thank Thank How the process would work is, if we decided we wanted to move forward, we'd have to get you through the optimization phase, so we'd have to send you an optimization form, right, and then after we get the optimization form, we could start working on your profile as soon as tomorrow or as soon as we receive all the information that we need. Basically, it's just you. It's just basic things like, you know, ID, and we have a whole form for it, but it's just you authorizing us to be able to dispute this stuff on your behalf. You sign off on it, and we go to work, essentially. And then let's look at the calendar again. Okay, so we have best case scenario. Let's see. See this matrix. Open this. Oh, this one looks a little different. I'll give you the other one. All right, here's the other matrix. And So our best window would be between the 27th, or sorry, statement date, be between the 2nd and the 11th. So let me think about this, and this reflect, this reflect, this reflect. Okay, so what this would mean is we would initiate best case scenario, right? We go to work now between now and the 11th. Best case scenario, we remove all 48 inquiries for you. We optimize your profile for you. Oh, actually, we don't even need do it within that timeframe, actually, because we have basically a whole month, but we do it fast regardless. But basically, we go to work on optimizing your profile after it's in process of being optimized. The starting date at earliest would be on the 11th, right? Or technically, let's look at the calendar. That's the statement closing date. So on the 11th is the statement closing date, which looks like it's a Friday. Okay. That means... means... Thursday night, Thursday night after hours for Bank of America, and you can just Google what that is, but 8 o'clock is a pretty good number too. Basically, if there was a payment made with a deposit account that didn't necessarily have the funds in it, but at least there's initiation for the payment at the full amount, not the full amount, but expand this. Okay, there we go. Bank of America on the 11th. Looks like there would have to be the minimum payment done, like legitimately. So your normal account would pay the $639.11, right? Right.
 [23:53](https://fathom.video/calls/795906439?timestamp=1433) MICHAEL MOORE: .
@@ -126,6 +146,9 @@ Verbatim Fathom transcript, [call 795906439](https://fathom.video/calls/79590643
 [29:36](https://fathom.video/calls/795906439?timestamp=1776) Alan Nguyen: Got it. Yep. So that's basically, that's basically it. You know, as long as we're on the same page and we were executing in alignment with the strategies, you know, suggested, then then there's no reason why things wouldn't work out, essentially. All right.
 [29:54](https://fathom.video/calls/795906439?timestamp=1794) MICHAEL MOORE: But I'm a go. We are a go.
 [29:58](https://fathom.video/calls/795906439?timestamp=1798) Alan Nguyen: Okay. Awesome. Okay, so then the next steps would be is, so I'm going to stop sharing my screen real quick. All right, so let's see. What I can do is I can send you the payment link, and then directly after, we can get you to our onboarding funnel. It'll be like a series of videos, just giving you a little welcome, and then I'll send you the optimization form as well, too. That's pretty quick. And then as soon as you send that optimization form in, which is just basic information like ID, address, stuff like that, logins to the bureaus, so we can dispute on your behalf, once we have that in, plus you're like authorized signature, essentially, to be able to do that on your behalf, after that's all in, and then we go to work pretty much. good to me.
+
+## Chapter 4 (30:00 to 40:00)
+
 [30:49](https://fathom.video/calls/795906439?timestamp=1849) MICHAEL MOORE: It sounds good to me.
 [30:52](https://fathom.video/calls/795906439?timestamp=1852) Alan Nguyen: Awesome.
 [30:54](https://fathom.video/calls/795906439?timestamp=1854) MICHAEL MOORE: I'll just wait for your email, and then I'll move forward with those instructions.
@@ -184,6 +207,9 @@ Verbatim Fathom transcript, [call 795906439](https://fathom.video/calls/79590643
 [39:43](https://fathom.video/calls/795906439?timestamp=2383) Alan Nguyen: Okay. Awesome.
 [39:44](https://fathom.video/calls/795906439?timestamp=2384) MICHAEL MOORE: let's just, let me just check in with you on, today is the 26th?
 [39:53](https://fathom.video/calls/795906439?timestamp=2393) Alan Nguyen: 25th. 25th. 2-3-25. Let's see here.
+
+## Chapter 5 (40:00 to 50:00)
+
 [40:01](https://fathom.video/calls/795906439?timestamp=2401) MICHAEL MOORE: Let's just do, so September 1st, 2nd, 3rd. So September 1st is next, one week, in one week. And you want me to execute some instructions there about the September 9th, 10th timeframe?
 [40:35](https://fathom.video/calls/795906439?timestamp=2435) Alan Nguyen: Yes.
 [40:36](https://fathom.video/calls/795906439?timestamp=2436) MICHAEL MOORE: So why don't we, why don't we meet, you know, let's just say, September 2nd. September 2nd. What's September 3rd? I'm meeting with somebody, that's Kate Feehan. So let's do September 2nd. Okay.
@@ -213,3 +239,4 @@ Verbatim Fathom transcript, [call 795906439](https://fathom.video/calls/79590643
 [44:04](https://fathom.video/calls/795906439?timestamp=2644) MICHAEL MOORE: No, thank you very much. I'm very grateful.
 [44:08](https://fathom.video/calls/795906439?timestamp=2648) Alan Nguyen: Awesome. I'm thankful to have the opportunity to be able to serve as well, too, and help facilitate this transformation. And really excited to see, you know, you on the other side, essentially, where we're able to help you make this huge shift, you know, set the foundations to build what you're building and just to really see how it, you know, all unfolds there because it's. it's really exciting to hear what you're talking about. You're doing a lot of different things and. I will keep you right out there at the tip of the spear. Awesome. Amazing. All right. Have a wonderful night, Michael. Appreciate you.
 [44:43](https://fathom.video/calls/795906439?timestamp=2683) MICHAEL MOORE: All right. Thank you. You, too. Thanks. Have a good day. Bye bye. Thanks. Bye.
+

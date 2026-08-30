@@ -4,6 +4,30 @@ Zoom uuid `4aFrx32oR4Wb+hIJiM6D9A==`, 149m. Official Zoom audio transcript, verb
 
 ---
 
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (20:00 to 30:00)](#chapter-3-2000-to-3000)
+- [Chapter 4 (30:00 to 40:00)](#chapter-4-3000-to-4000)
+- [Chapter 5 (40:00 to 50:00)](#chapter-5-4000-to-5000)
+- [Chapter 6 (50:00 to 1:00:00)](#chapter-6-5000-to-10000)
+- [Chapter 7 (1:00:00 to 1:10:00)](#chapter-7-10000-to-11000)
+- [Chapter 8 (1:10:00 to 1:20:00)](#chapter-8-11000-to-12000)
+- [Chapter 9 (1:20:00 to 1:30:00)](#chapter-9-12000-to-13000)
+- [Chapter 10 (1:30:00 to 1:40:00)](#chapter-10-13000-to-14000)
+- [Chapter 11 (1:40:00 to 1:50:00)](#chapter-11-14000-to-15000)
+- [Chapter 12 (1:50:00 to 2:00:00)](#chapter-12-15000-to-20000)
+- [Chapter 13 (2:00:00 to 2:10:00)](#chapter-13-20000-to-21000)
+- [Chapter 14 (2:10:00 to 2:20:00)](#chapter-14-21000-to-22000)
+- [Chapter 15 (2:20:00 to 2:30:00)](#chapter-15-22000-to-23000)
+
+
+
+## Chapter 1 (00:00 to 10:00)
+
 **Lynn N.** [00:00:00]: On big funding amounts?
 **Alan Nguyen** [00:00:02]: Yeah, so I'm gonna pull something up for you so you can see… where are we?
 **Alan Nguyen** [00:00:09]: Just the wrong Canva.
@@ -125,6 +149,9 @@ Zoom uuid `4aFrx32oR4Wb+hIJiM6D9A==`, 149m. Official Zoom audio transcript, verb
 **Alan Nguyen** [00:09:48]: They're sending 20, but they want to pay. It doesn't sound like. And then, yeah, the quotes, whatever you'd say.
 **Alan Nguyen** [00:09:55]: But for real, if it doesn't sign it.
 **Alan Nguyen** [00:09:58]: But if we were able to carry a custom offering for you.
+
+## Chapter 2 (10:00 to 20:00)
+
 **Alan Nguyen** [00:10:02]: To help you fix your credit.
 **Alan Nguyen** [00:10:05]: How much would you be willing to To invest.
 **Alan Nguyen** [00:10:10]: How much, yeah, I'll almost say, how much do you have available
@@ -261,6 +288,9 @@ Zoom uuid `4aFrx32oR4Wb+hIJiM6D9A==`, 149m. Official Zoom audio transcript, verb
 **Lynn N.** [00:19:46]: just get it emailed to us ASAP. So, I mean, this, like, kind of gives no room for them to answer if they want to do it now.
 **Lynn N.** [00:19:54]: Okay.
 **Lynn N.** [00:19:57]: But I mean.
+
+## Chapter 3 (20:00 to 30:00)
+
 **Lynn N.** [00:20:00]: Yeah, I don't know.
 **Alan Nguyen** [00:20:07]: Yeah, so…
 **Alan Nguyen** [00:20:14]: Sorry. You can see my highlights, right?
@@ -367,6 +397,9 @@ Zoom uuid `4aFrx32oR4Wb+hIJiM6D9A==`, 149m. Official Zoom audio transcript, verb
 **Alan Nguyen** [00:29:47]: fully saved and sent over properly. Sometimes there's just little tiny challenges here and there and whatnot. And since we're already here on the call.
 **Alan Nguyen** [00:29:54]: Are you open to just going through that quickly now, just to get it out of the way?
 **Lynn N.** [00:29:59]: Okay.
+
+## Chapter 4 (30:00 to 40:00)
+
 **Alan Nguyen** [00:30:01]: Okay.
 **Lynn N.** [00:30:02]: Yeah. Yeah.
 **Alan Nguyen** [00:30:04]: Yeah, and then if they're, if they're like, if they're like, either they'll say yes, right, if there's a little bit more resistance, right, then you could just say, you know, you know, I'm just here to help in, you
@@ -494,6 +527,9 @@ Zoom uuid `4aFrx32oR4Wb+hIJiM6D9A==`, 149m. Official Zoom audio transcript, verb
 **Alan Nguyen** [00:39:42]: in, like, As two distinctly different points.
 **Lynn N.** [00:39:49]: -H.
 **Alan Nguyen** [00:39:50]: I get that, like, it would make sense to naturally go from this into this as if it was just one full sentence, but, like, we really want to make it very affirmatively clear
+
+## Chapter 5 (40:00 to 50:00)
+
 **Alan Nguyen** [00:40:01]: About… this.
 **Alan Nguyen** [00:40:03]: Right? We, like, we, we, we want to really show them.
 **Lynn N.** [00:40:08]: Okay.
@@ -625,6 +661,9 @@ Zoom uuid `4aFrx32oR4Wb+hIJiM6D9A==`, 149m. Official Zoom audio transcript, verb
 **Alan Nguyen** [00:49:42]: And what would feel most… Natural for you to confidently communicate that, in what words?
 **Lynn N.** [00:49:49]: Oftentimes, our clients have challenges saving and sending their full CBO report.
 **Lynn N.** [00:49:57]: because it can be a little confusing. I guess that's fine. Yeah.
+
+## Chapter 6 (50:00 to 1:00:00)
+
 **Alan Nguyen** [00:50:03]: Is there a way that that you would reword it? How would you reward it for you to feel like super confident and solid about it?
 **Lynn N.** [00:50:12]: Oftentimes our clients have challenges.
 **Lynn N.** [00:50:19]: Oftentimes…
@@ -744,6 +783,9 @@ Zoom uuid `4aFrx32oR4Wb+hIJiM6D9A==`, 149m. Official Zoom audio transcript, verb
 **Lynn N.** [00:59:49]: Absolutely. You can definitely do it later.
 **Lynn N.** [00:59:52]: Because it is.
 **Lynn N.** [00:59:55]: a little bit confusing. Oftentimes our clients do have challenges saving and sending in their full 3 Bureau report.
+
+## Chapter 7 (1:00:00 to 1:10:00)
+
 **Lynn N.** [01:00:04]: And since we're already here on the call looking at it. Did you? Are you open to just going through that quickly? Now.
 **Lynn N.** [01:00:13]: Just to get it all the way.
 **Alan Nguyen** [01:00:16]: Yeah. Let's, let's focus on the first two, and then we'll focus on the br.
@@ -891,6 +933,9 @@ Zoom uuid `4aFrx32oR4Wb+hIJiM6D9A==`, 149m. Official Zoom audio transcript, verb
 **Alan Nguyen** [01:09:48]: Yeah, okay.
 **Alan Nguyen** [01:09:51]: Yeah, I don't know. I don't know if it maybe because we're
 **Alan Nguyen** [01:09:55]: make it too scripted or not. The main point is we just want to get the point across at this point in the framework, which is just saying that,
+
+## Chapter 8 (1:10:00 to 1:20:00)
+
 **Alan Nguyen** [01:10:07]: It's, like… No script, right? It's just like…
 **Alan Nguyen** [01:10:11]: Oftentimes, you know, the clients that we work with, they are our clients. They have challenges.
 **Alan Nguyen** [01:10:18]: going through the process on getting the
@@ -1014,6 +1059,9 @@ Zoom uuid `4aFrx32oR4Wb+hIJiM6D9A==`, 149m. Official Zoom audio transcript, verb
 **Lynn N.** [01:19:49]: I guess just this.
 **Alan Nguyen** [01:19:51]: Definitely good. But doing beforehand gives your funding specialist time to review everything. So your appointment
 **Alan Nguyen** [01:19:56]: through everything. So your appointment can focus on the strategy instead of collecting information. We just want to make sure the specialists can
+
+## Chapter 9 (1:20:00 to 1:30:00)
+
 **Alan Nguyen** [01:20:04]: Best?
 **Alan Nguyen** [01:20:05]: I'd almost even say custom, Taylor, because everyone loves that word, custom, like, you know, personalized, whatever, or personalized, personalized strategy, specific to your deeds, so that we can get you that
 **Alan Nguyen** [01:20:17]: X funding and Y time frame.
@@ -1147,6 +1195,9 @@ Zoom uuid `4aFrx32oR4Wb+hIJiM6D9A==`, 149m. Official Zoom audio transcript, verb
 **Alan Nguyen** [01:29:42]: Let's see, where are we? Okay, so this…
 **Alan Nguyen** [01:29:48]: This does actually come up relatively frequently.
 **Alan Nguyen** [01:29:52]: Minority, less than half the time, but still happens, frequently enough to mention it. But some people express resistance where, like, they don't want to do subscriptions and all that stuff, and subscriptions are hard to cancel, and da-da-da-da-da, right? So, if, like, this is optional.
+
+## Chapter 10 (1:30:00 to 1:40:00)
+
 **Alan Nguyen** [01:30:07]: On it.
 **Alan Nguyen** [01:30:09]: Yeah, if you want to just, like, create a standard statement that
 **Alan Nguyen** [01:30:13]: pre handles that objection and conversation.
@@ -1219,6 +1270,9 @@ Zoom uuid `4aFrx32oR4Wb+hIJiM6D9A==`, 149m. Official Zoom audio transcript, verb
 **Alan Nguyen** [01:38:42]: Okay, so…
 **Alan Nguyen** [01:38:44]: Unmute myself on here, and then if you can mute yourself too, and I'll let you know when it's done.
 **Alan Nguyen** [01:38:53]: Thank you.
+
+## Chapter 11 (1:40:00 to 1:50:00)
+
 **Alan Nguyen** [01:48:15]: Alright, I'm back.
 **Lynn N.** [01:48:25]: Welcome back.
 **Alan Nguyen** [01:48:28]: Welcome back. Welcome back.
@@ -1234,6 +1288,9 @@ Zoom uuid `4aFrx32oR4Wb+hIJiM6D9A==`, 149m. Official Zoom audio transcript, verb
 **Alan Nguyen** [01:49:08]: Yes.
 **Alan Nguyen** [01:49:13]: God, I love it.
 **Alan Nguyen** [01:49:17]: There we go.
+
+## Chapter 12 (1:50:00 to 2:00:00)
+
 **Alan Nguyen** [01:52:05]: Oh, my goodness. I am tweaking.
 **Alan Nguyen** [01:52:10]: I didn't send them the book a call link.
 **Alan Nguyen** [01:52:12]: Let's go crazy.
@@ -1334,6 +1391,9 @@ Zoom uuid `4aFrx32oR4Wb+hIJiM6D9A==`, 149m. Official Zoom audio transcript, verb
 **Lynn N.** [01:59:45]: And how are you looking at implementing that 50 to 150 K in your business?
 **Alan Nguyen** [01:59:52]: Oh, I don't have a business.
 **Lynn N.** [01:59:55]: Okay, so did you? You just have like an idea, and you wanted to buy a business or just start one.
+
+## Chapter 13 (2:00:00 to 2:10:00)
+
 **Alan Nguyen** [02:00:04]: Yeah, you know, I want to get into business more and more. You know, getting access to the the funding would help me definitely do that for sure.
 **Lynn N.** [02:00:12]: That'd be awesome. And
 **Lynn N.** [02:00:14]: If you don't mind me asking, what what type of business did you want to start?
@@ -1480,6 +1540,9 @@ Zoom uuid `4aFrx32oR4Wb+hIJiM6D9A==`, 149m. Official Zoom audio transcript, verb
 **Alan Nguyen** [02:09:45]: Well, I mean, I work, but…
 **Alan Nguyen** [02:09:48]: Yeah, I mean, I'll be seeing these ads all the time, you know, everyone's saying basically the same thing, you know, we'll
 **Alan Nguyen** [02:09:54]: this amount of funding, this amount of funding, that amount of funding. But like a lot of them just seem like scams or just, you know, it's not real.
+
+## Chapter 14 (2:10:00 to 2:20:00)
+
 **Lynn N.** [02:10:03]: Yeah. Well, I'm, you. I think you came to the right spot because I'm just here to serve you, and we just want to help you, get to your goals.
 **Alan Nguyen** [02:10:14]: Mmhm.
 **Lynn N.** [02:10:15]: Umm.
@@ -1608,6 +1671,9 @@ Zoom uuid `4aFrx32oR4Wb+hIJiM6D9A==`, 149m. Official Zoom audio transcript, verb
 **Lynn N.** [02:19:45]: you have my support, and that I can help you do that. And since we're already on the page.
 **Lynn N.** [02:19:53]: What are you open to?
 **Lynn N.** [02:19:57]: continuing, or like.
+
+## Chapter 15 (2:20:00 to 2:30:00)
+
 **Alan Nguyen** [02:20:00]: I mean, like, it sounds pretty straightforward. I just sign in, sign up, log in.
 **Alan Nguyen** [02:20:06]: And then send you guys a report, I mean… Like…
 **Alan Nguyen** [02:20:10]: Sounds pretty easy to get it done.

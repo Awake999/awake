@@ -4,6 +4,25 @@ Zoom uuid `JiCM9HCNTsWbm5xgJdjzoQ==`, 104m, participants per transcript: Alan Ng
 
 ---
 
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (20:00 to 30:00)](#chapter-3-2000-to-3000)
+- [Chapter 4 (30:00 to 40:00)](#chapter-4-3000-to-4000)
+- [Chapter 5 (40:00 to 50:00)](#chapter-5-4000-to-5000)
+- [Chapter 6 (50:00 to 1:00:00)](#chapter-6-5000-to-10000)
+- [Chapter 7 (1:00:00 to 1:10:00)](#chapter-7-10000-to-11000)
+- [Chapter 8 (1:10:00 to 1:20:00)](#chapter-8-11000-to-12000)
+- [Chapter 9 (1:20:00 to 1:30:00)](#chapter-9-12000-to-13000)
+- [Chapter 10 (1:40:00 to 1:50:00)](#chapter-10-14000-to-15000)
+
+
+
+## Chapter 1 (00:00 to 10:00)
+
 **Alan Nguyen** [00:00:02]: Okay.
 **Alan Nguyen** [00:00:03]: So basically, since I'm already here and I have you on the call right now, it only takes — it's really quick. It only takes a couple of minutes or so. And a lot of our challenges do experience problems sometimes going through this process because of just all the strange things with —
 **Alan Nguyen** [00:00:21]: that come with the process. So, I just want to make sure that I can help you, throughout that process. So, why don't we just, you know, knock it out now, since you don't… so you don't run into problems later. I mean, does that sound fair to you?
@@ -117,6 +136,9 @@ Zoom uuid `JiCM9HCNTsWbm5xgJdjzoQ==`, 104m, participants per transcript: Alan Ng
 **Alan Nguyen** [00:09:31]: that's the hard-to-say-no-to thing. Well, also, I don't know, it's just kind of… it just all comes together. It's more so just the spirit of it. But yeah. And then everything else that I say after that.
 **Alan Nguyen** [00:09:42]: So, you know, since I'm already here, right, and just, like, the tonality is just, like, you know, just relieving and just easy light, since I'm already here, like, you know, why don't we just go through it together, since, you know, so you don't have to, you know, run to all those issues later, right, just make it, you know…
 **Alan Nguyen** [00:09:59]: I don't know, natural.
+
+## Chapter 2 (10:00 to 20:00)
+
 **Alan Nguyen** [00:10:01]: And then, and so that I'll be, you know, here to…
 **Alan Nguyen** [00:10:07]: Yeah, so you don't run into issues later, and that you'll have my help to be able to help you through the process. It's only going to take a couple of minutes. Does that sound good to you? Does that work for
 **Alan Nguyen** [00:10:19]: And you just say yes or no, and it's really good.
@@ -233,6 +255,9 @@ Zoom uuid `JiCM9HCNTsWbm5xgJdjzoQ==`, 104m, participants per transcript: Alan Ng
 **Lynn N.** [00:19:53]: It's the second one.
 **Alan Nguyen** [00:19:55]: Yeah.
 **Lynn N.** [00:19:56]: Perfect, and when you open up that email, do you see the second link there that says call confirmed?
+
+## Chapter 3 (20:00 to 30:00)
+
 **Alan Nguyen** [00:20:04]: Yeah.
 **Lynn N.** [00:20:06]: Great. So if you open that up and scroll down to step two, there will be a video. And then below the video, there will be a blue credit report button that says pull credit report. Do you see the page that comes up when you click on that?
 **Alan Nguyen** [00:20:22]: Yeah, yes, I do.
@@ -368,6 +393,9 @@ Zoom uuid `JiCM9HCNTsWbm5xgJdjzoQ==`, 104m, participants per transcript: Alan Ng
 **Alan Nguyen** [00:29:46]: Yeah, I, I just don't like the, the thing, the, I, I don't like how it's
 **Alan Nguyen** [00:29:51]: Asking them, it's talking about a $1 trial.
 **Alan Nguyen** [00:29:54]: Before we even talked about the credit report. The only thing they know about credit report is the blue button. We haven't even spoken on it. So it makes me feel like you're leading me down a path where you're trying to get me to buy something from you.
+
+## Chapter 4 (30:00 to 40:00)
+
 **Alan Nguyen** [00:30:08]: And we don't want that.
 **Alan Nguyen** [00:30:10]: So in order to mitigate that, that's why we talk about it first, so that they don't feel that way.
 **Lynn N.** [00:30:17]: Okay,
@@ -447,6 +475,9 @@ Zoom uuid `JiCM9HCNTsWbm5xgJdjzoQ==`, 104m, participants per transcript: Alan Ng
 **Lynn N.** [00:39:55]: Mmhm.
 **Lynn N.** [00:39:57]: Right.
 **Alan Nguyen** [00:39:58]: because we don't want them to ever feel surprised, and we want them to be able to trust us, and anything that's money-related, we want to be upfront about, in terms of, like, being the first one to tell them. It's kind of like, like, if, like, for example, like.
+
+## Chapter 5 (40:00 to 50:00)
+
 **Alan Nguyen** [00:40:16]: If your partner cheated on you.
 **Alan Nguyen** [00:40:18]: It would, you'd respect them a lot more for them telling you directly versus you hearing from someone else.
 **Lynn N.** [00:40:23]: Oh.
@@ -581,6 +612,9 @@ Zoom uuid `JiCM9HCNTsWbm5xgJdjzoQ==`, 104m, participants per transcript: Alan Ng
 **Alan Nguyen** [00:49:42]: you know, It's necessary, or some things might be too much, but,
 **Lynn N.** [00:49:47]: Oh, no, it's okay. I don't. I don't want to make it seem I.
 **Lynn N.** [00:49:53]: like I I don't like changing, and you know I'm totally open to all the feedback, and
+
+## Chapter 6 (50:00 to 1:00:00)
+
 **Lynn N.** [00:50:01]: Yeah, it's just a.
 **Lynn N.** [00:50:03]: Yeah, okay.
 **Lynn N.** [00:50:04]: I don't know.
@@ -681,6 +715,9 @@ Zoom uuid `JiCM9HCNTsWbm5xgJdjzoQ==`, 104m, participants per transcript: Alan Ng
 **Lynn N.** [00:59:49]: Yeah.
 **Lynn N.** [00:59:54]: Yeah, I… I think that's awesome, I…
 **Lynn N.** [00:59:59]: I'm here for the long game. I have big goals I want to reach, and yeah, I'm…
+
+## Chapter 7 (1:00:00 to 1:10:00)
+
 **Lynn N.** [01:00:08]: I'm on board.
 **Lynn N.** [01:00:10]: Sweet.
 **Alan Nguyen** [01:00:13]: I hope that made sense. I know that was a very long-winded answer, but I just wanted to be thorough with explaining that. Did that make sense?
@@ -792,6 +829,9 @@ Zoom uuid `JiCM9HCNTsWbm5xgJdjzoQ==`, 104m, participants per transcript: Alan Ng
 **Lynn N.** [01:09:52]: We…
 **Alan Nguyen** [01:09:54]: Is it something that you're excited about? Something that might be a little overwhelming? Is it.
 **Lynn N.** [01:09:58]: No, I'm excited. I definitely would end up wanting to go some kind of direction somewhere. I just don't know what that is.
+
+## Chapter 8 (1:10:00 to 1:20:00)
+
 **Alan Nguyen** [01:10:08]: Mmhm.
 **Lynn N.** [01:10:09]: And.
 **Lynn N.** [01:10:11]: I mean, as long as it's like.
@@ -921,6 +961,9 @@ Zoom uuid `JiCM9HCNTsWbm5xgJdjzoQ==`, 104m, participants per transcript: Alan Ng
 **Lynn N.** [01:19:55]: So.
 **Alan Nguyen** [01:19:56]: Okay.
 **Lynn N.** [01:19:59]: But.
+
+## Chapter 9 (1:20:00 to 1:30:00)
+
 **Lynn N.** [01:20:01]: I don't know. We'.
 **Alan Nguyen** [01:20:04]: Sounds good.
 **Alan Nguyen** [01:20:06]: And… yeah, who knows? Worst case scenario, too, it's like…
@@ -981,4 +1024,7 @@ Zoom uuid `JiCM9HCNTsWbm5xgJdjzoQ==`, 104m, participants per transcript: Alan Ng
 **Alan Nguyen** [01:23:53]: Alright, sounds good. Alright, thanks again.
 **Alan Nguyen** [01:23:56]: Enjoy the rest of your day. Peace.
 **Lynn N.** [01:23:58]: Bye-bye.
+
+## Chapter 10 (1:40:00 to 1:50:00)
+
 **Lynn N.** [01:42:53]: Hmm. Hmm.

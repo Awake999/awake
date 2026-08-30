@@ -4,6 +4,24 @@ Zoom uuid `04G2erKkTvKtHh1NN/+F9A==`, 89m. Official Zoom audio transcript, verba
 
 ---
 
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (20:00 to 30:00)](#chapter-3-2000-to-3000)
+- [Chapter 4 (30:00 to 40:00)](#chapter-4-3000-to-4000)
+- [Chapter 5 (40:00 to 50:00)](#chapter-5-4000-to-5000)
+- [Chapter 6 (50:00 to 1:00:00)](#chapter-6-5000-to-10000)
+- [Chapter 7 (1:00:00 to 1:10:00)](#chapter-7-10000-to-11000)
+- [Chapter 8 (1:10:00 to 1:20:00)](#chapter-8-11000-to-12000)
+- [Chapter 9 (1:20:00 to 1:30:00)](#chapter-9-12000-to-13000)
+
+
+
+## Chapter 1 (00:00 to 10:00)
+
 **Alan Nguyen** [00:00:00]: And then… And then I can send this to you as well, too. Also.
 **Alan Nguyen** [00:00:05]: I'm on my phone right now, so I don't… it says my Fathom's in here, so I'm hoping that's recorded as well, too, so you'll have a copy of that with the AI notes. I know I said that
 **Alan Nguyen** [00:00:15]: Oh.
@@ -153,6 +171,9 @@ Zoom uuid `04G2erKkTvKtHh1NN/+F9A==`, 89m. Official Zoom audio transcript, verba
 **Alan Nguyen** [00:09:46]: So if you're sitting on your time, you'd not see it Saturday morning. You'd see no availability Satur.
 **Lynn N.** [00:09:52]: So, Saturday, I see everything from 5 PM and up.
 **Alan Nguyen** [00:09:58]: Oh, at this afternoon, right?
+
+## Chapter 2 (10:00 to 20:00)
+
 **Lynn N.** [00:10:01]: Was after what?
 **Alan Nguyen** [00:10:03]: You're saying we… We do have availability Saturday, just not at the time at least 7.
 **Lynn N.** [00:10:09]: Yeah, yeah.
@@ -275,6 +296,9 @@ Zoom uuid `04G2erKkTvKtHh1NN/+F9A==`, 89m. Official Zoom audio transcript, verba
 **Lynn N.** [00:19:45]: are doing stuff, but they like.
 **Lynn N.** [00:19:48]: Can't energetically handle it or whatever. Some something along the lines of that. And then it was like, but everyone has the ability to like.
 **Lynn N.** [00:19:58]: everyone has the ability to like tap into their energy and whatever.
+
+## Chapter 3 (20:00 to 30:00)
+
 **Lynn N.** [00:20:05]: and I was. It just made me think about like what? How many like how many of my actions, or how many of
 **Lynn N.** [00:20:14]: I guess, like, I guess how many of my actions are are dictated by like unconscious or or, like.
 **Lynn N.** [00:20:24]: unconscious, subconscious.
@@ -340,6 +364,9 @@ Zoom uuid `04G2erKkTvKtHh1NN/+F9A==`, 89m. Official Zoom audio transcript, verba
 **Alan Nguyen** [00:29:47]: This time, I'm just gonna stop you…
 **Alan Nguyen** [00:29:50]: When I feel like, like.
 **Alan Nguyen** [00:29:58]: Are you okay with the whole, like, stop, stop, go thing? Just like, you.
+
+## Chapter 4 (30:00 to 40:00)
+
 **Lynn N.** [00:30:02]: Oh yeah, absolutely.
 **Alan Nguyen** [00:30:03]: Awesome.
 **Alan Nguyen** [00:30:07]: So just give me the ring whenever, then we'll.
@@ -460,6 +487,9 @@ Zoom uuid `04G2erKkTvKtHh1NN/+F9A==`, 89m. Official Zoom audio transcript, verba
 **Lynn N.** [00:39:49]: Just so can I say, just so we can have the best understanding.
 **Lynn N.** [00:39:54]: Of exactly how much funding.
 **Lynn N.** [00:39:58]: Have.
+
+## Chapter 5 (40:00 to 50:00)
+
 **Lynn N.** [00:40:00]: The but.
 **Alan Nguyen** [00:40:05]: Yeah, I mean, like…
 **Alan Nguyen** [00:40:07]: The… you can say best, you can say clear, whatever attributes you want to use. I think that the main things that help get them out of hostility mode that I've felt or sensed is when you say.
@@ -580,6 +610,9 @@ Zoom uuid `04G2erKkTvKtHh1NN/+F9A==`, 89m. Official Zoom audio transcript, verba
 **Lynn N.** [00:49:41]: Mmhm.
 **Alan Nguyen** [00:49:42]: Hold on, I'm just gonna send a message real quick.
 **Alan Nguyen** [00:49:52]: And then.
+
+## Chapter 6 (50:00 to 1:00:00)
+
 **Alan Nguyen** [00:50:41]: So, when he, when he says he…
 **Alan Nguyen** [00:50:44]: When he says, high, high probability that you'll be able to move in with him, is that, like, at his place with his mom down there, or, like, when he gets a new place? No.
 **Lynn N.** [00:50:52]: He's like, 'cause his lease ended, so now he's…
@@ -701,6 +734,9 @@ Zoom uuid `04G2erKkTvKtHh1NN/+F9A==`, 89m. Official Zoom audio transcript, verba
 **Lynn N.** [00:59:49]: Based on what you said, it sounds like you fit the profile of our most successful clients.
 **Lynn N.** [00:59:55]: So what I can do for you is I'll check.
 **Lynn N.** [00:59:59]: If I have an available appointment with one of our funding specialists to see how we can best help you attain that 100 k. To 200 k.
+
+## Chapter 7 (1:00:00 to 1:10:00)
+
 **Lynn N.** [01:00:07]: You open to that?
 **Alan Nguyen** [01:00:10]: Okay, yeah, sounds good.
 **Lynn N.** [01:00:13]: Okay, awesome. I'll check the availability now.
@@ -818,6 +854,9 @@ Zoom uuid `04G2erKkTvKtHh1NN/+F9A==`, 89m. Official Zoom audio transcript, verba
 **Lynn N.** [01:09:47]: So big.
 **Lynn N.** [01:09:52]: Meeting option.
 **Lynn N.** [01:09:57]: No.
+
+## Chapter 8 (1:10:00 to 1:20:00)
+
 **Alan Nguyen** [01:10:01]: One or two, if you could, like… if you don't mind taking up that much space, You could probably…
 **Alan Nguyen** [01:10:08]: put a link… you can probably upload them to your Drive, and put a hyperlink there, too.
 **Lynn N.** [01:10:14]: I think I can just add it in comments, too. No, I can't. Never mind.
@@ -942,6 +981,9 @@ Zoom uuid `04G2erKkTvKtHh1NN/+F9A==`, 89m. Official Zoom audio transcript, verba
 **Alan Nguyen** [01:19:48]: So otherwise we're just guessing, you know, and I, and I wouldn't, I
 **Alan Nguyen** [01:19:52]: I wouldn't want to misquote you, right? I wouldn't want to lead you on, right? I want you to know
 **Alan Nguyen** [01:19:57]: how much funding you can actually get and how soon you can get it, you know, and that's why we need the report. So, and what we're going to have to do is then move on, right?
+
+## Chapter 9 (1:20:00 to 1:30:00)
+
 **Lynn N.** [01:20:07]: Yeah.
 **Lynn N.** [01:20:09]: Need the report.
 **Lynn N.** [01:20:13]: So how I, like, wrote this whole part was, like, I gave the reasoning in the beginning, and then I was just gonna, like, lead them through it and say.

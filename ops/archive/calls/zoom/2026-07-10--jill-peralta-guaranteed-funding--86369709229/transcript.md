@@ -1,9 +1,28 @@
 # Transcript — Jill Peralta, Guaranteed Funding (2026-07-10, Zoom meeting 86369709229)
 
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (20:00 to 30:00)](#chapter-3-2000-to-3000)
+- [Chapter 4 (30:00 to 40:00)](#chapter-4-3000-to-4000)
+- [Chapter 5 (40:00 to 50:00)](#chapter-5-4000-to-5000)
+- [Chapter 6 (50:00 to 1:00:00)](#chapter-6-5000-to-10000)
+- [Chapter 7 (1:00:00 to 1:10:00)](#chapter-7-10000-to-11000)
+- [Chapter 8 (1:10:00 to 1:20:00)](#chapter-8-11000-to-12000)
+- [Chapter 9 (1:20:00 to 1:30:00)](#chapter-9-12000-to-13000)
+- [Chapter 10 (1:30:00 to 1:40:00)](#chapter-10-13000-to-14000)
+
+
 ORIGINAL VERBATIM TRANSCRIPT (Zoom official audio transcript). Recording share link: https://us06web.zoom.us/rec/share/5huHkiVFTEYcEPyv7MmAh8hYRFqhpWmWvQqLqu_bOfgw4pSwY9eindHXK2ADHhxt.JfOAdSjFEbUTf-r3
 
 
 _Recording segment 1783725029000 – 2026-07-11T00:48:26Z_
+
+
+## Chapter 1 (00:00 to 10:00)
 
 [00:00:00.000] Jill Peralta: Yeah, so,
 [00:00:02.930] Jill Peralta: Yeah, so I'm looking at the, or at least on your screen, the inventory. So what's the process? So they're selling it on Marketplace, on this Marketplace, and
@@ -108,6 +127,9 @@ _Recording segment 1783725029000 – 2026-07-11T00:48:26Z_
 [00:09:34.120] Alan Nguyen: And then what that would do is it would give you access to us for 4 months.
 [00:09:37.920] Alan Nguyen: where we would help you, you'd get access to all the material, all the trainings, plus one-on-one support as needed, to be able to help you basically every step of the way, hold your hand, to make sure that you actually have success, and then also do a hybrid version where we're doing the things for you. And then, in terms of, like.
 [00:09:56.130] Alan Nguyen: Creating the funding sequence, tell you where to go, what to do, how to get the money quick, what the results are, and
+
+## Chapter 2 (10:00 to 20:00)
+
 [00:10:03.890] Alan Nguyen: We also, add free hard inquiry removal as a bonus as well, too.
 [00:10:11.630] Jill Peralta: Oh, free hard, hard inquiry removal. Oh, yes, when somebody does a credit check, right? Does a hard, yeah, it does a hard pull. Alright, cool.
 [00:10:20.360] Jill Peralta: So, I like it, Alan.
@@ -219,6 +241,9 @@ _Recording segment 1783725029000 – 2026-07-11T00:48:26Z_
 [00:19:47.940] Jill Peralta: This client list, the referrals list.
 [00:19:50.050] Jill Peralta: And where would I have to go from there? What's my, you know, what's my starting point?
 [00:19:55.390] Jill Peralta: Okay, well, I'm ready when you are, Alan, so we're Got it.
+
+## Chapter 3 (20:00 to 30:00)
+
 [00:20:00.120] Alan Nguyen: Got it.
 [00:20:00.590] Jill Peralta: So, I'm wondering when you wanted to do the.
 [00:20:03.650] Alan Nguyen: Understood. So one thing that I forgot to mention is so the
@@ -312,6 +337,9 @@ _Recording segment 1783725029000 – 2026-07-11T00:48:26Z_
 [00:29:46.530] Jill Peralta: Oh, shoot.
 [00:29:53.980] Jill Peralta: Yep.
 [00:29:57.290] Jill Peralta: It might be taking a while, it's a PDF.
+
+## Chapter 4 (30:00 to 40:00)
+
 [00:30:00.480] Alan Nguyen: It's actually just a URL, but sometimes the system… System is slow.
 [00:30:06.590] Jill Peralta: Or, you know what, maybe I should go here.
 [00:30:21.700] Jill Peralta: Yeah, I haven't… haven't seen it yet.
@@ -407,6 +435,9 @@ _Recording segment 1783725029000 – 2026-07-11T00:48:26Z_
 [00:39:53.870] Jill Peralta: Blast.
 [00:39:54.760] Alan Nguyen: Hey, Josh. Which step are you at.
 [00:39:57.290] Jill Peralta: the one that says optional additional notes, the 2,000 discount you put on here, and it's got your name and signature, and all I'm trying to do is fill out the,
+
+## Chapter 5 (40:00 to 50:00)
+
 [00:40:08.210] Jill Peralta: My printed name.
 [00:40:10.590] Alan Nguyen: And what's the problem with that?
 [00:40:13.050] Jill Peralta: It won't let me. It's not Not allow me to.
@@ -538,6 +569,9 @@ _Recording segment 1783725029000 – 2026-07-11T00:48:26Z_
 [00:49:58.140] Alan Nguyen: Yeah, so.
 [00:49:58.670] Jill Peralta: Hi, so good.
 [00:49:59.880] Alan Nguyen: Yeah, then I got connected with,
+
+## Chapter 6 (50:00 to 1:00:00)
+
 [00:50:02.270] Alan Nguyen: I guess, like, entrepreneurs, and I started, like, seeing all these, like, you know, young guys that were, like.
 [00:50:07.620] Alan Nguyen: you know, they all owned, like, their… their own houses, they had, like, really nice cars, and I was just like… and, you know, they called themselves the Rat Pack, retired at 20.
 [00:50:17.050] Alan Nguyen: Right? And I was like, whoa, I was like, okay, so that kind of opened up my whole new concept to,
@@ -668,6 +702,9 @@ _Recording segment 1783725029000 – 2026-07-11T00:48:26Z_
 [00:59:51.960] Jill Peralta: Yeah, I can see. Can you see me right?
 [00:59:55.140] Alan Nguyen: Yeah, I can see you, but is this your phone, or is this.
 [00:59:57.980] Jill Peralta: Yeah, this is my phone. Yeah, so we're on my.
+
+## Chapter 7 (1:00:00 to 1:10:00)
+
 [01:00:00.690] Alan Nguyen: Awesome. Yep. So all you gotta do is just share your screen, Call that.
 [01:00:05.410] Jill Peralta: Share screen.
 [01:00:06.880] Jill Peralta: Zoom… which one do I want to do? Zoom?
@@ -820,6 +857,9 @@ _Recording segment 1783725029000 – 2026-07-11T00:48:26Z_
 [01:09:50.170] Alan Nguyen: I don't know if I've asked you this before, but what are some
 [01:09:53.580] Alan Nguyen: mid to long-term, although I guess midterm goals, like, you know, 6 to 12 months. Did I ask you that?
 [01:09:59.610] Jill: Oh, this time it worked.
+
+## Chapter 8 (1:10:00 to 1:20:00)
+
 [01:10:01.570] Jill: See, like, what in the world? No, it didn't. Okay, have you seen this?
 [01:10:05.980] Alan Nguyen: Yeah, missing fields.
 [01:10:07.520] Jill: There you go.
@@ -882,6 +922,9 @@ _Recording segment 1783725029000 – 2026-07-11T00:48:26Z_
 [01:14:43.070] Jill: Press 1. Otherwise, press… Oh, shit.
 [01:14:51.030] Jill: If you have… Just a moment, I'll connect you to the first available representative.
 [01:15:00.840] Jill: All right, let me see.
+
+## Chapter 9 (1:20:00 to 1:30:00)
+
 [01:20:34.930] Jill: Yeah, I'm still on the… I'm on with the USA customer service.
 [01:20:39.600] Alan Nguyen: Okay, what'd they say.
 [01:20:41.360] Jill: Up.
@@ -968,6 +1011,9 @@ _Recording segment 1783725029000 – 2026-07-11T00:48:26Z_
 [01:29:54.920] Jill: Where are we?
 [01:29:58.020] Jill: Oh, wait, number.
 [01:29:58.830] Alan Nguyen: I'm gonna While while you do that, I'm gonna get your onboarding links set.
+
+## Chapter 10 (1:30:00 to 1:40:00)
+
 [01:30:05.860] Jill: Okay, so we are number 3. So we don't.
 [01:30:09.050] Jill: Rooftrack.
 [01:30:10.720] Alan Nguyen: So, Kip, now our number 4.
@@ -1061,3 +1107,4 @@ _Recording segment 1783725029000 – 2026-07-11T00:48:26Z_
 [01:37:52.690] Jill: All right. Thanks. You, too.
 [01:37:54.070] Alan Nguyen: All right. Thanks. Bye.
 [01:37:55.460] Jill: Yeah, I.
+

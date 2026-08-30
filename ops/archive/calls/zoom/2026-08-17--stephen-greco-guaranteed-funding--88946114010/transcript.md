@@ -1,9 +1,24 @@
 # Transcript — Stephen Greco, Guaranteed Funding (2026-08-17, Zoom meeting 88946114010)
 
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (20:00 to 30:00)](#chapter-3-2000-to-3000)
+- [Chapter 4 (30:00 to 40:00)](#chapter-4-3000-to-4000)
+- [Chapter 5 (40:00 to 50:00)](#chapter-5-4000-to-5000)
+- [Chapter 6 (50:00 to 1:00:00)](#chapter-6-5000-to-10000)
+
+
 ORIGINAL VERBATIM TRANSCRIPT (Zoom official audio transcript). Recording share link: https://us06web.zoom.us/rec/share/vWLDkN1EEktI_ZA9JNTyxnTawmCY7k2fGx7psDGvJY9hKIT-sK_uc65xbdinDc30.QAiBhs7bmVWEOxQr
 
 
 _Recording segment 1787004909000 – 2026-08-17T23:07:18Z_
+
+
+## Chapter 1 (00:00 to 10:00)
 
 [00:00:00.000] Carla Stivala: What is the… Thank you, Alan. What is the exact amount you're looking for?
 [00:00:07.120] Stephen: Between $100,000 and $200,000 for startup on a, a trailer rental business, slash a…
@@ -87,6 +102,9 @@ _Recording segment 1787004909000 – 2026-08-17T23:07:18Z_
 [00:09:44.850] Stephen: something reporting on your credit. So, like I said, I just did that yesterday, so what I'm gonna do is I'm gonna make a charge on that credit card to show that it's active, to see that I have a, you know, a trade line.
 [00:09:55.530] Stephen: So…
 [00:09:56.820] Stephen: That's the point where I'm at right now with him, but he's just not moving fast enough. I've been with him for almost 8 months, and we have not… he's given me little steps of advice, which it takes time, I totally understand this takes time, but I think I'm at the position now where…
+
+## Chapter 2 (10:00 to 20:00)
+
 [00:10:12.900] Stephen: I have been for the last 2-3 months to where you can take what I have.
 [00:10:19.280] Stephen: You know, and apply it to business… business funding. Sorry if I went on the rail there, but…
 [00:10:25.200] Alan Nguyen: No, you're good, that was very helpful. Sounds like you're working with someone who's sophisticated, pledge loan, Navy Federal card. I'm curious, oh, how much do you put down for your pledge loan to be able to get a $5,200 card? Because usually, we want to get you.
@@ -170,6 +188,9 @@ _Recording segment 1787004909000 – 2026-08-17T23:07:18Z_
 [00:19:50.260] Alan Nguyen: And the industry, yeah.
 [00:19:52.370] Stephen: Oh, sure, it's S… And then the AND symbol, S.
 [00:19:56.710] Stephen: Transport experts, LLC.
+
+## Chapter 3 (20:00 to 30:00)
+
 [00:20:01.250] Stephen: And it's registered out of Wisconsin.
 [00:20:05.110] Stephen: since, 7 of 2023, I believe, and I have an EIN.
 [00:20:10.250] Stephen: And all that. I just don't have any revenue, I don't have any… it's just like that on paper.
@@ -255,6 +276,9 @@ _Recording segment 1787004909000 – 2026-08-17T23:07:18Z_
 [00:29:48.470] Stephen: And let it marinate, you know.
 [00:29:51.170] Carla Stivala: Yeah, that's a good move. And also, how soon do you need that funding?
 [00:29:57.630] Stephen: You know, with Kane, I was hoping… he told me 6 months ago it was gonna be 2 months, as soon as possible, but realistically.
+
+## Chapter 4 (30:00 to 40:00)
+
 [00:30:05.710] Stephen: Based on my… you guys are the pros in that. I…
 [00:30:08.930] Carla Stivala: I mean, I guess…
 [00:30:09.840] Stephen: for that question.
@@ -367,6 +391,9 @@ _Recording segment 1787004909000 – 2026-08-17T23:07:18Z_
 [00:39:46.720] Stephen: Okay.
 [00:39:49.060] Alan Nguyen: But yeah, so…
 [00:39:49.700] Stephen: Alan, give me one second. I know you said I should grab a piece of paper, and I always say I'll just use my notes. Actually, I can. I can just use my notes. I just want to write that down, what you just said, so I can…
+
+## Chapter 5 (40:00 to 50:00)
+
 [00:40:01.250] Stephen: Because that sounds like some pretty good info.
 [00:40:07.520] Stephen: Okay, say it one more time.
 [00:40:10.890] Stephen: What you just said about, like, my mom.
@@ -524,6 +551,9 @@ _Recording segment 1787004909000 – 2026-08-17T23:07:18Z_
 [00:49:53.800] Stephen: Okay, Ellen, I appreciate it.
 [00:49:54.660] Alan Nguyen: Either earlier, or Monday at… Bye.
 [00:49:58.310] Stephen: Sounds good. I'll probably text you earlier, because I always come across questions, or…
+
+## Chapter 6 (50:00 to 1:00:00)
+
 [00:50:02.980] Stephen: you know, something, but I'll try to leave you alone the best I can and get this information for you first.
 [00:50:10.050] Alan Nguyen: So I think, yeah, no, I mean, I'm an open book when it comes to that stuff, so, you know, like I said, you know, at the end of the day, it's like, we're here to help people, so…
 [00:50:17.080] Stephen: Thanks, man.
@@ -566,3 +596,4 @@ _Recording segment 1787004909000 – 2026-08-17T23:07:18Z_
 [00:52:02.990] Alan Nguyen: Thank you. Bye-bye. I'm good there.
 [00:52:04.630] Alan Nguyen: Besides.
 [00:52:05.230] Carla Stivala: Bye, have a good one.
+

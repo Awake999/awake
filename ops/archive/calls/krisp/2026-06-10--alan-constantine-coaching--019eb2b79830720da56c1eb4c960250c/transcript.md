@@ -1,5 +1,17 @@
 # Transcript — Alan + Constantine coaching (2026-06-10, Krisp meeting 019eb2b79830720da56c1eb4c960250c)
 
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (20:00 to 30:00)](#chapter-3-2000-to-3000)
+- [Chapter 4 (30:00 to 40:00)](#chapter-4-3000-to-4000)
+- [Chapter 5 (40:00 to 50:00)](#chapter-5-4000-to-5000)
+- [Chapter 6 (50:00 to 1:00:00)](#chapter-6-5000-to-10000)
+
+
 ORIGINAL VERBATIM TRANSCRIPT from Krisp. Link: https://app.krisp.ai/m/019eb2b79830720da56c1eb4c960250c
 
 # Alan + Constantine
@@ -9,6 +21,9 @@ ORIGINAL VERBATIM TRANSCRIPT from Krisp. Link: https://app.krisp.ai/m/019eb2b798
 
 ## Transcript 2
 # Transcript
+
+## Chapter 1 (00:00 to 10:00)
+
 **Alan Nguyen | 00:00**
 He has a gun heyal's go good yeah, sorry about that.
 
@@ -142,6 +157,9 @@ And then? What do you.
 Yeah. So I would... That's fine. I would preframe that better. Which we can talk about in a second, but now that we're talking about this, it escaped me briefly that this call here is the main call, the closing call.
 So the part partner should never be discussed in the closing call. And if you're conversing with them prior over text or on the phone... So if we're trio and we should go back to the trio script and then tell them, "By the way, on the next call, we're going to be talking about the process specifically."
 Because I don't know if you're aware of how funding works, but there are cosigners or whatever the technical verbiage is, right?
+
+
+## Chapter 2 (10:00 to 20:00)
 
 **Alan Nguyen | 10:24**
 Did? You him.
@@ -310,6 +328,9 @@ Either they are not, you know, if they're not, yeah, okay, awesome.
 **constantine@scaleclients.io | 19:56**
 All right, very good.
 
+
+## Chapter 3 (20:00 to 30:00)
+
 **Alan Nguyen | 20:02**
 Okay, sweet, thanks for that, this part. So then after we do the review summary, we ask them for permission to pitch, and then once we begin pitching...
 It says, "Show the prospect by linking all of our deliverables to solving their pains and goals, and how this ideal path is the ideal path to their outcome, giving them clarity and certainty on purpose."
@@ -378,6 +399,9 @@ You walk through the process with our assistance as opposed to us doing it for y
 Yeah, although, paradoxically, I think it... Maybe not, but it would be... To my understanding, it would cost less to do the done for you program than it would be to do a done for you plus done with you hybrid.
 Because I don't think it's going to be split up between done with you and done for you. The only way that I've been able to articulate it in a way where this offer would be actually different than any other offer out there would be it being a done with you and done for you hybrid offer where it's like we help them get funded the first, you know, rounds or whatever it is, and then we'll learn how to do it along the way themselves.
 Whether they want to win that or not, it's always just there. At least, that was the only way that I could create a unique mechanism in it.
+
+
+## Chapter 4 (30:00 to 40:00)
 
 **constantine@scaleclients.io | 30:51**
 Well, that's great. What's wrong with that?
@@ -498,6 +522,9 @@ If it's only financial...
 **Alan Nguyen | 39:46**
 Yeah, I mean, I feel like I am very flexible when it comes to that. The only question is.
 It's like. I' would have to then create agreements on the spot, which could create extra challenges, but maybe I just got to spend more time on that, on, like, creating basically a template where I can basically modify it.
+
+
+## Chapter 5 (40:00 to 50:00)
 
 **constantine@scaleclients.io | 40:06**
 That's it. I've done it before with other companies. It's a template. Yeah. You just have variable boxes that you just change the variable in. It's not... Yeah, straightforward.
@@ -631,6 +658,9 @@ Yeah, I guess.
 I just want to make sure to you because I have a view point.
 But you know about this to an infinite degree higher than I do, right? So I want to make sure that whatever we're talking about now actually makes sense in your mind. You look at it, you're like, "Yes, this makes sense."
 And I can talk about it in that way.
+
+
+## Chapter 6 (50:00 to 1:00:00)
 
 **Alan Nguyen | 50:10**
 Yes.

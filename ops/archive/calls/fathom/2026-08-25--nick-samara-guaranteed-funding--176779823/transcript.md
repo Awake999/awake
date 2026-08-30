@@ -4,6 +4,21 @@ Verbatim Fathom transcript (raw API response beside this file as transcript-raw.
 
 ---
 
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (20:00 to 30:00)](#chapter-3-2000-to-3000)
+- [Chapter 4 (30:00 to 40:00)](#chapter-4-3000-to-4000)
+- [Chapter 5 (40:00 to 50:00)](#chapter-5-4000-to-5000)
+- [Chapter 6 (50:00 to 1:00:00)](#chapter-6-5000-to-10000)
+
+
+
+## Chapter 1 (00:00 to 10:00)
+
 [00:01](https://fathom.video/calls/795906442?timestamp=1) Nazir Samara: Nick is cool. It's easier for you. Nick is good.
 [00:05](https://fathom.video/calls/795906442?timestamp=5) Alan Nguyen: Okay, sweet. Awesome, Nick. Where are you calling in from?
 [00:08](https://fathom.video/calls/795906442?timestamp=8) Nazir Samara: Michigan. Michigan?
@@ -27,6 +42,9 @@ Verbatim Fathom transcript (raw API response beside this file as transcript-raw.
 [08:25](https://fathom.video/calls/795906442?timestamp=505) Nazir Samara: very sure. Yes. .
 [08:28](https://fathom.video/calls/795906442?timestamp=508) Alan Nguyen: Okay. All right. So, you know, and I'll make it quick. Just the context is we've been helping people, you in the space since 2023 with business, corporate, and credit, or business funding, corporate funding, and credit as well, too. Since then, we've been able to help leverage specific systems because we're trained off of the systems that actually train the underwriters themselves. A lot of funding people out there are just looking for score, right? And there's a lot more to a credit report than just score. So we optimize things based off of how underwriters look at things and by leveraging our system and over 12,000 plus data points. That we have specifically on what to do, what to say, where to go. We've been able to leverage this basically plug-and-play system where we can take any qualified profile, and since then, we've been able to leverage the system to be able to help our clients generate about $10 million-plus in funding and continue to grow. So it's a little bit of the background, and I think a part that would be relevant to you also is that we've been able to systematically take scores from 500 to 800 in a very quick amount of time. We do things like leverage. we were able to do things like leverage, you know, consumer law, United States code, things of that nature to be able to remove negative items on reports and inaccurate items as well, too. So we're not a credit repair agency by any means, but it's just we're really good at what we do and we know how to, you know, leverage the law to protect our clients. So we're able to produce results very quickly there as well. Was that helpful at all?
 [09:55](https://fathom.video/calls/795906442?timestamp=595) Nazir Samara: Yes, Alan. So you're not a credit repair agency. But you are helping your client with their credit, just your client, but they are not, the main goal is for you, not the credit repair, you don't do credit repair for others, is that true?
+
+## Chapter 2 (10:00 to 20:00)
+
 [10:12](https://fathom.video/calls/795906442?timestamp=612) Alan Nguyen: So we do not classify ourselves as a credit repair agency, credit repair agencies need to be like legally bonded and insured and have to go through all these regulations, do all these things. And, there's a little, there's a lot of things to it. what, what I can say is that for all of our clients, we offer, complimentary free credit optimization services. And one that can look like is a free disputing service where we do on behalf of our clients at no additional charge. And with that, we're able to get results really quick. So look, for example, we had a client the other day, we removed 12 late payments within a handful of days. another client, we moved like five to eight across the different bureaus, late payments very quickly. We removed collections within two days. so it's like, we, we have a pretty good system and we, we know what we're doing, but we don't. don't really lead with that, but, you when it comes to, if our clients do need help with that, we're very good at what we do.
 [11:06](https://fathom.video/calls/795906442?timestamp=666) Nazir Samara: Wonderful. it's very helpful. You know, that's, it's amazing because most other companies, they tell you, you know, either they don't help with your credit and, or they are, it's going to take, you know, three to six months or something like this. it's not, so that's, that's helpful. Yes. So you, you do help your client from, then you look at their report, I mean, credit bureau and find out something analyzing and then you can send dispute in their behalf or you help them send dispute either or. Correct. And so you, you do help them, basically, you, you take their hand to the safe land or the safe other side of the, you know, make sure they're, the, the bank, they look at them, they're in safe, in comfortable or in safe zoning.
 [12:00](https://fathom.video/calls/795906442?timestamp=720) Alan Nguyen: absolutely. . And you sound like you hit it right on the head. Like, you know, Nick, it sounds like you're a really sharp, sophisticated guy. Like, do you... Thank you, Alan. You are the man.
@@ -61,6 +79,9 @@ Verbatim Fathom transcript (raw API response beside this file as transcript-raw.
 [19:47](https://fathom.video/calls/795906442?timestamp=1187) Nazir Samara: That's true.
 [19:48](https://fathom.video/calls/795906442?timestamp=1188) Alan Nguyen: Okay, what's your current, like, volume looking like per month? Like, like, how many of those deals are you doing per month, give or take?
 [19:55](https://fathom.video/calls/795906442?timestamp=1195) Nazir Samara: This is what happened also. moved from, before we used to do a lot. But the last couple of years, I moved to Ann Arbor area, and my kids, they go to school here, and then I moved close to them. I used to have indoor playland at the mall. It was doing good. It come average like $10,000 just for the indoor, and I didn't do a lot of outdoors. So that's where I need to get my marketing. Not too many people, they know me in Ann Arbor yet, in this area, in the city. I have some repeat customers, but they're now too far, and you have to travel back to them and stuff. Sometimes it's not worth it, the money to go back to, like, White Lake and other stuff. So Alan, I'll say about $6,000 to $10,000, something like this range.
+
+## Chapter 3 (20:00 to 30:00)
+
 [20:53](https://fathom.video/calls/795906442?timestamp=1253) Alan Nguyen: Okay, about $6,000 to $10,000 per month, roughly, give or take.
 [20:56](https://fathom.video/calls/795906442?timestamp=1256) Nazir Samara: that's before a couple of years, yes.
 [20:58](https://fathom.video/calls/795906442?timestamp=1258) Alan Nguyen: Oh, before. A couple of years ago, where are we at now?
@@ -100,6 +121,9 @@ Verbatim Fathom transcript (raw API response beside this file as transcript-raw.
 [29:17](https://fathom.video/calls/795906442?timestamp=1757) Alan Nguyen: Okay. Got it. All right. 30 to 50 K miscellaneous. Okay. Awesome. So that's, that's for roughly a hundred K. you said you're looking for a hundred, 200,000, how much of that do you need for your initial business and how much do you need for your, secondary business that you're exploring.
 [29:37](https://fathom.video/calls/795906442?timestamp=1777) Nazir Samara: So your calculation, Alan, how much so far, where, where are we, did we.
 [29:50](https://fathom.video/calls/795906442?timestamp=1790) Alan Nguyen: was just, the, the question was, is like, I'm just getting a good idea of how much funding you need total for both your projects. Right. Cause I heard initially a hundred to 200,000, then we start focusing on a hundred thousand. We talking about two businesses, so are we talking about like, do we need $100,000 for the main business, $100,000 for the secondary business, or where are we at with that?
+
+## Chapter 4 (30:00 to 40:00)
+
 [30:08](https://fathom.video/calls/795906442?timestamp=1808) Nazir Samara: if we need to go with that one, yes.
 [30:11](https://fathom.video/calls/795906442?timestamp=1811) Alan Nguyen: Okay, for business, got it. Okay, awesome. thank you for sharing that. And that's the bulk of the questions for the most part. So far, I just have a checklist to make sure that we covered everything. The next questions are going to be clarifying your specific credit situation. Oh, I forgot to ask, too. I just got like lost in the sauce in terms of like, you we started talking and just, you know, it became really natural. But, you know, I also want to set a good example as well, too. So it's like, I realize that I can hear you, but I cannot see you.
 [30:51](https://fathom.video/calls/795906442?timestamp=1851) Nazir Samara: Are you able to turn your camera on? I can. Also, appreciate that. Long beard and stuff. I didn't... Awesome.
@@ -155,6 +179,9 @@ Verbatim Fathom transcript (raw API response beside this file as transcript-raw.
 [39:31](https://fathom.video/calls/795906442?timestamp=2371) Nazir Samara: I'm sure I did. I think I kept the credit card and payment and stuff. But I don't, I don't, I don't recall, I don't remember. But it's, I didn't, it did not affect too much.
 [39:44](https://fathom.video/calls/795906442?timestamp=2384) Alan Nguyen: the reason why I ask is because it's not a disqualifier, but it does allow us to better plan the strategy for you moving forward, right? So it's like, for example, like, like was Chase affected? Was Chase being affected? Was that one of them?
 [39:57](https://fathom.video/calls/795906442?timestamp=2397) Nazir Samara: No, no, I'm just, I, you know. For I don't think it affected Chase. I do have a business account with Chase now. have a personal account and Chase, save and checking. So we don't know about that.
+
+## Chapter 5 (40:00 to 50:00)
+
 [40:19](https://fathom.video/calls/795906442?timestamp=2419) Alan Nguyen: What about U.S. Bank? Was U.S. affected back then?
 [40:22](https://fathom.video/calls/795906442?timestamp=2422) Nazir Samara: No. No?
 [40:23](https://fathom.video/calls/795906442?timestamp=2423) Alan Nguyen: No.
@@ -190,6 +217,9 @@ Verbatim Fathom transcript (raw API response beside this file as transcript-raw.
 [48:47](https://fathom.video/calls/795906442?timestamp=2927) Alan Nguyen: . Okay, awesome. So, how the process works is, it's very, very simple, right? We do a three-step process, what that looks like, or we can say a three-phase process. The first step is... ... ... Credit optimization, right? We want to make sure that your profile is optimized as best as possible. So then when we move it to our underwriters that, you know, it's like a prime profile where they're super happy to give you the highest limits at the lowest rates, right? As low as 0%, right? And we want to give the underwriters every reason to say yes, and no reasons to say no, or as close to no reasons as possible.
 [49:24](https://fathom.video/calls/795906442?timestamp=2964) Nazir Samara: Right.
 [49:25](https://fathom.video/calls/795906442?timestamp=2965) Alan Nguyen: So what that could look like is, you know, making sure that, you know, we have one name, there's no multiple names, you know, we can help with that. You want to make sure there's no employers on there, no phone numbers on there, just a clean profile, one address, right? You know, not a whole slew of things, because all of these things I just mentioned, if you have multiple names, multiple addresses, things of that nature, you start to become higher risk in the eyes of underwriters. Really? so a lot of people don't know this, is underwriters, like, so one, again, we're trained off the systems that train the underwriters, but then two... ... ... We actually are connected with the guy that actually created the software that literally is like the boxes that the underwriters check off, right? They literally have to check off boxes, right? So what happens is when they start checking off boxes and like, let's say, okay, we got a negative mark here, negative mark here. Oh, that's a little sketchy. Got a negative mark here. Those are all points, right? And then are you familiar with this at all?
+
+## Chapter 6 (50:00 to 1:00:00)
+
 [50:25](https://fathom.video/calls/795906442?timestamp=3025) Nazir Samara: No, no, just that. Okay.
 [50:27](https://fathom.video/calls/795906442?timestamp=3027) Alan Nguyen: . So then if there's enough points, basically what happens is if you build up too many points, you move into the higher risk category. And now you're subject to super low limits or just automatic denials, essentially. So our job is to make sure that we reduce as many points that would be going against you as possible. And that could look like, you know, no inquiries, no late payments, no collections, no charge-offs, anything like that. Clean, pristine profile. And then basically ready to go. the- Last part of that that I didn't ask prior was when we talk about utilization, what is your utilization looking like right now on your credit, like what's the, is your highest card at least below 30%, like your highest percentage on one singular card, is it below 30% or what's the percentage of your highest cards in terms of balance?
 [51:22](https://fathom.video/calls/795906442?timestamp=3082) Nazir Samara: The card, I think, it should be below 30%. I've been using, I didn't, usually I pay it off for the last year or something, just every time I use it, I pay it at the end of the month, I pay the whole thing to zero for the last two, three months, to zero, before I used to pay it to, you know, pay it in full all the time, like all the cards. But for the last two, two months or something. maybe I can, 25, 30, something is in the range. I'm not sure, but but three, 3,000, something each.

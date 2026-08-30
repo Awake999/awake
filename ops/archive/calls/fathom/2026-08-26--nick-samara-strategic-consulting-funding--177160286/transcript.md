@@ -4,6 +4,21 @@ Verbatim Fathom transcript (raw API response beside this file as transcript-raw.
 
 ---
 
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (20:00 to 30:00)](#chapter-3-2000-to-3000)
+- [Chapter 4 (30:00 to 40:00)](#chapter-4-3000-to-4000)
+- [Chapter 5 (40:00 to 50:00)](#chapter-5-4000-to-5000)
+- [Chapter 6 (50:00 to 1:00:00)](#chapter-6-5000-to-10000)
+
+
+
+## Chapter 1 (00:00 to 10:00)
+
 [00:08](https://fathom.video/calls/799338953?timestamp=8) Alan Nguyen: Hey, hey, can you hear me?
 [00:11](https://fathom.video/calls/799338953?timestamp=11) nazsa: Yes, I can. Can you? I can hear you.
 [00:19](https://fathom.video/calls/799338953?timestamp=19) Alan Nguyen: Can you hear me?
@@ -29,6 +44,9 @@ Verbatim Fathom transcript (raw API response beside this file as transcript-raw.
 [09:49](https://fathom.video/calls/799338953?timestamp=589) Alan Nguyen: let's take a look. Let's just start with downloading Experian. So if we click... Can I see it?
 [09:55](https://fathom.video/calls/799338953?timestamp=595) nazsa: Yep, I can see it.
 [09:57](https://fathom.video/calls/799338953?timestamp=597) Alan Nguyen: I think either if you click on the number under Experian... Or if you scroll down, I think you can, one of those two allows you to download it. there we go. And then scroll down, there should be a print PDF button. keep going, keep going. There, print your report, or sorry, review your report. right there. And then there should be, no, it'll load. And then scroll down a little bit, and then print report. there we go. Then you'll save this PDF. once it loads, you'll press, an X out of that, green window, or either one. And then press control P, in the bottom left corner of your keyboard, there's a control. If you hold that down and then you press the letter P as in pull.
+
+## Chapter 2 (10:00 to 20:00)
+
 [10:50](https://fathom.video/calls/799338953?timestamp=650) nazsa: Yep.
 [10:53](https://fathom.video/calls/799338953?timestamp=653) Alan Nguyen: It'll pull up like a, print thing, but don't actually send it to your printer. You see the destination in the top right.
 [11:02](https://fathom.video/calls/799338953?timestamp=662) nazsa: so you see how it says canon mb5300 oh click on that and then click on save as pdf and then let's see there we go press save at the bottom yes save on the blue button at the bottom bottom right save audio see right here just say hi to my son i have special needs on and he's calling me from this so save you okay i'm just going to say hi 10 one second okay hey rami baba rami baba i'm the doodle listen rami baba i'm busy in the other line cannot talk to you love you son i love you you love me rami Playback after. Love you, Bubba. Sorry. Okay. Experience saved, Alan. Yep.
@@ -63,6 +81,9 @@ Verbatim Fathom transcript (raw API response beside this file as transcript-raw.
 [19:26](https://fathom.video/calls/799338953?timestamp=1166) Alan Nguyen: Yes, so I'm running through our software and then I'll manually review as well too on my side.
 [19:31](https://fathom.video/calls/799338953?timestamp=1171) nazsa: Oh, okay, okay.
 [19:32](https://fathom.video/calls/799338953?timestamp=1172) Alan Nguyen: so I just queued it up in our software and then I manually review while that loads. Let's see. Let's look at, looking at your TransUnion right now, 696. Actually, I'll share my screen here. I'll close out yours to be to save resources there. And then I will share my screen. We can go through it together. All the software does its thing. Let's see, one. Okay, can you see my screen all right?
+
+## Chapter 3 (20:00 to 30:00)
+
 [20:08](https://fathom.video/calls/799338953?timestamp=1208) nazsa: . Okay, sweet.
 [20:10](https://fathom.video/calls/799338953?timestamp=1210) Alan Nguyen: Looks like we got 696, seven open accounts, three late accounts, one collections, average account. Okay, looks good. Got about 32k in credit limits, 6k, about of it used. Global utilization looks good. What we're going to do is we're going to need to remove these additional, also known as names. No problem. Any additional addresses that are not your primary, we can remove these as well. And then we're going to remove these as well. So it's clean. This is your current address, right? we don't want to keep that one. Okay, awesome. And then no person statement. That looks good.
 [20:50](https://fathom.video/calls/799338953?timestamp=1250) nazsa: If you like, you can delete all the addresses.
@@ -111,6 +132,9 @@ Verbatim Fathom transcript (raw API response beside this file as transcript-raw.
 [29:10](https://fathom.video/calls/799338953?timestamp=1750) Alan Nguyen: Each card is different. Right? . So basically what happens is the key point is that midnight or at 11.59pm to midnight of the final day on the reporting date, reporting period date, right? There is, there's essentially a snapshot. you familiar with this?
 [29:54](https://fathom.video/calls/799338953?timestamp=1794) nazsa: Is the reporting date different than the due date?
 [29:57](https://fathom.video/calls/799338953?timestamp=1797) Alan Nguyen: Yes. Okay. You can see my screen, right?
+
+## Chapter 4 (30:00 to 40:00)
+
 [30:03](https://fathom.video/calls/799338953?timestamp=1803) nazsa: Yes. Okay.
 [30:05](https://fathom.video/calls/799338953?timestamp=1805) Alan Nguyen: So this is key. So at 11.59 midnight of the final day of the reporting period, there's a snapshot that happens where that snapshot is then sent. They basically capture your balance, they capture your utilization, they capture your limits, they capture your payment history, all that stuff. And that little snapshot gets sent to the credit bureaus midnight of that night. Okay.
 [30:34](https://fathom.video/calls/799338953?timestamp=1834) nazsa: same payment must be received by 5 p.m. Eastern time on the 9 or 2. . Usually I paid beforehand, but I mean, I understand. Okay. . So you- Can I do- Well, I'm sorry to interrupt you, Alan. Can I do, let's say, the other card, maybe the Navy Federal due date on the 23rd or something. Can I take money from that card because there's the only snapshot for that one? Yes.
@@ -142,6 +166,9 @@ Verbatim Fathom transcript (raw API response beside this file as transcript-raw.
 [39:32](https://fathom.video/calls/799338953?timestamp=2372) nazsa: Does that make sense? Yes. Yes. Yes. . . So I just, just make sure they have the, if not, I could open one. .
 [39:44](https://fathom.video/calls/799338953?timestamp=2384) Alan Nguyen: I would try Sam's club with something small first, test the concept and see if it works like someone $5, $10, $20. And then you can go for like a bigger item afterwards. If it works. I should.
 [39:57](https://fathom.video/calls/799338953?timestamp=2397) nazsa: I have one item already. like 30 days. I need to return it back. So I'm going to take it and see, try it on the right. There you go. If I can try that, that's another one.
+
+## Chapter 5 (40:00 to 50:00)
+
 [40:08](https://fathom.video/calls/799338953?timestamp=2408) Alan Nguyen: Do you have Apple Pay on your phone?
 [40:10](https://fathom.video/calls/799338953?timestamp=2410) nazsa: Yes. .
 [40:12](https://fathom.video/calls/799338953?timestamp=2412) Alan Nguyen: So that's even better. So with Apple Pay is you can Apple Pay your debit card. Like when they ask, okay, I want the rest. Well, you have to buy something first, right? You have to do it this way. When you buy something first, you put it on your credit card, let's say it's a visa. And then now you say, oh, I want the tax on a different card. And then they say, okay, here's the remaining tax. You would use your Apple Pay, your Apple cards, sorry, that's attached to your debit card. And then you use your debit card tap to pay with your phone, essentially. The reason why that works even better is because what Apple does is they scramble the numbers. So whatever your real debit card, whatever your real last four digits of your card is, that gets scrambled. They can't. It changed the numbers just for privacy purposes, but it's in your benefit because if someone is like taking their job way, way too seriously and they, and they try to match the numbers, and they say, well, this card, this number doesn't match. And then you can easily say, lot of people already know that the apple already scrambles the number. So it's not going to match, but it's the same card. And then they'll let you push it through.
@@ -181,6 +208,9 @@ Verbatim Fathom transcript (raw API response beside this file as transcript-raw.
 [48:47](https://fathom.video/calls/799338953?timestamp=2927) Alan Nguyen: And, so I'll you this, everything looks good, for the most part, late payments, let's see, where was the late, so there's nothing late. see, see, It's not searching. Download. I gotta get better at a, sometimes I take a, sometimes I'm a little too slow. Like, all comes from a place of like, you know, wanting to, you know, serve in the best way, but I have to do be more mindful of time. But, okay, so let's see. Late, late, late, Let's see. T-B-O-F, T-B-O-N-C-O-N-T-F-I-N. What is this account right here?
 [49:41](https://fathom.video/calls/799338953?timestamp=2981) nazsa: Let's close the account.
 [49:44](https://fathom.video/calls/799338953?timestamp=2984) Alan Nguyen: Close the credit card. Okay, three accounts late. Is that three open? Okay, so three late on TransUnion, five on Equifax, five on Experian. The info on that. But we can get this process for you. All right. I know I run short on time. mean, I guess, like, I think you get a pretty good idea of, like, the direction that we're moving, what we can do. Like, do you have any questions for me, or you ready to get started?
+
+## Chapter 6 (50:00 to 1:00:00)
+
 [50:35](https://fathom.video/calls/799338953?timestamp=3035) nazsa: if you feel, I mean, feel it will be okay to do it, or how you're feeling with your experience, how you think.
 [50:47](https://fathom.video/calls/799338953?timestamp=3047) Alan Nguyen: let's, let's, everything looks doable. The only thing is, for some reason, this isn't not immediately seeing the data on the, what's it called? Quickly output me a quick text data table of the late payments, the account names, the dates, and the bureaus.
 [51:31](https://fathom.video/calls/799338953?timestamp=3091) nazsa: You're not getting the text message. Is it just applied to your text?
