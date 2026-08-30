@@ -12,12 +12,12 @@ Complete enumeration pulled 2026-08-30 (public + private + archived). The `expor
 | #hire-worldwide | C0BJFN8QYKT | private | 7/19 Alan | ✅ `hire-worldwide/2026-07-to-2026-08.md` (complete) |
 | #dispute-questions | C0BPPBD8798 | private | 8/12 Alan | ✅ `dispute-questions/2026-08.md` (complete) |
 | #dispute-team-training | C0BS3B23FK6 | public | 8/22 Alan | ✅ `dispute-team-training/2026-08.md` (complete) |
-| #dispute-team-agenda | C0BS6QBQQ4B | private | 8/24 Lynn | no — next priority |
+| #dispute-team-agenda | C0BS6QBQQ4B | private | 8/24 Lynn | ✅ `dispute-team-agenda/2026-08.md` (complete) |
 | #--ascend-prime-wealth-main-chat | C0BMMREF5PF | private | 8/3 Alan | ✅ `ascend-prime-wealth-main-chat/2026-08.md` (complete, creation→8/28) |
 | #----urgent | C0BLEMY8MCN | private | 7/28 Alan | ✅ `urgent/2026-07-to-2026-08.md` (complete) |
-| #apw-tracker-fathom | C0BRZNGGGD8 | public | 8/22 Alan | no — high priority (Fathom tracker feed) |
-| #alan-nguyen-leads | C0AN2QCV6UF | public | 3/24 Clint | no — high priority (lead feed, pairs with booked-calls) |
-| #alan-nguyen-leads-medical | C0BC03SN3TQ | public | 6/21 Clint | no |
+| #apw-tracker-fathom | C0BRZNGGGD8 | public | 8/22 Alan | ✅ empty — verified 8/30: joins only (Alan+team 8/22, ML 8/28), zero tracker posts; nothing to export yet — re-sweep next run |
+| #alan-nguyen-leads | C0AN2QCV6UF | public | 3/24 Clint | ✅ `alan-nguyen-leads/2026-03-to-2026-08.md` (complete + raw p1) — every LeadConnector lead card |
+| #alan-nguyen-leads-medical | C0BC03SN3TQ | public | 6/21 Clint | ✅ `alan-nguyen-leads-medical/2026-06-to-2026-08.md` (complete) |
 | #sales-team-updates | C0BPN7Y9YB0 | private | 8/12 Alan | no |
 | #sales-team-chat | C0BR61SSUH1 | public | 8/19 Carla | no |
 | #sales-team-agenda | C0BSRGL925S | public | 8/25 Carla | no |
