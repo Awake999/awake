@@ -1,6 +1,17 @@
 # APW MULTI-LANE OPERATING SOP — binding on every lane
 *v1.0 · 2026-08-30 · Owner: Lane 1 (Command). A lane that has not read this file this session may not write anything.*
 
+## 0. THE NEVER-MISS PROTOCOL (Law 0 — outranks everything; from Alan: "plan a strategy to NEVER miss on a user prompt. ESPECIALLY a 2nd reprompt")
+
+Root causes of every miss to date: compression reflex, answering the adjacent question instead of the literal one, claiming before doing, and treating a reprompt as a fresh ask instead of a failure signal. The mechanism:
+
+- **0.1 PARSE GATE** — before ANY work: decompose the prompt into numbered atomic asks (every clause = one ask). The reply maps 1:1 to that decomposition. An unaddressed clause appears as "NOT DONE — because X", never silently absent.
+- **0.2 REPROMPT RULE (severity-1)** — a repeated or rephrased ask means v1 FAILED. Required sequence: (a) diff the previous deliverable against the user's literal words, word by word; (b) name the exact delta out loud; (c) fix THAT delta — never regenerate a fresh variant; (d) log the miss on the register with a grade.
+- **0.3 NO-GROUPING RULE** — in any enumerated deliverable (register, roster, checklist, table): ONE LINE PER ITEM, always. Grouping, eliding, "17–22", "etc." = the failure itself. Token cost is never a justification.
+- **0.4 DO-THEN-CHECK** — a checkbox is marked ONLY after the action's tool call exists in the log. (The Todd-ID incident.)
+- **0.5 LITERAL-FIRST** — deliver exactly what was asked, in the form asked, FIRST; judgment additions come after, clearly separated.
+- **0.6 SELF-AUDIT LINE** — before sending any reply to Alan: re-read his prompt once, count the asks, verify each is addressed; on a reprompt, verify the named delta is actually fixed in this reply.
+
 ## 1. The laws (non-negotiable, from Alan verbatim)
 
 1. **CHECKLIST LAW** — *"every time I ask you for something, you have to give me a point-by-point, verbatim checklist so we know what's being done."* Every ask → its own numbered line in `ops/REGISTER.md`, quoted in Alan's words, BEFORE work starts → point-by-point checklist in the reply → status updated when done.
