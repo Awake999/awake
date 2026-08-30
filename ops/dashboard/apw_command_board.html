@@ -1,7 +1,8 @@
 <title>APW Command Board</title>
 <style>
-  /* ============ TOKENS — dark-first (brand: Ascend Prime Wealth) ============ */
+  /* ============ TOKENS — permanently dark by Alan's ruling (8/30, three times) ============ */
   :root {
+    color-scheme: dark;
     --bg: #0F1214;
     --surface: #171B1E;
     --raised: #1E2428;
@@ -25,52 +26,7 @@
     --wing: linear-gradient(90deg, #46C6E3, #4FBF8B, #E8C55A, #E884B0, #9A6FD0);
     --w-cyan: #46C6E3; --w-green: #4FBF8B; --w-gold: #E8C55A; --w-pink: #E884B0; --w-purple: #9A6FD0;
   }
-  @media (prefers-color-scheme: light) {
-    :root:not([data-theme="dark"]) {
-      --bg: #F5F4F0;
-      --surface: #FFFFFF;
-      --raised: #FAF9F5;
-      --line: #E0DED5;
-      --ink: #191C1B;
-      --ink-2: #565E5A;
-      --ink-3: #8B928D;
-      --gold: #8A6D1F;
-      --gold-dim: #A8925C;
-      --teal: #12705E;
-      --teal-soft: rgba(18,112,94,.14);
-      --good: #177245;
-      --good-bg: rgba(23,114,69,.10);
-      --warn: #C17500;
-      --warn-bg: rgba(193,117,0,.10);
-      --crit: #C42D6B;
-      --crit-bg: rgba(196,45,107,.08);
-      --link: #0E5E4C;
-      --shadow: 0 1px 2px rgba(25,28,27,.06);
-      --w-cyan: #157FA5; --w-green: #1F7A4C; --w-gold: #8A6D1F; --w-pink: #B04477; --w-purple: #6A4FA8;
-    }
-  }
-  :root[data-theme="light"] {
-    --bg: #F5F4F0;
-    --surface: #FFFFFF;
-    --raised: #FAF9F5;
-    --line: #E0DED5;
-    --ink: #191C1B;
-    --ink-2: #565E5A;
-    --ink-3: #8B928D;
-    --gold: #8A6D1F;
-    --gold-dim: #A8925C;
-    --teal: #12705E;
-    --teal-soft: rgba(18,112,94,.14);
-    --good: #177245;
-    --good-bg: rgba(23,114,69,.10);
-    --warn: #C17500;
-    --warn-bg: rgba(193,117,0,.10);
-    --crit: #C42D6B;
-    --crit-bg: rgba(196,45,107,.08);
-    --link: #0E5E4C;
-    --shadow: 0 1px 2px rgba(25,28,27,.06);
-    --w-cyan: #157FA5; --w-green: #1F7A4C; --w-gold: #8A6D1F; --w-pink: #B04477; --w-purple: #6A4FA8;
-  }
+  /* Single-theme by design: the board is dark in every viewer theme. */
 
   * { box-sizing: border-box; }
   body {
@@ -746,14 +702,15 @@
 
   <div class="panel reveal">
     <p class="sub" style="margin-bottom:10px">Reads the Clients &amp; Leads master table directly — every person, entry to outcome, refreshed ~10 min. Edit any row in
-      <a href="https://app.notion.com/p/3b75bb1ffef48196aa4efcf029dc732d">the Command Center ↗</a> and this view follows. Each name links straight to that person’s full Notion record.</p>
+      <a href="https://app.notion.com/p/3b75bb1ffef48196aa4efcf029dc732d">the Command Center ↗</a> and this view follows. Each name links straight to that person’s full Notion record.
+      “Added” is the row’s creation date in the tracker — rows recovered by the 8/30 roster audit show their import date; true first-contact timing fills from the GHL pull.</p>
     <div id="roster-empty" class="fieldfill-empty">Connects when your Notion connector is live — the masthead badge turns green.
       Until then, the audited truth is in the
       <a href="https://app.notion.com/p/3cc5bb1ffef481138682fdca2cdd7d23">name-by-name table ↗</a> and the
       <a href="https://app.notion.com/p/3b75bb1ffef48196aa4efcf029dc732d">Command Center ↗</a>.</div>
     <div id="roster-err" class="fieldfill-empty" hidden></div>
-    <div class="tbl-wrap" id="roster-wrap" hidden><table id="roster-tbl" style="min-width:1020px">
-      <thead><tr><th>Prospect</th><th>Stage</th><th>Entry Path</th><th>Source</th><th class="num">Funding Ask</th><th>Score</th><th>Triaged</th><th>Qualification</th><th>No-Close</th><th>Last Touch</th></tr></thead>
+    <div class="tbl-wrap" id="roster-wrap" hidden><table id="roster-tbl" style="min-width:1180px">
+      <thead><tr><th>Prospect</th><th>Added</th><th>Stage</th><th>Entry Path</th><th>Source</th><th class="num">Funding Ask</th><th>Score</th><th class="num">Spd-to-Lead</th><th>Triaged</th><th>Qualification</th><th>No-Close</th><th>Last Touch</th></tr></thead>
       <tbody></tbody>
     </table></div>
   </div>
@@ -1184,13 +1141,6 @@
     if (!cv || !cv.getContext) return;
     var ctx = cv.getContext('2d');
     var reduced = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
-    var mqlDark = window.matchMedia ? matchMedia('(prefers-color-scheme: dark)') : { matches: true };
-    function isDark() {
-      var t = document.documentElement.getAttribute('data-theme');
-      if (t === 'dark') return true;
-      if (t === 'light') return false;
-      return mqlDark.matches;
-    }
     var W, H, dpr, nodes = [], LINK = 135, mouse = { x: -9e3, y: -9e3 };
 
     function resize() {
@@ -1203,21 +1153,21 @@
       while (nodes.length < target) nodes.push(spawn());
       nodes.length = target;
     }
+    /* Heavenly palette (Alan, 8/30): cyan, blue, white, premium gold-white.
+       The board is permanently dark, so these are fixed. */
+    var HUES = ['70,198,227', '108,150,255', '235,240,246', '236,208,120'];
+    var HWEIGHT = [.38, .64, .84, 1]; /* cumulative: cyan 38% · blue 26% · white 20% · gold 16% */
     function spawn() {
+      var r = Math.random(), h = 0;
+      while (r > HWEIGHT[h]) h++;
       return {
         x: Math.random() * W, y: Math.random() * H,
-        vx: (Math.random() - .5) * .28, vy: (Math.random() - .5) * .28,
+        vx: (Math.random() - .5) * .26, vy: (Math.random() - .5) * .26,
         r: .9 + Math.random() * 1.5,
-        gold: Math.random() < .28
+        h: h, gold: h === 3
       };
     }
-    function palette() {
-      return isDark()
-        ? { cyan: '70,198,227', gold: '232,197,90', nodeA: .8, lineA: .4 }
-        : { cyan: '21,127,165', gold: '138,109,31', nodeA: .55, lineA: .25 };
-    }
     function draw() {
-      var p = palette();
       ctx.clearRect(0, 0, W, H);
       for (var i = 0; i < nodes.length; i++) {
         var a = nodes[i];
@@ -1232,7 +1182,8 @@
           var b = nodes[j], dx = a.x - b.x, dy = a.y - b.y, d2 = dx * dx + dy * dy;
           if (d2 < LINK * LINK) {
             var t = 1 - Math.sqrt(d2) / LINK;
-            ctx.strokeStyle = 'rgba(' + ((a.gold && b.gold) ? p.gold : p.cyan) + ',' + (t * p.lineA).toFixed(3) + ')';
+            var lh = (a.gold || b.gold) ? HUES[3] : (a.h === 2 || b.h === 2 ? HUES[2] : HUES[a.h]);
+            ctx.strokeStyle = 'rgba(' + lh + ',' + (t * .34).toFixed(3) + ')';
             ctx.lineWidth = 1;
             ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
           }
@@ -1241,11 +1192,14 @@
         var pdx = a.x - mouse.x, pdy = a.y - mouse.y, pd2 = pdx * pdx + pdy * pdy;
         if (pd2 < 32400) {
           var pt = 1 - Math.sqrt(pd2) / 180;
-          ctx.strokeStyle = 'rgba(' + (a.gold ? p.gold : p.cyan) + ',' + (pt * .55).toFixed(3) + ')';
+          ctx.strokeStyle = 'rgba(' + HUES[a.h] + ',' + (pt * .55).toFixed(3) + ')';
           ctx.lineWidth = 1.2;
           ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(mouse.x, mouse.y); ctx.stroke();
         }
-        ctx.fillStyle = 'rgba(' + (a.gold ? p.gold : p.cyan) + ',' + p.nodeA + ')';
+        /* soft halo, then the star itself */
+        ctx.fillStyle = 'rgba(' + HUES[a.h] + ',.10)';
+        ctx.beginPath(); ctx.arc(a.x, a.y, a.r * 3, 0, 6.2832); ctx.fill();
+        ctx.fillStyle = 'rgba(' + HUES[a.h] + ',.85)';
         ctx.beginPath(); ctx.arc(a.x, a.y, a.r, 0, 6.2832); ctx.fill();
       }
     }
@@ -1253,7 +1207,7 @@
 
     resize();
     window.addEventListener('resize', resize);
-    if (reduced) { draw(); mqlDark.addEventListener && mqlDark.addEventListener('change', draw); return; }
+    if (reduced) { draw(); return; }
     window.addEventListener('pointermove', function (e) { mouse.x = e.clientX; mouse.y = e.clientY; }, { passive: true });
     window.addEventListener('pointerleave', function () { mouse.x = -9e3; mouse.y = -9e3; });
     requestAnimationFrame(loop);
@@ -1428,6 +1382,7 @@
           lk.textContent = shortName(r['Client']); who.appendChild(lk);
         } else who.textContent = shortName(r['Client']);
         tr.appendChild(who);
+        td(r['Created'] ? String(r['Created']).slice(0, 10) : '—', 'mono');
         var st = document.createElement('td'); var chip = document.createElement('span');
         chip.className = 'chip ' + (STAGE_CHIP[r['Stage']] || 'mut'); chip.textContent = r['Stage'] || '—';
         st.appendChild(chip); tr.appendChild(st);
@@ -1435,6 +1390,7 @@
         td(r['Source'] || '—', 'why');
         td(typeof r['Funding Ask'] === 'number' ? fmtMoney(r['Funding Ask']) : '—', 'num mono');
         td(r['Score Band'] || '—', 'why');
+        td(typeof r['Speed to Lead (min)'] === 'number' ? r['Speed to Lead (min)'] + 'm' : '—', 'num mono');
         td(r['Human Triaged'] || '—', 'why');
         td(r['Qualification'] || '—', 'why');
         td(r['No-Close Reason'] || '—', 'why');
@@ -1516,7 +1472,7 @@
 
       /* Roster watch — isolated: errors here degrade only this panel. */
       var rosterInput = { data: { data_source_urls: [DS], query:
-        'SELECT "Client", "url", "Stage", "Entry Path", "Source", "Funding Ask", "Score Band", "Human Triaged", "Qualification", "No-Close Reason", "date:Last Touch:start" AS lt FROM "' + DS + '"' } };
+        'SELECT "Client", "url", "Created", "Speed to Lead (min)", "Stage", "Entry Path", "Source", "Funding Ask", "Score Band", "Human Triaged", "Qualification", "No-Close Reason", "date:Last Touch:start" AS lt FROM "' + DS + '"' } };
       mcp.watchTool('Notion', 'notion-query-data-sources', rosterInput, function (ev) {
         if (ev.type === 'data') {
           var p = ev.result && ev.result.payload;
