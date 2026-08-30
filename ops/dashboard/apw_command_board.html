@@ -61,7 +61,7 @@
   @keyframes brot { to { --angle: 1turn; } }
   .panel, .tile, .dl, details.card, .trio .cell, .hero { position: relative; }
   .panel::after, .tile::after, .dl::after, details.card::after, .trio .cell::after, .hero .ring {
-    content: ""; position: absolute; inset: -1px; border-radius: 11px; padding: 1.6px;
+    content: ""; position: absolute; inset: -2px; border-radius: 12px; padding: 2px;
     background: conic-gradient(from var(--angle),
       #33D6F5, #9BE8FF, #FFFFFF, #FFE38A, #FFD75E, #F45FB5, #C77DFF, #A96BFF, #33D6F5);
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
@@ -69,22 +69,36 @@
     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     mask-composite: exclude;
     opacity: 0; pointer-events: none;
-    animation: brot 3.5s linear infinite paused;
-    transition: opacity .3s ease;
+    animation: brot 1.8s linear infinite paused;
+    transition: opacity .22s ease, padding .22s ease;
   }
   .panel:hover::after, .tile:hover::after, .dl:hover::after, details.card:hover::after, .trio .cell:hover::after {
-    opacity: 1; animation-play-state: running;
+    opacity: 1; padding: 3px; animation-play-state: running;
+    filter: brightness(1.3) saturate(1.25) drop-shadow(0 0 6px rgba(51,214,245,.55));
   }
-  .hero .ring { inset: -1px; border-radius: 13px; opacity: .9; animation: brot 8s linear infinite running; }
+  .hero .ring { inset: -2px; border-radius: 14px; padding: 2.2px; opacity: 1; animation: brot 5s linear infinite running; filter: drop-shadow(0 0 8px rgba(51,214,245,.35)); }
+
+  /* pointer glare inside the box */
+  .panel::before, .tile::before, .dl::before, details.card::before, .trio .cell::before {
+    content: ""; position: absolute; inset: 0; border-radius: inherit; z-index: 2; pointer-events: none;
+    background: radial-gradient(300px circle at var(--gx, 50%) var(--gy, 50%), rgba(255,255,255,.09), transparent 62%);
+    opacity: 0; transition: opacity .25s ease;
+  }
+  .panel:hover::before, .tile:hover::before, .dl:hover::before, details.card:hover::before, .trio .cell:hover::before { opacity: 1; }
+
+  @keyframes edgeglow {
+    0%, 100% { box-shadow: 0 20px 44px rgba(0,0,0,.55), 0 0 26px rgba(51,214,245,.30), 0 0 52px rgba(244,95,181,.16); }
+    50% { box-shadow: 0 20px 44px rgba(0,0,0,.55), 0 0 34px rgba(255,215,94,.32), 0 0 60px rgba(169,107,255,.20); }
+  }
   .panel, .tile, .dl, details.q-item, details.card, .trio .cell, .hero {
-    transition: transform .28s cubic-bezier(.2, .9, .3, 1.25), border-color .2s ease, box-shadow .28s ease;
+    transition: transform .16s ease-out, border-color .2s ease, box-shadow .3s ease;
+    will-change: transform;
   }
   .panel:hover, .tile:hover, .dl:hover, details.q-item:hover, details.card:hover, .trio .cell:hover {
-    transform: translateY(-5px) scale(1.006);
-    box-shadow: 0 14px 34px rgba(0,0,0,.5), 0 0 22px rgba(51,214,245,.14);
+    transform: perspective(900px) translateY(-7px) scale(1.012);
+    animation: edgeglow 2.4s ease-in-out infinite;
   }
-  .tile.goldline:hover { box-shadow: 0 14px 34px rgba(0,0,0,.5), 0 0 24px rgba(255,215,94,.2); }
-  .tile.crit:hover { box-shadow: 0 14px 34px rgba(0,0,0,.5), 0 0 24px rgba(242,101,90,.2); }
+  .panel:active, .tile:active, .dl:active, details.card:active, .trio .cell:active { transform: perspective(900px) translateY(-2px) scale(.995); }
   details.q-item:hover { border-color: rgba(51,214,245,.4); }
   nav.rail button:hover { text-shadow: 0 0 12px rgba(51,214,245,.45); }
 
@@ -132,10 +146,13 @@
     .spotlight { display: none; }
     header.masthead::after, .hero .headline .v, .live-badge.live .dot, .hero .ring, .ticker .tk,
     .panel::after, .tile::after, .dl::after, details.card::after, .trio .cell::after,
+    .panel:hover, .tile:hover, .dl:hover, details.q-item:hover, details.card:hover, .trio .cell:hover,
     .hbar, .cashbar > div, .duel .fill, .propstrip > div, .stackbar > div, .range .band { animation: none; }
+    .panel::before, .tile::before, .dl::before, details.card::before, .trio .cell::before { display: none; }
     .ticker { overflow-x: auto; }
     .panel, .tile, .dl, details.q-item, details.card, .trio .cell, .hero { transition: none; }
-    .panel:hover, .tile:hover, .dl:hover, details.q-item:hover, details.card:hover, .trio .cell:hover { transform: none; }
+    .panel:hover, .tile:hover, .dl:hover, details.q-item:hover, details.card:hover, .trio .cell:hover,
+    .panel:active, .tile:active, .dl:active, details.card:active, .trio .cell:active { transform: none; }
   }
 
   svg.ic { width: 1em; height: 1em; vertical-align: -0.12em; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex: none; }
@@ -1414,6 +1431,38 @@
       }
       el.textContent = '0';
       requestAnimationFrame(step);
+    });
+  })();
+</script>
+<script>
+  /* ===== 3D tilt + glare tracking — the box follows the pointer ===== */
+  (function () {
+    if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    if (window.matchMedia && !matchMedia('(hover: hover) and (pointer: fine)').matches) return;
+    var sel = '.panel, .tile, .dl, details.q-item, details.card, .trio .cell, .hero';
+    document.querySelectorAll(sel).forEach(function (card) {
+      var max = (card.classList.contains('hero') || card.classList.contains('q-item')) ? 2.5 : 6;
+      var raf = null, lx = 0, ly = 0;
+      function apply() {
+        raf = null;
+        var r = card.getBoundingClientRect();
+        if (!r.width || !r.height) return;
+        var px = Math.min(Math.max((lx - r.left) / r.width, 0), 1);
+        var py = Math.min(Math.max((ly - r.top) / r.height, 0), 1);
+        card.style.transform = 'perspective(900px) translateY(-7px) scale(1.012)' +
+          ' rotateX(' + ((py - .5) * -2 * max).toFixed(2) + 'deg)' +
+          ' rotateY(' + ((px - .5) * 2 * max).toFixed(2) + 'deg)';
+        card.style.setProperty('--gx', (px * 100).toFixed(1) + '%');
+        card.style.setProperty('--gy', (py * 100).toFixed(1) + '%');
+      }
+      card.addEventListener('pointermove', function (e) {
+        lx = e.clientX; ly = e.clientY;
+        if (!raf) raf = requestAnimationFrame(apply);
+      }, { passive: true });
+      card.addEventListener('pointerleave', function () {
+        if (raf) { cancelAnimationFrame(raf); raf = null; }
+        card.style.transform = '';
+      });
     });
   })();
 </script>
