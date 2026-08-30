@@ -18,12 +18,12 @@ Complete enumeration pulled 2026-08-30 (public + private + archived). The `expor
 | #apw-tracker-fathom | C0BRZNGGGD8 | public | 8/22 Alan | ✅ empty — verified 8/30: joins only (Alan+team 8/22, ML 8/28), zero tracker posts; nothing to export yet — re-sweep next run |
 | #alan-nguyen-leads | C0AN2QCV6UF | public | 3/24 Clint | ✅ `alan-nguyen-leads/2026-03-to-2026-08.md` (complete + raw p1) — every LeadConnector lead card |
 | #alan-nguyen-leads-medical | C0BC03SN3TQ | public | 6/21 Clint | ✅ `alan-nguyen-leads-medical/2026-06-to-2026-08.md` (complete) |
-| #sales-team-updates | C0BPN7Y9YB0 | private | 8/12 Alan | no |
-| #sales-team-chat | C0BR61SSUH1 | public | 8/19 Carla | no |
-| #sales-team-agenda | C0BSRGL925S | public | 8/25 Carla | no |
-| #-agenda-for-the-next-day | C0BRRMJKC4A | public | 8/21 Alan | no |
-| #admin-ops-agenda | C0BS96K5U4V | private | 8/24 Lynn | no |
-| #admin-ops-staff | C0BRFC0CL5A | private | 8/19 Lynn | no |
+| #sales-team-updates | C0BPN7Y9YB0 | private | 8/12 Alan | ✅ `sales-team-updates/2026-08.md` (complete) |
+| #sales-team-chat | C0BR61SSUH1 | public | 8/19 Carla | ✅ `sales-team-chat/2026-08.md` (complete) — Constantine coaching notes + money scripts |
+| #sales-team-agenda | C0BSRGL925S | public | 8/25 Carla | ✅ empty — verified 8/30: joins + renames only, zero content; re-sweep next run |
+| #-agenda-for-the-next-day | C0BRRMJKC4A | public | 8/21 Alan | ✅ `agenda-for-the-next-day/2026-08.md` (complete) — Alan's master work orders |
+| #admin-ops-agenda | C0BS96K5U4V | private | 8/24 Lynn | ✅ `admin-ops-agenda/2026-08.md` (complete) |
+| #admin-ops-staff | C0BRFC0CL5A | private | 8/19 Lynn | ✅ `admin-ops-staff/2026-08.md` (complete) — CRM template, hiring campaign, Daily Meeting SOP |
 | #apw-staff-questions | C0BP25E26NQ | private | 8/8 Alan | no |
 | #employee-questions | C0BNEBW39V5 | public | 8/7 Lynn | no |
 | #carla-start-of-day-reports | C0BQBKD0HRU | private, ARCHIVED | 8/14 Lynn | no |
