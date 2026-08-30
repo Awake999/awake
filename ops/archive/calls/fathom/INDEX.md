@@ -24,12 +24,12 @@
 | 2026-08-27 | Chris Mclean - Guaranteed Funding | 177237489 | 798638035 | yes → `2026-08-27--chris-mclean-guaranteed-funding--177237489/` |
 | 2026-08-26 | Impromptu Zoom Meeting | 177232030 | 800411730 | no |
 | 2026-08-26 | Todd LoGuidice - Funding Execution | 177223749 | 800283407 | yes → `2026-08-26--todd-loguidice-funding-execution--177223749/` |
-| 2026-08-26 | Nick Samara - Strategic Consulting Funding | 177160286 | 799338953 | no |
+| 2026-08-26 | Nick Samara - Strategic Consulting Funding | 177160286 | 799338953 | yes → `2026-08-26--nick-samara-strategic-consulting-funding--177160286/` (+raw) |
 | 2026-08-26 | Impromptu Zoom Meeting | 177129989 | 800109782 | no |
 | 2026-08-26 | Dispute Team - Daily Zoom Meeting | 177002596 | 798172547 | no |
 | 2026-08-26 | Impromptu Zoom Meeting | 176817729 | 798997210 | no |
 | 2026-08-26 | Impromptu Zoom Meeting | 176815084 | 798940357 | no |
-| 2026-08-26 | Michael Moore - Guaranteed Funding | 176802936 | 795906439 | no |
+| 2026-08-26 | Michael Moore - Guaranteed Funding | 176802936 | 795906439 | yes → `2026-08-26--michael-moore-guaranteed-funding--176802936/` — THE close call ($1K deposit, 'We are a go') |
 | 2026-08-26 | Impromptu Zoom Meeting | 176797747 | 798796991 | no |
 | 2026-08-25 | Nick Samara - Guaranteed Funding | 176779823 | 795906442 | no |
 | 2026-08-25 | Impromptu Zoom Meeting | 176753966 | 798581474 | no |
