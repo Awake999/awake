@@ -1,0 +1,421 @@
+{
+ "tags": [
+  {
+   "id": "6ssysnizvYyDYArOTX2V",
+   "name": "0 - no answer",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "kh6wBSfwdj1uMHoaicbS",
+   "name": "0 - no credit report",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "FNx0wh7oHSvxfsx5Tjf7",
+   "name": "0 - no spl - off hours",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "2uKzJ6x25mafkrFj8K13",
+   "name": "0 - unqualified",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "z1TrGPLIVbshxcjFMNdJ",
+   "name": "0 - unresponsive",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "xd7J7k4CV1Heq25TZCgs",
+   "name": "0 apw triaged - yes",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "wAn3O7JdaZ7ouRaosLQt",
+   "name": "0 lynn - spl - yes",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "lk7GlI0kEN1VNsitBl2G",
+   "name": "0 lynn - triaged",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "TYGXImq9vUnaO7vl1ke0",
+   "name": "0 lynn - triaged off hours",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "QhulJKvFfjRsXyVSwJ3q",
+   "name": "0 no show",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "f8aZEN7B9BerxlMPhwg8",
+   "name": "1 - connected",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "dqXn4vm3OyW2EbWFmZwt",
+   "name": "1 - qualified",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "eFXyb1WEY6Zd7TvF6dco",
+   "name": "1 - responsive",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "Qc7Wiibss2QtbhEvaIyq",
+   "name": "1 - showed up",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "wUoZo1qkRR06EqXvb9Ni",
+   "name": "1 - signed",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "z7ocqnIFQmZUeNGuwORQ",
+   "name": "1 - triage to call booked",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "WiWEugaFAdNJ7suNMjNQ",
+   "name": "1 unqualified",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "mgfxnRbNLQt7OfIsFdHS",
+   "name": "2 - closer follow up",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "rsQ6yOPq1XhtBX3nI6lt",
+   "name": "2 - hung up",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "N8ldCSUQMeKEi5pszcyH",
+   "name": "2 - no show x2",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "m1kExZRZ2sQDknp11itN",
+   "name": "3 - never answers",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "m70BjSOI982bSL2Ka1li",
+   "name": "3 - not interested",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "LCqFJa2F070l6fdt5TJH",
+   "name": "4 - reschedule",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "RJzvkuitUcXTmbsnSM9J",
+   "name": "booked call",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "wBSkh255vkdSj2abNfmD",
+   "name": "booked interview",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "UWYcGbx9WjJ2f0iCx8LF",
+   "name": "booked mbi interview",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "Xi5ZpGIePVAEVCIJalNp",
+   "name": "booked scorecard interview",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "kLx8rjtFOWmStext7AfJ",
+   "name": "call booked scio",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "6UL5ulSGmRLYWFvjdQFJ",
+   "name": "cancelled",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "dBaqIN1L8iOtivVLgdZt",
+   "name": "candidate application",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "hcYgjZB2xztVUNgPlhiA",
+   "name": "couldn't find caller name",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "IekKSTZMWo1Dvy1sZ3p0",
+   "name": "ed-choi-original-record",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "hJ93gkO91f2KJlhcc7Y3",
+   "name": "ghosted",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "CkgpQZpnOiRsnhA7dp14",
+   "name": "high priority",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "XxKhWbCIVagJU3DScXgy",
+   "name": "instagram leads",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "FHzQ5rplqAyjxVEtfXFN",
+   "name": "medical",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "JdgVb8o8JW8xjMRe11Pb",
+   "name": "name via lookup",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "69eN94sT2RriMIxvSjA0",
+   "name": "new client",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "x6STpQ8GzGwxGa1cMDJX",
+   "name": "new lead [optin]",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "8DugsTcmqDR4LpbUaMTU",
+   "name": "new lead scio",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "ErnXj65AizGdI0XmsEId",
+   "name": "no show",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "veqvX4lmfePSAqKUzaai",
+   "name": "no-show",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "sAxHt2f52wYCceL4ryQn",
+   "name": "not ready",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "2l1LQYL6fYJLyR5zB06b",
+   "name": "ob and ramp",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "gpc6KO9YVadlPJPC1plf",
+   "name": "post-nurture lead",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "8HcMQrs1pE4CCXq59Nzj",
+   "name": "professional/owner",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "dd9mEgeM91Kd8cdgn1od",
+   "name": "request for interview",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "19pNhvW7fkicNKmQcW6O",
+   "name": "set",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "8jSa9yKl0LzS7Kp4f2JF",
+   "name": "spam likely",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "mS2K9A4hWjmh7H07HNJS",
+   "name": "team applicant",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "6JQ9MwcxCVlUrXcbntWL",
+   "name": "won-client",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  },
+  {
+   "id": "gFxTeIT31PFwzYG1JY31",
+   "name": "yelp",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "categoryId": null,
+   "description": null,
+   "color": null
+  }
+ ],
+ "traceId": "81c4edab-903c-48e3-80d6-072da7be4f1f"
+}

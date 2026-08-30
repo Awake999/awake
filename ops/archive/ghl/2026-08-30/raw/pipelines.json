@@ -1,0 +1,697 @@
+{
+ "pipelines": [
+  {
+   "id": "Z9WdpVcwNH3FH9Z7byU1",
+   "name": "Marketing Pipeline",
+   "useOpportunityProbability": false,
+   "dateAdded": "2026-02-08T01:06:10.700Z",
+   "dateUpdated": "2026-02-08T01:06:10.700Z",
+   "stages": [
+    {
+     "id": "118b434a-f11e-4c5e-a7b2-42e6bca7cc37",
+     "name": "New Lead",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 0,
+     "stageWinProbability": 14.29,
+     "originId": "NWE0NmU1YzctY2UwMS00NDVlLTgxYmItNDNmZWQxZWU1MzM5"
+    },
+    {
+     "id": "6171fbe6-bd53-4eae-9d64-7ed24c8cabbd",
+     "name": "Hot Lead",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 1,
+     "stageWinProbability": 28.57,
+     "originId": "MzIwZTFjNzYtNWVjNy00ZGMwLWI4Y2UtMGIyMzU5ODAyMmIy"
+    },
+    {
+     "id": "47768bde-4d2b-4789-8d03-270b3f11446e",
+     "name": "New Booking",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 2,
+     "stageWinProbability": 42.86,
+     "originId": "MzBlMmM2ZWYtYTE2My00Yjg5LThlZTAtOTNjODAyOGMwZTI2"
+    },
+    {
+     "id": "8bff9915-2a44-49aa-a0d2-99a5991f5ef8",
+     "name": "Visit Attended",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 3,
+     "stageWinProbability": 57.14,
+     "originId": "YmZhMjk2ZjgtZmQ5OS00NGJjLWJkZGItOTdjMDU0ZTM2YWEw"
+    },
+    {
+     "id": "1bade7a3-0322-4eab-b081-b0cdc609d1d4",
+     "name": "Sale",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 4,
+     "stageWinProbability": 71.43,
+     "originId": "OTljNjc5N2EtMDJjYy00ZTcyLTkxMzgtYzFkYmYyOTdmODYy"
+    },
+    {
+     "id": "7acf5383-c002-4bac-970a-e2a7d331aa57",
+     "name": "Left a Review",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 5,
+     "stageWinProbability": 85.71,
+     "originId": "YzViMjc3MDMtNzhiNS00MWY3LTkwZmYtOTllODhmNzNlNzIy"
+    }
+   ],
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "originId": "JYUKSmX7574VJh5XJees"
+  },
+  {
+   "id": "p1QgD6i3noQLksgOrXn0",
+   "name": "Sales Pipeline - Credit Offer",
+   "useOpportunityProbability": false,
+   "dateAdded": "2026-07-29T00:35:56.403Z",
+   "dateUpdated": "2026-07-29T00:35:56.403Z",
+   "stages": [
+    {
+     "id": "3f8616ee-401a-4dfa-bc03-deb65335bde4",
+     "name": "\ud83d\udcc5 Booked Call",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 0,
+     "stageWinProbability": 14.29,
+     "originId": "MWU5OTA2Y2EtZWFjOC00MTQ4LWJkMTUtOTJmNjVmMWM1YjZj"
+    },
+    {
+     "id": "8b44099c-d52d-4b4e-ae33-350805a66443",
+     "name": " \u260e\ufe0f Call Confirmed",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 1,
+     "stageWinProbability": 28.57,
+     "originId": "ZWEzMmM4NmUtZjdkOS00Mzg1LWI4NmYtMjlmOWMxOTY1ZDg4"
+    },
+    {
+     "id": "34aa62cc-2693-4096-8afd-40e4642ba5d5",
+     "name": "\u23f0 No Show Follow-up",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 2,
+     "stageWinProbability": 42.86,
+     "originId": "M2NmN2UzZTEtZDVhNy00NzM3LWFhZDUtODBiYmU1OTViNDk4"
+    },
+    {
+     "id": "12a2d3df-bb5c-4c56-a7e8-7ea494e7ab8b",
+     "name": "\u23f8\ufe0f Long Term Follow Up",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 3,
+     "stageWinProbability": 57.14,
+     "originId": "NWE1N2Y3NmItYWFiMS00NDg5LWJlOGUtMWIwZDQ0MzkxYTc4"
+    },
+    {
+     "id": "9c8c4926-7b59-4eaf-be63-bfd70974ead7",
+     "name": "\ud83d\udce9 Show Follow-up",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 4,
+     "stageWinProbability": 71.43,
+     "originId": "NWUyMDIyOTEtNWIwNy00NWZjLWEzMmQtN2I4MjVkMzU2YzY4"
+    },
+    {
+     "id": "8755a76f-08fb-44bf-8bdb-2c371272ea89",
+     "name": "\u26d4 No Buy",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 5,
+     "stageWinProbability": 85.71,
+     "originId": "NDM2YmY5YzctYTMxYi00ZThlLWI0NGYtYjRjNDQxNjE0MTZh"
+    }
+   ],
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "originId": "B6glUEjKVyLBIQXQunAE"
+  },
+  {
+   "id": "aoYR9XrdZ2sZEPpa8MvU",
+   "name": "Sales Pipeline - Funding Offer",
+   "useOpportunityProbability": false,
+   "dateAdded": "2026-07-29T00:35:56.252Z",
+   "dateUpdated": "2026-07-29T00:35:56.252Z",
+   "stages": [
+    {
+     "id": "f5833deb-3013-44dd-a8ef-eb159a1b3796",
+     "name": "\ud83d\udcc5 Booked Call",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 0,
+     "stageWinProbability": 14.29,
+     "originId": "NjA4YTU3ZjMtMDYyNS00MjJkLThjZjgtNDU4YjYxM2M2NTNk"
+    },
+    {
+     "id": "9396098c-6c97-437c-a18a-b6826c85cbe1",
+     "name": " \u260e\ufe0f Call Confirmed",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 1,
+     "stageWinProbability": 28.57,
+     "originId": "MGIxZGZmYTAtMzM1NC00YzIyLWFmN2QtYjZhYTJkNzI0OGIz"
+    },
+    {
+     "id": "85490002-8422-4351-b5af-783e1751d3f0",
+     "name": "\u23f0 Cancel / Ghost Follow Up",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 2,
+     "stageWinProbability": 42.86,
+     "originId": "MDcyZTQ1ZjYtODcyMS00NzllLWJjMmQtYzA1OGJkOWUwZWYy"
+    },
+    {
+     "id": "775781f2-2bba-4305-a056-cc831b16bcbe",
+     "name": "\u23f8\ufe0f Long Term Follow Up",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 3,
+     "stageWinProbability": 57.14,
+     "originId": "MzkyYzZjZjEtN2FmYy00NGVlLTg1ZmQtZmQ2ZDA5YTZlZTMy"
+    },
+    {
+     "id": "c72b83bf-0252-4694-8043-72c982a8fcfa",
+     "name": "\ud83d\udce9 Show Follow-up",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 4,
+     "stageWinProbability": 71.43,
+     "originId": "NDc5MDZmYzctM2Q4Yi00MjNlLTkxNGItYWY5MjhkNTVkZGIx"
+    },
+    {
+     "id": "229de155-8ed0-4a09-a246-7f908253d0e0",
+     "name": "\u26d4 No Buy",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 5,
+     "stageWinProbability": 85.71,
+     "originId": "NzhjZTM1NDgtMTQ3Ny00M2ExLThjNDUtMDg1MDRmNWQxODZm"
+    }
+   ],
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "originId": "CD5UG3NHBv6VCVEY5X99"
+  },
+  {
+   "id": "i5mf8lL015PF7Ttb427y",
+   "name": "The Automated Appointment Funnel\u2122",
+   "useOpportunityProbability": false,
+   "dateAdded": "2026-02-09T08:57:38.150Z",
+   "dateUpdated": "2026-02-09T08:57:38.150Z",
+   "stages": [
+    {
+     "id": "5cbaa39b-9e7c-4fbd-b4df-478203c7219e",
+     "name": "New Lead",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 0,
+     "stageWinProbability": 7.14,
+     "originId": "YWFiMzBjNDgtM2QyYS00ZjlhLTg3MTYtNGYzODQ2MmQzM2Uw"
+    },
+    {
+     "id": "ed1da73e-7c19-4ac7-ab4f-3432c35dcc75",
+     "name": "Lead Contacted",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 1,
+     "stageWinProbability": 14.29,
+     "originId": "MDE1YmMzM2QtN2YxMy00Y2IyLWJlNmYtMTJmOWQyZTA2NGUw"
+    },
+    {
+     "id": "f7f9a64f-a478-47aa-a3b0-291e9f25fc73",
+     "name": "Lead In Conversation",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 2,
+     "stageWinProbability": 21.43,
+     "originId": "OGMwZjFlZmQtOGQyZC00MWUwLThkMzktZTgzMzEzYTAwNjY2"
+    },
+    {
+     "id": "5bfce09d-907f-49e7-b093-a35150f79f4e",
+     "name": "Lead Ghosted",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 3,
+     "stageWinProbability": 28.57,
+     "originId": "ZTNmNmVlM2YtZmUxNC00NDNjLTkyZTAtZDY1MGJiOGU4OWM3"
+    },
+    {
+     "id": "28940595-9579-4dd2-b2a2-0467622de38a",
+     "name": "Ghosted Post Lead Nurture",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 4,
+     "stageWinProbability": 35.71,
+     "originId": "NzFlZTBjMWEtZWY4YS00OWZkLTk2OWUtMjRiNDUyNTcwYWE4"
+    },
+    {
+     "id": "1792b114-52fe-4256-a933-bc1fc867e0ff",
+     "name": "Scheduled Call",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 5,
+     "stageWinProbability": 42.86,
+     "originId": "NWZiZjc2YTQtYjg5Ni00NWU0LTgxNDctY2I5ZWNmN2ZiNmVh"
+    },
+    {
+     "id": "7f3ca875-accc-40fe-92ea-89e812ba9292",
+     "name": "Confirmed Call",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 6,
+     "stageWinProbability": 50,
+     "originId": "ZWM3Mjk1YjctNmVjNC00YTUyLWI2NjMtMjJhYmI3ZTIyOTVk"
+    },
+    {
+     "id": "124efec3-faa1-4488-b316-2fdcfcd9b541",
+     "name": "Cancelled",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 7,
+     "stageWinProbability": 57.14,
+     "originId": "NmIyYmI4MTgtNjJmNC00MjNhLWIyYWYtYjNhMDg5ZmI3NTBj"
+    },
+    {
+     "id": "170672d8-0fda-44c6-ae41-bbf175f9af71",
+     "name": "No Show",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 8,
+     "stageWinProbability": 64.29,
+     "originId": "ZDhhNGVmODktM2FhYy00MWEzLTg4MDUtNDFjNjM5MzYyODQ3"
+    },
+    {
+     "id": "b0a79189-db44-4357-8b41-b28c666b14e0",
+     "name": "Not Ready",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 9,
+     "stageWinProbability": 71.43,
+     "originId": "N2U4NWI5YmItMTY1Mi00YTVmLThiMDYtODRhNjk1ZjEyZDhl"
+    },
+    {
+     "id": "bdd4e073-3a63-4cef-bb46-adbbed2bb309",
+     "name": "Follow Up Call Booked",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 10,
+     "stageWinProbability": 78.57,
+     "originId": "MzZmZmZkZGQtNGFiMS00MGUwLTk0MWQtYTA5MmE5OGVlYWVi"
+    },
+    {
+     "id": "41413f35-5d3f-41c4-8eca-5877f1644d46",
+     "name": "New Client",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 11,
+     "stageWinProbability": 85.71,
+     "originId": "N2VjZDYzMDctMGYwOC00NzFhLWFmM2EtMmRlNTFmN2I5NDg0"
+    },
+    {
+     "id": "ed842262-17b9-486b-93a3-324e43f364db",
+     "name": "Unqualified",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 12,
+     "stageWinProbability": 92.86,
+     "originId": "MWExMGE5ZjktZWYwYy00ZjE1LTk3NWEtNjRlZWNkNjczYjY1"
+    }
+   ],
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "originId": "AAHsyCEABlcFsWu7xfna"
+  },
+  {
+   "id": "goFtH1WHlAGfvJZGLBQi",
+   "name": "The Automated Client Journey Funnel\u2122",
+   "useOpportunityProbability": false,
+   "dateAdded": "2026-02-09T08:57:38.233Z",
+   "dateUpdated": "2026-02-09T08:57:38.233Z",
+   "stages": [
+    {
+     "id": "416c26ba-ba10-4c92-b9f8-18de5f58db84",
+     "name": "New Client",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 0,
+     "stageWinProbability": 6.25,
+     "originId": "ZjM2NThhNTQtZWE0MC00Y2U3LWIzZmItOTIzZTEzZjUyZGUz"
+    },
+    {
+     "id": "65d5494f-2c83-4243-b358-3c5942120fa1",
+     "name": "Invoice Paid",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 1,
+     "stageWinProbability": 12.5,
+     "originId": "MDhkZjRiNWItZGU3Yy00NDdkLWFlNDYtMjhhZWM2MDlmOTNk"
+    },
+    {
+     "id": "70798d48-65e3-48f3-919e-d8f203bb7e0a",
+     "name": "Contract Signed",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 2,
+     "stageWinProbability": 18.75,
+     "originId": "NTkwYmQ1ZWMtNTNkMC00NjlmLWExM2QtY2I4YmM4ZjIzZjZj"
+    },
+    {
+     "id": "44bf6866-8a9e-4d0c-aecb-f34fa38a14af",
+     "name": "Completed Onboarding Funnel",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 3,
+     "stageWinProbability": 25,
+     "originId": "NjYyOGQzZDQtOGQ3ZC00MDFmLWIyYWEtNTcxOTNmMjFlMWY2"
+    },
+    {
+     "id": "d1335b42-8374-4e4a-9ca2-cba922500efb",
+     "name": "Onboarding Call Booked",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 4,
+     "stageWinProbability": 31.25,
+     "originId": "OTYzOTAwOGYtMWY3Zi00ODE5LWE5ZDItN2M4YTIyNzhlYzBk"
+    },
+    {
+     "id": "1a7b6583-0df9-41ba-a142-9df76502d766",
+     "name": "Onboarding Call Taken",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 5,
+     "stageWinProbability": 37.5,
+     "originId": "ZDkxOWExN2YtNDRjMC00ZjMxLTgxYjEtMWZkNDE2NmFmNjJi"
+    },
+    {
+     "id": "b5ea590e-4555-4911-835d-6452ff3ce10b",
+     "name": "Day 7 Activation Point #1",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 6,
+     "stageWinProbability": 43.75,
+     "originId": "YmE3MmUxZGMtNzcyYy00MWM1LWEzMGEtYzFhNWRhNjFhMWI5"
+    },
+    {
+     "id": "3752e11c-2519-4727-b4c6-c917d04befaf",
+     "name": "Day 14 Activation Point #2",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 7,
+     "stageWinProbability": 50,
+     "originId": "ZjdjYmQyYTAtNGI0Yy00NTY2LTgyYmYtZDQ2YmRkYTU0ODc5"
+    },
+    {
+     "id": "b8d1ee82-08fe-41ed-9513-961e35442d10",
+     "name": "Day 30 Activation Point #3",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 8,
+     "stageWinProbability": 56.25,
+     "originId": "OWIxMmU1ZGYtNzM1Yy00NTVmLWI3NjAtM2U3YjFkNTk1NzAx"
+    },
+    {
+     "id": "27b51429-294e-47e2-898f-b11963605a80",
+     "name": "Day 60 Activation Point #4",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 9,
+     "stageWinProbability": 62.5,
+     "originId": "NTQ0ZjlmYjEtZjg4MS00OGZlLThhM2ItYzEzZmRiZWRhOTNm"
+    },
+    {
+     "id": "1ae1c62c-e814-4ae8-8efc-0d4d5a1096ba",
+     "name": "Day 90 Activation Point #5",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 10,
+     "stageWinProbability": 68.75,
+     "originId": "MTlkZTkxYTMtODk1YS00Njc2LWFmOGQtNWM1YTkyNjFmOGVm"
+    },
+    {
+     "id": "746f40f0-ae34-4f8b-9690-22e26d9eb4be",
+     "name": "Due For Ascension",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 11,
+     "stageWinProbability": 75,
+     "originId": "ZjBiYzViOGYtOTI1MC00YWMzLThlMGUtNzExNmZmY2U2NmE0"
+    },
+    {
+     "id": "c5b21147-9cf2-42ca-a9bf-f5b9b5369815",
+     "name": "Ascended",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 12,
+     "stageWinProbability": 81.25,
+     "originId": "Zjk4YTAzNjgtMGYyNy00MWEzLTk5MjItMWFlMGQ4Y2JjOTk3"
+    },
+    {
+     "id": "222c2422-92bf-4467-8d39-6decfe8eee0d",
+     "name": "Paused",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 13,
+     "stageWinProbability": 87.5,
+     "originId": "NjMzZTUwYmMtOGUwYi00MWJjLWIwMWMtMmZjMjQ2OTU2NTZj"
+    },
+    {
+     "id": "3110854d-011b-462b-ab4e-97ef1db2affa",
+     "name": "Churned",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 14,
+     "stageWinProbability": 93.75,
+     "originId": "NmIyOWUzNjktYzUzNy00MDc2LTgwYTctOTg4NDdjZjMyNzk4"
+    }
+   ],
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "originId": "pm7yBok8r2n0HJcD4V8x"
+  },
+  {
+   "id": "G8cpUMbZcel6QQoeiqoS",
+   "name": "The Automated Talent Acquisition Funnel\u2122 (ROLE)",
+   "useOpportunityProbability": false,
+   "dateAdded": "2026-02-09T08:57:38.318Z",
+   "dateUpdated": "2026-02-09T08:57:38.318Z",
+   "stages": [
+    {
+     "id": "fa29bbe4-d63f-4521-8b3b-a9a5b2717d08",
+     "name": "New Application",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 0,
+     "stageWinProbability": 10,
+     "originId": "NjZlYWU0ZTItNWJjMS00MjVhLWFkYjYtYzIwMjEwMzkwZjQ0"
+    },
+    {
+     "id": "eb19d586-a740-44ea-84bc-01d547b5be22",
+     "name": "Request For MBI Interview",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 1,
+     "stageWinProbability": 20,
+     "originId": "NGQzMGZjOWItZDg2Yy00MzExLTgxYzktMjc5ZDgwMmQxZThm"
+    },
+    {
+     "id": "11f5f459-d779-4c2f-b772-87b350b39455",
+     "name": "MBI Interview Booked",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 2,
+     "stageWinProbability": 30,
+     "originId": "OTJhZjFiOGMtZThkMi00MTk4LTkxOWItNmI5NDY1MmNmOTQx"
+    },
+    {
+     "id": "c06270d6-19dd-46a4-9148-c351171de929",
+     "name": "Role-specific Task Received",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 3,
+     "stageWinProbability": 40,
+     "originId": "YTE4ZTNhOTUtMWRiMS00ZTY2LTg4OWQtYmQyNmY2OWRjYTcw"
+    },
+    {
+     "id": "e1fd9090-c5a0-4a44-b717-ab74b799248b",
+     "name": "Request For Scorecard Interview",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 4,
+     "stageWinProbability": 50,
+     "originId": "OTVlNDdkYzEtY2I1Mi00NjZjLTgxM2MtNDY3MDVjMTYwZGMy"
+    },
+    {
+     "id": "b94abb76-ff08-4d7b-a7e9-8c743374eca8",
+     "name": "Scorecard Interview Booked",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 5,
+     "stageWinProbability": 60,
+     "originId": "ZDI5NWJmNmMtMjY3NS00NWZjLTg0NjAtYjBiYmZkMDA3NmJj"
+    },
+    {
+     "id": "c1ecfa58-531b-40b7-a04e-5db3a7b2f96e",
+     "name": "Onboarded And Ramping",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 6,
+     "stageWinProbability": 70,
+     "originId": "NWExOTBmZGUtMmNjOS00NjY3LTk5OTctOGNjODFkMTY4MGI0"
+    },
+    {
+     "id": "4397ca8b-14bf-4e10-baa2-95275096ee04",
+     "name": "Talent Bench",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 7,
+     "stageWinProbability": 80,
+     "originId": "NjVkZTM0MzktNzYyNi00MWY4LWFjZWItYzAyYTVlZThhMjFj"
+    },
+    {
+     "id": "dc91efc3-b5ec-446c-b2ac-15e57c8935c6",
+     "name": "Disqualified",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 8,
+     "stageWinProbability": 90,
+     "originId": "N2YzODIxNmEtMTE3Zi00ZWNlLTkzZmYtZDI0ODYxNDliMjNk"
+    }
+   ],
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "originId": "Dj2m8HwWvHgcJKFT8DFO"
+  },
+  {
+   "id": "2JlgwyCzR7AnFqYK4MNu",
+   "name": "SCIO Pipeline",
+   "showInFunnel": true,
+   "showInPieChart": true,
+   "useOpportunityProbability": false,
+   "dateAdded": "2026-08-12T17:57:12.262Z",
+   "dateUpdated": "2026-08-20T23:11:31.421Z",
+   "stages": [
+    {
+     "id": "14bd31c5-db1f-4bb9-82fc-e3a63bc4fbab",
+     "name": "New Lead",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 0,
+     "stageWinProbability": 20,
+     "color": "#64748B"
+    },
+    {
+     "id": "28dcd49e-c206-474f-bfcc-c168049efbdb",
+     "name": "Triage",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 1,
+     "stageWinProbability": 80,
+     "color": "#64748B"
+    },
+    {
+     "id": "e8823851-dacc-429c-b689-a194ae73ca4f",
+     "name": "Contacted",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 2,
+     "stageWinProbability": 40,
+     "color": "#64748B"
+    },
+    {
+     "id": "b8e975a0-1522-49c7-aa79-3aae16c25ee3",
+     "name": "No Answer",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 3,
+     "stageWinProbability": 80,
+     "color": "#64748B"
+    },
+    {
+     "id": "87dc81d8-87a2-417e-aca8-0289c39911da",
+     "name": "Booked Call",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 4,
+     "stageWinProbability": 0,
+     "color": "#64748B"
+    },
+    {
+     "id": "3e4c79fc-fe06-4d43-acdb-d4921714b8e8",
+     "name": "Showed",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 5,
+     "stageWinProbability": 0,
+     "color": "#64748B"
+    },
+    {
+     "id": "70b7145a-5ec4-44db-97ad-345ffa888dc7",
+     "name": "Follow Up",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 6,
+     "stageWinProbability": 0,
+     "color": "#64748B"
+    },
+    {
+     "id": "2a00a5b1-8055-4e14-93cd-6106156e887d",
+     "name": "Offer Made",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 7,
+     "stageWinProbability": 0,
+     "color": "#64748B"
+    },
+    {
+     "id": "bd4f455e-2cc5-40c0-8fc0-306a88d5fbde",
+     "name": "Closed",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 8,
+     "stageWinProbability": 0,
+     "color": "#64748B"
+    },
+    {
+     "id": "034201ff-85eb-4b8d-b8c2-af13fcd4a478",
+     "name": "Nurture",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 9,
+     "stageWinProbability": 0,
+     "color": "#64748B"
+    },
+    {
+     "id": "7624bb59-0952-45cd-ac68-4f809f1938fe",
+     "name": "No Show",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 10,
+     "stageWinProbability": 0,
+     "color": "#64748B"
+    },
+    {
+     "id": "304d8f76-b223-4ae2-8698-144e3f579b0c",
+     "name": "Lost",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 11,
+     "stageWinProbability": 0,
+     "color": "#64748B"
+    },
+    {
+     "id": "8431e586-ebdd-4ce0-b118-88ab215a8e4e",
+     "name": "Unqualified",
+     "showInFunnel": true,
+     "showInPieChart": true,
+     "position": 12,
+     "stageWinProbability": 0,
+     "color": "#64748B"
+    }
+   ],
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "colorRenderMode": "none",
+   "position": "a0fJNUL"
+  }
+ ],
+ "traceId": "8bd3fd34-f04c-451c-a3a2-a917323e6f27"
+}

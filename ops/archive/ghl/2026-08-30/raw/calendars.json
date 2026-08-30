@@ -1,0 +1,2708 @@
+{
+ "calendars": [
+  {
+   "id": "00wwUfAApn52fQTlHnUe",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "groupId": "",
+   "teamMembers": [
+    {
+     "priority": 1,
+     "selected": true,
+     "userId": "pL5g5OltFmih9dH0T5Nh",
+     "isZoomAdded": "true",
+     "zoomOauthId": "JBqTcrXLAsY7cnnzNcJr",
+     "msTeamsOauthId": "",
+     "meetingLocation": "",
+     "locationConfigurations": [
+      {
+       "location": "",
+       "position": 0,
+       "kind": "zoom_conference",
+       "zoomOauthId": "",
+       "meetingId": "zoom_conference_0"
+      }
+     ],
+     "isPrimary": true
+    }
+   ],
+   "eventType": "RoundRobin_OptimizeForAvailability",
+   "name": "Funding Consultation - Calendar - Ascend Prime Wealth(IG)",
+   "description": "<p style=\"margin:0px;color:#10182899; margin: 0px;color: #10182899;\"><strong data-start=\"750\" data-end=\"810\">Medical Practice Owners</strong><br>If you want to learn how to unlock <strong data-start=\"854\" data-end=\"898\">$100K-$500K+ in funding within 30-120 days</strong>, we\u2019ll <strong data-start=\"906\" data-end=\"931\">guarantee the outcome</strong> or <strong data-start=\"935\" data-end=\"952\">you don\u2019t pay</strong> - while teaching the exact process &amp; system A-Z so you can do this for yourself, businesses, friends, family, and others; without relying on anyone else!<br></p><p data-start=\"1028\" data-end=\"1116\" style=\"margin:0px;color:#10182899; text-align: start;margin: 0px;color: #10182899;font-style: normal;font-variant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-indent: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;-webkit-text-stroke-width: 0px;text-decoration-line: none;text-decoration-thickness: auto;text-decoration-style: solid;caret-color: rgb(255, 255, 255);\">This is <strong data-start=\"1036\" data-end=\"1044\">ONLY</strong> for applicants with strong credit profiles <strong data-start=\"1036\" data-end=\"1044\">OR</strong>&nbsp;those with real execution capacity.</p><p data-start=\"1118\" data-end=\"1156\" style=\"margin:0px;color:#10182899; text-align: start;margin: 0px;color: #10182899;font-style: normal;font-variant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-indent: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;-webkit-text-stroke-width: 0px;text-decoration-line: none;text-decoration-thickness: auto;text-decoration-style: solid;caret-color: rgb(255, 255, 255);\"><strong data-start=\"1118\" data-end=\"1133\">Book a call</strong> to see if you qualify.</p>",
+   "widgetSlug": "aaf-round-robin-dbae39cf-4602-4066-b3db-0bae5341ee35dxq98h",
+   "calendarType": "round_robin",
+   "widgetType": "default",
+   "eventTitle": "{{contact.name}} | Guarenteed Funding",
+   "eventColor": "#039BE5",
+   "slotDuration": 45,
+   "slotDurationUnit": "mins",
+   "slotInterval": 15,
+   "slotIntervalUnit": "mins",
+   "slotBuffer": 15,
+   "slotBufferUnit": "mins",
+   "appoinmentPerSlot": 1,
+   "appoinmentPerDay": "",
+   "appointmentPerSlot": 1,
+   "appointmentPerDay": "",
+   "openHours": [
+    {
+     "daysOfTheWeek": [
+      1
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      2
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      3
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      4
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      5
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    }
+   ],
+   "enableRecurring": false,
+   "recurring": {
+    "monthDays": [],
+    "weekDays": [],
+    "bookingOption": "skip",
+    "count": 1,
+    "freq": "DAILY",
+    "bookingOverlapDefaultStatus": "",
+    "interval": null
+   },
+   "formId": "awUFSdi1GvrX14fRgVpu",
+   "stickyContact": false,
+   "isLivePaymentMode": false,
+   "autoConfirm": true,
+   "googleInvitationEmails": true,
+   "allowReschedule": true,
+   "allowCancellation": true,
+   "shouldAssignContactToTeamMember": false,
+   "shouldSkipAssigningContactForExisting": false,
+   "notes": "Phone:- {{contact.phone}}\nEmail:- {{contact.email}}\n\nNeed to make a change to this event?\nReschedule:-\n{{reschedule_link}}\n\nCancel:-\n{{cancellation_link}}",
+   "pixelId": "",
+   "formSubmitType": "RedirectURL",
+   "formSubmitRedirectUrl": "https://ascendprimewealth.com/call-confirmed-s",
+   "formSubmitThanksMessage": "Thank you for your appointment request. We will contact you shortly to confirm your request. Please call our office at {{contactMethod}} if you have any questions.",
+   "availabilities": [],
+   "guestType": "collect_detail",
+   "consentLabel": "I confirm that I want to receive content from this company using any contact information I provide.",
+   "calendarCoverImage": "",
+   "lookBusyConfig": {
+    "enabled": false,
+    "lookBusyPercentage": 0
+   },
+   "allowBookingAfterUnit": "hours",
+   "allowBookingAfter": 3,
+   "allowBookingFor": 5,
+   "allowBookingForUnit": "days",
+   "preBufferUnit": "mins",
+   "isActive": true,
+   "enableClientPortalBooking": false
+  },
+  {
+   "id": "5fJBSS0IGX4oTLT5P9aA",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "groupId": "",
+   "teamMembers": [
+    {
+     "priority": 1,
+     "selected": true,
+     "userId": "pL5g5OltFmih9dH0T5Nh",
+     "isZoomAdded": "true",
+     "zoomOauthId": "JBqTcrXLAsY7cnnzNcJr",
+     "msTeamsOauthId": "",
+     "meetingLocation": "",
+     "locationConfigurations": [
+      {
+       "location": "",
+       "position": 0,
+       "kind": "zoom_conference",
+       "zoomOauthId": "",
+       "meetingId": "zoom_conference_0"
+      }
+     ],
+     "isPrimary": true
+    }
+   ],
+   "eventType": "RoundRobin_OptimizeForAvailability",
+   "name": "Complimentary Funding Consultation ",
+   "description": "<p style=\"margin:0px;color:#10182899; margin: 0px;color: #10182899;\"><strong data-start=\"750\" data-end=\"810\">We pay for your first complimentary consultation; intended to dive deep into your current constraints, while creating an effective strategic growth strategy to help you align with your current business goals now.</strong></p>",
+   "widgetSlug": "aaf-round-robin-dbae39cf-4602-4066-b3db-0bae5341ee35r421z5",
+   "calendarType": "round_robin",
+   "widgetType": "default",
+   "eventTitle": "{{contact.name}} | Guarenteed Funding",
+   "eventColor": "#039BE5",
+   "slotDuration": 45,
+   "slotDurationUnit": "mins",
+   "slotInterval": 15,
+   "slotIntervalUnit": "mins",
+   "slotBuffer": 15,
+   "slotBufferUnit": "mins",
+   "appoinmentPerSlot": 1,
+   "appoinmentPerDay": "",
+   "appointmentPerSlot": 1,
+   "appointmentPerDay": "",
+   "openHours": [
+    {
+     "daysOfTheWeek": [
+      1
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      2
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      3
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      4
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      5
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    }
+   ],
+   "enableRecurring": false,
+   "recurring": {
+    "monthDays": [],
+    "weekDays": [],
+    "bookingOption": "skip",
+    "count": 1,
+    "freq": "DAILY",
+    "bookingOverlapDefaultStatus": "",
+    "interval": null
+   },
+   "formId": "awUFSdi1GvrX14fRgVpu",
+   "stickyContact": false,
+   "isLivePaymentMode": false,
+   "autoConfirm": true,
+   "googleInvitationEmails": false,
+   "allowReschedule": true,
+   "allowCancellation": true,
+   "shouldAssignContactToTeamMember": false,
+   "shouldSkipAssigningContactForExisting": false,
+   "notes": "Phone:- {{contact.phone}}\nEmail:- {{contact.email}}\n\nNeed to make a change to this event?\nReschedule:-\n{{reschedule_link}}\n\nCancel:-\n{{cancellation_link}}",
+   "pixelId": "",
+   "formSubmitType": "RedirectURL",
+   "formSubmitRedirectUrl": "https://ascendprimewealth.com/thank-you",
+   "formSubmitThanksMessage": "Thank you for your appointment request. We will contact you shortly to confirm your request. Please call our office at {{contactMethod}} if you have any questions.",
+   "availabilities": [],
+   "guestType": "collect_detail",
+   "consentLabel": "I confirm that I want to receive content from this company using any contact information I provide.",
+   "calendarCoverImage": "",
+   "lookBusyConfig": {
+    "enabled": false,
+    "lookBusyPercentage": 0
+   },
+   "allowBookingAfterUnit": "days",
+   "allowBookingAfter": 1,
+   "allowBookingFor": 5,
+   "allowBookingForUnit": "days",
+   "preBufferUnit": "mins",
+   "isActive": true,
+   "enableClientPortalBooking": false
+  },
+  {
+   "id": "5gIGPIPvnisq7skHBoix",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "groupId": "",
+   "teamMembers": [
+    {
+     "priority": 1,
+     "selected": true,
+     "userId": "pL5g5OltFmih9dH0T5Nh",
+     "isZoomAdded": "true",
+     "zoomOauthId": "JBqTcrXLAsY7cnnzNcJr",
+     "msTeamsOauthId": "",
+     "meetingLocation": "",
+     "locationConfigurations": [
+      {
+       "location": "",
+       "position": 0,
+       "kind": "zoom_conference",
+       "zoomOauthId": "",
+       "meetingId": "zoom_conference_0"
+      }
+     ],
+     "isPrimary": true
+    }
+   ],
+   "eventType": "RoundRobin_OptimizeForAvailability",
+   "name": "Funding Consultation - Call (Professionals)",
+   "description": "<p style=\"margin:0px;color:#10182899; margin: 0px;color: #10182899;\">If you want to learn how to unlock <strong data-end=\"898\" data-start=\"854\">$50K-$500K+ in funding within 30-120 days</strong>, we\u2019ll <strong data-end=\"931\" data-start=\"906\">guarantee the outcome</strong> or <strong data-end=\"952\" data-start=\"935\">you don\u2019t pay</strong> </p><p style=\"margin:0px;color:#10182899; text-align: start;margin: 0px;color: #10182899;font-style: normal;font-variant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-indent: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;-webkit-text-stroke-width: 0px;text-decoration-line: none;text-decoration-thickness: auto;text-decoration-style: solid;caret-color: rgb(255, 255, 255);\" data-end=\"1116\" data-start=\"1028\">This is <strong data-end=\"1044\" data-start=\"1036\">ONLY</strong> for applicants with strong credit profiles <strong data-end=\"1044\" data-start=\"1036\">OR</strong>&nbsp;those with real execution capacity.</p><p style=\"margin:0px;color:#10182899; text-align: start;margin: 0px;color: #10182899;font-style: normal;font-variant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-indent: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;-webkit-text-stroke-width: 0px;text-decoration-line: none;text-decoration-thickness: auto;text-decoration-style: solid;caret-color: rgb(255, 255, 255);\" data-end=\"1156\" data-start=\"1118\"><strong data-end=\"1133\" data-start=\"1118\">Book a call</strong> to see if you qualify.</p>",
+   "widgetSlug": "aaf-round-robin-dbae39cf-4602-4066-b3db-0bae5341ee35dlg6schkj775",
+   "calendarType": "round_robin",
+   "widgetType": "default",
+   "eventTitle": "{{contact.name}} | Guaranteed Funding",
+   "eventColor": "#039BE5",
+   "slotDuration": 45,
+   "slotDurationUnit": "mins",
+   "slotInterval": 15,
+   "slotIntervalUnit": "mins",
+   "slotBuffer": 15,
+   "slotBufferUnit": "mins",
+   "appoinmentPerSlot": 1,
+   "appoinmentPerDay": "",
+   "appointmentPerSlot": 1,
+   "appointmentPerDay": "",
+   "openHours": [
+    {
+     "daysOfTheWeek": [
+      1
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      2
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      3
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      4
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      5
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    }
+   ],
+   "enableRecurring": false,
+   "recurring": {
+    "monthDays": [],
+    "weekDays": [],
+    "bookingOption": "skip",
+    "count": 1,
+    "freq": "DAILY",
+    "bookingOverlapDefaultStatus": "",
+    "interval": null
+   },
+   "formId": "x7W89Wbdrhx9gyOE7fKa",
+   "stickyContact": false,
+   "isLivePaymentMode": false,
+   "autoConfirm": true,
+   "googleInvitationEmails": true,
+   "allowReschedule": true,
+   "allowCancellation": true,
+   "shouldAssignContactToTeamMember": false,
+   "shouldSkipAssigningContactForExisting": false,
+   "notes": "Phone:- {{contact.phone}}\nEmail:- {{contact.email}}\n\nNeed to make a change to this event?\nReschedule:-\n{{reschedule_link}}\n\nCancel:-\n{{cancellation_link}}",
+   "pixelId": "",
+   "formSubmitType": "ThankYouMessage",
+   "formSubmitRedirectUrl": "https://ascendprimewealth.com/call-confirmed-2",
+   "formSubmitThanksMessage": "Thank you for your appointment request. We will contact you shortly to confirm your request. Please call our office at {{contactMethod}} if you have any questions.",
+   "availabilities": [],
+   "guestType": "collect_detail",
+   "consentLabel": "I confirm that I want to receive content from this company using any contact information I provide.",
+   "calendarCoverImage": "",
+   "lookBusyConfig": {
+    "enabled": false,
+    "lookBusyPercentage": 0
+   },
+   "allowBookingAfterUnit": "hours",
+   "allowBookingAfter": 3,
+   "allowBookingFor": 5,
+   "allowBookingForUnit": "days",
+   "preBufferUnit": "mins",
+   "isActive": true,
+   "enableClientPortalBooking": false
+  },
+  {
+   "id": "7cJBoeYJSutSUQM4HcEY",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "groupId": "gDjmHS95KKsfpl2VcNSG",
+   "teamMembers": [
+    {
+     "priority": 0.5,
+     "selected": true,
+     "userId": "pL5g5OltFmih9dH0T5Nh",
+     "isZoomAdded": "true",
+     "zoomOauthId": "62WYFTn3Owp52vzEL2Ql",
+     "msTeamsOauthId": "",
+     "meetingLocation": "",
+     "locationConfigurations": [
+      {
+       "location": "",
+       "position": 0,
+       "kind": "zoom_conference",
+       "meetingId": "zoom_conference_0",
+       "zoomOauthId": ""
+      }
+     ],
+     "isPrimary": true
+    }
+   ],
+   "eventType": "RoundRobin_OptimizeForEqualDistribution",
+   "name": "Strategic Planning",
+   "description": "",
+   "widgetSlug": "strategicplanningsessions-203892b2-c0bd-46c3-a1ad-dbf45c12e60d",
+   "calendarType": "service_booking",
+   "widgetType": "default",
+   "eventTitle": "{{contact.name}}",
+   "eventColor": "#039BE5",
+   "slotDuration": 60,
+   "slotDurationUnit": "mins",
+   "slotInterval": 15,
+   "slotIntervalUnit": "mins",
+   "slotBufferUnit": "mins",
+   "appoinmentPerSlot": 1,
+   "appoinmentPerDay": 9007199254740991,
+   "appointmentPerSlot": 1,
+   "appointmentPerDay": 9007199254740991,
+   "openHours": [
+    {
+     "daysOfTheWeek": [
+      1
+     ],
+     "hours": [
+      {
+       "openHour": 9,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      2
+     ],
+     "hours": [
+      {
+       "openHour": 9,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      3
+     ],
+     "hours": [
+      {
+       "openHour": 9,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      4
+     ],
+     "hours": [
+      {
+       "openHour": 9,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      5
+     ],
+     "hours": [
+      {
+       "openHour": 9,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      6
+     ],
+     "hours": [
+      {
+       "openHour": 9,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    }
+   ],
+   "enableRecurring": false,
+   "recurring": {
+    "monthDays": [],
+    "weekDays": [],
+    "bookingOption": "skip",
+    "count": 1,
+    "freq": "DAILY",
+    "bookingOverlapDefaultStatus": "",
+    "interval": null
+   },
+   "formId": "",
+   "stickyContact": false,
+   "isLivePaymentMode": false,
+   "autoConfirm": true,
+   "googleInvitationEmails": false,
+   "allowReschedule": true,
+   "allowCancellation": true,
+   "shouldAssignContactToTeamMember": false,
+   "shouldSkipAssigningContactForExisting": false,
+   "notes": "Phone:- {{contact.phone}}\nEmail:- {{contact.email}}\n\nNeed to make a change to this event?\nReschedule:-\n{{reschedule_link}}\n\nCancel:-\n{{cancellation_link}}",
+   "pixelId": "",
+   "formSubmitType": "ThankYouMessage",
+   "formSubmitRedirectUrl": "",
+   "formSubmitThanksMessage": "Thank you for your appointment request. We will contact you shortly to confirm your request. Please call our office at {{location.phone}} if you have any questions.\n",
+   "availabilities": [],
+   "guestType": "collect_detail",
+   "consentLabel": "I confirm that I want to receive content from this company using any contact information I provide.",
+   "calendarCoverImage": "",
+   "lookBusyConfig": {
+    "enabled": false,
+    "lookBusyPercentage": 0
+   },
+   "allowBookingAfterUnit": "days",
+   "allowBookingAfter": 0,
+   "allowBookingForUnit": "days",
+   "preBufferUnit": "mins",
+   "isActive": false,
+   "enableClientPortalBooking": false
+  },
+  {
+   "id": "AWi7tP2qecKsYu4jQclh",
+   "notifications": [
+    {
+     "shouldSendToContact": false,
+     "shouldSendToSelectedUsers": false,
+     "selectedUsers": "",
+     "shouldSendToUser": false,
+     "templateId": "default",
+     "type": "email",
+     "shouldSendToGuest": false
+    }
+   ],
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "groupId": "gDjmHS95KKsfpl2VcNSG",
+   "teamMembers": [],
+   "eventType": "RoundRobin_OptimizeForEqualDistribution",
+   "name": "Performance Management",
+   "description": "",
+   "widgetSlug": "performancemanagementsessions-1e63a153-20b9-458d-b8d3-c2f3510b9919",
+   "calendarType": "service_booking",
+   "widgetType": "default",
+   "eventTitle": "{{contact.name}}",
+   "eventColor": "#039BE5",
+   "slotDuration": 60,
+   "slotDurationUnit": "mins",
+   "slotInterval": 15,
+   "slotIntervalUnit": "mins",
+   "slotBuffer": 0,
+   "slotBufferUnit": "mins",
+   "appoinmentPerSlot": 1,
+   "appoinmentPerDay": 9007199254740991,
+   "appointmentPerSlot": 1,
+   "appointmentPerDay": 9007199254740991,
+   "openHours": [
+    {
+     "hours": [
+      {
+       "closeHour": 17,
+       "openHour": 9,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      1
+     ]
+    },
+    {
+     "hours": [
+      {
+       "closeHour": 17,
+       "openHour": 9,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      2
+     ]
+    },
+    {
+     "hours": [
+      {
+       "closeHour": 17,
+       "openHour": 9,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      3
+     ]
+    },
+    {
+     "hours": [
+      {
+       "closeHour": 17,
+       "openHour": 9,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      4
+     ]
+    },
+    {
+     "hours": [
+      {
+       "closeHour": 17,
+       "openHour": 9,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      5
+     ]
+    },
+    {
+     "hours": [
+      {
+       "closeHour": 17,
+       "openHour": 9,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      6
+     ]
+    }
+   ],
+   "enableRecurring": false,
+   "recurring": {
+    "monthDays": [],
+    "weekDays": [],
+    "bookingOption": "skip",
+    "count": 1,
+    "freq": "DAILY",
+    "bookingOverlapDefaultStatus": "",
+    "interval": null
+   },
+   "formId": "",
+   "stickyContact": false,
+   "autoConfirm": true,
+   "googleInvitationEmails": false,
+   "allowReschedule": true,
+   "allowCancellation": true,
+   "shouldAssignContactToTeamMember": false,
+   "shouldSkipAssigningContactForExisting": false,
+   "notes": "Phone:- {{contact.phone}}\nEmail:- {{contact.email}}\n\nNeed to make a change to this event?\nReschedule:-\n{{reschedule_link}}\n\nCancel:-\n{{cancellation_link}}",
+   "pixelId": "",
+   "formSubmitType": "ThankYouMessage",
+   "formSubmitThanksMessage": "Thank you for your appointment request. We will contact you shortly to confirm your request. Please call our office at {{location.phone}} if you have any questions.",
+   "availabilityType": 0,
+   "availabilities": [],
+   "guestType": "collect_detail",
+   "consentLabel": "I confirm that I want to receive messages from this company using any contact information I provide.",
+   "allowBookingAfterUnit": "days",
+   "allowBookingForUnit": "days",
+   "preBuffer": 0,
+   "preBufferUnit": "mins",
+   "isActive": false,
+   "enableClientPortalBooking": false
+  },
+  {
+   "id": "CnfE07fFlfim7dU47bLH",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "groupId": "",
+   "teamMembers": [
+    {
+     "priority": 1,
+     "selected": true,
+     "userId": "pL5g5OltFmih9dH0T5Nh",
+     "isZoomAdded": "true",
+     "zoomOauthId": "JBqTcrXLAsY7cnnzNcJr",
+     "msTeamsOauthId": "",
+     "meetingLocation": "",
+     "locationConfigurations": [
+      {
+       "location": "",
+       "position": 0,
+       "kind": "zoom_conference",
+       "zoomOauthId": "",
+       "meetingId": "zoom_conference_0"
+      }
+     ],
+     "isPrimary": true
+    }
+   ],
+   "eventType": "RoundRobin_OptimizeForAvailability",
+   "name": "Funding Consultation - Calendar - Ascend Prime Wealth (Professionals)",
+   "description": "<p style=\"margin:0px;color:#10182899; margin: 0px;color: #10182899;\">If you want to learn how to unlock <strong data-end=\"898\" data-start=\"854\">$100K-$500K+ in funding within 30-120 days</strong>, we\u2019ll <strong data-end=\"931\" data-start=\"906\">guarantee the outcome</strong> or <strong data-end=\"952\" data-start=\"935\">you don\u2019t pay</strong> </p><p data-end=\"1116\" data-start=\"1028\" style=\"margin:0px;color:#10182899; text-align: start;margin: 0px;color: #10182899;font-style: normal;font-variant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-indent: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;-webkit-text-stroke-width: 0px;text-decoration-line: none;text-decoration-thickness: auto;text-decoration-style: solid;caret-color: rgb(255, 255, 255);\">This is <strong data-end=\"1044\" data-start=\"1036\">ONLY</strong> for applicants with strong credit profiles <strong data-end=\"1044\" data-start=\"1036\">OR</strong>&nbsp;those with real execution capacity.</p><p data-end=\"1156\" data-start=\"1118\" style=\"margin:0px;color:#10182899; text-align: start;margin: 0px;color: #10182899;font-style: normal;font-variant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-indent: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;-webkit-text-stroke-width: 0px;text-decoration-line: none;text-decoration-thickness: auto;text-decoration-style: solid;caret-color: rgb(255, 255, 255);\"><strong data-end=\"1133\" data-start=\"1118\">Book a call</strong> to see if you qualify.</p>",
+   "widgetSlug": "aaf-round-robin-dbae39cf-4602-4066-b3db-0bae5341ee35dlg6sc",
+   "calendarType": "round_robin",
+   "widgetType": "default",
+   "eventTitle": "{{contact.name}} | Guaranteed Funding",
+   "eventColor": "#039BE5",
+   "slotDuration": 45,
+   "slotDurationUnit": "mins",
+   "slotInterval": 15,
+   "slotIntervalUnit": "mins",
+   "slotBuffer": 15,
+   "slotBufferUnit": "mins",
+   "appoinmentPerSlot": 1,
+   "appoinmentPerDay": "",
+   "appointmentPerSlot": 1,
+   "appointmentPerDay": "",
+   "openHours": [
+    {
+     "daysOfTheWeek": [
+      1
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      2
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      3
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      4
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      5
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    }
+   ],
+   "enableRecurring": false,
+   "recurring": {
+    "monthDays": [],
+    "weekDays": [],
+    "bookingOption": "skip",
+    "count": 1,
+    "freq": "DAILY",
+    "bookingOverlapDefaultStatus": "",
+    "interval": null
+   },
+   "formId": "x7W89Wbdrhx9gyOE7fKa",
+   "stickyContact": false,
+   "isLivePaymentMode": false,
+   "autoConfirm": true,
+   "googleInvitationEmails": true,
+   "allowReschedule": true,
+   "allowCancellation": true,
+   "shouldAssignContactToTeamMember": false,
+   "shouldSkipAssigningContactForExisting": false,
+   "notes": "Phone:- {{contact.phone}}\nEmail:- {{contact.email}}\n\nNeed to make a change to this event?\nReschedule:-\n{{reschedule_link}}\n\nCancel:-\n{{cancellation_link}}",
+   "pixelId": "",
+   "formSubmitType": "RedirectURL",
+   "formSubmitRedirectUrl": "https://ascendprimewealth.com/call-confirmed-2",
+   "formSubmitThanksMessage": "Thank you for your appointment request. We will contact you shortly to confirm your request. Please call our office at {{contactMethod}} if you have any questions.",
+   "availabilities": [],
+   "guestType": "collect_detail",
+   "consentLabel": "I confirm that I want to receive content from this company using any contact information I provide.",
+   "calendarCoverImage": "",
+   "lookBusyConfig": {
+    "enabled": false,
+    "lookBusyPercentage": 0
+   },
+   "allowBookingAfterUnit": "hours",
+   "allowBookingAfter": 3,
+   "allowBookingFor": 5,
+   "allowBookingForUnit": "days",
+   "preBufferUnit": "mins",
+   "isActive": true,
+   "enableClientPortalBooking": false
+  },
+  {
+   "id": "D9sRP976htWgdCqzyIeF",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "groupId": "",
+   "teamMembers": [
+    {
+     "priority": 1,
+     "selected": true,
+     "userId": "pL5g5OltFmih9dH0T5Nh",
+     "isZoomAdded": "true",
+     "zoomOauthId": "JBqTcrXLAsY7cnnzNcJr",
+     "msTeamsOauthId": "",
+     "meetingLocation": "",
+     "locationConfigurations": [
+      {
+       "location": "",
+       "position": 0,
+       "kind": "zoom_conference",
+       "zoomOauthId": "",
+       "meetingId": "zoom_conference_0"
+      }
+     ],
+     "isPrimary": true
+    }
+   ],
+   "eventType": "RoundRobin_OptimizeForAvailability",
+   "name": "Yelp - Funding Consultation - Calendar - Ascend Prime Wealth",
+   "description": "<p style=\"margin:0px;color:#10182899; margin: 0px;color: #10182899;\"><strong data-end=\"810\" data-start=\"750\">720+ Credit Score and Need Funding?</strong><br>If you want to learn how to unlock <strong data-end=\"898\" data-start=\"854\">$50K-$500K+ in funding within as soon as 30~90 days</strong>, we\u2019ll <strong data-end=\"931\" data-start=\"906\">guarantee the outcome</strong> or <strong data-end=\"952\" data-start=\"935\">you don\u2019t pay</strong> - while teaching the exact process &amp; system A-Z so you can do this for yourself, businesses, friends, family, and others; without relying on anyone else!<br></p><p style=\"margin:0px;color:#10182899; text-align: start;margin: 0px;color: #10182899;font-style: normal;font-variant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-indent: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;-webkit-text-stroke-width: 0px;text-decoration-line: none;text-decoration-thickness: auto;text-decoration-style: solid;caret-color: rgb(255, 255, 255);\" data-end=\"1116\" data-start=\"1028\">This is <strong data-end=\"1044\" data-start=\"1036\">ONLY</strong> for applicants with strong credit profiles <strong data-end=\"1044\" data-start=\"1036\">OR</strong>&nbsp;those with real execution capacity.</p><p style=\"margin:0px;color:#10182899; text-align: start;margin: 0px;color: #10182899;font-style: normal;font-variant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-indent: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;-webkit-text-stroke-width: 0px;text-decoration-line: none;text-decoration-thickness: auto;text-decoration-style: solid;caret-color: rgb(255, 255, 255);\" data-end=\"1156\" data-start=\"1118\"><strong data-end=\"1133\" data-start=\"1118\">Book a call</strong> to see if you qualify.</p>",
+   "widgetSlug": "aaf-round-robin-dbae39cf-4602-4066-b3db-0bae5341ee35dxq98h0yjh7h",
+   "calendarType": "round_robin",
+   "widgetType": "default",
+   "eventTitle": "{{contact.name}} | Guarenteed Funding",
+   "eventColor": "#039BE5",
+   "slotDuration": 45,
+   "slotDurationUnit": "mins",
+   "slotInterval": 15,
+   "slotIntervalUnit": "mins",
+   "slotBuffer": 15,
+   "slotBufferUnit": "mins",
+   "appoinmentPerSlot": 1,
+   "appoinmentPerDay": "",
+   "appointmentPerSlot": 1,
+   "appointmentPerDay": "",
+   "openHours": [
+    {
+     "daysOfTheWeek": [
+      1
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      2
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      3
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      4
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      5
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    }
+   ],
+   "enableRecurring": false,
+   "recurring": {
+    "monthDays": [],
+    "weekDays": [],
+    "bookingOption": "skip",
+    "count": 1,
+    "freq": "DAILY",
+    "bookingOverlapDefaultStatus": "",
+    "interval": null
+   },
+   "formId": "awUFSdi1GvrX14fRgVpu",
+   "stickyContact": false,
+   "isLivePaymentMode": false,
+   "autoConfirm": true,
+   "googleInvitationEmails": true,
+   "allowReschedule": true,
+   "allowCancellation": true,
+   "shouldAssignContactToTeamMember": false,
+   "shouldSkipAssigningContactForExisting": false,
+   "notes": "Phone:- {{contact.phone}}\nEmail:- {{contact.email}}\n\nNeed to make a change to this event?\nReschedule:-\n{{reschedule_link}}\n\nCancel:-\n{{cancellation_link}}",
+   "pixelId": "",
+   "formSubmitType": "RedirectURL",
+   "formSubmitRedirectUrl": "https://ascendprimewealth.com/call-confirmed-yelp",
+   "formSubmitThanksMessage": "Thank you for your appointment request. We will contact you shortly to confirm your request. Please call our office at {{contactMethod}} if you have any questions.",
+   "availabilities": [],
+   "guestType": "collect_detail",
+   "consentLabel": "I confirm that I want to receive content from this company using any contact information I provide.",
+   "calendarCoverImage": "",
+   "lookBusyConfig": {
+    "enabled": false,
+    "lookBusyPercentage": 0
+   },
+   "allowBookingAfterUnit": "hours",
+   "allowBookingAfter": 3,
+   "allowBookingFor": 5,
+   "allowBookingForUnit": "days",
+   "preBufferUnit": "mins",
+   "isActive": true,
+   "enableClientPortalBooking": false
+  },
+  {
+   "id": "Hf6Z3yEF9FS7Qrs4HGzr",
+   "notifications": [
+    {
+     "shouldSendToContact": false,
+     "shouldSendToSelectedUsers": false,
+     "selectedUsers": "",
+     "shouldSendToUser": false,
+     "templateId": "default",
+     "type": "email",
+     "shouldSendToGuest": false
+    }
+   ],
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "groupId": "gDjmHS95KKsfpl2VcNSG",
+   "teamMembers": [],
+   "eventType": "RoundRobin_OptimizeForEqualDistribution",
+   "name": "Leadership Development",
+   "description": "",
+   "widgetSlug": "leadershipdevelopmentsessions-c41a8828-0a5c-48bb-8520-360c4e627fd6",
+   "calendarType": "service_booking",
+   "widgetType": "default",
+   "eventTitle": "{{contact.name}}",
+   "eventColor": "#039BE5",
+   "slotDuration": 60,
+   "slotDurationUnit": "mins",
+   "slotInterval": 15,
+   "slotIntervalUnit": "mins",
+   "slotBuffer": 0,
+   "slotBufferUnit": "mins",
+   "appoinmentPerSlot": 1,
+   "appoinmentPerDay": 9007199254740991,
+   "appointmentPerSlot": 1,
+   "appointmentPerDay": 9007199254740991,
+   "openHours": [
+    {
+     "hours": [
+      {
+       "closeHour": 17,
+       "openHour": 9,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      1
+     ]
+    },
+    {
+     "hours": [
+      {
+       "closeHour": 17,
+       "openHour": 9,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      2
+     ]
+    },
+    {
+     "hours": [
+      {
+       "closeHour": 17,
+       "openHour": 9,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      3
+     ]
+    },
+    {
+     "hours": [
+      {
+       "closeHour": 17,
+       "openHour": 9,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      4
+     ]
+    },
+    {
+     "hours": [
+      {
+       "closeHour": 17,
+       "openHour": 9,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      5
+     ]
+    },
+    {
+     "hours": [
+      {
+       "closeHour": 17,
+       "openHour": 9,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      6
+     ]
+    }
+   ],
+   "enableRecurring": false,
+   "recurring": {
+    "monthDays": [],
+    "weekDays": [],
+    "bookingOption": "skip",
+    "count": 1,
+    "freq": "DAILY",
+    "bookingOverlapDefaultStatus": "",
+    "interval": null
+   },
+   "formId": "",
+   "stickyContact": false,
+   "autoConfirm": true,
+   "googleInvitationEmails": false,
+   "allowReschedule": true,
+   "allowCancellation": true,
+   "shouldAssignContactToTeamMember": false,
+   "shouldSkipAssigningContactForExisting": false,
+   "notes": "Phone:- {{contact.phone}}\nEmail:- {{contact.email}}\n\nNeed to make a change to this event?\nReschedule:-\n{{reschedule_link}}\n\nCancel:-\n{{cancellation_link}}",
+   "pixelId": "",
+   "formSubmitType": "ThankYouMessage",
+   "formSubmitThanksMessage": "Thank you for your appointment request. We will contact you shortly to confirm your request. Please call our office at {{location.phone}} if you have any questions.",
+   "availabilityType": 0,
+   "availabilities": [],
+   "guestType": "collect_detail",
+   "consentLabel": "I confirm that I want to receive messages from this company using any contact information I provide.",
+   "allowBookingAfterUnit": "days",
+   "allowBookingForUnit": "days",
+   "preBuffer": 0,
+   "preBufferUnit": "mins",
+   "isActive": false,
+   "enableClientPortalBooking": false
+  },
+  {
+   "id": "PR6xHxdqfm68EhVfem13",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "groupId": "",
+   "teamMembers": [
+    {
+     "priority": 1,
+     "selected": true,
+     "userId": "pL5g5OltFmih9dH0T5Nh",
+     "isZoomAdded": "true",
+     "zoomOauthId": "JBqTcrXLAsY7cnnzNcJr",
+     "msTeamsOauthId": "",
+     "meetingLocation": "",
+     "locationConfigurations": [
+      {
+       "location": "",
+       "position": 0,
+       "kind": "zoom_conference",
+       "zoomOauthId": "",
+       "meetingId": "zoom_conference_0"
+      }
+     ],
+     "isPrimary": true
+    }
+   ],
+   "eventType": "RoundRobin_OptimizeForAvailability",
+   "name": "Onboarding",
+   "description": "<p style=\"margin:0px;color:#10182899\">This onboarding call is to lay out your implementation pathway over the next 3 months so that we have a clear game plan on exactly how we're going to scale you to achieve your goals with funding.</p>",
+   "widgetSlug": "aaf-round-robin39b5a5-f9430a5a-6adf-466c-978f-ed1486b2d509",
+   "calendarType": "round_robin",
+   "widgetType": "default",
+   "eventTitle": "{{contact.name}} | ASCEND PRIME WEALTH ONBOARDING",
+   "eventColor": "#039BE5",
+   "slotDuration": 45,
+   "slotDurationUnit": "mins",
+   "slotInterval": 15,
+   "slotIntervalUnit": "mins",
+   "slotBuffer": 15,
+   "slotBufferUnit": "mins",
+   "appoinmentPerSlot": 1,
+   "appoinmentPerDay": "",
+   "appointmentPerSlot": 1,
+   "appointmentPerDay": "",
+   "openHours": [
+    {
+     "daysOfTheWeek": [
+      1
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      2
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      3
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      4
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      5
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    }
+   ],
+   "enableRecurring": false,
+   "recurring": {
+    "monthDays": [],
+    "weekDays": [],
+    "bookingOption": "skip",
+    "count": 1,
+    "freq": "DAILY",
+    "bookingOverlapDefaultStatus": "",
+    "interval": null
+   },
+   "formId": "",
+   "stickyContact": false,
+   "isLivePaymentMode": false,
+   "autoConfirm": true,
+   "googleInvitationEmails": false,
+   "allowReschedule": true,
+   "allowCancellation": true,
+   "shouldAssignContactToTeamMember": false,
+   "shouldSkipAssigningContactForExisting": false,
+   "notes": "Phone:- {{contact.phone}}\nEmail:- {{contact.email}}\n\nNeed to make a change to this event?\nReschedule:-\n{{reschedule_link}}\n\nCancel:-\n{{cancellation_link}}",
+   "pixelId": "",
+   "formSubmitType": "ThankYouMessage",
+   "formSubmitRedirectUrl": "",
+   "formSubmitThanksMessage": "Thank you for your appointment request. We will contact you shortly to confirm your request. Please call our office at {{contactMethod}} if you have any questions.",
+   "availabilities": [],
+   "guestType": "collect_detail",
+   "consentLabel": "I confirm that I want to receive content from this company using any contact information I provide.",
+   "calendarCoverImage": "",
+   "lookBusyConfig": {
+    "enabled": false,
+    "lookBusyPercentage": 0
+   },
+   "allowBookingAfterUnit": "days",
+   "allowBookingAfter": 1,
+   "allowBookingFor": 4,
+   "allowBookingForUnit": "days",
+   "preBufferUnit": "mins",
+   "isActive": false,
+   "enableClientPortalBooking": false
+  },
+  {
+   "id": "Ru75GPaO3pxFWtaYgAft",
+   "notifications": [
+    {
+     "shouldSendToContact": false,
+     "shouldSendToSelectedUsers": false,
+     "selectedUsers": "",
+     "shouldSendToUser": false,
+     "templateId": "default",
+     "type": "email",
+     "shouldSendToGuest": false
+    }
+   ],
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "groupId": "gDjmHS95KKsfpl2VcNSG",
+   "teamMembers": [],
+   "eventType": "RoundRobin_OptimizeForEqualDistribution",
+   "name": "Marketing and Sales Strategy",
+   "description": "",
+   "widgetSlug": "marketingandsalesstrategy-49b1c486-63d7-4c37-aff7-8d8a4ab4fa68",
+   "calendarType": "service_booking",
+   "widgetType": "default",
+   "eventTitle": "{{contact.name}}",
+   "eventColor": "#039BE5",
+   "slotDuration": 60,
+   "slotDurationUnit": "mins",
+   "slotInterval": 15,
+   "slotIntervalUnit": "mins",
+   "slotBuffer": 0,
+   "slotBufferUnit": "mins",
+   "appoinmentPerSlot": 1,
+   "appoinmentPerDay": 9007199254740991,
+   "appointmentPerSlot": 1,
+   "appointmentPerDay": 9007199254740991,
+   "openHours": [
+    {
+     "hours": [
+      {
+       "closeHour": 0,
+       "openHour": 0,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      1
+     ]
+    },
+    {
+     "hours": [
+      {
+       "closeHour": 0,
+       "openHour": 0,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      2
+     ]
+    },
+    {
+     "hours": [
+      {
+       "closeHour": 0,
+       "openHour": 0,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      3
+     ]
+    },
+    {
+     "hours": [
+      {
+       "closeHour": 0,
+       "openHour": 0,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      4
+     ]
+    },
+    {
+     "hours": [
+      {
+       "closeHour": 0,
+       "openHour": 0,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      5
+     ]
+    },
+    {
+     "hours": [
+      {
+       "closeHour": 0,
+       "openHour": 0,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      6
+     ]
+    }
+   ],
+   "enableRecurring": false,
+   "recurring": {
+    "monthDays": [],
+    "weekDays": [],
+    "bookingOption": "skip",
+    "count": 1,
+    "freq": "DAILY",
+    "bookingOverlapDefaultStatus": "",
+    "interval": null
+   },
+   "formId": "",
+   "stickyContact": false,
+   "autoConfirm": true,
+   "googleInvitationEmails": false,
+   "allowReschedule": true,
+   "allowCancellation": true,
+   "shouldAssignContactToTeamMember": false,
+   "shouldSkipAssigningContactForExisting": false,
+   "notes": "Phone:- {{contact.phone}}\nEmail:- {{contact.email}}\n\nNeed to make a change to this event?\nReschedule:-\n{{reschedule_link}}\n\nCancel:-\n{{cancellation_link}}",
+   "pixelId": "",
+   "formSubmitType": "ThankYouMessage",
+   "formSubmitThanksMessage": "Thank you for your appointment request. We will contact you shortly to confirm your request. Please call our office at {{location.phone}} if you have any questions.",
+   "availabilityType": 0,
+   "availabilities": [],
+   "guestType": "collect_detail",
+   "consentLabel": "I confirm that I want to receive messages from this company using any contact information I provide.",
+   "allowBookingAfterUnit": "days",
+   "allowBookingForUnit": "days",
+   "preBuffer": 0,
+   "preBufferUnit": "mins",
+   "isActive": false,
+   "enableClientPortalBooking": false
+  },
+  {
+   "id": "XXVKKCqTZ9oqktjvkqFc",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "groupId": "",
+   "teamMembers": [
+    {
+     "priority": 1,
+     "selected": true,
+     "userId": "pL5g5OltFmih9dH0T5Nh",
+     "isZoomAdded": "true",
+     "zoomOauthId": "JBqTcrXLAsY7cnnzNcJr",
+     "msTeamsOauthId": "",
+     "meetingLocation": "",
+     "locationConfigurations": [
+      {
+       "location": "",
+       "position": 0,
+       "kind": "zoom_conference",
+       "zoomOauthId": "",
+       "meetingId": "zoom_conference_0"
+      }
+     ],
+     "isPrimary": true
+    }
+   ],
+   "eventType": "RoundRobin_OptimizeForAvailability",
+   "name": "Funding Consultation - Calendar - Ascend Prime Wealth (Personal)",
+   "description": "<p style=\"margin:0px;color:#10182899; margin: 0px;color: #10182899;\"><strong data-end=\"810\" data-start=\"750\">720+ Credit Score and Need Funding?</strong><br>If you want to learn how to unlock <strong data-end=\"898\" data-start=\"854\">$50K-$500K+ in funding within as soon as 7~90 days</strong>, we\u2019ll <strong data-end=\"931\" data-start=\"906\">guarantee the outcome</strong> or <strong data-end=\"952\" data-start=\"935\">you don\u2019t pay</strong> - while teaching the exact process &amp; system A-Z so you can do this for yourself, businesses, friends, family, and others; without relying on anyone else!<br></p><p data-end=\"1116\" data-start=\"1028\" style=\"margin:0px;color:#10182899; text-align: start;margin: 0px;color: #10182899;font-style: normal;font-variant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-indent: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;-webkit-text-stroke-width: 0px;text-decoration-line: none;text-decoration-thickness: auto;text-decoration-style: solid;caret-color: rgb(255, 255, 255);\">This is <strong data-end=\"1044\" data-start=\"1036\">ONLY</strong> for applicants with strong credit profiles <strong data-end=\"1044\" data-start=\"1036\">OR</strong>&nbsp;those with real execution capacity.</p><p data-end=\"1156\" data-start=\"1118\" style=\"margin:0px;color:#10182899; text-align: start;margin: 0px;color: #10182899;font-style: normal;font-variant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-indent: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;-webkit-text-stroke-width: 0px;text-decoration-line: none;text-decoration-thickness: auto;text-decoration-style: solid;caret-color: rgb(255, 255, 255);\"><strong data-end=\"1133\" data-start=\"1118\">Book a call</strong> to see if you qualify.</p>",
+   "widgetSlug": "aaf-round-robin-dbae39cf-4602-4066-b3db-0bae5341ee35dxq98h0yjh7hxxsv1mtb6ryx",
+   "calendarType": "round_robin",
+   "widgetType": "default",
+   "eventTitle": "{{contact.name}} | Guarenteed Funding",
+   "eventColor": "#039BE5",
+   "slotDuration": 45,
+   "slotDurationUnit": "mins",
+   "slotInterval": 15,
+   "slotIntervalUnit": "mins",
+   "slotBuffer": 15,
+   "slotBufferUnit": "mins",
+   "appoinmentPerSlot": 1,
+   "appoinmentPerDay": "",
+   "appointmentPerSlot": 1,
+   "appointmentPerDay": "",
+   "openHours": [
+    {
+     "daysOfTheWeek": [
+      1
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      2
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      3
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      4
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      5
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    }
+   ],
+   "enableRecurring": false,
+   "recurring": {
+    "monthDays": [],
+    "weekDays": [],
+    "bookingOption": "skip",
+    "count": 1,
+    "freq": "DAILY",
+    "bookingOverlapDefaultStatus": "",
+    "interval": null
+   },
+   "formId": "awUFSdi1GvrX14fRgVpu",
+   "stickyContact": false,
+   "isLivePaymentMode": false,
+   "autoConfirm": true,
+   "googleInvitationEmails": true,
+   "allowReschedule": true,
+   "allowCancellation": true,
+   "shouldAssignContactToTeamMember": false,
+   "shouldSkipAssigningContactForExisting": false,
+   "notes": "Phone:- {{contact.phone}}\nEmail:- {{contact.email}}\n\nNeed to make a change to this event?\nReschedule:-\n{{reschedule_link}}\n\nCancel:-\n{{cancellation_link}}",
+   "pixelId": "",
+   "formSubmitType": "RedirectURL",
+   "formSubmitRedirectUrl": "https://ascendprimewealth.com/call-confirmed-instagram",
+   "formSubmitThanksMessage": "Thank you for your appointment request. We will contact you shortly to confirm your request. Please call our office at {{contactMethod}} if you have any questions.",
+   "availabilities": [],
+   "guestType": "collect_detail",
+   "consentLabel": "I confirm that I want to receive content from this company using any contact information I provide.",
+   "calendarCoverImage": "",
+   "lookBusyConfig": {
+    "enabled": false,
+    "lookBusyPercentage": 0
+   },
+   "allowBookingAfterUnit": "mins",
+   "allowBookingAfter": 1,
+   "allowBookingForUnit": "days",
+   "preBufferUnit": "mins",
+   "isActive": true,
+   "enableClientPortalBooking": false
+  },
+  {
+   "id": "a7yxeJbS3Lvhp6K6FSVq",
+   "notifications": [
+    {
+     "shouldSendToContact": false,
+     "shouldSendToSelectedUsers": false,
+     "selectedUsers": "",
+     "shouldSendToUser": false,
+     "templateId": "default",
+     "type": "email",
+     "shouldSendToGuest": false
+    }
+   ],
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "groupId": "gDjmHS95KKsfpl2VcNSG",
+   "teamMembers": [],
+   "eventType": "RoundRobin_OptimizeForEqualDistribution",
+   "name": "Financial Planning and Analysis",
+   "description": "",
+   "widgetSlug": "financialplanningandanalysis-2520f908-51f9-4ae2-b20d-163a0805b2cc",
+   "calendarType": "service_booking",
+   "widgetType": "default",
+   "eventTitle": "{{contact.name}}",
+   "eventColor": "#039BE5",
+   "slotDuration": 60,
+   "slotDurationUnit": "mins",
+   "slotInterval": 15,
+   "slotIntervalUnit": "mins",
+   "slotBuffer": 0,
+   "slotBufferUnit": "mins",
+   "appoinmentPerSlot": 1,
+   "appoinmentPerDay": 9007199254740991,
+   "appointmentPerSlot": 1,
+   "appointmentPerDay": 9007199254740991,
+   "openHours": [
+    {
+     "hours": [
+      {
+       "closeHour": 17,
+       "openHour": 9,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      1
+     ]
+    },
+    {
+     "hours": [
+      {
+       "closeHour": 17,
+       "openHour": 9,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      2
+     ]
+    },
+    {
+     "hours": [
+      {
+       "closeHour": 17,
+       "openHour": 9,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      3
+     ]
+    },
+    {
+     "hours": [
+      {
+       "closeHour": 17,
+       "openHour": 9,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      4
+     ]
+    },
+    {
+     "hours": [
+      {
+       "closeHour": 17,
+       "openHour": 9,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      5
+     ]
+    },
+    {
+     "hours": [
+      {
+       "closeHour": 17,
+       "openHour": 9,
+       "closeMinute": 0,
+       "openMinute": 0
+      }
+     ],
+     "daysOfTheWeek": [
+      6
+     ]
+    }
+   ],
+   "enableRecurring": false,
+   "recurring": {
+    "monthDays": [],
+    "weekDays": [],
+    "bookingOption": "skip",
+    "count": 1,
+    "freq": "DAILY",
+    "bookingOverlapDefaultStatus": "",
+    "interval": null
+   },
+   "formId": "",
+   "stickyContact": false,
+   "autoConfirm": true,
+   "googleInvitationEmails": false,
+   "allowReschedule": true,
+   "allowCancellation": true,
+   "shouldAssignContactToTeamMember": false,
+   "shouldSkipAssigningContactForExisting": false,
+   "notes": "Phone:- {{contact.phone}}\nEmail:- {{contact.email}}\n\nNeed to make a change to this event?\nReschedule:-\n{{reschedule_link}}\n\nCancel:-\n{{cancellation_link}}",
+   "pixelId": "",
+   "formSubmitType": "ThankYouMessage",
+   "formSubmitThanksMessage": "Thank you for your appointment request. We will contact you shortly to confirm your request. Please call our office at {{location.phone}} if you have any questions.",
+   "availabilityType": 0,
+   "availabilities": [],
+   "guestType": "collect_detail",
+   "consentLabel": "I confirm that I want to receive messages from this company using any contact information I provide.",
+   "allowBookingAfterUnit": "days",
+   "allowBookingForUnit": "days",
+   "preBuffer": 0,
+   "preBufferUnit": "mins",
+   "isActive": false,
+   "enableClientPortalBooking": false
+  },
+  {
+   "id": "aX0JwAUqqxxrcphTKRw7",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "groupId": "",
+   "teamMembers": [
+    {
+     "priority": 1,
+     "selected": true,
+     "userId": "pL5g5OltFmih9dH0T5Nh",
+     "isZoomAdded": "true",
+     "zoomOauthId": "JBqTcrXLAsY7cnnzNcJr",
+     "msTeamsOauthId": "",
+     "meetingLocation": "",
+     "locationConfigurations": [
+      {
+       "location": "",
+       "position": 0,
+       "kind": "zoom_conference",
+       "zoomOauthId": "",
+       "meetingId": "zoom_conference_0"
+      }
+     ],
+     "isPrimary": true
+    }
+   ],
+   "eventType": "RoundRobin_OptimizeForAvailability",
+   "name": "Instagram - Funding Consultation - Calendar - Ascend Prime Wealth",
+   "description": "<p style=\"margin:0px;color:#10182899; margin: 0px;color: #10182899;\"><strong data-end=\"810\" data-start=\"750\">720+ Credit Score and Need Funding?</strong><br>If you want to learn how to unlock <strong data-end=\"898\" data-start=\"854\">$50K-$500K+ in funding within as soon as 7~90 days</strong>, we\u2019ll <strong data-end=\"931\" data-start=\"906\">guarantee the outcome</strong> or <strong data-end=\"952\" data-start=\"935\">you don\u2019t pay</strong> - while teaching the exact process &amp; system A-Z so you can do this for yourself, businesses, friends, family, and others; without relying on anyone else!<br></p><p data-end=\"1116\" data-start=\"1028\" style=\"margin:0px;color:#10182899; text-align: start;margin: 0px;color: #10182899;font-style: normal;font-variant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-indent: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;-webkit-text-stroke-width: 0px;text-decoration-line: none;text-decoration-thickness: auto;text-decoration-style: solid;caret-color: rgb(255, 255, 255);\">This is <strong data-end=\"1044\" data-start=\"1036\">ONLY</strong> for applicants with strong credit profiles <strong data-end=\"1044\" data-start=\"1036\">OR</strong>&nbsp;those with real execution capacity.</p><p data-end=\"1156\" data-start=\"1118\" style=\"margin:0px;color:#10182899; text-align: start;margin: 0px;color: #10182899;font-style: normal;font-variant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-indent: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;-webkit-text-stroke-width: 0px;text-decoration-line: none;text-decoration-thickness: auto;text-decoration-style: solid;caret-color: rgb(255, 255, 255);\"><strong data-end=\"1133\" data-start=\"1118\">Book a call</strong> to see if you qualify.</p>",
+   "widgetSlug": "aaf-round-robin-dbae39cf-4602-4066-b3db-0bae5341ee35dxq98h0yjh7hxxsv1m",
+   "calendarType": "round_robin",
+   "widgetType": "default",
+   "eventTitle": "{{contact.name}} | Guarenteed Funding",
+   "eventColor": "#039BE5",
+   "slotDuration": 45,
+   "slotDurationUnit": "mins",
+   "slotInterval": 15,
+   "slotIntervalUnit": "mins",
+   "slotBuffer": 15,
+   "slotBufferUnit": "mins",
+   "appoinmentPerSlot": 1,
+   "appoinmentPerDay": "",
+   "appointmentPerSlot": 1,
+   "appointmentPerDay": "",
+   "openHours": [
+    {
+     "daysOfTheWeek": [
+      1
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      2
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      3
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      4
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      5
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    }
+   ],
+   "enableRecurring": false,
+   "recurring": {
+    "monthDays": [],
+    "weekDays": [],
+    "bookingOption": "skip",
+    "count": 1,
+    "freq": "DAILY",
+    "bookingOverlapDefaultStatus": "",
+    "interval": null
+   },
+   "formId": "awUFSdi1GvrX14fRgVpu",
+   "stickyContact": false,
+   "isLivePaymentMode": false,
+   "autoConfirm": true,
+   "googleInvitationEmails": true,
+   "allowReschedule": true,
+   "allowCancellation": true,
+   "shouldAssignContactToTeamMember": false,
+   "shouldSkipAssigningContactForExisting": false,
+   "notes": "Phone:- {{contact.phone}}\nEmail:- {{contact.email}}\n\nNeed to make a change to this event?\nReschedule:-\n{{reschedule_link}}\n\nCancel:-\n{{cancellation_link}}",
+   "pixelId": "",
+   "formSubmitType": "RedirectURL",
+   "formSubmitRedirectUrl": "https://ascendprimewealth.com/call-confirmed-instagram",
+   "formSubmitThanksMessage": "Thank you for your appointment request. We will contact you shortly to confirm your request. Please call our office at {{contactMethod}} if you have any questions.",
+   "availabilities": [],
+   "guestType": "collect_detail",
+   "consentLabel": "I confirm that I want to receive content from this company using any contact information I provide.",
+   "calendarCoverImage": "",
+   "lookBusyConfig": {
+    "enabled": false,
+    "lookBusyPercentage": 0
+   },
+   "allowBookingAfterUnit": "hours",
+   "allowBookingAfter": 12,
+   "allowBookingFor": 4,
+   "allowBookingForUnit": "days",
+   "preBufferUnit": "mins",
+   "isActive": true,
+   "enableClientPortalBooking": false
+  },
+  {
+   "id": "blMSA6KSs23NV4qIKWuv",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "groupId": "",
+   "teamMembers": [
+    {
+     "priority": 0.5,
+     "selected": true,
+     "userId": "pL5g5OltFmih9dH0T5Nh",
+     "isZoomAdded": "true",
+     "zoomOauthId": "JBqTcrXLAsY7cnnzNcJr",
+     "msTeamsOauthId": "",
+     "meetingLocation": "",
+     "locationConfigurations": [
+      {
+       "location": "",
+       "position": 0,
+       "kind": "zoom_conference",
+       "zoomOauthId": "",
+       "meetingId": "zoom_conference_0"
+      }
+     ],
+     "isPrimary": true
+    }
+   ],
+   "eventType": "RoundRobin_OptimizeForAvailability",
+   "name": "Scorecard Interview w/ Ascend Prime Wealth",
+   "description": "",
+   "widgetSlug": "aaf-round-robin6kjdal-4e8c84d7-7d68-4fdf-93db-4185c8affbbc",
+   "calendarType": "round_robin",
+   "widgetType": "default",
+   "eventTitle": "{{contact.name}} | Scorecard Interview w/ Ascend Prime Wealth",
+   "eventColor": "#039BE5",
+   "slotDuration": 45,
+   "slotDurationUnit": "mins",
+   "slotInterval": 15,
+   "slotIntervalUnit": "mins",
+   "slotBuffer": 15,
+   "slotBufferUnit": "mins",
+   "appoinmentPerSlot": 1,
+   "appoinmentPerDay": "",
+   "appointmentPerSlot": 1,
+   "appointmentPerDay": "",
+   "openHours": [
+    {
+     "daysOfTheWeek": [
+      1
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      2
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      3
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      4
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      5
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    }
+   ],
+   "enableRecurring": false,
+   "recurring": {
+    "monthDays": [],
+    "weekDays": [],
+    "bookingOption": "skip",
+    "count": 1,
+    "freq": "DAILY",
+    "bookingOverlapDefaultStatus": "",
+    "interval": null
+   },
+   "formId": "8Da5w5NPOOT6FpHfU4bc",
+   "stickyContact": false,
+   "isLivePaymentMode": false,
+   "autoConfirm": true,
+   "googleInvitationEmails": false,
+   "allowReschedule": true,
+   "allowCancellation": true,
+   "shouldAssignContactToTeamMember": false,
+   "shouldSkipAssigningContactForExisting": false,
+   "notes": "Phone:- {{contact.phone}}\nEmail:- {{contact.email}}\n\nNeed to make a change to this event?\nReschedule:-\n{{reschedule_link}}\n\nCancel:-\n{{cancellation_link}}",
+   "pixelId": "",
+   "formSubmitType": "ThankYouMessage",
+   "formSubmitRedirectUrl": "",
+   "formSubmitThanksMessage": "Thank you for your appointment request. We will contact you shortly to confirm your request. Please call our office at {{contactMethod}} if you have any questions.",
+   "availabilities": [],
+   "guestType": "collect_detail",
+   "consentLabel": "I confirm that I want to receive content from this company using any contact information I provide.",
+   "calendarCoverImage": "",
+   "lookBusyConfig": {
+    "enabled": false,
+    "lookBusyPercentage": 0
+   },
+   "allowBookingAfterUnit": "days",
+   "allowBookingAfter": 1,
+   "allowBookingFor": 4,
+   "allowBookingForUnit": "days",
+   "preBufferUnit": "mins",
+   "isActive": true,
+   "enableClientPortalBooking": false
+  },
+  {
+   "id": "gaizNU9PDPS7Tp6nMBPo",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "groupId": "",
+   "teamMembers": [
+    {
+     "priority": 1,
+     "selected": true,
+     "userId": "pL5g5OltFmih9dH0T5Nh",
+     "isZoomAdded": "true",
+     "zoomOauthId": "JBqTcrXLAsY7cnnzNcJr",
+     "msTeamsOauthId": "",
+     "meetingLocation": "",
+     "locationConfigurations": [
+      {
+       "location": "",
+       "position": 0,
+       "kind": "zoom_conference",
+       "zoomOauthId": "",
+       "meetingId": "zoom_conference_0"
+      }
+     ],
+     "isPrimary": true
+    }
+   ],
+   "eventType": "RoundRobin_OptimizeForAvailability",
+   "name": "Funding Consultation - Calendar - Ascend Prime Wealth",
+   "description": "<p style=\"margin:0px;color:#10182899; margin: 0px;color: #10182899;\"><strong data-start=\"750\" data-end=\"810\">Medical Practice Owners</strong><br>If you want to learn how to unlock <strong data-start=\"854\" data-end=\"898\">$100K-$500K+ in funding within 30-120 days</strong>, we\u2019ll <strong data-start=\"906\" data-end=\"931\">guarantee the outcome</strong> or <strong data-start=\"935\" data-end=\"952\">you don\u2019t pay</strong> - while teaching the exact process &amp; system A-Z so you can do this for yourself, businesses, friends, family, and others; without relying on anyone else!<br></p><p data-start=\"1028\" data-end=\"1116\" style=\"margin:0px;color:#10182899; text-align: start;margin: 0px;color: #10182899;font-style: normal;font-variant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-indent: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;-webkit-text-stroke-width: 0px;text-decoration-line: none;text-decoration-thickness: auto;text-decoration-style: solid;caret-color: rgb(255, 255, 255);\">This is <strong data-start=\"1036\" data-end=\"1044\">ONLY</strong> for applicants with strong credit profiles <strong data-start=\"1036\" data-end=\"1044\">OR</strong>&nbsp;those with real execution capacity.</p><p data-start=\"1118\" data-end=\"1156\" style=\"margin:0px;color:#10182899; text-align: start;margin: 0px;color: #10182899;font-style: normal;font-variant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-indent: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;-webkit-text-stroke-width: 0px;text-decoration-line: none;text-decoration-thickness: auto;text-decoration-style: solid;caret-color: rgb(255, 255, 255);\"><strong data-start=\"1118\" data-end=\"1133\">Book a call</strong> to see if you qualify.</p>",
+   "widgetSlug": "aaf-round-robin-dbae39cf-4602-4066-b3db-0bae5341ee35",
+   "calendarType": "round_robin",
+   "widgetType": "default",
+   "eventTitle": "{{contact.name}} | Guarenteed Funding",
+   "eventColor": "#039BE5",
+   "slotDuration": 45,
+   "slotDurationUnit": "mins",
+   "slotInterval": 15,
+   "slotIntervalUnit": "mins",
+   "slotBuffer": 15,
+   "slotBufferUnit": "mins",
+   "appoinmentPerSlot": 1,
+   "appoinmentPerDay": "",
+   "appointmentPerSlot": 1,
+   "appointmentPerDay": "",
+   "openHours": [
+    {
+     "daysOfTheWeek": [
+      1
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      2
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      3
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      4
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      5
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    }
+   ],
+   "enableRecurring": false,
+   "recurring": {
+    "monthDays": [],
+    "weekDays": [],
+    "bookingOption": "skip",
+    "count": 1,
+    "freq": "DAILY",
+    "bookingOverlapDefaultStatus": "",
+    "interval": null
+   },
+   "formId": "awUFSdi1GvrX14fRgVpu",
+   "stickyContact": false,
+   "isLivePaymentMode": false,
+   "autoConfirm": true,
+   "googleInvitationEmails": true,
+   "allowReschedule": true,
+   "allowCancellation": true,
+   "shouldAssignContactToTeamMember": false,
+   "shouldSkipAssigningContactForExisting": false,
+   "notes": "Phone:- {{contact.phone}}\nEmail:- {{contact.email}}\n\nNeed to make a change to this event?\nReschedule:-\n{{reschedule_link}}\n\nCancel:-\n{{cancellation_link}}",
+   "pixelId": "",
+   "formSubmitType": "RedirectURL",
+   "formSubmitRedirectUrl": "https://ascendprimewealth.com/call-confirmed-s",
+   "formSubmitThanksMessage": "Thank you for your appointment request. We will contact you shortly to confirm your request. Please call our office at {{contactMethod}} if you have any questions.",
+   "availabilities": [],
+   "guestType": "collect_detail",
+   "consentLabel": "I confirm that I want to receive content from this company using any contact information I provide.",
+   "calendarCoverImage": "",
+   "lookBusyConfig": {
+    "enabled": false,
+    "lookBusyPercentage": 0
+   },
+   "allowBookingAfterUnit": "hours",
+   "allowBookingAfter": 12,
+   "allowBookingFor": 4,
+   "allowBookingForUnit": "days",
+   "preBufferUnit": "mins",
+   "isActive": true,
+   "enableClientPortalBooking": false
+  },
+  {
+   "id": "rXOgEYVeAMePzA7ELgkK",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "groupId": "",
+   "teamMembers": [
+    {
+     "priority": 1,
+     "selected": true,
+     "userId": "pL5g5OltFmih9dH0T5Nh",
+     "isZoomAdded": "true",
+     "zoomOauthId": "JBqTcrXLAsY7cnnzNcJr",
+     "msTeamsOauthId": "",
+     "meetingLocation": "",
+     "locationConfigurations": [
+      {
+       "location": "",
+       "position": 0,
+       "kind": "zoom_conference",
+       "zoomOauthId": "",
+       "meetingId": "zoom_conference_0"
+      }
+     ],
+     "isPrimary": true
+    }
+   ],
+   "eventType": "RoundRobin_OptimizeForAvailability",
+   "name": "Funding Consultation - Calendar - Ascend Prime Wealth (S)",
+   "description": "<p style=\"margin:0px;color:#10182899; margin: 0px;color: #10182899;\"><strong>W2/Business Owner</strong><br>If you want to learn how to unlock <strong data-end=\"898\" data-start=\"854\">$100K-$500K+ in funding within 30-120 days</strong>, we\u2019ll <strong data-end=\"931\" data-start=\"906\">guarantee the outcome</strong> or <strong data-end=\"952\" data-start=\"935\">you don\u2019t pay</strong> - while teaching the exact process &amp; system A-Z so you can do this for yourself, businesses, friends, family, and others; without relying on anyone else!<br></p><p data-end=\"1116\" data-start=\"1028\" style=\"margin:0px;color:#10182899; text-align: start;margin: 0px;color: #10182899;font-style: normal;font-variant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-indent: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;-webkit-text-stroke-width: 0px;text-decoration-line: none;text-decoration-thickness: auto;text-decoration-style: solid;caret-color: rgb(255, 255, 255);\">This is <strong data-end=\"1044\" data-start=\"1036\">ONLY</strong> for applicants with strong credit profiles <strong data-end=\"1044\" data-start=\"1036\">OR</strong>&nbsp;those with real execution capacity.</p><p data-end=\"1156\" data-start=\"1118\" style=\"margin:0px;color:#10182899; text-align: start;margin: 0px;color: #10182899;font-style: normal;font-variant-caps: normal;font-weight: 400;letter-spacing: normal;orphans: 2;text-indent: 0px;text-transform: none;white-space: normal;widows: 2;word-spacing: 0px;-webkit-text-stroke-width: 0px;text-decoration-line: none;text-decoration-thickness: auto;text-decoration-style: solid;caret-color: rgb(255, 255, 255);\"><strong data-end=\"1133\" data-start=\"1118\">Book a call</strong> to see if you qualify.</p>",
+   "widgetSlug": "aaf-round-robin-dbae39cf-4602-4066-b3db-0bae5341ee35wfyv3g",
+   "calendarType": "round_robin",
+   "widgetType": "default",
+   "eventTitle": "{{contact.name}} | Guarenteed Funding",
+   "eventColor": "#039BE5",
+   "slotDuration": 45,
+   "slotDurationUnit": "mins",
+   "slotInterval": 15,
+   "slotIntervalUnit": "mins",
+   "slotBuffer": 15,
+   "slotBufferUnit": "mins",
+   "appoinmentPerSlot": 1,
+   "appoinmentPerDay": "",
+   "appointmentPerSlot": 1,
+   "appointmentPerDay": "",
+   "openHours": [
+    {
+     "daysOfTheWeek": [
+      1
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      2
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      3
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      4
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      5
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    }
+   ],
+   "enableRecurring": false,
+   "recurring": {
+    "monthDays": [],
+    "weekDays": [],
+    "bookingOption": "skip",
+    "count": 1,
+    "freq": "DAILY",
+    "bookingOverlapDefaultStatus": "",
+    "interval": null
+   },
+   "formId": "awUFSdi1GvrX14fRgVpu",
+   "stickyContact": false,
+   "isLivePaymentMode": false,
+   "autoConfirm": true,
+   "googleInvitationEmails": false,
+   "allowReschedule": true,
+   "allowCancellation": true,
+   "shouldAssignContactToTeamMember": false,
+   "shouldSkipAssigningContactForExisting": false,
+   "notes": "Phone:- {{contact.phone}}\nEmail:- {{contact.email}}\n\nNeed to make a change to this event?\nReschedule:-\n{{reschedule_link}}\n\nCancel:-\n{{cancellation_link}}",
+   "pixelId": "",
+   "formSubmitType": "RedirectURL",
+   "formSubmitRedirectUrl": "https://ascendprimewealth.com/call-confirmed-2",
+   "formSubmitThanksMessage": "Thank you for your appointment request. We will contact you shortly to confirm your request. Please call our office at {{contactMethod}} if you have any questions.",
+   "availabilities": [],
+   "guestType": "collect_detail",
+   "consentLabel": "I confirm that I want to receive content from this company using any contact information I provide.",
+   "calendarCoverImage": "",
+   "lookBusyConfig": {
+    "enabled": false,
+    "lookBusyPercentage": 0
+   },
+   "allowBookingAfterUnit": "hours",
+   "allowBookingAfter": 12,
+   "allowBookingFor": 4,
+   "allowBookingForUnit": "days",
+   "preBufferUnit": "mins",
+   "isActive": true,
+   "enableClientPortalBooking": false
+  },
+  {
+   "id": "u6EcVZDec6rfRxwvtj24",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "groupId": "",
+   "teamMembers": [
+    {
+     "priority": 1,
+     "selected": true,
+     "userId": "pL5g5OltFmih9dH0T5Nh",
+     "isZoomAdded": "true",
+     "zoomOauthId": "JBqTcrXLAsY7cnnzNcJr",
+     "msTeamsOauthId": "",
+     "meetingLocation": "",
+     "locationConfigurations": [
+      {
+       "location": "",
+       "position": 0,
+       "kind": "zoom_conference",
+       "zoomOauthId": "",
+       "meetingId": "zoom_conference_0"
+      }
+     ],
+     "isPrimary": true
+    }
+   ],
+   "eventType": "RoundRobin_OptimizeForAvailability",
+   "name": "MBI Interview w/ Ascend Prime Wealth",
+   "description": "",
+   "widgetSlug": "mbi-int-rr-e7c8e686-2f9f-45c6-a09d-7e830402ad08",
+   "calendarType": "round_robin",
+   "widgetType": "default",
+   "eventTitle": "{{contact.name}} | Interview w/ Ascend Prime Wealth",
+   "eventColor": "#039BE5",
+   "slotDuration": 45,
+   "slotDurationUnit": "mins",
+   "slotInterval": 15,
+   "slotIntervalUnit": "mins",
+   "slotBuffer": 15,
+   "slotBufferUnit": "mins",
+   "appoinmentPerSlot": 1,
+   "appoinmentPerDay": "",
+   "appointmentPerSlot": 1,
+   "appointmentPerDay": "",
+   "openHours": [
+    {
+     "daysOfTheWeek": [
+      1
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      2
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      3
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      4
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      5
+     ],
+     "hours": [
+      {
+       "openHour": 8,
+       "openMinute": 0,
+       "closeHour": 17,
+       "closeMinute": 0
+      }
+     ]
+    }
+   ],
+   "enableRecurring": false,
+   "recurring": {
+    "monthDays": [],
+    "weekDays": [],
+    "bookingOption": "skip",
+    "count": 1,
+    "freq": "DAILY",
+    "bookingOverlapDefaultStatus": "",
+    "interval": null
+   },
+   "formId": "",
+   "stickyContact": false,
+   "isLivePaymentMode": false,
+   "autoConfirm": true,
+   "googleInvitationEmails": false,
+   "allowReschedule": true,
+   "allowCancellation": true,
+   "shouldAssignContactToTeamMember": false,
+   "shouldSkipAssigningContactForExisting": false,
+   "notes": "Phone:- {{contact.phone}}\nEmail:- {{contact.email}}\n\nNeed to make a change to this event?\nReschedule:-\n{{reschedule_link}}\n\nCancel:-\n{{cancellation_link}}",
+   "pixelId": "",
+   "formSubmitType": "ThankYouMessage",
+   "formSubmitRedirectUrl": "",
+   "formSubmitThanksMessage": "Thank you for your appointment request. We will contact you shortly to confirm your request. Please call our office at {{contactMethod}} if you have any questions.",
+   "availabilities": [],
+   "guestType": "collect_detail",
+   "consentLabel": "I confirm that I want to receive content from this company using any contact information I provide.",
+   "calendarCoverImage": "",
+   "lookBusyConfig": {
+    "enabled": false,
+    "lookBusyPercentage": 0
+   },
+   "allowBookingAfterUnit": "days",
+   "allowBookingAfter": 1,
+   "allowBookingFor": 4,
+   "allowBookingForUnit": "days",
+   "preBufferUnit": "mins",
+   "isActive": true,
+   "enableClientPortalBooking": false
+  },
+  {
+   "id": "x4jgCvHTqDOGnngUdpiu",
+   "locationId": "WFkoNzKa9J9PxhngsLfl",
+   "groupId": "",
+   "teamMembers": [],
+   "name": "Funding Consultation",
+   "description": "<p style=\"margin:0px;color:#10182899\">A pre-paid consultation on us - to dive deep into your current constraints, while implementing a personalized strategic solution; custom-tailored to your needs for growth &amp; transformation.</p>",
+   "widgetSlug": "bookwithusgym-dd37947d-fe0f-46a4-b8f2-a62219276158-b473d2a3-ea5d-4467-b918-6050ecb31703-9fd0c498-20b7-4a18-be1a-005411b31415",
+   "calendarType": "event",
+   "widgetType": "default",
+   "eventTitle": "{{contact.name}} | Guaranteed Funding",
+   "eventColor": "#039BE5",
+   "meetingLocation": "",
+   "slotDuration": 30,
+   "slotDurationUnit": "mins",
+   "slotInterval": 30,
+   "slotIntervalUnit": "mins",
+   "slotBufferUnit": "mins",
+   "appoinmentPerSlot": 1,
+   "appoinmentPerDay": "",
+   "appointmentPerSlot": 1,
+   "appointmentPerDay": "",
+   "openHours": [
+    {
+     "daysOfTheWeek": [
+      0
+     ],
+     "hours": [
+      {
+       "openHour": 15,
+       "openMinute": 0,
+       "closeHour": 18,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      1
+     ],
+     "hours": [
+      {
+       "openHour": 10,
+       "openMinute": 0,
+       "closeHour": 20,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      2
+     ],
+     "hours": [
+      {
+       "openHour": 10,
+       "openMinute": 0,
+       "closeHour": 20,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      3
+     ],
+     "hours": [
+      {
+       "openHour": 10,
+       "openMinute": 0,
+       "closeHour": 20,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      4
+     ],
+     "hours": [
+      {
+       "openHour": 10,
+       "openMinute": 0,
+       "closeHour": 20,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      5
+     ],
+     "hours": [
+      {
+       "openHour": 10,
+       "openMinute": 0,
+       "closeHour": 20,
+       "closeMinute": 0
+      }
+     ]
+    },
+    {
+     "daysOfTheWeek": [
+      6
+     ],
+     "hours": [
+      {
+       "openHour": 14,
+       "openMinute": 0,
+       "closeHour": 20,
+       "closeMinute": 0
+      }
+     ]
+    }
+   ],
+   "enableRecurring": false,
+   "recurring": {
+    "monthDays": [],
+    "weekDays": [],
+    "bookingOption": "skip",
+    "count": 1,
+    "freq": "DAILY",
+    "bookingOverlapDefaultStatus": "",
+    "interval": null
+   },
+   "formId": "",
+   "stickyContact": false,
+   "isLivePaymentMode": false,
+   "autoConfirm": true,
+   "googleInvitationEmails": false,
+   "allowReschedule": true,
+   "allowCancellation": true,
+   "shouldAssignContactToTeamMember": false,
+   "shouldSkipAssigningContactForExisting": false,
+   "notes": "Phone:- {{contact.phone}}\nEmail:- {{contact.email}}\n\nNeed to make a change to this event?\nReschedule:-\n{{reschedule_link}}\n\nCancel:-\n{{cancellation_link}}",
+   "pixelId": "",
+   "formSubmitType": "ThankYouMessage",
+   "formSubmitRedirectUrl": "",
+   "formSubmitThanksMessage": "Thank you for your appointment request. We will contact you shortly to confirm your request. Please call our office at {{location.phone}} if you have any questions.",
+   "availabilities": [],
+   "guestType": "collect_detail",
+   "consentLabel": "I confirm that I want to receive messages from this company using any contact information I provide.",
+   "calendarCoverImage": "",
+   "lookBusyConfig": {
+    "enabled": false,
+    "lookBusyPercentage": 0
+   },
+   "allowBookingAfterUnit": "days",
+   "allowBookingAfter": 0,
+   "allowBookingFor": 2,
+   "allowBookingForUnit": "days",
+   "preBufferUnit": "mins",
+   "isActive": false,
+   "enableClientPortalBooking": false
+  }
+ ],
+ "traceId": "82dc564c-65e9-4b92-a203-405c2394fd2f"
+}
