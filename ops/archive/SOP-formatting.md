@@ -1,6 +1,8 @@
-# Archive Formatting, Navigation & Transcription SOP — v1.1 (2026-08-30)
+# Formatting, Navigation & Transcription SOP — v1.2 (2026-08-30) — ALL-LANES STANDARD
 
 > 🧭 [Start Here](START-HERE.md) · [Archive home](README.md)
+
+**SCOPE (v1.2, per Alan 2026-08-30):** this standard is binding on **every lane — current, continued, and future** — not just the archive. Alan, verbatim: *"make sure all lanes are like this, as well as future lanes. current, continued, and future… this organizational thing UI friendly is good, we need it for all other lanes now, and future standard."* Any lane creating human-facing files (dashboards, data notes, dossiers, exports, logs meant for reading) applies the laws below to its own surface: landing page or hub entry, 🧭 breadcrumbs, both-ways clickable indexes, no giant text blocks. The drop-in text for `ops/SOP.md` (Lane 1's single-writer file) is staged at [for-lane-1/SOP-navigation-amendment.md](for-lane-1/SOP-navigation-amendment.md).
 
 **TLDR:** No giant blocks of text, ever. Every transcript gets a header, 10-minute chapters, and a clickable table of contents; anything huge is split into linked part-files; every long audio is transcribed in chapters. Two committed tools do this automatically on every run, on any machine. Verbatim content is never altered — structure is only ever ADDED.
 
@@ -55,6 +57,6 @@ The 3 oversize Grace recordings (>10 MB Slack API cap) and the 43 ScaleClients-h
 
 - Slack **channel exports** are already structured (date/topic headings, bolded speakers, grouped logistics) — the SPLIT law applies to them too if one ever exceeds ~150 KB.
 - **Summaries** stay short by design (TANDEM law: summary beside transcript, never replacing it).
-- This SOP extends — never overrides — the repo-wide laws in `ops/SOP.md` (VERBATIM, RAW-ORIGINALS, EVIDENCE, SCAN-READY, coexistence-on-conflict). FOR LANE 1: please register this file and fold its laws into the next SOP.md version.
+- This SOP extends — never overrides — the repo-wide laws in `ops/SOP.md` (v1.2 read 2026-08-30: Law 0 Never-Miss, Laws 1–8, §1.9 Interaction Protocol — all honored here). FOR LANE 1: exact drop-in amendment (proposed Law 9 NAVIGATION/UI + ritual step 4b + CLAUDE.md line) is ready at [for-lane-1/SOP-navigation-amendment.md](for-lane-1/SOP-navigation-amendment.md) — please fold into the next SOP.md version and add the LANE-SYNC line suggested there.
 
 **Simple TLDR:** run the two tools at the end of every session; they make everything chaptered, clickable, and split — without ever changing a word.

@@ -113,3 +113,23 @@ Every channel in `channels/INDEX.md` now has ✅ (export complete) or ✅-empty 
 ## Batch: audio sweep 2 — external channels (2026-08-30)
 
 Workspace file search does NOT cover Slack Connect channels. Manual sweep of both external channels found **65 more voice notes**. Alan's own 22 downloaded ✅ into `slack/audio/files/` (45 .m4a total now); the 43 posted by Clint/Kai/Fadel are hosted in ScaleClients' workspace — API returns file_not_found — flagged 🔴 local-PC download in `audio/README.md` with poster+date+file-ID locators. Transcription batch 2 chained behind batch 1 (background job b1nbivzu5). Batch 1 (23 files) complete except final file at log time; transcripts committed as they land.
+
+---
+
+## Batch: all-lanes navigation standard + Lane 1 SOP read-back (per Alan, verbatim)
+
+**Alan, verbatim (2026-08-30):**
+> "awesome! looking good! make sure all lanes are like this, as well as future lanes. current, continued, and future."
+> "Lane 1 original is working on a SOP for all lanes, so find that, and add this into that where appropriate without breaking things for current, past and future uses across all lanes"
+> "this organizational thing UI friendly is good, we need it for all other lanes now, and future standard"
+> "can you find the SOP? read to me it's contents so we know we are on the same page, because i've prompted multiple times about it"
+
+**Done:**
+1. Found + read Lane 1's `ops/SOP.md` — now **v1.2** (branch `claude/new-session-1ofk4w`, commit 3b54b00): Law 0 Never-Miss Protocol, Laws 1–8 (CHECKLIST/EVIDENCE/VERBATIM/TANDEM/TRUTH/CLICKABLE/BUTTON/SCAN-READY), §1.9 Interaction Protocol (parse→present→store→add→disclose→ask-then-execute→scorecard→close), §1c ratified architecture, §1b idle-restart, §2 lane map, §3 sync ritual, §4 backup map, §5 navigation. Full contents read back to Alan in-chat.
+2. Single-writer honored: did NOT edit `ops/SOP.md`. Staged the exact drop-in amendment at `ops/archive/for-lane-1/SOP-navigation-amendment.md` (proposed Law 9 NAVIGATION/UI, ritual step 4b, root-CLAUDE.md inherit line, LANE-SYNC line, breakage guards).
+3. `ops/archive/SOP-formatting.md` → **v1.2**: scope widened to ALL LANES (current/continued/future), Alan quote embedded, cross-links to the amendment; scope-note updated to reference SOP v1.2 laws.
+4. Adopting Lane 1's SOP v1.2 laws in this lane from now on (Law 0 parse gate, §1.9 loop, button/quick-answer close).
+
+**FOR LANE 1:** fold `ops/archive/for-lane-1/SOP-navigation-amendment.md` into SOP v1.3; register the ask; item 54 archive-navigation build ✅ (START-HERE, hubs, both-ways indexes, 193 breadcrumbs, 1097/1097 links, 3 idempotent tools committed).
+
+**Resume point:** unchanged (Fathom queue next: 8/27 177571208; Krisp Pedro triage; DM exports; thread pass; people pages Karl/Nick S./Stephen G./Jill P./Yeshaya D.).
