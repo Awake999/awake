@@ -34,7 +34,7 @@
 | Blank (never assessed) | 94 | **75** |
 
 ## Open items produced by this pass
-1. **Nick S. bankruptcy ruling** — Alan ruled 8/30: aged bankruptcies are CASE-BY-CASE, each file needs his personal sign-off; Nick's specific sign-off still pending, label + flag stand.
+1. **Nick S. bankruptcy ruling** — Alan ruled 8/30 (case-by-case policy), then signed off on Nick 8/30 evening: "downsell is good" → Qualification flipped to Downsell - Credit Rebuild; NEW tracker field Funds Status = "Broke - cannot afford even small amount" (his words: "he falls into the category of people who cant even afford the small amount"). RESOLVED.
 2. **Ashwini stage** — Alan ruled 8/30: hold at Offer Made until Whop proves the $1,500 landed (Lane 4 Task 8), then auto-upgrade with payment evidence.
 3. **Pradeep's $300 Monday deposit** — Whop check decides Downsell vs Unq-No Funds.
 4. The 5 explicit Not-Yet-Assessed get labeled live at their next call (Connor: Sep 1 4pm ET).
