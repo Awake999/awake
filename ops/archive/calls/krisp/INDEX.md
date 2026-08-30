@@ -66,11 +66,11 @@
 | 2026-06-21 | Alan Nguyen <> Business Funding | 019eec74b40470d99a2d44aabf76ce69 | 11m | no |
 | 2026-06-21 | Alan Nguyen - Funding Discussion | 019eec360b7673488e88d3a72eade2eb | 18m | no |
 | 2026-06-21 | Alan Nguyen <> Content Strategy Pillars | 019eecaf8b3c74f8b39bec160528447b | 5m | no |
-| 2026-06-18 | SCIO Sales Consulting ★ | 019edcc4e7f570319907bba589f809dd | 60m | no |
+| 2026-06-18 | SCIO Sales Consulting ★ | 019edcc4e7f570319907bba589f809dd | 60m | yes → `2026-06-18--scio-sales-consulting--019edcc4e7f570319907bba589f809dd/` |
 | 2026-06-17 | CCA Funding Forum | 019ed774a0ea713c823da760790f53b0 | 15m | no |
 | 2026-06-17 | Alan + Constantine ★ | 019ed6bf840e7215896016b9eee2d5d1 | 64m | yes → `2026-06-17--alan-constantine-coaching--019ed6bf840e7215896016b9eee2d5d1/` |
 | 2026-06-17 | CCA Office Hours | 019ed6623cea7739b9998a86569275aa | 49m | no |
-| 2026-06-16 | SCIO Sales Consulting ★ | 019ed1d72a0e73e8a08717617d8fedd6 | 60m | no |
+| 2026-06-16 | SCIO Sales Consulting ★ | 019ed1d72a0e73e8a08717617d8fedd6 | 60m | yes → `2026-06-16--scio-sales-consulting--019ed1d72a0e73e8a08717617d8fedd6/` |
 | 2026-06-12 | Client Call (CSM) - Alan Nguyen | 019ebd38e27d775e8ef62c9cf615fb3d | 10m | no |
 | 2026-06-10 | Alan + Constantine ★ | 019eb2b79830720da56c1eb4c960250c | 55m | yes → `2026-06-10--alan-constantine-coaching--019eb2b79830720da56c1eb4c960250c/` |
 | 2026-06-08 | CCA Group Call | 019ea82f186f7437b23a29bc1eda539f | 63m | no |
