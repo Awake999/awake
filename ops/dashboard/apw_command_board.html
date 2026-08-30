@@ -10,24 +10,25 @@
     --ink: #E9ECEA;
     --ink-2: #9AA4A0;
     --ink-3: #667069;
-    --gold: #EFC862;
-    --gold-dim: #b3924a;
+    --gold: #EDDA9C; /* champagne — no orange anywhere on this board (Alan, 8/30) */
+    --gold-dim: #B9A96E;
     --teal: #33C1E8; /* brand cyan — the single magnitude hue for bars/gauges */
     --teal-soft: rgba(51,193,232,.20);
     --good: #3DDC97; /* bright money green (Alan, 8/30) */
     --good-bg: rgba(61,220,151,.13);
-    --warn: #FFCB4F;
-    --warn-bg: rgba(255,203,79,.12);
+    --warn: #FFE49C; /* champagne-white pending, validated */
+    --warn-bg: rgba(255,228,156,.12);
     --crit: #F2655A;
     --crit-bg: rgba(242,101,90,.13);
     --link: #6FD0EC;
     --shadow: 0 1px 0 rgba(0,0,0,.4);
     /* Brand gradients per Alan — premium multi-stop families, DECORATIVE ONLY, never a data series */
-    --wing: linear-gradient(90deg, #33D6F5, #9BE8FF, #FFFFFF, #FFE38A, #FFD75E, #F45FB5, #C77DFF, #A96BFF);
-    --grad-gold: linear-gradient(120deg, #FFF6D8, #FFE38A 45%, #FFD75E 70%, #E8A93C);
+    --wing: linear-gradient(90deg, #33D6F5, #9BE8FF, #FFFFFF, #FFE9A1, #F45FB5, #C77DFF, #A96BFF);
+    --grad-gold: linear-gradient(120deg, #FFFFFF, #FFF6D9 45%, #FFEAA9 75%, #FFDF7E);
+    --grad-money: linear-gradient(120deg, #EFFFF6, #8AF7C8 55%, #3DDC97);
     --grad-ice: linear-gradient(120deg, #FFFFFF, #9BE8FF 50%, #33D6F5);
     --grad-royal: linear-gradient(120deg, #FFFFFF, #E9B8FF 35%, #F45FB5 65%, #A96BFF);
-    --w-cyan: #33D6F5; --w-gold: #FFD75E; --w-pink: #F45FB5; --w-purple: #A96BFF; --w-green: #3DDC97;
+    --w-cyan: #33D6F5; --w-gold: #FFE9A1; --w-pink: #F45FB5; --w-purple: #A96BFF; --w-green: #3DDC97; --w-violet: #C9A6FF;
   }
   /* Single-theme by design: the board is dark in every viewer theme. */
 
@@ -91,23 +92,43 @@
     50% { box-shadow: 0 20px 44px rgba(0,0,0,.55), 0 0 34px rgba(255,215,94,.32), 0 0 60px rgba(169,107,255,.20); }
   }
   .panel, .tile, .dl, details.q-item, details.card, .trio .cell, .hero {
-    transition: transform .16s ease-out, border-color .2s ease, box-shadow .3s ease;
+    transition: transform .07s ease-out, border-color .2s ease, box-shadow .22s ease;
     will-change: transform;
   }
   .panel:hover, .tile:hover, .dl:hover, details.q-item:hover, details.card:hover, .trio .cell:hover {
     transform: perspective(900px) translateY(-7px) scale(1.012);
     animation: edgeglow 2.4s ease-in-out infinite;
   }
+
+  /* premium glass — the star field glows through every surface */
+  @supports (backdrop-filter: blur(4px)) or (-webkit-backdrop-filter: blur(4px)) {
+    .panel, .tile, .dl, details.q-item, details.card, .hero, .ticker, .live-badge {
+      background: rgba(24, 29, 34, .58);
+      -webkit-backdrop-filter: blur(18px) saturate(1.35);
+      backdrop-filter: blur(18px) saturate(1.35);
+    }
+    .trio .cell, .rung, .risk, .fieldfill-empty {
+      background: rgba(32, 39, 45, .5);
+      -webkit-backdrop-filter: blur(10px) saturate(1.2);
+      backdrop-filter: blur(10px) saturate(1.2);
+    }
+    nav.rail {
+      background: rgba(15, 18, 20, .68);
+      -webkit-backdrop-filter: blur(16px) saturate(1.2);
+      backdrop-filter: blur(16px) saturate(1.2);
+    }
+    .tbl-wrap { background: rgba(23, 27, 30, .72); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); }
+  }
   .panel:active, .tile:active, .dl:active, details.card:active, .trio .cell:active { transform: perspective(900px) translateY(-2px) scale(.995); }
   details.q-item:hover { border-color: rgba(51,214,245,.4); }
   nav.rail button:hover { text-shadow: 0 0 12px rgba(51,214,245,.45); }
 
   /* Premium gold — gradient ink, never flat orange */
-  h1 { background: linear-gradient(115deg, #FFFFFF 30%, #FFEDB0 70%, #FFD75E); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  h1 { background: linear-gradient(115deg, #FFFFFF 35%, #FFF3CE 70%, #FFE9A1); -webkit-background-clip: text; background-clip: text; color: transparent; }
   .brand-eyebrow { background: var(--grad-gold); -webkit-background-clip: text; background-clip: text; color: transparent; }
   .tile.goldline .v { background: var(--grad-gold); -webkit-background-clip: text; background-clip: text; color: transparent; }
-  .dl .date { background: var(--grad-gold); -webkit-background-clip: text; background-clip: text; color: transparent; }
-  .dl .date svg.ic { color: var(--w-gold); }
+  .dl .date { background: var(--grad-ice); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .dl .date svg.ic { color: var(--w-cyan); }
 
   /* ============ COMMITMENTS TICKER ============ */
   .ticker {
@@ -119,7 +140,7 @@
   .ticker:hover .tk { animation-play-state: paused; }
   .ticker .it { display: inline-flex; align-items: center; gap: 8px; }
   .ticker .it b { color: var(--ink); font-weight: 600; }
-  .ticker .it .d { background: var(--grad-gold); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 700; }
+  .ticker .it .d { background: var(--grad-ice); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 700; }
   @keyframes tkscroll { to { transform: translateX(-50%); } }
 
   @keyframes wingsweep { 0% { background-position: 0% 50%; } 100% { background-position: 200% 50%; } }
@@ -163,8 +184,7 @@
     position: relative;
     display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px;
   }
-  .masthead-art { position: absolute; right: 330px; bottom: 8px; height: 88px; width: auto; opacity: .45; pointer-events: none; }
-  @media (max-width: 1080px) { .masthead-art { display: none; } }
+  /* Real brand logo slots in here once the asset lands in the repo (ops/dashboard/assets/) */
   header.masthead::after {
     content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 3px;
     background: var(--wing); border-radius: 2px; opacity: .85;
@@ -203,13 +223,13 @@
     border-bottom: 3px solid transparent;
   }
   nav.rail button svg.ic { font-size: 15px; }
-  nav.rail button:nth-child(1) svg.ic { color: var(--w-gold); }
+  nav.rail button:nth-child(1) svg.ic { color: var(--w-violet); }
   nav.rail button:nth-child(2) svg.ic { color: var(--w-cyan); }
   nav.rail button:nth-child(3) svg.ic { color: var(--w-green); }
   nav.rail button:nth-child(4) svg.ic { color: var(--w-cyan); }
   nav.rail button:nth-child(5) svg.ic { color: var(--w-pink); }
   nav.rail button:nth-child(6) svg.ic { color: var(--w-purple); }
-  nav.rail button:nth-child(7) svg.ic { color: var(--w-cyan); }
+  nav.rail button:nth-child(7) svg.ic { color: var(--w-violet); }
   nav.rail button:hover { color: var(--ink); }
   nav.rail button[aria-selected="true"] {
     color: var(--ink);
@@ -230,7 +250,7 @@
   section { margin-top: 40px; scroll-margin-top: 64px; }
   .sec-head { display: flex; align-items: center; gap: 11px; border-bottom: 1px solid var(--line); padding-bottom: 8px; margin-bottom: 18px; }
   .sec-head h2 { font-size: 19px; font-weight: 700; margin: 0; letter-spacing: -.005em; }
-  .sec-head .sic { color: var(--gold); font-size: 19px; display: inline-flex; }
+  .sec-head .sic { color: var(--w-violet); font-size: 19px; display: inline-flex; }
   .sec-head .note { margin-left: auto; font-size: 12.5px; color: var(--ink-3); text-align: right; }
 
   .reveal { opacity: 0; transform: translateY(10px); transition: opacity .45s ease, transform .45s ease; }
@@ -250,10 +270,10 @@
     background:
       linear-gradient(var(--w-cyan), var(--w-cyan)) left 0 top 0 / 16px 2px,
       linear-gradient(var(--w-cyan), var(--w-cyan)) left 0 top 0 / 2px 16px,
-      linear-gradient(var(--gold), var(--gold)) right 0 top 0 / 16px 2px,
-      linear-gradient(var(--gold), var(--gold)) right 0 top 0 / 2px 16px,
-      linear-gradient(var(--gold), var(--gold)) left 0 bottom 0 / 16px 2px,
-      linear-gradient(var(--gold), var(--gold)) left 0 bottom 0 / 2px 16px,
+      linear-gradient(var(--w-violet), var(--w-violet)) right 0 top 0 / 16px 2px,
+      linear-gradient(var(--w-violet), var(--w-violet)) right 0 top 0 / 2px 16px,
+      linear-gradient(var(--w-violet), var(--w-violet)) left 0 bottom 0 / 16px 2px,
+      linear-gradient(var(--w-violet), var(--w-violet)) left 0 bottom 0 / 2px 16px,
       linear-gradient(var(--w-cyan), var(--w-cyan)) right 0 bottom 0 / 16px 2px,
       linear-gradient(var(--w-cyan), var(--w-cyan)) right 0 bottom 0 / 2px 16px;
     background-repeat: no-repeat;
@@ -300,7 +320,7 @@
   .chip.warn { background: var(--warn-bg); color: var(--warn); }
   .chip.crit { background: var(--crit-bg); color: var(--crit); }
   .chip.mut  { background: var(--raised); color: var(--ink-2); border: 1px solid var(--line); }
-  .chip.gold { background: rgba(201,168,76,.14); color: var(--gold); }
+  .chip.gold { background: rgba(255,223,126,.13); color: #FFE9A1; }
 
   /* ============ EXPANDER LISTS (decision queue, clients, growth) ============ */
   .queue { display: flex; flex-direction: column; gap: 10px; }
@@ -527,6 +547,22 @@
 
   .fieldfill-empty { border: 1px dashed var(--line); border-radius: 8px; padding: 18px; text-align: center; color: var(--ink-3); font-size: 13px; }
 
+  .rfilters {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px;
+    margin-bottom: 12px; font-size: 12.5px; color: var(--ink-2);
+  }
+  .rfilters label { display: inline-flex; align-items: center; gap: 6px; }
+  .rfilters input[type="date"], .rfilters select {
+    background: rgba(32,39,45,.7); color: var(--ink); border: 1px solid var(--line); border-radius: 6px;
+    padding: 5px 8px; font: inherit; font-size: 12.5px;
+  }
+  .rfilters button {
+    background: none; border: 1px solid var(--line); border-radius: 6px; color: var(--ink-2);
+    padding: 5px 10px; font: inherit; font-size: 12px; cursor: pointer;
+  }
+  .rfilters button:hover { color: var(--ink); border-color: var(--w-cyan); }
+  .rfilters .rsum { margin-left: auto; color: var(--ink); font-size: 12.5px; }
+
   #roster-tbl tbody tr.rrow { cursor: pointer; }
   #roster-tbl tbody tr.rrow:hover td { background: rgba(51,214,245,.05); }
   #roster-tbl tbody tr.rrow:focus-visible { outline: 2px solid var(--gold); outline-offset: -2px; }
@@ -580,24 +616,6 @@
 <div class="wrap">
 
 <header class="masthead">
-  <svg class="masthead-art" viewBox="0 0 220 110" aria-hidden="true">
-    <defs>
-      <linearGradient id="wingL" x1="0" y1="1" x2="1" y2="0">
-        <stop offset="0" stop-color="#33D6F5"/><stop offset=".5" stop-color="#3DDC97"/><stop offset="1" stop-color="#FFD75E"/>
-      </linearGradient>
-      <linearGradient id="wingR" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0" stop-color="#FFD75E"/><stop offset=".5" stop-color="#F45FB5"/><stop offset="1" stop-color="#A96BFF"/>
-      </linearGradient>
-    </defs>
-    <g fill="none" stroke-linecap="round">
-      <path d="M96 92 C 52 88, 26 66, 14 26 C 44 46, 66 52, 92 58" stroke="url(#wingL)" stroke-width="3"/>
-      <path d="M92 78 C 62 74, 44 60, 34 38" stroke="url(#wingL)" stroke-width="2" opacity=".7"/>
-      <path d="M124 92 C 168 88, 194 66, 206 26 C 176 46, 154 52, 128 58" stroke="url(#wingR)" stroke-width="3"/>
-      <path d="M128 78 C 158 74, 176 60, 186 38" stroke="url(#wingR)" stroke-width="2" opacity=".7"/>
-      <circle cx="110" cy="62" r="34" stroke="#C9A84C" stroke-width="2" opacity=".8"/>
-      <path d="M88 78 L 104 48 L 112 60 L 119 50 L 132 78 Z" stroke="#C9A84C" stroke-width="2"/>
-    </g>
-  </svg>
   <div>
     <div class="brand-eyebrow brandface">Ascend Prime Wealth</div>
     <h1>APW Command Board</h1>
@@ -823,6 +841,19 @@
       <a href="https://app.notion.com/p/3b75bb1ffef48196aa4efcf029dc732d">the Command Center ↗</a> and this view follows. Each name links straight to that person’s full Notion record.
       “Added” is the row’s creation date in the tracker — rows recovered by the 8/30 roster audit show their import date; true first-contact timing fills from the GHL pull.
       <strong style="color:var(--ink)">Click any row</strong> for that person’s full brief.</p>
+    <div class="rfilters" id="rfilters" hidden>
+      <label>From <input type="date" id="rf-from"></label>
+      <label>To <input type="date" id="rf-to"></label>
+      <label>Sort
+        <select id="rf-sort">
+          <option value="new" selected>Newest first</option>
+          <option value="old">Oldest first</option>
+          <option value="stage">By stage</option>
+        </select>
+      </label>
+      <button id="rf-clear" type="button">Clear window</button>
+      <span class="rsum mono" id="rf-sum"></span>
+    </div>
     <div id="roster-empty" class="fieldfill-empty">Connects when your Notion connector is live — the masthead badge turns green.
       Until then, the audited truth is in the
       <a href="https://app.notion.com/p/3cc5bb1ffef481138682fdca2cdd7d23">name-by-name table ↗</a> and the
@@ -1455,12 +1486,17 @@
         card.style.setProperty('--gx', (px * 100).toFixed(1) + '%');
         card.style.setProperty('--gy', (py * 100).toFixed(1) + '%');
       }
+      card.addEventListener('pointerenter', function () {
+        /* 1:1 tracking — no easing lag while the pointer is inside */
+        card.style.transition = 'transform 55ms linear, border-color .2s ease, box-shadow .22s ease';
+      });
       card.addEventListener('pointermove', function (e) {
         lx = e.clientX; ly = e.clientY;
         if (!raf) raf = requestAnimationFrame(apply);
       }, { passive: true });
       card.addEventListener('pointerleave', function () {
         if (raf) { cancelAnimationFrame(raf); raf = null; }
+        card.style.transition = 'transform .45s cubic-bezier(.22, 1, .36, 1), border-color .2s ease, box-shadow .22s ease';
         card.style.transform = '';
       });
     });
@@ -1567,13 +1603,57 @@
       empty.hidden = mode !== 'empty'; err.hidden = mode !== 'err'; wrap.hidden = mode !== 'live';
       if (mode === 'err') err.textContent = msg;
     }
+    var lastRows = null;
     function renderRoster(rows) {
+      lastRows = rows;
+      applyRosterView();
+    }
+    function applyRosterView() {
+      var rows = lastRows;
       var tbody = document.querySelector('#roster-tbl tbody');
-      if (!tbody) return;
-      var sorted = rows.slice().sort(function (a, b) {
-        var d = (STAGE_ORDER[a['Stage']] !== undefined ? STAGE_ORDER[a['Stage']] : 9) - (STAGE_ORDER[b['Stage']] !== undefined ? STAGE_ORDER[b['Stage']] : 9);
-        return d || String(a['Client'] || '').localeCompare(String(b['Client'] || ''));
+      if (!tbody || !rows) return;
+      var from = ($('rf-from') && $('rf-from').value) || '';
+      var to = ($('rf-to') && $('rf-to').value) || '';
+      var mode = ($('rf-sort') && $('rf-sort').value) || 'new';
+      function created(r) { return r['Created'] ? String(r['Created']).slice(0, 10) : ''; }
+      var view = rows.filter(function (r) {
+        var c = created(r);
+        if ((from || to) && !c) return false; /* windowing needs a date */
+        if (from && c < from) return false;
+        if (to && c > to) return false;
+        return true;
       });
+      view.sort(function (a, b) {
+        if (mode === 'stage') {
+          var d = (STAGE_ORDER[a['Stage']] !== undefined ? STAGE_ORDER[a['Stage']] : 9) - (STAGE_ORDER[b['Stage']] !== undefined ? STAGE_ORDER[b['Stage']] : 9);
+          return d || String(a['Client'] || '').localeCompare(String(b['Client'] || ''));
+        }
+        var ca = created(a), cb = created(b);
+        if (ca !== cb) return mode === 'old' ? (ca < cb ? -1 : 1) : (ca > cb ? -1 : 1);
+        return String(a['Client'] || '').localeCompare(String(b['Client'] || ''));
+      });
+      var ask = 0;
+      view.forEach(function (r) { if (typeof r['Funding Ask'] === 'number') ask += r['Funding Ask']; });
+      var sum = $('rf-sum');
+      if (sum) sum.textContent = view.length + ' of ' + rows.length + ' shown · ' + fmtMoney(ask) + ' asked in window';
+      var filt = $('rfilters'); if (filt) filt.hidden = false;
+      renderRows(view, tbody);
+      var cnt = $('roster-count');
+      if (cnt) cnt.textContent = rows.length + ' prospects · live ·';
+      rosterState('live');
+    }
+    ['rf-from', 'rf-to', 'rf-sort'].forEach(function (id) {
+      var el = $(id); if (el) el.addEventListener('change', applyRosterView);
+    });
+    (function () {
+      var cl = $('rf-clear');
+      if (cl) cl.addEventListener('click', function () {
+        if ($('rf-from')) $('rf-from').value = '';
+        if ($('rf-to')) $('rf-to').value = '';
+        applyRosterView();
+      });
+    })();
+    function renderRows(sorted, tbody) {
       tbody.textContent = '';
       sorted.forEach(function (r) {
         var tr = document.createElement('tr');
@@ -1634,9 +1714,6 @@
         tr.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); } });
         tbody.appendChild(tr);
       });
-      var cnt = $('roster-count');
-      if (cnt) cnt.textContent = rows.length + ' prospects · live ·';
-      rosterState('live');
     }
 
     function computeStats(rows) {
@@ -1679,8 +1756,12 @@
       if (!mcp) return; // capability unavailable on this view — snapshot stands
 
       var DS = 'collection://5614ffa0-e3d0-40cb-ae64-b32ec52e288c';
+      /* ONE merged query serves stats + field coverage + roster — the
+         board previously ran two watches and the workspace's shared SQL
+         quota was the top cause of "query failed". Column set is the
+         union of two individually verified queries on this table. */
       var input = { data: { data_source_urls: [DS], query:
-        'SELECT "Stage", "Attribution Confidence", "Source", "Funding Ask", "Entry Path", "Human Triaged", "date:Last Touch:start" AS lt FROM "' + DS + '"' } };
+        'SELECT "Client", "url", "Created", "Speed to Lead (min)", "Stage", "Entry Path", "Source", "Funding Ask", "Score Band", "Human Triaged", "Qualification", "No-Close Reason", "Attribution Confidence", "date:Last Touch:start" AS lt FROM "' + DS + '"' } };
       var applied = false;
 
       mcp.watchTool('Notion', 'notion-query-data-sources', input, function (ev) {
@@ -1690,38 +1771,25 @@
           var rows = p && p.results;
           if (!Array.isArray(rows) || rows.length === 0) {
             setBadge('err', 'Live feed: unexpected data — snapshot shown');
+            rosterState('err', 'Roster feed returned no rows — the audited Notion tables remain the source of truth.');
             return;
           }
           apply(computeStats(rows));
+          renderRoster(rows);
           applied = true;
           var ts = (ev.result.cache && ev.result.cache.storedAt) ? new Date(ev.result.cache.storedAt) : new Date();
           setBadge('live', 'Live · Notion · ' + ts.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }));
         } else if (ev.type === 'error') {
           var c = ev.error && ev.error.code;
-          if (c === 'needs_reauth') { if (applied) { apply(SNAP); applied = false; } setBadge('err', 'Reconnect Notion in claude.ai Settings → Connectors'); }
-          else if (c === 'server_not_connected') { if (applied) { apply(SNAP); applied = false; } setBadge('', SNAP_TEXT + ' — add Notion in Settings → Connectors for live data'); }
-          else if (c === 'blocked_by_policy' || c === 'approval_required' || c === 'not_granted') { if (applied) { apply(SNAP); applied = false; } setBadge('', SNAP_TEXT); }
-          else if (c === 'tool_error') { setBadge('err', applied ? 'Live paused — query failed; last data shown' : 'Live query failed — snapshot shown'); }
-          else if (c === 'selection_required') { setBadge('', SNAP_TEXT + ' — choose a Notion connector when prompted'); }
+          if (c === 'needs_reauth') { if (applied) { apply(SNAP); applied = false; } rosterState('empty'); setBadge('err', 'Reconnect Notion in claude.ai Settings → Connectors'); }
+          else if (c === 'server_not_connected') { if (applied) { apply(SNAP); applied = false; } rosterState('empty'); setBadge('', SNAP_TEXT + ' — add Notion in Settings → Connectors for live data'); }
+          else if (c === 'blocked_by_policy' || c === 'approval_required' || c === 'not_granted') { if (applied) { apply(SNAP); applied = false; } rosterState('empty'); setBadge('', SNAP_TEXT); }
+          else if (c === 'tool_error') {
+            if (!applied) rosterState('err', 'Live query failed — usually the workspace SQL quota (resets on its own; Notion Business removes it). The audited Notion tables still have everything; the board retries automatically.');
+            setBadge('err', applied ? 'Live paused — query failed; last data shown' : 'Live query failed — snapshot shown');
+          }
+          else if (c === 'selection_required') { rosterState('empty'); setBadge('', SNAP_TEXT + ' — choose a Notion connector when prompted'); }
           else { setBadge(applied ? 'live' : '', applied ? badgeText.textContent : SNAP_TEXT); }
-        }
-      }, { refetchInterval: 300000, cache: { staleTime: 60000 } });
-
-      /* Roster watch — isolated: errors here degrade only this panel. */
-      var rosterInput = { data: { data_source_urls: [DS], query:
-        'SELECT "Client", "url", "Created", "Speed to Lead (min)", "Stage", "Entry Path", "Source", "Funding Ask", "Score Band", "Human Triaged", "Qualification", "No-Close Reason", "date:Last Touch:start" AS lt FROM "' + DS + '"' } };
-      mcp.watchTool('Notion', 'notion-query-data-sources', rosterInput, function (ev) {
-        if (ev.type === 'data') {
-          var p = ev.result && ev.result.payload;
-          if (typeof p === 'string') { try { p = JSON.parse(p); } catch (e) { p = null; } }
-          var rows = p && p.results;
-          if (Array.isArray(rows) && rows.length) renderRoster(rows);
-          else rosterState('err', 'Roster feed returned no rows — the audited Notion tables above remain the source of truth.');
-        } else if (ev.type === 'error') {
-          var c = ev.error && ev.error.code;
-          if (c === 'needs_reauth' || c === 'server_not_connected' || c === 'blocked_by_policy' || c === 'approval_required' || c === 'not_granted') rosterState('empty');
-          else if (c === 'tool_error') rosterState('err', 'Roster query failed — usually the workspace SQL quota (resets on its own; Notion Business removes it) or a renamed column. The audited Notion tables above still have everything.');
-          else rosterState('empty');
         }
       }, { refetchInterval: 600000, cache: { staleTime: 60000 } });
     } catch (e) { setBadge('', SNAP_TEXT); }
