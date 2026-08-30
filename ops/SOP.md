@@ -1,5 +1,5 @@
 # APW MULTI-LANE OPERATING SOP — binding on every lane
-*v1.3 · 2026-08-30 (v1.2 §1.9 protocol; v1.3 adds §1.9 steps 5b/8b: model line on EVERY reply + compliance footer + conversation ledger) · Owner: Lane 1 (Command). A lane that has not read this file this session may not write anything.*
+*v1.4 · 2026-08-30 (v1.3 + grading SOP link in footer, indented-🤖 checklist format, no-turn-ends-on-a-commit rule, reasoning digest) · Owner: Lane 1 (Command). A lane that has not read this file this session may not write anything.*
 
 ## 0. THE NEVER-MISS PROTOCOL (Law 0 — outranks everything; from Alan: "plan a strategy to NEVER miss on a user prompt. ESPECIALLY a 2nd reprompt")
 
@@ -27,7 +27,7 @@ Root causes of every miss to date: compression reflex, answering the adjacent qu
 *Spec: [ops/prompts/2026-08-30-interaction-protocol-spec.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/prompts/2026-08-30-interaction-protocol-spec.md) · Checklist: [ops/data/INTERACTION_PROTOCOL_CHECKLIST.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/INTERACTION_PROTOCOL_CHECKLIST.md) · Notion hard-code: linked from the register mirror.*
 
 The loop, for EVERY user prompt:
-1. **PARSE** — break the WHOLE prompt into a verbatim-anchored numbered checklist: one line per ask, big text blocks become checkable lines, zero fidelity loss.
+1. **PARSE** — break the WHOLE prompt into a verbatim-anchored numbered checklist: each item = 🗣️ the user's exact quote, then on the NEXT line, indented as a sub-bullet, 🤖 the AI's understanding (same column every item; survives chat AND GitHub rendering). Zero fidelity loss.
 2. **PRESENT** — that checklist appears IN the response for the user to confirm / deny / add to, BEFORE work starts.
 3. **STORE** — the checklist is hard-coded: repo file (ops/data/) + Notion mirror + register line, with clickable links in the response (compaction-proof).
 4. **ADD** — Claude appends its own improvement suggestions — for AI and for humans; beginner-friendly AND master-grade, never sacrificing the beginner.
@@ -37,8 +37,10 @@ The loop, for EVERY user prompt:
 8. **CLOSE** — every final output ends with buttons (incl. Claude-suggested options) + a timeline tracker + progress trackers of the micro AND the macro.
 
 **5b. NO SIZE EXCEPTION** — the model/effort line appears on EVERY reply, micro replies included (miss logged 8/30, register #94b).
-**8b. COMPLIANCE FOOTER** — every reply ends with one compact SOP-check line: ✓/✗ per protocol step + links to [the SOP](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/SOP.md) and the run's checklist. Lean in the reply; depth one click away ("don't bloat, but let me verify" — Alan).
-**8c. CONVERSATION LEDGER** — every session re-archives its raw transcript at batch end and regenerates ops/archive/conversation/ via ops/tools/build_conversation_ledger.py (numbered NNN-title-date-timeZ files; prompt verbatim open, AI layers collapsible; vanilla-friendly README). Honest limit on record: the platform stores thinking blocks EMPTY — the 🧠 layer is unavailable for any turn, by platform design, not by loss.
+**8b. COMPLIANCE FOOTER** — every reply ends with one compact SOP-check line: ✓/✗ per protocol step + links to [the SOP](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/SOP.md), the run's checklist, AND the run's grade file ([Grading SOP](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/gradings/README.md): vertical/mobile, did·didn't·%·quality·why·link·before/after + limitations w/ automatic fixes + 🧠 reasoning digest). Lean in the reply; depth one click away ("don't bloat, but let me verify" — Alan).
+**8c. CONVERSATION LEDGER** — every session re-archives its raw transcript at batch end and regenerates [ops/archive/conversation/](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/archive/conversation/README.md) via [build_conversation_ledger.py](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/tools/build_conversation_ledger.py) (numbered NNN-title-date-timeZ files; prompt verbatim open, AI layers collapsible; vanilla-friendly README). Honest limit on record: the platform stores thinking blocks EMPTY — the 🧠 layer is unavailable for any turn, by platform design, not by loss.
+
+**8d. NO TURN ENDS ON A COMMIT** — the user-facing reply (buttons, footer, trackers) is composed in the same turn as the final tool call; a commit is never the last act (root cause of the 8/30 missed-buttons misses).
 
 Standing exception unchanged (§1.7): autonomous/scheduled runs close with a quick-answer line instead of buttons. New lanes inherit this automatically via the root CLAUDE.md.
 
