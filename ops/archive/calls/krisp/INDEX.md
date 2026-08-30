@@ -22,7 +22,7 @@
 | 2026-08-20 | Sourcing Spotlight – David Hill | 01a01b848e487318b6cf5ef2f594b670 | 4h | no |
 | 2026-08-19 | Client Call (CSM) - Alan Nguyen | 01a01b36954774049ea573878f92a1aa | 16m | no |
 | 2026-08-19 | Client Call (CSM) - Alan Nguyen | 01a01b0b153f718984926aaaddbdfd73 | 14m | no |
-| 2026-08-19 | Alan + Constantine ★ | 01a01ac7699674d3997b45c3929ff637 | 56m | no |
+| 2026-08-19 | Alan + Constantine ★ | 01a01ac7699674d3997b45c3929ff637 | 56m | yes → `2026-08-19--alan-constantine-coaching--01a01ac7699674d3997b45c3929ff637/` |
 | 2026-08-19 | CCA Office Hours | 01a01791f91076a6bcf4e0fe0e7fc0c8 | 6m | no |
 | 2026-08-18 | Commercial Real Estate Underwriting Explained | 01a01786eeb971229dae5549a3e29c2b | 16m | no |
 | 2026-08-17 | Alan Nguyen & Stephen Funding Discussion (Connor, Stephen, Carla) | 01a011583bc0767aa0423150fb3739f2 | 23m | no |
@@ -30,7 +30,7 @@
 | 2026-08-12 | 04:32 PM Chrome (Alan, Linda) | 019ff7b6c80970bd8346a1ed789a363e | 1.8h | no |
 | 2026-08-12 | Wednesday Funding Forum | 019ff7b1ce41748c8a164b991860684f | 99m | no |
 | 2026-08-12 | CCA Funding Forum | 019ff7af85f277babb85580a01d60e6d | 57m | no |
-| 2026-08-12 | Alan + Constantine ★ | 019ff6b9867d701e82902d8b2c76953d | 58m | no |
+| 2026-08-12 | Alan + Constantine ★ | 019ff6b9867d701e82902d8b2c76953d | 58m | yes → `2026-08-12--alan-constantine-coaching--019ff6b9867d701e82902d8b2c76953d/` |
 | 2026-08-12 | CCA Office Hours | 019fe7f191a0702fa815b48346fbe621 | 61m | no |
 | 2026-08-09 | 12:12 PM WaveLink (Alan, Sabrina, Daniel) | 019fe7f1889073e1b0575a0f40feb14e | 4h | no |
 | 2026-08-06 | Wafd (x5 segments) | 019fd91b5a3872ba889ba5703a11c2f8 + 019fd903d7d376ae86426a31bc1639eb + 019fd8e4df61762db9ad668f1e3ac87f + 019fd8ce3f2f7279a6fb7f4efa462957 + 019fd8a55d9b77bd9db43e810d636a66 | ~3h total | no |
@@ -39,7 +39,7 @@
 | 2026-08-02 | Alan Nguyen's Zoom Meeting (Alan, Timothy) | 019fc3e4eb2c76958714d55d47de1cda | 89m | no |
 | 2026-07-27 | Sales Spotlight w/ Jeff Smith | 019fa439c7647239918e4467f36e4293 | 4h | no |
 | 2026-07-22 | 12:03 PM WaveLink (Alan, Edwin Choi) | 019f8b36797c722cae1f8c5f4f19eb89 | 4h | no |
-| 2026-07-22 | Alan + Constantine ★ | 019f8b048a4d7789b9babd954c38b271 | 55m | no |
+| 2026-07-22 | Alan + Constantine ★ | 019f8b048a4d7789b9babd954c38b271 | 55m | yes → `2026-07-22--alan-constantine-coaching--019f8b048a4d7789b9babd954c38b271/` |
 | 2026-07-21 | Alan Nguyen <> Jill Peralta - Business Setup | 019f87c79f31702a87ffb34b85a8d12e | 29m | no |
 | 2026-07-20 | Alan Nguyen - Notarize Identity Theft Report | 019f811ce46577c98a5f05af137c1d10 | 7m | no |
 | 2026-07-19 | 11:54 AM WaveLink (Alan, Lynn) | 019f7bbb829470a88cdfa8fe227ead0a | 4h | no |
@@ -68,11 +68,11 @@
 | 2026-06-21 | Alan Nguyen <> Content Strategy Pillars | 019eecaf8b3c74f8b39bec160528447b | 5m | no |
 | 2026-06-18 | SCIO Sales Consulting ★ | 019edcc4e7f570319907bba589f809dd | 60m | no |
 | 2026-06-17 | CCA Funding Forum | 019ed774a0ea713c823da760790f53b0 | 15m | no |
-| 2026-06-17 | Alan + Constantine ★ | 019ed6bf840e7215896016b9eee2d5d1 | 64m | no |
+| 2026-06-17 | Alan + Constantine ★ | 019ed6bf840e7215896016b9eee2d5d1 | 64m | yes → `2026-06-17--alan-constantine-coaching--019ed6bf840e7215896016b9eee2d5d1/` |
 | 2026-06-17 | CCA Office Hours | 019ed6623cea7739b9998a86569275aa | 49m | no |
 | 2026-06-16 | SCIO Sales Consulting ★ | 019ed1d72a0e73e8a08717617d8fedd6 | 60m | no |
 | 2026-06-12 | Client Call (CSM) - Alan Nguyen | 019ebd38e27d775e8ef62c9cf615fb3d | 10m | no |
-| 2026-06-10 | Alan + Constantine ★ | 019eb2b79830720da56c1eb4c960250c | 55m | no |
+| 2026-06-10 | Alan + Constantine ★ | 019eb2b79830720da56c1eb4c960250c | 55m | yes → `2026-06-10--alan-constantine-coaching--019eb2b79830720da56c1eb4c960250c/` |
 | 2026-06-08 | CCA Group Call | 019ea82f186f7437b23a29bc1eda539f | 63m | no |
 | 2026-06-07 | Alan Nguyen <> Speaker_2: Communication Issues | 019ea503306876898ec05cdb31a555a2 | 35m | no |
 | 2026-06-07 | Alan <> Speaker_2 Discussion | 019ea523b893764fa5e676c1343f881c | 6m | no |
