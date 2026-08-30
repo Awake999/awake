@@ -10,20 +10,23 @@
     --ink: #E9ECEA;
     --ink-2: #9AA4A0;
     --ink-3: #667069;
-    --gold: #D9B856;
-    --gold-dim: #9a824a;
+    --gold: #EFC862;
+    --gold-dim: #b3924a;
     --teal: #33C1E8; /* brand cyan — the single magnitude hue for bars/gauges */
     --teal-soft: rgba(51,193,232,.20);
     --good: #3DDC97; /* bright money green (Alan, 8/30) */
     --good-bg: rgba(61,220,151,.13);
-    --warn: #F2C14A;
-    --warn-bg: rgba(242,193,74,.12);
+    --warn: #FFCB4F;
+    --warn-bg: rgba(255,203,79,.12);
     --crit: #F2655A;
     --crit-bg: rgba(242,101,90,.13);
     --link: #6FD0EC;
     --shadow: 0 1px 0 rgba(0,0,0,.4);
-    /* Brand gradient per Alan, saturated to logo vividness: cyan · gold · magenta · purple — DECORATIVE ONLY, never a data series */
-    --wing: linear-gradient(90deg, #33D6F5, #FFD75E, #F45FB5, #A96BFF);
+    /* Brand gradients per Alan — premium multi-stop families, DECORATIVE ONLY, never a data series */
+    --wing: linear-gradient(90deg, #33D6F5, #9BE8FF, #FFFFFF, #FFE38A, #FFD75E, #F45FB5, #C77DFF, #A96BFF);
+    --grad-gold: linear-gradient(120deg, #FFF6D8, #FFE38A 45%, #FFD75E 70%, #E8A93C);
+    --grad-ice: linear-gradient(120deg, #FFFFFF, #9BE8FF 50%, #33D6F5);
+    --grad-royal: linear-gradient(120deg, #FFFFFF, #E9B8FF 35%, #F45FB5 65%, #A96BFF);
     --w-cyan: #33D6F5; --w-gold: #FFD75E; --w-pink: #F45FB5; --w-purple: #A96BFF; --w-green: #3DDC97;
   }
   /* Single-theme by design: the board is dark in every viewer theme. */
@@ -54,20 +57,59 @@
     position: fixed; inset: 0; z-index: 0; pointer-events: none;
     background: radial-gradient(620px circle at var(--mx, 50%) var(--my, 30%), rgba(51,214,245,.075), transparent 62%);
   }
+  @property --angle { syntax: "<angle>"; inherits: false; initial-value: 0deg; }
+  @keyframes brot { to { --angle: 1turn; } }
+  .panel, .tile, .dl, details.card, .trio .cell, .hero { position: relative; }
+  .panel::after, .tile::after, .dl::after, details.card::after, .trio .cell::after, .hero .ring {
+    content: ""; position: absolute; inset: -1px; border-radius: 11px; padding: 1.6px;
+    background: conic-gradient(from var(--angle),
+      #33D6F5, #9BE8FF, #FFFFFF, #FFE38A, #FFD75E, #F45FB5, #C77DFF, #A96BFF, #33D6F5);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    opacity: 0; pointer-events: none;
+    animation: brot 3.5s linear infinite paused;
+    transition: opacity .3s ease;
+  }
+  .panel:hover::after, .tile:hover::after, .dl:hover::after, details.card:hover::after, .trio .cell:hover::after {
+    opacity: 1; animation-play-state: running;
+  }
+  .hero .ring { inset: -1px; border-radius: 13px; opacity: .9; animation: brot 8s linear infinite running; }
   .panel, .tile, .dl, details.q-item, details.card, .trio .cell, .hero {
-    transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+    transition: transform .28s cubic-bezier(.2, .9, .3, 1.25), border-color .2s ease, box-shadow .28s ease;
   }
   .panel:hover, .tile:hover, .dl:hover, details.q-item:hover, details.card:hover, .trio .cell:hover {
-    transform: translateY(-2px);
-    border-color: rgba(51,214,245,.45);
-    box-shadow: 0 6px 22px rgba(0,0,0,.4), 0 0 14px rgba(51,214,245,.14);
+    transform: translateY(-5px) scale(1.006);
+    box-shadow: 0 14px 34px rgba(0,0,0,.5), 0 0 22px rgba(51,214,245,.14);
   }
-  .tile.goldline:hover { border-color: rgba(255,215,94,.5); box-shadow: 0 6px 22px rgba(0,0,0,.4), 0 0 14px rgba(255,215,94,.16); }
-  .tile.crit:hover { border-color: rgba(242,101,90,.5); box-shadow: 0 6px 22px rgba(0,0,0,.4), 0 0 14px rgba(242,101,90,.16); }
+  .tile.goldline:hover { box-shadow: 0 14px 34px rgba(0,0,0,.5), 0 0 24px rgba(255,215,94,.2); }
+  .tile.crit:hover { box-shadow: 0 14px 34px rgba(0,0,0,.5), 0 0 24px rgba(242,101,90,.2); }
+  details.q-item:hover { border-color: rgba(51,214,245,.4); }
   nav.rail button:hover { text-shadow: 0 0 12px rgba(51,214,245,.45); }
 
+  /* Premium gold — gradient ink, never flat orange */
+  h1 { background: linear-gradient(115deg, #FFFFFF 30%, #FFEDB0 70%, #FFD75E); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .brand-eyebrow { background: var(--grad-gold); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .tile.goldline .v { background: var(--grad-gold); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .dl .date { background: var(--grad-gold); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .dl .date svg.ic { color: var(--w-gold); }
+
+  /* ============ COMMITMENTS TICKER ============ */
+  .ticker {
+    position: relative; overflow: hidden; margin-top: 14px;
+    border: 1px solid var(--line); border-radius: 8px; background: var(--surface);
+    font-size: 12.5px; color: var(--ink-2);
+  }
+  .ticker .tk { display: inline-flex; gap: 44px; white-space: nowrap; padding: 8px 0 8px 18px; animation: tkscroll 45s linear infinite; will-change: transform; }
+  .ticker:hover .tk { animation-play-state: paused; }
+  .ticker .it { display: inline-flex; align-items: center; gap: 8px; }
+  .ticker .it b { color: var(--ink); font-weight: 600; }
+  .ticker .it .d { background: var(--grad-gold); -webkit-background-clip: text; background-clip: text; color: transparent; font-weight: 700; }
+  @keyframes tkscroll { to { transform: translateX(-50%); } }
+
   @keyframes wingsweep { 0% { background-position: 0% 50%; } 100% { background-position: 200% 50%; } }
-  header.masthead::after, .hero::before {
+  header.masthead::after {
     background-size: 200% 100%;
     animation: wingsweep 9s linear infinite;
   }
@@ -88,8 +130,10 @@
   }
   @media (prefers-reduced-motion: reduce) {
     .spotlight { display: none; }
-    header.masthead::after, .hero::before, .hero .headline .v, .live-badge.live .dot,
+    header.masthead::after, .hero .headline .v, .live-badge.live .dot, .hero .ring, .ticker .tk,
+    .panel::after, .tile::after, .dl::after, details.card::after, .trio .cell::after,
     .hbar, .cashbar > div, .duel .fill, .propstrip > div, .stackbar > div, .range .band { animation: none; }
+    .ticker { overflow-x: auto; }
     .panel, .tile, .dl, details.q-item, details.card, .trio .cell, .hero { transition: none; }
     .panel:hover, .tile:hover, .dl:hover, details.q-item:hover, details.card:hover, .trio .cell:hover { transform: none; }
   }
@@ -184,7 +228,6 @@
     display: grid; grid-template-columns: minmax(210px, auto) 1fr; gap: 12px 36px; align-items: center;
     position: relative; overflow: hidden;
   }
-  .hero::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--wing); box-shadow: 0 0 12px rgba(70,198,227,.35); }
   .hero::after {
     content: ""; position: absolute; inset: 7px; pointer-events: none; opacity: .5;
     background:
@@ -466,6 +509,15 @@
   .propstrip > div { height: 100%; border-radius: 2px; }
 
   .fieldfill-empty { border: 1px dashed var(--line); border-radius: 8px; padding: 18px; text-align: center; color: var(--ink-3); font-size: 13px; }
+
+  #roster-tbl tbody tr.rrow { cursor: pointer; }
+  #roster-tbl tbody tr.rrow:hover td { background: rgba(51,214,245,.05); }
+  #roster-tbl tbody tr.rrow:focus-visible { outline: 2px solid var(--gold); outline-offset: -2px; }
+  tr.rdetail-row td { background: var(--raised); padding: 14px 18px; }
+  .rdetail { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px 22px; }
+  .rdetail .pair .k { font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); font-weight: 700; }
+  .rdetail .pair .v { font-size: 13px; color: var(--ink); }
+  .rdetail .openrec { grid-column: 1 / -1; margin-top: 4px; }
   #fieldfill-live .hbar-row { grid-template-columns: 128px 1fr 44px; }
   .ff-h { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-2); font-weight: 700; margin: 12px 0 7px; }
   .ff-h:first-child { margin-top: 0; }
@@ -549,10 +601,13 @@
   <button role="tab" aria-selected="false" data-pane="team"><svg class="ic"><use href="#i-shield"/></svg>Team</button>
 </nav>
 
+<div class="ticker" id="ticker" hidden aria-label="Upcoming dated commitments"><div class="tk" id="tk-inner"></div></div>
+
 <!-- ================================================================ OVERVIEW -->
 <div class="tabpane" id="pane-overview">
 
 <div class="hero reveal">
+  <span class="ring" aria-hidden="true"></span>
   <div class="headline">
     <span class="k">August New Revenue</span>
     <div class="v mono">$0</div>
@@ -749,7 +804,8 @@
   <div class="panel reveal">
     <p class="sub" style="margin-bottom:10px">Reads the Clients &amp; Leads master table directly — every person, entry to outcome, refreshed ~10 min. Edit any row in
       <a href="https://app.notion.com/p/3b75bb1ffef48196aa4efcf029dc732d">the Command Center ↗</a> and this view follows. Each name links straight to that person’s full Notion record.
-      “Added” is the row’s creation date in the tracker — rows recovered by the 8/30 roster audit show their import date; true first-contact timing fills from the GHL pull.</p>
+      “Added” is the row’s creation date in the tracker — rows recovered by the 8/30 roster audit show their import date; true first-contact timing fills from the GHL pull.
+      <strong style="color:var(--ink)">Click any row</strong> for that person’s full brief.</p>
     <div id="roster-empty" class="fieldfill-empty">Connects when your Notion connector is live — the masthead badge turns green.
       Until then, the audited truth is in the
       <a href="https://app.notion.com/p/3cc5bb1ffef481138682fdca2cdd7d23">name-by-name table ↗</a> and the
@@ -1315,6 +1371,53 @@
   })();
 </script>
 <script>
+  /* ===== Commitments ticker (built from the deadline cards, so it inherits live counters) ===== */
+  (function () {
+    try {
+      var items = [];
+      document.querySelectorAll('#deadlines .dl').forEach(function (dl) {
+        var h = dl.querySelector('h3'), d = dl.querySelector('.date'), days = dl.querySelector('.days');
+        if (!h || !d) return;
+        items.push({ date: d.textContent.trim(), title: h.textContent.trim(), days: days ? days.textContent.trim() : '' });
+      });
+      if (!items.length) return;
+      var inner = document.getElementById('tk-inner');
+      function fill() {
+        items.forEach(function (it) {
+          var s = document.createElement('span'); s.className = 'it';
+          var dd = document.createElement('span'); dd.className = 'd mono'; dd.textContent = it.date;
+          var tt = document.createElement('b'); tt.textContent = it.title;
+          var dy = document.createElement('span'); dy.textContent = it.days;
+          s.appendChild(dd); s.appendChild(tt); if (it.days) s.appendChild(dy);
+          inner.appendChild(s);
+        });
+      }
+      fill(); fill(); /* duplicated for a seamless loop */
+      document.getElementById('ticker').hidden = false;
+    } catch (e) { /* ticker is decoration; the deadline cards remain */ }
+  })();
+</script>
+<script>
+  /* ===== Count-up on plain integer stats ===== */
+  (function () {
+    if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    /* static stats only — funnel numbers belong to the live layer */
+    document.querySelectorAll('.trio .n').forEach(function (el) {
+      var target = parseInt(el.textContent, 10);
+      if (isNaN(target)) return;
+      var t0 = null;
+      function step(ts) {
+        if (!t0) t0 = ts;
+        var p = Math.min((ts - t0) / 750, 1);
+        el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3)));
+        if (p < 1) requestAnimationFrame(step);
+      }
+      el.textContent = '0';
+      requestAnimationFrame(step);
+    });
+  })();
+</script>
+<script>
   /* ===== Live layer: refreshes pipeline stats from the viewer's Notion connector ===== */
   (async function () {
     var $ = function (id) { return document.getElementById(id); };
@@ -1445,6 +1548,41 @@
         td(r['Qualification'] || '—', 'why');
         td(r['No-Close Reason'] || '—', 'why');
         td(r['lt'] || '—', 'mono');
+        tr.className = 'rrow'; tr.tabIndex = 0;
+        tr.setAttribute('aria-label', 'Show details for ' + shortName(r['Client']));
+        function toggle() {
+          var next = tr.nextElementSibling;
+          if (next && next.classList.contains('rdetail-row')) { next.remove(); return; }
+          var dr = document.createElement('tr'); dr.className = 'rdetail-row';
+          var cell = document.createElement('td'); cell.colSpan = 12;
+          var grid = document.createElement('div'); grid.className = 'rdetail';
+          [['Added', r['Created'] ? String(r['Created']).replace('Z', ' UTC') : '—'],
+           ['Stage', r['Stage'] || '—'],
+           ['Entry Path', r['Entry Path'] || 'untagged'],
+           ['Source', r['Source'] || '—'],
+           ['Funding Ask', typeof r['Funding Ask'] === 'number' ? fmtMoney(r['Funding Ask']) : '—'],
+           ['Score Band', r['Score Band'] || '—'],
+           ['Speed to Lead', typeof r['Speed to Lead (min)'] === 'number' ? r['Speed to Lead (min)'] + ' min' : '—'],
+           ['Human Triaged', r['Human Triaged'] || 'untagged'],
+           ['Qualification', r['Qualification'] || '—'],
+           ['No-Close Reason', r['No-Close Reason'] || '—'],
+           ['Last Touch', r['lt'] || '—']
+          ].forEach(function (p) {
+            var pr = document.createElement('div'); pr.className = 'pair';
+            var k = document.createElement('div'); k.className = 'k'; k.textContent = p[0];
+            var v = document.createElement('div'); v.className = 'v'; v.textContent = p[1];
+            pr.appendChild(k); pr.appendChild(v); grid.appendChild(pr);
+          });
+          if (r['url']) {
+            var op = document.createElement('a'); op.className = 'openrec'; op.href = r['url'];
+            op.textContent = 'Open full Notion record ↗';
+            grid.appendChild(op);
+          }
+          cell.appendChild(grid); dr.appendChild(cell);
+          tr.parentNode.insertBefore(dr, tr.nextSibling);
+        }
+        tr.addEventListener('click', function (e) { if (!e.target.closest('a')) toggle(); });
+        tr.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); } });
         tbody.appendChild(tr);
       });
       var cnt = $('roster-count');
