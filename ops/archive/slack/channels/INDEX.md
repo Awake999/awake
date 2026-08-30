@@ -10,11 +10,11 @@ Complete enumeration pulled 2026-08-30 (public + private + archived). The `expor
 | #alan-nguyen-booked-calls | C0ANJ8C74KC | public | 3/24 Clint | ✅ `alan-nguyen-booked-calls/2026-03-to-2026-08.md` (complete + raw p1) — THE booking roster |
 | #alan-nguyen-booked-calls-medical | C0BBYPJDXRB | public | 6/21 Clint | ✅ `alan-nguyen-booked-calls-medical/2026-06-to-2026-08.md` (complete) |
 | #hire-worldwide | C0BJFN8QYKT | private | 7/19 Alan | ✅ `hire-worldwide/2026-07-to-2026-08.md` (complete) |
-| #dispute-questions | C0BPPBD8798 | private | 8/12 Alan | no — next priority |
-| #dispute-team-training | C0BS3B23FK6 | public | 8/22 Alan | no — next priority |
+| #dispute-questions | C0BPPBD8798 | private | 8/12 Alan | ✅ `dispute-questions/2026-08.md` (complete) |
+| #dispute-team-training | C0BS3B23FK6 | public | 8/22 Alan | ✅ `dispute-team-training/2026-08.md` (complete) |
 | #dispute-team-agenda | C0BS6QBQQ4B | private | 8/24 Lynn | no — next priority |
-| #--ascend-prime-wealth-main-chat | C0BMMREF5PF | private | 8/3 Alan | no — high priority (main team chat) |
-| #----urgent | C0BLEMY8MCN | private | 7/28 Alan | no — high priority |
+| #--ascend-prime-wealth-main-chat | C0BMMREF5PF | private | 8/3 Alan | ✅ `ascend-prime-wealth-main-chat/2026-08.md` (complete, creation→8/28) |
+| #----urgent | C0BLEMY8MCN | private | 7/28 Alan | ✅ `urgent/2026-07-to-2026-08.md` (complete) |
 | #apw-tracker-fathom | C0BRZNGGGD8 | public | 8/22 Alan | no — high priority (Fathom tracker feed) |
 | #alan-nguyen-leads | C0AN2QCV6UF | public | 3/24 Clint | no — high priority (lead feed, pairs with booked-calls) |
 | #alan-nguyen-leads-medical | C0BC03SN3TQ | public | 6/21 Clint | no |
