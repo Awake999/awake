@@ -35,7 +35,7 @@
 | 2026-08-25 | Impromptu Zoom Meeting | 176753966 | 798581474 | no |
 | 2026-08-25 | Impromptu Zoom Meeting (Rosemarie Anne Fabian) | 176731448 | 798529571 | no |
 | 2026-08-25 | Impromptu Zoom Meeting (Sabrina Neves) | 176664762 | 798393367 | no |
-| 2026-08-25 | Tech Call w/ Daniel Jimenez | 176649683 | 796488274 | no |
+| 2026-08-25 | Tech Call w/ Daniel Jimenez | 176649683 | 796488274 | yes → `2026-08-25--tech-call-daniel-jimenez--176649683/` |
 | 2026-08-25 | APW - Daily Sync (Ina) | 176612115 | 796919606 | no |
 | 2026-08-25 | APW - Daily Sync (Rosemarie) | 176612379 | 796092304 | no |
 | 2026-08-25 | Impromptu Zoom Meeting | 176612153 | 798282012 | no |
