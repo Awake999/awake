@@ -927,7 +927,7 @@
         if(q && r[0].toLowerCase().indexOf(q)<0) return;
         n++;
         var f=window.APW_FATHOM[r[0]], sec=f&&f.charAt(0)==="s", fid=sec?f.slice(1):f;
-        html+="<tr><td class='who'><a href='https://app.notion.com/"+r[7]+"'>"+esc(r[0])+"</a></td>"
+        html+="<tr><td class='who'><a href='https://app.notion.com/p/"+r[7]+"'>"+esc(r[0])+"</a></td>"
           +"<td><span class='chip "+(STAGE_CLS[r[1]]||"mut")+"'>"+esc(r[1])+"</span></td>"
           +"<td class='why'>"+esc(r[2]||"—")+"</td><td class='why'>"+esc(r[3]||"—")+"</td>"
           +"<td class='num mono'>"+money(r[4])+"</td><td class='num mono'>"+(r[5]<0?"—":"$"+r[5].toLocaleString())+"</td>"

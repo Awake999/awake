@@ -8,7 +8,8 @@
 3. **VERBATIM LAW** — *"It needs all specific information because it just is cutting corners."* Lane briefs are ROUTING, not specs. The governing spec is always Alan's verbatim prompt in `ops/prompts/`. If your brief conflicts with or omits something the verbatim prompt contains, THE PROMPT WINS — read it, don't trust the summary of it.
 4. **TANDEM LAW** — summaries live BESIDE originals, never instead of them.
 5. **TRUTH LAW** — verified / derived / unknown labels on everything; never guess a stage, a show, or a dollar; corrections are appended and dated, never silently overwritten.
-6. **SCAN-READY LAW** — *"Everything you should be saying should be scan-ready and easy."* Every report, file, and reply: TLDR first, tables over prose, one glance = the state. Applies to all lanes.
+6. **CLICKABLE LAW** — *"the links are supposed to be clickable URLs."* Every reference in any human-facing surface is a clickable https URL — bare IDs and `collection://` URIs live only in machine columns of pointer-map.md.
+7. **SCAN-READY LAW** — *"Everything you should be saying should be scan-ready and easy."* Every report, file, and reply: TLDR first, tables over prose, one glance = the state. Applies to all lanes.
 
 ## 1b. Idle-restart reality (cloud lanes)
 Cloud containers DO restart when idle — that is WHY state lives in the repo, never the container. A cloud lane that restarts loses nothing pushed; it resumes by running the sync ritual (§3). Wake an idle cloud lane with a one-shot trigger, or replace it with a LOCAL lane: multiple local Claudes on one PC use separate clones or `git worktree add ../awake-<lane> <branch>` — same ritual, same repo, same sync. Cloud vs local is interchangeable; the repo is the team.
