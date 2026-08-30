@@ -1,0 +1,834 @@
+<title>APW Command Board</title>
+<style>
+  /* ============ TOKENS — dark-first ============ */
+  :root {
+    --bg: #0F1214;
+    --surface: #171B1E;
+    --raised: #1E2428;
+    --line: #2A3136;
+    --ink: #E9ECEA;
+    --ink-2: #9AA4A0;
+    --ink-3: #667069;
+    --gold: #C9A84C;
+    --gold-dim: #8f7a3d;
+    --teal: #2E8B77;
+    --teal-soft: rgba(46,139,119,.22);
+    --good: #4CC38A;
+    --good-bg: rgba(76,195,138,.12);
+    --warn: #E2B93B;
+    --warn-bg: rgba(226,185,59,.12);
+    --crit: #E5655C;
+    --crit-bg: rgba(229,101,92,.13);
+    --link: #7FB8A8;
+    --shadow: 0 1px 0 rgba(0,0,0,.4);
+  }
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme="dark"]) {
+      --bg: #F5F4F0;
+      --surface: #FFFFFF;
+      --raised: #FAF9F5;
+      --line: #E0DED5;
+      --ink: #191C1B;
+      --ink-2: #565E5A;
+      --ink-3: #8B928D;
+      --gold: #8A6D1F;
+      --gold-dim: #A8925C;
+      --teal: #12705E;
+      --teal-soft: rgba(18,112,94,.14);
+      --good: #177245;
+      --good-bg: rgba(23,114,69,.10);
+      --warn: #8F6400;
+      --warn-bg: rgba(143,100,0,.10);
+      --crit: #B3261E;
+      --crit-bg: rgba(179,38,30,.08);
+      --link: #0E5E4C;
+      --shadow: 0 1px 2px rgba(25,28,27,.06);
+    }
+  }
+  :root[data-theme="light"] {
+    --bg: #F5F4F0;
+    --surface: #FFFFFF;
+    --raised: #FAF9F5;
+    --line: #E0DED5;
+    --ink: #191C1B;
+    --ink-2: #565E5A;
+    --ink-3: #8B928D;
+    --gold: #8A6D1F;
+    --gold-dim: #A8925C;
+    --teal: #12705E;
+    --teal-soft: rgba(18,112,94,.14);
+    --good: #177245;
+    --good-bg: rgba(23,114,69,.10);
+    --warn: #8F6400;
+    --warn-bg: rgba(143,100,0,.10);
+    --crit: #B3261E;
+    --crit-bg: rgba(179,38,30,.08);
+    --link: #0E5E4C;
+    --shadow: 0 1px 2px rgba(25,28,27,.06);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Archivo", "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  .mono { font-family: "Spline Sans Mono", "SFMono-Regular", Consolas, monospace; font-variant-numeric: tabular-nums; }
+  a { color: var(--link); text-decoration: none; border-bottom: 1px solid transparent; }
+  a:hover, a:focus-visible { border-bottom-color: var(--link); }
+  a:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+
+  .wrap { max-width: 1160px; margin: 0 auto; padding: 0 24px 72px; }
+
+  /* ============ MASTHEAD ============ */
+  header.masthead {
+    padding: 34px 0 18px;
+    border-bottom: 2px solid var(--gold);
+    display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px;
+  }
+  .brand-eyebrow { font-size: 11px; letter-spacing: .22em; text-transform: uppercase; color: var(--gold); font-weight: 600; }
+  h1 { font-size: clamp(26px, 4vw, 38px); font-weight: 800; letter-spacing: -.01em; margin: 4px 0 0; text-wrap: balance; }
+  .asof { text-align: right; color: var(--ink-2); font-size: 12.5px; }
+  .asof strong { color: var(--ink); }
+
+  .live-badge {
+    display: inline-flex; align-items: center; gap: 7px;
+    font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+    padding: 4px 11px; border-radius: 999px; border: 1px solid var(--line);
+    background: var(--surface); color: var(--ink-2); margin-bottom: 6px;
+  }
+  .live-badge .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--ink-3); flex: none; }
+  .live-badge.live { border-color: var(--good); color: var(--good); }
+  .live-badge.live .dot { background: var(--good); }
+  .live-badge.err { border-color: var(--warn); color: var(--warn); }
+  .live-badge.err .dot { background: var(--warn); }
+
+  nav.rail {
+    position: sticky; top: 0; z-index: 40;
+    background: var(--bg);
+    border-bottom: 1px solid var(--line);
+    display: flex; gap: 2px; overflow-x: auto;
+    padding: 0; margin: 0 -24px; padding: 0 24px;
+  }
+  nav.rail a {
+    padding: 10px 13px; font-size: 12px; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--ink-2); font-weight: 600; white-space: nowrap; border-bottom: 2px solid transparent;
+  }
+  nav.rail a:hover { color: var(--ink); border-bottom-color: var(--gold-dim); }
+
+  .provenance {
+    margin-top: 16px; padding: 10px 14px; border: 1px solid var(--line); border-left: 3px solid var(--warn);
+    background: var(--surface); border-radius: 6px; font-size: 13px; color: var(--ink-2);
+  }
+  .provenance strong { color: var(--ink); }
+
+  /* ============ SECTIONS ============ */
+  section { margin-top: 44px; scroll-margin-top: 56px; }
+  .sec-head { display: flex; align-items: baseline; gap: 14px; border-bottom: 1px solid var(--line); padding-bottom: 8px; margin-bottom: 18px; }
+  .sec-head h2 { font-size: 19px; font-weight: 700; margin: 0; letter-spacing: -.005em; }
+  .sec-head .mark { color: var(--gold); font-weight: 800; font-size: 13px; letter-spacing: .18em; }
+  .sec-head .note { margin-left: auto; font-size: 12.5px; color: var(--ink-3); }
+
+  /* ============ STAT TILES ============ */
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; margin-top: 22px; }
+  .tile {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 16px 18px 14px;
+    box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 4px;
+  }
+  .tile .k { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-2); font-weight: 600; }
+  .tile .v { font-size: 30px; font-weight: 500; line-height: 1.1; }
+  .tile .s { font-size: 12.5px; color: var(--ink-2); }
+  .tile.crit { border-top: 3px solid var(--crit); }
+  .tile.crit .v { color: var(--crit); }
+  .tile.goldline { border-top: 3px solid var(--gold); }
+  .tile.warnline { border-top: 3px solid var(--warn); }
+  .tile.goodline { border-top: 3px solid var(--good); }
+
+  /* ============ CHIPS ============ */
+  .chip {
+    display: inline-flex; align-items: center; gap: 5px;
+    font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+    padding: 2px 8px; border-radius: 999px; white-space: nowrap;
+  }
+  .chip.good { background: var(--good-bg); color: var(--good); }
+  .chip.warn { background: var(--warn-bg); color: var(--warn); }
+  .chip.crit { background: var(--crit-bg); color: var(--crit); }
+  .chip.mut  { background: var(--raised); color: var(--ink-2); border: 1px solid var(--line); }
+  .chip.gold { background: rgba(201,168,76,.14); color: var(--gold); }
+
+  /* ============ DECISION QUEUE ============ */
+  .queue { display: flex; flex-direction: column; gap: 10px; }
+  .q-item {
+    display: grid; grid-template-columns: 10px 1fr auto; gap: 14px; align-items: start;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 13px 16px;
+  }
+  .q-item .stripe { width: 4px; border-radius: 2px; align-self: stretch; }
+  .stripe.crit { background: var(--crit); } .stripe.warn { background: var(--warn); } .stripe.mut { background: var(--ink-3); }
+  .q-item h3 { margin: 0 0 3px; font-size: 14.5px; font-weight: 700; }
+  .q-item p { margin: 0; font-size: 13px; color: var(--ink-2); max-width: 72ch; }
+  .q-meta { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; font-size: 12px; }
+
+  /* ============ DEADLINE RAIL ============ */
+  .deadlines { display: grid; grid-template-columns: repeat(auto-fill, minmax(255px, 1fr)); gap: 12px; }
+  .dl {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 13px 15px;
+    display: flex; flex-direction: column; gap: 6px;
+  }
+  .dl .top { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .dl .date { font-size: 12px; font-weight: 600; color: var(--gold); letter-spacing: .05em; }
+  .dl h3 { margin: 0; font-size: 14px; font-weight: 700; line-height: 1.35; }
+  .dl p { margin: 0; font-size: 12.5px; color: var(--ink-2); }
+  .days { font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 999px; }
+  .days.soon { background: var(--warn-bg); color: var(--warn); }
+  .days.now  { background: var(--crit-bg); color: var(--crit); }
+  .days.later{ background: var(--raised); color: var(--ink-2); border: 1px solid var(--line); }
+
+  /* ============ CHARTS ============ */
+  .duo { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  @media (max-width: 860px) { .duo { grid-template-columns: 1fr; } }
+  .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 18px; box-shadow: var(--shadow); }
+  .panel h3 { margin: 0 0 4px; font-size: 15px; font-weight: 700; }
+  .panel .sub { font-size: 12.5px; color: var(--ink-2); margin: 0 0 14px; }
+
+  .hbar-row { display: grid; grid-template-columns: 108px 1fr 44px; gap: 10px; align-items: center; margin-bottom: 9px; position: relative; }
+  .hbar-row .lbl { font-size: 12.5px; color: var(--ink-2); text-align: right; }
+  .hbar-track { background: var(--raised); border-radius: 4px; height: 20px; position: relative; }
+  .hbar { position: absolute; inset: 0 auto 0 0; background: var(--teal); border-radius: 4px 4px 4px 4px; min-width: 3px; }
+  .hbar.mut { background: var(--ink-3); opacity: .55; }
+  .hbar-row .num { font-size: 13px; }
+  .hbar-row:hover .hbar { filter: brightness(1.15); }
+  .hbar-row .tip {
+    position: absolute; left: 120px; top: -30px; z-index: 5;
+    background: var(--raised); border: 1px solid var(--line); color: var(--ink);
+    font-size: 12px; padding: 4px 9px; border-radius: 6px; opacity: 0; pointer-events: none; transition: opacity .12s;
+    white-space: nowrap;
+  }
+  .hbar-row:hover .tip { opacity: 1; }
+  @media (prefers-reduced-motion: reduce) { .hbar-row .tip { transition: none; } }
+
+  .stackbar { display: flex; height: 22px; border-radius: 4px; overflow: hidden; gap: 2px; background: var(--bg); }
+  .stackbar > div { height: 100%; }
+  .legend { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 10px; font-size: 12.5px; color: var(--ink-2); }
+  .swatch { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: baseline; }
+
+  /* ============ TABLES ============ */
+  .tbl-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; min-width: 720px; }
+  th {
+    text-align: left; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-2);
+    font-weight: 700; padding: 11px 14px; border-bottom: 1px solid var(--line); background: var(--raised);
+  }
+  td { padding: 11px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  td.num, th.num { text-align: right; }
+  .who { font-weight: 700; }
+  .why { color: var(--ink-2); font-size: 12.5px; max-width: 46ch; }
+
+  /* ============ CARD LISTS ============ */
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 15px 17px; }
+  .card .head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; margin-bottom: 6px; }
+  .card h3 { margin: 0; font-size: 14.5px; font-weight: 700; }
+  .card p { margin: 5px 0 0; font-size: 13px; color: var(--ink-2); }
+  .card ul { margin: 6px 0 0; padding-left: 18px; font-size: 13px; color: var(--ink-2); }
+  .card li { margin: 3px 0; }
+  .card li strong, .card p strong { color: var(--ink); font-weight: 600; }
+
+  footer { margin-top: 60px; border-top: 1px solid var(--line); padding-top: 16px; font-size: 12.5px; color: var(--ink-3); }
+  footer a { color: var(--ink-2); }
+  .src { font-size: 11.5px; color: var(--ink-3); }
+  .src a { color: var(--ink-3); border-bottom: 1px dotted var(--ink-3); }
+  .src a:hover { color: var(--link); }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;700;800&amp;family=Spline+Sans+Mono:wght@400;500;600&amp;display=swap">
+
+<div class="wrap">
+
+<header class="masthead">
+  <div>
+    <div class="brand-eyebrow">Ascend Prime Wealth · Executive Operations</div>
+    <h1>APW Command Board</h1>
+  </div>
+  <div class="asof mono">
+    <span id="live-badge" class="live-badge"><span class="dot"></span><span id="live-badge-text">Snapshot · Aug 29 2026</span></span><br>
+    <span id="lead-count">74</span> tracked leads · audited sweep 8/28
+  </div>
+</header>
+
+<nav class="rail" aria-label="Sections">
+  <a href="#verdict">Verdict</a>
+  <a href="#decisions">Decision Queue</a>
+  <a href="#deadlines">Deadlines</a>
+  <a href="#pipeline">Pipeline</a>
+  <a href="#revenue">Revenue Ledger</a>
+  <a href="#fulfillment">Fulfillment</a>
+  <a href="#growth">Growth Engine</a>
+  <a href="#team">Team &amp; Risk</a>
+</nav>
+
+<div class="provenance">
+  <strong>Provenance:</strong> every figure links to its evidence — Fathom recordings, Notion records, Drive files.
+  Pipeline, attribution and lead counts refresh <strong>live from Notion</strong> when your Notion connector is available (auto-refresh ~5 min);
+  everything else is the audited snapshot, redeployed with each daily sweep.
+  The GHL feed remains local-only — <strong>30 Booked-Call outcomes are frozen at import</strong>;
+  unblock via the <a href="https://drive.google.com/file/d/1RqEpBa4Em1iwE_GdHhuk_kxhotBYXPjx/view">local pull runbook</a>.
+</div>
+
+<!-- ============ VERDICT ============ -->
+<section id="verdict">
+  <div class="tiles">
+    <div class="tile crit">
+      <span class="k">August New Revenue</span>
+      <span class="v mono">$0</span>
+      <span class="s">Named on the 8/28 ops call — “no new revenue this month.”
+        <a class="src" href="https://fathom.video/calls/803087357">recording ↗</a></span>
+    </div>
+    <div class="tile goodline">
+      <span class="k">Cash Verified Collected</span>
+      <span class="v mono">$2,000</span>
+      <span class="s">Ed C., paid 7/1 — the only deposit verified end-to-end.
+        <a class="src" href="https://app.notion.com/p/3b75bb1ffef48114b344e6f5db65eea9">record ↗</a></span>
+    </div>
+    <div class="tile warnline">
+      <span class="k">Contracted, Uncollected</span>
+      <span class="v mono">$27,500</span>
+      <span class="s">Jill $15K plan · Leo $12K at risk · Nick $500 unverified</span>
+    </div>
+    <div class="tile warnline">
+      <span class="k">Agreed, Unsigned</span>
+      <span class="v mono">$7,500</span>
+      <span class="s">Karl K. — terms agreed 8/21, contract not sent.
+        <a class="src" href="https://app.notion.com/p/3b95bb1ffef48139a66fd1d90439d729">record ↗</a></span>
+    </div>
+    <div class="tile goldline">
+      <span class="k">Open-Pipeline Ask</span>
+      <span class="v mono" id="tile-ask">$12.4M</span>
+      <span class="s">Client funding asks across <span id="tile-open-n">49</span> open leads — fee basis, not revenue</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DECISION QUEUE ============ -->
+<section id="decisions">
+  <div class="sec-head"><span class="mark">01</span><h2>Decision Queue — only you can unblock these</h2>
+    <span class="note">Ordered by revenue &amp; risk impact</span></div>
+  <div class="queue">
+
+    <div class="q-item"><div class="stripe crit"></div>
+      <div><h3>Send Karl K. his contract — $7,500 waiting on paperwork</h3>
+        <p>Terms agreed 8/21 ($750K LOC at WSJ Prime −1%, 1% fee). Eight days of drift; his legal team needs a clean, “red-flag-free” document. Fastest money in the building — needs no new leads.</p></div>
+      <div class="q-meta"><span class="chip crit">Revenue</span>
+        <a class="src" href="https://fathom.video/calls/793137663">debrief ↗</a>
+        <a class="src" href="https://app.notion.com/p/3b95bb1ffef48139a66fd1d90439d729">record ↗</a></div>
+    </div>
+
+    <div class="q-item"><div class="stripe crit"></div>
+      <div><h3>Rule on Leo D.’s $12,000 — renegotiate or restructure</h3>
+        <p>Signed 8/7, $0 collected, cash flow ≈ −$5K/mo. Renegotiation has drifted since 8/12 — the exact Open Loop pattern the framework names as a failure mode.</p></div>
+      <div class="q-meta"><span class="chip crit">Revenue</span>
+        <a class="src" href="https://app.notion.com/p/3b75bb1ffef4816f91f6c9cb50c911ad">record ↗</a></div>
+    </div>
+
+    <div class="q-item"><div class="stripe crit"></div>
+      <div><h3>One canonical offer sheet — FIVE pricing structures are live</h3>
+        <p>Ladder SOP · high/low tiers · 3-tier strategy · four signed custom deals · new $100/hr consulting downsell quoted 8/27 against a “$12k–$15k program” that matches none of the others. Closers cannot quote consistently; closer training is blocked on this.</p></div>
+      <div class="q-meta"><span class="chip crit">Sales</span>
+        <a class="src" href="https://app.notion.com/p/3bc5bb1ffef481e2aba4d89e9032c29c">checklist row ↗</a></div>
+    </div>
+
+    <div class="q-item"><div class="stripe crit"></div>
+      <div><h3>Lock the 3 public Loom videos + restrict Fathom access</h3>
+        <p>Looms expose client SSNs and passwords publicly; Fathom is unrestricted for every user. Same failure pattern three times (incl. plaintext bureau credentials) — one access-control pass across Loom, Fathom, Drive, Notion.</p></div>
+      <div class="q-meta"><span class="chip crit">Security</span>
+        <a class="src" href="https://app.notion.com/p/3ca5bb1ffef481be9e9bcfa42b4da336">checklist row ↗</a></div>
+    </div>
+
+    <div class="q-item"><div class="stripe warn"></div>
+      <div><h3>Dispute team: retain or terminate — measured ruling due Sep 4</h3>
+        <p>Criterion shifted from impression to a number: 80–90% independence by Sep 4. The systems reading is winning — Ina is writing her personal 4-day SOP + Loom. If terminating: Matt, Ed and Ashwini’s live files need formal reassignment first.</p></div>
+      <div class="q-meta"><span class="chip warn">Team</span>
+        <a class="src" href="https://app.notion.com/p/3c95bb1ffef481aabc5cef01eb016e71">checklist row ↗</a></div>
+    </div>
+
+    <div class="q-item"><div class="stripe warn"></div>
+      <div><h3>Run the GHL local pull + push Todd’s import package</h3>
+        <p>Unblocks 30 frozen Booked-Call outcomes, contact IDs for all 74 leads, and the live exec dashboard. Todd’s complete import package is paste-ready.</p></div>
+      <div class="q-meta"><span class="chip warn">Data</span>
+        <a class="src" href="https://drive.google.com/file/d/1RqEpBa4Em1iwE_GdHhuk_kxhotBYXPjx/view">runbook ↗</a></div>
+    </div>
+
+    <div class="q-item"><div class="stripe warn"></div>
+      <div><h3>Approve two SOPs drafted from this week’s calls</h3>
+        <p>The 4-Day Dispute track (never accept a 30-day conversion) and the Pre-Booking Qualification Filter (3–5 cards · one $10K+ limit · 2+ yr average age). Both cited to recordings, both waiting on sign-off.</p></div>
+      <div class="q-meta"><span class="chip warn">SOP</span>
+        <a class="src" href="https://app.notion.com/p/3ca5bb1ffef481468487e9be6136ba40">4-day ↗</a>
+        <a class="src" href="https://app.notion.com/p/3ca5bb1ffef481d08aa6ed398c388176">qual filter ↗</a></div>
+    </div>
+
+    <div class="q-item"><div class="stripe mut"></div>
+      <div><h3>Smaller rulings queued</h3>
+        <p>Lynn’s Capital One SSN alert · Meta URL parameters in Ads Manager · SCIO ad targeting revision · Ghani A.’s 7/15 data-deletion request · Michael M.’s $1,000 Deal-Value field (unsupported — deal moved to Nurture) · 7 [VERIFY WITH ALAN] SOP items.</p></div>
+      <div class="q-meta"><span class="chip mut">Queue</span>
+        <a class="src" href="https://app.notion.com/p/43852d864f7b4977976d6be6a3ec1d30">full checklist ↗</a></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ DEADLINES ============ -->
+<section id="deadlines">
+  <div class="sec-head"><span class="mark">02</span><h2>Dated Commitments — next 30 days</h2>
+    <span class="note">Counters age live</span></div>
+  <div class="deadlines">
+
+    <div class="dl"><div class="top"><span class="date mono">MON · SEP 1</span><span class="days" data-date="2026-09-01"></span></div>
+      <h3>A/B test launches 10:00 AM PT — DM setting vs IG Lead Forms</h3>
+      <p>Prereqs: Jacob invited to Ads Manager · 20 OPM video creatives filmed · both arms tagged distinctly in GHL, or the test is unreadable.
+      <a class="src" href="https://fathom.video/calls/801234866">scope call ↗</a></p></div>
+
+    <div class="dl"><div class="top"><span class="date mono">MON · SEP 1</span><span class="days" data-date="2026-09-01"></span></div>
+      <h3>Connor R.’s apparent 11 AM slot</h3>
+      <p>His 8/17 recording was lost; this is the first signal since. Confirm what happened on 8/17.
+      <a class="src" href="https://app.notion.com/p/3bf5bb1ffef48150b0a1d7cce41368bb">record ↗</a></p></div>
+
+    <div class="dl"><div class="top"><span class="date mono">TUE · SEP 2</span><span class="days" data-date="2026-09-02"></span></div>
+      <h3>Ashwini A. — 30-day investigation lands</h3>
+      <p>$500K SBA collection is the whole game on her file. Ina Grace assigned to Experian Special Handling, recorded.
+      <a class="src" href="https://app.notion.com/p/3b75bb1ffef48156b3a6dcfac60e8e14">record ↗</a></p></div>
+
+    <div class="dl"><div class="top"><span class="date mono">WED · SEP 3</span><span class="days" data-date="2026-09-03"></span></div>
+      <h3>Ed C. — expedited 7-day dispute result due</h3>
+      <p>Re-inserted account, pulled ahead of the ~Sep 11 forced window. Rosemarie calling Special Handling re: address, citing CFPB docs.
+      <a class="src" href="https://app.notion.com/p/3b75bb1ffef48114b344e6f5db65eea9">record ↗</a></p></div>
+
+    <div class="dl"><div class="top"><span class="date mono">THU · SEP 4</span><span class="days" data-date="2026-09-04"></span></div>
+      <h3>Dispute team — 80–90% independence target</h3>
+      <p>The measured criterion for the retain/terminate ruling on Anne &amp; Grace.
+      <a class="src" href="https://fathom.video/calls/801909953">source ↗</a></p></div>
+
+    <div class="dl"><div class="top"><span class="date mono">TUE · SEP 9</span><span class="days" data-date="2026-09-09"></span></div>
+      <h3>Nick S. — Sync B card under 30% utilization</h3>
+      <p>Below ~$1,400 by the due date or funding is blocked. Also: verify the $500 deposit actually landed.
+      <a class="src" href="https://app.notion.com/p/3c85bb1ffef481a3a2d2f0ae3835ac3d">record ↗</a></p></div>
+
+    <div class="dl"><div class="top"><span class="date mono">THU · SEP 10</span><span class="days" data-date="2026-09-10"></span></div>
+      <h3>Yeshaya D. — follow-up call, 1:00 PM PST</h3>
+      <p>0% APR card path chosen; personal guarantee is the blocker — he committed to securing one within a month.
+      <a class="src" href="https://app.notion.com/p/3bc5bb1ffef4813caf97de68e8ae061c">record ↗</a></p></div>
+
+    <div class="dl"><div class="top"><span class="date mono">FRI · SEP 11</span><span class="days" data-date="2026-09-11"></span></div>
+      <h3>Ed C. — forced 30-day dispute window closes</h3>
+      <p>Hancock Whitney 605B refusal opened 8/12; superseded if the 7-day result lands clean.
+      </p></div>
+
+    <div class="dl"><div class="top"><span class="date mono">SAT · SEP 26</span><span class="days" data-date="2026-09-26"></span></div>
+      <h3>Michael M. — 30-day nurture follow-up</h3>
+      <p>Deal lost 8/27 (client refused the gray-zone strategy himself). DIY repair → utilization to 30%.
+      <a class="src" href="https://app.notion.com/p/3c25bb1ffef48167a52be1cac6373e84">record ↗</a></p></div>
+
+  </div>
+</section>
+
+<!-- ============ PIPELINE ============ -->
+<section id="pipeline">
+  <div class="sec-head"><span class="mark">03</span><h2>Pipeline — 74 tracked leads</h2>
+    <span class="note"><a href="https://app.notion.com/p/3b75bb1ffef48196aa4efcf029dc732d">Command Center ↗</a></span></div>
+  <div class="duo">
+
+    <div class="panel">
+      <h3>Funnel by stage</h3>
+      <p class="sub">Open stages in teal · terminal states muted. Hover for share.</p>
+
+      <div id="funnel">
+      <div class="hbar-row" data-stage="Booked Call"><span class="lbl">Booked Call</span><div class="hbar-track"><div class="hbar" style="width:100%"></div></div><span class="num mono">30</span><span class="tip">30 leads · 41% of book — outcomes frozen pending GHL pull</span></div>
+      <div class="hbar-row" data-stage="Showed"><span class="lbl">Showed</span><div class="hbar-track"><div class="hbar" style="width:36.7%"></div></div><span class="num mono">11</span><span class="tip">11 leads · 15% of book</span></div>
+      <div class="hbar-row" data-stage="Offer Made"><span class="lbl">Offer Made</span><div class="hbar-track"><div class="hbar" style="width:26.7%"></div></div><span class="num mono">8</span><span class="tip">8 leads · 11% of book</span></div>
+      <div class="hbar-row" data-stage="Closed Won"><span class="lbl">Closed Won</span><div class="hbar-track"><div class="hbar" style="width:20%"></div></div><span class="num mono">6</span><span class="tip">6 clients · 8% of book</span></div>
+      <div class="hbar-row" data-stage="No-Show"><span class="lbl">No-Show</span><div class="hbar-track"><div class="hbar mut" style="width:40%"></div></div><span class="num mono">12</span><span class="tip">12 leads · 16% — no-show recovery dials unworked</span></div>
+      <div class="hbar-row" data-stage="Nurture"><span class="lbl">Nurture</span><div class="hbar-track"><div class="hbar mut" style="width:10%"></div></div><span class="num mono">3</span><span class="tip">3 leads in long-term nurture</span></div>
+      <div class="hbar-row" data-stage="Closed Lost"><span class="lbl">Closed Lost</span><div class="hbar-track"><div class="hbar mut" style="width:6.7%"></div></div><span class="num mono">2</span><span class="tip">2 lost</span></div>
+      <div class="hbar-row" data-stage="Unqualified"><span class="lbl">Unqualified</span><div class="hbar-track"><div class="hbar mut" style="width:6.7%"></div></div><span class="num mono">2</span><span class="tip">Team/test rows — excluded from funnel math</span></div>
+      </div>
+
+      <p class="sub" style="margin-top:12px">Show → offer → close reads healthy where calls happen; the leak is upstream — <strong style="color:var(--ink)" id="stale-line">41 of 49 open leads untouched 21+ days</strong>, including every Booked-Call row (partly a data gap: their GHL outcomes are unpulled, not necessarily un-worked).</p>
+    </div>
+
+    <div class="panel">
+      <h3>Attribution quality — the tracking debt</h3>
+      <p class="sub">Attribution Confidence across all 74 leads</p>
+      <div class="stackbar" id="attr-bar" role="img" aria-label="Attribution: 1 verified, 2 missing, 71 unset">
+        <div id="attr-v" style="width:1.4%; background:var(--good)"></div>
+        <div id="attr-m" style="width:2.7%; background:var(--crit)"></div>
+        <div id="attr-u" style="width:95.9%; background:var(--ink-3); opacity:.5"></div>
+      </div>
+      <div class="legend">
+        <span><span class="swatch" style="background:var(--good)"></span>Verified — <span id="attr-v-n">1</span></span>
+        <span><span class="swatch" style="background:var(--crit)"></span>Missing — <span id="attr-m-n">2</span></span>
+        <span><span class="swatch" style="background:var(--ink-3); opacity:.5"></span>Unset — <span id="attr-u-n">71</span></span>
+      </div>
+      <p class="sub" style="margin-top:14px">Source mix: <strong style="color:var(--ink)" id="src-mix">Meta Ad 66 · Other 4 · Referral 2 · Unknown 2</strong>. Ad spend cannot be judged per-campaign until the Meta URL parameters + GHL tags ship — and the Sep 1 A/B test inherits this exact gap if its arms aren’t tagged on day one.
+      <a class="src" href="https://app.notion.com/p/412f6a46d3ba4b5daacec84d36499e51">Ad Scoreboard ↗</a> ·
+      <a class="src" href="https://drive.google.com/file/d/1ymOUhLTkuTJLoOaz5ba0gyXom85nP9kq/view">tracking spec ↗</a></p>
+      <p class="sub"><strong style="color:var(--ink)">Score-band signal is strong:</strong> 44 of 74 leads sit at 720+ — the “Top of Market Fit” thesis has raw material already in the book.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ REVENUE LEDGER ============ -->
+<section id="revenue">
+  <div class="sec-head"><span class="mark">04</span><h2>Revenue Ledger — every dollar, its status, its proof</h2></div>
+  <div class="tbl-wrap"><table>
+    <thead><tr><th>Client</th><th>Structure</th><th class="num">Contracted</th><th class="num">Collected</th><th>Status</th><th>Evidence</th></tr></thead>
+    <tbody>
+      <tr>
+        <td class="who"><a href="https://app.notion.com/p/3b75bb1ffef48114b344e6f5db65eea9">Ed C.</a></td>
+        <td class="why">$2K deposit + 6% of first $100K funded</td>
+        <td class="num mono">$2,000</td><td class="num mono">$2,000</td>
+        <td><span class="chip good">Collected</span></td>
+        <td class="src"><a href="https://fathom.video/calls/732157346">close 7/1 ↗</a></td>
+      </tr>
+      <tr>
+        <td class="who">Jill P.</td>
+        <td class="why">$15,000 over 6 × $2,500 installments</td>
+        <td class="num mono">$15,000</td><td class="num mono">—</td>
+        <td><span class="chip warn">Plan — verify installments</span></td>
+        <td class="src"><a href="https://app.notion.com/p/a9adc601acc44b61b80f48969e764522">tracker ↗</a></td>
+      </tr>
+      <tr>
+        <td class="who"><a href="https://app.notion.com/p/3b75bb1ffef4816f91f6c9cb50c911ad">Leo D.</a></td>
+        <td class="why">$12,000 signed 8/7 — client cash flow ≈ −$5K/mo</td>
+        <td class="num mono">$12,000</td><td class="num mono">$0</td>
+        <td><span class="chip crit">At risk — renegotiate</span></td>
+        <td class="src"><a href="https://fathom.video/calls/777554648">signing ↗</a></td>
+      </tr>
+      <tr>
+        <td class="who"><a href="https://app.notion.com/p/3b95bb1ffef48139a66fd1d90439d729">Karl K.</a></td>
+        <td class="why">1% success fee on $750K LOC at WSJ Prime −1%</td>
+        <td class="num mono">$7,500</td><td class="num mono">—</td>
+        <td><span class="chip warn">Agreed — unsigned 8 days</span></td>
+        <td class="src"><a href="https://fathom.video/calls/793137663">debrief ↗</a></td>
+      </tr>
+      <tr>
+        <td class="who"><a href="https://app.notion.com/p/3c85bb1ffef481a3a2d2f0ae3835ac3d">Nick S.</a></td>
+        <td class="why">$500 refundable deposit + 5–8% success fee</td>
+        <td class="num mono">$500</td><td class="num mono">?</td>
+        <td><span class="chip warn">Verify deposit landed</span></td>
+        <td class="src"><a href="https://fathom.video/calls/799338953">strategy ↗</a></td>
+      </tr>
+      <tr>
+        <td class="who"><a href="https://app.notion.com/p/3b75bb1ffef481faab74cd4ceba6e95d">Todd L.</a> + <a href="https://app.notion.com/p/3b75bb1ffef48172b371e1fd44fdb91e">Matt L.</a></td>
+        <td class="why">$0 upfront · 4% of funding secured (household deal)</td>
+        <td class="num mono">4% contingent</td><td class="num mono">$0</td>
+        <td><span class="chip gold">2 card apps pending</span></td>
+        <td class="src"><a href="https://fathom.video/calls/769061378">applications ↗</a></td>
+      </tr>
+      <tr>
+        <td class="who"><a href="https://app.notion.com/p/3c25bb1ffef48167a52be1cac6373e84">Michael M.</a></td>
+        <td class="why">Deal-Value field reads $1,000 — unsupported by any deal record; deal moved to Nurture 8/27</td>
+        <td class="num mono">—</td><td class="num mono">—</td>
+        <td><span class="chip mut">Discrepancy — resolve or clear</span></td>
+        <td class="src"><a href="https://fathom.video/calls/801909953">outcome ↗</a></td>
+      </tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ============ FULFILLMENT ============ -->
+<section id="fulfillment">
+  <div class="sec-head"><span class="mark">05</span><h2>Fulfillment Board — live client workstreams</h2>
+    <span class="note"><a href="https://app.notion.com/p/3b95bb1ffef481bf8a6ad869157d72e0">Client dossiers ↗</a></span></div>
+  <div class="cards">
+
+    <div class="card">
+      <div class="head"><h3><a href="https://app.notion.com/p/3b75bb1ffef48156b3a6dcfac60e8e14">Ashwini A.</a></h3><span class="chip crit">#1 Priority</span></div>
+      <ul>
+        <li><strong>$500K SBA collection</strong> — the largest derogatory on the whole book; removing it is the file</li>
+        <li>30-day investigation ends <strong>~Sep 2</strong>; Experian Special Handling call assigned (Ina Grace, recorded)</li>
+        <li>Wins so far: 8 TU inquiries removed, Affirm late deleted, Volvo deleted</li>
+        <li>⚠ Bureau credentials were sent in plaintext — rotate</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="head"><h3><a href="https://app.notion.com/p/3b75bb1ffef48114b344e6f5db65eea9">Ed C.</a></h3><span class="chip warn">Two workstreams</span></div>
+      <ul>
+        <li>Expedited 7-day dispute result <strong>~Sep 3</strong>; forced 30-day backstop ~Sep 11</li>
+        <li>Special Handling call on address/AKAs/inquiry — Rosemarie, citing CFPB docs, recorded</li>
+        <li>Business credibility: 1-800 live-pending Grasshopper recovery · DUNS verification · 411 blocked</li>
+        <li><strong>Blocker:</strong> BankReady web provider unresponsive — halts the online-presence workstream</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="head"><h3><a href="https://app.notion.com/p/3b75bb1ffef48172b371e1fd44fdb91e">Matt L.</a></h3><span class="chip warn">Stalled — routing</span></div>
+      <ul>
+        <li>Experian has been answering a <strong>dispute canceled Aug 5</strong>, not the live BofA reinsertion/605B filing</li>
+        <li>Decided path: <strong>file fresh</strong> with current documentation — confirm it happened</li>
+        <li>Ownership ambiguity: “Grace” (8/25) vs “Ina Grace” (8/28) on one Experian file — confirm same person</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="head"><h3><a href="https://app.notion.com/p/3b75bb1ffef481faab74cd4ceba6e95d">Todd L.</a></h3><span class="chip gold">Revenue event</span></div>
+      <ul>
+        <li>Stage 5 — <strong>Poppy Bank</strong> (12-mo 0% APR) pending review + <strong>California Bank &amp; Trust</strong> ($25K) submitted</li>
+        <li>First realized revenue on the 4% household deal rides on these</li>
+        <li>Use <strong>MLCS Delaware incorporation date: Feb 7, 2024</strong> on every record — mismatches auto-deny</li>
+        <li>Full GHL import package is paste-ready once the local pull runs</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="head"><h3><a href="https://app.notion.com/p/3c85bb1ffef481a3a2d2f0ae3835ac3d">Nick S.</a></h3><span class="chip warn">Hard date</span></div>
+      <ul>
+        <li>Sync B / Sam’s Club card at 39% utilization <strong>blocks funding</strong> — under 30% (≈&lt;$1,400) by <strong>Sep 9</strong></li>
+        <li>Business lost its mall location; days of runway — urgency is real, speed matters</li>
+        <li>TU 696 / EQ 690 / EX 712; bankruptcy &gt;10 yrs not weighted by major banks</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="head"><h3>Dispute doctrine — this week’s capture</h3><span class="chip good">SOP drafted</span></div>
+      <ul>
+        <li><strong>Never accept a 30-day conversion</strong> — the 4-day identity-theft track is legally distinct; conversion is the process failure that trapped Ashwini and Ed</li>
+        <li>“Valid” ≠ an answer · always ask for a supervisor · record every bureau call</li>
+        <li>Frame new items as <strong>one ongoing identity-theft event</strong> — preserves the limited FTC allowance</li>
+      </ul>
+      <p class="src"><a href="https://app.notion.com/p/3ca5bb1ffef481468487e9be6136ba40">full SOP ↗</a> · <a href="https://fathom.video/calls/801867207">source call ↗</a></p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ GROWTH ============ -->
+<section id="growth">
+  <div class="sec-head"><span class="mark">06</span><h2>Growth Engine — the September rebuild</h2>
+    <span class="note">August: 1–3 qualified prospects, total</span></div>
+  <div class="cards">
+
+    <div class="card">
+      <div class="head"><h3>Top-of-funnel — launches Sep 1</h3><span class="chip warn">Dated</span></div>
+      <ul>
+        <li><strong>A/B:</strong> Instagram DM setting vs native Lead Forms · Jacob builds/launches 10:00 AM PT</li>
+        <li><strong>Creative:</strong> static ads → 20 video creatives on the “Other People’s Money” angle, due Sep 1</li>
+        <li><strong>Show rate:</strong> personalized pre-call Loom to every booked lead + rebuilt VSL confirmation page</li>
+      </ul>
+      <p class="src"><a href="https://fathom.video/calls/801234866">CSM scope call ↗</a> · <a href="https://app.notion.com/p/3c95bb1ffef4818d9e9ecf38c98c00c8">tracking prerequisite ↗</a></p>
+    </div>
+
+    <div class="card">
+      <div class="head"><h3>Qualification — the new hard filter</h3><span class="chip good">First numeric standard</span></div>
+      <ul>
+        <li><strong>3–5 cards · at least one $10K+ limit · 2+ year average age</strong> — askable in a DM by any setter</li>
+        <li>Triage script revised: “when do you want to start” moves to the top, 30-day timeline filter</li>
+        <li>Forced by Robert M.: full call spent on a $300/$500-limit profile asking $1M+</li>
+      </ul>
+      <p class="src"><a href="https://app.notion.com/p/3ca5bb1ffef481d08aa6ed398c388176">SOP ↗</a> · <a href="https://fathom.video/calls/798787726">the call ↗</a></p>
+    </div>
+
+    <div class="card">
+      <div class="head"><h3>Targeting — ICP mismatch named</h3><span class="chip crit">Legal risk</span></div>
+      <ul>
+        <li>Current leads: excessive effort, low ticket, and gray-area exposure (Michael M. is the worked example — <em>the client</em> caught the compliance problem)</li>
+        <li>Fix is upstream: <strong>SCIO ad targeting</strong>, wrapped in the “Top of Market Fit” frame — optimize for high-credit, high-income and capture the market below naturally</li>
+      </ul>
+      <p class="src"><a href="https://app.notion.com/p/3ca5bb1ffef48182ace2f26da45298e7">checklist row ↗</a> · <a href="https://fathom.video/calls/803053542">diagnosis ↗</a></p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ TEAM & RISK ============ -->
+<section id="team">
+  <div class="sec-head"><span class="mark">07</span><h2>Team, Cadence &amp; Risk Register</h2></div>
+  <div class="duo">
+
+    <div class="panel">
+      <h3>Operating cadence — revised 8/28</h3>
+      <p class="sub">The structural answer to the new-hire “disorganization” complaint</p>
+      <ul style="margin:0; padding-left:18px; font-size:13.5px; color:var(--ink-2)">
+        <li style="margin:4px 0"><strong class="mono" style="color:var(--ink)">7:00</strong> Daily Sync — cut to 30 min · <strong class="mono" style="color:var(--ink)">7:30</strong> Ops (45) · <strong class="mono" style="color:var(--ink)">8:15</strong> Dispute (45) — Ops deliberately first, so it runs on fresh data</li>
+        <li style="margin:4px 0"><strong class="mono" style="color:var(--ink)">12:15</strong> Alan ↔ Carla daily 1-on-1 · deep-work blocks Tue 9–10 + Fri</li>
+        <li style="margin:4px 0"><strong style="color:var(--ink)">Prior-evening agenda posts mandatory</strong> — one item per person in their dept channel, timestamps required on call reviews; EOD template enforces it</li>
+        <li style="margin:4px 0">Watch: a new hire’s two-day silence flagged as a commitment red flag <a class="src" href="https://fathom.video/calls/803087357">↗</a></li>
+      </ul>
+      <p class="sub" style="margin-top:12px"><strong style="color:var(--ink)">Verification standard:</strong> one clean week of held meetings and posted agendas — the announcement doesn’t count.
+      <a class="src" href="https://app.notion.com/p/3c95bb1ffef4811c8a25e4871e5d08b4">checklist row ↗</a></p>
+    </div>
+
+    <div class="panel">
+      <h3>Risk register</h3>
+      <p class="sub">Ranked · each links to its row</p>
+      <div class="tbl-wrap" style="border:none"><table style="min-width:0">
+        <tbody>
+          <tr><td><span class="chip crit">Critical</span></td><td class="why">3 public Loom videos expose client SSNs/passwords <a class="src" href="https://app.notion.com/p/43852d864f7b4977976d6be6a3ec1d30">↗</a></td></tr>
+          <tr><td><span class="chip crit">Critical</span></td><td class="why">$19.5K of contracted revenue at risk or unsigned (Leo + Karl)</td></tr>
+          <tr><td><span class="chip warn">High</span></td><td class="why">Fathom unrestricted for all users — every client call open to everyone <a class="src" href="https://app.notion.com/p/3ca5bb1ffef481be9e9bcfa42b4da336">↗</a></td></tr>
+          <tr><td><span class="chip warn">High</span></td><td class="why">Ashwini’s bureau credentials sent in plaintext — rotate</td></tr>
+          <tr><td><span class="chip warn">Med</span></td><td class="why">Lynn N. — Capital One suspicious-SSN alert, uninvestigated <a class="src" href="https://app.notion.com/p/3ca5bb1ffef481ea94b2fb86aa3b55e6">↗</a></td></tr>
+          <tr><td><span class="chip warn">Med</span></td><td class="why">Recording integrity — Connor’s lost call; Carla’s Zoom unconnected until 8/17</td></tr>
+          <tr><td><span class="chip mut">Open</span></td><td class="why">Ghani A. data-deletion request (7/15) unhandled — compliance clock</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p><strong>Sources of record:</strong>
+    <a href="https://app.notion.com/p/3ba5bb1ffef48182b54cde51f6da1ae2">APW Ops Hub</a> ·
+    <a href="https://app.notion.com/p/3b75bb1ffef48196aa4efcf029dc732d">Client Tracking Command Center</a> ·
+    <a href="https://app.notion.com/p/43852d864f7b4977976d6be6a3ec1d30">Master Ops Checklist</a> ·
+    <a href="https://app.notion.com/p/412f6a46d3ba4b5daacec84d36499e51">Ad Scoreboard</a> ·
+    <a href="https://app.notion.com/p/4a3dd72b984f427e8b421c681a9873f0">Call Library (144)</a> ·
+    <a href="https://app.notion.com/p/a7475e83230a49f894467b1c742c446e">SOP Library</a> ·
+    <a href="https://app.notion.com/p/3b95bb1ffef481f293fbeaf311e224e4">Master Closing Framework v2</a></p>
+  <p>Built from the Notion tracker (74 leads · 341 comms · 117 documents · 144 calls); audited snapshot Aug 29, 2026.
+  Pipeline, attribution and lead counts go live from Notion when the viewer’s connector is available — the badge in the masthead shows which mode you’re seeing.
+  Figures marked “verify” are contracted terms whose cash movement is not yet evidenced.
+  GHL + Meta live feed pending the local pull.</p>
+</footer>
+
+</div>
+
+<script>
+  (function () {
+    try {
+      var now = new Date();
+      var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+      document.querySelectorAll('.days[data-date]').forEach(function (el) {
+        var parts = el.getAttribute('data-date').split('-');
+        var d = new Date(+parts[0], +parts[1] - 1, +parts[2]);
+        var diff = Math.round((d - today) / 86400000);
+        if (diff < 0) { el.textContent = Math.abs(diff) + 'd overdue'; el.className = 'days now'; }
+        else if (diff === 0) { el.textContent = 'today'; el.className = 'days now'; }
+        else if (diff <= 5) { el.textContent = 'in ' + diff + 'd'; el.className = 'days soon'; }
+        else { el.textContent = 'in ' + diff + 'd'; el.className = 'days later'; }
+      });
+    } catch (e) { /* counters degrade to blank; dates remain printed */ }
+  })();
+</script>
+<script>
+  /* ===== Live layer: refreshes pipeline stats from the viewer's Notion connector ===== */
+  (async function () {
+    var $ = function (id) { return document.getElementById(id); };
+    var badge = $('live-badge'), badgeText = $('live-badge-text');
+    function setBadge(cls, text) {
+      if (!badge || !badgeText) return;
+      badge.className = 'live-badge' + (cls ? ' ' + cls : '');
+      badgeText.textContent = text;
+    }
+
+    var SNAP_TEXT = 'Snapshot · Aug 29 2026';
+    var OPEN_STAGES = { 'Booked Call': 1, 'Showed': 1, 'Offer Made': 1 };
+    var STAGES = ['Booked Call', 'Showed', 'Offer Made', 'Closed Won', 'No-Show', 'Nurture', 'Closed Lost', 'Unqualified'];
+
+    // Snapshot values, restored if live access is revoked
+    var SNAP = {
+      total: 74, open: 49, askM: '$12.4M', stale: '41 of 49 open leads untouched 21+ days',
+      stages: { 'Booked Call': 30, 'Showed': 11, 'Offer Made': 8, 'Closed Won': 6, 'No-Show': 12, 'Nurture': 3, 'Closed Lost': 2, 'Unqualified': 2 },
+      attr: { v: 1, m: 2, u: 71 }, src: 'Meta Ad 66 · Other 4 · Referral 2 · Unknown 2'
+    };
+
+    function fmtMoney(n) {
+      if (n >= 1e6) return '$' + (n / 1e6).toFixed(1).replace(/\.0$/, '') + 'M';
+      if (n >= 1e3) return '$' + Math.round(n / 1e3) + 'K';
+      return '$' + n;
+    }
+
+    function apply(stats) {
+      var maxN = 1;
+      STAGES.forEach(function (s) { maxN = Math.max(maxN, stats.stages[s] || 0); });
+      document.querySelectorAll('#funnel .hbar-row').forEach(function (row) {
+        var s = row.getAttribute('data-stage');
+        var n = stats.stages[s] || 0;
+        var bar = row.querySelector('.hbar'), num = row.querySelector('.num'), tip = row.querySelector('.tip');
+        if (bar) bar.style.width = Math.max((n / maxN) * 100, n > 0 ? 2 : 0) + '%';
+        if (num) num.textContent = n;
+        if (tip && stats.total) tip.textContent = n + ' leads · ' + Math.round((n / stats.total) * 100) + '% of book';
+      });
+      if ($('lead-count')) $('lead-count').textContent = stats.total;
+      if ($('tile-ask')) $('tile-ask').textContent = stats.askM;
+      if ($('tile-open-n')) $('tile-open-n').textContent = stats.open;
+      if ($('stale-line')) $('stale-line').textContent = stats.stale;
+      var at = stats.attr.v + stats.attr.m + stats.attr.u || 1;
+      if ($('attr-v')) $('attr-v').style.width = Math.max((stats.attr.v / at) * 100, stats.attr.v ? 1 : 0) + '%';
+      if ($('attr-m')) $('attr-m').style.width = Math.max((stats.attr.m / at) * 100, stats.attr.m ? 1 : 0) + '%';
+      if ($('attr-u')) $('attr-u').style.width = Math.max((stats.attr.u / at) * 100, stats.attr.u ? 1 : 0) + '%';
+      if ($('attr-v-n')) $('attr-v-n').textContent = stats.attr.v;
+      if ($('attr-m-n')) $('attr-m-n').textContent = stats.attr.m;
+      if ($('attr-u-n')) $('attr-u-n').textContent = stats.attr.u;
+      if ($('src-mix')) $('src-mix').textContent = stats.src;
+    }
+
+    function computeStats(rows) {
+      var stages = {}, attr = { v: 0, m: 0, u: 0 }, src = {};
+      var open = 0, ask = 0, stale = 0, total = rows.length;
+      var cutoff = Date.now() - 21 * 86400000;
+      rows.forEach(function (r) {
+        var s = r['Stage'] || 'New Lead';
+        stages[s] = (stages[s] || 0) + 1;
+        var a = r['Attribution Confidence'];
+        if (a && a.indexOf('Verified') === 0) attr.v++;
+        else if (a === 'Missing') attr.m++;
+        else attr.u++;
+        var so = r['Source'] || 'Unknown';
+        src[so] = (src[so] || 0) + 1;
+        if (OPEN_STAGES[s]) {
+          open++;
+          if (typeof r['Funding Ask'] === 'number') ask += r['Funding Ask'];
+          var lt = r['lt'];
+          if (!lt || new Date(lt + 'T00:00:00').getTime() < cutoff) stale++;
+        }
+      });
+      var srcTxt = Object.keys(src).sort(function (a, b) { return src[b] - src[a]; })
+        .map(function (k) { return k + ' ' + src[k]; }).join(' · ');
+      return {
+        total: total, open: open, askM: fmtMoney(ask),
+        stale: stale + ' of ' + open + ' open leads untouched 21+ days',
+        stages: stages, attr: attr, src: srcTxt
+      };
+    }
+
+    try {
+      if (!window.claude || !window.claude.use) return; // saved copy — snapshot stands
+      var mcp = await window.claude.use('mcp');
+      if (!mcp) return; // capability unavailable on this view — snapshot stands
+
+      var DS = 'collection://5614ffa0-e3d0-40cb-ae64-b32ec52e288c';
+      var input = { data: { data_source_urls: [DS], query:
+        'SELECT "Stage", "Attribution Confidence", "Source", "Funding Ask", "date:Last Touch:start" AS lt FROM "' + DS + '"' } };
+      var applied = false;
+
+      mcp.watchTool('Notion', 'notion-query-data-sources', input, function (ev) {
+        if (ev.type === 'data') {
+          var p = ev.result && ev.result.payload;
+          if (typeof p === 'string') { try { p = JSON.parse(p); } catch (e) { p = null; } }
+          var rows = p && p.results;
+          if (!Array.isArray(rows) || rows.length === 0) {
+            setBadge('err', 'Live feed: unexpected data — snapshot shown');
+            return;
+          }
+          apply(computeStats(rows));
+          applied = true;
+          var ts = (ev.result.cache && ev.result.cache.storedAt) ? new Date(ev.result.cache.storedAt) : new Date();
+          setBadge('live', 'Live · Notion · ' + ts.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }));
+        } else if (ev.type === 'error') {
+          var c = ev.error && ev.error.code;
+          if (c === 'needs_reauth') { if (applied) { apply(SNAP); applied = false; } setBadge('err', 'Reconnect Notion in claude.ai Settings → Connectors'); }
+          else if (c === 'server_not_connected') { if (applied) { apply(SNAP); applied = false; } setBadge('', SNAP_TEXT + ' — add Notion in Settings → Connectors for live data'); }
+          else if (c === 'blocked_by_policy' || c === 'approval_required' || c === 'not_granted') { if (applied) { apply(SNAP); applied = false; } setBadge('', SNAP_TEXT); }
+          else if (c === 'tool_error') { setBadge('err', applied ? 'Live paused — query failed; last data shown' : 'Live query failed — snapshot shown'); }
+          else if (c === 'selection_required') { setBadge('', SNAP_TEXT + ' — choose a Notion connector when prompted'); }
+          else { setBadge(applied ? 'live' : '', applied ? badgeText.textContent : SNAP_TEXT); }
+        }
+      }, { refetchInterval: 300000, cache: { staleTime: 60000 } });
+    } catch (e) { setBadge('', SNAP_TEXT); }
+  })();
+</script>
