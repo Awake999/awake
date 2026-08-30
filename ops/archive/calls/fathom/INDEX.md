@@ -9,14 +9,14 @@
 | 2026-08-28 | Impromptu Zoom Meeting (Ina Grace Langub) ★ AG escalation pt 2 | 178010725 | 803353666 | yes → `2026-08-28--ag-escalation-strategy-part-2--178010725/` |
 | 2026-08-28 | Impromptu Zoom Meeting ★ AG escalation strategy | 178010625 | 803352097 | yes → `2026-08-28--ag-escalation-strategy--178010625/` |
 | 2026-08-28 | Impromptu Zoom Meeting | 178009344 | 803341537 | no |
-| 2026-08-28 | Client Call (CSM) ★ Funnel rebuild w/ Jacob (Sep 1 A/B) | 177941051 | 801234866 | no |
-| 2026-08-28 | Impromptu Zoom Meeting ★ Revenue diagnosis ($0 August) | 177894725 | 803087357 | no |
+| 2026-08-28 | Client Call (CSM) ★ Funnel rebuild w/ Jacob (Sep 1 A/B) | 177941051 | 801234866 | yes → `2026-08-28--funnel-rebuild-with-jacob--177941051/` |
+| 2026-08-28 | Impromptu Zoom Meeting ★ Revenue diagnosis ($0 August) | 177894725 | 803087357 | yes → `2026-08-28--revenue-diagnosis-zero-august--177894725/` |
 | 2026-08-28 | Impromptu Zoom Meeting ★ ICP mismatch | 177881372 | 803053542 | no |
 | 2026-08-28 | Impromptu Zoom Meeting | 177853139 | 802994217 | no |
 | 2026-08-28 | Impromptu Zoom Meeting | 177851352 | 802985297 | no |
 | 2026-08-27 | Impromptu Zoom Meeting | 177669876 | 801909953 | no |
 | 2026-08-27 | Impromptu Zoom Meeting ★ 4-day dispute doctrine | 177662775 | 801867207 | yes → `2026-08-27--four-day-dispute-doctrine--177662775/` |
-| 2026-08-27 | Robert Morawitz - Guaranteed Funding ★ Qualification standard origins | 177627271 | 798787726 | no |
+| 2026-08-27 | Robert Morawitz - Guaranteed Funding ★ Qualification standard origins | 177627271 | 798787726 | yes → `2026-08-27--robert-morawitz-qualification-origins--177627271/` |
 | 2026-08-27 | Impromptu Zoom Meeting | 177571208 | 801601613 | no |
 | 2026-08-27 | Yeshaya Dank - $1M-$1.5M Dank SPV Funding | 177510654 | 799338949 | no |
 | 2026-08-27 | Impromptu Zoom Meeting | 177414987 | 801291099 | no |
