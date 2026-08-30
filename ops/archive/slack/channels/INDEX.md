@@ -33,8 +33,8 @@ Complete enumeration pulled 2026-08-30 (public + private + archived). The `expor
 | #vibe-lounge | C0BRB07QSM8 | public | 8/19 Carla | ✅ `vibe-lounge/2026-08.md` (complete) |
 | #birthday-wishes | C0BR4T5SK8T | public | 8/19 Carla | ✅ `birthday-wishes/2026-08.md` (complete) |
 | #social | C0ADC1V8DUL | public | 2/5 Alan | ✅ `social/2026-02-to-2026-08.md` (complete) |
-| #alan-nguyen (Krysten) | C0AD1CR7QP5 | private | 2/5 Krysten | no — external/coaching channel |
-| #alan-nguyen9145 (Kai Bax) | C0AJ9D4NEQ4 | private | 3/2 Kai Bax | no — SCIO owner channel |
+| #alan-nguyen (Funding For Freedom) | C0AD1CR7QP5 | private, Slack Connect | 2/5 Krysten (FFF) | ✅ `alan-nguyen-fff/2026-02-to-2026-08.md` (complete + raw p2-p3) — Alan's own funding-client journey |
+| #alan-nguyen9145 (ScaleClients/Kai Bax) | C0AJ9D4NEQ4 | private, Slack Connect | 3/2 Kai Bax | ✅ `alan-nguyen9145-scaleclients/2026-03-to-2026-08.md` (complete + raw p3-p4) — the full growth-engine record; ~60 voice notes → audio SOP queue |
 | #bloc-ref-alan-nguyen | C0BFVDYRYBH | private, ARCHIVED | 3/26 Aaron Wang (FFF) | ✅ `bloc-ref-alan-nguyen/2026-03-to-2026-07.md` (complete) — Funding For Freedom BLOC referral partner |
 
 **Not covered by channel exports:** DMs (Alan↔Lynn, Alan↔Carla, Alan↔Grace, Alan↔Anne, etc.) — the Slack API exposes DM history per conversation; a DM-export pass is queued after channels. Audio files found in any export are logged in `../audio/README.md`.
