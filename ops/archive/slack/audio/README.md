@@ -7,7 +7,7 @@
 3. **Every entry in this inventory is a clickable link** — to the repo file when downloaded, to the Slack permalink when not.
 4. Files over the 10 MB API cap: row keeps its permalink + 🔴 until the local session downloads it into `files/`, then it gets transcribed like the rest.
 
-Full workspace file-search sweep run 2026-08-30 (public + private channels + DMs + group DMs, all dates): **26 audio files + 1 video clip found.** 23 audio files are backed up as actual .m4a files in [`files/`](files/) (47.7 MB); transcripts are being generated beside them.
+Full workspace file-search sweep run 2026-08-30 (public + private channels + DMs + group DMs, all dates): **26 audio files + 1 video clip found.** A second sweep the same day through the two external Slack Connect channels (which workspace file search does NOT cover) found **65 more voice notes** — see the second table below. **45 audio files are now backed up as actual .m4a files in [`files/`](files/)**; transcripts are generated beside them.
 
 | Date | Poster | File | Size | In repo | Transcript |
 |---|---|---|---|---|---|
@@ -35,6 +35,18 @@ Full workspace file-search sweep run 2026-08-30 (public + private channels + DMs
 | 2026-06-20 | Alan | audio_message (F0BBY1TFSH3) | 4.6 MB | ✅ | needs-transcription |
 | 2026-06-08 | Alan | Audio Clip 17:41 (F0BA0LKS6M6) | 733 KB | ✅ | needs-transcription |
 | 2026-06-01 | Alan | Audio Clip 23:07 (F0B75N9R007) | 2.3 MB | ✅ | needs-transcription |
+
+## External Slack Connect channel audio (sweep 2 — 2026-08-30)
+
+The [#alan-nguyen9145 ScaleClients channel](../channels/alan-nguyen9145-scaleclients/2026-03-to-2026-08.md) and [#alan-nguyen FFF channel](../channels/alan-nguyen-fff/2026-02-to-2026-08.md) carry 65 voice notes (Mar–Aug 2026) that workspace file search misses. **Alan's own 22 are downloaded ✅ into [`files/`](files/)** (each row's file is the clickable name). The 43 posted by ScaleClients members (Clint Losch, Kai Bax, Fadel) are hosted in *their* workspace — the API returns file_not_found, so they are 🔴 **local-PC task**: open the channel on the date shown, play/save the clip, drop into `files/` with the standard naming, then it gets transcribed like the rest.
+
+**Alan's downloaded ✅ (22, all ScaleClients channel, transcription queued):** 3/26 x4 (F0ANZRA11MK, F0ANMS2PXMM, F0APG8RM31P, F0AP3C55C4A) · 6/1 x2 (F0B7GAZ784D, F0B7GACHM9B) · 6/9 x2 (F0B96FB1LUB, F0B9ES87EAD) · 6/10 x4 (F0B97U1SEEB, F0B9KV04MJR, F0B9N61R2P7, F0B9T2J5E84) · 6/22 (F0BBXHYR7K9) · 6/23 x3 (F0BCLBZ0AP8, F0BCFUUPWAF, F0BCSTXNMUH) · 6/29 x3 (F0BETQ8MZDE, F0BETQZUDJL, F0BDXC59230) · 7/3 (F0BEZ10ESJZ) · 7/20 x2 (F0BJDRK1B19, F0BJL3Q8L10)
+
+**External-hosted 🔴 (43, by poster + date, ScaleClients channel unless noted):**
+- **Clint Losch (33):** 3/5 F0AJRB2K4NN · 3/10 F0AL4SMMUJD · 3/12 F0ALHJVTX97 · 3/13 F0ALNT2DPLL · 3/16 F0AM9BEA45P · 3/26 F0AP6CHFECC · 3/31 F0AQ0ELDSJJ · 4/1 F0AR3UHH09E · 4/2 F0AQHH10734 · 4/10 F0AS1NT68CE · 4/13 x3 F0AS68XGBCP F0ASKLS927Q F0AT0KMMVRP · 4/16 F0ATT6Y1DT3 · 4/17 F0AT8RQ3FF1 · 4/21 x2 F0AUB5239SN F0AURRK8WKT · 4/22 F0AVDP1TVL0 · 4/24 F0B0191AP7B · 4/29 F0B0J2K6FTM · 4/30 F0B0VGM0LMR · 5/1 F0B11GJERPX · 5/6 F0B209MV30V · 5/22 F0B5M9RNE73 · 6/1 F0B7CRDDQTD · 6/10 x2 F0B9HRSM6DU F0B99952JET · 6/12 F0BA92YEV33 · 6/15 F0BAVPLR8BW · 6/22 F0BC9EKGEN9 · 6/23 x2 F0BCNAY7RGS F0BC5NF9R7Z · 7/3 F0BF3SQ7H17 · 7/6 F0BFDNZJRN2 · 7/31 F0BLT1KNX47
+- **Kai Bax (4):** 6/1 x3 F0B7QPCA2N8 F0B8FEMK4RE F0B75MNT47R · **8/28 F0BU77N0Q2C (his reply to the metrics audit — high priority)**
+- **Fadel (4):** 3/3 F0AJ6BK5C5C · 6/2 x2 F0B7M3LN2E7 F0B7RCS5XML · 7/1 F0BELE6EF34
+- *(3 more of Alan's from this channel were already in the first sweep: 6/1 F0B75N9R007, 6/8 F0BA0LKS6M6, 7/13 F0BH0FU1V1C.)*
 
 ## Local-session task (the 4 red rows)
 On Alan's PC, download from Slack (each file's message is findable by its file ID or date in the source channel) and drop into `files/` with the same naming pattern, then flip 🔴 → ✅ here.
