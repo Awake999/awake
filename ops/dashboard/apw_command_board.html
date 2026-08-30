@@ -10,21 +10,21 @@
     --ink: #E9ECEA;
     --ink-2: #9AA4A0;
     --ink-3: #667069;
-    --gold: #C9A84C;
-    --gold-dim: #8f7a3d;
-    --teal: #35A97A;
-    --teal-soft: rgba(53,169,122,.20);
-    --good: #35A97A;
-    --good-bg: rgba(53,169,122,.13);
-    --warn: #DCA939;
-    --warn-bg: rgba(220,169,57,.12);
-    --crit: #E4685E;
-    --crit-bg: rgba(228,104,94,.13);
-    --link: #7FB8A8;
+    --gold: #D9B856;
+    --gold-dim: #9a824a;
+    --teal: #33C1E8; /* brand cyan — the single magnitude hue for bars/gauges */
+    --teal-soft: rgba(51,193,232,.20);
+    --good: #3DDC97; /* bright money green (Alan, 8/30) */
+    --good-bg: rgba(61,220,151,.13);
+    --warn: #F2C14A;
+    --warn-bg: rgba(242,193,74,.12);
+    --crit: #F2655A;
+    --crit-bg: rgba(242,101,90,.13);
+    --link: #6FD0EC;
     --shadow: 0 1px 0 rgba(0,0,0,.4);
-    /* Brand wing spectrum — DECORATIVE ONLY, never a data series */
-    --wing: linear-gradient(90deg, #46C6E3, #4FBF8B, #E8C55A, #E884B0, #9A6FD0);
-    --w-cyan: #46C6E3; --w-green: #4FBF8B; --w-gold: #E8C55A; --w-pink: #E884B0; --w-purple: #9A6FD0;
+    /* Brand gradient per Alan, saturated to logo vividness: cyan · gold · magenta · purple — DECORATIVE ONLY, never a data series */
+    --wing: linear-gradient(90deg, #33D6F5, #FFD75E, #F45FB5, #A96BFF);
+    --w-cyan: #33D6F5; --w-gold: #FFD75E; --w-pink: #F45FB5; --w-purple: #A96BFF; --w-green: #3DDC97;
   }
   /* Single-theme by design: the board is dark in every viewer theme. */
 
@@ -48,6 +48,51 @@
 
   /* ============ PLEXUS FIELD (ambient, behind everything) ============ */
   #plexus { position: fixed; inset: 0; z-index: 0; pointer-events: none; }
+
+  /* ============ REACTIVE LAYER — premium glow + motion ============ */
+  .spotlight {
+    position: fixed; inset: 0; z-index: 0; pointer-events: none;
+    background: radial-gradient(620px circle at var(--mx, 50%) var(--my, 30%), rgba(51,214,245,.075), transparent 62%);
+  }
+  .panel, .tile, .dl, details.q-item, details.card, .trio .cell, .hero {
+    transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+  }
+  .panel:hover, .tile:hover, .dl:hover, details.q-item:hover, details.card:hover, .trio .cell:hover {
+    transform: translateY(-2px);
+    border-color: rgba(51,214,245,.45);
+    box-shadow: 0 6px 22px rgba(0,0,0,.4), 0 0 14px rgba(51,214,245,.14);
+  }
+  .tile.goldline:hover { border-color: rgba(255,215,94,.5); box-shadow: 0 6px 22px rgba(0,0,0,.4), 0 0 14px rgba(255,215,94,.16); }
+  .tile.crit:hover { border-color: rgba(242,101,90,.5); box-shadow: 0 6px 22px rgba(0,0,0,.4), 0 0 14px rgba(242,101,90,.16); }
+  nav.rail button:hover { text-shadow: 0 0 12px rgba(51,214,245,.45); }
+
+  @keyframes wingsweep { 0% { background-position: 0% 50%; } 100% { background-position: 200% 50%; } }
+  header.masthead::after, .hero::before {
+    background-size: 200% 100%;
+    animation: wingsweep 9s linear infinite;
+  }
+  @keyframes heroPulse {
+    0%, 100% { text-shadow: 0 0 16px rgba(242,101,90,.30); }
+    50% { text-shadow: 0 0 34px rgba(242,101,90,.55); }
+  }
+  .hero .headline .v { animation: heroPulse 3.2s ease-in-out infinite; }
+  @keyframes dotPulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(61,220,151,.55); }
+    70% { box-shadow: 0 0 0 6px rgba(61,220,151,0); }
+  }
+  .live-badge.live .dot { animation: dotPulse 2s ease-out infinite; }
+  @keyframes growX { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+  .hbar, .cashbar > div, .duel .fill, .propstrip > div, .stackbar > div, .range .band {
+    transform-origin: left center;
+    animation: growX .9s cubic-bezier(.22, .9, .35, 1) both;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .spotlight { display: none; }
+    header.masthead::after, .hero::before, .hero .headline .v, .live-badge.live .dot,
+    .hbar, .cashbar > div, .duel .fill, .propstrip > div, .stackbar > div, .range .band { animation: none; }
+    .panel, .tile, .dl, details.q-item, details.card, .trio .cell, .hero { transition: none; }
+    .panel:hover, .tile:hover, .dl:hover, details.q-item:hover, details.card:hover, .trio .cell:hover { transform: none; }
+  }
 
   svg.ic { width: 1em; height: 1em; vertical-align: -0.12em; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex: none; }
 
@@ -100,7 +145,7 @@
   nav.rail button:nth-child(1) svg.ic { color: var(--w-gold); }
   nav.rail button:nth-child(2) svg.ic { color: var(--w-cyan); }
   nav.rail button:nth-child(3) svg.ic { color: var(--w-green); }
-  nav.rail button:nth-child(4) svg.ic { color: var(--teal); }
+  nav.rail button:nth-child(4) svg.ic { color: var(--w-cyan); }
   nav.rail button:nth-child(5) svg.ic { color: var(--w-pink); }
   nav.rail button:nth-child(6) svg.ic { color: var(--w-purple); }
   nav.rail button:nth-child(7) svg.ic { color: var(--w-cyan); }
@@ -311,17 +356,17 @@
     background: rgba(201,168,76,.15); border: 1px solid var(--gold); color: var(--gold);
     font-size: 11px; font-weight: 800; letter-spacing: 0;
   }
-  /* wing spectrum walks the ascent */
+  /* brand gradient walks the ascent — gold summit */
   .chain .ph:nth-child(1) .step .n { border-color: var(--w-cyan); color: var(--w-cyan); background: transparent; }
   .chain .ph:nth-child(1) { border-top: 3px solid var(--w-cyan); }
-  .chain .ph:nth-child(2) .step .n { border-color: var(--w-green); color: var(--w-green); background: transparent; }
-  .chain .ph:nth-child(2) { border-top: 3px solid var(--w-green); }
-  .chain .ph:nth-child(3) .step .n { border-color: var(--w-gold); color: var(--w-gold); background: transparent; }
-  .chain .ph:nth-child(3) { border-top: 3px solid var(--w-gold); }
-  .chain .ph:nth-child(4) .step .n { border-color: var(--w-pink); color: var(--w-pink); background: transparent; }
-  .chain .ph:nth-child(4) { border-top: 3px solid var(--w-pink); }
-  .chain .ph:nth-child(5) .step .n { border-color: var(--w-purple); color: var(--w-purple); background: transparent; }
-  .chain .ph:nth-child(5) { border-top: 3px solid var(--w-purple); }
+  .chain .ph:nth-child(2) .step .n { border-color: var(--w-gold); color: var(--w-gold); background: transparent; }
+  .chain .ph:nth-child(2) { border-top: 3px solid var(--w-gold); }
+  .chain .ph:nth-child(3) .step .n { border-color: var(--w-pink); color: var(--w-pink); background: transparent; }
+  .chain .ph:nth-child(3) { border-top: 3px solid var(--w-pink); }
+  .chain .ph:nth-child(4) .step .n { border-color: var(--w-purple); color: var(--w-purple); background: transparent; }
+  .chain .ph:nth-child(4) { border-top: 3px solid var(--w-purple); }
+  .chain .ph:nth-child(5) .step .n { border-color: var(--gold); color: var(--gold); background: rgba(201,168,76,.12); }
+  .chain .ph:nth-child(5) { border-top: 3px solid var(--gold); }
   .chain .ph h3 { margin: 0; font-size: 15px; font-weight: 700; }
   .chain .ph p { margin: 0; font-size: 12.5px; color: var(--ink-2); }
   .chain .ph p strong { font-weight: 600; }
@@ -461,6 +506,7 @@
 </svg>
 
 <canvas id="plexus" aria-hidden="true"></canvas>
+<div class="spotlight" id="spotlight" aria-hidden="true"></div>
 
 <div class="wrap">
 
@@ -468,10 +514,10 @@
   <svg class="masthead-art" viewBox="0 0 220 110" aria-hidden="true">
     <defs>
       <linearGradient id="wingL" x1="0" y1="1" x2="1" y2="0">
-        <stop offset="0" stop-color="#46C6E3"/><stop offset=".5" stop-color="#4FBF8B"/><stop offset="1" stop-color="#E8C55A"/>
+        <stop offset="0" stop-color="#33D6F5"/><stop offset=".5" stop-color="#3DDC97"/><stop offset="1" stop-color="#FFD75E"/>
       </linearGradient>
       <linearGradient id="wingR" x1="0" y1="0" x2="1" y2="1">
-        <stop offset="0" stop-color="#E8C55A"/><stop offset=".5" stop-color="#E884B0"/><stop offset="1" stop-color="#9A6FD0"/>
+        <stop offset="0" stop-color="#FFD75E"/><stop offset=".5" stop-color="#F45FB5"/><stop offset="1" stop-color="#A96BFF"/>
       </linearGradient>
     </defs>
     <g fill="none" stroke-linecap="round">
@@ -722,7 +768,7 @@
 <div class="tabpane" id="pane-money" hidden>
 
 <section id="revenue">
-  <div class="sec-head"><span class="sic" style="color:var(--w-green)"><svg class="ic"><use href="#i-coin"/></svg></span><h2>Revenue Ledger — every dollar, its status, its proof</h2></div>
+  <div class="sec-head"><span class="sic" style="color:var(--w-green)"><svg class="ic"><use href="#i-coin"/></svg></span><h2>Revenue Ledger — every dollar, its status, its proof</h2></div><!-- bright money green -->
 
   <div class="duo" style="margin-bottom:18px">
     <div class="panel reveal">
@@ -1155,7 +1201,7 @@
     }
     /* Heavenly palette (Alan, 8/30): cyan, blue, white, premium gold-white.
        The board is permanently dark, so these are fixed. */
-    var HUES = ['70,198,227', '108,150,255', '235,240,246', '236,208,120'];
+    var HUES = ['51,214,245', '108,150,255', '235,240,246', '255,215,94'];
     var HWEIGHT = [.38, .64, .84, 1]; /* cumulative: cyan 38% · blue 26% · white 20% · gold 16% */
     function spawn() {
       var r = Math.random(), h = 0;
@@ -1208,7 +1254,11 @@
     resize();
     window.addEventListener('resize', resize);
     if (reduced) { draw(); return; }
-    window.addEventListener('pointermove', function (e) { mouse.x = e.clientX; mouse.y = e.clientY; }, { passive: true });
+    var spot = document.getElementById('spotlight');
+    window.addEventListener('pointermove', function (e) {
+      mouse.x = e.clientX; mouse.y = e.clientY;
+      if (spot) { spot.style.setProperty('--mx', e.clientX + 'px'); spot.style.setProperty('--my', e.clientY + 'px'); }
+    }, { passive: true });
     window.addEventListener('pointerleave', function () { mouse.x = -9e3; mouse.y = -9e3; });
     requestAnimationFrame(loop);
   })();
