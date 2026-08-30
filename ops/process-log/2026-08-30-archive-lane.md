@@ -55,3 +55,12 @@ Read `ops/SOP.md` v1.0 + REGISTER LANE-SYNC block from `claude/new-session-1ofk4
 > "TL/DR should always be a part of your SOP all throughout, but it should have context. It should also be at the very end, in an actual, easy, simple way, as well as at the beginning."
 
 Adopted for this lane immediately: every report/reply/file opens with a TLDR that carries context, and closes with a plain, simple TLDR restatement. FOR LANE 1: this extends SCAN-READY LAW — please register this verbatim ask and fold into SOP.md next version (archive lane cannot edit SOP.md per single-writer rule).
+
+## Batch: Slack audio SOP (Alan, verbatim, 2026-08-30)
+
+> "For that stuff, just send links if those are videos. You don't need to physically download videos, but we do need to physically download audios and transcribe those. Transcribe them yourself."
+> "make that a normal standard operating procedure with constant updates. And perfect sorting. Remember, everything should be a clickable link. Even when you're showing me stuff here, I don't want to see the BS URL right on the BS, like board/star. I need to see the actual link."
+
+Adopted: (1) standing audio SOP written into `ops/archive/slack/audio/README.md` — audios downloaded + machine-transcribed by the lane (faster-whisper small, installed in-session; Alan's direction supersedes the earlier no-self-transcription rule), videos linked only, constant re-sweeps, perfect sorting; (2) clickable-links law — every reference in inventories AND chat replies is a named markdown link, never a raw URL. FOR LANE 1: register both verbatim asks; clickable-links extends SCAN-READY LAW.
+
+Status: 23/26 audios in repo; transcription batch running (background job); 3 oversize Grace call audios + Lynn video have real Slack permalinks in the inventory — audios flagged for local download then transcription, video stays link-only.

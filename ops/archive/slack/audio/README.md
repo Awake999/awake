@@ -1,19 +1,24 @@
-# Slack Audio — full inventory + hard-copy backup
+# Slack Audio — full inventory + hard-copy backup + transcripts
 
-Full workspace file-search sweep run 2026-08-30 (public + private channels + DMs + group DMs, all dates): **26 audio files + 1 video clip found.** 23 audio files are now **backed up as actual .m4a files in `files/`** in this repo (47.7 MB); 4 files exceed the 10 MB API download limit and need the local session (marked 🔴 below). File naming: `YYYY-MM-DD--poster--label--SLACKFILEID.m4a`.
+## STANDING SOP (Alan, verbatim 2026-08-30: "just send links if those are videos… we do need to physically download audios and transcribe those. Transcribe them yourself" + "make that a normal standard operating procedure with constant updates. And perfect sorting… everything should be a clickable link")
 
-**Transcription status:** Slack's API surface available to this lane returns the audio binary only — no built-in transcription is exposed. NO transcript exists yet for any of these except the written summaries Grace posted alongside her three call recordings (in `../channels/dispute-updates/2026-08.md`). Machine transcription is outside this lane's rules — the audio is preserved verbatim here so a transcription pass (local session, or on Alan's go) can produce `*.transcript.md` files next to each audio, tandem-style.
+1. **Audios:** physically download into `files/` (naming `YYYY-MM-DD--poster--label--SLACKFILEID.m4a`) → machine-transcribe (faster-whisper, small model) → save `*.transcript.md` BESIDE the audio (audio remains the source of truth) → add a row below → commit + push. Every archiving run re-sweeps the workspace file search for new audio.
+2. **Videos:** clickable permalink only — never downloaded.
+3. **Every entry in this inventory is a clickable link** — to the repo file when downloaded, to the Slack permalink when not.
+4. Files over the 10 MB API cap: row keeps its permalink + 🔴 until the local session downloads it into `files/`, then it gets transcribed like the rest.
+
+Full workspace file-search sweep run 2026-08-30 (public + private channels + DMs + group DMs, all dates): **26 audio files + 1 video clip found.** 23 audio files are backed up as actual .m4a files in [`files/`](files/) (47.7 MB); transcripts are being generated beside them.
 
 | Date | Poster | File | Size | In repo | Transcript |
 |---|---|---|---|---|---|
-| 2026-08-28 | Grace | Identity Theft and Data Breach Dispute Resolution.m4a (F0BTBHVSP4M) — Ashwini EXP call | 12.5 MB | 🔴 too large for API — local pull | written summary in dispute-updates 8/28 09:59 |
-| 2026-08-27 | Grace | Problemas con TransUnion….m4a (F0BSUDRCXRV) — Matthew TU CFPB call | 18.7 MB | 🔴 local pull | written summary 8/27 17:45 |
-| 2026-08-27 | Grace | 20260828_053829.m4a (F0BT913GULA) — Matthew EXP call | 10.1 MB | 🔴 local pull | written summary 8/27 15:06 |
+| 2026-08-28 | Grace | [Identity Theft and Data Breach Dispute Resolution.m4a](https://alan-n-95.slack.com/files/U0ADC1UNXAQ/F0BTBHVSP4M/identity_theft_and_data_breach_dispute_resolution.m4a) — Ashwini EXP call | 12.5 MB | 🔴 over 10 MB API cap — local download, then transcribe | written summary in dispute-updates 8/28 09:59 |
+| 2026-08-27 | Grace | [Problemas con TransUnion Robo de Identidad y Filtración de Datos.m4a](https://alan-n-95.slack.com/files/U0ADC1UNXAQ/F0BSUDRCXRV/problemas_con_transunion_robo_de_identidad_y_filtraci__n_de_datos.m4a) — Matthew TU CFPB call | 18.7 MB | 🔴 local download, then transcribe | written summary 8/27 17:45 |
+| 2026-08-27 | Grace | [20260828_053829.m4a](https://alan-n-95.slack.com/files/U0ADC1UNXAQ/F0BT913GULA/20260828_053829.m4a) — Matthew EXP call | 10.1 MB | 🔴 local download, then transcribe | written summary 8/27 15:06 |
 | 2026-08-22 | Alan | Audio Clip 12:41 (F0BSVDRDC48) | 2.3 MB | ✅ | needs-transcription |
 | 2026-08-20 | Alan | audio_message a (F0BRJ6LDL5R) | 4.6 MB | ✅ | needs-transcription |
 | 2026-08-20 | Alan | audio_message b (F0BSJQBQQF2) | 78 KB | ✅ | needs-transcription |
 | 2026-08-20 | Grace | audio_message (F0BSJ5M67K2) | 1.6 MB | ✅ | needs-transcription |
-| 2026-08-14 | Lynn | Video Clip 20:02 (F0BQBLYAEUW, .mov) | >10 MB | 🔴 local pull | needs-transcription |
+| 2026-08-14 | Lynn | [Video Clip (2026-08-14 20:02:29).mov](https://alan-n-95.slack.com/files/U0ADC1UNXAQ/F0BQBLYAEUW/video_clip__2026-08-14_20_02_29_.mov) | 90.6 MB | 🔗 link only — videos are not downloaded (SOP) | n/a |
 | 2026-08-13 | Alan | Audio Clip 22:55 (F0BPRFWHEUF) | 2.0 MB | ✅ | needs-transcription |
 | 2026-08-12 | Alan | Audio Clip 18:56 (F0BPQDGE37V) | 1.8 MB | ✅ | needs-transcription |
 | 2026-08-06 | Alan | Audio Clip 12:07 (F0BPE29H7LY) | 428 KB | ✅ | needs-transcription |
