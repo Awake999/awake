@@ -1,5 +1,7 @@
 # Nick Samara - Strategic Consulting Funding — 2026-08-26 — Fathom AI summary (companion to transcript.md, in tandem NOT replacing it)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 [Fathom call 799338953](https://fathom.video/calls/799338953) · recording 177160286 · archived 2026-08-30.
 
 ## Meeting Purpose

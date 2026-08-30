@@ -1,5 +1,7 @@
 # APW - Daily Sync (Rosemarie) — 2026-08-25 (Fathom 176612379)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 Verbatim Fathom transcript (raw API response beside this file as transcript-raw.txt). Same 8/25 daily sync as the (Ina) recording — captured by a second attendee's Fathom; kept per the coexistence rule. Archived 2026-08-30 by the archive lane.
 
 ---

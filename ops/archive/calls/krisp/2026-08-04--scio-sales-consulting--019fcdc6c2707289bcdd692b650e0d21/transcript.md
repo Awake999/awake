@@ -1,5 +1,7 @@
 # SCIO Sales Consulting — 2026-08-04
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Krisp index](../INDEX.md)**
+
 Krisp meeting `019fcdc6c2707289bcdd692b650e0d21`. Verbatim machine transcript as stored by Krisp (raw API response beside this file as transcript-raw.json). Speaker labels are Krisp's own. Archived 2026-08-30 by the archive lane.
 
 ---

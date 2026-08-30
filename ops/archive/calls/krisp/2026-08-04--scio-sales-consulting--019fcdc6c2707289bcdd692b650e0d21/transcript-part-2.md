@@ -1,5 +1,7 @@
 # transcript — Part 2 of 5
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Krisp index](../INDEX.md)**
+
 Split per the formatting SOP for navigability — content verbatim, order preserved. Index: [transcript.md](transcript.md). Raw original untouched beside it.
 
 <!-- formatted: chapters-v1 -->

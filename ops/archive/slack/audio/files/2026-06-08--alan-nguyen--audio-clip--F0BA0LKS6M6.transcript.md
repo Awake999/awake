@@ -1,5 +1,7 @@
 # Transcript — 2026-06-08--alan-nguyen--audio-clip--F0BA0LKS6M6.m4a
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Slack hub](../../README.md) · **[⬆ back to audio inventory](../README.md)**
+
 Machine transcription (faster-whisper small model, int8) generated 2026-08-30 by the archive lane per Alan's direction. Companion to the ORIGINAL audio file `2026-06-08--alan-nguyen--audio-clip--F0BA0LKS6M6.m4a` in this folder — the audio is the source of truth. Detected language: en; duration: 100s.
 
 [00:01] Hey Clint, thanks for the video. Um, yeah, I'll have to take a look at the ad copy specifically, but

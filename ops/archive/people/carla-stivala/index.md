@@ -1,5 +1,7 @@
 # Carla Stivala — operations / chief-of-staff track, closer track
 
+> 🧭 [Start Here](../../START-HERE.md) · [Archive home](../../README.md) · **[⬆ back to People index](../README.md)**
+
 Emails seen: cvstivala@icloud.com, cvstivala@gmail.com. Joined ~2026-08-11. Background: five-time top closer at a recruitment firm (~$150k/mo closed). Current: ops/admin — GHL pipeline cleanup, client success strategy, meeting cadence; path to closing.
 
 ## Archived calls

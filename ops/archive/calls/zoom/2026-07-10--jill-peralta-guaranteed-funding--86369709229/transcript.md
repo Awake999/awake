@@ -1,5 +1,7 @@
 # Transcript — Jill Peralta, Guaranteed Funding (2026-07-10, Zoom meeting 86369709229)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Zoom index](../INDEX.md)**
+
 <!-- formatted: chapters-v1 -->
 
 ### Contents

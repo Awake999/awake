@@ -1,5 +1,7 @@
 # Edwin "Ed" Choi — client (dispute/funding)
 
+> 🧭 [Start Here](../../START-HERE.md) · [Archive home](../../README.md) · **[⬆ back to People index](../README.md)**
+
 Full name on file: EDWIN HYUN-KYU CHOI, Arcadia CA. Second-priority dispute account (tied with Matthew, 8/24).
 
 ## Archived calls

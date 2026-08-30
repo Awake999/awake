@@ -1,5 +1,7 @@
 # SYNC — operating this archive from many devices and many chats at once, without ever losing data
 
+> 🧭 [Start Here](START-HERE.md) · [Archive home](README.md)
+
 The archive is a git repo. Git is what makes "multiple devices + multiple simultaneous Claude chats" safe: every copy is a full backup, history is permanent, and nothing merged is ever silently destroyed. These rules keep it that way.
 
 ## The five rules (for every human and every Claude lane)

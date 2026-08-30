@@ -1,5 +1,7 @@
 # Transcript — Funnel rebuild with Jacob, Sep 1 A/B (2026-08-28, Fathom call 801234866)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 <!-- formatted: chapters-v1 -->
 
 ### Contents

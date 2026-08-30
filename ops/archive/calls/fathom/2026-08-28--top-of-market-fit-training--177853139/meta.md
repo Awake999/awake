@@ -1,5 +1,7 @@
 # Meta — Top of market fit training
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 - **Date:** 2026-08-28
 - **Fathom recording ID:** 177853139
 - **Link:** https://fathom.video/calls/802994217

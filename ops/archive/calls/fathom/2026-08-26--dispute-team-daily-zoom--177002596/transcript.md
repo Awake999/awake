@@ -1,5 +1,7 @@
 # Dispute Team - Daily Zoom Meeting — 2026-08-26 (Fathom 177002596)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 Verbatim Fathom transcript (raw API response beside this file as transcript-raw.txt). Dispute-team daily — evidence-relevant (Ashwini/Ed/Matthew/Todd bureau work). Archived 2026-08-30 by the archive lane.
 
 ---

@@ -1,5 +1,7 @@
 # Ashwini Anand — client (dispute/funding)
 
+> 🧭 [Start Here](../../START-HERE.md) · [Archive home](../../README.md) · **[⬆ back to People index](../README.md)**
+
 Full name on file: ASHWINI RAJANNA ANAND, London KY. **Highest-priority dispute account as of 8/24** (Alan). State for AG escalation: Kentucky. Notion row: Clients & Leads `collection://5614ffa0-e3d0-40cb-ae64-b32ec52e288c`.
 
 ## Archived calls where her case is worked

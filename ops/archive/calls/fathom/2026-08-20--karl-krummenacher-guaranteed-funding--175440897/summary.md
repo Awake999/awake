@@ -1,5 +1,7 @@
 # Karl Krummenacher - Guaranteed Funding — 2026-08-20 — companion summary (in tandem with transcript.md, NOT replacing it)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 [Fathom call 791088813](https://fathom.video/calls/791088813) · recording 175440897 · archived 2026-08-30. Lane-written summary from the verbatim transcript.
 
 ## Who Karl is

@@ -1,5 +1,7 @@
 # Transcript — 2026-03-26--alan-nguyen--audio-clip-1105--F0ANMS2PXMM.m4a
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Slack hub](../../README.md) · **[⬆ back to audio inventory](../README.md)**
+
 Machine transcription (faster-whisper small model, int8) generated 2026-08-30 by the archive lane per Alan's direction. Companion to the ORIGINAL audio file `2026-03-26--alan-nguyen--audio-clip-1105--F0ANMS2PXMM.m4a` in this folder — the audio is the source of truth. Detected language: en; duration: 300s.
 
 [00:00] So and thanks again, I just gonna go through the bullet points just to make it easier. I just were on the same page

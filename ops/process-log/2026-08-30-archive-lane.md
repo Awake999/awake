@@ -46,6 +46,19 @@ Delivered as **`ops/archive/SOP-formatting.md`** (8 laws: HEADER / CHAPTERS / CO
 Download retries re-confirmed the hard limits: Slack API 10MB cap (file_too_large) + external-workspace files invisible (file_not_found) — server-side splitting impossible because the download itself is refused; the split/transcribe pipeline runs the moment files land locally.
 FOR LANE 1: register the three verbatim asks above; SOP-formatting.md extends SCAN-READY LAW.
 
+## Batch: navigation SOP (Alan, verbatim, 2026-08-30)
+
+> "in the Fathom inventory, I like how everything's organized. Please make sure that there are links to everything that are clickable within it, so no copy-pasting stuff like that. Everything should be a hyperlink to another page relative to what it is that we're wanting to explore and expand on. Make it user-friendly from a human perspective."
+> "make sure that the interface is intuitively and easily navigable for a human in addition to AI simultaneously. This should be beginner-friendly. There should be a landing page within the files... Every navigation leads into another category, which leads into a subcategory, which all have clickable links that are able to go backwards and forwards"
+
+Executed against a 6-item checklist (A landing page / B hubs / C Fathom / D other indexes / E breadcrumbs / F codify):
+- **`START-HERE.md`** — beginner landing page (what/where/how-organized/how-to-navigate), linked from the top of the archive README; **`calls/README.md`** + **`slack/README.md`** category hubs created so every tree level has a page.
+- **Fathom INDEX rebuilt**: every title → clickable fathom.video recording link; every archived row → direct links to transcript/summary/meta; month sections + contents + status counts; recording IDs kept as small `<sub>` text on queued rows (the API needs them for future pulls).
+- **Krisp INDEX**: titles → app.krisp.ai/m/<id> links, archived rows → file links (Wafd 5-segment row given per-segment links). **Zoom INDEX**: all rows → transcript links. **Slack channels INDEX**: channel names → Slack deep links (alan-n-95.slack.com/archives/<id>), export paths → file links.
+- **`tools/add_breadcrumbs.py`** (idempotent, committed) added 🧭 back-navigation lines to **193 files** (every transcript/part/summary/meta, channel export, audio transcript, people page).
+- Link-integrity check across the archive: 1097 relative links verified, 1 real break found + fixed.
+- **SOP-formatting.md → v1.1**: new NAVIGATION law (#8), breadcrumb tool registered, end-of-run ritual now 7 steps. FOR LANE 1: register the verbatim asks; NAVIGATION extends SCAN-READY LAW.
+
 ## Resume points (next run starts here)
 
 *(Updated end-of-day 8/30 — supersedes the earlier version of this list.)*

@@ -1,5 +1,7 @@
 # Alan Nguyen's Zoom Meeting — 2026-07-12 (Zoom cloud recording 89898577269)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Zoom index](../INDEX.md)**
+
 Zoom uuid `JiCM9HCNTsWbm5xgJdjzoQ==`, 104m, participants per transcript: Alan Nguyen, Lynn N. Official Zoom audio transcript, verbatim (raw API response beside this file as transcript-raw.json). Archived 2026-08-30 by the archive lane.
 
 ---

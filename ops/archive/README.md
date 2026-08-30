@@ -1,5 +1,7 @@
 # APW Archive — the canonical data store
 
+> 🧭 **New here? → [START HERE — the beginner-friendly landing page](START-HERE.md)** · hubs: [📞 Calls](calls/README.md) · [💬 Slack](slack/README.md) · [🧑 People](people/README.md)
+
 **One rule: originals are sacred.** Summaries live NEXT TO transcripts, never instead of them. Nothing in here is ever rewritten or deleted — only added.
 
 This folder is the hard-data backup of every conversation Ascend Prime Wealth has: sales calls, coaching calls, Slack threads, voice notes, and (via local deposit) GHL messages. It is plain markdown, Obsidian-compatible, backed up four ways at once: locally (your clone), on GitHub (private remote = cloud backup), in Obsidian (open this repo as a vault), and indexed in the cloud (Drive pointer to the indexes).

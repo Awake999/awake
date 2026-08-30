@@ -1,5 +1,7 @@
 # Transcript — Carla end-of-day, SOD-EOD to Trello proposal (2026-08-28, Fathom call 803341537)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
 
 [00:00](https://fathom.video/calls/803341537?timestamp=0) Carla Stivala: my dad has dinner ready. but text me if need anything. I need to finish a few things, so I'm going to be around. I essentially want to finish getting ML on Go High Level. I don't know if it's going to let me, because I'm having all those issues.

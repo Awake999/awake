@@ -1,5 +1,7 @@
 # Michael Moore - Guaranteed Funding — 2026-08-26 (Fathom 176802936) — THE CLOSE CALL
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 Verbatim Fathom transcript, [call 795906439](https://fathom.video/calls/795906439). API response returned inline; this transcription is the capture (timestamped deep links preserved). Companion summary in summary.md. Archived 2026-08-30 by the archive lane. **This is the call where Michael Moore agreed to the $1,000 refundable deposit ("We are a go").**
 
 ---

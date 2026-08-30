@@ -1,5 +1,7 @@
 # Meta — Alan + Constantine coaching (2026-06-10)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Krisp index](../INDEX.md)**
+
 - **Date:** 2026-06-10
 - **Krisp meeting ID:** 019eb2b79830720da56c1eb4c960250c
 - **Link:** https://app.krisp.ai/m/019eb2b79830720da56c1eb4c960250c

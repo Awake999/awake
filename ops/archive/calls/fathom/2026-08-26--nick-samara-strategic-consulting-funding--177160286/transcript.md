@@ -1,5 +1,7 @@
 # Nick Samara - Strategic Consulting Funding — 2026-08-26 (Fathom 177160286)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 Verbatim Fathom transcript (raw API response beside this file as transcript-raw.txt). Companion summary in summary.md. Archived 2026-08-30 by the archive lane.
 
 ---

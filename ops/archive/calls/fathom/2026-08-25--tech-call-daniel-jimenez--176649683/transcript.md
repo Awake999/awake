@@ -1,5 +1,7 @@
 # Tech Call w/ Daniel Jimenez — 2026-08-25 (Fathom 176649683)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 Verbatim Fathom transcript, [call 796488274](https://fathom.video/calls/796488274). API response returned inline; this transcription is the capture. ScaleClients group GHL office hours — Daniel Jimenez (ScaleClients tech) + Alan + Sabrina (Lynn) + other agency clients (Ashley Kedra, Ginelle Healy). Alan's segment: the testimonial-placeholder bug fix, page duplication + pixel rules, and global-section templates in GHL. Archived 2026-08-30 by the archive lane.
 
 ---

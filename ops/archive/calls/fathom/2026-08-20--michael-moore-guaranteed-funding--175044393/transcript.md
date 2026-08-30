@@ -1,5 +1,7 @@
 # Michael Moore - Guaranteed Funding — 2026-08-20 (Fathom 175044393)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 Verbatim Fathom transcript (raw API response beside this file as transcript-raw.txt). First full sales call with Michael Moore, preceding the 8/26 close (see ../2026-08-26--michael-moore-guaranteed-funding--176802936/) and the 8/27 post-mortem. Archived 2026-08-30 by the archive lane.
 
 ---

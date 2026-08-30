@@ -1,5 +1,7 @@
 # APW - Daily Sync (Sabrina) — 2026-08-25 (Fathom 176587651)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 Verbatim Fathom transcript (raw API response beside this file as transcript-raw.txt). Third capture of the 8/25 daily sync (Lynn/Sabrina's Fathom) — kept per the coexistence rule alongside the (Ina) and (Rosemarie) captures. Archived 2026-08-30 by the archive lane.
 
 ---

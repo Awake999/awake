@@ -1,5 +1,7 @@
 # Nick Samara - Guaranteed Funding — 2026-08-25 (Fathom 176779823)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 Verbatim Fathom transcript (raw API response beside this file as transcript-raw.txt). This was the discovery/sales call preceding the 8/26 strategic-consulting close (see ../2026-08-26--nick-samara-strategic-consulting-funding--177160286/). Archived 2026-08-30 by the archive lane.
 
 ---

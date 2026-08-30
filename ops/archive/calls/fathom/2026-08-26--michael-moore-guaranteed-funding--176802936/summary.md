@@ -1,5 +1,7 @@
 # Michael Moore - Guaranteed Funding — 2026-08-26 — companion summary (in tandem with transcript.md, NOT replacing it)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 [Fathom call 795906439](https://fathom.video/calls/795906439) · recording 176802936 · archived 2026-08-30. Lane-written summary from the verbatim transcript (Fathom AI summary not separately pulled for this call).
 
 ## What happened
@@ -16,4 +18,4 @@
 ## Next steps
 - Michael: pay $1,000 tomorrow after loan hits; sign agreement; submit optimization form (ID, bureau logins, authorization).
 - Alan: send payment link (sent to email on-call), then onboarding funnel + optimization form; send the updated pay-down spreadsheet; **check-in phone call Thu Aug 27, 5pm PT / 8pm ET**; follow-up meeting Wed Sep 2, 9pm ET; execution window Sept 2–11.
-- Cross-refs: [8/27 post-mortem call folder](../2026-08-27--michael-moore-postmortem-august-review--177669876/) (what happened next), [people/michael-moore](../../../people/michael-moore.md).
+- Cross-refs: [8/27 post-mortem call folder](../2026-08-27--michael-moore-postmortem-august-review--177669876/) (what happened next), [people/michael-moore](../../../people/michael-moore/index.md).

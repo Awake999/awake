@@ -1,5 +1,7 @@
 # Transcript — Yeshaya Dank, $1M-$1.5M Dank SPV Funding (2026-08-27, Fathom call 799338949)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 <!-- formatted: chapters-v1 -->
 
 ### Contents

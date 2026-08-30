@@ -1,5 +1,7 @@
 # Todd LoGuidice — client (dispute/funding)
 
+> 🧭 [Start Here](../../START-HERE.md) · [Archive home](../../README.md) · **[⬆ back to People index](../README.md)**
+
 Related: Matthew LoGuidice. GHL import package pending local run (`TODD_GHL_IMPORT.md`, see pointer-map).
 
 ## Archived calls

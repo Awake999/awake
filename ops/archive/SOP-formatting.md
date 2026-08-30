@@ -1,4 +1,6 @@
-# Archive Formatting & Transcription SOP — v1.0 (2026-08-30)
+# Archive Formatting, Navigation & Transcription SOP — v1.1 (2026-08-30)
+
+> 🧭 [Start Here](START-HERE.md) · [Archive home](README.md)
 
 **TLDR:** No giant blocks of text, ever. Every transcript gets a header, 10-minute chapters, and a clickable table of contents; anything huge is split into linked part-files; every long audio is transcribed in chapters. Two committed tools do this automatically on every run, on any machine. Verbatim content is never altered — structure is only ever ADDED.
 
@@ -21,7 +23,8 @@
 | 5 | **VERBATIM** | Formatting only ADDS structure (headings, TOC, metadata). Content lines are never altered, dropped, or paraphrased. Raw originals (`transcript-raw.*`) are NEVER touched or split. |
 | 6 | **AUDIO** | Every audio file gets downloaded into `slack/audio/files/` (naming `YYYY-MM-DD--poster--label--FILEID.m4a`) and machine-transcribed beside itself; long audio comes out pre-chaptered with a TOC. Audio stays the source of truth. Videos stay links. |
 | 7 | **CONSTANT UPDATES** | Both tools are idempotent (formatted files carry `<!-- formatted: chapters-v1 -->` and are skipped), so every archiving run ends by re-running them over the whole archive. |
-| 8 | **HUMAN + AI TANDEM** | Humans get scannable chapters, clickable TOCs, and bolded speaker/timestamp lines. AI gets stable line formats (`[MM:SS](link) Speaker: text`, `**Name** [HH:MM:SS]: text`, `**Name | MM:SS**`), predictable anchors, and raw originals beside every rendering. Same files serve both — no duplicates to drift. |
+| 8 | **NAVIGATION** | Every file opens with a 🧭 breadcrumb line (Start Here · Archive home · category hub · ⬆ its index) so a human can always click backwards. Every index row is clickable both ways: to the archived files here AND to the original on the source platform (fathom.video / app.krisp.ai / Slack). No copy-pasting paths or IDs, ever. The front door for beginners is [START-HERE.md](START-HERE.md). |
+| 9 | **HUMAN + AI TANDEM** | Humans get scannable chapters, clickable TOCs, and bolded speaker/timestamp lines. AI gets stable line formats (`[MM:SS](link) Speaker: text`, `**Name** [HH:MM:SS]: text`, `**Name | MM:SS**`), predictable anchors, and raw originals beside every rendering. Same files serve both — no duplicates to drift. |
 
 ## The tools (committed in [`tools/`](tools/) so ANY machine can run them)
 
@@ -29,6 +32,7 @@
 |---|---|---|
 | [`tools/format_transcripts.py`](tools/format_transcripts.py) | Chapters + TOC on every transcript; splits oversize ones into parts; idempotent | `python3 ops/archive/tools/format_transcripts.py` |
 | [`tools/transcribe.py`](tools/transcribe.py) | Transcribes every audio in `slack/audio/files/` that lacks a transcript; chaptered output for long recordings | `pip install faster-whisper` once, then `python3 ops/archive/tools/transcribe.py` |
+| [`tools/add_breadcrumbs.py`](tools/add_breadcrumbs.py) | Adds the 🧭 navigation line to any new file that lacks one; idempotent | `python3 ops/archive/tools/add_breadcrumbs.py` |
 
 ## The end-of-run ritual (every archiving session, every lane)
 
@@ -36,8 +40,9 @@
 2. Archive new material per the existing capture SOPs (raw beside rendering, naming conventions).
 3. `python3 ops/archive/tools/transcribe.py` — picks up any newly dropped audio.
 4. `python3 ops/archive/tools/format_transcripts.py` — chapters/TOCs/splits anything new.
-5. Link new transcripts into [`slack/audio/README.md`](slack/audio/README.md) and flip INDEX rows.
-6. Commit + push. Log the batch in your lane's process-log file.
+5. `python3 ops/archive/tools/add_breadcrumbs.py` — navigation line on anything new.
+6. Link new transcripts into [`slack/audio/README.md`](slack/audio/README.md) and flip INDEX rows (clickable both ways: source platform + archived files).
+7. Commit + push. Log the batch in your lane's process-log file.
 
 ## Local-PC flow for unreachable audio (the 46 files)
 

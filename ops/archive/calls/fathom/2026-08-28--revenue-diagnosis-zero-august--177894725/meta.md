@@ -1,5 +1,7 @@
 # Meta — Revenue diagnosis, $0 August
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 - **Date:** 2026-08-28
 - **Fathom recording ID:** 177894725
 - **Link:** https://fathom.video/calls/803087357

@@ -1,5 +1,7 @@
 # Alan Nguyen's Zoom Meeting — 2026-07-08 (Zoom cloud recording 82642405552)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Zoom index](../INDEX.md)**
+
 Zoom uuid `7qeXkfk6Tm6p2MNCIkWtpw==`, 45m. Official Zoom audio transcript, verbatim (raw API response beside this file as transcript-raw.json). Archived 2026-08-30 by the archive lane.
 
 ---

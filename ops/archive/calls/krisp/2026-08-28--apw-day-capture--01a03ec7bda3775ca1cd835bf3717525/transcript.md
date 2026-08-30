@@ -1,5 +1,7 @@
 # APW day capture — 2026-08-28 (Alan, Carla, Lynn, Constantine, Jacob)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Krisp index](../INDEX.md)**
+
 Krisp meeting `01a03ec7bda3775ca1cd835bf3717525`. Verbatim machine transcript as stored by Krisp (raw API response beside this file as transcript-raw.json). Speaker labels are Krisp's own. Archived 2026-08-30 by the archive lane.
 
 ---

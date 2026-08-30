@@ -1,5 +1,7 @@
 # Transcript — AG escalation strategy part 2 (2026-08-28, Fathom call 803353666)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 <!-- formatted: chapters-v1 -->
 
 ### Contents

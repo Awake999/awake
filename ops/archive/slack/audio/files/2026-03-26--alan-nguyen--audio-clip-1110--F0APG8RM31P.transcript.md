@@ -1,5 +1,7 @@
 # Transcript — 2026-03-26--alan-nguyen--audio-clip-1110--F0APG8RM31P.m4a
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Slack hub](../../README.md) · **[⬆ back to audio inventory](../README.md)**
+
 Machine transcription (faster-whisper small model, int8) generated 2026-08-30 by the archive lane per Alan's direction. Companion to the ORIGINAL audio file `2026-03-26--alan-nguyen--audio-clip-1110--F0APG8RM31P.m4a` in this folder — the audio is the source of truth. Detected language: en; duration: 299s.
 
 [00:00] Yep, so if they don't worst-case scenario after the notification to sending it to the email or whatever it is

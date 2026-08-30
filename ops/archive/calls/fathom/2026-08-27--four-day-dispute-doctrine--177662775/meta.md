@@ -1,5 +1,7 @@
 # Meta — 4-day dispute doctrine
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 - **Date:** 2026-08-27
 - **Fathom recording ID:** 177662775
 - **Link:** https://fathom.video/calls/801867207

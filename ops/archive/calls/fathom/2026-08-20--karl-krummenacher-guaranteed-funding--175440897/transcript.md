@@ -1,5 +1,7 @@
 # Karl Krummenacher - Guaranteed Funding — 2026-08-20 (Fathom 175440897)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 Verbatim Fathom transcript, [call 791088813](https://fathom.video/calls/791088813). API response returned inline; this transcription is the capture (timestamped deep links preserved). Companion summary in summary.md. Archived 2026-08-30 by the archive lane.
 
 ---

@@ -1,244 +1,263 @@
-# Fathom Call Inventory — all meetings, June 21 – Aug 28, 2026
+# 📞 Fathom Call Inventory — all 234 meetings (June 21 – August 28, 2026)
 
-234 meetings total (full list from Fathom, pulled 2026-08-30). Reverse-chronological. ★ = doctrine/high-value call per `../../../data/pointer-map.md` — archived first, along with everything from Aug 20 onward.
+> 🧭 [Start Here](../../START-HERE.md) · [Archive home](../../README.md) · [Calls hub](../README.md)
 
-**Resume point for archiving runs:** the `archived` column is ground truth. Next run: continue down the priority queue (★ calls first, then Aug 20+ top-down, then client-named calls, then the rest).
+**How to use this page:** every call **title is a clickable link to the original recording on fathom.video**. The **Archived** column is ground truth for what's been pulled into this repo — ✅ links jump straight to the verbatim [transcript / summary / meta] files. ★ = doctrine/high-value call. Reverse-chronological within each month.
 
-| Date | Title | Recording ID | Call link (fathom.video/calls/) | Archived |
-|---|---|---|---|---|
-| 2026-08-28 | Impromptu Zoom Meeting (Ina Grace Langub) ★ AG escalation pt 2 | 178010725 | 803353666 | yes → `2026-08-28--ag-escalation-strategy-part-2--178010725/` |
-| 2026-08-28 | Impromptu Zoom Meeting ★ AG escalation strategy | 178010625 | 803352097 | yes → `2026-08-28--ag-escalation-strategy--178010625/` |
-| 2026-08-28 | Impromptu Zoom Meeting | 178009344 | 803341537 | yes → `2026-08-28--carla-eod-sod-trello--178009344/` |
-| 2026-08-28 | Client Call (CSM) ★ Funnel rebuild w/ Jacob (Sep 1 A/B) | 177941051 | 801234866 | yes → `2026-08-28--funnel-rebuild-with-jacob--177941051/` |
-| 2026-08-28 | Impromptu Zoom Meeting ★ Revenue diagnosis ($0 August) | 177894725 | 803087357 | yes → `2026-08-28--revenue-diagnosis-zero-august--177894725/` |
-| 2026-08-28 | Impromptu Zoom Meeting ★ ICP mismatch | 177881372 | 803053542 | yes → `2026-08-28--constantine-icp-mismatch--177881372/` |
-| 2026-08-28 | Impromptu Zoom Meeting — top of market fit training | 177853139 | 802994217 | yes → `2026-08-28--top-of-market-fit-training--177853139/` |
-| 2026-08-28 | Impromptu Zoom Meeting — pre-training check-in | 177851352 | 802985297 | yes → `2026-08-28--pre-training-check-in--177851352/` |
-| 2026-08-27 | Impromptu Zoom Meeting — Michael Moore post-mortem + August review | 177669876 | 801909953 | yes → `2026-08-27--michael-moore-postmortem-august-review--177669876/` |
-| 2026-08-27 | Impromptu Zoom Meeting ★ 4-day dispute doctrine | 177662775 | 801867207 | yes → `2026-08-27--four-day-dispute-doctrine--177662775/` |
-| 2026-08-27 | Robert Morawitz - Guaranteed Funding ★ Qualification standard origins | 177627271 | 798787726 | yes → `2026-08-27--robert-morawitz-qualification-origins--177627271/` |
-| 2026-08-27 | Impromptu Zoom Meeting | 177571208 | 801601613 | no |
-| 2026-08-27 | Yeshaya Dank - $1M-$1.5M Dank SPV Funding | 177510654 | 799338949 | yes → `2026-08-27--yeshaya-dank-spv-funding--177510654/` |
-| 2026-08-27 | Impromptu Zoom Meeting | 177414987 | 801291099 | no |
-| 2026-08-27 | Impromptu Zoom Meeting | 177244544 | 800497411 | no |
-| 2026-08-27 | Chris Mclean - Guaranteed Funding | 177237489 | 798638035 | yes → `2026-08-27--chris-mclean-guaranteed-funding--177237489/` |
-| 2026-08-26 | Impromptu Zoom Meeting | 177232030 | 800411730 | no |
-| 2026-08-26 | Todd LoGuidice - Funding Execution | 177223749 | 800283407 | yes → `2026-08-26--todd-loguidice-funding-execution--177223749/` |
-| 2026-08-26 | Nick Samara - Strategic Consulting Funding | 177160286 | 799338953 | yes → `2026-08-26--nick-samara-strategic-consulting-funding--177160286/` (+raw) |
-| 2026-08-26 | Impromptu Zoom Meeting | 177129989 | 800109782 | no |
-| 2026-08-26 | Dispute Team - Daily Zoom Meeting | 177002596 | 798172547 | yes → `2026-08-26--dispute-team-daily-zoom--177002596/` (+raw) |
-| 2026-08-26 | Impromptu Zoom Meeting | 176817729 | 798997210 | no |
-| 2026-08-26 | Impromptu Zoom Meeting | 176815084 | 798940357 | no |
-| 2026-08-26 | Michael Moore - Guaranteed Funding | 176802936 | 795906439 | yes → `2026-08-26--michael-moore-guaranteed-funding--176802936/` — THE close call ($1K deposit, 'We are a go') |
-| 2026-08-26 | Impromptu Zoom Meeting | 176797747 | 798796991 | no |
-| 2026-08-25 | Nick Samara - Guaranteed Funding | 176779823 | 795906442 | yes → `2026-08-25--nick-samara-guaranteed-funding--176779823/` (+raw) |
-| 2026-08-25 | Impromptu Zoom Meeting | 176753966 | 798581474 | no |
-| 2026-08-25 | Impromptu Zoom Meeting (Rosemarie Anne Fabian) | 176731448 | 798529571 | no |
-| 2026-08-25 | Impromptu Zoom Meeting (Sabrina Neves) | 176664762 | 798393367 | no |
-| 2026-08-25 | Tech Call w/ Daniel Jimenez | 176649683 | 796488274 | yes → `2026-08-25--tech-call-daniel-jimenez--176649683/` |
-| 2026-08-25 | APW - Daily Sync (Ina) | 176612115 | 796919606 | yes → `2026-08-25--apw-daily-sync-ina--176612115/` (+raw) |
-| 2026-08-25 | APW - Daily Sync (Rosemarie) | 176612379 | 796092304 | yes → `2026-08-25--apw-daily-sync-rosemarie--176612379/` (+raw; duplicate capture of same sync) |
-| 2026-08-25 | Impromptu Zoom Meeting | 176612153 | 798282012 | no |
-| 2026-08-25 | APW - Daily Sync (Sabrina) | 176587651 | 796488288 | yes → `2026-08-25--apw-daily-sync-sabrina--176587651/` (+raw; third capture of same sync) |
-| 2026-08-25 | Impromptu Zoom Meeting (Ina) | 176566669 | 798180477 | no |
-| 2026-08-25 | Dispute Team - Daily Zoom Meeting | 176562530 | 798172465 | yes → `2026-08-25--dispute-team-daily-zoom--176562530/` (+raw) |
-| 2026-08-25 | Impromptu Zoom Meeting | 176360534 | 797219041 | no |
-| 2026-08-24 | Impromptu Zoom Meeting | 176336909 | 797017809 | no |
-| 2026-08-24 | Impromptu Zoom Meeting (Rosemarie) | 176165428 | 796561317 | no |
-| 2026-08-24 | Impromptu Zoom Meeting (Ina) | 176165529 | 796561603 | no |
-| 2026-08-24 | Impromptu Zoom Meeting | 176165147 | 796560208 | no |
-| 2026-08-24 | Impromptu Zoom Meeting | 176124914 | 796461872 | no |
-| 2026-08-24 | Impromptu Zoom Meeting | 176109891 | 796432483 | no |
-| 2026-08-22 | Impromptu Zoom Meeting | 175821783 | 794778614 | no |
-| 2026-08-21 | Impromptu Zoom Meeting | 175776778 | 794624464 | no |
-| 2026-08-21 | Impromptu Zoom Meeting | 175700871 | 794472254 | no |
-| 2026-08-21 | Impromptu Zoom Meeting | 175468970 | 793262976 | no |
-| 2026-08-20 | Impromptu Zoom Meeting | 175448782 | 793137663 | no |
-| 2026-08-20 | Karl Krummenacher - Guaranteed Funding | 175440897 | 791088813 | yes → `2026-08-20--karl-krummenacher-guaranteed-funding--175440897/` — the whale call (Modern Thyroid, $8M rev, exit plan) |
-| 2026-08-20 | Impromptu Zoom Meeting | 175052490 | 791883972 | no |
-| 2026-08-20 | Michael Moore - Guaranteed Funding | 175044393 | 791826979 | yes → `2026-08-20--michael-moore-guaranteed-funding--175044393/` (+raw) |
-| 2026-08-20 | Impromptu Zoom Meeting | 175036919 | 791773496 | no |
-| 2026-08-19 | Impromptu Zoom Meeting | 175025137 | 791712438 | no |
-| 2026-08-19 | Impromptu Zoom Meeting | 174987192 | 791570447 | no |
-| 2026-08-19 | Impromptu Zoom Meeting | 174970047 | 791537886 | no |
-| 2026-08-19 | Impromptu Zoom Meeting | 174957467 | 791504315 | no |
-| 2026-08-19 | Impromptu Zoom Meeting | 174926566 | 791440457 | no |
-| 2026-08-19 | Impromptu Zoom Meeting | 174853572 | 791300186 | no |
-| 2026-08-19 | Impromptu Zoom Meeting | 174596591 | 790152271 | no |
-| 2026-08-18 | Impromptu Zoom Meeting | 174583294 | 790053322 | no |
-| 2026-08-18 | Impromptu Zoom Meeting | 174581230 | 790045529 | no |
-| 2026-08-18 | Impromptu Zoom Meeting | 174578222 | 790032737 | no |
-| 2026-08-18 | Impromptu Zoom Meeting | 174549629 | 789918031 | no |
-| 2026-08-18 | Impromptu Zoom Meeting | 174453400 | 789716789 | no |
-| 2026-08-18 | Impromptu Zoom Meeting (Sabrina) | 174397848 | 789590405 | no |
-| 2026-08-17 | Impromptu Zoom Meeting (Carla Valentina Stivala) | 174120399 | 788351529 | no |
-| 2026-08-17 | Impromptu Zoom Meeting | 174119189 | 788334715 | no |
-| 2026-08-17 | Connor Robertson - Guaranteed Funding | 174098114 | 788222126 | n/a — verified 8/30: Fathom holds NO transcript for this meeting |
-| 2026-08-17 | Impromptu Zoom Meeting | 174081239 | 788184013 | no |
-| 2026-08-17 | Impromptu Zoom Meeting | 173958367 | 787910378 | no |
-| 2026-08-14 | Impromptu Zoom Meeting | 173605709 | 786067791 | no |
-| 2026-08-14 | Impromptu Zoom Meeting (Ina) | 173596185 | 786039287 | no |
-| 2026-08-14 | Impromptu Zoom Meeting | 173580972 | 786005742 | no |
-| 2026-08-14 | Impromptu Zoom Meeting | 173503381 | 785854313 | no |
-| 2026-08-14 | Yeshaya Dank - Guaranteed Funding | 173260375 | 783351348 | no |
-| 2026-08-13 | Impromptu Zoom Meeting | 173254448 | 784578211 | no |
-| 2026-08-13 | Lynn < Carla (Sabrina) | 173254044 | 784528229 | no |
-| 2026-08-13 | SCIO Sales Consulting (Sabrina) | 173244690 | 782299252 | no |
-| 2026-08-13 | Impromptu Zoom Meeting | 173218261 | 784437796 | no |
-| 2026-08-13 | Impromptu Zoom Meeting | 173087425 | 784176539 | no |
-| 2026-08-13 | Impromptu Zoom Meeting | 173084908 | 784166182 | no |
-| 2026-08-13 | Impromptu Zoom Meeting | 172832320 | 783173636 | no |
-| 2026-08-13 | Impromptu Zoom Meeting (Ina) | 172829961 | 783153890 | no |
-| 2026-08-12 | Impromptu Zoom Meeting | 172826975 | 783146648 | no |
-| 2026-08-12 | Impromptu Zoom Meeting (Sabrina) | 172823898 | 783118335 | no |
-| 2026-08-12 | Impromptu Zoom Meeting | 172808694 | 783044555 | no |
-| 2026-08-12 | Impromptu Zoom Meeting | 172792113 | 782988167 | no |
-| 2026-08-12 | Impromptu Zoom Meeting (Sabrina) | 172782608 | 782957344 | no |
-| 2026-08-12 | Impromptu Zoom Meeting | 172768868 | 782940846 | no |
-| 2026-08-12 | Impromptu Zoom Meeting | 172690124 | 782770712 | no |
-| 2026-08-12 | Impromptu Zoom Meeting (Sabrina) | 172648133 | 782677325 | no |
-| 2026-08-12 | Impromptu Zoom Meeting | 172425594 | 781847279 | no |
-| 2026-08-11 | Impromptu Zoom Meeting (Sabrina) | 172378323 | 781403394 | no |
-| 2026-08-11 | Impromptu Zoom Meeting | 172378096 | 781402990 | no |
-| 2026-08-11 | Impromptu Zoom Meeting | 172367795 | 781367731 | no |
-| 2026-08-11 | Impromptu Zoom Meeting | 172348134 | 781309435 | no |
-| 2026-08-11 | Impromptu Zoom Meeting | 172199022 | 781002033 | no |
-| 2026-08-11 | Jill 1 on 1 Coaching & Strategy Session | 171947309 | 779847306 | no |
-| 2026-08-11 | Impromptu Zoom Meeting | 171944256 | 779845972 | no |
-| 2026-08-10 | Impromptu Zoom Meeting | 171939436 | 779813812 | no |
-| 2026-08-10 | Impromptu Zoom Meeting | 171935538 | 779780027 | no |
-| 2026-08-10 | Impromptu Zoom Meeting | 171929413 | 779740517 | no |
-| 2026-08-10 | Impromptu Zoom Meeting | 171925919 | 779713886 | no |
-| 2026-08-10 | Impromptu Zoom Meeting | 171914041 | 779664353 | no |
-| 2026-08-10 | P Reddy P - Guaranteed Funding | 171892299 | 777298604 | no |
-| 2026-08-10 | Impromptu Zoom Meeting | 171780268 | 779372453 | no |
-| 2026-08-10 | Impromptu Zoom Meeting | 171758124 | 779303656 | no |
-| 2026-08-10 | Impromptu Zoom Meeting | 171548150 | 778445543 | no |
-| 2026-08-10 | Impromptu Zoom Meeting | 171528603 | 778205296 | no |
-| 2026-08-08 | Impromptu Zoom Meeting | 171478151 | 777749171 | no |
-| 2026-08-08 | Impromptu Zoom Meeting | 171436252 | 777554648 | no |
-| 2026-08-07 | Pradeep Bhatia - Guaranteed Funding | 171426457 | 775117204 | no |
-| 2026-08-07 | Jennifer Ulloa - Guaranteed Funding | 171401555 | 775643888 | no |
-| 2026-08-07 | Joe StLouis - Funding Strategy Session | 171343139 | 775117203 | no |
-| 2026-08-07 | Impromptu Zoom Meeting | 171144093 | 776606146 | no |
-| 2026-08-07 | Chris Bowers - Guaranteed Funding | 171104276 | 771447748 | no |
-| 2026-08-06 | Impromptu Zoom Meeting | 171081260 | 775989225 | no |
-| 2026-08-06 | Impromptu Zoom Meeting | 170920863 | 775625270 | no |
-| 2026-08-05 | Impromptu Zoom Meeting | 170601491 | 774386586 | no |
-| 2026-08-05 | Impromptu Zoom Meeting | 170570967 | 774323323 | no |
-| 2026-08-05 | Impromptu Zoom Meeting | 170499159 | 774182118 | no |
-| 2026-08-04 | Impromptu Zoom Meeting | 170244182 | 773008649 | no |
-| 2026-08-04 | Impromptu Zoom Meeting | 170235515 | 772943177 | no |
-| 2026-08-04 | Impromptu Zoom Meeting | 170200873 | 772808247 | no |
-| 2026-08-04 | Impromptu Zoom Meeting | 170065981 | 772523874 | no |
-| 2026-08-04 | Chris Bowers - Guaranteed Funding | 169812949 | 768297031 | no |
-| 2026-08-03 | Impromptu Zoom Meeting | 169764320 | 771143815 | no |
-| 2026-08-03 | Impromptu Zoom Meeting | 169715348 | 771023050 | no |
-| 2026-08-03 | Impromptu Zoom Meeting | 169641288 | 770864623 | no |
-| 2026-08-02 | Impromptu Zoom Meeting | 169395649 | 769588125 | no |
-| 2026-08-02 | Impromptu Zoom Meeting | 169392093 | 769526396 | no |
-| 2026-08-01 | Carmen Meridith - Credit & Funding Consultation | 169364078 | 768936830 | no |
-| 2026-08-01 | Gunjan Patel - Funding Strategy Session | 169322939 | 767888047 | no |
-| 2026-07-31 | Zacherly Sheets - Guaranteed Funding | 169319937 | 766265132 | no |
-| 2026-07-31 | Alan Nguyen's Zoom Meeting | 169310910 | 769061378 | no |
-| 2026-07-31 | Impromptu Zoom Meeting | 169297934 | 769022297 | no |
-| 2026-07-31 | Impromptu Zoom Meeting | 169213087 | 768849661 | no |
-| 2026-07-31 | Impromptu Zoom Meeting | 168993036 | 767730890 | no |
-| 2026-07-30 | Impromptu Zoom Meeting | 168982194 | 767644231 | no |
-| 2026-07-30 | Impromptu Zoom Meeting | 168919466 | 767424268 | no |
-| 2026-07-29 | Ashwini Anand - Onboarding & Action Session | 168556212 | 764436554 | no |
-| 2026-07-28 | Impromptu Zoom Meeting | 168124506 | 764531452 | no |
-| 2026-07-28 | Leo De Ornellas - Guaranteed Funding | 168109818 | 762747396 | no |
-| 2026-07-28 | Ashwini Anand - Guaranteed Funding | 168073294 | 762499930 | no |
-| 2026-07-28 | Impromptu Zoom Meeting | 168017695 | 764203166 | no |
-| 2026-07-28 | Impromptu Zoom Meeting | 167994639 | 764165381 | no |
-| 2026-07-28 | Impromptu Zoom Meeting | 167941302 | 764047252 | no |
-| 2026-07-28 | Client Action Coaching Consulting Session (Jillian Peralta) | 167678860 | 761220510 | no |
-| 2026-07-27 | Allen Sims - Guaranteed Funding | 167666706 | 759494613 | no |
-| 2026-07-27 | Impromptu Zoom Meeting | 167662334 | 762772216 | no |
-| 2026-07-27 | Consultation with Alan (Michelle Lise, EBA Consulting) | 167602127 | 762499931 | no |
-| 2026-07-27 | Impromptu Zoom Meeting | 167566898 | 762487497 | no |
-| 2026-07-27 | Impromptu Zoom Meeting | 167548626 | 762469719 | no |
-| 2026-07-24 | Impromptu Zoom Meeting | 167046761 | 760277236 | no |
-| 2026-07-24 | Impromptu Zoom Meeting | 166815597 | 759086019 | no |
-| 2026-07-23 | Impromptu Zoom Meeting | 166720568 | 758741269 | no |
-| 2026-07-23 | Impromptu Zoom Meeting | 166390618 | 757594321 | no |
-| 2026-07-22 | Impromptu Zoom Meeting | 166315527 | 757312773 | no |
-| 2026-07-21 | Impromptu Zoom Meeting | 165911852 | 755737899 | no |
-| 2026-07-21 | Impromptu Zoom Meeting | 165766652 | 755420869 | no |
-| 2026-07-21 | Impromptu Zoom Meeting | 165513899 | 754324932 | no |
-| 2026-07-20 | Impromptu Zoom Meeting | 165463711 | 754023963 | no |
-| 2026-07-19 | Impromptu Zoom Meeting | 165070068 | 752336980 | no |
-| 2026-07-17 | Impromptu Zoom Meeting | 164954891 | 751792038 | no |
-| 2026-07-17 | Impromptu Zoom Meeting | 164941067 | 751767003 | no |
-| 2026-07-17 | Impromptu Zoom Meeting | 164884757 | 751652147 | no |
-| 2026-07-17 | Impromptu Zoom Meeting | 164872176 | 751619158 | no |
-| 2026-07-17 | Impromptu Zoom Meeting | 164648520 | 750444781 | no |
-| 2026-07-16 | Whitney Young - Guaranteed Funding | 164619174 | 747882934 | no |
-| 2026-07-16 | Impromptu Zoom Meeting | 164605234 | 750238442 | no |
-| 2026-07-16 | Ran Day (Ramzi Day) - Guaranteed Funding | 164596410 | 747882935 | no |
-| 2026-07-16 | Impromptu Zoom Meeting | 164587320 | 750197291 | no |
-| 2026-07-15 | Flavio Palalon - Guaranteed Funding | 164171485 | 746607495 | no |
-| 2026-07-15 | Impromptu Zoom Meeting | 164153825 | 748705925 | no |
-| 2026-07-15 | Impromptu Zoom Meeting | 164127203 | 748651348 | no |
-| 2026-07-15 | Impromptu Zoom Meeting | 164051997 | 748497628 | no |
-| 2026-07-15 | Impromptu Zoom Meeting | 164031828 | 748467538 | no |
-| 2026-07-15 | Ghani Ayesh - Guaranteed Funding | 163805309 | 746607489 | no |
-| 2026-07-15 | Fabio Cristilli - Guaranteed Funding | 163800637 | 745440890 | no |
-| 2026-07-15 | Impromptu Zoom Meeting | 163796754 | 747311520 | no |
-| 2026-07-14 | Impromptu Zoom Meeting | 163780414 | 747196033 | no |
-| 2026-07-14 | Lynn Training - Impromptu Zoom Meeting | 163706603 | 747004773 | no |
-| 2026-07-14 | Impromptu Zoom Meeting | 163694163 | 746969953 | no |
-| 2026-07-14 | Jacob - CCA - Impromptu Zoom Meeting | 163670434 | 746931588 | no |
-| 2026-07-14 | Impromptu Zoom Meeting | 163656511 | 746896749 | no |
-| 2026-07-14 | Impromptu Zoom Meeting | 163633825 | 746864455 | no |
-| 2026-07-14 | Impromptu Google Meet Meeting | 163612608 | 746805542 | no |
-| 2026-07-14 | Jill - Onboarding - Impromptu Zoom Meeting | 163365871 | 745679194 | no |
-| 2026-07-13 | Lynn - training - Impromptu Zoom Meeting | 163347186 | 745546001 | no |
-| 2026-07-13 | Impromptu Zoom Meeting | 163252709 | 745263944 | no |
-| 2026-07-12 | Impromptu Zoom Meeting | 162918138 | 743703090 | no |
-| 2026-07-11 | Valentino Graham - Guaranteed Funding | 162896555 | 742588509 | no |
-| 2026-07-11 | Impromptu Zoom Meeting | 162853126 | 743356936 | no |
-| 2026-07-10 | Jill Peralta - Strategy & Consulting | 162841569 | 741969838 | no |
-| 2026-07-10 | Impromptu Zoom Meeting | 162789845 | 743168597 | no |
-| 2026-07-10 | Impromptu Zoom Meeting | 162733430 | 743057481 | no |
-| 2026-07-09 | Impromptu Zoom Meeting | 162488671 | 741816424 | no |
-| 2026-07-09 | Impromptu Zoom Meeting | 162429167 | 741591423 | no |
-| 2026-07-09 | Consulting & Coaching Zoom Meeting | 162330878 | 741396007 | no |
-| 2026-07-09 | Consulting & Coaching Zoom Meeting | 162086757 | 740444762 | no |
-| 2026-07-09 | Eliel Ntakirutimana (Geny Nataki) - Guaranteed Funding | 162085247 | 739002213 | no |
-| 2026-07-09 | Jillian Peralta - Guaranteed Funding | 162081668 | 739063325 | no |
-| 2026-07-08 | Impromptu Zoom Meeting | 162031934 | 740166287 | no |
-| 2026-07-08 | Impromptu Zoom Meeting | 162004926 | 740103251 | no |
-| 2026-07-08 | Impromptu Zoom Meeting | 161971201 | 740026894 | no |
-| 2026-07-08 | Impromptu Zoom Meeting | 161940074 | 739977062 | no |
-| 2026-07-08 | Impromptu Zoom Meeting | 161899505 | 739886841 | no |
-| 2026-07-08 | Ran Day (Ramzi Day) - Guaranteed Funding | 161656359 | 737121220 | no |
-| 2026-07-08 | Impromptu Zoom Meeting | 161650067 | 738761465 | no |
-| 2026-07-07 | Whitney Young - Guaranteed Funding | 161639095 | 735878820 | no |
-| 2026-07-07 | Impromptu Zoom Meeting | 161535298 | 738355160 | no |
-| 2026-07-07 | Impromptu Zoom Meeting | 161497485 | 738287030 | no |
-| 2026-07-07 | David Butler - Guaranteed Funding | 161224227 | 734668074 | no |
-| 2026-07-06 | Impromptu Zoom Meeting | 161167246 | 736809938 | no |
-| 2026-07-06 | Impromptu Zoom Meeting | 161127742 | 736721557 | no |
-| 2026-07-03 | Impromptu Zoom Meeting | 160706700 | 734613825 | no |
-| 2026-07-01 | Impromptu Zoom Meeting | 160100985 | 732184668 | no |
-| 2026-07-01 | Impromptu Zoom Meeting | 160097759 | 732157346 | no |
-| 2026-07-01 | Impromptu Zoom Meeting | 160084185 | 732107648 | no |
-| 2026-07-01 | George Jones - Guaranteed Funding | 160064090 | 730407363 | no |
-| 2026-07-01 | Impromptu Zoom Meeting | 160028423 | 731966182 | no |
-| 2026-07-01 | Impromptu Zoom Meeting | 159989455 | 731888257 | no |
-| 2026-07-01 | Impromptu Zoom Meeting | 159716609 | 730724382 | no |
-| 2026-07-01 | Alan Nguyen's Zoom Meeting (Edwin Choi) | 159714984 | 730696625 | no |
-| 2026-06-30 | Ed Choi - Guaranteed Funding | 159705624 | 728895030 | no |
-| 2026-06-30 | Cordero Galloway - Guaranteed Funding | 159682771 | 728410420 | no |
-| 2026-06-30 | Impromptu Zoom Meeting | 159607626 | 730356996 | no |
-| 2026-06-30 | Marcos Madrid - Guaranteed Funding | 159290278 | 727159826 | no |
-| 2026-06-29 | Luis Rosa - Guaranteed Funding | 159248564 | 726976750 | no |
-| 2026-06-29 | Ed Choi - Guaranteed Funding | 159231642 | 728838119 | no |
-| 2026-06-29 | Ed Choi - Guaranteed Funding | 159223709 | 726927356 | no |
-| 2026-06-27 | Yasantha Lion - Guaranteed Funding | 158832519 | 726399183 | no |
-| 2026-06-25 | Matthew LoGuidice - Guaranteed Funding | 158430973 | 723857619 | no |
-| 2026-06-21 | Lonnie Goodwin - Guaranteed Funding | 156872955 | 718619432 | no |
+### Contents
 
-Meetings recorded before 2026-06-21 (if any exist) were not returned by the June-onward pull; a follow-up run can extend `created_after` earlier if needed.
+- [August 2026](#august-2026) — 133 meetings
+- [July 2026](#july-2026) — 91 meetings
+- [June 2026](#june-2026) — 10 meetings
+
+**Archive status:** 25 archived ✅ · 1 verified no-transcript · 208 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+
+
+## August 2026
+
+| Date | Call (click = watch on Fathom) | Archived (click = read here) |
+|---|---|---|
+| 2026-08-28 | [Impromptu Zoom Meeting (Ina Grace Langub) ★ AG escalation pt 2](https://fathom.video/calls/803353666) | ✅ [transcript](2026-08-28--ag-escalation-strategy-part-2--178010725/transcript.md) · [summary](2026-08-28--ag-escalation-strategy-part-2--178010725/summary.md) · [meta](2026-08-28--ag-escalation-strategy-part-2--178010725/meta.md) · raw ✓ |
+| 2026-08-28 | [Impromptu Zoom Meeting ★ AG escalation strategy](https://fathom.video/calls/803352097) | ✅ [transcript](2026-08-28--ag-escalation-strategy--178010625/transcript.md) · [summary](2026-08-28--ag-escalation-strategy--178010625/summary.md) · [meta](2026-08-28--ag-escalation-strategy--178010625/meta.md) · raw ✓ |
+| 2026-08-28 | [Impromptu Zoom Meeting](https://fathom.video/calls/803341537) | ✅ [transcript](2026-08-28--carla-eod-sod-trello--178009344/transcript.md) · [summary](2026-08-28--carla-eod-sod-trello--178009344/summary.md) · [meta](2026-08-28--carla-eod-sod-trello--178009344/meta.md) |
+| 2026-08-28 | [Client Call (CSM) ★ Funnel rebuild w/ Jacob (Sep 1 A/B)](https://fathom.video/calls/801234866) | ✅ [transcript](2026-08-28--funnel-rebuild-with-jacob--177941051/transcript.md) · [summary](2026-08-28--funnel-rebuild-with-jacob--177941051/summary.md) · [meta](2026-08-28--funnel-rebuild-with-jacob--177941051/meta.md) · raw ✓ |
+| 2026-08-28 | [Impromptu Zoom Meeting ★ Revenue diagnosis ($0 August)](https://fathom.video/calls/803087357) | ✅ [transcript](2026-08-28--revenue-diagnosis-zero-august--177894725/transcript.md) · [summary](2026-08-28--revenue-diagnosis-zero-august--177894725/summary.md) · [meta](2026-08-28--revenue-diagnosis-zero-august--177894725/meta.md) |
+| 2026-08-28 | [Impromptu Zoom Meeting ★ ICP mismatch](https://fathom.video/calls/803053542) | ✅ [transcript](2026-08-28--constantine-icp-mismatch--177881372/transcript.md) · [summary](2026-08-28--constantine-icp-mismatch--177881372/summary.md) · [meta](2026-08-28--constantine-icp-mismatch--177881372/meta.md) |
+| 2026-08-28 | [Impromptu Zoom Meeting — top of market fit training](https://fathom.video/calls/802994217) | ✅ [transcript](2026-08-28--top-of-market-fit-training--177853139/transcript.md) · [summary](2026-08-28--top-of-market-fit-training--177853139/summary.md) · [meta](2026-08-28--top-of-market-fit-training--177853139/meta.md) · raw ✓ |
+| 2026-08-28 | [Impromptu Zoom Meeting — pre-training check-in](https://fathom.video/calls/802985297) | ✅ [transcript](2026-08-28--pre-training-check-in--177851352/transcript.md) · [summary](2026-08-28--pre-training-check-in--177851352/summary.md) · [meta](2026-08-28--pre-training-check-in--177851352/meta.md) |
+| 2026-08-27 | [Impromptu Zoom Meeting — Michael Moore post-mortem + August review](https://fathom.video/calls/801909953) | ✅ [transcript](2026-08-27--michael-moore-postmortem-august-review--177669876/transcript.md) · [summary](2026-08-27--michael-moore-postmortem-august-review--177669876/summary.md) · [meta](2026-08-27--michael-moore-postmortem-august-review--177669876/meta.md) · raw ✓ |
+| 2026-08-27 | [Impromptu Zoom Meeting ★ 4-day dispute doctrine](https://fathom.video/calls/801867207) | ✅ [transcript](2026-08-27--four-day-dispute-doctrine--177662775/transcript.md) · [summary](2026-08-27--four-day-dispute-doctrine--177662775/summary.md) · [meta](2026-08-27--four-day-dispute-doctrine--177662775/meta.md) |
+| 2026-08-27 | [Robert Morawitz - Guaranteed Funding ★ Qualification standard origins](https://fathom.video/calls/798787726) | ✅ [transcript](2026-08-27--robert-morawitz-qualification-origins--177627271/transcript.md) · [summary](2026-08-27--robert-morawitz-qualification-origins--177627271/summary.md) · [meta](2026-08-27--robert-morawitz-qualification-origins--177627271/meta.md) · raw ✓ |
+| 2026-08-27 | [Impromptu Zoom Meeting](https://fathom.video/calls/801601613) <sub>rec 177571208</sub> | not yet — click title to watch on Fathom |
+| 2026-08-27 | [Yeshaya Dank - $1M-$1.5M Dank SPV Funding](https://fathom.video/calls/799338949) | ✅ [transcript](2026-08-27--yeshaya-dank-spv-funding--177510654/transcript.md) · [summary](2026-08-27--yeshaya-dank-spv-funding--177510654/summary.md) · [meta](2026-08-27--yeshaya-dank-spv-funding--177510654/meta.md) · raw ✓ |
+| 2026-08-27 | [Impromptu Zoom Meeting](https://fathom.video/calls/801291099) <sub>rec 177414987</sub> | not yet — click title to watch on Fathom |
+| 2026-08-27 | [Impromptu Zoom Meeting](https://fathom.video/calls/800497411) <sub>rec 177244544</sub> | not yet — click title to watch on Fathom |
+| 2026-08-27 | [Chris Mclean - Guaranteed Funding](https://fathom.video/calls/798638035) | ✅ [transcript](2026-08-27--chris-mclean-guaranteed-funding--177237489/transcript.md) · [summary](2026-08-27--chris-mclean-guaranteed-funding--177237489/summary.md) · [meta](2026-08-27--chris-mclean-guaranteed-funding--177237489/meta.md) · raw ✓ |
+| 2026-08-26 | [Impromptu Zoom Meeting](https://fathom.video/calls/800411730) <sub>rec 177232030</sub> | not yet — click title to watch on Fathom |
+| 2026-08-26 | [Todd LoGuidice - Funding Execution](https://fathom.video/calls/800283407) | ✅ [transcript](2026-08-26--todd-loguidice-funding-execution--177223749/transcript.md) · [summary](2026-08-26--todd-loguidice-funding-execution--177223749/summary.md) · [meta](2026-08-26--todd-loguidice-funding-execution--177223749/meta.md) · raw ✓ |
+| 2026-08-26 | [Nick Samara - Strategic Consulting Funding](https://fathom.video/calls/799338953) | ✅ [transcript](2026-08-26--nick-samara-strategic-consulting-funding--177160286/transcript.md) · [summary](2026-08-26--nick-samara-strategic-consulting-funding--177160286/summary.md) · raw ✓ |
+| 2026-08-26 | [Impromptu Zoom Meeting](https://fathom.video/calls/800109782) <sub>rec 177129989</sub> | not yet — click title to watch on Fathom |
+| 2026-08-26 | [Dispute Team - Daily Zoom Meeting](https://fathom.video/calls/798172547) | ✅ [transcript](2026-08-26--dispute-team-daily-zoom--177002596/transcript.md) · raw ✓ |
+| 2026-08-26 | [Impromptu Zoom Meeting](https://fathom.video/calls/798997210) <sub>rec 176817729</sub> | not yet — click title to watch on Fathom |
+| 2026-08-26 | [Impromptu Zoom Meeting](https://fathom.video/calls/798940357) <sub>rec 176815084</sub> | not yet — click title to watch on Fathom |
+| 2026-08-26 | [Michael Moore - Guaranteed Funding](https://fathom.video/calls/795906439) | ✅ [transcript](2026-08-26--michael-moore-guaranteed-funding--176802936/transcript.md) · [summary](2026-08-26--michael-moore-guaranteed-funding--176802936/summary.md) — THE close call ($1K deposit, 'We are a go') |
+| 2026-08-26 | [Impromptu Zoom Meeting](https://fathom.video/calls/798796991) <sub>rec 176797747</sub> | not yet — click title to watch on Fathom |
+| 2026-08-25 | [Nick Samara - Guaranteed Funding](https://fathom.video/calls/795906442) | ✅ [transcript](2026-08-25--nick-samara-guaranteed-funding--176779823/transcript.md) · raw ✓ |
+| 2026-08-25 | [Impromptu Zoom Meeting](https://fathom.video/calls/798581474) <sub>rec 176753966</sub> | not yet — click title to watch on Fathom |
+| 2026-08-25 | [Impromptu Zoom Meeting (Rosemarie Anne Fabian) <sub>rec 176731448</sub>](https://fathom.video/calls/798529571) | not yet — click title to watch on Fathom |
+| 2026-08-25 | [Impromptu Zoom Meeting (Sabrina Neves) <sub>rec 176664762</sub>](https://fathom.video/calls/798393367) | not yet — click title to watch on Fathom |
+| 2026-08-25 | [Tech Call w/ Daniel Jimenez](https://fathom.video/calls/796488274) | ✅ [transcript](2026-08-25--tech-call-daniel-jimenez--176649683/transcript.md) |
+| 2026-08-25 | [APW - Daily Sync (Ina)](https://fathom.video/calls/796919606) | ✅ [transcript](2026-08-25--apw-daily-sync-ina--176612115/transcript.md) · raw ✓ |
+| 2026-08-25 | [APW - Daily Sync (Rosemarie)](https://fathom.video/calls/796092304) | ✅ [transcript](2026-08-25--apw-daily-sync-rosemarie--176612379/transcript.md) · raw ✓ — (+raw; duplicate capture of same sync) |
+| 2026-08-25 | [Impromptu Zoom Meeting](https://fathom.video/calls/798282012) <sub>rec 176612153</sub> | not yet — click title to watch on Fathom |
+| 2026-08-25 | [APW - Daily Sync (Sabrina)](https://fathom.video/calls/796488288) | ✅ [transcript](2026-08-25--apw-daily-sync-sabrina--176587651/transcript.md) · raw ✓ — (+raw; third capture of same sync) |
+| 2026-08-25 | [Impromptu Zoom Meeting (Ina) <sub>rec 176566669</sub>](https://fathom.video/calls/798180477) | not yet — click title to watch on Fathom |
+| 2026-08-25 | [Dispute Team - Daily Zoom Meeting](https://fathom.video/calls/798172465) | ✅ [transcript](2026-08-25--dispute-team-daily-zoom--176562530/transcript.md) · raw ✓ |
+| 2026-08-25 | [Impromptu Zoom Meeting](https://fathom.video/calls/797219041) <sub>rec 176360534</sub> | not yet — click title to watch on Fathom |
+| 2026-08-24 | [Impromptu Zoom Meeting](https://fathom.video/calls/797017809) <sub>rec 176336909</sub> | not yet — click title to watch on Fathom |
+| 2026-08-24 | [Impromptu Zoom Meeting (Rosemarie) <sub>rec 176165428</sub>](https://fathom.video/calls/796561317) | not yet — click title to watch on Fathom |
+| 2026-08-24 | [Impromptu Zoom Meeting (Ina) <sub>rec 176165529</sub>](https://fathom.video/calls/796561603) | not yet — click title to watch on Fathom |
+| 2026-08-24 | [Impromptu Zoom Meeting](https://fathom.video/calls/796560208) <sub>rec 176165147</sub> | not yet — click title to watch on Fathom |
+| 2026-08-24 | [Impromptu Zoom Meeting](https://fathom.video/calls/796461872) <sub>rec 176124914</sub> | not yet — click title to watch on Fathom |
+| 2026-08-24 | [Impromptu Zoom Meeting](https://fathom.video/calls/796432483) <sub>rec 176109891</sub> | not yet — click title to watch on Fathom |
+| 2026-08-22 | [Impromptu Zoom Meeting](https://fathom.video/calls/794778614) <sub>rec 175821783</sub> | not yet — click title to watch on Fathom |
+| 2026-08-21 | [Impromptu Zoom Meeting](https://fathom.video/calls/794624464) <sub>rec 175776778</sub> | not yet — click title to watch on Fathom |
+| 2026-08-21 | [Impromptu Zoom Meeting](https://fathom.video/calls/794472254) <sub>rec 175700871</sub> | not yet — click title to watch on Fathom |
+| 2026-08-21 | [Impromptu Zoom Meeting](https://fathom.video/calls/793262976) <sub>rec 175468970</sub> | not yet — click title to watch on Fathom |
+| 2026-08-20 | [Impromptu Zoom Meeting](https://fathom.video/calls/793137663) <sub>rec 175448782</sub> | not yet — click title to watch on Fathom |
+| 2026-08-20 | [Karl Krummenacher - Guaranteed Funding](https://fathom.video/calls/791088813) | ✅ [transcript](2026-08-20--karl-krummenacher-guaranteed-funding--175440897/transcript.md) · [summary](2026-08-20--karl-krummenacher-guaranteed-funding--175440897/summary.md) — the whale call (Modern Thyroid, $8M rev, exit plan) |
+| 2026-08-20 | [Impromptu Zoom Meeting](https://fathom.video/calls/791883972) <sub>rec 175052490</sub> | not yet — click title to watch on Fathom |
+| 2026-08-20 | [Michael Moore - Guaranteed Funding](https://fathom.video/calls/791826979) | ✅ [transcript](2026-08-20--michael-moore-guaranteed-funding--175044393/transcript.md) · raw ✓ |
+| 2026-08-20 | [Impromptu Zoom Meeting](https://fathom.video/calls/791773496) <sub>rec 175036919</sub> | not yet — click title to watch on Fathom |
+| 2026-08-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/791712438) <sub>rec 175025137</sub> | not yet — click title to watch on Fathom |
+| 2026-08-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/791570447) <sub>rec 174987192</sub> | not yet — click title to watch on Fathom |
+| 2026-08-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/791537886) <sub>rec 174970047</sub> | not yet — click title to watch on Fathom |
+| 2026-08-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/791504315) <sub>rec 174957467</sub> | not yet — click title to watch on Fathom |
+| 2026-08-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/791440457) <sub>rec 174926566</sub> | not yet — click title to watch on Fathom |
+| 2026-08-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/791300186) <sub>rec 174853572</sub> | not yet — click title to watch on Fathom |
+| 2026-08-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/790152271) <sub>rec 174596591</sub> | not yet — click title to watch on Fathom |
+| 2026-08-18 | [Impromptu Zoom Meeting](https://fathom.video/calls/790053322) <sub>rec 174583294</sub> | not yet — click title to watch on Fathom |
+| 2026-08-18 | [Impromptu Zoom Meeting](https://fathom.video/calls/790045529) <sub>rec 174581230</sub> | not yet — click title to watch on Fathom |
+| 2026-08-18 | [Impromptu Zoom Meeting](https://fathom.video/calls/790032737) <sub>rec 174578222</sub> | not yet — click title to watch on Fathom |
+| 2026-08-18 | [Impromptu Zoom Meeting](https://fathom.video/calls/789918031) <sub>rec 174549629</sub> | not yet — click title to watch on Fathom |
+| 2026-08-18 | [Impromptu Zoom Meeting](https://fathom.video/calls/789716789) <sub>rec 174453400</sub> | not yet — click title to watch on Fathom |
+| 2026-08-18 | [Impromptu Zoom Meeting (Sabrina) <sub>rec 174397848</sub>](https://fathom.video/calls/789590405) | not yet — click title to watch on Fathom |
+| 2026-08-17 | [Impromptu Zoom Meeting (Carla Valentina Stivala) <sub>rec 174120399</sub>](https://fathom.video/calls/788351529) | not yet — click title to watch on Fathom |
+| 2026-08-17 | [Impromptu Zoom Meeting](https://fathom.video/calls/788334715) <sub>rec 174119189</sub> | not yet — click title to watch on Fathom |
+| 2026-08-17 | [Connor Robertson - Guaranteed Funding](https://fathom.video/calls/788222126) <sub>rec 174098114</sub> | n/a — verified 8/30: Fathom holds NO transcript for this meeting |
+| 2026-08-17 | [Impromptu Zoom Meeting](https://fathom.video/calls/788184013) <sub>rec 174081239</sub> | not yet — click title to watch on Fathom |
+| 2026-08-17 | [Impromptu Zoom Meeting](https://fathom.video/calls/787910378) <sub>rec 173958367</sub> | not yet — click title to watch on Fathom |
+| 2026-08-14 | [Impromptu Zoom Meeting](https://fathom.video/calls/786067791) <sub>rec 173605709</sub> | not yet — click title to watch on Fathom |
+| 2026-08-14 | [Impromptu Zoom Meeting (Ina) <sub>rec 173596185</sub>](https://fathom.video/calls/786039287) | not yet — click title to watch on Fathom |
+| 2026-08-14 | [Impromptu Zoom Meeting](https://fathom.video/calls/786005742) <sub>rec 173580972</sub> | not yet — click title to watch on Fathom |
+| 2026-08-14 | [Impromptu Zoom Meeting](https://fathom.video/calls/785854313) <sub>rec 173503381</sub> | not yet — click title to watch on Fathom |
+| 2026-08-14 | [Yeshaya Dank - Guaranteed Funding](https://fathom.video/calls/783351348) <sub>rec 173260375</sub> | not yet — click title to watch on Fathom |
+| 2026-08-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/784578211) <sub>rec 173254448</sub> | not yet — click title to watch on Fathom |
+| 2026-08-13 | [Lynn < Carla (Sabrina) <sub>rec 173254044</sub>](https://fathom.video/calls/784528229) | not yet — click title to watch on Fathom |
+| 2026-08-13 | [SCIO Sales Consulting (Sabrina) <sub>rec 173244690</sub>](https://fathom.video/calls/782299252) | not yet — click title to watch on Fathom |
+| 2026-08-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/784437796) <sub>rec 173218261</sub> | not yet — click title to watch on Fathom |
+| 2026-08-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/784176539) <sub>rec 173087425</sub> | not yet — click title to watch on Fathom |
+| 2026-08-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/784166182) <sub>rec 173084908</sub> | not yet — click title to watch on Fathom |
+| 2026-08-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/783173636) <sub>rec 172832320</sub> | not yet — click title to watch on Fathom |
+| 2026-08-13 | [Impromptu Zoom Meeting (Ina) <sub>rec 172829961</sub>](https://fathom.video/calls/783153890) | not yet — click title to watch on Fathom |
+| 2026-08-12 | [Impromptu Zoom Meeting](https://fathom.video/calls/783146648) <sub>rec 172826975</sub> | not yet — click title to watch on Fathom |
+| 2026-08-12 | [Impromptu Zoom Meeting (Sabrina) <sub>rec 172823898</sub>](https://fathom.video/calls/783118335) | not yet — click title to watch on Fathom |
+| 2026-08-12 | [Impromptu Zoom Meeting](https://fathom.video/calls/783044555) <sub>rec 172808694</sub> | not yet — click title to watch on Fathom |
+| 2026-08-12 | [Impromptu Zoom Meeting](https://fathom.video/calls/782988167) <sub>rec 172792113</sub> | not yet — click title to watch on Fathom |
+| 2026-08-12 | [Impromptu Zoom Meeting (Sabrina) <sub>rec 172782608</sub>](https://fathom.video/calls/782957344) | not yet — click title to watch on Fathom |
+| 2026-08-12 | [Impromptu Zoom Meeting](https://fathom.video/calls/782940846) <sub>rec 172768868</sub> | not yet — click title to watch on Fathom |
+| 2026-08-12 | [Impromptu Zoom Meeting](https://fathom.video/calls/782770712) <sub>rec 172690124</sub> | not yet — click title to watch on Fathom |
+| 2026-08-12 | [Impromptu Zoom Meeting (Sabrina) <sub>rec 172648133</sub>](https://fathom.video/calls/782677325) | not yet — click title to watch on Fathom |
+| 2026-08-12 | [Impromptu Zoom Meeting](https://fathom.video/calls/781847279) <sub>rec 172425594</sub> | not yet — click title to watch on Fathom |
+| 2026-08-11 | [Impromptu Zoom Meeting (Sabrina) <sub>rec 172378323</sub>](https://fathom.video/calls/781403394) | not yet — click title to watch on Fathom |
+| 2026-08-11 | [Impromptu Zoom Meeting](https://fathom.video/calls/781402990) <sub>rec 172378096</sub> | not yet — click title to watch on Fathom |
+| 2026-08-11 | [Impromptu Zoom Meeting](https://fathom.video/calls/781367731) <sub>rec 172367795</sub> | not yet — click title to watch on Fathom |
+| 2026-08-11 | [Impromptu Zoom Meeting](https://fathom.video/calls/781309435) <sub>rec 172348134</sub> | not yet — click title to watch on Fathom |
+| 2026-08-11 | [Impromptu Zoom Meeting](https://fathom.video/calls/781002033) <sub>rec 172199022</sub> | not yet — click title to watch on Fathom |
+| 2026-08-11 | [Jill 1 on 1 Coaching & Strategy Session](https://fathom.video/calls/779847306) <sub>rec 171947309</sub> | not yet — click title to watch on Fathom |
+| 2026-08-11 | [Impromptu Zoom Meeting](https://fathom.video/calls/779845972) <sub>rec 171944256</sub> | not yet — click title to watch on Fathom |
+| 2026-08-10 | [Impromptu Zoom Meeting](https://fathom.video/calls/779813812) <sub>rec 171939436</sub> | not yet — click title to watch on Fathom |
+| 2026-08-10 | [Impromptu Zoom Meeting](https://fathom.video/calls/779780027) <sub>rec 171935538</sub> | not yet — click title to watch on Fathom |
+| 2026-08-10 | [Impromptu Zoom Meeting](https://fathom.video/calls/779740517) <sub>rec 171929413</sub> | not yet — click title to watch on Fathom |
+| 2026-08-10 | [Impromptu Zoom Meeting](https://fathom.video/calls/779713886) <sub>rec 171925919</sub> | not yet — click title to watch on Fathom |
+| 2026-08-10 | [Impromptu Zoom Meeting](https://fathom.video/calls/779664353) <sub>rec 171914041</sub> | not yet — click title to watch on Fathom |
+| 2026-08-10 | [P Reddy P - Guaranteed Funding](https://fathom.video/calls/777298604) <sub>rec 171892299</sub> | not yet — click title to watch on Fathom |
+| 2026-08-10 | [Impromptu Zoom Meeting](https://fathom.video/calls/779372453) <sub>rec 171780268</sub> | not yet — click title to watch on Fathom |
+| 2026-08-10 | [Impromptu Zoom Meeting](https://fathom.video/calls/779303656) <sub>rec 171758124</sub> | not yet — click title to watch on Fathom |
+| 2026-08-10 | [Impromptu Zoom Meeting](https://fathom.video/calls/778445543) <sub>rec 171548150</sub> | not yet — click title to watch on Fathom |
+| 2026-08-10 | [Impromptu Zoom Meeting](https://fathom.video/calls/778205296) <sub>rec 171528603</sub> | not yet — click title to watch on Fathom |
+| 2026-08-08 | [Impromptu Zoom Meeting](https://fathom.video/calls/777749171) <sub>rec 171478151</sub> | not yet — click title to watch on Fathom |
+| 2026-08-08 | [Impromptu Zoom Meeting](https://fathom.video/calls/777554648) <sub>rec 171436252</sub> | not yet — click title to watch on Fathom |
+| 2026-08-07 | [Pradeep Bhatia - Guaranteed Funding](https://fathom.video/calls/775117204) <sub>rec 171426457</sub> | not yet — click title to watch on Fathom |
+| 2026-08-07 | [Jennifer Ulloa - Guaranteed Funding](https://fathom.video/calls/775643888) <sub>rec 171401555</sub> | not yet — click title to watch on Fathom |
+| 2026-08-07 | [Joe StLouis - Funding Strategy Session](https://fathom.video/calls/775117203) <sub>rec 171343139</sub> | not yet — click title to watch on Fathom |
+| 2026-08-07 | [Impromptu Zoom Meeting](https://fathom.video/calls/776606146) <sub>rec 171144093</sub> | not yet — click title to watch on Fathom |
+| 2026-08-07 | [Chris Bowers - Guaranteed Funding](https://fathom.video/calls/771447748) <sub>rec 171104276</sub> | not yet — click title to watch on Fathom |
+| 2026-08-06 | [Impromptu Zoom Meeting](https://fathom.video/calls/775989225) <sub>rec 171081260</sub> | not yet — click title to watch on Fathom |
+| 2026-08-06 | [Impromptu Zoom Meeting](https://fathom.video/calls/775625270) <sub>rec 170920863</sub> | not yet — click title to watch on Fathom |
+| 2026-08-05 | [Impromptu Zoom Meeting](https://fathom.video/calls/774386586) <sub>rec 170601491</sub> | not yet — click title to watch on Fathom |
+| 2026-08-05 | [Impromptu Zoom Meeting](https://fathom.video/calls/774323323) <sub>rec 170570967</sub> | not yet — click title to watch on Fathom |
+| 2026-08-05 | [Impromptu Zoom Meeting](https://fathom.video/calls/774182118) <sub>rec 170499159</sub> | not yet — click title to watch on Fathom |
+| 2026-08-04 | [Impromptu Zoom Meeting](https://fathom.video/calls/773008649) <sub>rec 170244182</sub> | not yet — click title to watch on Fathom |
+| 2026-08-04 | [Impromptu Zoom Meeting](https://fathom.video/calls/772943177) <sub>rec 170235515</sub> | not yet — click title to watch on Fathom |
+| 2026-08-04 | [Impromptu Zoom Meeting](https://fathom.video/calls/772808247) <sub>rec 170200873</sub> | not yet — click title to watch on Fathom |
+| 2026-08-04 | [Impromptu Zoom Meeting](https://fathom.video/calls/772523874) <sub>rec 170065981</sub> | not yet — click title to watch on Fathom |
+| 2026-08-04 | [Chris Bowers - Guaranteed Funding](https://fathom.video/calls/768297031) <sub>rec 169812949</sub> | not yet — click title to watch on Fathom |
+| 2026-08-03 | [Impromptu Zoom Meeting](https://fathom.video/calls/771143815) <sub>rec 169764320</sub> | not yet — click title to watch on Fathom |
+| 2026-08-03 | [Impromptu Zoom Meeting](https://fathom.video/calls/771023050) <sub>rec 169715348</sub> | not yet — click title to watch on Fathom |
+| 2026-08-03 | [Impromptu Zoom Meeting](https://fathom.video/calls/770864623) <sub>rec 169641288</sub> | not yet — click title to watch on Fathom |
+| 2026-08-02 | [Impromptu Zoom Meeting](https://fathom.video/calls/769588125) <sub>rec 169395649</sub> | not yet — click title to watch on Fathom |
+| 2026-08-02 | [Impromptu Zoom Meeting](https://fathom.video/calls/769526396) <sub>rec 169392093</sub> | not yet — click title to watch on Fathom |
+| 2026-08-01 | [Carmen Meridith - Credit & Funding Consultation](https://fathom.video/calls/768936830) <sub>rec 169364078</sub> | not yet — click title to watch on Fathom |
+| 2026-08-01 | [Gunjan Patel - Funding Strategy Session](https://fathom.video/calls/767888047) <sub>rec 169322939</sub> | not yet — click title to watch on Fathom |
+
+## July 2026
+
+| Date | Call (click = watch on Fathom) | Archived (click = read here) |
+|---|---|---|
+| 2026-07-31 | [Zacherly Sheets - Guaranteed Funding](https://fathom.video/calls/766265132) <sub>rec 169319937</sub> | not yet — click title to watch on Fathom |
+| 2026-07-31 | [Alan Nguyen's Zoom Meeting](https://fathom.video/calls/769061378) <sub>rec 169310910</sub> | not yet — click title to watch on Fathom |
+| 2026-07-31 | [Impromptu Zoom Meeting](https://fathom.video/calls/769022297) <sub>rec 169297934</sub> | not yet — click title to watch on Fathom |
+| 2026-07-31 | [Impromptu Zoom Meeting](https://fathom.video/calls/768849661) <sub>rec 169213087</sub> | not yet — click title to watch on Fathom |
+| 2026-07-31 | [Impromptu Zoom Meeting](https://fathom.video/calls/767730890) <sub>rec 168993036</sub> | not yet — click title to watch on Fathom |
+| 2026-07-30 | [Impromptu Zoom Meeting](https://fathom.video/calls/767644231) <sub>rec 168982194</sub> | not yet — click title to watch on Fathom |
+| 2026-07-30 | [Impromptu Zoom Meeting](https://fathom.video/calls/767424268) <sub>rec 168919466</sub> | not yet — click title to watch on Fathom |
+| 2026-07-29 | [Ashwini Anand - Onboarding & Action Session](https://fathom.video/calls/764436554) <sub>rec 168556212</sub> | not yet — click title to watch on Fathom |
+| 2026-07-28 | [Impromptu Zoom Meeting](https://fathom.video/calls/764531452) <sub>rec 168124506</sub> | not yet — click title to watch on Fathom |
+| 2026-07-28 | [Leo De Ornellas - Guaranteed Funding](https://fathom.video/calls/762747396) <sub>rec 168109818</sub> | not yet — click title to watch on Fathom |
+| 2026-07-28 | [Ashwini Anand - Guaranteed Funding](https://fathom.video/calls/762499930) <sub>rec 168073294</sub> | not yet — click title to watch on Fathom |
+| 2026-07-28 | [Impromptu Zoom Meeting](https://fathom.video/calls/764203166) <sub>rec 168017695</sub> | not yet — click title to watch on Fathom |
+| 2026-07-28 | [Impromptu Zoom Meeting](https://fathom.video/calls/764165381) <sub>rec 167994639</sub> | not yet — click title to watch on Fathom |
+| 2026-07-28 | [Impromptu Zoom Meeting](https://fathom.video/calls/764047252) <sub>rec 167941302</sub> | not yet — click title to watch on Fathom |
+| 2026-07-28 | [Client Action Coaching Consulting Session (Jillian Peralta) <sub>rec 167678860</sub>](https://fathom.video/calls/761220510) | not yet — click title to watch on Fathom |
+| 2026-07-27 | [Allen Sims - Guaranteed Funding](https://fathom.video/calls/759494613) <sub>rec 167666706</sub> | not yet — click title to watch on Fathom |
+| 2026-07-27 | [Impromptu Zoom Meeting](https://fathom.video/calls/762772216) <sub>rec 167662334</sub> | not yet — click title to watch on Fathom |
+| 2026-07-27 | [Consultation with Alan (Michelle Lise, EBA Consulting) <sub>rec 167602127</sub>](https://fathom.video/calls/762499931) | not yet — click title to watch on Fathom |
+| 2026-07-27 | [Impromptu Zoom Meeting](https://fathom.video/calls/762487497) <sub>rec 167566898</sub> | not yet — click title to watch on Fathom |
+| 2026-07-27 | [Impromptu Zoom Meeting](https://fathom.video/calls/762469719) <sub>rec 167548626</sub> | not yet — click title to watch on Fathom |
+| 2026-07-24 | [Impromptu Zoom Meeting](https://fathom.video/calls/760277236) <sub>rec 167046761</sub> | not yet — click title to watch on Fathom |
+| 2026-07-24 | [Impromptu Zoom Meeting](https://fathom.video/calls/759086019) <sub>rec 166815597</sub> | not yet — click title to watch on Fathom |
+| 2026-07-23 | [Impromptu Zoom Meeting](https://fathom.video/calls/758741269) <sub>rec 166720568</sub> | not yet — click title to watch on Fathom |
+| 2026-07-23 | [Impromptu Zoom Meeting](https://fathom.video/calls/757594321) <sub>rec 166390618</sub> | not yet — click title to watch on Fathom |
+| 2026-07-22 | [Impromptu Zoom Meeting](https://fathom.video/calls/757312773) <sub>rec 166315527</sub> | not yet — click title to watch on Fathom |
+| 2026-07-21 | [Impromptu Zoom Meeting](https://fathom.video/calls/755737899) <sub>rec 165911852</sub> | not yet — click title to watch on Fathom |
+| 2026-07-21 | [Impromptu Zoom Meeting](https://fathom.video/calls/755420869) <sub>rec 165766652</sub> | not yet — click title to watch on Fathom |
+| 2026-07-21 | [Impromptu Zoom Meeting](https://fathom.video/calls/754324932) <sub>rec 165513899</sub> | not yet — click title to watch on Fathom |
+| 2026-07-20 | [Impromptu Zoom Meeting](https://fathom.video/calls/754023963) <sub>rec 165463711</sub> | not yet — click title to watch on Fathom |
+| 2026-07-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/752336980) <sub>rec 165070068</sub> | not yet — click title to watch on Fathom |
+| 2026-07-17 | [Impromptu Zoom Meeting](https://fathom.video/calls/751792038) <sub>rec 164954891</sub> | not yet — click title to watch on Fathom |
+| 2026-07-17 | [Impromptu Zoom Meeting](https://fathom.video/calls/751767003) <sub>rec 164941067</sub> | not yet — click title to watch on Fathom |
+| 2026-07-17 | [Impromptu Zoom Meeting](https://fathom.video/calls/751652147) <sub>rec 164884757</sub> | not yet — click title to watch on Fathom |
+| 2026-07-17 | [Impromptu Zoom Meeting](https://fathom.video/calls/751619158) <sub>rec 164872176</sub> | not yet — click title to watch on Fathom |
+| 2026-07-17 | [Impromptu Zoom Meeting](https://fathom.video/calls/750444781) <sub>rec 164648520</sub> | not yet — click title to watch on Fathom |
+| 2026-07-16 | [Whitney Young - Guaranteed Funding](https://fathom.video/calls/747882934) <sub>rec 164619174</sub> | not yet — click title to watch on Fathom |
+| 2026-07-16 | [Impromptu Zoom Meeting](https://fathom.video/calls/750238442) <sub>rec 164605234</sub> | not yet — click title to watch on Fathom |
+| 2026-07-16 | [Ran Day (Ramzi Day) <sub>rec 164596410</sub> - Guaranteed Funding](https://fathom.video/calls/747882935) | not yet — click title to watch on Fathom |
+| 2026-07-16 | [Impromptu Zoom Meeting](https://fathom.video/calls/750197291) <sub>rec 164587320</sub> | not yet — click title to watch on Fathom |
+| 2026-07-15 | [Flavio Palalon - Guaranteed Funding](https://fathom.video/calls/746607495) <sub>rec 164171485</sub> | not yet — click title to watch on Fathom |
+| 2026-07-15 | [Impromptu Zoom Meeting](https://fathom.video/calls/748705925) <sub>rec 164153825</sub> | not yet — click title to watch on Fathom |
+| 2026-07-15 | [Impromptu Zoom Meeting](https://fathom.video/calls/748651348) <sub>rec 164127203</sub> | not yet — click title to watch on Fathom |
+| 2026-07-15 | [Impromptu Zoom Meeting](https://fathom.video/calls/748497628) <sub>rec 164051997</sub> | not yet — click title to watch on Fathom |
+| 2026-07-15 | [Impromptu Zoom Meeting](https://fathom.video/calls/748467538) <sub>rec 164031828</sub> | not yet — click title to watch on Fathom |
+| 2026-07-15 | [Ghani Ayesh - Guaranteed Funding](https://fathom.video/calls/746607489) <sub>rec 163805309</sub> | not yet — click title to watch on Fathom |
+| 2026-07-15 | [Fabio Cristilli - Guaranteed Funding](https://fathom.video/calls/745440890) <sub>rec 163800637</sub> | not yet — click title to watch on Fathom |
+| 2026-07-15 | [Impromptu Zoom Meeting](https://fathom.video/calls/747311520) <sub>rec 163796754</sub> | not yet — click title to watch on Fathom |
+| 2026-07-14 | [Impromptu Zoom Meeting](https://fathom.video/calls/747196033) <sub>rec 163780414</sub> | not yet — click title to watch on Fathom |
+| 2026-07-14 | [Lynn Training - Impromptu Zoom Meeting](https://fathom.video/calls/747004773) <sub>rec 163706603</sub> | not yet — click title to watch on Fathom |
+| 2026-07-14 | [Impromptu Zoom Meeting](https://fathom.video/calls/746969953) <sub>rec 163694163</sub> | not yet — click title to watch on Fathom |
+| 2026-07-14 | [Jacob - CCA - Impromptu Zoom Meeting](https://fathom.video/calls/746931588) <sub>rec 163670434</sub> | not yet — click title to watch on Fathom |
+| 2026-07-14 | [Impromptu Zoom Meeting](https://fathom.video/calls/746896749) <sub>rec 163656511</sub> | not yet — click title to watch on Fathom |
+| 2026-07-14 | [Impromptu Zoom Meeting](https://fathom.video/calls/746864455) <sub>rec 163633825</sub> | not yet — click title to watch on Fathom |
+| 2026-07-14 | [Impromptu Google Meet Meeting](https://fathom.video/calls/746805542) <sub>rec 163612608</sub> | not yet — click title to watch on Fathom |
+| 2026-07-14 | [Jill - Onboarding - Impromptu Zoom Meeting](https://fathom.video/calls/745679194) <sub>rec 163365871</sub> | not yet — click title to watch on Fathom |
+| 2026-07-13 | [Lynn - training - Impromptu Zoom Meeting](https://fathom.video/calls/745546001) <sub>rec 163347186</sub> | not yet — click title to watch on Fathom |
+| 2026-07-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/745263944) <sub>rec 163252709</sub> | not yet — click title to watch on Fathom |
+| 2026-07-12 | [Impromptu Zoom Meeting](https://fathom.video/calls/743703090) <sub>rec 162918138</sub> | not yet — click title to watch on Fathom |
+| 2026-07-11 | [Valentino Graham - Guaranteed Funding](https://fathom.video/calls/742588509) <sub>rec 162896555</sub> | not yet — click title to watch on Fathom |
+| 2026-07-11 | [Impromptu Zoom Meeting](https://fathom.video/calls/743356936) <sub>rec 162853126</sub> | not yet — click title to watch on Fathom |
+| 2026-07-10 | [Jill Peralta - Strategy & Consulting](https://fathom.video/calls/741969838) <sub>rec 162841569</sub> | not yet — click title to watch on Fathom |
+| 2026-07-10 | [Impromptu Zoom Meeting](https://fathom.video/calls/743168597) <sub>rec 162789845</sub> | not yet — click title to watch on Fathom |
+| 2026-07-10 | [Impromptu Zoom Meeting](https://fathom.video/calls/743057481) <sub>rec 162733430</sub> | not yet — click title to watch on Fathom |
+| 2026-07-09 | [Impromptu Zoom Meeting](https://fathom.video/calls/741816424) <sub>rec 162488671</sub> | not yet — click title to watch on Fathom |
+| 2026-07-09 | [Impromptu Zoom Meeting](https://fathom.video/calls/741591423) <sub>rec 162429167</sub> | not yet — click title to watch on Fathom |
+| 2026-07-09 | [Consulting & Coaching Zoom Meeting](https://fathom.video/calls/741396007) <sub>rec 162330878</sub> | not yet — click title to watch on Fathom |
+| 2026-07-09 | [Consulting & Coaching Zoom Meeting](https://fathom.video/calls/740444762) <sub>rec 162086757</sub> | not yet — click title to watch on Fathom |
+| 2026-07-09 | [Eliel Ntakirutimana (Geny Nataki) <sub>rec 162085247</sub> - Guaranteed Funding](https://fathom.video/calls/739002213) | not yet — click title to watch on Fathom |
+| 2026-07-09 | [Jillian Peralta - Guaranteed Funding](https://fathom.video/calls/739063325) <sub>rec 162081668</sub> | not yet — click title to watch on Fathom |
+| 2026-07-08 | [Impromptu Zoom Meeting](https://fathom.video/calls/740166287) <sub>rec 162031934</sub> | not yet — click title to watch on Fathom |
+| 2026-07-08 | [Impromptu Zoom Meeting](https://fathom.video/calls/740103251) <sub>rec 162004926</sub> | not yet — click title to watch on Fathom |
+| 2026-07-08 | [Impromptu Zoom Meeting](https://fathom.video/calls/740026894) <sub>rec 161971201</sub> | not yet — click title to watch on Fathom |
+| 2026-07-08 | [Impromptu Zoom Meeting](https://fathom.video/calls/739977062) <sub>rec 161940074</sub> | not yet — click title to watch on Fathom |
+| 2026-07-08 | [Impromptu Zoom Meeting](https://fathom.video/calls/739886841) <sub>rec 161899505</sub> | not yet — click title to watch on Fathom |
+| 2026-07-08 | [Ran Day (Ramzi Day) <sub>rec 161656359</sub> - Guaranteed Funding](https://fathom.video/calls/737121220) | not yet — click title to watch on Fathom |
+| 2026-07-08 | [Impromptu Zoom Meeting](https://fathom.video/calls/738761465) <sub>rec 161650067</sub> | not yet — click title to watch on Fathom |
+| 2026-07-07 | [Whitney Young - Guaranteed Funding](https://fathom.video/calls/735878820) <sub>rec 161639095</sub> | not yet — click title to watch on Fathom |
+| 2026-07-07 | [Impromptu Zoom Meeting](https://fathom.video/calls/738355160) <sub>rec 161535298</sub> | not yet — click title to watch on Fathom |
+| 2026-07-07 | [Impromptu Zoom Meeting](https://fathom.video/calls/738287030) <sub>rec 161497485</sub> | not yet — click title to watch on Fathom |
+| 2026-07-07 | [David Butler - Guaranteed Funding](https://fathom.video/calls/734668074) <sub>rec 161224227</sub> | not yet — click title to watch on Fathom |
+| 2026-07-06 | [Impromptu Zoom Meeting](https://fathom.video/calls/736809938) <sub>rec 161167246</sub> | not yet — click title to watch on Fathom |
+| 2026-07-06 | [Impromptu Zoom Meeting](https://fathom.video/calls/736721557) <sub>rec 161127742</sub> | not yet — click title to watch on Fathom |
+| 2026-07-03 | [Impromptu Zoom Meeting](https://fathom.video/calls/734613825) <sub>rec 160706700</sub> | not yet — click title to watch on Fathom |
+| 2026-07-01 | [Impromptu Zoom Meeting](https://fathom.video/calls/732184668) <sub>rec 160100985</sub> | not yet — click title to watch on Fathom |
+| 2026-07-01 | [Impromptu Zoom Meeting](https://fathom.video/calls/732157346) <sub>rec 160097759</sub> | not yet — click title to watch on Fathom |
+| 2026-07-01 | [Impromptu Zoom Meeting](https://fathom.video/calls/732107648) <sub>rec 160084185</sub> | not yet — click title to watch on Fathom |
+| 2026-07-01 | [George Jones - Guaranteed Funding](https://fathom.video/calls/730407363) <sub>rec 160064090</sub> | not yet — click title to watch on Fathom |
+| 2026-07-01 | [Impromptu Zoom Meeting](https://fathom.video/calls/731966182) <sub>rec 160028423</sub> | not yet — click title to watch on Fathom |
+| 2026-07-01 | [Impromptu Zoom Meeting](https://fathom.video/calls/731888257) <sub>rec 159989455</sub> | not yet — click title to watch on Fathom |
+| 2026-07-01 | [Impromptu Zoom Meeting](https://fathom.video/calls/730724382) <sub>rec 159716609</sub> | not yet — click title to watch on Fathom |
+| 2026-07-01 | [Alan Nguyen's Zoom Meeting (Edwin Choi) <sub>rec 159714984</sub>](https://fathom.video/calls/730696625) | not yet — click title to watch on Fathom |
+
+## June 2026
+
+| Date | Call (click = watch on Fathom) | Archived (click = read here) |
+|---|---|---|
+| 2026-06-30 | [Ed Choi - Guaranteed Funding](https://fathom.video/calls/728895030) <sub>rec 159705624</sub> | not yet — click title to watch on Fathom |
+| 2026-06-30 | [Cordero Galloway - Guaranteed Funding](https://fathom.video/calls/728410420) <sub>rec 159682771</sub> | not yet — click title to watch on Fathom |
+| 2026-06-30 | [Impromptu Zoom Meeting](https://fathom.video/calls/730356996) <sub>rec 159607626</sub> | not yet — click title to watch on Fathom |
+| 2026-06-30 | [Marcos Madrid - Guaranteed Funding](https://fathom.video/calls/727159826) <sub>rec 159290278</sub> | not yet — click title to watch on Fathom |
+| 2026-06-29 | [Luis Rosa - Guaranteed Funding](https://fathom.video/calls/726976750) <sub>rec 159248564</sub> | not yet — click title to watch on Fathom |
+| 2026-06-29 | [Ed Choi - Guaranteed Funding](https://fathom.video/calls/728838119) <sub>rec 159231642</sub> | not yet — click title to watch on Fathom |
+| 2026-06-29 | [Ed Choi - Guaranteed Funding](https://fathom.video/calls/726927356) <sub>rec 159223709</sub> | not yet — click title to watch on Fathom |
+| 2026-06-27 | [Yasantha Lion - Guaranteed Funding](https://fathom.video/calls/726399183) <sub>rec 158832519</sub> | not yet — click title to watch on Fathom |
+| 2026-06-25 | [Matthew LoGuidice - Guaranteed Funding](https://fathom.video/calls/723857619) <sub>rec 158430973</sub> | not yet — click title to watch on Fathom |
+| 2026-06-21 | [Lonnie Goodwin - Guaranteed Funding](https://fathom.video/calls/718619432) <sub>rec 156872955</sub> | not yet — click title to watch on Fathom |

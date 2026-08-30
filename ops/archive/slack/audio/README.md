@@ -1,5 +1,7 @@
 # Slack Audio — full inventory + hard-copy backup + transcripts
 
+> 🧭 [Start Here](../../START-HERE.md) · [Archive home](../../README.md)
+
 ## STANDING SOP (Alan, verbatim 2026-08-30: "just send links if those are videos… we do need to physically download audios and transcribe those. Transcribe them yourself" + "make that a normal standard operating procedure with constant updates. And perfect sorting… everything should be a clickable link")
 
 1. **Audios:** physically download into `files/` (naming `YYYY-MM-DD--poster--label--SLACKFILEID.m4a`) → machine-transcribe (faster-whisper, small model) → save `*.transcript.md` BESIDE the audio (audio remains the source of truth) → add a row below → commit + push. Every archiving run re-sweeps the workspace file search for new audio.

@@ -1,5 +1,7 @@
 # Transcript — SCIO Sales Consulting (2026-06-18, Krisp meeting 019edcc4e7f570319907bba589f809dd)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Krisp index](../INDEX.md)**
+
 <!-- formatted: chapters-v1 -->
 
 ### Contents

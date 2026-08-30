@@ -1,5 +1,7 @@
 # Transcript — Alan + Constantine coaching (2026-08-19, Krisp meeting 01a01ac7699674d3997b45c3929ff637)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Krisp index](../INDEX.md)**
+
 <!-- formatted: chapters-v1 -->
 
 **This transcript is split into 2 parts for navigability (content verbatim, nothing removed).**

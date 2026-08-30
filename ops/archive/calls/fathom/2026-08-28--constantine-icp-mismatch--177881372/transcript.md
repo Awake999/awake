@@ -1,5 +1,7 @@
 # Transcript — Constantine coaching, ICP mismatch (2026-08-28, Fathom call 803053542)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 <!-- formatted: chapters-v1 -->
 
 ### Contents
