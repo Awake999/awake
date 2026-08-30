@@ -88,7 +88,10 @@
   a:hover, a:focus-visible { border-bottom-color: var(--link); }
   a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
 
-  .wrap { max-width: 1160px; margin: 0 auto; padding: 0 24px 72px; }
+  .wrap { max-width: 1160px; margin: 0 auto; padding: 0 24px 72px; position: relative; z-index: 1; }
+
+  /* ============ PLEXUS FIELD (ambient, behind everything) ============ */
+  #plexus { position: fixed; inset: 0; z-index: 0; pointer-events: none; }
 
   svg.ic { width: 1em; height: 1em; vertical-align: -0.12em; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; flex: none; }
 
@@ -103,6 +106,7 @@
   header.masthead::after {
     content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 3px;
     background: var(--wing); border-radius: 2px; opacity: .85;
+    box-shadow: 0 0 14px rgba(70,198,227,.3), 0 0 4px rgba(232,197,90,.25);
   }
   .brand-eyebrow { font-size: 12px; letter-spacing: .3em; text-transform: uppercase; color: var(--gold); font-weight: 600; }
   h1 { font-size: clamp(26px, 4vw, 38px); font-weight: 800; letter-spacing: -.01em; margin: 4px 0 0; text-wrap: balance; }
@@ -138,11 +142,12 @@
   }
   nav.rail button svg.ic { font-size: 15px; }
   nav.rail button:nth-child(1) svg.ic { color: var(--w-gold); }
-  nav.rail button:nth-child(2) svg.ic { color: var(--w-green); }
-  nav.rail button:nth-child(3) svg.ic { color: var(--w-cyan); }
-  nav.rail button:nth-child(4) svg.ic { color: var(--w-pink); }
-  nav.rail button:nth-child(5) svg.ic { color: var(--w-purple); }
-  nav.rail button:nth-child(6) svg.ic { color: var(--teal); }
+  nav.rail button:nth-child(2) svg.ic { color: var(--w-cyan); }
+  nav.rail button:nth-child(3) svg.ic { color: var(--w-green); }
+  nav.rail button:nth-child(4) svg.ic { color: var(--teal); }
+  nav.rail button:nth-child(5) svg.ic { color: var(--w-pink); }
+  nav.rail button:nth-child(6) svg.ic { color: var(--w-purple); }
+  nav.rail button:nth-child(7) svg.ic { color: var(--w-cyan); }
   nav.rail button:hover { color: var(--ink); }
   nav.rail button[aria-selected="true"] {
     color: var(--ink);
@@ -178,7 +183,22 @@
     display: grid; grid-template-columns: minmax(210px, auto) 1fr; gap: 12px 36px; align-items: center;
     position: relative; overflow: hidden;
   }
-  .hero::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--wing); }
+  .hero::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--wing); box-shadow: 0 0 12px rgba(70,198,227,.35); }
+  .hero::after {
+    content: ""; position: absolute; inset: 7px; pointer-events: none; opacity: .5;
+    background:
+      linear-gradient(var(--w-cyan), var(--w-cyan)) left 0 top 0 / 16px 2px,
+      linear-gradient(var(--w-cyan), var(--w-cyan)) left 0 top 0 / 2px 16px,
+      linear-gradient(var(--gold), var(--gold)) right 0 top 0 / 16px 2px,
+      linear-gradient(var(--gold), var(--gold)) right 0 top 0 / 2px 16px,
+      linear-gradient(var(--gold), var(--gold)) left 0 bottom 0 / 16px 2px,
+      linear-gradient(var(--gold), var(--gold)) left 0 bottom 0 / 2px 16px,
+      linear-gradient(var(--w-cyan), var(--w-cyan)) right 0 bottom 0 / 16px 2px,
+      linear-gradient(var(--w-cyan), var(--w-cyan)) right 0 bottom 0 / 2px 16px;
+    background-repeat: no-repeat;
+  }
+  .live-badge.live { box-shadow: 0 0 12px rgba(53,169,122,.35); }
+  nav.rail button[aria-selected="true"] { text-shadow: 0 0 14px rgba(70,198,227,.5); }
   @media (max-width: 780px) { .hero { grid-template-columns: 1fr; } }
   .hero .headline .k { font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: var(--ink-2); font-weight: 700; }
   .hero .headline .v { font-size: clamp(44px, 7vw, 64px); font-weight: 600; line-height: 1.05; color: var(--crit); }
@@ -484,6 +504,8 @@
   </defs>
 </svg>
 
+<canvas id="plexus" aria-hidden="true"></canvas>
+
 <div class="wrap">
 
 <header class="masthead">
@@ -517,6 +539,7 @@
 
 <nav class="rail" role="tablist" aria-label="Board sections">
   <button role="tab" aria-selected="true" data-pane="overview"><svg class="ic"><use href="#i-gauge"/></svg>Overview</button>
+  <button role="tab" aria-selected="false" data-pane="prospects"><svg class="ic"><use href="#i-people"/></svg>Prospects</button>
   <button role="tab" aria-selected="false" data-pane="money"><svg class="ic"><use href="#i-coin"/></svg>Money</button>
   <button role="tab" aria-selected="false" data-pane="funnel"><svg class="ic"><use href="#i-funnel"/></svg>Funnel</button>
   <button role="tab" aria-selected="false" data-pane="clients"><svg class="ic"><use href="#i-people"/></svg>Clients</button>
@@ -713,6 +736,30 @@
 </section>
 
 </div><!-- /overview -->
+
+<!-- ================================================================ PROSPECTS -->
+<div class="tabpane" id="pane-prospects" hidden>
+
+<section id="roster">
+  <div class="sec-head"><span class="sic" style="color:var(--w-cyan)"><svg class="ic"><use href="#i-people"/></svg></span><h2>Every Prospect — the full book, live</h2>
+    <span class="note"><span id="roster-count"></span> <a href="https://app.notion.com/p/3cc5bb1ffef481138682fdca2cdd7d23">audited name-by-name table ↗</a></span></div>
+
+  <div class="panel reveal">
+    <p class="sub" style="margin-bottom:10px">Reads the Clients &amp; Leads master table directly — every person, entry to outcome, refreshed ~10 min. Edit any row in
+      <a href="https://app.notion.com/p/3b75bb1ffef48196aa4efcf029dc732d">the Command Center ↗</a> and this view follows. Names are shortened on the board; the full records live one click away.</p>
+    <div id="roster-empty" class="fieldfill-empty">Connects when your Notion connector is live — the masthead badge turns green.
+      Until then, the audited truth is in the
+      <a href="https://app.notion.com/p/3cc5bb1ffef481138682fdca2cdd7d23">name-by-name table ↗</a> and the
+      <a href="https://app.notion.com/p/3b75bb1ffef48196aa4efcf029dc732d">Command Center ↗</a>.</div>
+    <div id="roster-err" class="fieldfill-empty" hidden></div>
+    <div class="tbl-wrap" id="roster-wrap" hidden><table id="roster-tbl" style="min-width:860px">
+      <thead><tr><th>Prospect</th><th>Stage</th><th>Entry Path</th><th>Source</th><th class="num">Funding Ask</th><th>Triaged</th><th>Qualification</th><th>Last Touch</th></tr></thead>
+      <tbody></tbody>
+    </table></div>
+  </div>
+</section>
+
+</div><!-- /prospects -->
 
 <!-- ================================================================ MONEY -->
 <div class="tabpane" id="pane-money" hidden>
@@ -1131,6 +1178,88 @@
 </div>
 
 <script>
+  /* ===== Plexus field — ambient blue/gold constellation, pointer-reactive ===== */
+  (function () {
+    var cv = document.getElementById('plexus');
+    if (!cv || !cv.getContext) return;
+    var ctx = cv.getContext('2d');
+    var reduced = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var mqlDark = window.matchMedia ? matchMedia('(prefers-color-scheme: dark)') : { matches: true };
+    function isDark() {
+      var t = document.documentElement.getAttribute('data-theme');
+      if (t === 'dark') return true;
+      if (t === 'light') return false;
+      return mqlDark.matches;
+    }
+    var W, H, dpr, nodes = [], LINK = 135, mouse = { x: -9e3, y: -9e3 };
+
+    function resize() {
+      dpr = Math.min(window.devicePixelRatio || 1, 2);
+      W = window.innerWidth; H = window.innerHeight;
+      cv.width = W * dpr; cv.height = H * dpr;
+      cv.style.width = W + 'px'; cv.style.height = H + 'px';
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      var target = Math.min(Math.round((W * H) / 20000), 110);
+      while (nodes.length < target) nodes.push(spawn());
+      nodes.length = target;
+    }
+    function spawn() {
+      return {
+        x: Math.random() * W, y: Math.random() * H,
+        vx: (Math.random() - .5) * .28, vy: (Math.random() - .5) * .28,
+        r: .9 + Math.random() * 1.5,
+        gold: Math.random() < .28
+      };
+    }
+    function palette() {
+      return isDark()
+        ? { cyan: '70,198,227', gold: '232,197,90', nodeA: .8, lineA: .4 }
+        : { cyan: '21,127,165', gold: '138,109,31', nodeA: .55, lineA: .25 };
+    }
+    function draw() {
+      var p = palette();
+      ctx.clearRect(0, 0, W, H);
+      for (var i = 0; i < nodes.length; i++) {
+        var a = nodes[i];
+        if (!reduced) {
+          a.x += a.vx; a.y += a.vy;
+          if (a.x < -20) a.x = W + 20; else if (a.x > W + 20) a.x = -20;
+          if (a.y < -20) a.y = H + 20; else if (a.y > H + 20) a.y = -20;
+          var mdx = a.x - mouse.x, mdy = a.y - mouse.y, md2 = mdx * mdx + mdy * mdy;
+          if (md2 < 25600) { a.x += mdx / 3200; a.y += mdy / 3200; } /* gentle repulse inside 160px */
+        }
+        for (var j = i + 1; j < nodes.length; j++) {
+          var b = nodes[j], dx = a.x - b.x, dy = a.y - b.y, d2 = dx * dx + dy * dy;
+          if (d2 < LINK * LINK) {
+            var t = 1 - Math.sqrt(d2) / LINK;
+            ctx.strokeStyle = 'rgba(' + ((a.gold && b.gold) ? p.gold : p.cyan) + ',' + (t * p.lineA).toFixed(3) + ')';
+            ctx.lineWidth = 1;
+            ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y); ctx.stroke();
+          }
+        }
+        /* line to the pointer — the "reactive" thread */
+        var pdx = a.x - mouse.x, pdy = a.y - mouse.y, pd2 = pdx * pdx + pdy * pdy;
+        if (pd2 < 32400) {
+          var pt = 1 - Math.sqrt(pd2) / 180;
+          ctx.strokeStyle = 'rgba(' + (a.gold ? p.gold : p.cyan) + ',' + (pt * .55).toFixed(3) + ')';
+          ctx.lineWidth = 1.2;
+          ctx.beginPath(); ctx.moveTo(a.x, a.y); ctx.lineTo(mouse.x, mouse.y); ctx.stroke();
+        }
+        ctx.fillStyle = 'rgba(' + (a.gold ? p.gold : p.cyan) + ',' + p.nodeA + ')';
+        ctx.beginPath(); ctx.arc(a.x, a.y, a.r, 0, 6.2832); ctx.fill();
+      }
+    }
+    function loop() { if (!document.hidden) draw(); requestAnimationFrame(loop); }
+
+    resize();
+    window.addEventListener('resize', resize);
+    if (reduced) { draw(); mqlDark.addEventListener && mqlDark.addEventListener('change', draw); return; }
+    window.addEventListener('pointermove', function (e) { mouse.x = e.clientX; mouse.y = e.clientY; }, { passive: true });
+    window.addEventListener('pointerleave', function () { mouse.x = -9e3; mouse.y = -9e3; });
+    requestAnimationFrame(loop);
+  })();
+</script>
+<script>
   /* ===== Tabs ===== */
   (function () {
     var tabs = Array.prototype.slice.call(document.querySelectorAll('nav.rail button[data-pane]'));
@@ -1266,6 +1395,50 @@
       empty.hidden = true; live.hidden = false;
     }
 
+    /* ===== Prospect roster — its own watch, so a failure here never
+       touches the verified stats layer. Board shows First + L. only. ===== */
+    var STAGE_ORDER = { 'Booked Call': 0, 'Showed': 1, 'Offer Made': 2, 'Closed Won': 3, 'No-Show': 4, 'Nurture': 5, 'Closed Lost': 6, 'Unqualified': 7 };
+    var STAGE_CHIP = { 'Closed Won': 'good', 'Offer Made': 'gold', 'Showed': 'gold', 'Booked Call': 'warn', 'No-Show': 'mut', 'Nurture': 'mut', 'Closed Lost': 'mut', 'Unqualified': 'mut' };
+    function shortName(n) {
+      if (!n) return '(unnamed)';
+      var parts = String(n).trim().split(/\s+/);
+      if (parts.length === 1) return parts[0];
+      return parts[0] + ' ' + parts[parts.length - 1].charAt(0).toUpperCase() + '.';
+    }
+    function rosterState(mode, msg) {
+      var empty = $('roster-empty'), err = $('roster-err'), wrap = $('roster-wrap');
+      if (!empty || !err || !wrap) return;
+      empty.hidden = mode !== 'empty'; err.hidden = mode !== 'err'; wrap.hidden = mode !== 'live';
+      if (mode === 'err') err.textContent = msg;
+    }
+    function renderRoster(rows) {
+      var tbody = document.querySelector('#roster-tbl tbody');
+      if (!tbody) return;
+      var sorted = rows.slice().sort(function (a, b) {
+        var d = (STAGE_ORDER[a['Stage']] !== undefined ? STAGE_ORDER[a['Stage']] : 9) - (STAGE_ORDER[b['Stage']] !== undefined ? STAGE_ORDER[b['Stage']] : 9);
+        return d || String(a['Name'] || '').localeCompare(String(b['Name'] || ''));
+      });
+      tbody.textContent = '';
+      sorted.forEach(function (r) {
+        var tr = document.createElement('tr');
+        function td(txt, cls) { var c = document.createElement('td'); if (cls) c.className = cls; c.textContent = txt; tr.appendChild(c); return c; }
+        td(shortName(r['Name']), 'who');
+        var st = document.createElement('td'); var chip = document.createElement('span');
+        chip.className = 'chip ' + (STAGE_CHIP[r['Stage']] || 'mut'); chip.textContent = r['Stage'] || '—';
+        st.appendChild(chip); tr.appendChild(st);
+        td(r['Entry Path'] || '—', 'why');
+        td(r['Source'] || '—', 'why');
+        td(typeof r['Funding Ask'] === 'number' ? fmtMoney(r['Funding Ask']) : '—', 'num mono');
+        td(r['Human Triaged'] || '—', 'why');
+        td(r['Qualification'] || '—', 'why');
+        td(r['lt'] || '—', 'mono');
+        tbody.appendChild(tr);
+      });
+      var cnt = $('roster-count');
+      if (cnt) cnt.textContent = rows.length + ' prospects · live ·';
+      rosterState('live');
+    }
+
     function computeStats(rows) {
       var stages = {}, attr = { v: 0, m: 0, u: 0 }, src = {};
       var entry = { untagged: 0 }, triage = { untagged: 0 };
@@ -1333,6 +1506,24 @@
           else { setBadge(applied ? 'live' : '', applied ? badgeText.textContent : SNAP_TEXT); }
         }
       }, { refetchInterval: 300000, cache: { staleTime: 60000 } });
+
+      /* Roster watch — isolated: errors here degrade only this panel. */
+      var rosterInput = { data: { data_source_urls: [DS], query:
+        'SELECT "Name", "Stage", "Entry Path", "Source", "Funding Ask", "Human Triaged", "Qualification", "date:Last Touch:start" AS lt FROM "' + DS + '"' } };
+      mcp.watchTool('Notion', 'notion-query-data-sources', rosterInput, function (ev) {
+        if (ev.type === 'data') {
+          var p = ev.result && ev.result.payload;
+          if (typeof p === 'string') { try { p = JSON.parse(p); } catch (e) { p = null; } }
+          var rows = p && p.results;
+          if (Array.isArray(rows) && rows.length) renderRoster(rows);
+          else rosterState('err', 'Roster feed returned no rows — the audited Notion tables above remain the source of truth.');
+        } else if (ev.type === 'error') {
+          var c = ev.error && ev.error.code;
+          if (c === 'needs_reauth' || c === 'server_not_connected' || c === 'blocked_by_policy' || c === 'approval_required' || c === 'not_granted') rosterState('empty');
+          else if (c === 'tool_error') rosterState('err', 'Roster query failed — usually the workspace SQL quota (resets on its own; Notion Business removes it) or a renamed column. The audited Notion tables above still have everything.');
+          else rosterState('empty');
+        }
+      }, { refetchInterval: 600000, cache: { staleTime: 60000 } });
     } catch (e) { setBadge('', SNAP_TEXT); }
   })();
 </script>
