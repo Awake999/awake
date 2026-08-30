@@ -15,7 +15,7 @@
 | Carmen M. | 🟡 Downsell - Credit Rebuild [D] | Charge-offs · Late payments | MCA defaults reported despite paying (02:18); call cut off at ~08:29 before pricing — money-to-invest derived (pays repair vendors, plans $5K down) | [768936830](https://fathom.video/calls/768936830) 8/1 |
 | Yeshaya D. | 🟡 Downsell - Credit Rebuild [V] | Thin file (build stage) | "I've never opened credit cards" (19:21); Alan: "you'd be considered... the build stage" (20:40); "the $20,000 doesn't put me off" (1:16:44); PG hunt, Sep 10 follow-up booked | [783351348](https://fathom.video/calls/783351348) 8/14 |
 | Allen S. | 🔴 Unqualified - Other [V] | Child support · Collections · Late payments | child support on 2 of 3 bureaus (Alan, 29:48); "Probably only a few hundred" (1:10:47); declined $500 AND $100 deposits; rule: child support = not workable | [759494613](https://fathom.video/calls/759494613) 7/27 |
-| Nick S. (Samara) | 🔴 Unqualified - Other [V] ⚠️ RULE CONFLICT | Bankruptcy · Late payments · Collections · Hard inquiries | "there is bankruptcy, but it's over, long time... over eight or 10 years" (38:29); runway "Days" (58:02); BUT Alan on-call ruled it not disqualifying (doesn't show on pulls) and closed him at $500 custom — **needs Alan's ruling: do aged/non-reporting bankruptcies count?** | [795906442](https://fathom.video/calls/795906442) 8/25 |
+| Nick S. (Samara) | 🟡 Downsell - Credit Rebuild (RULED by Alan 8/30 — was 🔴 Unqualified w/ rule conflict) + Funds Status: Broke | Bankruptcy · Late payments · Collections · Hard inquiries | "there is bankruptcy, but it's over, long time... over eight or 10 years" (38:29); runway "Days" (58:02); BUT Alan on-call ruled it not disqualifying (doesn't show on pulls) and closed him at $500 custom — Alan ruled 8/30: case-by-case policy + Nick sign-off "downsell is good" + Funds Status tag "Broke - cannot afford even small amount" | [795906442](https://fathom.video/calls/795906442) 8/25 |
 | Jennifer L. | 🔴 Unqualified - Other (non-lead) | — | SCIO test booking (Losch family email, Clint Losch channel creator); Fathom sweep of all 235 meetings: no recording exists | — |
 | Lynn N. | 🔴 Unqualified - Other (non-lead) | — | Alan's own setter (Lynn Neves); blank-form internal booking; every Fathom "Lynn" hit is internal | — |
 | Lonnie G. | ⚪ AMBIGUOUS → Not Yet Assessed | — | 6/21 recording captured ONLY Alan's side; zero credit/money facts; 6/22 follow-up unrecorded | [718619432](https://fathom.video/calls/718619432) |
@@ -28,8 +28,8 @@
 | Bucket | Before | After |
 |---|---|---|
 | Qualified - Main Offer | 4 | **8** |
-| Downsell - Credit Rebuild | 3 | **9** |
-| Unqualified (all reasons) | 3 | **7** |
+| Downsell - Credit Rebuild | 3 | **10** (incl. Nick, Alan-ruled 8/30) |
+| Unqualified (all reasons) | 3 | **6** (Nick moved to Downsell by ruling) |
 | Explicit Not Yet Assessed (mined, undeterminable) | 0 | **5** |
 | Blank (never assessed) | 94 | **75** |
 
