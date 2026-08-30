@@ -254,8 +254,8 @@
     <h1>APW Command Board</h1>
   </div>
   <div class="asof mono">
-    <span id="live-badge" class="live-badge"><span class="dot"></span><span id="live-badge-text">Snapshot · Aug 29 2026</span></span><br>
-    <span id="lead-count">74</span> tracked leads · audited sweep 8/28
+    <span id="live-badge" class="live-badge"><span class="dot"></span><span id="live-badge-text">Snapshot · Aug 30 2026</span></span><br>
+    <span id="lead-count">83</span> tracked leads · roster-audited 8/30
   </div>
 </header>
 
@@ -264,6 +264,7 @@
   <a href="#decisions">Decision Queue</a>
   <a href="#deadlines">Deadlines</a>
   <a href="#pipeline">Pipeline</a>
+  <a href="#truth">Funnel Truth</a>
   <a href="#revenue">Revenue Ledger</a>
   <a href="#fulfillment">Fulfillment</a>
   <a href="#growth">Growth Engine</a>
@@ -306,8 +307,14 @@
     </div>
     <div class="tile goldline">
       <span class="k">Open-Pipeline Ask</span>
-      <span class="v mono" id="tile-ask">$12.4M</span>
-      <span class="s">Client funding asks across <span id="tile-open-n">49</span> open leads — fee basis, not revenue</span>
+      <span class="v mono" id="tile-ask">$14.4M</span>
+      <span class="s">Client funding asks across <span id="tile-open-n">58</span> open leads — fee basis, not revenue</span>
+    </div>
+    <div class="tile crit">
+      <span class="k">Lifetime Ad Spend</span>
+      <span class="v mono">$14,898</span>
+      <span class="s">Verified to the cent (was believed ~$6.1K). 5 ad-sourced closes → ~$2,980/close vs $2,000 cash collected.
+        <a class="src" href="https://app.notion.com/p/3cc5bb1ffef4819ebfa1f800a8784d81">full pull ↗</a></span>
     </div>
   </div>
 </section>
@@ -444,38 +451,73 @@
       <p class="sub">Open stages in teal · terminal states muted. Hover for share.</p>
 
       <div id="funnel">
-      <div class="hbar-row" data-stage="Booked Call"><span class="lbl">Booked Call</span><div class="hbar-track"><div class="hbar" style="width:100%"></div></div><span class="num mono">30</span><span class="tip">30 leads · 41% of book — outcomes frozen pending GHL pull</span></div>
-      <div class="hbar-row" data-stage="Showed"><span class="lbl">Showed</span><div class="hbar-track"><div class="hbar" style="width:36.7%"></div></div><span class="num mono">11</span><span class="tip">11 leads · 15% of book</span></div>
-      <div class="hbar-row" data-stage="Offer Made"><span class="lbl">Offer Made</span><div class="hbar-track"><div class="hbar" style="width:26.7%"></div></div><span class="num mono">8</span><span class="tip">8 leads · 11% of book</span></div>
-      <div class="hbar-row" data-stage="Closed Won"><span class="lbl">Closed Won</span><div class="hbar-track"><div class="hbar" style="width:20%"></div></div><span class="num mono">6</span><span class="tip">6 clients · 8% of book</span></div>
-      <div class="hbar-row" data-stage="No-Show"><span class="lbl">No-Show</span><div class="hbar-track"><div class="hbar mut" style="width:40%"></div></div><span class="num mono">12</span><span class="tip">12 leads · 16% — no-show recovery dials unworked</span></div>
-      <div class="hbar-row" data-stage="Nurture"><span class="lbl">Nurture</span><div class="hbar-track"><div class="hbar mut" style="width:10%"></div></div><span class="num mono">3</span><span class="tip">3 leads in long-term nurture</span></div>
-      <div class="hbar-row" data-stage="Closed Lost"><span class="lbl">Closed Lost</span><div class="hbar-track"><div class="hbar mut" style="width:6.7%"></div></div><span class="num mono">2</span><span class="tip">2 lost</span></div>
-      <div class="hbar-row" data-stage="Unqualified"><span class="lbl">Unqualified</span><div class="hbar-track"><div class="hbar mut" style="width:6.7%"></div></div><span class="num mono">2</span><span class="tip">Team/test rows — excluded from funnel math</span></div>
+      <div class="hbar-row" data-stage="Booked Call"><span class="lbl">Booked Call</span><div class="hbar-track"><div class="hbar" style="width:100%"></div></div><span class="num mono">39</span><span class="tip">39 leads · 47% of book — outcomes frozen pending GHL pull</span></div>
+      <div class="hbar-row" data-stage="Showed"><span class="lbl">Showed</span><div class="hbar-track"><div class="hbar" style="width:28.2%"></div></div><span class="num mono">11</span><span class="tip">11 leads · 13% of book</span></div>
+      <div class="hbar-row" data-stage="Offer Made"><span class="lbl">Offer Made</span><div class="hbar-track"><div class="hbar" style="width:20.5%"></div></div><span class="num mono">8</span><span class="tip">8 leads · 10% of book</span></div>
+      <div class="hbar-row" data-stage="Closed Won"><span class="lbl">Closed Won</span><div class="hbar-track"><div class="hbar" style="width:15.4%"></div></div><span class="num mono">6</span><span class="tip">6 clients · 7% of book</span></div>
+      <div class="hbar-row" data-stage="No-Show"><span class="lbl">No-Show</span><div class="hbar-track"><div class="hbar mut" style="width:30.8%"></div></div><span class="num mono">12</span><span class="tip">12 leads · 14% — no-show recovery dials unworked</span></div>
+      <div class="hbar-row" data-stage="Nurture"><span class="lbl">Nurture</span><div class="hbar-track"><div class="hbar mut" style="width:7.7%"></div></div><span class="num mono">3</span><span class="tip">3 leads in long-term nurture</span></div>
+      <div class="hbar-row" data-stage="Closed Lost"><span class="lbl">Closed Lost</span><div class="hbar-track"><div class="hbar mut" style="width:5.1%"></div></div><span class="num mono">2</span><span class="tip">2 lost</span></div>
+      <div class="hbar-row" data-stage="Unqualified"><span class="lbl">Unqualified</span><div class="hbar-track"><div class="hbar mut" style="width:5.1%"></div></div><span class="num mono">2</span><span class="tip">Team/test rows — excluded from funnel math</span></div>
       </div>
 
-      <p class="sub" style="margin-top:12px">Show → offer → close reads healthy where calls happen; the leak is upstream — <strong style="color:var(--ink)" id="stale-line">41 of 49 open leads untouched 21+ days</strong>, including every Booked-Call row (partly a data gap: their GHL outcomes are unpulled, not necessarily un-worked).</p>
+      <p class="sub" style="margin-top:12px">Show → offer → close reads healthy where calls happen; the leak is upstream — <strong style="color:var(--ink)" id="stale-line">41 of 58 open leads untouched 21+ days</strong>, including most Booked-Call rows (partly a data gap: their GHL outcomes are unpulled, not necessarily un-worked). 9 rows were added 8/30 by the roster audit — booked 8/12–8/26, never imported.</p>
     </div>
 
     <div class="panel">
       <h3>Attribution quality — the tracking debt</h3>
       <p class="sub">Attribution Confidence across all 74 leads</p>
-      <div class="stackbar" id="attr-bar" role="img" aria-label="Attribution: 1 verified, 2 missing, 71 unset">
-        <div id="attr-v" style="width:1.4%; background:var(--good)"></div>
-        <div id="attr-m" style="width:2.7%; background:var(--crit)"></div>
-        <div id="attr-u" style="width:95.9%; background:var(--ink-3); opacity:.5"></div>
+      <div class="stackbar" id="attr-bar" role="img" aria-label="Attribution: 1 verified, 11 missing, 71 unset">
+        <div id="attr-v" style="width:1.2%; background:var(--good)"></div>
+        <div id="attr-m" style="width:13.3%; background:var(--crit)"></div>
+        <div id="attr-u" style="width:85.5%; background:var(--ink-3); opacity:.5"></div>
       </div>
       <div class="legend">
         <span><span class="swatch" style="background:var(--good)"></span>Verified — <span id="attr-v-n">1</span></span>
-        <span><span class="swatch" style="background:var(--crit)"></span>Missing — <span id="attr-m-n">2</span></span>
+        <span><span class="swatch" style="background:var(--crit)"></span>Missing — <span id="attr-m-n">11</span></span>
         <span><span class="swatch" style="background:var(--ink-3); opacity:.5"></span>Unset — <span id="attr-u-n">71</span></span>
       </div>
-      <p class="sub" style="margin-top:14px">Source mix: <strong style="color:var(--ink)" id="src-mix">Meta Ad 66 · Other 4 · Referral 2 · Unknown 2</strong>. Ad spend cannot be judged per-campaign until the Meta URL parameters + GHL tags ship — and the Sep 1 A/B test inherits this exact gap if its arms aren’t tagged on day one.
+      <p class="sub" style="margin-top:14px">Source mix: <strong style="color:var(--ink)" id="src-mix">Meta Ad 75 · Other 4 · Referral 2 · Unknown 2</strong>. Ad spend cannot be judged per-campaign until the Meta URL parameters + GHL tags ship — and the Sep 1 A/B test inherits this exact gap if its arms aren’t tagged on day one.
       <a class="src" href="https://app.notion.com/p/412f6a46d3ba4b5daacec84d36499e51">Ad Scoreboard ↗</a> ·
       <a class="src" href="https://drive.google.com/file/d/1ymOUhLTkuTJLoOaz5ba0gyXom85nP9kq/view">tracking spec ↗</a></p>
       <p class="sub"><strong style="color:var(--ink)">Score-band signal is strong:</strong> 44 of 74 leads sit at 720+ — the “Top of Market Fit” thesis has raw material already in the book.</p>
     </div>
 
+  </div>
+</section>
+
+<!-- ============ VERIFIED FUNNEL TRUTH ============ -->
+<section id="truth">
+  <div class="sec-head"><span class="mark">03b</span><h2>Verified Funnel Truth — the roster audit</h2>
+    <span class="note"><a href="https://app.notion.com/p/3cc5bb1ffef481138682fdca2cdd7d23">full name-by-name table ↗</a></span></div>
+  <div class="duo">
+    <div class="panel">
+      <h3>The audited numbers (Mar 24 – Aug 30)</h3>
+      <p class="sub">140 Slack booking alerts → tests/internal excluded, every row evidence-linked</p>
+      <div class="tbl-wrap" style="border:none"><table style="min-width:0">
+        <tbody>
+          <tr><td class="num mono" style="font-size:18px">129</td><td class="why">real booking events across <strong style="color:var(--ink)">79 unique people</strong></td></tr>
+          <tr><td class="num mono" style="font-size:18px">34</td><td class="why"><strong style="color:var(--ink)">verified shows</strong> (26 people) — the actual call recorded, each linked (+2 with secondary evidence)</td></tr>
+          <tr><td class="num mono" style="font-size:18px">13</td><td class="why">affirmative no-shows/cancels — 12 people never showed at all</td></tr>
+          <tr><td class="num mono" style="font-size:18px">79</td><td class="why">unknown events — no recording either way; <strong style="color:var(--ink)">the GHL pull resolves these</strong></td></tr>
+        </tbody>
+      </table></div>
+      <p class="sub" style="margin-top:10px"><strong style="color:var(--ink)">"37 booked / 15 showed" fails both directions:</strong> verified shows alone are more than double 15, and no window produces 37 bookings (July alone: ~45). ⚠️ Evidence trap: 10 named Fathom recordings are voicemail-only no-show attempts — title-counting overstates shows.</p>
+    </div>
+    <div class="panel">
+      <h3>Metrics ladder — computable today</h3>
+      <p class="sub">Per the Constantine framework: rates reported by tier, never blended</p>
+      <div class="tbl-wrap" style="border:none"><table style="min-width:0">
+        <tbody>
+          <tr><td><span class="chip good">L1</span></td><td class="why">Raw show rate (per person): <strong style="color:var(--ink)">33–35% floor → 85% ceiling</strong></td></tr>
+          <tr><td><span class="chip mut">L2</span></td><td class="why">Qualified show rate: <strong style="color:var(--ink)">insufficient data</strong> — ~14 of 83 leads assessed; fill the Qualification dropdown per call</td></tr>
+          <tr><td><span class="chip good">L3</span></td><td class="why">Close on verified-show people: <strong style="color:var(--ink)">23%</strong> (6 of 26) — inside Constantine's 20–30% live-call benchmark; 8 more sit in Offer Made</td></tr>
+          <tr><td><span class="chip warn">L4</span></td><td class="why">Downsell cohort: small-n — dominant no-close reason is <strong style="color:var(--ink)">no funds</strong>, the ICP signal</td></tr>
+          <tr><td><span class="chip mut">L5</span></td><td class="why">PRIME path (speed-to-lead + triaged): <strong style="color:var(--ink)">not yet computable</strong> — triage tracking born 8/12; prospective from Sep 1</td></tr>
+        </tbody>
+      </table></div>
+      <p class="sub" style="margin-top:10px">Benchmarks from the Jul 22 + Aug 13 Constantine sessions: 10% raw shows → <strong style="color:var(--ink)">33–50% when Alan speaks to the lead pre-call</strong>; ~100 live calls before judging a closer.</p>
+    </div>
   </div>
 </section>
 
@@ -671,7 +713,7 @@
           <tr><td><span class="chip warn">High</span></td><td class="why">Fathom unrestricted for all users — every client call open to everyone <a class="src" href="https://app.notion.com/p/3ca5bb1ffef481be9e9bcfa42b4da336">↗</a></td></tr>
           <tr><td><span class="chip warn">High</span></td><td class="why">Ashwini’s bureau credentials sent in plaintext — rotate</td></tr>
           <tr><td><span class="chip warn">Med</span></td><td class="why">Lynn N. — Capital One suspicious-SSN alert, uninvestigated <a class="src" href="https://app.notion.com/p/3ca5bb1ffef481ea94b2fb86aa3b55e6">↗</a></td></tr>
-          <tr><td><span class="chip warn">Med</span></td><td class="why">Recording integrity — Connor’s lost call; Carla’s Zoom unconnected until 8/17</td></tr>
+          <tr><td><span class="chip warn">Med</span></td><td class="why">Evidence integrity — 10 Fathom titles are voicemail-only no-shows; Comms Log import silently stopped 8/8 (leads recovered 8/30)</td></tr>
           <tr><td><span class="chip mut">Open</span></td><td class="why">Ghani A. data-deletion request (7/15) unhandled — compliance clock</td></tr>
         </tbody>
       </table></div>
@@ -725,15 +767,15 @@
       badgeText.textContent = text;
     }
 
-    var SNAP_TEXT = 'Snapshot · Aug 29 2026';
+    var SNAP_TEXT = 'Snapshot · Aug 30 2026';
     var OPEN_STAGES = { 'Booked Call': 1, 'Showed': 1, 'Offer Made': 1 };
     var STAGES = ['Booked Call', 'Showed', 'Offer Made', 'Closed Won', 'No-Show', 'Nurture', 'Closed Lost', 'Unqualified'];
 
     // Snapshot values, restored if live access is revoked
     var SNAP = {
-      total: 74, open: 49, askM: '$12.4M', stale: '41 of 49 open leads untouched 21+ days',
-      stages: { 'Booked Call': 30, 'Showed': 11, 'Offer Made': 8, 'Closed Won': 6, 'No-Show': 12, 'Nurture': 3, 'Closed Lost': 2, 'Unqualified': 2 },
-      attr: { v: 1, m: 2, u: 71 }, src: 'Meta Ad 66 · Other 4 · Referral 2 · Unknown 2'
+      total: 83, open: 58, askM: '$14.4M', stale: '41 of 58 open leads untouched 21+ days',
+      stages: { 'Booked Call': 39, 'Showed': 11, 'Offer Made': 8, 'Closed Won': 6, 'No-Show': 12, 'Nurture': 3, 'Closed Lost': 2, 'Unqualified': 2 },
+      attr: { v: 1, m: 11, u: 71 }, src: 'Meta Ad 75 · Other 4 · Referral 2 · Unknown 2'
     };
 
     function fmtMoney(n) {
