@@ -14,6 +14,7 @@ This folder is the hard-data backup of every conversation Ascend Prime Wealth ha
 | A Slack conversation | `slack/channels/<channel>/YYYY-MM.md` — chronological, author-stamped |
 | A Slack voice note | `slack/audio/README.md` — inventory + transcription status |
 | GHL messages/audio | `ghl/README.md` — machine-bound; deposit instructions for the local session |
+| Work on this from a new device / another chat | `SYNC.md` — the five rules that make simultaneous multi-device work loss-proof |
 
 ## How a call folder is laid out
 
