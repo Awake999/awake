@@ -23,6 +23,7 @@
     --shadow: 0 1px 0 rgba(0,0,0,.4);
     /* Brand wing spectrum — DECORATIVE ONLY, never a data series */
     --wing: linear-gradient(90deg, #46C6E3, #4FBF8B, #E8C55A, #E884B0, #9A6FD0);
+    --w-cyan: #46C6E3; --w-green: #4FBF8B; --w-gold: #E8C55A; --w-pink: #E884B0; --w-purple: #9A6FD0;
   }
   @media (prefers-color-scheme: light) {
     :root:not([data-theme="dark"]) {
@@ -45,6 +46,7 @@
       --crit-bg: rgba(196,45,107,.08);
       --link: #0E5E4C;
       --shadow: 0 1px 2px rgba(25,28,27,.06);
+      --w-cyan: #157FA5; --w-green: #1F7A4C; --w-gold: #8A6D1F; --w-pink: #B04477; --w-purple: #6A4FA8;
     }
   }
   :root[data-theme="light"] {
@@ -67,6 +69,7 @@
     --crit-bg: rgba(196,45,107,.08);
     --link: #0E5E4C;
     --shadow: 0 1px 2px rgba(25,28,27,.06);
+    --w-cyan: #157FA5; --w-green: #1F7A4C; --w-gold: #8A6D1F; --w-pink: #B04477; --w-purple: #6A4FA8;
   }
 
   * { box-sizing: border-box; }
@@ -95,6 +98,8 @@
     position: relative;
     display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px;
   }
+  .masthead-art { position: absolute; right: 330px; bottom: 8px; height: 88px; width: auto; opacity: .45; pointer-events: none; }
+  @media (max-width: 1080px) { .masthead-art { display: none; } }
   header.masthead::after {
     content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 3px;
     background: var(--wing); border-radius: 2px; opacity: .85;
@@ -132,6 +137,12 @@
     border-bottom: 3px solid transparent;
   }
   nav.rail button svg.ic { font-size: 15px; }
+  nav.rail button:nth-child(1) svg.ic { color: var(--w-gold); }
+  nav.rail button:nth-child(2) svg.ic { color: var(--w-green); }
+  nav.rail button:nth-child(3) svg.ic { color: var(--w-cyan); }
+  nav.rail button:nth-child(4) svg.ic { color: var(--w-pink); }
+  nav.rail button:nth-child(5) svg.ic { color: var(--w-purple); }
+  nav.rail button:nth-child(6) svg.ic { color: var(--teal); }
   nav.rail button:hover { color: var(--ink); }
   nav.rail button[aria-selected="true"] {
     color: var(--ink);
@@ -165,7 +176,9 @@
     background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
     padding: 24px 24px 20px; box-shadow: var(--shadow);
     display: grid; grid-template-columns: minmax(210px, auto) 1fr; gap: 12px 36px; align-items: center;
+    position: relative; overflow: hidden;
   }
+  .hero::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: var(--wing); }
   @media (max-width: 780px) { .hero { grid-template-columns: 1fr; } }
   .hero .headline .k { font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: var(--ink-2); font-weight: 700; }
   .hero .headline .v { font-size: clamp(44px, 7vw, 64px); font-weight: 600; line-height: 1.05; color: var(--crit); }
@@ -322,6 +335,17 @@
     background: rgba(201,168,76,.15); border: 1px solid var(--gold); color: var(--gold);
     font-size: 11px; font-weight: 800; letter-spacing: 0;
   }
+  /* wing spectrum walks the ascent */
+  .chain .ph:nth-child(1) .step .n { border-color: var(--w-cyan); color: var(--w-cyan); background: transparent; }
+  .chain .ph:nth-child(1) { border-top: 3px solid var(--w-cyan); }
+  .chain .ph:nth-child(2) .step .n { border-color: var(--w-green); color: var(--w-green); background: transparent; }
+  .chain .ph:nth-child(2) { border-top: 3px solid var(--w-green); }
+  .chain .ph:nth-child(3) .step .n { border-color: var(--w-gold); color: var(--w-gold); background: transparent; }
+  .chain .ph:nth-child(3) { border-top: 3px solid var(--w-gold); }
+  .chain .ph:nth-child(4) .step .n { border-color: var(--w-pink); color: var(--w-pink); background: transparent; }
+  .chain .ph:nth-child(4) { border-top: 3px solid var(--w-pink); }
+  .chain .ph:nth-child(5) .step .n { border-color: var(--w-purple); color: var(--w-purple); background: transparent; }
+  .chain .ph:nth-child(5) { border-top: 3px solid var(--w-purple); }
   .chain .ph h3 { margin: 0; font-size: 15px; font-weight: 700; }
   .chain .ph p { margin: 0; font-size: 12.5px; color: var(--ink-2); }
   .chain .ph p strong { font-weight: 600; }
@@ -391,6 +415,40 @@
   .risk.crit .ric { color: var(--crit); } .risk.warn .ric { color: var(--warn); } .risk.mut .ric { color: var(--ink-3); }
   .risk .why { font-size: 13px; }
 
+  /* ============ EXTRA GRAPHICS ============ */
+  .duel { display: flex; flex-direction: column; gap: 9px; margin: 10px 0 4px; }
+  .duel .drow { display: grid; grid-template-columns: 118px 1fr 70px; gap: 10px; align-items: center; }
+  .duel .lbl { font-size: 12.5px; color: var(--ink-2); text-align: right; }
+  .duel .track { background: var(--raised); border-radius: 4px; height: 22px; position: relative; }
+  .duel .fill { position: absolute; inset: 0 auto 0 0; border-radius: 4px; min-width: 3px; background: var(--teal); }
+  .duel .val { font-size: 13px; }
+
+  .range-block { margin: 14px 0 4px; }
+  .range-block .rk { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-2); font-weight: 700; margin-bottom: 6px; }
+  .range { position: relative; height: 22px; background: var(--raised); border-radius: 4px; }
+  .range .band { position: absolute; top: 0; bottom: 0; background: var(--teal-soft); border-left: 3px solid var(--teal); border-right: 3px solid var(--teal); border-radius: 3px; }
+  .range-labels { display: flex; justify-content: space-between; font-size: 11.5px; color: var(--ink-2); margin-top: 4px; }
+  .range-labels b { color: var(--ink); }
+
+  .gaugewrap { display: flex; align-items: center; gap: 14px; margin: 12px 0 2px; }
+  .gaugewrap svg { width: 86px; height: 52px; flex: none; }
+  .gaugewrap .gtxt { font-size: 12.5px; color: var(--ink-2); }
+  .gaugewrap .gtxt b { color: var(--ink); font-size: 15px; }
+
+  .tl { position: relative; height: 40px; margin: 4px 2px 18px; }
+  .tl .track { position: absolute; left: 0; right: 0; top: 11px; height: 3px; background: var(--line); border-radius: 2px; }
+  .tl .pt { position: absolute; top: 7px; width: 11px; height: 11px; border-radius: 50%; background: var(--gold); border: 2px solid var(--bg); transform: translateX(-50%); }
+  .tl .pt.multi { background: var(--crit); }
+  .tl .pl { position: absolute; top: 24px; transform: translateX(-50%); font-size: 10.5px; color: var(--ink-3); white-space: nowrap; }
+
+  .propstrip { display: flex; height: 18px; border-radius: 4px; overflow: hidden; gap: 2px; background: var(--bg); margin: 8px 0 4px; }
+  .propstrip > div { height: 100%; border-radius: 2px; }
+
+  .fieldfill-empty { border: 1px dashed var(--line); border-radius: 8px; padding: 18px; text-align: center; color: var(--ink-3); font-size: 13px; }
+  #fieldfill-live .hbar-row { grid-template-columns: 128px 1fr 44px; }
+  .ff-h { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-2); font-weight: 700; margin: 12px 0 7px; }
+  .ff-h:first-child { margin-top: 0; }
+
   footer { margin-top: 60px; border-top: 1px solid var(--line); padding-top: 16px; font-size: 12.5px; color: var(--ink-3); }
   footer a { color: var(--ink-2); }
   .src { font-size: 11.5px; color: var(--ink-3); }
@@ -429,6 +487,24 @@
 <div class="wrap">
 
 <header class="masthead">
+  <svg class="masthead-art" viewBox="0 0 220 110" aria-hidden="true">
+    <defs>
+      <linearGradient id="wingL" x1="0" y1="1" x2="1" y2="0">
+        <stop offset="0" stop-color="#46C6E3"/><stop offset=".5" stop-color="#4FBF8B"/><stop offset="1" stop-color="#E8C55A"/>
+      </linearGradient>
+      <linearGradient id="wingR" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#E8C55A"/><stop offset=".5" stop-color="#E884B0"/><stop offset="1" stop-color="#9A6FD0"/>
+      </linearGradient>
+    </defs>
+    <g fill="none" stroke-linecap="round">
+      <path d="M96 92 C 52 88, 26 66, 14 26 C 44 46, 66 52, 92 58" stroke="url(#wingL)" stroke-width="3"/>
+      <path d="M92 78 C 62 74, 44 60, 34 38" stroke="url(#wingL)" stroke-width="2" opacity=".7"/>
+      <path d="M124 92 C 168 88, 194 66, 206 26 C 176 46, 154 52, 128 58" stroke="url(#wingR)" stroke-width="3"/>
+      <path d="M128 78 C 158 74, 176 60, 186 38" stroke="url(#wingR)" stroke-width="2" opacity=".7"/>
+      <circle cx="110" cy="62" r="34" stroke="#C9A84C" stroke-width="2" opacity=".8"/>
+      <path d="M88 78 L 104 48 L 112 60 L 119 50 L 132 78 Z" stroke="#C9A84C" stroke-width="2"/>
+    </g>
+  </svg>
   <div>
     <div class="brand-eyebrow brandface">Ascend Prime Wealth</div>
     <h1>APW Command Board</h1>
@@ -575,6 +651,17 @@
 <section id="deadlines">
   <div class="sec-head"><span class="sic"><svg class="ic"><use href="#i-cal"/></svg></span><h2>Dated Commitments — next 30 days</h2>
     <span class="note">Counters age live</span></div>
+  <div class="tl reveal" role="img" aria-label="Timeline of dated commitments, September 1 through 26">
+    <div class="track"></div>
+    <span class="pt multi" style="left:0%" title="Sep 1 — A/B launch + Connor R."></span><span class="pl" style="left:0%">Sep 1 ×2</span>
+    <span class="pt" style="left:4%" title="Sep 2 — Ashwini A."></span>
+    <span class="pt" style="left:8%" title="Sep 3 — Ed C."></span><span class="pl" style="left:8%">2·3·4</span>
+    <span class="pt" style="left:12%" title="Sep 4 — dispute team ruling"></span>
+    <span class="pt" style="left:32%" title="Sep 9 — Nick S."></span><span class="pl" style="left:32%">9</span>
+    <span class="pt" style="left:36%" title="Sep 10 — Yeshaya D."></span><span class="pl" style="left:40%">10·11</span>
+    <span class="pt" style="left:40%" title="Sep 11 — Ed C. forced window"></span>
+    <span class="pt" style="left:100%" title="Sep 26 — Michael M."></span><span class="pl" style="left:98%">Sep 26</span>
+  </div>
   <div class="deadlines">
 
     <div class="dl reveal"><div class="top"><span class="date mono"><svg class="ic"><use href="#i-mega"/></svg>MON · SEP 1</span><span class="days" data-date="2026-09-01"></span></div>
@@ -631,7 +718,36 @@
 <div class="tabpane" id="pane-money" hidden>
 
 <section id="revenue">
-  <div class="sec-head"><span class="sic"><svg class="ic"><use href="#i-coin"/></svg></span><h2>Revenue Ledger — every dollar, its status, its proof</h2></div>
+  <div class="sec-head"><span class="sic" style="color:var(--w-green)"><svg class="ic"><use href="#i-coin"/></svg></span><h2>Revenue Ledger — every dollar, its status, its proof</h2></div>
+
+  <div class="duo" style="margin-bottom:18px">
+    <div class="panel reveal">
+      <h3><svg class="ic"><use href="#i-mega"/></svg>Ad economics — spend vs cash</h3>
+      <p class="sub">The verified imbalance behind the $0 month</p>
+      <div class="duel">
+        <div class="drow"><span class="lbl">Lifetime ad spend</span><div class="track"><div class="fill" style="width:100%; background:var(--crit)"></div></div><span class="val mono">$14,898</span></div>
+        <div class="drow"><span class="lbl">Cash collected</span><div class="track"><div class="fill" style="width:13.4%; background:var(--good)"></div></div><span class="val mono">$2,000</span></div>
+      </div>
+      <p class="sub" style="margin-top:10px">5 ad-sourced closes → ~$2,980/close vs $2,000 total cash collected.
+        <a class="src" href="https://app.notion.com/p/3cc5bb1ffef4819ebfa1f800a8784d81">full pull ↗</a></p>
+    </div>
+    <div class="panel reveal">
+      <h3><svg class="ic"><use href="#i-coin"/></svg>Where the money sits</h3>
+      <p class="sub">Same three buckets as the Overview hero</p>
+      <div class="cashbar" role="img" aria-label="Cash position: $2,000 collected, $27,500 contracted but uncollected, $7,500 agreed but unsigned">
+        <div style="width:5.4%; background:var(--good)"></div>
+        <div style="width:74.3%; background:var(--warn)"></div>
+        <div style="width:20.3%; background:var(--crit)"></div>
+      </div>
+      <div class="legend">
+        <span><span class="swatch" style="background:var(--good)"></span>Collected — <b class="mono" style="color:var(--ink)">$2,000</b></span>
+        <span><span class="swatch" style="background:var(--warn)"></span>Contracted, uncollected — <b class="mono" style="color:var(--ink)">$27,500</b></span>
+        <span><span class="swatch" style="background:var(--crit)"></span>Agreed, unsigned — <b class="mono" style="color:var(--ink)">$7,500</b></span>
+      </div>
+      <p class="sub" style="margin-top:10px">Fastest unlock: Karl K.’s contract — paperwork, not pipeline. Detail rows below.</p>
+    </div>
+  </div>
+
   <div class="tbl-wrap reveal"><table>
     <thead><tr><th>Client</th><th>Structure</th><th class="num">Contracted</th><th class="num">Collected</th><th>Status</th><th>Evidence</th></tr></thead>
     <tbody>
@@ -695,7 +811,7 @@
 <div class="tabpane" id="pane-funnel" hidden>
 
 <section id="chain">
-  <div class="sec-head"><span class="sic"><svg class="ic"><use href="#i-mountain"/></svg></span><h2>The Funnel, Left to Right — the ascent</h2>
+  <div class="sec-head"><span class="sic" style="color:var(--w-cyan)"><svg class="ic"><use href="#i-mountain"/></svg></span><h2>The Funnel, Left to Right — the ascent</h2>
     <span class="note">Each phase is a field on every lead — edit in Notion, board recomputes</span></div>
   <div class="chain-wrap reveal">
   <div class="chain">
@@ -768,9 +884,27 @@
       <p class="sub" style="margin-top:14px">Source mix: <strong style="color:var(--ink)" id="src-mix">Meta Ad 75 · Other 4 · Referral 2 · Unknown 2</strong>. Ad spend cannot be judged per-campaign until the Meta URL parameters + GHL tags ship — and the Sep 1 A/B test inherits this exact gap if its arms aren’t tagged on day one.
       <a class="src" href="https://app.notion.com/p/412f6a46d3ba4b5daacec84d36499e51">Ad Scoreboard ↗</a> ·
       <a class="src" href="https://drive.google.com/file/d/1ymOUhLTkuTJLoOaz5ba0gyXom85nP9kq/view">tracking spec ↗</a></p>
-      <p class="sub"><strong style="color:var(--ink)">Score-band signal is strong:</strong> 44 of 74 leads sit at 720+ — the “Top of Market Fit” thesis has raw material already in the book.</p>
+      <p class="sub" style="margin-bottom:4px"><strong style="color:var(--ink)">Score-band signal is strong:</strong> 44 of 74 leads sit at 720+ — the “Top of Market Fit” thesis has raw material already in the book.</p>
+      <div class="propstrip" role="img" aria-label="Score bands: 44 of 74 leads at 720 plus">
+        <div style="width:59.5%; background:var(--teal)"></div>
+        <div style="width:40.5%; background:var(--ink-3); opacity:.5"></div>
+      </div>
+      <div class="legend"><span><span class="swatch" style="background:var(--teal)"></span>720+ — 44</span><span><span class="swatch" style="background:var(--ink-3); opacity:.5"></span>below / unscored — 30</span></div>
     </div>
 
+  </div>
+
+  <div class="panel reveal" style="margin-top:18px">
+    <h3><svg class="ic"><use href="#i-bolt"/></svg>Funnel-field coverage — live from Notion</h3>
+    <p class="sub">The new tracking schema (Entry Path · Human Triaged) fills prospectively from Sep 1. This panel reads the master table directly and updates as the team tags leads — no snapshot, only live truth.</p>
+    <div id="fieldfill-empty" class="fieldfill-empty">Connects when your Notion connector is live — the masthead badge will turn green.</div>
+    <div id="fieldfill-live" hidden>
+      <div class="ff-h">Entry Path</div>
+      <div id="ff-entry"></div>
+      <div class="ff-h">Human Triaged</div>
+      <div id="ff-triage"></div>
+      <p class="sub" style="margin:10px 0 0">Untagged rows are the backlog — every tag added in Notion moves a bar here within ~5 minutes.</p>
+    </div>
   </div>
 </section>
 
@@ -798,6 +932,19 @@
     <div class="panel reveal">
       <h3><svg class="ic"><use href="#i-mountain"/></svg>Metrics ladder — computable today</h3>
       <p class="sub">Per the Constantine framework: rates reported by tier, never blended. Bottom rung first.</p>
+      <div class="range-block">
+        <div class="rk">L1 raw show rate — floor to ceiling</div>
+        <div class="range"><div class="band" style="left:33%; width:52%"></div></div>
+        <div class="range-labels"><span>0%</span><span><b>33–35%</b> floor</span><span><b>85%</b> ceiling</span><span>100%</span></div>
+      </div>
+      <div class="gaugewrap">
+        <svg viewBox="0 0 100 60" aria-label="L3 close rate 23 percent">
+          <path d="M8 54 A 44 44 0 0 1 92 54" fill="none" stroke="var(--raised)" stroke-width="9" stroke-linecap="round"/>
+          <path d="M8 54 A 44 44 0 0 1 92 54" fill="none" stroke="var(--teal)" stroke-width="9" stroke-linecap="round" stroke-dasharray="31.8 138.2"/>
+          <text x="50" y="50" text-anchor="middle" font-size="17" font-weight="600" fill="var(--ink)" font-family="'Spline Sans Mono',monospace">23%</text>
+        </svg>
+        <span class="gtxt"><b>L3 close on verified shows</b><br>6 of 26 people — inside the 20–30% live-call benchmark</span>
+      </div>
       <div class="ladder">
         <div class="rung on"><span class="lv">L1</span><span class="why">Raw show rate (per person): <strong>33–35% floor → 85% ceiling</strong></span></div>
         <div class="rung dim"><span class="lv">L2</span><span class="why">Qualified show rate: <strong>insufficient data</strong> — ~14 of 83 leads assessed; fill the Qualification dropdown per call</span></div>
@@ -816,7 +963,7 @@
 <div class="tabpane" id="pane-clients" hidden>
 
 <section id="fulfillment">
-  <div class="sec-head"><span class="sic"><svg class="ic"><use href="#i-people"/></svg></span><h2>Fulfillment Board — live client workstreams</h2>
+  <div class="sec-head"><span class="sic" style="color:var(--w-pink)"><svg class="ic"><use href="#i-people"/></svg></span><h2>Fulfillment Board — live client workstreams</h2>
     <span class="note"><a href="https://app.notion.com/p/3b95bb1ffef481bf8a6ad869157d72e0">Client dossiers ↗</a> · tap a card for the file</span></div>
   <div class="cards">
 
@@ -887,7 +1034,7 @@
 <div class="tabpane" id="pane-growth" hidden>
 
 <section id="growth">
-  <div class="sec-head"><span class="sic"><svg class="ic"><use href="#i-mountain"/></svg></span><h2>Growth Engine — the September rebuild</h2>
+  <div class="sec-head"><span class="sic" style="color:var(--w-purple)"><svg class="ic"><use href="#i-mountain"/></svg></span><h2>Growth Engine — the September rebuild</h2>
     <span class="note">August: 1–3 qualified prospects, total</span></div>
   <div class="cards">
 
@@ -1085,10 +1232,43 @@
       if ($('attr-m-n')) $('attr-m-n').textContent = stats.attr.m;
       if ($('attr-u-n')) $('attr-u-n').textContent = stats.attr.u;
       if ($('src-mix')) $('src-mix').textContent = stats.src;
+      applyFieldFill(stats);
+    }
+
+    /* Live-only panel: Entry Path + Human Triaged coverage. No snapshot
+       values exist for these fields, so the panel renders only from live
+       rows and returns to its placeholder if live access is revoked. */
+    function ffBars(el, counts, total) {
+      if (!el) return;
+      var keys = Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a]; });
+      var maxN = keys.reduce(function (m, k) { return Math.max(m, counts[k]); }, 1);
+      el.textContent = '';
+      keys.forEach(function (k) {
+        var row = document.createElement('div'); row.className = 'hbar-row';
+        var lbl = document.createElement('span'); lbl.className = 'lbl'; lbl.textContent = k;
+        var track = document.createElement('div'); track.className = 'hbar-track';
+        var bar = document.createElement('div'); bar.className = 'hbar' + (k === 'untagged' ? ' mut' : '');
+        bar.style.width = Math.max((counts[k] / maxN) * 100, 2) + '%';
+        track.appendChild(bar);
+        var num = document.createElement('span'); num.className = 'num mono'; num.textContent = counts[k];
+        var tip = document.createElement('span'); tip.className = 'tip';
+        tip.textContent = counts[k] + ' of ' + total + ' leads · ' + Math.round((counts[k] / total) * 100) + '%';
+        row.appendChild(lbl); row.appendChild(track); row.appendChild(num); row.appendChild(tip);
+        el.appendChild(row);
+      });
+    }
+    function applyFieldFill(stats) {
+      var empty = $('fieldfill-empty'), live = $('fieldfill-live');
+      if (!empty || !live) return;
+      if (!stats.entry) { empty.hidden = false; live.hidden = true; return; }
+      ffBars($('ff-entry'), stats.entry, stats.total);
+      ffBars($('ff-triage'), stats.triage, stats.total);
+      empty.hidden = true; live.hidden = false;
     }
 
     function computeStats(rows) {
       var stages = {}, attr = { v: 0, m: 0, u: 0 }, src = {};
+      var entry = { untagged: 0 }, triage = { untagged: 0 };
       var open = 0, ask = 0, stale = 0, total = rows.length;
       var cutoff = Date.now() - 21 * 86400000;
       rows.forEach(function (r) {
@@ -1098,6 +1278,10 @@
         if (a && a.indexOf('Verified') === 0) attr.v++;
         else if (a === 'Missing') attr.m++;
         else attr.u++;
+        var ep = r['Entry Path'];
+        if (ep) entry[ep] = (entry[ep] || 0) + 1; else entry.untagged++;
+        var ht = r['Human Triaged'];
+        if (ht) triage[ht] = (triage[ht] || 0) + 1; else triage.untagged++;
         var so = r['Source'] || 'Unknown';
         src[so] = (src[so] || 0) + 1;
         if (OPEN_STAGES[s]) {
@@ -1112,7 +1296,7 @@
       return {
         total: total, open: open, askM: fmtMoney(ask),
         stale: stale + ' of ' + open + ' open leads untouched 21+ days',
-        stages: stages, attr: attr, src: srcTxt
+        stages: stages, attr: attr, src: srcTxt, entry: entry, triage: triage
       };
     }
 
@@ -1123,7 +1307,7 @@
 
       var DS = 'collection://5614ffa0-e3d0-40cb-ae64-b32ec52e288c';
       var input = { data: { data_source_urls: [DS], query:
-        'SELECT "Stage", "Attribution Confidence", "Source", "Funding Ask", "date:Last Touch:start" AS lt FROM "' + DS + '"' } };
+        'SELECT "Stage", "Attribution Confidence", "Source", "Funding Ask", "Entry Path", "Human Triaged", "date:Last Touch:start" AS lt FROM "' + DS + '"' } };
       var applied = false;
 
       mcp.watchTool('Notion', 'notion-query-data-sources', input, function (ev) {
