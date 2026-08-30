@@ -628,6 +628,13 @@
   details.rawbook[open] > summary .chev2 { transform: rotate(90deg); display: inline-block; }
 
   /* ============ FUNNEL EXPLORER ============ */
+  .dealtd { white-space: nowrap; }
+  .dealb { font-size: 13px; padding: 1px 2px; border-radius: 6px; opacity: .3; filter: grayscale(1); transition: opacity .18s, filter .18s, transform .14s; line-height: 1; }
+  .dealb.on { opacity: 1; filter: none; }
+  .dealb.off { opacity: .8; filter: grayscale(1) contrast(.6); position: relative; }
+  .dealb.off::after { content: '✕'; position: absolute; inset: 0; display: grid; place-items: center; font-size: 9px; color: var(--crit); font-weight: 700; }
+  .dealb:hover { transform: translateY(-1px) scale(1.15); opacity: 1; }
+  .dealage { font-size: 10px; color: var(--w-gold); margin-left: 4px; font-family: ui-monospace, SFMono-Regular, monospace; }
   .fx-rail { display: grid; grid-template-columns: repeat(auto-fit, minmax(148px, 1fr)); gap: 12px; padding: 4px 2px 10px; }
   .fx-group { min-width: 0; }
   .fx-spot { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; margin: 2px 0 16px; }
@@ -959,6 +966,7 @@
       <div class="fx-cell"><div class="k">Showed → qualified</div><div class="v" id="sp-sq" style="color:var(--w-gold)">—</div><div class="bar"><span id="sp-sq-b" style="background:var(--w-gold)"></span></div><div class="d" id="sp-sq-d"></div></div>
       <div class="fx-cell"><div class="k">Booked pending</div><div class="v" id="sp-bk" style="color:var(--w-violet)">—</div><div class="bar"><span id="sp-bk-b" style="background:var(--w-violet)"></span></div><div class="d" id="sp-bk-d"></div></div>
       <div class="fx-cell"><div class="k">No-shows</div><div class="v" id="sp-ns" style="color:var(--crit)">—</div><div class="bar"><span id="sp-ns-b" style="background:var(--crit)"></span></div><div class="d" id="sp-ns-d"></div></div>
+      <div class="fx-cell"><div class="k">Verbal yes · not paid</div><div class="v" id="sp-vy" style="color:var(--w-gold)">—</div><div class="bar"><span id="sp-vy-b" style="background:var(--w-gold)"></span></div><div class="d" id="sp-vy-d"></div></div>
     </div>
     <div class="fx-rail" id="fx-rail"></div>
     <div class="fx-conv" id="fx-conv"></div>
@@ -966,7 +974,7 @@
       <button type="button" class="theme-toggle" style="margin-left:0" id="fx-clear">Clear all</button>
       <button type="button" class="theme-toggle" id="fx-copy">Copy this report</button>
     </div>
-    <p class="sub" style="margin:10px 0 0" id="fx-note">“+ Raw GHL book” adds every system contact to the counts (their speed &amp; show facets come from GHL; the table below still lists tracked leads only). Hours reads the tracker's live Created time — snapshot rows show Unknown. In-hours = Mon–Fri 7:00am–5:45pm PT, per Alan 8/30.</p>
+    <p class="sub" style="margin:10px 0 0" id="fx-note">“+ Raw GHL book” adds every system contact to the counts (their speed &amp; show facets come from GHL; the table below still lists tracked leads only). Hours reads the tracker's live Created time — snapshot rows show Unknown. In-hours = Mon–Fri 7:00am–5:45pm PT, per Alan 8/30. Groups 8–11 (Verbal Yes · Agreement &amp; Payment · Follow-Up · No-Sign-Up Reason) derive from Stage + Alan's attested corrections until the Notion fields exist — tap the 🎯🗣📄💰🔁 icons on any row to set the truth yourself; corrections queue in the sync panel.</p>
   </div>
 </section>
 
@@ -993,7 +1001,7 @@
       <strong>Your corrections (local, pending sync to the tracker):</strong>
       <pre id="fix-list" class="mono" style="margin:6px 0; font-size:12px; white-space:pre-wrap"></pre>
       <button type="button" class="theme-toggle" style="margin-left:0" onclick="try{navigator.clipboard.writeText(document.getElementById('fix-list').textContent)}catch(e){}">Copy for #call-outcomes</button>
-      <button type="button" class="theme-toggle" onclick="window.APW_FIX={};try{localStorage.removeItem('apw-showed-fix')}catch(e){};if(window.renderRoster)window.renderRoster();if(window.applyRosterViewLive)window.applyRosterViewLive();window.APW_FIXLIST();">Clear all</button>
+      <button type="button" class="theme-toggle" onclick="window.APW_FIX={};if(window.APW_TRIFIX)for(var _k in window.APW_TRIFIX)delete window.APW_TRIFIX[_k];if(window.APW_DEALFIX)for(var _k2 in window.APW_DEALFIX)delete window.APW_DEALFIX[_k2];try{localStorage.removeItem('apw-showed-fix');localStorage.removeItem('apw-triage-fix');localStorage.removeItem('apw-deal-fix')}catch(e){};if(window.renderRoster)window.renderRoster();if(window.applyRosterViewLive)window.applyRosterViewLive();window.APW_FIXLIST();">Clear all</button>
     </div>
     <div class="rfilters" id="rfilters" hidden>
       <label>From <input type="date" id="rf-from"></label>
@@ -1017,13 +1025,13 @@
       </select>
     </div>
     <div class="tbl-wrap"><table style="min-width:860px">
-      <thead><tr><th>Person</th><th>Stage</th><th>Showed</th><th>Qualification</th><th class="num">Ask</th><th>Last Touch</th></tr></thead>
+      <thead><tr><th>Person</th><th>Stage</th><th>Showed</th><th>Deal</th><th>Qualification</th><th class="num">Ask</th><th>Last Touch</th></tr></thead>
       <tbody id="roster-body"></tbody>
     </table></div>
     </div>
     <div id="roster-err" class="fieldfill-empty" hidden></div>
     <div class="tbl-wrap" id="roster-wrap" hidden><table id="roster-tbl" style="min-width:0">
-      <thead><tr><th>Prospect</th><th>Added</th><th>Stage</th><th>Showed</th><th class="num">Ask</th><th>Qualification</th><th>Last Touch</th></tr></thead>
+      <thead><tr><th>Prospect</th><th>Added</th><th>Stage</th><th>Showed</th><th>Deal</th><th class="num">Ask</th><th>Qualification</th><th>Last Touch</th></tr></thead>
       <tbody></tbody>
     </table></div>
   </div>
@@ -1272,9 +1280,14 @@
         <tr><td class="num mono" style="font-size:16px">~100</td><td class="why">live calls before judging a closer (30 days, 6/day, 5 show) <a class="src" href="https://fathom.video/calls/782299252">Aug 13 ↗</a></td></tr>
         <tr><td class="num mono" style="font-size:16px">0</td><td class="why">“If you give me people who have no money, who are in debt, who are you going to close? Zero.” — offer-incompatible prospects come out of the close-rate denominator; their losses are <strong style="color:var(--ink)">targeting data, not sales data</strong> <a class="src" href="https://fathom.video/calls/782299252">Aug 13 ↗</a></td></tr>
         <tr><td class="num mono" style="font-size:16px">⚠</td><td class="why">losing unqualified no-shows is the funnel <strong style="color:var(--ink)">working</strong> (“that's great, man”) · don’t demand credit reports pre-show — friction costs shows; “if you can't get it in time, show up anyway” <a class="src" href="https://app.krisp.ai/m/019e4695872d775b83caec6c53f413d8?active_tab=ai_notes">May 20 ↗</a> · partner + timing qualification happens at triage, not mid-pitch <a class="src" href="https://app.krisp.ai/m/019eb2b79830720da56c1eb4c960250c?active_tab=ai_notes">Jun 10 ↗</a></td></tr>
+        <tr><td class="num mono" style="font-size:16px">2–3</td><td class="why">calls to close — the new efficiency KPI; drawn-out chases burn the team out <a class="src" href="https://fathom.video/share/o39_ztNx7PqzcgbuLQYKt_5t8NDGAFXy">Aug 28 ↗</a></td></tr>
+        <tr><td class="num mono" style="font-size:16px">❓</td><td class="why"><strong style="color:var(--ink)">“Are you sure?” technique</strong> at the Verbal-Yes stage — “If you feel like at some point down the line, you're going to regret this decision, it doesn't make sense for us to do this” — surfaces hidden objections, builds trust, pre-empts churn &amp; chargebacks <a class="src" href="https://fathom.video/share/o39_ztNx7PqzcgbuLQYKt_5t8NDGAFXy">Aug 28 ↗</a></td></tr>
+        <tr><td class="num mono" style="font-size:16px">👥</td><td class="why">external decision-maker (partner funding the deal) → <strong style="color:var(--ink)">invite them to an educational call</strong> — “More information is never going to hurt you… you can make the most educated decision”; business partner = book the call, personal family already resistant = don't push into the gray zone (the Michael case) <a class="src" href="https://fathom.video/share/o39_ztNx7PqzcgbuLQYKt_5t8NDGAFXy">Aug 28 ↗</a></td></tr>
+        <tr><td class="num mono" style="font-size:16px">🎯</td><td class="why">ICP mismatch is the root constraint — leads like Michael (near bankruptcy, needed gray-area credit moves) cost maximum effort for low-ticket risk; fix the SCIO ad targeting (Clinton + Kai looped in) and move to owner-led video ads <a class="src" href="https://fathom.video/share/o39_ztNx7PqzcgbuLQYKt_5t8NDGAFXy">Aug 28 ↗</a></td></tr>
+        <tr><td class="num mono" style="font-size:16px">📞</td><td class="why">call reviews (Lynn): prep + confidence; on any reschedule, mine the moment — “As we confirm this meeting, just curious…” <a class="src" href="https://fathom.video/share/o39_ztNx7PqzcgbuLQYKt_5t8NDGAFXy">Aug 28 ↗</a></td></tr>
       </tbody>
     </table></div>
-    <p class="sub" style="margin-top:10px">Full mining with timestamps: <a href="https://github.com/Awake999/awake/blob/claude/dashboard-lane-polish/ops/data/CONSTANTINE_SHOWRATE_MINING.md">CONSTANTINE_SHOWRATE_MINING.md ↗</a></p>
+    <p class="sub" style="margin-top:10px">Full mining with timestamps: <a href="https://github.com/Awake999/awake/blob/claude/dashboard-lane-polish/ops/data/CONSTANTINE_SHOWRATE_MINING.md">CONSTANTINE_SHOWRATE_MINING.md ↗</a> · Aug 28 1-on-1 verbatim: <a href="https://github.com/Awake999/awake/blob/claude/dashboard-lane-polish/ops/prompts/2026-08-30-constantine-aug28-transcript.md">transcript ↗</a> · <a href="https://fathom.video/share/o39_ztNx7PqzcgbuLQYKt_5t8NDGAFXy">recording ↗</a></p>
   </div>
 </section>
 
@@ -1516,6 +1529,12 @@
       <div class="cell"><div class="t">Close on qualified</div><div class="n mono" style="font-size:22px; color:var(--good)">23%</div><div class="t" style="text-transform:none">Kai’s target: <b>25%</b> · L3 actual, 6 of 26 — already at benchmark’s edge</div></div>
     </div>
     <p class="sub" style="margin-top:8px">At his targets Kai prices the funnel at <strong style="color:var(--ink)">“$800 cost per live qualified call … a 3200 CPA”</strong> — that math becomes checkable the moment L2 has data (Sep 1 onward). Varying show rates are tracked as the L1–L5 ladder above; Constantine benchmark: 10% raw → <strong style="color:var(--ink)">33–50% when Alan speaks to the lead pre-call</strong>.</p>
+
+    <div class="ff-h" style="margin-top:16px">Data accuracy meter — “right now the data is not correct, and we need to get accurate data first”</div>
+    <div style="height:14px;border-radius:7px;background:rgba(127,127,127,.16);overflow:hidden;margin:8px 0 6px">
+      <span id="acc-bar" style="display:block;height:100%;width:0;background:linear-gradient(90deg,var(--w-cyan),var(--w-green));transition:width .8s cubic-bezier(.2,.8,.2,1)"></span>
+    </div>
+    <p class="sub" id="acc-txt">Waiting for the live layer — this meter scores every tracked lead on 8 partner-grade fields (entry, speed, hours, triage, closer verdict, showed, verbal yes, agreement/paid). Unknowns are unrecorded truth, not zeros.</p>
 
     <div class="ff-h" style="margin-top:16px">His three questions — the answers, with receipts</div>
     <div class="tbl-wrap" style="border:none"><table style="min-width:640px">
@@ -1976,9 +1995,15 @@
   };
   window.APW_FIXLIST = function () {
     var box = document.getElementById('fix-list'); if (!box) return;
-    var keys = Object.keys(window.APW_FIX);
-    box.parentElement.hidden = keys.length === 0;
-    box.textContent = keys.map(function (k) { return k + ' → ' + ({ yes: 'SHOWED ✓', no: 'DID NOT SHOW ✕', unk: 'UNKNOWN ?' })[window.APW_FIX[k]]; }).join('\n');
+    var lines = Object.keys(window.APW_FIX).map(function (k) { return k + ' → ' + ({ yes: 'SHOWED ✓', no: 'DID NOT SHOW ✕', unk: 'UNKNOWN ?' })[window.APW_FIX[k]]; });
+    var tf = window.APW_TRIFIX || {};
+    Object.keys(tf).forEach(function (k) { lines.push(k + ' → ' + (tf[k] === 'yes' ? 'TRIAGED ✓' : 'NOT TRIAGED ✕')); });
+    var df = window.APW_DEALFIX || {}, DL = { v: 'Verbal yes', a: 'Agreement sent', p: 'Paid', f: 'Follow-up required' };
+    Object.keys(df).forEach(function (k) {
+      Object.keys(df[k]).forEach(function (kk) { lines.push(k + ' → ' + DL[kk] + ': ' + df[k][kk].toUpperCase()); });
+    });
+    box.parentElement.hidden = lines.length === 0;
+    box.textContent = lines.join('\n');
   };
   window.APW_RATES = function (c) {
     var el = document.getElementById('rate-strip'); if (!el) return;
@@ -2007,9 +2032,13 @@
       { k: 'speed',  t: 'Speed to Lead',      n: 2, vals: [['sub1','≤ 1 min'], ['sub2','≤ 2 min'], ['slow','> 2 min'], ['unk','Unknown']] },
       { k: 'hours',  t: 'Hours (M–F 7:00–5:45 PT)', n: 3, vals: [['in','In-hours'], ['out','Out-of-hours'], ['unk','Unknown']] },
       { k: 'triage', t: 'Triage',             n: 4, vals: [['yes','Triaged'], ['no','Not triaged'], ['unk','Unknown']] },
-      { k: 'qual',   t: 'Qualification',      n: 5, vals: [['main','Main Offer'], ['down','Downsell'], ['unq','Unqualified'], ['unk','Not assessed']] },
+      { k: 'qual',   t: 'Closer Verdict',      n: 5, vals: [['main','Primary Offer'], ['down','Downsell Offer'], ['custom','Custom Offer'], ['unq','Not Qualified'], ['unk','Not assessed']] },
       { k: 'show',   t: 'Showed',             n: 6, vals: [['yes','Showed ✓'], ['no','No-Show ✕'], ['unk','Unknown ?']] },
-      { k: 'dispo',  t: 'Disposition',        n: 7, vals: [['booked','Booked (pending)'], ['offer','Offer Made'], ['won','Closed Won'], ['lost','Closed Lost'], ['nurture','Nurture'], ['unqual','Unqualified'], ['other','Other']] }
+      { k: 'dispo',  t: 'Disposition',        n: 7, vals: [['booked','Booked (pending)'], ['offer','Offer Made'], ['won','Closed Won'], ['lost','Closed Lost'], ['nurture','Nurture'], ['unqual','Unqualified'], ['other','Other']] },
+      { k: 'verbal', t: 'Verbal Yes',          n: 8, vals: [['yes','Verbal Yes \ud83d\udde3'], ['no','No verbal yes'], ['unk','Unknown']] },
+      { k: 'agpay',  t: 'Agreement & Payment', n: 9, vals: [['paid','Paid \u2713'], ['sent','Agreement sent \u00b7 not paid'], ['none','Neither'], ['unk','Unknown']] },
+      { k: 'fup',    t: 'Follow-Up',           n: 10, vals: [['yes','Follow-up call required'], ['no','No follow-up needed'], ['unk','Unknown']] },
+      { k: 'reason', t: 'No-Sign-Up Reason',   n: 11, vals: [['nomoney','Not enough money'], ['partner','Partner blocker'], ['mismatch','Offer mismatch'], ['other','Other'], ['unk','Unknown']] }
     ];
     var SETS = {}; GROUPS.forEach(function (g) { SETS[g.k] = {}; });
 
@@ -2022,6 +2051,50 @@
         parts.forEach(function (p) { if (p.type === 'hour') h = +p.value; if (p.type === 'minute') m = +p.value; if (p.type === 'weekday') wd = p.value; });
         return { mins: h * 60 + m, weekday: ['Mon','Tue','Wed','Thu','Fri'].indexOf(wd) >= 0 };
       } catch (e) { return null; }
+    }
+    /* ===== deal-truth layer — Verbal Yes / Agreement Sent / Paid / Follow-Up (Alan 8/30):
+       "track that these people did agree ... the agreement was sent to him, paid yes or no" ===== */
+    var DEALFIX = {}; try { DEALFIX = JSON.parse(localStorage.getItem('apw-deal-fix') || '{}') || {}; } catch (e) {}
+    window.APW_DEALFIX = DEALFIX;
+    function dealDerive(client, stage) {
+      /* Alan-attested 8/30: Nick verbally agreed + was sent the agreement; has NOT paid */
+      if (String(client || '').indexOf('Nick') === 0) return { v: 'yes', a: 'yes', p: 'no', f: 'unk' };
+      if (stage === 'Closed Won') return { v: 'yes', a: 'yes', p: 'yes', f: 'unk' };
+      if (stage === 'Offer Made') return { v: 'unk', a: 'unk', p: 'no', f: 'unk' };
+      return { v: 'unk', a: 'unk', p: 'unk', f: 'unk' };
+    }
+    window.APW_DEAL_GET = function (name, client, stage) {
+      var d = dealDerive(client, stage), fx = DEALFIX[name] || {};
+      return { v: fx.v || d.v, a: fx.a || d.a, p: fx.p || d.p, f: fx.f || d.f };
+    };
+    window.APW_DEAL_CYCLE = function (name, key) {
+      var cur = (DEALFIX[name] || {})[key];
+      var next = !cur ? 'yes' : cur === 'yes' ? 'no' : cur === 'no' ? 'unk' : null;
+      if (!DEALFIX[name]) DEALFIX[name] = {};
+      if (next === null) delete DEALFIX[name][key]; else DEALFIX[name][key] = next;
+      if (!Object.keys(DEALFIX[name]).length) delete DEALFIX[name];
+      try { localStorage.setItem('apw-deal-fix', JSON.stringify(DEALFIX)); } catch (e) {}
+      if (window.APW_FX_REFRESH) try { window.APW_FX_REFRESH(); } catch (e) {}
+      if (window.APW_FIXLIST) window.APW_FIXLIST();
+    };
+    var TRIFIX = {}; try { TRIFIX = JSON.parse(localStorage.getItem('apw-triage-fix') || '{}') || {}; } catch (e) {}
+    window.APW_TRIFIX = TRIFIX;
+    window.APW_TRI_CYCLE = function (name) {
+      var cur = TRIFIX[name];
+      var next = !cur ? 'yes' : cur === 'yes' ? 'no' : null;
+      if (next === null) delete TRIFIX[name]; else TRIFIX[name] = next;
+      try { localStorage.setItem('apw-triage-fix', JSON.stringify(TRIFIX)); } catch (e) {}
+      if (window.APW_FX_REFRESH) try { window.APW_FX_REFRESH(); } catch (e) {}
+      if (window.APW_FIXLIST) window.APW_FIXLIST();
+    };
+    function agpayOf(d) { return d.p === 'yes' ? 'paid' : d.a === 'yes' ? 'sent' : (d.a === 'no' && d.p === 'no') ? 'none' : 'unk'; }
+    function reasonOf(qual, ncr) {
+      var t = String(qual || '') + ' ' + String(ncr || '');
+      if (/No Funds|no money|not enough money|can.t afford/i.test(t)) return 'nomoney';
+      if (/partner|spouse|brother|sister|wife|husband|family/i.test(t)) return 'partner';
+      if (/Mismatch/i.test(t)) return 'mismatch';
+      if (String(qual || '').indexOf('Unqualified') === 0 || String(ncr || '')) return 'other';
+      return 'unk';
     }
     function qb(q) {
       if (!q) return 'unk';
@@ -2043,28 +2116,34 @@
       var nm = (window.APW_SHORT ? window.APW_SHORT(r['Client']) : (r['Client'] || '?'));
       var sp = r['Speed to Lead (min)'];
       var clk = laClock(r['Created']);
+      var dl = window.APW_DEAL_GET(nm, r['Client'], r['Stage']);
       return {
         name: nm,
         entry: r['Entry Path'] || 'unk',
         speed: (typeof sp === 'number') ? (sp <= 1 ? 'sub1' : sp <= 2 ? 'sub2' : 'slow') : 'unk',
         hours: clk === null ? 'unk' : (clk.weekday && clk.mins >= 420 && clk.mins <= 1065 ? 'in' : 'out'),
-        triage: r['Human Triaged'] ? 'yes' : 'unk',
+        triage: TRIFIX[nm] || (r['Human Triaged'] ? 'yes' : 'unk'),
         qual: qb(r['Qualification']),
         show: window.APW_SHOWED_FINAL(nm, r['Stage'], false),
-        dispo: db(r['Stage'])
+        dispo: db(r['Stage']),
+        verbal: dl.v, agpay: agpayOf(dl), fup: dl.f,
+        reason: reasonOf(r['Qualification'], r['No-Close Reason'])
       };
     }
     function facetsStatic(r) {
       var f = window.APW_FATHOM[r[0]], fid = f && (f.charAt(0) === 's' ? f.slice(1) : f);
+      var dls = window.APW_DEAL_GET(r[0], r[0], r[1]);
       return {
         name: r[0],
         entry: r[2] || 'unk',
         speed: 'unk',
         hours: 'unk',
-        triage: 'unk',
+        triage: TRIFIX[r[0]] || 'unk',
         qual: qb(r[3]),
         show: window.APW_SHOWED_FINAL(r[0], r[1], !!fid),
-        dispo: db(r[1])
+        dispo: db(r[1]),
+        verbal: dls.v, agpay: agpayOf(dls), fup: dls.f,
+        reason: reasonOf(r[3], null)
       };
     }
     window.APW_FACET_LIVE = facetsLive;
@@ -2082,7 +2161,7 @@
           speed: (typeof r[10] === 'number') ? (r[10] <= 1 ? 'sub1' : r[10] <= 2 ? 'sub2' : 'slow') : 'unk',
           hours: 'unk', triage: 'unk', qual: 'unk',
           show: hist.indexOf('showed') >= 0 ? 'yes' : hist.indexOf('noshow') >= 0 ? 'no' : 'unk',
-          dispo: 'other', ghl: true
+          dispo: 'other', verbal: 'unk', agpay: 'unk', fup: 'unk', reason: 'unk', ghl: true
         });
       });
       return out;
@@ -2176,6 +2255,8 @@
       spot('sp-sq', pct(showQual.length, showed.length), showed.length ? showQual.length / showed.length : 0, showQual.length + ' of ' + showed.length + ' showed');
       spot('sp-bk', String(booked.length), inView.length ? booked.length / inView.length : 0, pct(booked.length, inView.length) + ' of view');
       spot('sp-ns', String(noshow.length), inView.length ? noshow.length / inView.length : 0, pct(noshow.length, inView.length) + ' of view');
+      var vyNP = inView.filter(function (f) { return f.verbal === 'yes' && f.agpay !== 'paid'; });
+      spot('sp-vy', String(vyNP.length), inView.length ? vyNP.length / inView.length : 0, 'agreed on the phone \u00b7 money not in');
       var ut = document.getElementById('fx-u-tracked'), ua = document.getElementById('fx-u-all');
       if (ut || ua) {
         var trackedN = window.APW_LIVE_ROWS ? window.APW_LIVE_ROWS.length : (window.APW_ROSTER || []).length;
@@ -2195,6 +2276,17 @@
       if (window.applyRosterViewLive) try { window.applyRosterViewLive(); } catch (e) {}
       var note = document.getElementById('fx-note');
       if (note) note.hidden = !!window.APW_LIVE_ROWS;
+      /* data-accuracy meter — Alan 8/30: "right now the data is not correct" */
+      var accB = document.getElementById('acc-bar'), accT = document.getElementById('acc-txt');
+      if (accB && accT) {
+        var tracked3 = window.APW_LIVE_ROWS ? window.APW_LIVE_ROWS.map(facetsLive) : (window.APW_ROSTER || []).map(facetsStatic);
+        var FKEYS = ['entry', 'speed', 'hours', 'triage', 'qual', 'show', 'verbal', 'agpay'];
+        var filled = 0, cells = tracked3.length * FKEYS.length;
+        tracked3.forEach(function (f) { FKEYS.forEach(function (k) { if (f[k] && f[k] !== 'unk') filled++; }); });
+        var pctA = cells ? Math.round(filled / cells * 100) : 0;
+        accB.style.width = pctA + '%';
+        accT.textContent = pctA + '% of partner-grade cells recorded \u2014 ' + filled + ' of ' + cells + ' (' + tracked3.length + ' leads \u00d7 ' + FKEYS.length + ' fields: entry, speed, hours, triage, closer verdict, showed, verbal yes, agreement/paid). Every gap here is why the numbers Kai reads don\u2019t match \u2014 fill by tap-to-correct now, and by the Sep 1 field discipline going forward.';
+      }
     }
     window.APW_FX_REFRESH = refresh;
     function clearAll() { GROUPS.forEach(function (g) { SETS[g.k] = {}; }); refresh(); }
@@ -2351,9 +2443,25 @@
         var shHtml = "<button type='button' class='vbtn' onclick=\"window.APW_CYCLE('"+r[0].replace(/'/g,"\\'")+"')\" title='Tap to correct — cycles ✓ → ✕ → ? → auto'>"
           +(sh==='yes' ? "<span class='chip good'>✓" : sh==='no' ? "<span class='chip crit'>✕" : "<span class='chip mut'>?")
           +(fixed?" ✎":"")+"</span></button>";
+        var dlS = window.APW_DEAL_GET ? window.APW_DEAL_GET(r[0], r[0], r[1]) : { v: 'unk', a: 'unk', p: 'unk', f: 'unk' };
+        var tvS = (window.APW_TRIFIX && window.APW_TRIFIX[r[0]]) || 'unk';
+        var nEsc = r[0].replace(/'/g, "\\'");
+        function dbn(icon, lbl, val, fn) {
+          return "<button type='button' class='vbtn dealb" + (val === 'yes' ? ' on' : val === 'no' ? ' off' : '') + "' title='" + lbl + ": " + (val === 'yes' ? 'YES' : val === 'no' ? 'NO' : 'unknown') + " · tap to cycle' onclick=\"event.stopPropagation();" + fn + "\">" + icon + "</button>";
+        }
+        var dealHtml = dbn('🎯', 'Triaged', tvS, "window.APW_TRI_CYCLE('" + nEsc + "')")
+          + dbn('🗣', 'Verbal yes', dlS.v, "window.APW_DEAL_CYCLE('" + nEsc + "','v')")
+          + dbn('📄', 'Agreement sent', dlS.a, "window.APW_DEAL_CYCLE('" + nEsc + "','a')")
+          + dbn('💰', 'Paid', dlS.p, "window.APW_DEAL_CYCLE('" + nEsc + "','p')")
+          + dbn('🔁', 'Follow-up required', dlS.f, "window.APW_DEAL_CYCLE('" + nEsc + "','f')");
+        var stTxtS = r[1], stClsS = STAGE_CLS[r[1]] || "mut", stFlagS = "";
+        if (dlS.v === 'yes' && dlS.p !== 'yes') { stTxtS = 'Verbal Yes · not paid'; stClsS = 'gold'; }
+        if (r[1] === 'Closed Won' && String(r[3] || '').indexOf('Unqualified') === 0)
+          stFlagS = " <span class='chip crit' title='Contradiction: Stage says Closed Won but Qualification says " + esc(r[3]) + " — one of them is wrong'>⚠</span>";
         html+="<tr><td class='who'><a href='https://app.notion.com/p/"+r[7]+"'>"+esc(r[0])+"</a></td>"
-          +"<td><span class='chip "+(STAGE_CLS[r[1]]||"mut")+"'>"+esc(r[1])+"</span></td>"
+          +"<td><span class='chip "+stClsS+"' title='Notion stage: "+esc(r[1])+"'>"+esc(stTxtS)+"</span>"+stFlagS+"</td>"
           +"<td>"+shHtml+(fid?" <a href='https://fathom.video/calls/"+fid+"'>🎥"+(sec?"²":"")+"</a>":"")+"</td>"
+          +"<td class='dealtd'>"+dealHtml+"</td>"
           +"<td class='why'>"+esc(r[3]||"—")+"</td>"
           +"<td class='num mono'>"+money(r[4])+"</td>"
           +"<td class='mono' style='font-size:12px'>"+esc((r[6]||"").slice(5))+"</td></tr>";
@@ -2557,10 +2665,21 @@
         } else who.textContent = shortName(r['Client']);
         tr.appendChild(who);
         td(r['Created'] ? String(r['Created']).slice(0, 10) : '—', 'mono');
+        var nmS = shortName(r['Client']);
+        var dl = window.APW_DEAL_GET ? window.APW_DEAL_GET(nmS, r['Client'], r['Stage']) : { v: 'unk', a: 'unk', p: 'unk', f: 'unk' };
         var st = document.createElement('td'); var chip = document.createElement('span');
-        chip.className = 'chip ' + (STAGE_CHIP[r['Stage']] || 'mut'); chip.textContent = r['Stage'] || '—';
-        st.appendChild(chip); tr.appendChild(st);
-        var sh = window.APW_SHOWED_FINAL(shortName(r['Client']), r['Stage'], false);
+        var stTxt = r['Stage'] || '—', stCls = STAGE_CHIP[r['Stage']] || 'mut';
+        if (dl.v === 'yes' && dl.p !== 'yes') { stTxt = 'Verbal Yes · not paid'; stCls = 'gold'; }
+        chip.className = 'chip ' + stCls; chip.textContent = stTxt;
+        chip.title = stTxt === (r['Stage'] || '—') ? '' : 'Notion stage: ' + (r['Stage'] || '—') + ' — displayed per Alan 8/30: agreed on the phone, agreement sent, NOT paid';
+        st.appendChild(chip);
+        if (r['Stage'] === 'Closed Won' && String(r['Qualification'] || '').indexOf('Unqualified') === 0) {
+          var wfl = document.createElement('span'); wfl.className = 'chip crit'; wfl.style.marginLeft = '4px'; wfl.textContent = '⚠';
+          wfl.title = 'Contradiction: Stage says Closed Won but Qualification says ' + r['Qualification'] + ' — one of them is wrong (this is how Nick slipped through)';
+          st.appendChild(wfl);
+        }
+        tr.appendChild(st);
+        var sh = window.APW_SHOWED_FINAL(nmS, r['Stage'], false);
         var sc = document.createElement('td'); var shb = document.createElement('button');
         shb.type = 'button'; shb.className = 'vbtn'; shb.title = 'Tap to correct — cycles ✓ → ✕ → ? → auto';
         var shc = document.createElement('span');
@@ -2569,6 +2688,30 @@
         shb.appendChild(shc);
         (function (nm) { shb.addEventListener('click', function (e) { e.stopPropagation(); window.APW_CYCLE(nm); }); })(shortName(r['Client']));
         sc.appendChild(shb); tr.appendChild(sc);
+        /* Deal column — 🎯 triaged · 🗣 verbal yes · 📄 agreement · 💰 paid · 🔁 follow-up; tap cycles yes→no→auto */
+        var dc = document.createElement('td'); dc.className = 'dealtd';
+        var tv = (window.APW_TRIFIX && window.APW_TRIFIX[nmS]) || (r['Human Triaged'] ? 'yes' : 'unk');
+        [['t', '🎯', 'Triaged', tv], ['v', '🗣', 'Verbal yes — said yes on the phone', dl.v], ['a', '📄', 'Agreement sent', dl.a], ['p', '💰', 'Paid', dl.p], ['f', '🔁', 'Follow-up call required', dl.f]].forEach(function (it) {
+          var b2 = document.createElement('button'); b2.type = 'button';
+          b2.className = 'vbtn dealb' + (it[3] === 'yes' ? ' on' : it[3] === 'no' ? ' off' : '');
+          b2.title = it[2] + ': ' + (it[3] === 'yes' ? 'YES' : it[3] === 'no' ? 'NO' : 'unknown') + ' · tap to cycle';
+          b2.textContent = it[1];
+          (function (k2) {
+            b2.addEventListener('click', function (e) {
+              e.stopPropagation();
+              if (k2 === 't') { if (window.APW_TRI_CYCLE) window.APW_TRI_CYCLE(nmS); }
+              else if (window.APW_DEAL_CYCLE) window.APW_DEAL_CYCLE(nmS, k2);
+            });
+          })(it[0]);
+          dc.appendChild(b2);
+        });
+        if (dl.v === 'yes' && dl.p !== 'yes' && r['Created']) {
+          var days = Math.max(0, Math.round((Date.now() - new Date(String(r['Created']).replace(' ', 'T')).getTime()) / 86400000));
+          var ag = document.createElement('span'); ag.className = 'dealage'; ag.textContent = days + 'd';
+          ag.title = days + ' days since they agreed, still unpaid — don\u2019t let the agreement rot';
+          dc.appendChild(ag);
+        }
+        tr.appendChild(dc);
         td(typeof r['Funding Ask'] === 'number' ? fmtMoney(r['Funding Ask']) : '—', 'num mono');
         td(r['Qualification'] || '—', 'why');
         td(r['lt'] || '—', 'mono');
@@ -2578,7 +2721,7 @@
           var next = tr.nextElementSibling;
           if (next && next.classList.contains('rdetail-row')) { next.remove(); return; }
           var dr = document.createElement('tr'); dr.className = 'rdetail-row';
-          var cell = document.createElement('td'); cell.colSpan = 7;
+          var cell = document.createElement('td'); cell.colSpan = 8;
           var grid = document.createElement('div'); grid.className = 'rdetail';
           [['Added', r['Created'] ? String(r['Created']).replace('Z', ' UTC') : '—'],
            ['Stage', r['Stage'] || '—'],
