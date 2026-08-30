@@ -1,47 +1,44 @@
-# awake — business comms data recall
+# APW OPS — READ THIS FIRST (auto-loaded by every local Claude session)
 
-## What this workspace is
+You are working inside the Ascend Prime Wealth ops repo. **Before doing anything:**
 
-A system for answering questions about internal company communications: who
-said what, who committed to what, when a decision was made, what a client was
-told.
+1. **Read [`ops/SOP.md`](ops/SOP.md)** — the binding laws (verbatim checklists, evidence links, raw originals, scan-ready output) + lane ownership + the sync ritual (git pull first, push after every batch).
+2. **Read [`ops/REGISTER.md`](ops/REGISTER.md)** — every ask Alan has made, verbatim, numbered, with status + grade. Grep `LANE-SYNC` for cross-lane notices. If your task isn't on the register, it gets a numbered line before work starts.
+3. **Alan's original prompts, in full:** [`ops/prompts/ALL_PROMPTS_FULL.md`](ops/prompts/ALL_PROMPTS_FULL.md) (every prompt verbatim, chronological) and [`ops/prompts/2026-08-30-full-funnel-spec.md`](ops/prompts/2026-08-30-full-funnel-spec.md) (the governing spec). **Prompts govern over any brief or summary.**
+4. **Find anything:** [`ops/INDEX.md`](ops/INDEX.md) — clickable pointers to every dashboard, database, audit, and decision across Notion/GitHub/Drive/GHL.
 
-Sources in use: **Fathom** (meeting recordings/transcripts) and **Slack**.
-Gmail, Notion, Trello, Google Calendar and Zoom are connected to the session but
-are not yet part of this system.
+**LAW 0 — NEVER-MISS PROTOCOL (outranks all):** parse every prompt into numbered atomic asks before working; a REPROMPT = severity-1 failure — diff v1 against the literal words, name the delta, fix that delta only; one line per item in every enumerated deliverable, never grouped; checkboxes only after the tool call exists; literal ask first, judgment second.
 
-**Read `recall/README.md` before answering any recall question.** It holds the
-workflow, the tools, and the traps.
+**The laws in one line each:** every ask → verbatim numbered checklist · every claim → clickable link + date + evidence window · raw originals beside every summary, never replaced · verified/derived/unknown labels, never guess · scan-ready output, TLDR first · pull before work, push after every batch (unpushed work dies with the container).
 
-## Standing instruction: always report coverage
+**Lane ownership (single-writer):** Lane 1 (cloud command) owns REGISTER/SOP/INDEX/Notion-ops · Lane 2 owns `ops/dashboard/` · Lane 3 owns `ops/archive/` (append-only) · Lane 4 (this PC) owns `ops/archive/ghl/` + `ops/lane4/` + browser tasks. Everyone writes their own `ops/process-log/YYYY-MM-DD-<lane>.md`, never another lane's.
 
-**On every research/lookup request, state explicitly what was done AND what was
-not done, relative to the specific prompt.** Never let an answer imply
-exhaustive coverage that was not actually achieved.
+Dashboard live URL: https://claude.ai/code/artifact/c6ad801c-50fc-49d3-847a-e6a8b0ddd392
 
-Every answer carries a coverage section naming:
+---
 
-1. **Scope searched** — exact sources, exact date window, exact filters used.
-2. **Depth reached** — "read 34 of 47 recordings", not "searched Fathom".
-3. **What was NOT searched** — sources skipped, pages not paged, transcripts not
-   read, date ranges not covered.
-4. **Known blind spots of the tools used** — see the table below.
-5. **Confidence** — and specifically what would close the remaining gap.
+## Recall subsystem — `recall/` (business comms Q&A)
 
-Rules:
+For questions about **what was said** in internal comms — who committed to what,
+when a decision was made, what a client was told. Read
+[`recall/README.md`](recall/README.md) before answering one.
 
-- A negative result is only reportable **alongside the scope that produced it.**
-  "I found nothing" is not an answer. "I found nothing in X, having checked Y of
-  Z, and did not check W" is.
-- Never present a summary-level search as a content-level search.
-- If a finding is later shown to have been missed, say so plainly and name the
-  coverage gap that allowed it.
-- Prefer stating a gap over quietly narrowing the request to fit what was easy.
-- Distinguish **"X said it"** from **"it was said near X"** from **"someone else
-  said it about X"**. These are three different claims and collapsing them
-  produces false conclusions. `recall/tools/scan_by_speaker.py` separates them.
+**Standing instruction — always report coverage.** State explicitly what was
+done AND what was not done, relative to the specific prompt. Never let an answer
+imply exhaustive coverage that was not achieved. Every answer names: scope
+searched (exact sources, window, filters) · depth reached ("read 34 of 47
+recordings", not "searched Fathom") · what was NOT searched · known tool blind
+spots · confidence and what would close the gap.
 
-## Tool blind spots (learned the hard way)
+A negative result is only reportable alongside the scope that produced it. "I
+found nothing" is not an answer; "I found nothing in X, having checked Y of Z,
+and did not check W" is.
+
+Distinguish **"X said it"** from **"it was said near X"** from **"someone else
+said it about X"** — three different claims; collapsing them produces false
+conclusions. `recall/tools/scan_by_speaker.py` separates them.
+
+### Tool blind spots (learned the hard way)
 
 | Tool | Blind spot | Consequence |
 |---|---|---|
@@ -52,73 +49,20 @@ Rules:
 | `get_meeting_transcript` | Large ones persist to disk; small ones return inline | Inline transcripts never touch disk, so disk scanners miss them — track separately |
 | `Slack` search | Paginates at 20; keyword-only misses paraphrases | Page to the end; semantic search is available |
 
-The 2026-08-29 case is the reference example: a search of 71 meetings for
-"Saturday" returned zero hits while the relevant exchange sat verbatim in a
-transcript, absent from that meeting's own AI summary. Full write-up in
-`recall/findings/2026-08-29-carla-saturday.md`.
+Reference case: a search of 71 meetings for "Saturday" returned zero hits while
+the relevant exchange sat verbatim in a transcript, absent from that meeting's
+own AI summary. Write-up:
+[`recall/findings/2026-08-29-carla-saturday.md`](recall/findings/2026-08-29-carla-saturday.md).
 
-## Layout
+### Where transcripts live
 
-```
-CLAUDE.md                     these rules
-recall/
-├── README.md                 workflow and playbook — read first
-├── index/                    what meetings exist, per window, with coverage status
-├── findings/                 answered questions, with citations and scope
-└── tools/                    scan scripts + fetch procedure
-archive/                      local transcript cache — GITIGNORED, never commit
-```
+`ops/archive/` is the curated, committed store (Lane 3, append-only) — per the
+lane ownership law above. `/archive/` at the repo root is a **gitignored scratch
+cache** for a single session's scans; it is not a second archive and must not be
+committed.
 
-## Privacy
+### Timezone caution
 
-`archive/` is gitignored and stays that way. Raw transcripts contain consumer
-credit account numbers, client home addresses, identity-theft and SSN case
-detail, employee compensation and termination discussions, and credential
-references. Fathom is the system of record and stores them durably under its own
-access controls; copying them into git adds exposure and no durability.
-
-Commit the index and findings — metadata plus narrowly quoted excerpts. Quote
-only what an answer needs. Never paste client account numbers or addresses into
-a committed file.
-
-## People
-
-| Name | Slack ID | Email | Notes |
-|---|---|---|---|
-| Alan Nguyen | `U0ADC1UNXAQ` | nguyenalan95@gmail.com | Owner |
-| Carla Stivala | `U0BNZC4G6ER` | cvstivala@icloud.com / carla@ascendprimewealth.com | Ops/admin lead; TZ America/New_York |
-| Lynn (Neves) | `U0BMPBL29UN` | neves.lynn7@gmail.com | Setting/sales |
-| Ina Grace Langub | `U0BPYLF1MA4` | langubinagrace@gmail.com | Dispute team; Philippines TZ |
-| Rosemarie Anne Fabian | — | rosemarieannefabian@gmail.com | Dispute team |
-| Sabrina Neves | — | — | Recorder on several calls |
-| Ma. Liza Tizon ("ML") | — | malizgill31@gmail.com | Joined ~Aug 28 |
-| Constantine Adamopoulos | — | — | External sales coach |
-| Braden Sky | — | — | External recruiter |
-| Clint Losch | — | clint@scaleclients.io | External |
-| Daniel Jimenez | — | — | External, GoHighLevel tech |
-
-Note the timezone spread — Grace and Rosemarie are in the Philippines. A
-"Saturday" in a transcript may be theirs, not the speaker's.
-
-## Key Slack channels
-
-| ID | Channel |
-|---|---|
-| `C0BR5H27FAP` | Group DM: Alan + Lynn + Carla |
-| `D0BP6H6AF44` | DM: Alan + Carla |
-| `D0BMPBLHXSA` | DM: Alan + Lynn |
-| `C0BPFS7HN05` | `#--daily-start-and-end-of-day-reports` |
-| `C0AJ9D4NEQ4` | `#alan-nguyen9145` |
-| — | `#-announcements`, `#admin-ops-staff`, `#sales-team-chat` |
-
-## Recurring meeting structure (as of 2026-08-28)
-
-Useful for locating a conversation by time of day. Restructured repeatedly
-during Aug 2026 — verify against the calendar before relying on it.
-
-- Daily Sync 7:00–7:30 (capped at 30 min)
-- Operations 7:30–8:15
-- Dispute team 8:15–9:00
-- Sales daily 11:00
-- Alan's open office hours 9:00–10:00 Mon/Tue/Thu
-- Tuesdays & Fridays 9:00–10:00 blocked for owner strategic work
+Grace and Rosemarie are in the Philippines. A "Saturday" in a transcript may be
+theirs, not the speaker's. People and Slack channel IDs:
+[`recall/README.md`](recall/README.md).

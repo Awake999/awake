@@ -90,15 +90,22 @@ One file per answered question in `recall/findings/`, named
 
 A finding without a coverage section is not finished.
 
-## Privacy
+## Where transcripts live, and what this directory does not duplicate
 
-`archive/` is gitignored and must stay that way. Raw transcripts contain
-consumer credit account numbers, client addresses, identity-theft case detail,
+Two different things, easy to confuse:
+
+- **`ops/archive/`** — the repo's curated, committed archive (Fathom, Krisp,
+  Slack, GHL), owned by Lane 3 and append-only per the lane law in `CLAUDE.md`.
+  It is the durable store, and it already covers many calls.
+- **`/archive/` at the repo root** — a **gitignored scratch cache** holding one
+  session's raw tool output so the scanners have something to grep. It is not a
+  second archive. Never commit it, and never treat its contents as canonical.
+
+Findings and the index in `recall/` are metadata plus narrowly quoted excerpts,
+which is why they commit safely. Keep it that way: quote what the answer needs,
+not whole passages, and never paste client account numbers or home addresses
+into a finding.
+
+Handle raw transcripts as sensitive wherever they sit. They contain consumer
+credit account numbers, client addresses, identity-theft and SSN case detail,
 employee compensation and termination discussions, and credential references.
-Fathom is the system of record and already stores them durably with its own
-access controls; copying them into git adds exposure and no durability.
-
-Findings and the index are safe to commit because they are metadata plus
-narrowly quoted excerpts. Keep it that way — quote what the answer needs, not
-whole passages, and never paste client account numbers or addresses into a
-finding.

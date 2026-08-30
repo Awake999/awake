@@ -88,11 +88,23 @@ python3 recall/tools/scan_by_speaker.py --dir archive/transcripts \
 Run all three. They answer different questions, and conflating them is how a
 "nobody said that" conclusion goes wrong.
 
-## Archiving: why transcripts are not committed
+## Archiving: the scratch cache vs. the real archive
 
-`archive/` is in `.gitignore` deliberately.
+`/archive/` at the repo root is gitignored deliberately. It is a **per-session
+scratch cache** — raw tool output, kept only so the scanners have something to
+grep — and it is not the archive of record.
 
-Raw transcripts from this business routinely contain:
+The repo's durable, committed archive is **`ops/archive/`** (Lane 3,
+append-only, per the lane law in `CLAUDE.md`). If a call belongs in the
+permanent record, it goes there through Lane 3's process, not by committing this
+scratch directory.
+
+**Check `ops/archive/calls/fathom/INDEX.md` before fetching anything** — the
+call may already be archived, which saves a fetch and gives you a curated
+transcript alongside the raw original.
+
+Whichever store you are in, treat raw transcripts as sensitive. They routinely
+contain:
 
 - consumer credit account numbers and partial identifiers
 - client full names with home addresses
@@ -100,17 +112,11 @@ Raw transcripts from this business routinely contain:
 - employee compensation, performance, and termination discussions
 - references to credentials and login procedures
 
-Committing that to git makes it permanent and effectively unredactable — history
-rewriting across clones is not a real remedy. The transcripts are already stored
-durably in Fathom, which is the system of record and has its own access
-controls. Duplicating them into a code repository adds exposure and no
-durability.
+Anything committed becomes effectively permanent — rewriting history across
+clones is not a real remedy. So quote narrowly in findings, and never paste
+account numbers or home addresses into a summary document.
 
-**What is worth persisting instead** — and what this directory holds — is the
-*index* (which meetings exist), the *method* (these scripts), and the *findings*
-(what was concluded, with citations). Those are what die with an ephemeral
-container; the transcripts do not.
-
-If a durable transcript archive is ever genuinely needed, that is a deliberate
-decision for the business to make, and it should go to access-controlled
-storage with a retention policy — not to a git remote.
+**What `recall/` persists** is the *index* (which meetings exist, and how much
+of each window was actually read), the *method* (these scripts), and the
+*findings* (what was concluded, with citations). Those are what die with an
+ephemeral container.
