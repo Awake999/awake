@@ -266,6 +266,7 @@
   <a href="#chain">Phase Chain</a>
   <a href="#pipeline">Pipeline</a>
   <a href="#truth">Funnel Truth</a>
+  <a href="#people">Every Person</a>
   <a href="#revenue">Revenue Ledger</a>
   <a href="#fulfillment">Fulfillment</a>
   <a href="#growth">Growth Engine</a>
@@ -559,6 +560,25 @@
   </div>
 </section>
 
+<!-- ============ EVERY PERSON ============ -->
+<section id="people">
+  <div class="sec-head"><span class="mark">03c</span><h2>Every Person — the full book, one row each</h2>
+    <span class="note"><span id="people-count">83</span> tracked · click a name to open + edit their profile</span></div>
+  <div class="panel">
+    <p class="sub">Every lead and client, no exceptions. <strong style="color:var(--ink)">Name → their Notion row</strong> (the modular edit surface: flip Stage/Triaged/Qualification, add notes — this board recomputes from it). 🎥 = the actual call recording. Live layer refreshes this table from Notion; blank cells are honestly blank in the tracker, not hidden.</p>
+    <div style="display:flex; gap:10px; flex-wrap:wrap; margin:10px 0 14px">
+      <input id="people-search" type="search" placeholder="Search name…" style="background:var(--raised); border:1px solid var(--line); color:var(--ink); border-radius:6px; padding:7px 12px; font-size:13px; font-family:inherit; min-width:200px">
+      <select id="people-stage" style="background:var(--raised); border:1px solid var(--line); color:var(--ink); border-radius:6px; padding:7px 10px; font-size:13px; font-family:inherit">
+        <option value="">All stages</option><option>Booked Call</option><option>Showed</option><option>Offer Made</option><option>Closed Won</option><option>Closed Lost</option><option>No-Show</option><option>Nurture</option><option>Unqualified</option>
+      </select>
+    </div>
+    <div class="tbl-wrap"><table style="min-width:860px">
+      <thead><tr><th>Person</th><th>Stage</th><th>Entry Path</th><th>Qualification</th><th class="num">Ask</th><th class="num">Deal</th><th>Last Touch</th><th>Show</th></tr></thead>
+      <tbody id="roster-body"></tbody>
+    </table></div>
+  </div>
+</section>
+
 <!-- ============ REVENUE LEDGER ============ -->
 <section id="revenue">
   <div class="sec-head"><span class="mark">04</span><h2>Revenue Ledger — every dollar, its status, its proof</h2></div>
@@ -795,6 +815,134 @@
   })();
 </script>
 <script>
+  /* ===== Every Person roster: static snapshot (8/30) + live refresh ===== */
+  (function () {
+    // [name, stage, entryPath, qualification, ask, deal(-1=empty), lastTouch, notionId]
+    window.APW_ROSTER = [
+      ["Abayomi S.","Booked Call","","",200000,-1,"2026-04-26","3b75bb1ffef481fa9f86e4206684204f"],
+      ["Andrew W.","Booked Call","","",50000,-1,"2026-07-19","3b75bb1ffef481869d23f7d09c2d40a2"],
+      ["Antonio J.","Booked Call","","",0,-1,"2026-08-02","3b85bb1ffef48189b965cfbb335f4e45"],
+      ["Armand A.","Booked Call","","",50000,-1,"2026-07-19","3b75bb1ffef481efaee2fbc3d59976b8"],
+      ["Behnad Z.","Booked Call","Opt-In Form","",1000000,-1,"2026-08-12","3cc5bb1ffef481af8816c2d2c08d3084"],
+      ["Bryon C.","Booked Call","","",200000,-1,"2026-07-28","3b75bb1ffef4813eb30bd2c500c4fa54"],
+      ["Charlie M.","Booked Call","","",50000,-1,"2026-07-14","3b75bb1ffef48180acb2c5f5a1ffdc2c"],
+      ["Dance K.","Booked Call","","",0,-1,"2026-06-22","3b95bb1ffef481e18eeaf24f24d982df"],
+      ["David S.","Booked Call","Opt-In Form","",0,-1,"2026-08-22","3cc5bb1ffef481f88939f53cc87ce6ae"],
+      ["Desi H.","Booked Call","","",0,-1,"2026-08-06","3b85bb1ffef4819795cec21e775976a8"],
+      ["Donnie B.","Booked Call","","",200000,-1,"2026-06-21","3b75bb1ffef4812196a7d7d50da2f94f"],
+      ["Drandre T.","Booked Call","","",500000,-1,"2026-07-15","3b75bb1ffef481cfb17ce3a0dcff26a5"],
+      ["Ed McC.","Booked Call","Opt-In Form","",0,-1,"2026-08-21","3cc5bb1ffef48186bd55ce74f758a29e"],
+      ["George T.","Booked Call","Opt-In Form","",0,-1,"2026-08-16","3cc5bb1ffef481d29988dc62318d6502"],
+      ["Jack K.","Booked Call","","",0,-1,"2026-08-04","3b85bb1ffef481cca720c98a6cb75bda"],
+      ["James B.","Booked Call","","",300000,-1,"2026-06-30","3b75bb1ffef481d9b3f8c640521a47f3"],
+      ["Jesse H.","Booked Call","","",0,-1,"2026-08-08","3b85bb1ffef4818c8e25fd1196a4aa0c"],
+      ["Jose D.","Booked Call","","",50000,-1,"2026-07-19","3b75bb1ffef481bc9d2afa1d2a1570bd"],
+      ["Jose R.","Booked Call","","",100000,-1,"2026-07-05","3b75bb1ffef481b1b6aaf135842b8a8c"],
+      ["Ken'Bre M.","Booked Call","","",1000000,-1,"2026-07-23","3b75bb1ffef481fa98f2e5811afa2b6e"],
+      ["Kesavan R.","Booked Call","","",50000,-1,"2026-07-30","3b75bb1ffef481968ebbcfeaa5cf3d8f"],
+      ["Kevin C.","Booked Call","","",0,-1,"2026-04-27","3b75bb1ffef4811d901fd1cc1fe782ad"],
+      ["Lee M.","Booked Call","Opt-In Form","",0,-1,"2026-08-26","3cc5bb1ffef48111b010e4ca59dbaf18"],
+      ["Michael R.","Booked Call","","",0,-1,"2026-07-07","3b85bb1ffef4819fb6bef019eb7a774d"],
+      ["Milad K.","Booked Call","","",200000,-1,"2026-06-26","3b75bb1ffef481ca94fbcf584bf97e45"],
+      ["Ms Terry","Booked Call","Opt-In Form","",1000000,-1,"2026-08-13","3cc5bb1ffef481179b6df80d5e0d0616"],
+      ["Nia B.","Booked Call","","",50000,-1,"2026-07-11","3b75bb1ffef4813e858cd7b57fa42dc4"],
+      ["Rena S.","Booked Call","","",500000,-1,"2026-07-30","3b75bb1ffef481629415e0f83c291688"],
+      ["Ric I.","Booked Call","","",200000,-1,"2026-07-01","3b75bb1ffef4812e8fa0cafdf4bf3917"],
+      ["Rico R.","Booked Call","","",50000,-1,"2026-07-20","3b75bb1ffef48198ae0fd500c2aa0a9e"],
+      ["Robert S.","Booked Call","","",500000,-1,"2026-07-29","3b75bb1ffef48121b4d1f566ff371bbd"],
+      ["Ronrecus G.","Booked Call","","",50000,-1,"2026-07-07","3b75bb1ffef481cca3ecc2d8636e16b0"],
+      ["Sari G.","Booked Call","","",200000,-1,"2026-04-24","3b75bb1ffef481538eb2d66b80bfc8d4"],
+      ["Shamar S.","Booked Call","","",0,-1,"2026-08-03","3b85bb1ffef481ceb271c12cd3a0a9f7"],
+      ["Stephen G.","Booked Call","Opt-In Form","",0,-1,"2026-08-13","3cc5bb1ffef4815bbeaaf99de42db195"],
+      ["Tarlochan S.","Booked Call","Opt-In Form","",0,-1,"2026-08-17","3cc5bb1ffef4815c9007d6cf12e09acf"],
+      ["Tessa N.","Booked Call","Opt-In Form","",0,-1,"2026-08-23","3cc5bb1ffef481549c07dc66fd149ff7"],
+      ["Trent H.","Booked Call","","",0,-1,"2026-08-02","3b85bb1ffef4814b9c85deb83ccca1c4"],
+      ["Vernon L.","Booked Call","","",1000000,-1,"2026-07-17","3b75bb1ffef48163a4b2fd5823564225"],
+      ["Jennifer U.","Closed Lost","","Unqualified - Offer Mismatch",250000,-1,"2026-08-07","3b75bb1ffef481cda846db107d10f959"],
+      ["Zacherly S.","Closed Lost","","",200000,-1,"2026-08-10","3b75bb1ffef48167a5b4c1715b9c50c5"],
+      ["Ed C.","Closed Won","","Qualified - Main Offer",1000000,2000,"2026-08-28","3b75bb1ffef48114b344e6f5db65eea9"],
+      ["Jill P.","Closed Won","","Qualified - Main Offer",300000,15000,"2026-07-31","3b75bb1ffef481cc8fb4fc1e0b1f7728"],
+      ["Leo D.","Closed Won","","Downsell - Credit Rebuild",100000,12000,"2026-08-12","3b75bb1ffef4816f91f6c9cb50c911ad"],
+      ["Matt L.","Closed Won","","",500000,0,"2026-08-28","3b75bb1ffef48172b371e1fd44fdb91e"],
+      ["Nick S. (ExtremeFunMI)","Closed Won","","",200000,500,"2026-08-26","3c85bb1ffef481a3a2d2f0ae3835ac3d"],
+      ["Todd L.","Closed Won","Referral","Qualified - Main Offer",0,0,"2026-08-30","3b75bb1ffef481faab74cd4ceba6e95d"],
+      ["Cordero G.","No-Show","","",200000,-1,"2026-06-30","3b75bb1ffef48196a8c3ebb43e61bb2b"],
+      ["David B.","No-Show","","",100000,-1,"2026-07-07","3b75bb1ffef4818f8e7fe98fe8aff0e2"],
+      ["Eliel N.","No-Show","","",300000,-1,"2026-07-09","3b75bb1ffef4812e985fed7c71e159a3"],
+      ["Fabio C.","No-Show","","",200000,-1,"2026-07-15","3b75bb1ffef4810b82c7f062c2f379d5"],
+      ["Flavio P.","No-Show","","",300000,-1,"2026-07-15","3b75bb1ffef481c38cb5cc095ee83d06"],
+      ["Luis R.","No-Show","","",100000,-1,"2026-06-29","3b75bb1ffef4813fa8a8cd8c696911bc"],
+      ["Marcos M.","No-Show","","",100000,-1,"2026-06-30","3b75bb1ffef48198966ef84e4d312e68"],
+      ["Patrick O.","No-Show","","",100000,-1,"2026-07-28","3b75bb1ffef4812eb09ad2ebc19af162"],
+      ["Pedro (CDL)","No-Show","","",0,-1,"2026-08-18","3c15bb1ffef4810c9a2fc90c5c81c673"],
+      ["Ran D.","No-Show","","",300000,-1,"2026-07-16","3b75bb1ffef481e79383db647c8fb158"],
+      ["Valentino G.","No-Show","","",1000000,-1,"2026-07-11","3b75bb1ffef481d3891ee8b4fcf32aee"],
+      ["Yasantha L.","No-Show","","",500000,-1,"2026-06-27","3b75bb1ffef4812284b9f104b8d0c430"],
+      ["Chris B.","Nurture","","",50000,-1,"2026-08-07","3b75bb1ffef481a18690e80be1452227"],
+      ["Michael M. (wellness ctr)","Nurture","","Unqualified - No Funds",200000,1000,"2026-08-27","3c25bb1ffef48167a52be1cac6373e84"],
+      ["Stefan","Nurture","","",0,-1,"2026-08-18","3c15bb1ffef481139b64f9b6f6e38f5e"],
+      ["Ashwini A.","Offer Made","","",500000,-1,"2026-08-28","3b75bb1ffef48156b3a6dcfac60e8e14"],
+      ["George J.","Offer Made","","",50000,-1,"2026-07-01","3b75bb1ffef481e1b1d5e2756a6275a3"],
+      ["Joe S.","Offer Made","","",0,-1,"2026-08-08","3b75bb1ffef481eabc67f6066358a4c0"],
+      ["Karl K. (Modern Thyroid Clinic)","Offer Made","Referral","Qualified - Main Offer",750000,7500,"2026-08-20","3b95bb1ffef48139a66fd1d90439d729"],
+      ["Pradeep B.","Offer Made","","",200000,-1,"2026-08-07","3b75bb1ffef4811cae89c7cbbbd58fb2"],
+      ["Robert M.","Offer Made","","Downsell - Credit Rebuild",1000000,-1,"2026-08-27","3c95bb1ffef481c8bf6cf87b5915c6e7"],
+      ["Whitney Y.","Offer Made","","",300000,-1,"2026-08-10","3b75bb1ffef481339557f53bd7f57326"],
+      ["Yeshaya D.","Offer Made","","",1500000,-1,"2026-08-14","3bc5bb1ffef4813caf97de68e8ae061c"],
+      ["Allen S.","Showed","","",100000,-1,"2026-07-27","3b75bb1ffef481709737ce87b86dfb67"],
+      ["Bryan (RE dev)","Showed","","",1400000,-1,"2026-08-08","3b75bb1ffef4812fb11ad477dfe02b9d"],
+      ["Carmen M.","Showed","","",25000,-1,"2026-08-01","3b75bb1ffef481369488cd0c55476bd4"],
+      ["Chris M.","Showed","","Downsell - Credit Rebuild",0,-1,"2026-08-27","3c95bb1ffef481c9ab9bd7dd26f6fefd"],
+      ["Connor R.","Showed","Opt-In Form","",0,-1,"2026-08-17","3bf5bb1ffef48150b0a1d7cce41368bb"],
+      ["Ghani A.","Showed","","Unqualified - Offer Mismatch",100000,-1,"2026-07-15","3b75bb1ffef481b48d4aea1c126cc0fd"],
+      ["Gunjan P.","Showed","","",300000,-1,"2026-08-01","3b75bb1ffef481a3b4e6f852fa6328f0"],
+      ["Johnny S.","Showed","","",500000,-1,"2026-07-22","3b75bb1ffef48156870bf0b653e7a02d"],
+      ["Lonnie G.","Showed","","",100000,-1,"2026-06-21","3b75bb1ffef481a7bd5ced6d4ed68151"],
+      ["Myla M.","Showed","","",100000,-1,"2026-07-31","3b75bb1ffef4811cb490c02d65d520de"],
+      ["P Reddy P.","Showed","","",0,-1,"2026-08-10","3b85bb1ffef481868853f960a3db76e7"],
+      ["Jennifer L.","Unqualified","","",200000,-1,"2026-04-30","3b75bb1ffef481b2a6f5e212c94bede5"],
+      ["Lynn N.","Unqualified","","",0,-1,"2026-07-08","3b75bb1ffef481188c39c241871b9130"]
+    ];
+    // Verified show recordings (from BOOKING_ROSTER_AUDIT.md; s = secondary evidence)
+    window.APW_FATHOM = {
+      "Lonnie G.":"718619432","Matt L.":"723857619","Ed C.":"726927356","George J.":"730407363",
+      "Whitney Y.":"735878820","Jill P.":"739063325","Ghani A.":"746607489","Johnny S.":"s754023963",
+      "Allen S.":"759494613","Ashwini A.":"762499930","Leo D.":"762747396","Gunjan P.":"767888047",
+      "Myla M.":"s768849661","Zacherly S.":"766265132","Carmen M.":"768936830","Chris B.":"768297031",
+      "Joe S.":"775117203","Pradeep B.":"775117204","Jennifer U.":"775643888","P Reddy P.":"777298604",
+      "Yeshaya D.":"783351348","Connor R.":"788222126","Karl K. (Modern Thyroid Clinic)":"791088813",
+      "Michael M. (wellness ctr)":"791826979","Nick S. (ExtremeFunMI)":"795906442","Robert M.":"798787726",
+      "Chris M.":"798638035","Todd L.":"800283407","Bryan (RE dev)":"777749171"
+    };
+    var STAGE_CLS = {"Closed Won":"good","Offer Made":"warn","Showed":"gold","Closed Lost":"crit","No-Show":"crit","Unqualified":"mut","Nurture":"mut","Booked Call":"mut","Contacted":"mut","New Lead":"mut"};
+    function esc(s){var d=document.createElement('span');d.textContent=s;return d.innerHTML;}
+    function money(n){return !n||n<=0?"—":(n>=1e6?"$"+(n/1e6).toFixed(1).replace(/\.0$/,"")+"M":"$"+Math.round(n/1e3)+"K");}
+    window.renderRoster = function () {
+      var q=(document.getElementById('people-search').value||"").toLowerCase();
+      var st=document.getElementById('people-stage').value;
+      var body=document.getElementById('roster-body'); if(!body) return;
+      var html="", n=0;
+      window.APW_ROSTER.forEach(function(r){
+        if(st && r[1]!==st) return;
+        if(q && r[0].toLowerCase().indexOf(q)<0) return;
+        n++;
+        var f=window.APW_FATHOM[r[0]], sec=f&&f.charAt(0)==="s", fid=sec?f.slice(1):f;
+        html+="<tr><td class='who'><a href='https://app.notion.com/"+r[7]+"'>"+esc(r[0])+"</a></td>"
+          +"<td><span class='chip "+(STAGE_CLS[r[1]]||"mut")+"'>"+esc(r[1])+"</span></td>"
+          +"<td class='why'>"+esc(r[2]||"—")+"</td><td class='why'>"+esc(r[3]||"—")+"</td>"
+          +"<td class='num mono'>"+money(r[4])+"</td><td class='num mono'>"+(r[5]<0?"—":"$"+r[5].toLocaleString())+"</td>"
+          +"<td class='mono' style='font-size:12px'>"+esc((r[6]||"").slice(5))+"</td>"
+          +"<td>"+(fid?"<a href='https://fathom.video/calls/"+fid+"'>🎥"+(sec?"²":"")+"</a>":"")+"</td></tr>";
+      });
+      body.innerHTML=html;
+      var pc=document.getElementById('people-count'); if(pc) pc.textContent=window.APW_ROSTER.length+(n<window.APW_ROSTER.length?" ("+n+" shown)":"");
+    };
+    document.getElementById('people-search').addEventListener('input', window.renderRoster);
+    document.getElementById('people-stage').addEventListener('change', window.renderRoster);
+    window.renderRoster();
+  })();
+</script>
+<script>
   /* ===== Live layer: refreshes pipeline stats from the viewer's Notion connector ===== */
   (async function () {
     var $ = function (id) { return document.getElementById(id); };
@@ -883,7 +1031,7 @@
 
       var DS = 'collection://5614ffa0-e3d0-40cb-ae64-b32ec52e288c';
       var input = { data: { data_source_urls: [DS], query:
-        'SELECT "Stage", "Attribution Confidence", "Source", "Funding Ask", "date:Last Touch:start" AS lt FROM "' + DS + '"' } };
+        'SELECT url, "Client", "Stage", "Entry Path", "Qualification", "Attribution Confidence", "Source", "Funding Ask", "Deal Value", "date:Last Touch:start" AS lt FROM "' + DS + '"' } };
       var applied = false;
 
       mcp.watchTool('Notion', 'notion-query-data-sources', input, function (ev) {
@@ -896,6 +1044,15 @@
             return;
           }
           apply(computeStats(rows));
+          try { // rebuild the Every Person roster from live data
+            window.APW_ROSTER = rows.map(function (r) {
+              var id = (r.url || "").split("/").pop() || "";
+              return [r["Client"] || "?", r["Stage"] || "New Lead", r["Entry Path"] || "", r["Qualification"] || "",
+                (typeof r["Funding Ask"] === "number" ? r["Funding Ask"] : 0),
+                (typeof r["Deal Value"] === "number" ? r["Deal Value"] : -1), r["lt"] || "", id];
+            }).sort(function (a, b) { return a[1] === b[1] ? (a[0] < b[0] ? -1 : 1) : (a[1] < b[1] ? -1 : 1); });
+            if (window.renderRoster) window.renderRoster();
+          } catch (e) { /* roster keeps snapshot */ }
           applied = true;
           var ts = (ev.result.cache && ev.result.cache.storedAt) ? new Date(ev.result.cache.storedAt) : new Date();
           setBadge('live', 'Live · Notion · ' + ts.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }));
