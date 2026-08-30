@@ -1,5 +1,5 @@
 # APW MULTI-LANE OPERATING SOP — binding on every lane
-*v1.2 · 2026-08-30 (v1.1 laws; v1.2 adds §1.9 Interaction Protocol) · Owner: Lane 1 (Command). A lane that has not read this file this session may not write anything.*
+*v1.3 · 2026-08-30 (v1.2 §1.9 protocol; v1.3 adds §1.9 steps 5b/8b: model line on EVERY reply + compliance footer + conversation ledger) · Owner: Lane 1 (Command). A lane that has not read this file this session may not write anything.*
 
 ## 0. THE NEVER-MISS PROTOCOL (Law 0 — outranks everything; from Alan: "plan a strategy to NEVER miss on a user prompt. ESPECIALLY a 2nd reprompt")
 
@@ -35,6 +35,10 @@ The loop, for EVERY user prompt:
 6. **ASK-THEN-EXECUTE** — execute only on the user's confirm.
 7. **SCORECARD** — after execution, a cross-off table, one row per checklist item, columns: Item · Done? · Status · % complete · Quality · Why rated that way · Suggested improvements · Clickable link straight to the work · Before → After.
 8. **CLOSE** — every final output ends with buttons (incl. Claude-suggested options) + a timeline tracker + progress trackers of the micro AND the macro.
+
+**5b. NO SIZE EXCEPTION** — the model/effort line appears on EVERY reply, micro replies included (miss logged 8/30, register #94b).
+**8b. COMPLIANCE FOOTER** — every reply ends with one compact SOP-check line: ✓/✗ per protocol step + links to [the SOP](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/SOP.md) and the run's checklist. Lean in the reply; depth one click away ("don't bloat, but let me verify" — Alan).
+**8c. CONVERSATION LEDGER** — every session re-archives its raw transcript at batch end and regenerates ops/archive/conversation/ via ops/tools/build_conversation_ledger.py (numbered NNN-title-date-timeZ files; prompt verbatim open, AI layers collapsible; vanilla-friendly README). Honest limit on record: the platform stores thinking blocks EMPTY — the 🧠 layer is unavailable for any turn, by platform design, not by loss.
 
 Standing exception unchanged (§1.7): autonomous/scheduled runs close with a quick-answer line instead of buttons. New lanes inherit this automatically via the root CLAUDE.md.
 

@@ -8,5 +8,6 @@
 
 | Checklist | Source prompt (Alan's words only) |
 |---|---|
+| [Conversation ledger + compliance footer (8/30)](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/checklists/2026-08-30-conversation-ledger-CHECKLIST.md) | [verbatim](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/prompts/2026-08-30-conversation-ledger-spec.md) |
 | [SOP versioning + format (8/30)](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/checklists/2026-08-30-sop-versioning-CHECKLIST.md) | [verbatim](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/prompts/2026-08-30-sop-versioning-format-spec.md) |
 | [Interaction protocol, 21 asks (8/30)](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/INTERACTION_PROTOCOL_CHECKLIST.md) | [verbatim](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/prompts/2026-08-30-interaction-protocol-spec.md) |
