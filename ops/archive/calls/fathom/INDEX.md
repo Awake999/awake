@@ -12,9 +12,9 @@
 | 2026-08-28 | Client Call (CSM) ★ Funnel rebuild w/ Jacob (Sep 1 A/B) | 177941051 | 801234866 | yes → `2026-08-28--funnel-rebuild-with-jacob--177941051/` |
 | 2026-08-28 | Impromptu Zoom Meeting ★ Revenue diagnosis ($0 August) | 177894725 | 803087357 | yes → `2026-08-28--revenue-diagnosis-zero-august--177894725/` |
 | 2026-08-28 | Impromptu Zoom Meeting ★ ICP mismatch | 177881372 | 803053542 | yes → `2026-08-28--constantine-icp-mismatch--177881372/` |
-| 2026-08-28 | Impromptu Zoom Meeting | 177853139 | 802994217 | no |
-| 2026-08-28 | Impromptu Zoom Meeting | 177851352 | 802985297 | no |
-| 2026-08-27 | Impromptu Zoom Meeting | 177669876 | 801909953 | no |
+| 2026-08-28 | Impromptu Zoom Meeting — top of market fit training | 177853139 | 802994217 | yes → `2026-08-28--top-of-market-fit-training--177853139/` |
+| 2026-08-28 | Impromptu Zoom Meeting — pre-training check-in | 177851352 | 802985297 | yes → `2026-08-28--pre-training-check-in--177851352/` |
+| 2026-08-27 | Impromptu Zoom Meeting — Michael Moore post-mortem + August review | 177669876 | 801909953 | yes → `2026-08-27--michael-moore-postmortem-august-review--177669876/` |
 | 2026-08-27 | Impromptu Zoom Meeting ★ 4-day dispute doctrine | 177662775 | 801867207 | yes → `2026-08-27--four-day-dispute-doctrine--177662775/` |
 | 2026-08-27 | Robert Morawitz - Guaranteed Funding ★ Qualification standard origins | 177627271 | 798787726 | yes → `2026-08-27--robert-morawitz-qualification-origins--177627271/` |
 | 2026-08-27 | Impromptu Zoom Meeting | 177571208 | 801601613 | no |
