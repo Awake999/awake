@@ -10,7 +10,7 @@
 |---|---|---|---|---|
 | 2026-08-29 | 11:56 AM WaveLink (Alan solo) | 01a04398e255704bb597f032837a95b6 | 4h | no |
 | 2026-08-29 | 09:33 AM WaveLink (Brian Northington, Kevin, Alan) | 01a0438eca1d72bc81369f8ab15e1bdf | 2.4h | no |
-| 2026-08-28 | 09:15 AM WaveLink ★ (Alan, Carla, Lynn, Constantine, Jacob — day capture incl. coaching + funnel calls) | 01a03ec7bda3775ca1cd835bf3717525 | 4h | no |
+| 2026-08-28 | 09:15 AM WaveLink ★ (Alan, Carla, Lynn, Constantine, Jacob — day capture incl. coaching + funnel calls) | 01a03ec7bda3775ca1cd835bf3717525 | 4h | yes → `2026-08-28--apw-day-capture--01a03ec7bda3775ca1cd835bf3717525/` (+raw) |
 | 2026-08-27 | APW Daily Sync (long capture) | 01a0397a70d9712ca023f2355d9e8b79 | 4h | no |
 | 2026-08-27 | APW Daily Sync - 30 min | 01a03463fe7576838b369b3842524f01 | 10m | no |
 | 2026-08-26 | CCA Office Hours | 01a02878b27f718790525ff61dd3f9db | 4h | no |
@@ -35,7 +35,7 @@
 | 2026-08-09 | 12:12 PM WaveLink (Alan, Sabrina, Daniel) | 019fe7f1889073e1b0575a0f40feb14e | 4h | no |
 | 2026-08-06 | Wafd (x5 segments) | 019fd91b5a3872ba889ba5703a11c2f8 + 019fd903d7d376ae86426a31bc1639eb + 019fd8e4df61762db9ad668f1e3ac87f + 019fd8ce3f2f7279a6fb7f4efa462957 + 019fd8a55d9b77bd9db43e810d636a66 | ~3h total | no |
 | 2026-08-04 | BuildUp Live Masterclass | 019fceeebd6b71afa60edcf931c23cc9 | 4h | no |
-| 2026-08-04 | SCIO Sales Consulting ★ | 019fcdc6c2707289bcdd692b650e0d21 | 4h | no |
+| 2026-08-04 | SCIO Sales Consulting ★ | 019fcdc6c2707289bcdd692b650e0d21 | 4h | yes → `2026-08-04--scio-sales-consulting--019fcdc6c2707289bcdd692b650e0d21/` (+raw) |
 | 2026-08-02 | Alan Nguyen's Zoom Meeting (Alan, Timothy) | 019fc3e4eb2c76958714d55d47de1cda | 89m | no |
 | 2026-07-27 | Sales Spotlight w/ Jeff Smith | 019fa439c7647239918e4467f36e4293 | 4h | no |
 | 2026-07-22 | 12:03 PM WaveLink (Alan, Edwin Choi) | 019f8b36797c722cae1f8c5f4f19eb89 | 4h | no |
@@ -59,7 +59,7 @@
 | 2026-06-25 | Leo DeOrnellas 06.26.2026 | 019f00e385a77116964ca43c7ffa5b6a | 18m | no |
 | 2026-06-25 | Alan Nguyen <> John Duster (John Duster, Matt) | 019f00e17d5571e4aa3311e35fe9a724 | 23m | no |
 | 2026-06-23 | Alan Nguyen <> Startup Funding Discussion | 019ef7298109756a98a2d792aad47fc9 | 26m | no |
-| 2026-06-23 | SCIO Sales Consulting ★ | 019ef5b4e5ea766bbb3023224955e76a | 4h | no |
+| 2026-06-23 | SCIO Sales Consulting ★ | 019ef5b4e5ea766bbb3023224955e76a | 4h | n/a — verified 8/30: recording contains only a mic check ("Check Mike" x7), no meeting content to archive |
 | 2026-06-22 | Sales Spotlight w/ Jeff Smith | 019ef071ef98712491d3d69aee0dcc2b | 4h | no |
 | 2026-06-21 | Donnie Burnes 4.09pm PST | 019eec9b6e107305961097d52644acb5 | 13m | no |
 | 2026-06-21 | Lonnie Goodwin 3.07pm PST | 019eec9b254475c19eefd391dcf16025 | 11m | no |
