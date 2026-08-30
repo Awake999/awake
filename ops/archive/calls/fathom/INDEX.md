@@ -18,12 +18,12 @@
 | 2026-08-27 | Impromptu Zoom Meeting ★ 4-day dispute doctrine | 177662775 | 801867207 | yes → `2026-08-27--four-day-dispute-doctrine--177662775/` |
 | 2026-08-27 | Robert Morawitz - Guaranteed Funding ★ Qualification standard origins | 177627271 | 798787726 | yes → `2026-08-27--robert-morawitz-qualification-origins--177627271/` |
 | 2026-08-27 | Impromptu Zoom Meeting | 177571208 | 801601613 | no |
-| 2026-08-27 | Yeshaya Dank - $1M-$1.5M Dank SPV Funding | 177510654 | 799338949 | no |
+| 2026-08-27 | Yeshaya Dank - $1M-$1.5M Dank SPV Funding | 177510654 | 799338949 | yes → `2026-08-27--yeshaya-dank-spv-funding--177510654/` |
 | 2026-08-27 | Impromptu Zoom Meeting | 177414987 | 801291099 | no |
 | 2026-08-27 | Impromptu Zoom Meeting | 177244544 | 800497411 | no |
-| 2026-08-27 | Chris Mclean - Guaranteed Funding | 177237489 | 798638035 | no |
+| 2026-08-27 | Chris Mclean - Guaranteed Funding | 177237489 | 798638035 | yes → `2026-08-27--chris-mclean-guaranteed-funding--177237489/` |
 | 2026-08-26 | Impromptu Zoom Meeting | 177232030 | 800411730 | no |
-| 2026-08-26 | Todd LoGuidice - Funding Execution | 177223749 | 800283407 | no |
+| 2026-08-26 | Todd LoGuidice - Funding Execution | 177223749 | 800283407 | yes → `2026-08-26--todd-loguidice-funding-execution--177223749/` |
 | 2026-08-26 | Nick Samara - Strategic Consulting Funding | 177160286 | 799338953 | no |
 | 2026-08-26 | Impromptu Zoom Meeting | 177129989 | 800109782 | no |
 | 2026-08-26 | Dispute Team - Daily Zoom Meeting | 177002596 | 798172547 | no |
