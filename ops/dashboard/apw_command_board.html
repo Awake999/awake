@@ -631,6 +631,38 @@
   details.rawbook > summary .chev2 { color: var(--ink-3); margin-right: 8px; }
   details.rawbook[open] > summary .chev2 { transform: rotate(90deg); display: inline-block; }
 
+  /* ============ FUNNEL EXPLORER ============ */
+  .fx-rail { display: flex; gap: 12px; overflow-x: auto; padding: 4px 2px 10px; scroll-snap-type: x proximity; }
+  .fx-group { flex: 1 0 150px; min-width: 150px; scroll-snap-align: start; }
+  .fx-group .gh { font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3); font-weight: 800; margin-bottom: 7px; display: flex; align-items: center; gap: 6px; }
+  .fx-group .gh .gn { width: 18px; height: 18px; border-radius: 50%; border: 1px solid var(--w-cyan); color: var(--w-cyan); display: inline-flex; align-items: center; justify-content: center; font-size: 10px; flex: none; }
+  .fx-btn {
+    display: flex; align-items: center; justify-content: space-between; gap: 8px; width: 100%;
+    font: inherit; font-size: 12px; font-weight: 700; text-align: left;
+    padding: 7px 10px; margin-bottom: 6px; border-radius: 8px; cursor: pointer;
+    background: var(--raised); color: var(--ink-2); border: 1px solid var(--line);
+    transition: border-color .15s ease, box-shadow .2s ease, color .15s ease, transform .12s ease;
+  }
+  .fx-btn:hover { color: var(--ink); border-color: var(--w-cyan); transform: translateY(-1px); }
+  .fx-btn[aria-pressed="true"] {
+    color: var(--ink); border-color: var(--w-cyan); background: var(--teal-soft);
+    box-shadow: 0 0 12px rgba(51,214,245,.3), inset 0 0 8px rgba(51,214,245,.08);
+  }
+  .fx-btn .fn { flex: 1; }
+  .fx-btn .fc { font-family: "Spline Sans Mono", monospace; font-size: 12.5px; color: var(--ink); }
+  .fx-btn .fp { font-size: 10.5px; color: var(--ink-3); min-width: 34px; text-align: right; }
+  .fx-btn[aria-pressed="true"] .fc, .fx-btn[aria-pressed="true"] .fp { color: var(--w-cyan); }
+  @keyframes fxpulse { 0% { transform: scale(1); } 40% { transform: scale(1.22); } 100% { transform: scale(1); } }
+  .fxp { display: inline-block; animation: fxpulse .35s ease; }
+  .fx-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 22px; margin-bottom: 12px; }
+  .fx-head .big { font-size: 40px; font-weight: 600; line-height: 1; background: var(--grad-ice); -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .fx-head .cap { font-size: 12.5px; color: var(--ink-2); }
+  .fx-conv { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 2px; }
+  .fx-conv .cv { font-size: 12px; padding: 4px 11px; border-radius: 999px; background: var(--raised); border: 1px solid var(--line); color: var(--ink-2); }
+  .fx-conv .cv b { color: var(--ink); font-family: "Spline Sans Mono", monospace; }
+  .fx-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  @media (prefers-reduced-motion: reduce) { .fxp { animation: none; } .fx-btn { transition: none; } }
+
   .vbtn { background: none; border: none; padding: 0; cursor: pointer; font: inherit; }
   .vbtn:hover .chip { box-shadow: 0 0 8px rgba(51,214,245,.4); }
   #roster-tbl tbody tr.rrow { cursor: pointer; }
@@ -899,6 +931,26 @@
 
 <!-- ================================================================ PROSPECTS -->
 <div class="tabpane" id="pane-prospects" hidden>
+
+<section id="explorer">
+  <div class="sec-head"><span class="sic" style="color:var(--w-cyan)"><svg class="ic"><use href="#i-funnel"/></svg></span><h2>Funnel Explorer — lead start → lead end</h2>
+    <span class="note">multi-toggle any buttons · every number recomputes live · <a href="https://github.com/Awake999/awake/blob/claude/dashboard-lane-polish/ops/prompts/2026-08-30-funnel-explorer-spec.md">your spec, verbatim ↗</a></span></div>
+  <div class="panel reveal" data-no-tilt>
+    <div class="fx-head">
+      <span class="big" id="fx-n">—</span>
+      <span class="cap">leads in view · <span id="fx-of">—</span> total · filters stack left → right, booking &amp; outcome on the right</span>
+    </div>
+    <div class="fx-rail" id="fx-rail"></div>
+    <div class="fx-conv" id="fx-conv"></div>
+    <div class="fx-actions">
+      <button type="button" class="theme-toggle" style="margin-left:0" id="fx-owner">Owner view</button>
+      <button type="button" class="theme-toggle" id="fx-closer">Closer view</button>
+      <button type="button" class="theme-toggle" id="fx-clear">Clear all</button>
+      <button type="button" class="theme-toggle" id="fx-copy">Copy this report</button>
+    </div>
+    <p class="sub" style="margin:10px 0 0" id="fx-note">Speed-window and in/out-of-hours read the tracker's live fields — historical rows show Unknown until the GHL speed-to-lead join lands (queued for Lane 1). In-hours = Mon–Fri 7:00am–5:45pm PT, per Alan 8/30.</p>
+  </div>
+</section>
 
 <section id="roster">
   <div class="sec-head"><span class="sic" style="color:var(--w-cyan)"><svg class="ic"><use href="#i-people"/></svg></span><h2>Every Prospect — the full book, live</h2>
@@ -1895,8 +1947,11 @@
     if (!cur) window.APW_FIX[name] = 'no'; /* first tap on a wrong ✓ usually means "did NOT show" */
     else { var i = order.indexOf(cur); if (i === order.length - 1) delete window.APW_FIX[name]; else window.APW_FIX[name] = order[i + 1]; }
     try { localStorage.setItem('apw-showed-fix', JSON.stringify(window.APW_FIX)); } catch (e) {}
-    if (window.renderRoster) try { window.renderRoster(); } catch (e) {}
-    if (window.applyRosterViewLive) try { window.applyRosterViewLive(); } catch (e) {}
+    if (window.APW_FX_REFRESH) try { window.APW_FX_REFRESH(); } catch (e) {}
+    else {
+      if (window.renderRoster) try { window.renderRoster(); } catch (e) {}
+      if (window.applyRosterViewLive) try { window.applyRosterViewLive(); } catch (e) {}
+    }
     window.APW_FIXLIST();
   };
   window.APW_FIXLIST = function () {
@@ -1923,6 +1978,184 @@
     });
   })();
 </script>
+
+<script>
+  /* ===== FUNNEL EXPLORER — faceted multi-toggle engine (Alan's 8/30 spec, confirmed) ===== */
+  (function () {
+    var GROUPS = [
+      { k: 'entry',  t: 'Lead In',            n: 1, vals: [['Opt-In Form','Opt-In'], ['Direct Booked Call','Direct-Book'], ['DM','DM'], ['Referral','Referral'], ['unk','Untagged']] },
+      { k: 'speed',  t: 'Speed to Lead',      n: 2, vals: [['sub1','≤ 1 min'], ['sub2','≤ 2 min'], ['slow','> 2 min'], ['unk','Unknown']] },
+      { k: 'hours',  t: 'Hours (M–F 7:00–5:45 PT)', n: 3, vals: [['in','In-hours'], ['out','Out-of-hours'], ['unk','Unknown']] },
+      { k: 'triage', t: 'Triage',             n: 4, vals: [['yes','Triaged'], ['no','Not triaged'], ['unk','Unknown']] },
+      { k: 'qual',   t: 'Qualification',      n: 5, vals: [['main','Main Offer'], ['down','Downsell'], ['unq','Unqualified'], ['unk','Not assessed']] },
+      { k: 'show',   t: 'Showed',             n: 6, vals: [['yes','Showed ✓'], ['no','No-Show ✕'], ['unk','Unknown ?']] },
+      { k: 'dispo',  t: 'Disposition',        n: 7, vals: [['booked','Booked (pending)'], ['offer','Offer Made'], ['won','Closed Won'], ['lost','Closed Lost'], ['nurture','Nurture'], ['unqual','Unqualified'], ['other','Other']] }
+    ];
+    var SETS = {}; GROUPS.forEach(function (g) { SETS[g.k] = {}; });
+
+    function laClock(created) { /* in-hours = Mon-Fri 7:00am-5:45pm PT (Alan, 8/30) */
+      try {
+        var d = new Date(String(created).replace(' ', 'T'));
+        if (isNaN(d)) return null;
+        var parts = new Intl.DateTimeFormat('en-US', { timeZone: 'America/Los_Angeles', weekday: 'short', hour: 'numeric', minute: 'numeric', hour12: false }).formatToParts(d);
+        var h = 0, m = 0, wd = '';
+        parts.forEach(function (p) { if (p.type === 'hour') h = +p.value; if (p.type === 'minute') m = +p.value; if (p.type === 'weekday') wd = p.value; });
+        return { mins: h * 60 + m, weekday: ['Mon','Tue','Wed','Thu','Fri'].indexOf(wd) >= 0 };
+      } catch (e) { return null; }
+    }
+    function qb(q) {
+      if (!q) return 'unk';
+      if (q.indexOf('Qualified') === 0) return 'main';
+      if (q.indexOf('Downsell') === 0) return 'down';
+      if (q.indexOf('Unqualified') === 0) return 'unq';
+      return 'unk';
+    }
+    function db(stage) {
+      if (stage === 'Booked Call') return 'booked';
+      if (stage === 'Offer Made') return 'offer';
+      if (stage === 'Closed Won') return 'won';
+      if (stage === 'Closed Lost') return 'lost';
+      if (stage === 'Nurture') return 'nurture';
+      if (stage === 'Unqualified') return 'unqual';
+      return 'other';
+    }
+    function facetsLive(r) {
+      var nm = (window.APW_SHORT ? window.APW_SHORT(r['Client']) : (r['Client'] || '?'));
+      var sp = r['Speed to Lead (min)'];
+      var clk = laClock(r['Created']);
+      return {
+        name: nm,
+        entry: r['Entry Path'] || 'unk',
+        speed: (typeof sp === 'number') ? (sp <= 1 ? 'sub1' : sp <= 2 ? 'sub2' : 'slow') : 'unk',
+        hours: clk === null ? 'unk' : (clk.weekday && clk.mins >= 420 && clk.mins <= 1065 ? 'in' : 'out'),
+        triage: r['Human Triaged'] ? 'yes' : 'unk',
+        qual: qb(r['Qualification']),
+        show: window.APW_SHOWED_FINAL(nm, r['Stage'], false),
+        dispo: db(r['Stage'])
+      };
+    }
+    function facetsStatic(r) {
+      var f = window.APW_FATHOM[r[0]], fid = f && (f.charAt(0) === 's' ? f.slice(1) : f);
+      return {
+        name: r[0],
+        entry: r[2] || 'unk',
+        speed: 'unk',
+        hours: 'unk',
+        triage: 'unk',
+        qual: qb(r[3]),
+        show: window.APW_SHOWED_FINAL(r[0], r[1], !!fid),
+        dispo: db(r[1])
+      };
+    }
+    function rowsNow() {
+      if (window.APW_LIVE_ROWS) return window.APW_LIVE_ROWS.map(facetsLive);
+      return (window.APW_ROSTER || []).map(facetsStatic);
+    }
+    function passes(f, skip) {
+      for (var i = 0; i < GROUPS.length; i++) {
+        var k = GROUPS[i].k;
+        if (k === skip) continue;
+        var s = SETS[k], on = Object.keys(s).length;
+        if (on && !s[f[k]]) return false;
+      }
+      return true;
+    }
+    window.APW_FX_MATCH = function (f) { return passes(f, null); };
+
+    function pulse(el, txt) {
+      if (el.textContent === txt) return;
+      el.textContent = txt;
+      el.classList.remove('fxp'); void el.offsetWidth; el.classList.add('fxp');
+    }
+    var rail = document.getElementById('fx-rail');
+    function build() {
+      if (!rail) return;
+      rail.textContent = '';
+      GROUPS.forEach(function (g) {
+        var col = document.createElement('div'); col.className = 'fx-group';
+        var gh = document.createElement('div'); gh.className = 'gh';
+        var gn = document.createElement('span'); gn.className = 'gn'; gn.textContent = g.n;
+        gh.appendChild(gn); gh.appendChild(document.createTextNode(g.t));
+        col.appendChild(gh);
+        g.vals.forEach(function (v) {
+          var b = document.createElement('button'); b.type = 'button'; b.className = 'fx-btn';
+          b.setAttribute('aria-pressed', 'false');
+          b.dataset.g = g.k; b.dataset.v = v[0];
+          var fn = document.createElement('span'); fn.className = 'fn'; fn.textContent = v[1];
+          var fc = document.createElement('span'); fc.className = 'fc'; fc.textContent = '0';
+          var fp = document.createElement('span'); fp.className = 'fp'; fp.textContent = '';
+          b.appendChild(fn); b.appendChild(fc); b.appendChild(fp);
+          b.addEventListener('click', function () {
+            if (SETS[g.k][v[0]]) delete SETS[g.k][v[0]]; else SETS[g.k][v[0]] = 1;
+            refresh();
+          });
+          col.appendChild(b);
+        });
+        rail.appendChild(col);
+      });
+    }
+    function pct(a, b) { return b ? Math.round(a / b * 100) + '%' : '—'; }
+    function refresh() {
+      var all = rowsNow();
+      var inView = all.filter(function (f) { return passes(f, null); });
+      var nEl = document.getElementById('fx-n'), ofEl = document.getElementById('fx-of');
+      if (nEl) pulse(nEl, String(inView.length));
+      if (ofEl) ofEl.textContent = all.length;
+      /* per-button counts against all OTHER groups' filters */
+      rail.querySelectorAll('.fx-btn').forEach(function (b) {
+        var g = b.dataset.g, v = b.dataset.v;
+        var base = all.filter(function (f) { return passes(f, g); });
+        var n = base.filter(function (f) { return f[g] === v; }).length;
+        pulse(b.querySelector('.fc'), String(n));
+        b.querySelector('.fp').textContent = pct(n, base.length);
+        b.setAttribute('aria-pressed', SETS[g][v] ? 'true' : 'false');
+      });
+      /* conversion strip on the CURRENT view */
+      var tri = inView.filter(function (f) { return f.triage === 'yes'; });
+      var triShow = tri.filter(function (f) { return f.show === 'yes'; });
+      var showed = inView.filter(function (f) { return f.show === 'yes'; });
+      var noshow = inView.filter(function (f) { return f.show === 'no'; });
+      var showQual = showed.filter(function (f) { return f.qual === 'main' || f.qual === 'down'; });
+      var booked = inView.filter(function (f) { return f.dispo === 'booked'; });
+      var conv = document.getElementById('fx-conv');
+      if (conv) conv.innerHTML =
+        '<span class="cv">of those who got triaged, showed: <b>' + pct(triShow.length, tri.length) + '</b> (' + triShow.length + '/' + tri.length + ')</span>' +
+        '<span class="cv">evidenced show rate: <b>' + pct(showed.length, showed.length + noshow.length) + '</b> (✓' + showed.length + ' / ✕' + noshow.length + ')</span>' +
+        '<span class="cv">of showed → qualified (main+downsell): <b>' + pct(showQual.length, showed.length) + '</b></span>' +
+        '<span class="cv">booked calls pending: <b>' + booked.length + '</b></span>' +
+        '<span class="cv">no-shows: <b>' + noshow.length + '</b></span>';
+      /* drive the rosters below */
+      if (window.renderRoster) try { window.renderRoster(); } catch (e) {}
+      if (window.applyRosterViewLive) try { window.applyRosterViewLive(); } catch (e) {}
+      var note = document.getElementById('fx-note');
+      if (note) note.hidden = !!window.APW_LIVE_ROWS;
+    }
+    window.APW_FX_REFRESH = refresh;
+    function clearAll() { GROUPS.forEach(function (g) { SETS[g.k] = {}; }); refresh(); }
+    var eOwner = document.getElementById('fx-owner'), eCloser = document.getElementById('fx-closer'),
+        eClear = document.getElementById('fx-clear'), eCopy = document.getElementById('fx-copy');
+    if (eOwner) eOwner.addEventListener('click', clearAll);
+    if (eCloser) eCloser.addEventListener('click', function () {
+      GROUPS.forEach(function (g) { SETS[g.k] = {}; });
+      SETS.triage = { yes: 1 }; refresh();
+    });
+    if (eClear) eClear.addEventListener('click', clearAll);
+    if (eCopy) eCopy.addEventListener('click', function () {
+      var lines = ['APW Funnel Explorer — ' + new Date().toLocaleString()];
+      GROUPS.forEach(function (g) {
+        var on = Object.keys(SETS[g.k]);
+        if (on.length) lines.push(g.t + ': ' + on.join(', '));
+      });
+      lines.push(document.getElementById('fx-n').textContent + ' of ' + document.getElementById('fx-of').textContent + ' leads in view');
+      document.querySelectorAll('#fx-conv .cv').forEach(function (c) { lines.push(c.textContent); });
+      try { navigator.clipboard.writeText(lines.join('\n')); } catch (e) {}
+    });
+    build();
+    /* first paint once the static roster script has run */
+    setTimeout(refresh, 0);
+  })();
+</script>
+
 <script>
     // [name, stage, entryPath, qualification, ask, deal(-1=empty), lastTouch, notionId]
   (function () {
@@ -2035,6 +2268,9 @@
       window.APW_ROSTER.forEach(function(r){
         var f=window.APW_FATHOM[r[0]], sec=f&&f.charAt(0)==="s", fid=sec?f.slice(1):f;
         var sh=window.APW_SHOWED_FINAL(r[0], r[1], !!fid);
+        if(window.APW_FX_MATCH && !window.APW_FX_MATCH({name:r[0],entry:r[2]||'unk',speed:'unk',hours:'unk',triage:'unk',
+          qual:(r[3]?(r[3].indexOf('Qualified')===0?'main':r[3].indexOf('Downsell')===0?'down':r[3].indexOf('Unqualified')===0?'unq':'unk'):'unk'),
+          show:sh,dispo:(r[1]==='Booked Call'?'booked':r[1]==='Offer Made'?'offer':r[1]==='Closed Won'?'won':r[1]==='Closed Lost'?'lost':r[1]==='Nurture'?'nurture':r[1]==='Unqualified'?'unqual':'other')})) return;
         if(st && r[1]!==st) return;
         if(q && r[0].toLowerCase().indexOf(q)<0) return;
         /* rates are computed over the whole filtered population; chips only narrow the list */
@@ -2168,10 +2404,13 @@
       if (mode === 'err') err.textContent = msg;
     }
     var lastRows = null;
+    window.APW_SHORT = shortName;
     window.applyRosterViewLive = function () { if (lastRows) applyRosterView(); };
     function renderRoster(rows) {
       lastRows = rows;
+      window.APW_LIVE_ROWS = rows;
       applyRosterView();
+      if (window.APW_FX_REFRESH) try { window.APW_FX_REFRESH(); } catch (e) {}
     }
     function applyRosterView() {
       var rows = lastRows;
@@ -2188,7 +2427,15 @@
         if ((from || to) && !c) return false; /* windowing needs a date */
         if (from && c < from) return false;
         if (to && c > to) return false;
-        var sh = window.APW_SHOWED(r['Stage'], false);
+        var sh = window.APW_SHOWED_FINAL(shortName(r['Client']), r['Stage'], false);
+        if (window.APW_FX_MATCH) {
+          var q0 = r['Qualification'] || '';
+          if (!window.APW_FX_MATCH({ name: shortName(r['Client']), entry: r['Entry Path'] || 'unk',
+            speed: (typeof r['Speed to Lead (min)'] === 'number') ? (r['Speed to Lead (min)'] <= 1 ? 'sub1' : r['Speed to Lead (min)'] <= 2 ? 'sub2' : 'slow') : 'unk',
+            hours: 'unk', triage: r['Human Triaged'] ? 'yes' : 'unk',
+            qual: q0.indexOf('Qualified') === 0 ? 'main' : q0.indexOf('Downsell') === 0 ? 'down' : q0.indexOf('Unqualified') === 0 ? 'unq' : 'unk',
+            show: sh, dispo: (r['Stage'] === 'Booked Call' ? 'booked' : r['Stage'] === 'Offer Made' ? 'offer' : r['Stage'] === 'Closed Won' ? 'won' : r['Stage'] === 'Closed Lost' ? 'lost' : r['Stage'] === 'Nurture' ? 'nurture' : r['Stage'] === 'Unqualified' ? 'unqual' : 'other') })) return false;
+        }
         if (chip === 'booked' && r['Stage'] !== 'Booked Call') return false;
         if (chip === 'showed' && sh !== 'yes') return false;
         if (chip === 'noshow' && sh !== 'no') return false;
