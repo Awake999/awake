@@ -36,11 +36,13 @@ Lane: canonical data store (`ops/archive/**` only). Branch: `claude/archive-lane
 
 ## Resume points (next run starts here)
 
-1. **Fathom** (`calls/fathom/INDEX.md`, 11/234 archived — batch 4 added Yeshaya Dank 799338949, Chris Mclean 798638035, Todd LoGuidice funding execution 800283407): continue Aug 20+ top-down — next up 802994217, 802985297, 801909953, then remaining client-named calls (Nick Samara x2, Michael Moore x2, Karl Krummenacher, Connor Robertson…). Max ~3 transcripts per query round; large ones save to file — move into place.
-2. **Krisp** (`calls/krisp/INDEX.md`, 7/~150 archived — batch 2 added SCIO 6/16 + 6/18): next ★ SCIO 6/23 (019ef5b4e5ea766bbb3023224955e76a) and 8/4 (019fcdc6c2707289bcdd692b650e0d21); then the 8/28 day-capture (01a03ec7bda3775ca1cd835bf3717525 — Alan, Carla, Lynn, Constantine, Jacob); then client calls (Pedro triage, Leo 12k, Jill sessions). Note: Krisp had no key points stored for SCIO 6/16 — transcript archived, summary marked pending.
-3. **Slack**: remaining priority channels #hire-worldwide and #alan-nguyen-booked-calls (search channel IDs first); then #dispute-questions, #dispute-team-training, #dispute-team-agenda. Also: thread replies in #dispute-updates were NOT expanded (counts noted inline) — a thread-expansion pass is queued.
-4. **People**: add pages as new clients' calls land (Yeshaya Dank, Karl Krummenacher, Jennifer Ulloa, Jill Peralta…).
-5. **GHL**: nothing to pull remotely — deposit instructions live in `ops/archive/ghl/README.md` for the local (PC) session.
+*(Updated end-of-day 8/30 — supersedes the earlier version of this list.)*
+1. **Fathom** (`calls/fathom/INDEX.md`, **25/234 archived + 2 verified no-content**): all client-named August calls done. Continue top-down through the unnamed "Impromptu Zoom Meeting" backlog (next: 8/27 177571208, 177414987, 177244544; 8/26 177232030, 177129989, 176817729, 176815084, 176797747…). Max ~3 transcripts per query round; large results auto-save to file (copy as transcript-raw.txt), inline ones must be written verbatim.
+2. **Krisp** (`calls/krisp/INDEX.md`, 9/~150 archived): SCIO 8/4 + 8/28 day-capture done; 6/23 = mic-check only. Next: client calls (Pedro triage, Leo 12k, Jill sessions) and remaining SCIO/coaching sessions top-down.
+3. **Slack**: ALL 32 workspace channels + both external Slack Connect channels exported ✅. Remaining passes: **DM exports** (per-conversation via channel_id=user_id) and **thread expansion** (reply counts noted inline in every export; start with #dispute-updates).
+4. **Audio**: all 45 repo audios transcribed. Local-PC-only remainder: 3 oversize Grace call audios + 43 external-hosted ScaleClients voice notes (listed with IDs in `slack/audio/README.md`) — once dropped into `files/`, run the transcriber again.
+5. **People**: add pages for Karl Krummenacher, Nick Samara, Stephen Greco, Jill Peralta, Jennifer Ulloa, Yeshaya Dank (calls now archived for several of these).
+6. **GHL**: nothing to pull remotely — deposit instructions live in `ops/archive/ghl/README.md` for the local (PC) session.
 
 ## Known limitations / notes
 
