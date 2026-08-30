@@ -25,6 +25,12 @@
 >
 > RAW-ORIGINALS LAW (all tasks): store the RAW API responses (JSON) in ops/archive/ghl/raw/ alongside any derived CSV/markdown — Alan verbatim: "we need everything to have the same data, not the summaries but the raw, actual original."
 
+## A3. TOP-PRIORITY ADDITIONS (8/30 late — Alan: "prioritize teramind do it for me" + "65 whop")
+
+> TASK 7 — TERAMIND (TOP PRIORITY, browser): dashboard is https://ascendprimew.us.teramind.co (confirmed from the daily digest emails). (a) Settings → API → generate token, save to a LOCAL file outside the repo, report path only. (b) While in there: check AGENT COVERAGE — the Aug 29 daily digest shows only ONE agent reporting ("nguye@a51" = Alan's own machine); verify Carla/Lynn/Anne/Grace/ML agents are installed AND reporting, list who is/isn't. (c) Turn on the richer daily digest/alerts if available. NOTE: Carla's Teramind password was posted in PLAINTEXT in Slack DM 8/27 — rotate it while there.
+>
+> TASK 8 — WHOP (payments source of truth, Alan-confirmed): log into Whop dashboard, (a) export all payments/orders history to CSV → ops/archive/whop/ (raw + dated, per RAW-ORIGINALS law), (b) generate a Whop API key (dashboard → developer settings), save LOCALLY outside repo, report path. This unlocks verified collected-cash on the revenue ledger (Nick $500, Jill installments, all future).
+
 ## B. Manual steps while you're there (SUPERSEDED for items 1 & 3 by Tasks 5–6 above — remaining truly-manual: 2, 4, 5)
 
 1. **Lock the 3 public Loom videos** containing client SSNs/passwords — checklist row `3b95bb1ffef4813e9ac2d16384dfe7e9`. Two minutes; highest-severity open risk.

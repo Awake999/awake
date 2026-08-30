@@ -20,7 +20,11 @@ Root causes of every miss to date: compression reflex, answering the adjacent qu
 4. **TANDEM LAW** — summaries live BESIDE originals, never instead of them.
 5. **TRUTH LAW** — verified / derived / unknown labels on everything; never guess a stage, a show, or a dollar; corrections are appended and dated, never silently overwritten.
 6. **CLICKABLE LAW** — *"the links are supposed to be clickable URLs."* Every reference in any human-facing surface is a clickable https URL — bare IDs and `collection://` URIs live only in machine columns of pointer-map.md.
-7. **SCAN-READY LAW** — *"Everything you should be saying should be scan-ready and easy."* Every report, file, and reply: TLDR first, tables over prose, one glance = the state. Applies to all lanes.
+7. **BUTTON LAW** — *"every time you push out a response, it should be an easy response for me to respond to with buttons. Without fail."* Every reply to a live Alan message ends with tappable option buttons (AskUserQuestion) covering the open decisions — free-text always remains available. Exception: autonomous/scheduled cycle reports (nobody present to tap) end with a "reply with any of: ..." quick-answer line instead.
+8. **SCAN-READY LAW** — *"Everything you should be saying should be scan-ready and easy."* Every report, file, and reply: TLDR first, tables over prose, one glance = the state. Applies to all lanes.
+
+## 1c. RATIFIED ARCHITECTURE (Alan: "47 go", 8/30)
+One front door, one job per tool: **Notion = index + live client data** · Google Docs = long-form working docs · Sheets = number grids · Trello = task execution/accountability · Slack = signals only (anything lasting gets a home + link within 24h) · GitHub vault = permanence + raws · GHL = funnel ground truth (statuses maintained per #64) · **Whop = payments source of truth (Alan: "65 whop")**. Three enforcement rules: nothing lives in two places · every new doc registers at the front door within 24h · Slack is ephemeral by policy.
 
 ## 1b. Idle-restart reality (cloud lanes)
 Cloud containers DO restart when idle — that is WHY state lives in the repo, never the container. A cloud lane that restarts loses nothing pushed; it resumes by running the sync ritual (§3). Wake an idle cloud lane with a one-shot trigger, or replace it with a LOCAL lane: multiple local Claudes on one PC use separate clones or `git worktree add ../awake-<lane> <branch>` — same ritual, same repo, same sync. Cloud vs local is interchangeable; the repo is the team.

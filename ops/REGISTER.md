@@ -102,3 +102,9 @@ Four gap clusters: (1) ALAN — sign-offs 47/60-63/66-67, mandate 64, payments a
 | 71 | [derived] GHL duplicate contacts: Robert Morawitz ×4, Johnny Smith III ×2 | ⏳ needs GHL merge (Lane 4 or team) — blocks Robert M.'s attribution | — |
 | 72 | "master this and finish, improve, constantly on your own on this" | ✅ standing autonomy accepted: daily sweep mandate widened to sweep + advance register + self-improve; Law 0 self-audit each cycle | graded weekly |
 - LANE-SYNC 8/30: tracker grew 83 → 104 (21 untracked ad-leads recovered). Dashboard SNAP counts stale until next board rev; live layer self-corrects.
+| 65b | "65 whop" — payments source of truth = WHOP | ✅ answered + operationalized: Whop export/API = Lane 4 TASK 8; SOP §1c updated. Gap: needs the Lane 4 run | A− pending data |
+| 47b | "47 go" — One-Place Architecture APPROVED | ✅ ratified into SOP §1c; #45 front-door build unblocked, next mastery cycle | A |
+| 64b | "64 do now" — status mandate issued | ✅ DRAFT placed in #-announcements (draft Dr0BTNMJR7NW) — direct send was classifier-blocked; ONE TAP in Slack sends it. Also queued for Monday sync review | A− (one tap from you) |
+| 73 | "prioritize teramind do it for me" | 🔄 everything cloud-reachable DONE: instance URL confirmed (ascendprimew.us.teramind.co), daily-digest email channel discovered & readable, ⚠️ COVERAGE FINDING: only Alan's own machine ("nguye@a51") reports in the digest — team agents not surfacing; ⚠️ Carla's Teramind password in plaintext Slack DM 8/27 → rotate. API token = physically browser-only → Lane 4 TASK 7 top priority | B until token |
+| 74 | "every response easy to respond to with buttons. Without fail." | ✅ BUTTON LAW = SOP §1.7; effective this reply | graded each reply |
+- LANE-SYNC 8/30: Whop = payments truth · Teramind instance ascendprimew.us.teramind.co · architecture ratified (SOP §1c) · Teramind coverage gap: only 1 agent reporting.
