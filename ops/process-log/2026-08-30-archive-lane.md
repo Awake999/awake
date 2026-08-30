@@ -32,7 +32,7 @@ Lane: canonical data store (`ops/archive/**` only). Branch: `claude/archive-lane
 - **Zoom: COMPLETE.** All 7 cloud recordings archived (verbatim + raw JSON). The 5 new ones (7/6 6.7-hour, 7/8, 7/9 x2, 7/12) are all Alan+Lynn — Lynn's onboarding/training week.
 - **Krisp:** SCIO 8/4 (+raw) and the 8/28 day-capture (+raw) archived; SCIO 6/23 verified mic-check-only (no content).
 - **Fathom: 25/234 archived** (+2 verified no-content). New this batch: Nick Samara 8/25+8/26 (+raw), Michael Moore 8/20 (+raw) + **8/26 close call ("We are a go", $1K custom deposit)**, Karl Krummenacher 8/20 whale call (Modern Thyroid $8M/yr, $500-750K BLOC at prime-minus-1, exit plan), Daniel Jimenez GHL tech call 8/25, dispute-team dailies 8/25+8/26 (+raw), all three 8/25 daily-sync captures (+raw, coexistence). Connor Robertson 8/17: Fathom holds NO transcript.
-- **Slack audio transcription:** batch 1 (23 files) COMPLETE — all transcripts committed + linked in README table. Batch 2 (22 newly downloaded Alan voice notes from the ScaleClients channel) running in background job b1nbivzu5; on completion: commit transcripts, add links, final report.
+- **Slack audio transcription:** batch 1 (23 files) COMPLETE — all transcripts committed + linked in README table. Batch 2 COMPLETE — **all 45 voice notes in the repo are transcribed**, every inventory row links its transcript (commit 96acbce). Remaining audio work is local-PC only: 3 oversize Grace call audios + 43 external-hosted ScaleClients voice notes.
 
 ## Resume points (next run starts here)
 
