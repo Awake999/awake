@@ -41,3 +41,11 @@ Lane: canonical data store (`ops/archive/**` only). Branch: `claude/archive-lane
 - Repo has moved to `Awake999/awake` (capital A) per git remote notices; pushes still succeed via the old URL.
 - Krisp full-text search still broken; meeting lists work fine.
 - No audio was machine-transcribed (per lane rules); Zoom clip links in Slack exports point at originals in the team Zoom account.
+
+## Batch: SOP v1.0 adoption (LANE-SYNC from Lane 1, ~07:36 UTC)
+
+Read `ops/SOP.md` v1.0 + REGISTER LANE-SYNC block from `claude/new-session-1ofk4w` @ 1c58702 (master unchanged; Alan's PR merge still pending). Adopted:
+- **RAW-ORIGINALS LAW** — retroactively satisfied where raws survived on disk: 15 raw API responses copied beside their rendered transcripts as `transcript-raw.txt/.json` (7 Fathom, 7 Krisp) + Slack SOD/EOD raw page 1. NO raw exists for: Fathom 801867207 / 803053542 / 803087357 / 803341537 and Slack #dispute-updates + #anne-start-of-day-reports + SOD/EOD page 2 — those API responses returned inline and were transcribed verbatim to markdown at capture time; the markdown is the capture. All future pulls store raws from the start.
+- **EVIDENCE LAW / VERBATIM / TANDEM / SCAN-READY** — already lane practice; meta files carry links + dates.
+- **Sync ritual** — pull-first / push-after / grep LANE-SYNC / own process-log only: adopted as written. Lane 3 ownership confirmed: `ops/archive/**` append-only.
+- GHL: per LANE-SYNC, Lane 4 delivers GHL originals into `ops/archive/ghl/` — folder + deposit instructions already in place; Todd L. import complete (Contact ID nIy2smghNYT9II3enmQv), awaiting Lane 4's PR.
