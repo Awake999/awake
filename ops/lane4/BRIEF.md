@@ -17,7 +17,15 @@
 >
 > TASK 4 — commit + push your branch, open a draft PR "Lane 4: GHL ground truth + Todd import + publish". Report counts: contacts pulled, appointments with statuses, how many of the roster audit's 79 unknowns are now resolved, payments found (verify: Nick S. $500, Michael M. — expect NONE for Michael, flag if found; Jill installments).
 
-## B. Manual steps while you're there (10 minutes total, not Claude-able)
+## A2. TASKS 5–6 — ALSO CLAUDE-EXECUTABLE LOCALLY (added 8/30 after they were missed: they were mislabeled "manual" below; local Cowork CAN browser-control these)
+
+> TASK 5 — LOOM LOCKDOWN (browser control; Alan present to approve): fetch Notion checklist row `3b95bb1ffef4813e9ac2d16384dfe7e9` for the 3 public Loom video URLs containing client SSNs/passwords. Open loom.com in the browser, set EACH to private/workspace-only, and report each video's final visibility state verbatim. Highest-severity open security item.
+>
+> TASK 6 — TERAMIND TOKEN (browser control): open the Teramind admin console → Settings/Integrations → API, generate an API token, save it to a LOCAL file outside the repo (never commit it, never paste it into any shared doc), and report only that it exists + its local path. If admin access needs Alan's login, hand him the keyboard for that step.
+>
+> RAW-ORIGINALS LAW (all tasks): store the RAW API responses (JSON) in ops/archive/ghl/raw/ alongside any derived CSV/markdown — Alan verbatim: "we need everything to have the same data, not the summaries but the raw, actual original."
+
+## B. Manual steps while you're there (SUPERSEDED for items 1 & 3 by Tasks 5–6 above — remaining truly-manual: 2, 4, 5)
 
 1. **Lock the 3 public Loom videos** containing client SSNs/passwords — checklist row `3b95bb1ffef4813e9ac2d16384dfe7e9`. Two minutes; highest-severity open risk.
 2. **Meta Ads Manager → URL parameters** on the two ACTIVE campaigns (Medical Relaunch v2, Prof/BizOwners relaunch): `utm_source=meta&utm_medium=paid&utm_campaign={{campaign.name}}&utm_term={{adset.name}}&utm_content={{ad.name}}&campaign_id={{campaign.id}}&adset_id={{adset.id}}&ad_id={{ad.id}}` (campaign-level; existing ads' url_tags are immutable — set it where Ads Manager allows, and on ALL new ads incl. the Sep 1 A/B).
