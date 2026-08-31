@@ -108,3 +108,7 @@ PROCESS CHECKLIST
 12. Set proper expectations & requirements for the upcoming call
 13. Final confirmation + close out + questions
 14. Future Pace (excitement for the next call → their dream outcome)
+
+## Message 16 (button answer, 8/31 — ruling on the 2 pre-standard receipts)
+
+only if verified by voice call audio transcript proving it to be true

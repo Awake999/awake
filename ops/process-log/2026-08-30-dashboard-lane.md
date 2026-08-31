@@ -195,3 +195,11 @@ FACT-CHECK RESULTS (all evidence-run this session): (1) **Direct bookings = 2 IS
   the prompts file. Ledger + change order marked RESOLVED on the script input; scoring now
   waits only on Lane 4's audio pull (50 candidate calls). Board strict-triage tooltip +
   fx-note now cite the dictated standard with links. Headless: 282/64 stable, 0 JS errors.
+
+## 8/31 — v8.9 TRANSCRIPT-ONLY TRIAGE (Alan ruling, Message 16)
+- Alan ruled on the 2 pre-standard receipts (Connor R., Todd L.): TRIAGED "only if verified
+  by voice call audio transcript proving it to be true" → triOf now sets EVERY Notion value
+  (incl. "before booking") to Unknown/queued; verified-triaged stands at 0 until Lane 4's
+  transcripts are scored against the dictated standard. Taps remain as Alan's explicit
+  per-person override. Board tooltip + fx-note updated with the ruling verbatim.
+  Headless-verified: before-booking → unk/queued, attested → unk, page clean.
