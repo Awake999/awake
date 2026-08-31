@@ -10,7 +10,7 @@
 - [July 2026](#july-2026) — 91 meetings
 - [June 2026](#june-2026) — 10 meetings
 
-**Archive status:** 93 archived ✅ · 2 verified no-transcript · 139 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+**Archive status:** 96 archived ✅ · 2 verified no-transcript · 136 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
 
 
 ## August 2026
@@ -112,9 +112,9 @@
 | 2026-08-11 | [Impromptu Zoom Meeting (Sabrina) <sub>rec 172378323</sub>](https://fathom.video/calls/781403394) | ✅ [transcript](2026-08-11--dispute-team-notion-workflow-overhaul-matthew-reinsertion--172378323/transcript.md) · [summary](2026-08-11--dispute-team-notion-workflow-overhaul-matthew-reinsertion--172378323/summary.md) · raw ✓ |
 | 2026-08-11 | [Impromptu Zoom Meeting](https://fathom.video/calls/781402990) <sub>rec 172378096</sub> | ✅ duplicate recording of rec 172378323 (same meeting, verified via both full transcripts — see [that folder](2026-08-11--dispute-team-notion-workflow-overhaul-matthew-reinsertion--172378323/transcript.md)) |
 | 2026-08-11 | [Impromptu Zoom Meeting](https://fathom.video/calls/781367731) <sub>rec 172367795</sub> | ✅ [transcript](2026-08-11--grace-audio-troubleshooting-transunion-reinsertion--172367795/transcript.md) · [summary](2026-08-11--grace-audio-troubleshooting-transunion-reinsertion--172367795/summary.md) · raw ✓ |
-| 2026-08-11 | [Impromptu Zoom Meeting](https://fathom.video/calls/781309435) <sub>rec 172348134</sub> | not yet — click title to watch on Fathom |
-| 2026-08-11 | [Impromptu Zoom Meeting](https://fathom.video/calls/781002033) <sub>rec 172199022</sub> | not yet — click title to watch on Fathom |
-| 2026-08-11 | [Jill 1 on 1 Coaching & Strategy Session](https://fathom.video/calls/779847306) <sub>rec 171947309</sub> | not yet — click title to watch on Fathom |
+| 2026-08-11 | [Impromptu Zoom Meeting](https://fathom.video/calls/781309435) <sub>rec 172348134</sub> | ✅ [transcript](2026-08-11--carla-ghl-pipeline-notion-access-hiring-strategy--172348134/transcript.md) · [summary](2026-08-11--carla-ghl-pipeline-notion-access-hiring-strategy--172348134/summary.md) · raw ✓ |
+| 2026-08-11 | [Impromptu Zoom Meeting](https://fathom.video/calls/781002033) <sub>rec 172199022</sub> | ✅ [transcript](2026-08-11--daily-team-huddle-notion-hub-launch--172199022/transcript.md) · [summary](2026-08-11--daily-team-huddle-notion-hub-launch--172199022/summary.md) · raw ✓ |
+| 2026-08-11 | [Jill 1 on 1 Coaching & Strategy Session](https://fathom.video/calls/779847306) <sub>rec 171947309</sub> | ✅ [transcript](2026-08-11--jill-1-on-1-coaching-strategy-session--171947309/transcript.md) · [summary](2026-08-11--jill-1-on-1-coaching-strategy-session--171947309/summary.md) · raw ✓ |
 | 2026-08-11 | [Impromptu Zoom Meeting](https://fathom.video/calls/779845972) <sub>rec 171944256</sub> | not yet — click title to watch on Fathom |
 | 2026-08-10 | [Impromptu Zoom Meeting](https://fathom.video/calls/779813812) <sub>rec 171939436</sub> | not yet — click title to watch on Fathom |
 | 2026-08-10 | [Impromptu Zoom Meeting](https://fathom.video/calls/779780027) <sub>rec 171935538</sub> | not yet — click title to watch on Fathom |

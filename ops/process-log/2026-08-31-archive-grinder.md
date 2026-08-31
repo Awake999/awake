@@ -522,3 +522,29 @@ Ran `format_transcripts.py` (172378323 → chaptered, 11 chapters; 172367795 →
 **Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
 
 **Resume point:** next queued row (top-down, August section) is `rec 172348134` ([Fathom call 781309435](https://fathom.video/calls/781309435), 2026-08-11).
+
+## Batch 23
+
+Resumed via self-scheduled continuation. Fathom MCP tool names had flapped back to the UUID-prefixed form (`mcp__eab8a98a-3df1-41f9-9cd1-7d1993930308__*`) since batch 22. Re-verified resume point against live INDEX.md before touching anything — a concurrent Lane 3 sibling push had landed `ops/process-log/2026-08-31-dm-grinder.md` (zero scope overlap), fast-forwarded cleanly. Continued top-down — next three queued rows, all dated 2026-08-11:
+
+| Recording | Call | Archived as |
+|---|---|---|
+| rec 172348134 | [Fathom call 781309435](https://fathom.video/calls/781309435) | [2026-08-11--carla-ghl-pipeline-notion-access-hiring-strategy--172348134](../archive/calls/fathom/2026-08-11--carla-ghl-pipeline-notion-access-hiring-strategy--172348134/transcript.md) — Carla/Alan fix a Notion login conflict blocking SOP access, plan a GHL pipeline overhaul with Daniel for 222 unassigned contacts, and pivot hiring strategy away from expensive agencies toward LinkedIn/Meta ads |
+| rec 172199022 | [Fathom call 781002033](https://fathom.video/calls/781002033) | [2026-08-11--daily-team-huddle-notion-hub-launch--172199022](../archive/calls/fathom/2026-08-11--daily-team-huddle-notion-hub-launch--172199022/transcript.md) — full-team morning huddle launching the new "Client Tracking Command Center" Notion hub, wins/lessons round-robin, credit-report landing-page policy change, dispute-team task handoff |
+| rec 171947309 | [Fathom call 779847306](https://fathom.video/calls/779847306) | [2026-08-11--jill-1-on-1-coaching-strategy-session--171947309](../archive/calls/fathom/2026-08-11--jill-1-on-1-coaching-strategy-session--171947309/transcript.md) — Jill/Alan business-formation coaching session: Saltbox business address blocker, new-EIN strategy, foreign filing plan, shift to a weekly 3-tasks cadence |
+
+**Near-duplicate content check:** none of the three overlaps in subject, client, or dialogue — no coexistence ambiguity this batch (distinct topics: internal ops tooling, team-wide morning huddle, external client coaching).
+
+Raw sourcing: rec 172199022 auto-saved to a local JSON tool-result file — extracted from the `text` field, confirmed byte-match (len 56559). rec 172348134 and rec 171947309 both returned inline — `transcript-raw.txt` written from the exact returned tool text via Write for each (self-flagged per the audit-approved inline-transcript raw-write procedure).
+
+All three summaries fetched fresh via `get_meeting_summary` before writing any summary.md (per the batch-20 reminder) — real Fathom AI summaries existed for all three, reproduced verbatim.
+
+Ran `format_transcripts.py` (172348134 → chaptered, 3 chapters; 172199022 → chaptered, 6 chapters; 171947309 → chaptered, 3 chapters; no splits) then `add_breadcrumbs.py`.
+
+**Verbatim self-check:** stripped structural additions and diffed against each `transcript-raw.txt` line-for-line — all three matched exactly (172348134: 98/98, 172199022: 229/229, 171947309: 132/132).
+
+**INDEX:** flipped all three rows to ✅ with clickable links + `raw ✓`. Counts: 93→96 archived, 2 no-transcript (unchanged), 139→136 queued. Verified 96+2+136 = 234 and grep-counted rows (96 ✅ / 2 n/a / 136 queued = 234) confirm.
+
+**Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
+
+**Resume point:** next queued row (top-down, August section) is `rec 171944256` ([Fathom call 779845972](https://fathom.video/calls/779845972), 2026-08-11).
