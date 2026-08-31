@@ -10,7 +10,7 @@
 - [July 2026](#july-2026) — 91 meetings
 - [June 2026](#june-2026) — 10 meetings
 
-**Archive status:** 48 archived ✅ · 2 verified no-transcript · 184 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+**Archive status:** 51 archived ✅ · 2 verified no-transcript · 181 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
 
 
 ## August 2026
@@ -64,11 +64,11 @@
 | 2026-08-21 | [James Beckett — Offer Finalization, Competing-Offer Analysis](https://fathom.video/calls/794624464) | ✅ [transcript](2026-08-21--james-beckett-offer-finalization--175776778/transcript.md) · [summary](2026-08-21--james-beckett-offer-finalization--175776778/summary.md) · raw ✓ |
 | 2026-08-21 | [Team Sync — Trello/Notion Hybrid, Urgent Client Priorities, New Standards](https://fathom.video/calls/794472254) | ✅ [transcript](2026-08-21--team-sync-trello-notion-hybrid-standards--175700871/transcript.md) · [summary](2026-08-21--team-sync-trello-notion-hybrid-standards--175700871/summary.md) · raw ✓ |
 | 2026-08-21 | [Alan ↔ Lynn — Show-Rate KPI Crisis, Career Path, Cash Cabin Event](https://fathom.video/calls/793262976) | ✅ [transcript](2026-08-21--lynn-show-rate-kpi-crisis-career-path--175468970/transcript.md) · [summary](2026-08-21--lynn-show-rate-kpi-crisis-career-path--175468970/summary.md) · raw ✓ |
-| 2026-08-20 | [Impromptu Zoom Meeting](https://fathom.video/calls/793137663) <sub>rec 175448782</sub> | not yet — click title to watch on Fathom |
+| 2026-08-20 | [Karl Debrief — Contract Terms, Legacy Form Clarification](https://fathom.video/calls/793137663) | ✅ [transcript](2026-08-20--karl-debrief-contract-terms-legacy-form--175448782/transcript.md) · [summary](2026-08-20--karl-debrief-contract-terms-legacy-form--175448782/summary.md) · raw ✓ |
 | 2026-08-20 | [Karl Krummenacher - Guaranteed Funding](https://fathom.video/calls/791088813) | ✅ [transcript](2026-08-20--karl-krummenacher-guaranteed-funding--175440897/transcript.md) · [summary](2026-08-20--karl-krummenacher-guaranteed-funding--175440897/summary.md) — the whale call (Modern Thyroid, $8M rev, exit plan) |
-| 2026-08-20 | [Impromptu Zoom Meeting](https://fathom.video/calls/791883972) <sub>rec 175052490</sub> | not yet — click title to watch on Fathom |
+| 2026-08-20 | [Team Strategy — Matthew Funding Gamble, Show-Rate Bottleneck, Company Vision ★](https://fathom.video/calls/791883972) | ✅ [transcript](2026-08-20--team-strategy-matthew-funding-company-vision--175052490/transcript.md) · [summary](2026-08-20--team-strategy-matthew-funding-company-vision--175052490/summary.md) · raw ✓ |
 | 2026-08-20 | [Michael Moore - Guaranteed Funding](https://fathom.video/calls/791826979) | ✅ [transcript](2026-08-20--michael-moore-guaranteed-funding--175044393/transcript.md) · raw ✓ |
-| 2026-08-20 | [Impromptu Zoom Meeting](https://fathom.video/calls/791773496) <sub>rec 175036919</sub> | not yet — click title to watch on Fathom |
+| 2026-08-20 | [Edwin Choi Onboarding — EIN Fix, Website Audit, Personal Credit Strategy](https://fathom.video/calls/791773496) | ✅ [transcript](2026-08-20--edwin-choi-onboarding-ein-website-credit--175036919/transcript.md) · [summary](2026-08-20--edwin-choi-onboarding-ein-website-credit--175036919/summary.md) · raw ✓ |
 | 2026-08-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/791712438) <sub>rec 175025137</sub> | not yet — click title to watch on Fathom |
 | 2026-08-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/791570447) <sub>rec 174987192</sub> | not yet — click title to watch on Fathom |
 | 2026-08-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/791537886) <sub>rec 174970047</sub> | not yet — click title to watch on Fathom |

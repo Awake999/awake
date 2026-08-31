@@ -1,0 +1,94 @@
+# Karl Debrief — Contract Terms, Legacy Form Clarification — 2026-08-20 — verbatim transcript
+
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+
+
+ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
+
+
+## Chapter 1 (00:00 to 10:00)
+
+[00:01](https://fathom.video/calls/793137663?timestamp=1) Alan Nguyen: Awesome. I just saw your message. I don't know why Legacy would say yes to that, but like, if we just think about it like logically, right? Like, have you already tried to fix this company problem with the company? Yes. Did you request information from the company? Yes. What did you request? Immediately blocking of XYZ, right? Did they provide you this information? Why would you say yes? Because if they already provided- That's- But the inf-for-ma- like, it's-it's saying, did you request the information from the company? Oh, I see. So you're just like deleting line B from the whole equation when you're thinking about the question to number 11?
+[00:55](https://fathom.video/calls/793137663?timestamp=55) Lynn N.: Did-did the company provide this information? ... that's line number 11.
+[01:02](https://fathom.video/calls/793137663?timestamp=62) Alan Nguyen: But then 10B, like, it makes sense if you delete 10B. So that's why I was asking, are you deleting 10B from the equation when you're asking that?
+[01:16](https://fathom.video/calls/793137663?timestamp=76) Lynn N.: No. Well, I see what you're saying. Because if you write that, then you would say yes. But I guess, well, is this information?
+[01:40](https://fathom.video/calls/793137663?timestamp=100) Alan Nguyen: I wouldn't overthink it. Just know that that process that I wrote down is the process that's been working. And it pretty much, it doesn't work every time the first time, but it works 100% of the time if you keep trying.
+[01:54](https://fathom.video/calls/793137663?timestamp=114) Lynn N.: Okay. And then I guess this. Question 12 doesn't exist in your video, so does it?
+[02:07](https://fathom.video/calls/793137663?timestamp=127) Alan Nguyen: I think so.
+[02:10](https://fathom.video/calls/793137663?timestamp=130) Lynn N.: Oh, this question's just repeated.
+[02:15](https://fathom.video/calls/793137663?timestamp=135) Alan Nguyen: . I also don't think that really matters as much. The main reason why, like, just logically, right, like, if we wanted to escalate this at the highest level, we'd want, like, it'd be more probable that if the company did not provide us information, for them to have it brought to their attention with greater urgency than if it, if they did provide information. Does that make sense? .
+[02:46](https://fathom.video/calls/793137663?timestamp=166) Lynn N.: .
+[02:49](https://fathom.video/calls/793137663?timestamp=169) Alan Nguyen: But either way, I don't think it's that big of a deal. But I was, I just got off the call with Karl. I was actually, like, so nervous.
+[03:00](https://fathom.video/calls/793137663?timestamp=180) Lynn N.: Oh, why? I don't know.
+[03:02](https://fathom.video/calls/793137663?timestamp=182) Alan Nguyen: I just, I've never, never spoken to someone like that. He was, like, a very, very successful person.
+[03:10](https://fathom.video/calls/793137663?timestamp=190) Lynn N.: Oh, I see. And he's just, like, straight to the point.
+[03:13](https://fathom.video/calls/793137663?timestamp=193) Alan Nguyen: And I didn't know how to, like, gauge or pitch him. Oh, I see. .
+[03:23](https://fathom.video/calls/793137663?timestamp=203) Lynn N.: And that's good, though. You're gaining XP in the process.
+[03:27](https://fathom.video/calls/793137663?timestamp=207) Alan Nguyen: . I think, I think it went well. I mean, the main thing was, now I just gotta make a contract that he'll be happy with. All right. So, create me a very friendly, very easy, very smooth, compliant, straight to the point, contractual agreement that keeps both parties safe, that essentially Shows that it's $0 up front where basically all that's really happening is I'm basically connecting him with a banker and a banking relationships that I have personal connections with that can help him achieve his goal. The intended goal is a $750,000 line of credit for the business at a rate of the prime rate, WSJ Prime, minus 1%, for 12 months with the ability to be able to, with the opportunity to renew. The banker is not paying us any type of fees or commissions directly. This should be engineered for a very successful serial entrepreneur that has exited multiple companies and is probably at a multi-nine-figure plus net worth, probably approaching on the way to a billion eventually. Someone who does not have time for BS and something that they can easily pass to their partner. And their legal team, where there's no red flags or potential possible scrutiny, where they would want to either adjust or change things, and everything's written in a very clear, friendly, concise, simple way. Sorry, was whispering. Hey, Carla, how's it going? You're muted, by the way, if you're saying anything.
+[06:47](https://fathom.video/calls/793137663?timestamp=407) Carla Stivala: Oh, lord.
+[06:49](https://fathom.video/calls/793137663?timestamp=409) Alan Nguyen: How's it going? I like the background looking good. Awesome.
+[06:54](https://fathom.video/calls/793137663?timestamp=414) Carla Stivala: but you know what I was thinking today? was like, when I moved to my apartment in October, However, I want to be able to have something like you have. Like, I want to have my desk and behind have, like, whatever we want to call that, like, a console with, like, some, what's it called?
+[07:18](https://fathom.video/calls/793137663?timestamp=438) Alan Nguyen: Decorations?
+[07:19](https://fathom.video/calls/793137663?timestamp=439) Carla Stivala: but I'm looking for one very specific.
+[07:23](https://fathom.video/calls/793137663?timestamp=443) Alan Nguyen: Ornaments? It'll come.
+[07:32](https://fathom.video/calls/793137663?timestamp=452) Carla Stivala: What's it? Oh, I didn't want to give you the definition. Like, I wanted to be able to think of the word, but, like, the tiny trees, bonsais.
+[07:41](https://fathom.video/calls/793137663?timestamp=461) Alan Nguyen: bonsai trees are great. . I want to have bonsais.
+[07:46](https://fathom.video/calls/793137663?timestamp=466) Carla Stivala: Ideally, I want to make them myself. We'll see about that. But, like, I'm so excited that you requested, like, camera on moving forward because. you also read my mind with that. I was literally going to tell you it's, like, it's going to help with funding and productivity so much more. And also, like, you can see the facial expressions people are making while you talk. Like, if you could have seen my expressions last night at 5 in the morning, it would have been great. Like, I was so shocked. What type of expression? show you something. I'm going to go get it, so I'll be right back.
+[08:28](https://fathom.video/calls/793137663?timestamp=508) Alan Nguyen: We also have the SCIO sales meeting at the moment. you think that once I start taking calls, I can join like this?
+[08:49](https://fathom.video/calls/793137663?timestamp=529) Carla Stivala: Or is this, like, too informal?
+[08:54](https://fathom.video/calls/793137663?timestamp=534) Alan Nguyen: I don't think it's necessarily the color. I think it looked good before. Not that it doesn't look good now. But for some reason, it just reminds me, like, you're going out somewhere, or like, you're part of like a biker gang.
+[09:08](https://fathom.video/calls/793137663?timestamp=548) Carla Stivala: Because it's like a leather blazer versus like being whatever. Okay. . So when I'm in New York, I'm probably going to hit up Zara, one and like buy a few blazers. I have, because as of now, I have one that I inherited from my grandmother that passed and I got it tailored. But it's like this weird beige color. And I'm like, I don't love it. I also like the, the, I don't know what, what do you call in English this part of a blazer? I know, I know the word in Spanish, but this part, it's just like roundy.
+[09:55](https://fathom.video/calls/793137663?timestamp=595) Alan Nguyen: And I just like the looks.
+[09:57](https://fathom.video/calls/793137663?timestamp=597) Carla Stivala: Looks. But it's actually super hot today.
+
+## Chapter 2 (10:00 to 20:00)
+
+[10:05](https://fathom.video/calls/793137663?timestamp=605) Alan Nguyen: it's warm here, too.
+[10:08](https://fathom.video/calls/793137663?timestamp=608) Carla Stivala: We have to join the SCIO call.
+[10:12](https://fathom.video/calls/793137663?timestamp=612) Alan Nguyen: what I'm thinking is I'll probably... Oh, shoot. It's not going look like that.
+[10:18](https://fathom.video/calls/793137663?timestamp=618) Carla Stivala: Wait, what did Karl say? Because I can't keep the suspense.
+[10:22](https://fathom.video/calls/793137663?timestamp=622) Alan Nguyen: Oh. I was actually so nervous for that call, but it actually went decently well. show.
+[10:27](https://fathom.video/calls/793137663?timestamp=627) Carla Stivala: You killed it.
+[10:28](https://fathom.video/calls/793137663?timestamp=628) Alan Nguyen: Oh, I was like stumbling over some of my words, and I was like nervous. I was like, breathe. It's free. . But that's a prime example of like why it's really important to ask questions, right? Because if I didn't get him talking, then I wouldn't have known his prior experience. I wouldn't have known what he's looking at, what offers he's been sent. And I wouldn't be able to pitch the offer or position the offer in a way that is outstanding and make... And I just wanted to just blindly pitch him the 5%, 10%, whatever, he would have like left the call, you know, like, no doubt.
+[11:12](https://fathom.video/calls/793137663?timestamp=672) Carla Stivala: So you didn't pitch 5% at all?
+[11:15](https://fathom.video/calls/793137663?timestamp=675) Alan Nguyen: No, because I don't know if you, if you were there for that part of it, but, because- what, that's what confused me a tiny bit when he was telling you, like, he was working with a broker that was going to keep 1% of the funds, collected.
+[11:30](https://fathom.video/calls/793137663?timestamp=690) Carla Stivala: and I was like, well, What do you expect? Like, people are going to have to make their money.
+[11:35](https://fathom.video/calls/793137663?timestamp=695) Alan Nguyen: . . And he, and he understood that. But that was the main thing. That, that was the, that was how I adjusted price for him because he already has experience doing that. Right? So I'm like, okay, like, I don't want to make it sound like it's more expensive than what he considers market rate. Right? Or whatever that is. Or what, what, whatever he's had an opportunity for. And I get the vibe if, I mean, you can watch the The of the video too. I get the vibe that like this is the type of relationship that I want to maintain and keep because he was also hinting at like, you know, if you can do what you say, like I know a lot of people that, you know, could, you know, you know, need funding as well too. . In similar situations. And then, so, and he's like, sorry. What are going say?
+[12:23](https://fathom.video/calls/793137663?timestamp=743) Carla Stivala: What was your offer to him?
+[12:26](https://fathom.video/calls/793137663?timestamp=746) Alan Nguyen: it was just one, one percent, zero dollars up front, one dollars after he gets the funding essentially.
+[12:34](https://fathom.video/calls/793137663?timestamp=754) Carla Stivala: One percent after the funding. Yep.
+[12:38](https://fathom.video/calls/793137663?timestamp=758) Alan Nguyen: So if he get, if we get him 750,000, then he's going to get, it's 7,500 bucks basically. But the main thing is. What's up?
+[12:52](https://fathom.video/calls/793137663?timestamp=772) Carla Stivala: Was he interested in like collecting more than 750,000 with a different, like same process?
+[13:02](https://fathom.video/calls/793137663?timestamp=782) Alan Nguyen: No, asked him like in two to three different ways with the intention of just kind of better understanding the situation and like his resistance to it and like, like, almost shouldn't even ask the third time, but like, because like, I felt like I was losing the call between the second and third time. was like, okay, I really need to like let off of this. Like, it's like, but you can see on the call too.
+[13:21](https://fathom.video/calls/793137663?timestamp=801) Carla Stivala: But what I'm going to do that beautifully because you were like, I'm not trying to get a better payout. Like, I'm not trying to get you more funding. so that my 1% is higher. and you communicate beautifully, but he was like, not feeling that.
+[13:39](https://fathom.video/calls/793137663?timestamp=819) Alan Nguyen: . And that's why, like, I also too, like, I had to like double down and clarify and I put my hands up like, Hey, look, you know, the only reason I'm asking, right. Is for X, Y, Z reason. And I think that's important too, because no, what are you?
+[13:52](https://fathom.video/calls/793137663?timestamp=832) Carla Stivala: What are you a single lady?
+[13:54](https://fathom.video/calls/793137663?timestamp=834) Alan Nguyen: What do you mean? Put your hands up. no, I I've just learned. That's what you want to do when you're just like trying to really show and express that like, you know, like it's like hands off or whenever there's pressure on a sales call and it's pressure in wrong direction, you just put your hands up and like lean back and be like, hey, look like, you know, blah, blah, blah. It's just like a universal signal, basically. I love it.
+[14:16](https://fathom.video/calls/793137663?timestamp=856) Carla Stivala: .
+[14:16](https://fathom.video/calls/793137663?timestamp=856) Alan Nguyen: So what I'm going to do is I'm going to invite you to to a Google Meets and then I'm going to share screen on Google Meets so we can like communicate during the Google Meet and then then I'll share screen into the Zoom.
+[14:29](https://fathom.video/calls/793137663?timestamp=869) Lynn N.: Yep.
+[14:31](https://fathom.video/calls/793137663?timestamp=871) Alan Nguyen: Okay. Sweet.
+[14:32](https://fathom.video/calls/793137663?timestamp=872) Carla Stivala: Wait, are we leaving this call and talk with me?
+[14:36](https://fathom.video/calls/793137663?timestamp=876) Alan Nguyen: I'm going to send you the link and then we'll join that and then, you know.
+[14:42](https://fathom.video/calls/793137663?timestamp=882) Carla Stivala: That's lit.
+[14:44](https://fathom.video/calls/793137663?timestamp=884) Alan Nguyen: But I think that could be a really great relationship moving forward, especially if you send a bunch of referrals. That could be a great thing. then also too, like, because he said, like, I'm in a bunch of masterminds, all stuff. So it sounds like he's leaning in that direction. And he just brought that up on his own. good one. But And he's, like, a very successful person. Like, at the age of 13, he underwit his first deal. Or he went, he signed his first deal. And, like, with the president of a bank. And, it's pretty crazy. .
+[15:12](https://fathom.video/calls/793137663?timestamp=912) Carla Stivala: Well, also, when he goes, you know, I'm 63, 40 years ago. And I'm like, what the hell? Like, at 23, you were already doing this? Like, what?
+[15:22](https://fathom.video/calls/793137663?timestamp=922) Alan Nguyen: his dad was an entrepreneur. like, he was raised up in that life. So he's started and raised, grew, and exited multiple businesses. And it sounds like he's about to exit this one in one and half to three years.
+[15:34](https://fathom.video/calls/793137663?timestamp=934) Carla Stivala: he spoke, dude, I was, like, the only thing I could think of was, like, this dude would destroy me and he would make me cry.
+[15:45](https://fathom.video/calls/793137663?timestamp=945) Alan Nguyen: I was trying to keep my cool.
+[15:47](https://fathom.video/calls/793137663?timestamp=947) Carla Stivala: I was, like, anxious the whole time.
+[15:50](https://fathom.video/calls/793137663?timestamp=950) Alan Nguyen: I was just, like, oh, God. Be normal.
+[15:54](https://fathom.video/calls/793137663?timestamp=954) Carla Stivala: Be normal.
+[15:55](https://fathom.video/calls/793137663?timestamp=955) Alan Nguyen: Watch the facial expressions. Nod and agree. Smile. Don't look too weird. Make sure we're actively listening. Make sure he looks, he thinks that we look like we're looking like we're listening. But . And I love how you make certain facial expressions when you were asking him this very difficult question to ask.
+[16:20](https://fathom.video/calls/793137663?timestamp=980) Carla Stivala: You were like. Because sometimes showing that kind of body language instead of being like, that stone cold, the way they read it is like, oh, this person's being very genuine. They're not going off a script. So I think that was really awesome. And I feel like I have a similar style where I do not hide my facial expressions. I'm like, this is what I'm feeling. And you can see that this is what I'm feeling.
+[16:55](https://fathom.video/calls/793137663?timestamp=1015) Alan Nguyen: that's important. the one thing I wish I would have worked on was I wish I would have smiled. And then I wish I would have been able to find a way to make him laugh. I was not, he was, he was a very serious person.
+[17:05](https://fathom.video/calls/793137663?timestamp=1025) Carla Stivala: I don't know he's like, he's just like, trust me, it's not you, it's him.
+[17:10](https://fathom.video/calls/793137663?timestamp=1030) Alan Nguyen: Well, I mean, either way, like, I think it'd be great to like, learn, become better with, you know, humor to break ice with everything. Like, so it's a great thing, but I'm gonna, well, I appreciate the, the support, but I'm gonna open up this Fathom and then I'll see you two over there.
+[17:25](https://fathom.video/calls/793137663?timestamp=1045) Carla Stivala: All right. See you there.

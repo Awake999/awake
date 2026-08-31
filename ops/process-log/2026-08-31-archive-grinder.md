@@ -170,3 +170,25 @@ Ran `format_transcripts.py` (175776778 → chaptered, 9 chapters; 175468970 → 
 **Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`. Noted a concurrent commit from Lane 3 (people pages) landed mid-session via `git pull --rebase` — clean rebase, no overlap with this lane's scope.
 
 **Resume point:** next queued row (top-down, August section) is `rec 175448782` ([Fathom call 793137663](https://fathom.video/calls/793137663), 2026-08-20).
+
+## Batch 8
+
+Resumed via a self-scheduled continuation trigger (verified resume point unchanged against live INDEX.md before proceeding — a concurrent Lane 3 batch had landed on Slack DMs, no overlap with this lane's Fathom scope). Continued top-down — next three queued rows, all dated 2026-08-20:
+
+| Recording | Call | Archived as |
+|---|---|---|
+| rec 175448782 | [Fathom call 793137663](https://fathom.video/calls/793137663) | [2026-08-20--karl-debrief-contract-terms-legacy-form--175448782](../archive/calls/fathom/2026-08-20--karl-debrief-contract-terms-legacy-form--175448782/transcript.md) — Alan debriefs the Karl Krummenacher call with Carla/Lynn: $750k LOC deal terms (1% success fee, $0 upfront), Legacy form clarification |
+| rec 175052490 | [Fathom call 791883972](https://fathom.video/calls/791883972) | [2026-08-20--team-strategy-matthew-funding-company-vision--175052490](../archive/calls/fathom/2026-08-20--team-strategy-matthew-funding-company-vision--175052490/transcript.md) ★ — long strategy call: Matthew's First Citizens Bank funding gamble, 16% show-rate/CPQBC crisis, Carla's career goals, 18-month company vision (marked ★ as a doctrine-level call, matching the INDEX's existing convention for vision/strategy calls) |
+| rec 175036919 | [Fathom call 791773496](https://fathom.video/calls/791773496) | [2026-08-20--edwin-choi-onboarding-ein-website-credit--175036919](../archive/calls/fathom/2026-08-20--edwin-choi-onboarding-ein-website-credit--175036919/transcript.md) — Edwin Choi (Longevity Medical Group) onboarding: EIN name-mismatch fix, website/directory audit, personal-credit LOC removal strategy |
+
+Raw sourcing: rec 175052490 (the largest transcript processed so far, 337KB/1113 lines) auto-saved to a local plain-text tool-result file — direct `cp`, confirmed identical via `cmp`. rec 175036919 auto-saved to a local JSON tool-result file — extracted from the `text` field, confirmed byte-identical. rec 175448782 returned inline — `transcript-raw.txt` written from the exact returned tool text via Write.
+
+Ran `format_transcripts.py` (175448782 → chaptered, 2 chapters; 175036919 → chaptered, 7 chapters; 175052490 → SPLIT into 4 parts, 37 chapters — largest split yet) then `add_breadcrumbs.py`.
+
+**Verbatim self-check:** stripped structural additions and diffed against each `transcript-raw.txt` line-for-line — all three matched exactly (175448782: 74/74, 175036919: 206/206, 175052490: 1113/1113 across all 4 parts).
+
+**INDEX:** flipped all three rows to ✅ with clickable links + `raw ✓`. Counts: 48→51 archived, 2 no-transcript (unchanged), 184→181 queued. Verified 51+2+181 = 234 and grep-counted rows (51 ✅ / 183 non-✅ = 234) confirm.
+
+**Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
+
+**Resume point:** next queued row (top-down, August section) is `rec 175025137` ([Fathom call 791712438](https://fathom.video/calls/791712438), 2026-08-19).
