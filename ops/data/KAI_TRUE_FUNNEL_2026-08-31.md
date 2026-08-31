@@ -69,3 +69,10 @@
 
 ## E. What fixes it (already in motion)
 Per-call outcome + qualification capture from Sep 1 (fields live; automation SOP ready) · reheat the 9 never-booked (5 already carded, Tier-1 due today) · SCIO targeting fix toward funds-qualified audiences · Whop export closes the money-verification gap · Closer Verdict taps adjudicate the 1-vs-2 qualified conflict.
+
+## F. APPENDIX — Alan's confirmation questions (8/31), answered with computed evidence
+Q1 structure: 38 ad LEADS (not bookings) = 29 booked + 9 opt-in-only; +1 referral booked (Mclean) = the 30 booked tags; ZERO true direct-to-book — all 38 carry application-funnel opt-in UTMs.
+Qualified of 39: Main 2 (Karl, P Reddy) · Downsell 4 (Nick, Pradeep, Yeshaya + referral Mclean) · Unqualified 2 (Michael Moore no-funds, Jennifer no-PG) · not assessed 31.
+Triage: recorded-at-the-time 1 (Connor) · Alan-attested retroactively 10 more (booked cohort) · opt-in-only group 0 · TRIAGE PROCESS WITH DATA COMPLETED: 0 of 38 (no verdicts/dates/notes captured, ever).
+Contact/speed: 36/38 first-touched ≤1 minute [V speed_to_lead CSV] — AUTOMATED touch (instant text/email); the 2 misses = Morawitz + Bowers (duplicate-id casualties). Human contact-attempt counts: never tracked (field born 8/31) — computable from 8,218 GHL messages next pass.
+Split test triaged-vs-not [CONTAMINATED — flags are retroactive, 15 outcomes silent]: Triaged 11 → showed 4 (36% floor) · cancelled 1 · silent 6 · qual: 1 Main, 1 Downsell, 1 Unq, 1 unassessed. Not-triaged booked 19 → showed 5-7 (26-37% floor) · cancelled 1 · silent 10-11 · qual: 1 Main, 3 Downsell, 1 Unq. NO statistically meaningful triage effect measurable yet — samples tiny, flags retroactive, silent outcomes dominate. The split test becomes real from Sep 1 forward.
