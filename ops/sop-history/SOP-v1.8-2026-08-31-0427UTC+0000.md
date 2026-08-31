@@ -1,7 +1,8 @@
+<!-- SNAPSHOT: SOP v1.8 · commit 6ac1638 · committed 2026-08-31T04:27:49+00:00 · READ-ONLY -->
 # APW MULTI-LANE OPERATING SOP — binding on every lane
 **🏁 BRIEF:** how every lane hears (checklist), verifies (evidence+links), stores (repo+Notion), answers (buttons+trackers+grade), and never loses data (raws+history).
 **⏱ Timeline:** 🗣️ Alan prompts → ✅ checklist in reply → 👍 confirm → 🔨 execute → 🎯 grade vs SOP → 🔘 buttons+progress → 💾 all stored+pushed
-*v1.9 · 2026-08-31 (v1.8 + §1.13 SOP versioning: snapshot-before-modify, read-only history, department-SOP architecture) · Owner: Lane 1 (Command). A lane that has not read this file this session may not write anything.*
+*v1.8 · 2026-08-31 (v1.7 + 8e Layer 1c: consecutive-A health metric governs, per-cycle mechanical self-test) · Owner: Lane 1 (Command). A lane that has not read this file this session may not write anything.*
 
 ## 0. THE NEVER-MISS PROTOCOL (Law 0 — outranks everything; from Alan: "plan a strategy to NEVER miss on a user prompt. ESPECIALLY a 2nd reprompt")
 
@@ -57,9 +58,6 @@ Track: every §1.9 reply carries session tokens used/remaining; every mastery cy
 
 ## 1.12 LOCAL-SESSION BOOTSTRAP (why local Claudes "keep missing the whole checklist thing")
 Diagnosis [V]: the SOP auto-loads ONLY when a session starts INSIDE this repo folder (root [CLAUDE.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/CLAUDE.md) is the loader). A local chat opened elsewhere, or on a stale clone, never sees it — pointing at it mid-chat is weaker than loading it at start. The fix, every local session: (1) open the chat IN the repo folder (or a worktree), (2) first message = `git pull, read CLAUDE.md, confirm SOP version`, (3) if any reply misses the format, paste: "Follow SOP §1.9 — respond via ops/RESPONSE_TEMPLATE.md." A lane that can't confirm the current SOP version may not write.
-
-## 1.13 SOP VERSIONING (Alan spec 8/30, executed 8/31)
-Before ANY change to ANY SOP: snapshot the current file into [ops/sop-history/](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/sop-history/README.md) named `SOP-vX.X-date-timeTZ`, cross-check the live file matches the newest snapshot, THEN edit; also snapshot at creation. Snapshots are read-only (chmod 444) with git as the second permanent layer. Department-SOP architecture: one main SOP (this file, all lanes inherit) + department SOPs that extend it, never contradict it, each registered here and at the front door.
 
 ## 1c. RATIFIED ARCHITECTURE (Alan: "47 go", 8/30)
 One front door, one job per tool: **Notion = index + live client data** · Google Docs = long-form working docs · Sheets = number grids · Trello = task execution/accountability · Slack = signals only (anything lasting gets a home + link within 24h) · GitHub vault = permanence + raws · GHL = funnel ground truth (statuses maintained per #64) · **Whop = payments source of truth (Alan: "65 whop")**. Three enforcement rules: nothing lives in two places · every new doc registers at the front door within 24h · Slack is ephemeral by policy.

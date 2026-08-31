@@ -1,7 +1,6 @@
+<!-- SNAPSHOT: SOP v1.3 · commit fd4a202 · committed 2026-08-30T23:37:58+00:00 · READ-ONLY -->
 # APW MULTI-LANE OPERATING SOP — binding on every lane
-**🏁 BRIEF:** how every lane hears (checklist), verifies (evidence+links), stores (repo+Notion), answers (buttons+trackers+grade), and never loses data (raws+history).
-**⏱ Timeline:** 🗣️ Alan prompts → ✅ checklist in reply → 👍 confirm → 🔨 execute → 🎯 grade vs SOP → 🔘 buttons+progress → 💾 all stored+pushed
-*v1.9 · 2026-08-31 (v1.8 + §1.13 SOP versioning: snapshot-before-modify, read-only history, department-SOP architecture) · Owner: Lane 1 (Command). A lane that has not read this file this session may not write anything.*
+*v1.3 · 2026-08-30 (v1.2 §1.9 protocol; v1.3 adds §1.9 steps 5b/8b: model line on EVERY reply + compliance footer + conversation ledger) · Owner: Lane 1 (Command). A lane that has not read this file this session may not write anything.*
 
 ## 0. THE NEVER-MISS PROTOCOL (Law 0 — outranks everything; from Alan: "plan a strategy to NEVER miss on a user prompt. ESPECIALLY a 2nd reprompt")
 
@@ -29,7 +28,7 @@ Root causes of every miss to date: compression reflex, answering the adjacent qu
 *Spec: [ops/prompts/2026-08-30-interaction-protocol-spec.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/prompts/2026-08-30-interaction-protocol-spec.md) · Checklist: [ops/data/INTERACTION_PROTOCOL_CHECKLIST.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/INTERACTION_PROTOCOL_CHECKLIST.md) · Notion hard-code: linked from the register mirror.*
 
 The loop, for EVERY user prompt:
-1. **PARSE** — break the WHOLE prompt into a verbatim-anchored numbered checklist: each item = 🗣️ the user's exact quote, then on the NEXT line, indented as a sub-bullet, 🤖 the AI's understanding (same column every item; survives chat AND GitHub rendering). Zero fidelity loss.
+1. **PARSE** — break the WHOLE prompt into a verbatim-anchored numbered checklist: one line per ask, big text blocks become checkable lines, zero fidelity loss.
 2. **PRESENT** — that checklist appears IN the response for the user to confirm / deny / add to, BEFORE work starts.
 3. **STORE** — the checklist is hard-coded: repo file (ops/data/) + Notion mirror + register line, with clickable links in the response (compaction-proof).
 4. **ADD** — Claude appends its own improvement suggestions — for AI and for humans; beginner-friendly AND master-grade, never sacrificing the beginner.
@@ -39,27 +38,10 @@ The loop, for EVERY user prompt:
 8. **CLOSE** — every final output ends with buttons (incl. Claude-suggested options) + a timeline tracker + progress trackers of the micro AND the macro.
 
 **5b. NO SIZE EXCEPTION** — the model/effort line appears on EVERY reply, micro replies included (miss logged 8/30, register #94b).
-**8b. COMPLIANCE FOOTER** — every reply ends with one compact SOP-check line: ✓/✗ per protocol step + links to [the SOP](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/SOP.md), the run's checklist, AND the run's grade file ([Grading SOP](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/gradings/README.md): vertical/mobile, did·didn't·%·quality·why·link·before/after + limitations w/ automatic fixes + 🧠 reasoning digest). Lean in the reply; depth one click away ("don't bloat, but let me verify" — Alan).
-**8c. CONVERSATION LEDGER** — every session re-archives its raw transcript at batch end and regenerates [ops/archive/conversation/](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/archive/conversation/README.md) via [build_conversation_ledger.py](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/tools/build_conversation_ledger.py) (numbered NNN-title-date-timeZ files; prompt verbatim open, AI layers collapsible; vanilla-friendly README). Honest limit on record: the platform stores thinking blocks EMPTY — the 🧠 layer is unavailable for any turn, by platform design, not by loss.
-
-**8e. SUPERVISOR + TEMPLATE (the "coach over the shoulder")** — two layers, because rules alone kept failing:
-- *Layer 1, prevention:* every Alan-facing reply is built by filling [ops/RESPONSE_TEMPLATE.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/RESPONSE_TEMPLATE.md) — a skeleton with a slot per SOP step, so a skipped step is a visible hole, not a memory lapse.
-- *Layer 1b, the pre-send string check (supervisor rec #1, adopted 8/31):* before sending any Alan-facing reply, verify the draft literally contains all 7 template headings (RUN START · Your words → my understanding · My additions · Tokens/effort · Progress · SOP check · buttons/quick-line); an absent heading without an explicit "n/a — why" = the reply does not ship.
-- *Layer 1c, the health metric (Alan-ratified 8/31):* SOP health = the consecutive-A streak. 5 consecutive Alan-facing replies graded A with zero reprompts = working as intended; every supervisor inspection reports the current streak; a break is reported to Alan, a healthy streak is not. Every mastery cycle also runs the 31-point mechanical self-test (SOP sections, template headings, loader, file existence, index completeness, ledger sync, clean tree).
-- *Layer 2, inspection:* every mastery cycle spawns a SUPERVISOR agent that reads the session's last replies from the raw transcript, grades each against §1.9 slot-by-slot, and auto-files any miss to the register with root cause. Misses get fixed in the next reply, not re-argued.
-
-**8d. NO TURN ENDS ON A COMMIT** — the user-facing reply (buttons, footer, trackers) is composed in the same turn as the final tool call; a commit is never the last act (root cause of the 8/30 missed-buttons misses).
+**8b. COMPLIANCE FOOTER** — every reply ends with one compact SOP-check line: ✓/✗ per protocol step + links to [the SOP](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/SOP.md) and the run's checklist. Lean in the reply; depth one click away ("don't bloat, but let me verify" — Alan).
+**8c. CONVERSATION LEDGER** — every session re-archives its raw transcript at batch end and regenerates ops/archive/conversation/ via ops/tools/build_conversation_ledger.py (numbered NNN-title-date-timeZ files; prompt verbatim open, AI layers collapsible; vanilla-friendly README). Honest limit on record: the platform stores thinking blocks EMPTY — the 🧠 layer is unavailable for any turn, by platform design, not by loss.
 
 Standing exception unchanged (§1.7): autonomous/scheduled runs close with a quick-answer line instead of buttons. New lanes inherit this automatically via the root CLAUDE.md.
-
-## 1.11 TOKEN OPTIMIZATION (Alan 8/31: "we keep running into massive token issues")
-Track: every §1.9 reply carries session tokens used/remaining; every mastery cycle logs exact usage (from the session record) to its process log; every run-grade states the run's estimated cost. Segment: recurring tasks are classified 🟢 Sonnet-eligible / 🔴 Fable-required in [ops/data/TOKEN_SEGMENTATION.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/TOKEN_SEGMENTATION.md) — mechanical batch work moves to Sonnet chats (paste-brief in that file); Fable stays for law-drafting, forensics, and Alan-facing judgment. Raw numbers before optimization advice, always.
-
-## 1.12 LOCAL-SESSION BOOTSTRAP (why local Claudes "keep missing the whole checklist thing")
-Diagnosis [V]: the SOP auto-loads ONLY when a session starts INSIDE this repo folder (root [CLAUDE.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/CLAUDE.md) is the loader). A local chat opened elsewhere, or on a stale clone, never sees it — pointing at it mid-chat is weaker than loading it at start. The fix, every local session: (1) open the chat IN the repo folder (or a worktree), (2) first message = `git pull, read CLAUDE.md, confirm SOP version`, (3) if any reply misses the format, paste: "Follow SOP §1.9 — respond via ops/RESPONSE_TEMPLATE.md." A lane that can't confirm the current SOP version may not write.
-
-## 1.13 SOP VERSIONING (Alan spec 8/30, executed 8/31)
-Before ANY change to ANY SOP: snapshot the current file into [ops/sop-history/](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/sop-history/README.md) named `SOP-vX.X-date-timeTZ`, cross-check the live file matches the newest snapshot, THEN edit; also snapshot at creation. Snapshots are read-only (chmod 444) with git as the second permanent layer. Department-SOP architecture: one main SOP (this file, all lanes inherit) + department SOPs that extend it, never contradict it, each registered here and at the front door.
 
 ## 1c. RATIFIED ARCHITECTURE (Alan: "47 go", 8/30)
 One front door, one job per tool: **Notion = index + live client data** · Google Docs = long-form working docs · Sheets = number grids · Trello = task execution/accountability · Slack = signals only (anything lasting gets a home + link within 24h) · GitHub vault = permanence + raws · GHL = funnel ground truth (statuses maintained per #64) · **Whop = payments source of truth (Alan: "65 whop")**. Three enforcement rules: nothing lives in two places · every new doc registers at the front door within 24h · Slack is ephemeral by policy.
