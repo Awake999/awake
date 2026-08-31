@@ -10,7 +10,7 @@
 - [July 2026](#july-2026) — 91 meetings
 - [June 2026](#june-2026) — 10 meetings
 
-**Archive status:** 31 archived ✅ · 1 verified no-transcript · 202 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+**Archive status:** 34 archived ✅ · 1 verified no-transcript · 199 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
 
 
 ## August 2026
@@ -39,11 +39,11 @@
 | 2026-08-26 | [Constantine — Sales Show-Rate & Lead Quality Review](https://fathom.video/calls/800109782) | ✅ [transcript](2026-08-26--constantine-sales-show-rate-lead-quality-review--177129989/transcript.md) · [summary](2026-08-26--constantine-sales-show-rate-lead-quality-review--177129989/summary.md) · raw ✓ |
 | 2026-08-26 | [Dispute Team - Daily Zoom Meeting](https://fathom.video/calls/798172547) | ✅ [transcript](2026-08-26--dispute-team-daily-zoom--177002596/transcript.md) · raw ✓ |
 | 2026-08-26 | [Braden — ML/James Candidate Vetting, Team Performance Crisis](https://fathom.video/calls/798997210) | ✅ [transcript](2026-08-26--braden-ml-james-candidate-vetting-team-review--176817729/transcript.md) · [summary](2026-08-26--braden-ml-james-candidate-vetting-team-review--176817729/summary.md) · raw ✓ |
-| 2026-08-26 | [Impromptu Zoom Meeting](https://fathom.video/calls/798940357) <sub>rec 176815084</sub> | not yet — click title to watch on Fathom |
+| 2026-08-26 | [Braden — Ellen Leonorio Candidate Interview, Credit Repair Specialist](https://fathom.video/calls/798940357) | ✅ [transcript](2026-08-26--ellen-leonorio-candidate-interview--176815084/transcript.md) · [summary](2026-08-26--ellen-leonorio-candidate-interview--176815084/summary.md) · raw ✓ |
 | 2026-08-26 | [Michael Moore - Guaranteed Funding](https://fathom.video/calls/795906439) | ✅ [transcript](2026-08-26--michael-moore-guaranteed-funding--176802936/transcript.md) · [summary](2026-08-26--michael-moore-guaranteed-funding--176802936/summary.md) — THE close call ($1K deposit, 'We are a go') |
-| 2026-08-26 | [Impromptu Zoom Meeting](https://fathom.video/calls/798796991) <sub>rec 176797747</sub> | not yet — click title to watch on Fathom |
+| 2026-08-26 | [Dispute Team Coaching — Script Adherence, Call Recording Protocol](https://fathom.video/calls/798796991) | ✅ [transcript](2026-08-26--dispute-team-coaching-script-adherence--176797747/transcript.md) · [summary](2026-08-26--dispute-team-coaching-script-adherence--176797747/summary.md) · raw ✓ |
 | 2026-08-25 | [Nick Samara - Guaranteed Funding](https://fathom.video/calls/795906442) | ✅ [transcript](2026-08-25--nick-samara-guaranteed-funding--176779823/transcript.md) · raw ✓ |
-| 2026-08-25 | [Impromptu Zoom Meeting](https://fathom.video/calls/798581474) <sub>rec 176753966</sub> | not yet — click title to watch on Fathom |
+| 2026-08-25 | [Team Ops Sync — Trello Centralization, Meeting Schedule, Client Cases](https://fathom.video/calls/798581474) | ✅ [transcript](2026-08-25--team-ops-sync-trello-schedule-client-cases--176753966/transcript.md) · [summary](2026-08-25--team-ops-sync-trello-schedule-client-cases--176753966/summary.md) · raw ✓ |
 | 2026-08-25 | [Impromptu Zoom Meeting (Rosemarie Anne Fabian) <sub>rec 176731448</sub>](https://fathom.video/calls/798529571) | not yet — click title to watch on Fathom |
 | 2026-08-25 | [Impromptu Zoom Meeting (Sabrina Neves) <sub>rec 176664762</sub>](https://fathom.video/calls/798393367) | not yet — click title to watch on Fathom |
 | 2026-08-25 | [Tech Call w/ Daniel Jimenez](https://fathom.video/calls/796488274) | ✅ [transcript](2026-08-25--tech-call-daniel-jimenez--176649683/transcript.md) |
