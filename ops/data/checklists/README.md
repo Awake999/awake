@@ -8,6 +8,7 @@
 
 | Checklist | Source prompt (Alan's words only) |
 |---|---|
+| [Error-solution agent (8/31)](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/checklists/2026-08-31-error-solution-agent-CHECKLIST.md) | [verbatim](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/prompts/2026-08-31-error-solution-agent-spec.md) |
 | [Button options in text (8/31)](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/checklists/2026-08-31-button-text-CHECKLIST.md) | [verbatim](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/prompts/2026-08-31-button-text-spec.md) |
 | [Final mode/effort line (8/31)](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/checklists/2026-08-31-final-mode-line-CHECKLIST.md) | [verbatim](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/prompts/2026-08-31-final-mode-line-spec.md) |
 | [Path to 100 (8/31)](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/checklists/2026-08-31-path-to-100-CHECKLIST.md) | [verbatim](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/prompts/2026-08-31-path-to-100-spec.md) |
