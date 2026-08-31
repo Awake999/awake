@@ -10,7 +10,7 @@
 - [July 2026](#july-2026) — 91 meetings
 - [June 2026](#june-2026) — 10 meetings
 
-**Archive status:** 36 archived ✅ · 2 verified no-transcript · 196 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+**Archive status:** 39 archived ✅ · 2 verified no-transcript · 193 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
 
 
 ## August 2026
@@ -51,10 +51,10 @@
 | 2026-08-25 | [APW - Daily Sync (Rosemarie)](https://fathom.video/calls/796092304) | ✅ [transcript](2026-08-25--apw-daily-sync-rosemarie--176612379/transcript.md) · raw ✓ — (+raw; duplicate capture of same sync) |
 | 2026-08-25 | [Daily Meeting Cadence, SBI Feedback, Mindset Audio Review](https://fathom.video/calls/798282012) | ✅ [transcript](2026-08-25--daily-meeting-cadence-sbi-feedback--176612153/transcript.md) · [summary](2026-08-25--daily-meeting-cadence-sbi-feedback--176612153/summary.md) · raw ✓ |
 | 2026-08-25 | [APW - Daily Sync (Sabrina)](https://fathom.video/calls/796488288) | ✅ [transcript](2026-08-25--apw-daily-sync-sabrina--176587651/transcript.md) · raw ✓ — (+raw; third capture of same sync) |
-| 2026-08-25 | [Impromptu Zoom Meeting (Ina) <sub>rec 176566669</sub>](https://fathom.video/calls/798180477) | not yet — click title to watch on Fathom |
+| 2026-08-25 | [Dispute Team — Optimization Checklist, Trello Workflow, Performance Bonuses](https://fathom.video/calls/798180477) | ✅ [transcript](2026-08-25--dispute-team-optimization-checklist-trello--176566669/transcript.md) · [summary](2026-08-25--dispute-team-optimization-checklist-trello--176566669/summary.md) · raw ✓ |
 | 2026-08-25 | [Dispute Team - Daily Zoom Meeting](https://fathom.video/calls/798172465) | ✅ [transcript](2026-08-25--dispute-team-daily-zoom--176562530/transcript.md) · raw ✓ |
-| 2026-08-25 | [Impromptu Zoom Meeting](https://fathom.video/calls/797219041) <sub>rec 176360534</sub> | not yet — click title to watch on Fathom |
-| 2026-08-24 | [Impromptu Zoom Meeting](https://fathom.video/calls/797017809) <sub>rec 176336909</sub> | not yet — click title to watch on Fathom |
+| 2026-08-25 | [James Beckett — Role Offer, Onboarding Clarification](https://fathom.video/calls/797219041) | ✅ [transcript](2026-08-25--james-beckett-role-offer-onboarding--176360534/transcript.md) · [summary](2026-08-25--james-beckett-role-offer-onboarding--176360534/summary.md) · raw ✓ |
+| 2026-08-24 | [Edwin Choi — Business Setup, Grasshopper & DUNS Verification](https://fathom.video/calls/797017809) | ✅ [transcript](2026-08-24--edwin-choi-business-setup-duns--176336909/transcript.md) · [summary](2026-08-24--edwin-choi-business-setup-duns--176336909/summary.md) · raw ✓ |
 | 2026-08-24 | [Impromptu Zoom Meeting (Rosemarie) <sub>rec 176165428</sub>](https://fathom.video/calls/796561317) | not yet — click title to watch on Fathom |
 | 2026-08-24 | [Impromptu Zoom Meeting (Ina) <sub>rec 176165529</sub>](https://fathom.video/calls/796561603) | not yet — click title to watch on Fathom |
 | 2026-08-24 | [Impromptu Zoom Meeting](https://fathom.video/calls/796560208) <sub>rec 176165147</sub> | not yet — click title to watch on Fathom |

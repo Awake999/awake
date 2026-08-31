@@ -1,0 +1,51 @@
+# Edwin Choi — Business Setup, Grasshopper & DUNS Verification — 2026-08-24 — verbatim transcript
+
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+
+
+ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
+
+
+## Chapter 1 (00:00 to 10:00)
+
+[00:00](https://fathom.video/calls/797017809?timestamp=0) Alan Nguyen: Hey Ed, how's it going?
+[00:01](https://fathom.video/calls/797017809?timestamp=1) Edwin Choi: Very good, thank you. awesome.
+[00:05](https://fathom.video/calls/797017809?timestamp=5) Alan Nguyen: you just want to share your screen, which probably is easiest. Are you familiar with how to do that on Zoom in the bottom middle? Should be like a little square with an arrow pointing up.
+[00:17](https://fathom.video/calls/797017809?timestamp=17) Edwin Choi: I got that, but I'm trying to share the entire screen because I'm on Zoom. I'm trying to find, hold on. Oh, here it is. Okay, do you see it now? Yes.
+[00:29](https://fathom.video/calls/797017809?timestamp=29) Alan Nguyen: Awesome. All right. Yes, and I just log in however you log in normally.
+[00:36](https://fathom.video/calls/797017809?timestamp=36) Edwin Choi: I don't remember setting up password. I would have written it down.
+[00:43](https://fathom.video/calls/797017809?timestamp=43) Alan Nguyen: You could also try passkey if you have a passkey.
+[00:45](https://fathom.video/calls/797017809?timestamp=45) Edwin Choi: No, I tried that too. Okay. Did you sign up on your phone by any chance? No. Okay.
+[00:59](https://fathom.video/calls/797017809?timestamp=59) Alan Nguyen: I think. Worst case scenario, you could also do forgot password.
+[01:27](https://fathom.video/calls/797017809?timestamp=87) Edwin Choi: I don't even remember the email account.
+[01:43](https://fathom.video/calls/797017809?timestamp=103) Alan Nguyen: You didn't use the business one? It doesn't matter for Grasshopper specifically, but...
+[01:54](https://fathom.video/calls/797017809?timestamp=114) Edwin Choi: What did he say? That wasn't the right email? Oh, wasn't looking at the screen. mobile apps. Well, I would, I'd just go back from here.
+[02:08](https://fathom.video/calls/797017809?timestamp=128) Alan Nguyen: That's just, it's like their forum, basically. Shoot, I didn't see, I saw you typing your personal email, and I looked away, and then, I didn't see what happened between that, that and here. I would just go through the normal forgot password process, unless you know the login. Should say forgot your username and password in green. I don't remember the username, either.
+[02:36](https://fathom.video/calls/797017809?timestamp=156) Edwin Choi: I normally write things down, but I can't find it.
+[02:42](https://fathom.video/calls/797017809?timestamp=162) Alan Nguyen: I would just, still press the forgot username and password, and I'll just try every email I could possibly be. but right now you're on the login page. Right underneath, like, two fields, three fields down would be, Awesome.
+[03:06](https://fathom.video/calls/797017809?timestamp=186) Edwin Choi: Oh, I see. I have to wait for the email. . So then I would, if I were you, I would just go back and then just literally try every single email that it could be, and then you just check your inboxes afterwards. Gotcha. .
+[03:20](https://fathom.video/calls/797017809?timestamp=200) Alan Nguyen: Probably the easiest way.
+[03:48](https://fathom.video/calls/797017809?timestamp=228) Edwin Choi: No. I'll figure it out, what I'm saying. DUNS is done, Yelp, Yelp, Pages, those are set up. We got a new EI number. Yep, and you have that in your email. Now, the people at the BankReady, they're not really responding to my emails, but adding, changing the number to 1-800-number. Let's see if we're just doing it.
+[04:42](https://fathom.video/calls/797017809?timestamp=282) Alan Nguyen: and they didn't give you control over that stuff, the website stuff, I take it?
+[04:52](https://fathom.video/calls/797017809?timestamp=292) Edwin Choi: Right, because they do it for a really dirty price. So the telephone number needs to be 1-800 number we got, right?
+[05:04](https://fathom.video/calls/797017809?timestamp=304) Alan Nguyen: you don't necessarily need the 1, but just at least the 800-884-8634, the same number you texted me. I'll just keep it like that, because how I was submitting it, I had no 1-1, so I'll just keep it uniform. Right.
+[05:20](https://fathom.video/calls/797017809?timestamp=320) Edwin Choi: No, no, no, okay. That's okay. And then, so the only thing that we really need is just a number change on this website?
+[05:35](https://fathom.video/calls/797017809?timestamp=335) Alan Nguyen: so I'm sending you an email with everything, just so you can have it all organized in one place, coming up and sending you a lot of texts here. But basically, we're going to want that phone number changed to that 800 number, and I'll show you exactly what it looks like, so just copy and paste that. I'm going to show you then also the business address we want to change to exactly how I listed here. It's basically the same thing, but you want an all-cap. Capital letters. It sounds ridiculous, I know, but we've actually had problems because it's not. And then to remove the comma as well, too. So it's not a huge deal, but it, like, we have seen it make difference.
+[06:14](https://fathom.video/calls/797017809?timestamp=374) Edwin Choi: It's misspelled. So it needs to be a capital C. Yep.
+[06:20](https://fathom.video/calls/797017809?timestamp=380) Alan Nguyen: . Or just do all capital letters and you should be fine. And then update. We're going to want to update the, what's it called? The hours of the business there, of the business on the website. So I just did generic 9 a.m. to 5 p.m. PST. I didn't even do the times. Yep. that's how it's going to reflect on the Yellow Pages, Yelp and everything else. So Yellow Pages specifically, they're going to have to call you to confirm. They just want to make sure you're a human. They're just calling you like, hey, did you want to set this up? And sure. And then maybe it's like a five minute process. They might try to sell you up on something, but you're going to say, no, I just want to make sure it's up. You know, my clients can find me and then that's it. And then Yelp, just look out in your emails, your texts or your voicemails, or your calls. They might try to call you and try to finish setting up your profile. if they don't automatically send you a confirmation saying it's already up and good to go. If they call you, I'd answer it. It might just be like, oh, we need you to fill out this specific field that could take like less than like two minutes. But the main purpose of their call will be to try to sell you on a free ad service, but I wouldn't. I mean, you can do it if you want, but you don't need it. but the main thing is you just want to focus on getting your account ready to go so people can find you on yellow pages and Yelp, and then just move on from there. And this will be in the email as well too. and then the 401 listing, we need to make, we need confirmation with that, but we can only do that once your grasshopper number is up and running. So I'll put that in there as well too, pending the grasshopper number, for a 401 listing. And then if you look at your text message. Also, emailed it too. It says, how to approach DUNS verification. And it's about a five-minute loom. It's like a video recording or screen recording of me going over the process of, you know, one, logging in, two, going exactly where you'd go from like your perspective. And I just like pulled up like one monitor, one monitor, or like half monitor, half monitor, and just like follow alongside it. And all you're going to do is just, it's just identity verification. And then once your identity verification is good to go, then we just update the information for the, the business. And I'll put that all in the email as well too. So should be pretty straightforward. All that stuff should be like, you know, I'll even put the time estimation too. Like ideally it's like one to five minutes here, one to five minutes here. And then hopefully the DUNS is only like one to five minutes as well too. And then, then once it's up and running on your business website, we should be ready to roll essentially.
+[09:00](https://fathom.video/calls/797017809?timestamp=540) Edwin Choi: What is running on my website? The DUNS?
+[09:04](https://fathom.video/calls/797017809?timestamp=544) Alan Nguyen: The phone number, the business address, and the hours to business. And then the DUNS, we need to also do the DUNS as well, too. So that should be a priority as well.
+[09:17](https://fathom.video/calls/797017809?timestamp=557) Edwin Choi: The DUNS I can do right now before I leave. Okay, awesome. But as far as the website, these people I cannot get in touch with. I call them, I email them, but they don't respond. Got So I don't know the website address change, the adding the hours, and changing the number to 1-800 number. I don't think it's doable anytime soon. Got it.
+[09:43](https://fathom.video/calls/797017809?timestamp=583) Alan Nguyen: Okay, so we'll just move forward with what we can. The main thing is going to be getting the DUNS up and running, and then the Graphshopper up and running, just so we have access to your business phone. And then once those two things are up in queue, we can... ... ... Cirpan you different Try to start the process, and hopefully the other people respond to you in your emails, because it's like a 10-second change on their side, so whenever they get it in the process.
+
+## Chapter 2 (10:00 to 20:00)
+
+[10:11](https://fathom.video/calls/797017809?timestamp=611) Edwin Choi: Okay. All right. I'll work on those three things.
+[10:15](https://fathom.video/calls/797017809?timestamp=615) Alan Nguyen: Sweet. Sounds good. All right. Thanks, Bye. Thanks. Bye.

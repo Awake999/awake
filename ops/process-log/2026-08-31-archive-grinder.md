@@ -78,3 +78,27 @@ Ran `format_transcripts.py` (176664762 → chaptered, 9 chapters; 176612153 → 
 **Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
 
 **Resume point:** next queued row (top-down, August section) is `rec 176566669` ([Fathom call 798180477](https://fathom.video/calls/798180477), 2026-08-25, Ina).
+
+## Batch 4
+
+Continued top-down — next three queued rows in `INDEX.md`:
+
+| Recording | Call | Archived as |
+|---|---|---|
+| rec 176566669 | [Fathom call 798180477](https://fathom.video/calls/798180477) | [2026-08-25--dispute-team-optimization-checklist-trello--176566669](../archive/calls/fathom/2026-08-25--dispute-team-optimization-checklist-trello--176566669/transcript.md) — dispute team: new "Optimization Checklist" defining a fully-optimized profile, centralized Trello workflow, $20–$40 speed bonuses |
+| rec 176360534 | [Fathom call 797219041](https://fathom.video/calls/797219041) | [2026-08-25--james-beckett-role-offer-onboarding--176360534](../archive/calls/fathom/2026-08-25--james-beckett-role-offer-onboarding--176360534/transcript.md) — Alan clarifies James Beckett's interest, reverses earlier pass, extends offer ($2,000/mo base + commissions + $250 startup bonus) |
+| rec 176336909 | [Fathom call 797017809](https://fathom.video/calls/797017809) | [2026-08-24--edwin-choi-business-setup-duns--176336909](../archive/calls/fathom/2026-08-24--edwin-choi-business-setup-duns--176336909/transcript.md) — Alan/Edwin: Grasshopper account recovery, DUNS verification, directory-listing (Yelp/Yellow Pages) cleanup |
+
+**Date-column correction:** the INDEX row for rec 176360534 is dated 2026-08-25, but the folder was first created as `2026-08-24--...` (mis-copied from the adjacent row). Caught it before committing — renamed the folder to `2026-08-25--james-beckett-role-offer-onboarding--176360534`, fixed the date in both `transcript.md`/`summary.md` H1 lines, and updated the INDEX links to match. Re-ran the verbatim self-check post-rename — still 317/317 exact match, confirming the rename touched only the folder name and header date, never transcript content.
+
+Raw sourcing: rec 176566669 and rec 176360534 both auto-saved to local tool-result files (JSON and plain-text respectively) — extracted/`cp`'d and confirmed byte-identical. rec 176336909 returned inline (below the auto-save threshold) — `transcript-raw.txt` written from the exact returned tool text via Write.
+
+Ran `format_transcripts.py` (176566669 → chaptered, 8 chapters; 176360534 → chaptered, 10 chapters; 176336909 → chaptered, 2 chapters — no splits) then `add_breadcrumbs.py`. All three carry `formatted: chapters-v1` and `> 🧭` breadcrumbs.
+
+**Verbatim self-check:** stripped structural additions and diffed against each `transcript-raw.txt` line-for-line — all three matched exactly (176566669: 236/236, 176360534: 317/317, 176336909: 31/31).
+
+**INDEX:** flipped all three rows to ✅ with clickable links + `raw ✓`. Counts: 36→39 archived, 2 no-transcript (unchanged), 196→193 queued. Verified 39+2+193 = 234 and grep-counted rows (39 ✅ / 195 non-✅ = 234) confirm.
+
+**Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
+
+**Resume point:** next queued row (top-down, August section) is `rec 176165428` ([Fathom call 796561317](https://fathom.video/calls/796561317), 2026-08-24, Rosemarie).
