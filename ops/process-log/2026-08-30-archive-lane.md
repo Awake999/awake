@@ -165,3 +165,15 @@ Alan: "ok continue with operations" — resumed the Fathom queue per the standin
 Each: transcript.md (chaptered, TOC) + transcript-raw.txt + summary.md (Fathom AI summary verbatim, deep-linked) + breadcrumbs; INDEX rows flipped to ✅ both-ways links. Ritual run: format_transcripts.py + add_breadcrumbs.py (6 files).
 
 **Resume point:** Fathom next: 8/26 — 177232030, 177129989, 176817729, 176815084, 176797747. Then Krisp Pedro triage. DM exports, thread pass, people pages still queued.
+
+---
+
+## Correction batch 2 (2026-08-31): §1.9 step-5 disclosure was NOT being executed
+
+**Alan, verbatim:** "are you tapping into the SOP? theres supposed to be something in there that analyzes the needs + recommedned mode and effort to optimize token use without losing quality. quality and effectiveness first. Unecessary modes and effort second"
+
+**Law 0.2 miss log (severity-1):** SOP §1.9 step 5 (DISCLOSE model/effort/tokens + recommendation) was read and "adopted" two replies ago but never actually rendered in any reply. Claimed adoption without execution = the Do-Then-Check failure class. Grade: C.
+
+**Fix (standing):** every reply from this lane now carries a MODE & EFFORT block: served model+effort verified via the session record (get_session) · needs analysis for the work in this reply · recommended model/effort for the NEXT batch with reasoning (quality first, cost second) · token runway. Session facts this batch: model claude-fable-5, effort_level medium (both configured and last-served), ultracode off, no overage, ~$371.66 session cost to date.
+
+**Standing recommendation for this lane's workload (quality-first):** backlog grinding (fetch → verbatim file → run idempotent tools → flip index rows) is mechanical copy work — Sonnet 5 at medium effort would hold quality at a fraction of the cost; judgment-heavy work (SOP writing, cross-lane reconciliation, people dossiers, verbatim-fidelity audits) is where the top-tier model earns its keep. Lane cannot switch its own model mid-session; Alan sets model per lane/session or on Routines.
