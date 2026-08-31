@@ -10,7 +10,7 @@
 - [July 2026](#july-2026) — 91 meetings
 - [June 2026](#june-2026) — 10 meetings
 
-**Archive status:** 66 archived ✅ · 2 verified no-transcript · 166 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+**Archive status:** 69 archived ✅ · 2 verified no-transcript · 163 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
 
 
 ## August 2026
@@ -85,9 +85,9 @@
 | 2026-08-17 | [Impromptu Zoom Meeting (Carla Valentina Stivala) <sub>rec 174120399</sub>](https://fathom.video/calls/788351529) | ✅ [transcript](2026-08-17--fathom-troubleshooting-activation-link--174120399/transcript.md) · [summary](2026-08-17--fathom-troubleshooting-activation-link--174120399/summary.md) · raw ✓ — no Fathom AI summary available |
 | 2026-08-17 | [Impromptu Zoom Meeting](https://fathom.video/calls/788334715) <sub>rec 174119189</sub> | ✅ [transcript](2026-08-17--fathom-bot-not-joining-troubleshooting--174119189/transcript.md) · [summary](2026-08-17--fathom-bot-not-joining-troubleshooting--174119189/summary.md) · raw ✓ |
 | 2026-08-17 | [Connor Robertson - Guaranteed Funding](https://fathom.video/calls/788222126) ⚠️ empty room (no transcript/summary) — no-show, rebooked Sep 1 <sub>rec 174098114</sub> | n/a — verified 8/30: Fathom holds NO transcript for this meeting |
-| 2026-08-17 | [Impromptu Zoom Meeting](https://fathom.video/calls/788184013) <sub>rec 174081239</sub> | not yet — click title to watch on Fathom |
-| 2026-08-17 | [Impromptu Zoom Meeting](https://fathom.video/calls/787910378) <sub>rec 173958367</sub> | not yet — click title to watch on Fathom |
-| 2026-08-14 | [Impromptu Zoom Meeting](https://fathom.video/calls/786067791) <sub>rec 173605709</sub> | not yet — click title to watch on Fathom |
+| 2026-08-17 | [Impromptu Zoom Meeting](https://fathom.video/calls/788184013) <sub>rec 174081239</sub> | ✅ [transcript](2026-08-17--fansync-mlcs-spv-funding-strategy-debate--174081239/transcript.md) · [summary](2026-08-17--fansync-mlcs-spv-funding-strategy-debate--174081239/summary.md) · raw ✓ |
+| 2026-08-17 | [Impromptu Zoom Meeting](https://fathom.video/calls/787910378) <sub>rec 173958367</sub> | ✅ [transcript](2026-08-17--carla-sales-training-value-equation-client-shadow--173958367/transcript.md) · [summary](2026-08-17--carla-sales-training-value-equation-client-shadow--173958367/summary.md) · raw ✓ |
+| 2026-08-14 | [Impromptu Zoom Meeting](https://fathom.video/calls/786067791) <sub>rec 173605709</sub> | ✅ [transcript](2026-08-14--carla-brother-referral-video-screening--173605709/transcript.md) · [summary](2026-08-14--carla-brother-referral-video-screening--173605709/summary.md) · raw ✓ |
 | 2026-08-14 | [Impromptu Zoom Meeting (Ina) <sub>rec 173596185</sub>](https://fathom.video/calls/786039287) | not yet — click title to watch on Fathom |
 | 2026-08-14 | [Impromptu Zoom Meeting](https://fathom.video/calls/786005742) <sub>rec 173580972</sub> | not yet — click title to watch on Fathom |
 | 2026-08-14 | [Impromptu Zoom Meeting](https://fathom.video/calls/785854313) <sub>rec 173503381</sub> | not yet — click title to watch on Fathom |

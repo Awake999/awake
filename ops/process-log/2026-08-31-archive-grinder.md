@@ -304,3 +304,27 @@ Ran `format_transcripts.py` (174397848 → chaptered + SPLIT into 2 parts, 2 cha
 **Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
 
 **Resume point:** next queued row (top-down, August section) is `rec 174081239` ([Fathom call 788184013](https://fathom.video/calls/788184013), 2026-08-17).
+
+## Batch 14
+
+Resumed via self-scheduled continuation (resume point re-verified against live INDEX.md — no change since last push). Note: the Fathom MCP server reconnected mid-loop under a new tool namespace (`mcp__Fathom__*` instead of the old UUID-prefixed `mcp__eab8a98a-...__*`, which the harness reported as disconnected) — loaded the new tool schemas via ToolSearch and continued rather than treating this as the "Fathom MCP tools unavailable" stop condition, since the server was in fact reachable under its new name.
+
+Continued top-down — next three queued rows:
+
+| Recording | Call | Archived as |
+|---|---|---|
+| rec 174081239 | [Fathom call 788184013](https://fathom.video/calls/788184013) | [2026-08-17--fansync-mlcs-spv-funding-strategy-debate--174081239](../archive/calls/fathom/2026-08-17--fansync-mlcs-spv-funding-strategy-debate--174081239/transcript.md) — heated funding-strategy debate over using MLCS Holdings as an SPV with fabricated consulting revenue to secure a line of credit for FanSync; client rejects the approach as dishonest |
+| rec 173958367 | [Fathom call 787910378](https://fathom.video/calls/787910378) | [2026-08-17--carla-sales-training-value-equation-client-shadow--173958367](../archive/calls/fathom/2026-08-17--carla-sales-training-value-equation-client-shadow--173958367/transcript.md) — Carla's sales training: consolidated script doc, "epiphany" strategy, Hormozi Value Equation framework, shadowing a client call (Matthew/Jeff/Igor) on entity structuring for a UCC filing |
+| rec 173605709 | [Fathom call 786067791](https://fathom.video/calls/786067791) | [2026-08-14--carla-brother-referral-video-screening--173605709](../archive/calls/fathom/2026-08-14--carla-brother-referral-video-screening--173605709/transcript.md) — short call: Carla refers her brother for a disputes-processing role, Alan outlines the standard video-screening process for candidates |
+
+Raw sourcing: rec 173958367 auto-saved to a local plain-text tool-result file — direct `cp`, confirmed identical via `cmp`. rec 174081239 and rec 173605709 both returned inline — `transcript-raw.txt` written from the exact returned tool text via Write for each (self-flagged per the audit-approved inline-transcript raw-write procedure).
+
+Ran `format_transcripts.py` (174081239 → no-ts, transcript is a single unbroken paragraph with only one leading timestamp, no chapter markers possible; 173958367 → chaptered + SPLIT into 2 parts, 19 chapters, oversized transcript; 173605709 → short, <2 chapters) then `add_breadcrumbs.py`.
+
+**Verbatim self-check:** stripped structural additions and diffed against each `transcript-raw.txt` line-for-line, concatenating both parts for 173958367 — all three matched exactly (174081239: 1/1 — single-line transcript, 173958367: 596/596, 173605709: 18/18).
+
+**INDEX:** flipped all three rows to ✅ with clickable links + `raw ✓`. Counts: 66→69 archived, 2 no-transcript (unchanged), 166→163 queued. Verified 69+2+163 = 234 and grep-counted rows (69 ✅ / 2 n/a / 163 queued = 234) confirm.
+
+**Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
+
+**Resume point:** next queued row (top-down, August section) is `rec 173596185` ([Fathom call 786039287](https://fathom.video/calls/786039287), 2026-08-14, "Impromptu Zoom Meeting (Ina)").
