@@ -1,7 +1,7 @@
 # APW MULTI-LANE OPERATING SOP — binding on every lane
 **🏁 BRIEF:** how every lane hears (checklist), verifies (evidence+links), stores (repo+Notion), answers (buttons+trackers+grade), and never loses data (raws+history).
 **⏱ Timeline:** 🗣️ Alan prompts → ✅ checklist in reply → 👍 confirm → 🔨 execute → 🎯 grade vs SOP → 🔘 buttons+progress → 💾 all stored+pushed
-*v1.7 · 2026-08-31 (v1.6 + 8e Layer 1b pre-send heading check — supervisor inspection #1, rec #1) · Owner: Lane 1 (Command). A lane that has not read this file this session may not write anything.*
+*v1.8 · 2026-08-31 (v1.7 + 8e Layer 1c: consecutive-A health metric governs, per-cycle mechanical self-test) · Owner: Lane 1 (Command). A lane that has not read this file this session may not write anything.*
 
 ## 0. THE NEVER-MISS PROTOCOL (Law 0 — outranks everything; from Alan: "plan a strategy to NEVER miss on a user prompt. ESPECIALLY a 2nd reprompt")
 
@@ -45,6 +45,7 @@ The loop, for EVERY user prompt:
 **8e. SUPERVISOR + TEMPLATE (the "coach over the shoulder")** — two layers, because rules alone kept failing:
 - *Layer 1, prevention:* every Alan-facing reply is built by filling [ops/RESPONSE_TEMPLATE.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/RESPONSE_TEMPLATE.md) — a skeleton with a slot per SOP step, so a skipped step is a visible hole, not a memory lapse.
 - *Layer 1b, the pre-send string check (supervisor rec #1, adopted 8/31):* before sending any Alan-facing reply, verify the draft literally contains all 7 template headings (RUN START · Your words → my understanding · My additions · Tokens/effort · Progress · SOP check · buttons/quick-line); an absent heading without an explicit "n/a — why" = the reply does not ship.
+- *Layer 1c, the health metric (Alan-ratified 8/31):* SOP health = the consecutive-A streak. 5 consecutive Alan-facing replies graded A with zero reprompts = working as intended; every supervisor inspection reports the current streak; a break is reported to Alan, a healthy streak is not. Every mastery cycle also runs the 31-point mechanical self-test (SOP sections, template headings, loader, file existence, index completeness, ledger sync, clean tree).
 - *Layer 2, inspection:* every mastery cycle spawns a SUPERVISOR agent that reads the session's last replies from the raw transcript, grades each against §1.9 slot-by-slot, and auto-files any miss to the register with root cause. Misses get fixed in the next reply, not re-argued.
 
 **8d. NO TURN ENDS ON A COMMIT** — the user-facing reply (buttons, footer, trackers) is composed in the same turn as the final tool call; a commit is never the last act (root cause of the 8/30 missed-buttons misses).
