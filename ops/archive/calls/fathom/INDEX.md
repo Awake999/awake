@@ -10,7 +10,7 @@
 - [July 2026](#july-2026) — 91 meetings
 - [June 2026](#june-2026) — 10 meetings
 
-**Archive status:** 99 archived ✅ · 2 verified no-transcript · 133 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+**Archive status:** 102 archived ✅ · 2 verified no-transcript · 130 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
 
 
 ## August 2026
@@ -118,9 +118,9 @@
 | 2026-08-11 | [Impromptu Zoom Meeting](https://fathom.video/calls/779845972) <sub>rec 171944256</sub> | ✅ [transcript](2026-08-11--lynn-client-portal-tracking-hub-sync-fix--171944256/transcript.md) · [summary](2026-08-11--lynn-client-portal-tracking-hub-sync-fix--171944256/summary.md) · raw ✓ |
 | 2026-08-10 | [Impromptu Zoom Meeting](https://fathom.video/calls/779813812) <sub>rec 171939436</sub> | ✅ [transcript](2026-08-10--team-pipeline-review-coral-whitney-zachary-new-cadence--171939436/transcript.md) · [summary](2026-08-10--team-pipeline-review-coral-whitney-zachary-new-cadence--171939436/summary.md) · raw ✓ |
 | 2026-08-10 | [Impromptu Zoom Meeting](https://fathom.video/calls/779780027) <sub>rec 171935538</sub> | ✅ [transcript](2026-08-10--rosemarie-live-experian-dispute-call-roleplay--171935538/transcript.md) · [summary](2026-08-10--rosemarie-live-experian-dispute-call-roleplay--171935538/summary.md) · raw ✓ |
-| 2026-08-10 | [Impromptu Zoom Meeting](https://fathom.video/calls/779740517) <sub>rec 171929413</sub> | not yet — click title to watch on Fathom |
-| 2026-08-10 | [Impromptu Zoom Meeting](https://fathom.video/calls/779713886) <sub>rec 171925919</sub> | not yet — click title to watch on Fathom |
-| 2026-08-10 | [Impromptu Zoom Meeting](https://fathom.video/calls/779664353) <sub>rec 171914041</sub> | not yet — click title to watch on Fathom |
+| 2026-08-10 | [Impromptu Zoom Meeting](https://fathom.video/calls/779740517) <sub>rec 171929413</sub> | ✅ [transcript](2026-08-10--ed-matthew-dispute-strategy-grasshopper-vpn-access--171929413/transcript.md) · [summary](2026-08-10--ed-matthew-dispute-strategy-grasshopper-vpn-access--171929413/summary.md) · raw ✓ |
+| 2026-08-10 | [Impromptu Zoom Meeting](https://fathom.video/calls/779713886) <sub>rec 171925919</sub> | ✅ [transcript](2026-08-10--ed-matthew-ashwini-dispute-assignments-cursive-letter-strategy--171925919/transcript.md) · [summary](2026-08-10--ed-matthew-ashwini-dispute-assignments-cursive-letter-strategy--171925919/summary.md) · raw ✓ |
+| 2026-08-10 | [Impromptu Zoom Meeting](https://fathom.video/calls/779664353) <sub>rec 171914041</sub> | ✅ [transcript](2026-08-10--carla-sales-call-debrief-presentation-strategy-leo-deal--171914041/transcript.md) · [summary](2026-08-10--carla-sales-call-debrief-presentation-strategy-leo-deal--171914041/summary.md) · raw ✓ |
 | 2026-08-10 | [P Reddy P - Guaranteed Funding](https://fathom.video/calls/777298604) <sub>rec 171892299</sub> | not yet — click title to watch on Fathom |
 | 2026-08-10 | [Impromptu Zoom Meeting](https://fathom.video/calls/779372453) <sub>rec 171780268</sub> | not yet — click title to watch on Fathom |
 | 2026-08-10 | [Impromptu Zoom Meeting](https://fathom.video/calls/779303656) <sub>rec 171758124</sub> | not yet — click title to watch on Fathom |

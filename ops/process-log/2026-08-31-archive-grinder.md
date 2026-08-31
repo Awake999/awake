@@ -574,3 +574,29 @@ Ran `format_transcripts.py` (171944256 → chaptered, 3 chapters; 171939436 → 
 **Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
 
 **Resume point:** next queued row (top-down, August section) is `rec 171929413` ([Fathom call 779740517](https://fathom.video/calls/779740517), 2026-08-10).
+
+## Batch 25
+
+Resumed via self-scheduled continuation. Fathom MCP tool names stayed on the UUID-prefixed form (`mcp__eab8a98a-3df1-41f9-9cd1-7d1993930308__*`) throughout this batch. Re-verified resume point against live INDEX.md before touching anything — no change since batch 24's push. Continued top-down — next three queued rows, all dated 2026-08-10:
+
+| Recording | Call | Archived as |
+|---|---|---|
+| rec 171929413 | [Fathom call 779740517](https://fathom.video/calls/779740517) | [2026-08-10--ed-matthew-dispute-strategy-grasshopper-vpn-access--171929413](../archive/calls/fathom/2026-08-10--ed-matthew-dispute-strategy-grasshopper-vpn-access--171929413/transcript.md) — team clarifies Ed's TransUnion dispute-closure vs. Experian inquiry-dispute strategy, works through a Grasshopper passkey/QR-code login snag, and rolls out mandatory NordLayer VPN |
+| rec 171925919 | [Fathom call 779713886](https://fathom.video/calls/779713886) | [2026-08-10--ed-matthew-ashwini-dispute-assignments-cursive-letter-strategy--171925919](../archive/calls/fathom/2026-08-10--ed-matthew-ashwini-dispute-assignments-cursive-letter-strategy--171925919/transcript.md) — earlier planning call assigning Ed/Matthew/Ashwini disputes to Grace/Anne/Alan, plus a cursive-font dispute-letter strategy (forces human review over automated processing) and a Notion file-migration plan |
+| rec 171914041 | [Fathom call 779664353](https://fathom.video/calls/779664353) | [2026-08-10--carla-sales-call-debrief-presentation-strategy-leo-deal--171914041](../archive/calls/fathom/2026-08-10--carla-sales-call-debrief-presentation-strategy-leo-deal--171914041/transcript.md) — Alan/Carla debrief a stalled sales call (the "P.Ready" lead referenced in batch 24), plan a Claude/Gamma/Canva-built sales presentation, and prep for a high-stakes $10.5k call with prospect Leo |
+
+**Near-duplicate content check:** rec 171929413 and rec 171925919 both cover the Ed/Matthew/TransUnion/Experian dispute workstream and could have looked like a coexistence pair. Pulled both full transcripts before archiving: 171925919 opens with the initial assignment conversation (who takes Ed/Matthew/Ashwini, the cursive-font suggestion) with no Grasshopper/VPN content at all, while 171929413 is a later, distinct continuation entirely focused on executing the Grasshopper dialer setup and NordLayer VPN rollout — different specific dialogue throughout, same-day sequential meetings continuing one workstream (same pattern confirmed NOT-duplicate in batches 18–20). Archived both normally. rec 171914041 is unrelated (sales debrief), no ambiguity there.
+
+Raw sourcing: all three transcripts returned inline (no persisted tool-result files this batch) — `transcript-raw.txt` written from the exact returned tool text via Write for each (self-flagged per the audit-approved inline-transcript raw-write procedure).
+
+All three summaries fetched fresh via `get_meeting_summary` before writing any summary.md (per the batch-20 reminder) — real Fathom AI summaries existed for all three, reproduced verbatim.
+
+Ran `format_transcripts.py` (171929413 → chaptered, 4 chapters; 171925919 → chaptered, 3 chapters; 171914041 → chaptered, 5 chapters; no splits) then `add_breadcrumbs.py`.
+
+**Verbatim self-check:** stripped structural additions and diffed against each `transcript-raw.txt` line-for-line — all three matched exactly (171929413: 138/138, 171925919: 117/117, 171914041: 103/103).
+
+**INDEX:** flipped all three rows to ✅ with clickable links + `raw ✓`. Counts: 99→102 archived, 2 no-transcript (unchanged), 133→130 queued. Verified 102+2+130 = 234 and grep-counted rows (102 ✅ / 2 n/a / 130 queued = 234) confirm.
+
+**Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
+
+**Resume point:** next queued row (top-down, August section) is `rec 171892299` ([Fathom call 777298604](https://fathom.video/calls/777298604), "P Reddy P - Guaranteed Funding", 2026-08-10).
