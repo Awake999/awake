@@ -10,7 +10,7 @@
 - [July 2026](#july-2026) — 91 meetings
 - [June 2026](#june-2026) — 10 meetings
 
-**Archive status:** 60 archived ✅ · 2 verified no-transcript · 172 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+**Archive status:** 63 archived ✅ · 2 verified no-transcript · 169 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
 
 
 ## August 2026
@@ -78,9 +78,9 @@
 | 2026-08-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/790152271) <sub>rec 174596591</sub> | ✅ [transcript](2026-08-19--alan-lynn-client-portal-sync-hiring--174596591/transcript.md) · [summary](2026-08-19--alan-lynn-client-portal-sync-hiring--174596591/summary.md) · raw ✓ |
 | 2026-08-18 | [Impromptu Zoom Meeting](https://fathom.video/calls/790053322) <sub>rec 174583294</sub> | ✅ [transcript](2026-08-18--apw-sales-sop-3-tier-offer-cash-cabin--174583294/transcript.md) · [summary](2026-08-18--apw-sales-sop-3-tier-offer-cash-cabin--174583294/summary.md) · raw ✓ |
 | 2026-08-18 | [Impromptu Zoom Meeting](https://fathom.video/calls/790045529) <sub>rec 174581230</sub> | ✅ [transcript](2026-08-18--carla-pedro-no-show-protocol--174581230/transcript.md) · [summary](2026-08-18--carla-pedro-no-show-protocol--174581230/summary.md) · raw ✓ |
-| 2026-08-18 | [Impromptu Zoom Meeting](https://fathom.video/calls/790032737) <sub>rec 174578222</sub> | not yet — click title to watch on Fathom |
-| 2026-08-18 | [Impromptu Zoom Meeting](https://fathom.video/calls/789918031) <sub>rec 174549629</sub> | not yet — click title to watch on Fathom |
-| 2026-08-18 | [Impromptu Zoom Meeting](https://fathom.video/calls/789716789) <sub>rec 174453400</sub> | not yet — click title to watch on Fathom |
+| 2026-08-18 | [Impromptu Zoom Meeting](https://fathom.video/calls/790032737) <sub>rec 174578222</sub> | ✅ [transcript](2026-08-18--carla-alan-sales-script-roleplay-two-step-close--174578222/transcript.md) · [summary](2026-08-18--carla-alan-sales-script-roleplay-two-step-close--174578222/summary.md) · raw ✓ |
+| 2026-08-18 | [Impromptu Zoom Meeting](https://fathom.video/calls/789918031) <sub>rec 174549629</sub> | ✅ [transcript](2026-08-18--team-sync-client-statuses-sop-update--174549629/transcript.md) · [summary](2026-08-18--team-sync-client-statuses-sop-update--174549629/summary.md) · raw ✓ |
+| 2026-08-18 | [Impromptu Zoom Meeting](https://fathom.video/calls/789716789) <sub>rec 174453400</sub> | ✅ [transcript](2026-08-18--mandatory-documentation-ghl-bug-todd-access--174453400/transcript.md) · [summary](2026-08-18--mandatory-documentation-ghl-bug-todd-access--174453400/summary.md) · raw ✓ |
 | 2026-08-18 | [Impromptu Zoom Meeting (Sabrina) <sub>rec 174397848</sub>](https://fathom.video/calls/789590405) | not yet — click title to watch on Fathom |
 | 2026-08-17 | [Impromptu Zoom Meeting (Carla Valentina Stivala) <sub>rec 174120399</sub>](https://fathom.video/calls/788351529) | not yet — click title to watch on Fathom |
 | 2026-08-17 | [Impromptu Zoom Meeting](https://fathom.video/calls/788334715) <sub>rec 174119189</sub> | not yet — click title to watch on Fathom |

@@ -258,3 +258,25 @@ Ran `format_transcripts.py` (174596591 → chaptered, 6 chapters; 174583294 → 
 **Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
 
 **Resume point:** next queued row (top-down, August section) is `rec 174578222` ([Fathom call 790032737](https://fathom.video/calls/790032737), 2026-08-18).
+
+## Batch 12
+
+Resumed via self-scheduled continuation (resume point re-verified against live INDEX.md — no change since last push). Continued top-down — next three queued rows, all dated 2026-08-18:
+
+| Recording | Call | Archived as |
+|---|---|---|
+| rec 174578222 | [Fathom call 790032737](https://fathom.video/calls/790032737) | [2026-08-18--carla-alan-sales-script-roleplay-two-step-close--174578222](../archive/calls/fathom/2026-08-18--carla-alan-sales-script-roleplay-two-step-close--174578222/transcript.md) — Carla/Alan role-play and fix the sales script (GPT-mangled ordering, "was that helpful?" swap), confirm the two-step close process, Carla's OOTO request approved |
+| rec 174549629 | [Fathom call 789918031](https://fathom.video/calls/789918031) | [2026-08-18--team-sync-client-statuses-sop-update--174549629](../archive/calls/fathom/2026-08-18--team-sync-client-statuses-sop-update--174549629/transcript.md) — team sync on client statuses (Stefan, Pedro, Carl, Todd), sales SOP updated to drop "what motivated you" question, new pre-call text script, Fathom/NordLayer tech issues |
+| rec 174453400 | [Fathom call 789716789](https://fathom.video/calls/789716789) | [2026-08-18--mandatory-documentation-ghl-bug-todd-access--174453400](../archive/calls/fathom/2026-08-18--mandatory-documentation-ghl-bug-todd-access--174453400/transcript.md) — new mandatory-recording policy for all dispute work, GoHighLevel attachment bug escalated, Todd's TransUnion access/FTC-filing blockers diagnosed, Matthew's reinsertion packet |
+
+Raw sourcing: rec 174549629 auto-saved to a local JSON tool-result file — extracted from the `text` field, confirmed byte-identical. rec 174453400 auto-saved to a local plain-text tool-result file — direct `cp`, confirmed identical via `cmp`. rec 174578222 returned inline — `transcript-raw.txt` written from the exact returned tool text via Write (self-flagged per the audit-approved inline-transcript raw-write procedure).
+
+Ran `format_transcripts.py` (174578222 → chaptered, 2 chapters; 174549629 → chaptered, 13 chapters; 174453400 → chaptered, 10 chapters — no splits) then `add_breadcrumbs.py`.
+
+**Verbatim self-check:** stripped structural additions and diffed against each `transcript-raw.txt` line-for-line — all three matched exactly (174578222: 79/79, 174549629: 319/319, 174453400: 383/383).
+
+**INDEX:** flipped all three rows to ✅ with clickable links + `raw ✓`. Counts: 60→63 archived, 2 no-transcript (unchanged), 172→169 queued. Verified 63+2+169 = 234 and grep-counted rows (63 ✅ / 2 n/a / 169 queued = 234) confirm.
+
+**Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
+
+**Resume point:** next queued row (top-down, August section) is `rec 174397848` ([Fathom call 789590405](https://fathom.video/calls/789590405), 2026-08-18, "Impromptu Zoom Meeting (Sabrina)").

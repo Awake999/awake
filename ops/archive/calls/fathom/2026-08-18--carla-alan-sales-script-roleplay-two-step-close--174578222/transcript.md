@@ -1,0 +1,99 @@
+# Carla & Alan — Sales Script Role-Play, Two-Step Close Prep — 2026-08-18 — verbatim transcript
+
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+
+
+ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
+
+
+## Chapter 1 (00:00 to 10:00)
+
+[00:00](https://fathom.video/calls/790032737?timestamp=0) Carla Stivala: this meeting is being recorded well how are you doing doing all right how are you doing I'm okay I would I would like to you if I said I don't feel a little too overwhelmed just my my trip my upcoming trip what it's supposed to be like fun it's gonna be fun I'm gonna have wi-fi on the airplane so I'm gonna be working away so before I forget I do need to ask you for permission to be out of office tomorrow for two hours if that's okay what for because I want to see my physical therapist before I leave she does work on my hand wrist Because of all the computer work that we do, and because I never had the certainty that I'm leaving, I did buy my ticket today. So it is something that's 100% happening now. I bought it last night. So I want to make sure that I see her before I leave, because my wrist just hurts. and she like, helps the liquid, like she does like, massages, massages. And the only time that she can squeeze me in tomorrow is from my 5pm, and it usually takes about 90 minutes, plus the other 50 minutes it takes me to get to her and from her to my computer. so I blocked my calendar from 5 to 7pm, which translates to To 1 to 3 p.m. Pacific. No. . Actually, yes. But I mean, of course, if there's a sales call, I can join. I can listen. But I wouldn't be able to fully manage the call, if that makes sense.
+[02:27](https://fathom.video/calls/790032737?timestamp=147) Alan Nguyen: Got it. And you said what time?
+[02:28](https://fathom.video/calls/790032737?timestamp=148) Carla Stivala: Pacific time? It's from 1 to 3 Pacific.
+[02:32](https://fathom.video/calls/790032737?timestamp=152) Alan Nguyen: Okay. Sounds good. .
+[02:35](https://fathom.video/calls/790032737?timestamp=155) Carla Stivala: I should be back home by, like, 7 or before 7. But I just want to make sure. Okay. And thank you so much. I really, really appreciate you being so amazing and flexible. And, you know, every single hour, like, I understand, I have to put in a minimum of 40 hours a week. So for last Friday, for example, I know that I... Stepped away for like three hours, so that's why I made up for them yesterday.
+[03:07](https://fathom.video/calls/790032737?timestamp=187) Alan Nguyen: and I appreciate that, and I'm totally open to have this conversation with you, and I think it is important, and I see the value in it. However, also have 11 minutes before this call, and I should be able to focus all that time and be able to prepare you.
+[03:25](https://fathom.video/calls/790032737?timestamp=205) Carla Stivala: I agree. Okay, what are we looking at? Should I share a screen, or are you sharing a screen?
+[03:33](https://fathom.video/calls/790032737?timestamp=213) Alan Nguyen: Either one. Right now, I'm inside of your document under the APW sales structure.
+[03:37](https://fathom.video/calls/790032737?timestamp=217) Carla Stivala: so am I.
+[03:39](https://fathom.video/calls/790032737?timestamp=219) Alan Nguyen: Which one are you reading as the, oh, you're going to read the SOP. I'm here. That's probably, I did the wrong thing then.
+[03:48](https://fathom.video/calls/790032737?timestamp=228) Carla Stivala: You see me in here, right?
+[03:50](https://fathom.video/calls/790032737?timestamp=230) Alan Nguyen: But you're starting on this first page, right?
+[03:51](https://fathom.video/calls/790032737?timestamp=231) Carla Stivala: so this is kind of like noise. It just lays out the foundation of the procedure.
+[03:59](https://fathom.video/calls/790032737?timestamp=239) Alan Nguyen: like noise. so you.
+[04:00](https://fathom.video/calls/790032737?timestamp=240) Carla Stivala: So I'm going to start right here.
+[04:03](https://fathom.video/calls/790032737?timestamp=243) Alan Nguyen: How about we just do a role play?
+[04:05](https://fathom.video/calls/790032737?timestamp=245) Carla Stivala: Okay.
+[04:06](https://fathom.video/calls/790032737?timestamp=246) Alan Nguyen: I'll just like kind of stop and go.
+[04:10](https://fathom.video/calls/790032737?timestamp=250) Carla Stivala: Perfect. All right. So hi, Alan. Thanks so much for joining this call.
+[04:16](https://fathom.video/calls/790032737?timestamp=256) Alan Nguyen: Where are you calling in from? Washington.
+[04:21](https://fathom.video/calls/790032737?timestamp=261) Carla Stivala: Oh, my gosh. Is that Washington State or Washington, D.C.?
+[04:25](https://fathom.video/calls/790032737?timestamp=265) Alan Nguyen: Washington State.
+[04:27](https://fathom.video/calls/790032737?timestamp=267) Carla Stivala: Oh, okay. Nice. I love it. All right. Before we get, well, first things first, let me introduce myself. My name is Carla. I am the sales representative kind of walking you through this free consultation. And before we get started, would it be helpful if I gave you a quick background on our company, as well as the agenda for today's call?
+[04:54](https://fathom.video/calls/790032737?timestamp=294) Alan Nguyen: . Did you, did GPT delete, though, what motivation? Or did you delete that here?
+[05:02](https://fathom.video/calls/790032737?timestamp=302) Carla Stivala: I think it reorganized it.
+[05:08](https://fathom.video/calls/790032737?timestamp=308) Alan Nguyen: . Let's go back to the sales structure. I don't trust this GPC thing, and I think it's going to mess you up way more than it's going to help you on an actual human call.
+[05:19](https://fathom.video/calls/790032737?timestamp=319) Carla Stivala: I'm going to fix it, actually. That's a good point. Because in your intro, you have what motivated you to reach out before the would it be helpful. So I agree. There's definitely a huge discrepancy there.
+[05:38](https://fathom.video/calls/790032737?timestamp=338) Alan Nguyen: I've also missed the summarize part and the referral part and the online ad part. So let's just focus on temporary.
+[05:46](https://fathom.video/calls/790032737?timestamp=346) Carla Stivala: I'm just, I'm going to read off this one. You see me in here, right?
+[05:50](https://fathom.video/calls/790032737?timestamp=350) Alan Nguyen: .
+[05:51](https://fathom.video/calls/790032737?timestamp=351) Carla Stivala: Okay. Perfect. All right. Okay. Perfect. So, Alan, I love Washington. What a great place to be in. And, you know, from the opt-in form that we received that you filled through our link, it looks like you're looking between $100K to $300K. Would you mind telling me more about that?
+[06:28](https://fathom.video/calls/790032737?timestamp=388) Alan Nguyen: I don't think, this isn't part of the script, right? Did you add this right here? This isn't, this should not be part of the script.
+[06:36](https://fathom.video/calls/790032737?timestamp=396) Carla Stivala: Oh.
+[06:38](https://fathom.video/calls/790032737?timestamp=398) Alan Nguyen: . So, I think I added it because, I think, I think you added it because I was like trying to talk to you all.
+[06:51](https://fathom.video/calls/790032737?timestamp=411) Carla Stivala: . .
+[06:53](https://fathom.video/calls/790032737?timestamp=413) Alan Nguyen: okay. So the summary is right, right? We're going to summarize like where we're at, you know, we're talking about.
+[07:00](https://fathom.video/calls/790032737?timestamp=420) Carla Stivala: .
+[07:01](https://fathom.video/calls/790032737?timestamp=421) Alan Nguyen: Certain things. And I guess in some certain summaries, right? Like, let's say you spoke to them or let's say, you know, we triaged them and they told us that they wanted $100K, $300K, right? And you're just looking to buy more time. Then you could say that. In that scenario, sure, you could say that. But I wouldn't necessarily make that like the standard SOP. I guess I was just thinking perspective of like, if I had no preparation, I had like no context on the person. That's probably what I would say. Just to buy myself some more time.
+[07:32](https://fathom.video/calls/790032737?timestamp=452) Carla Stivala: .
+[07:33](https://fathom.video/calls/790032737?timestamp=453) Alan Nguyen: Because you can, the more you get them to talk, better. So like, okay, so . Right.
+[07:39](https://fathom.video/calls/790032737?timestamp=459) Carla Stivala: So, you know, based on your opt-in form, it looks like you're looking between $100K to $300K. Your household income is around $100K. And your credit score looks like this and that, right? And that's recalling Nizamara. Awesome.
+[08:00](https://fathom.video/calls/790032737?timestamp=480) Alan Nguyen: so what I would say here is the follow-up, so maybe this was a throw-off, the follow-up question should be something along the lines of, does that sound about right?
+[08:13](https://fathom.video/calls/790032737?timestamp=493) Carla Stivala: .
+[08:14](https://fathom.video/calls/790032737?timestamp=494) Alan Nguyen: Right, I'll just say yes, or whatever.
+[08:17](https://fathom.video/calls/790032737?timestamp=497) Carla Stivala: all right.
+[08:17](https://fathom.video/calls/790032737?timestamp=497) Alan Nguyen: Or something like, sound about right? Is there anything else you would like to add to that before we move forward? I'm going to say, the second line, I'm going to say, like, save it for later. Oh, I told you what you saying, right? Oh, shoot. Formatting. But this is going to be, like, a more advanced thing, so I want to ignore this for now, right? Ignore this, but just when it says, does it sound right, give it a yes or no, and then move on to the next part. Okay. Does that make sense?
+[09:04](https://fathom.video/calls/790032737?timestamp=544) Carla Stivala: .
+[09:10](https://fathom.video/calls/790032737?timestamp=550) Alan Nguyen: Okay.
+[09:11](https://fathom.video/calls/790032737?timestamp=551) Carla Stivala: I'm just quickly texting Pedro, like, a five-minute reminder with the news and, like, all right, I'm done. Okay.
+[09:23](https://fathom.video/calls/790032737?timestamp=563) Alan Nguyen: Okay.
+[09:23](https://fathom.video/calls/790032737?timestamp=563) Carla Stivala: Where are we?
+[09:24](https://fathom.video/calls/790032737?timestamp=564) Alan Nguyen: Okay, so then let's say you just recapped the total amount. look for $100K, $300K. I would even bring up household income, but you can if you want.
+[09:35](https://fathom.video/calls/790032737?timestamp=575) Carla Stivala: Okay.
+[09:35](https://fathom.video/calls/790032737?timestamp=575) Alan Nguyen: you're recapping, just, whatever you spoke to him about, and then, then what are you going to say after that?
+[09:40](https://fathom.video/calls/790032737?timestamp=580) Carla Stivala: Well, I already asked him how he found us. He said Instagram or Facebook.
+[09:46](https://fathom.video/calls/790032737?timestamp=586) Alan Nguyen: Okay, got it. So then you're going to recap that in the summary as well, too?
+[09:50](https://fathom.video/calls/790032737?timestamp=590) Carla Stivala: . . absolutely. And then I'm just going to say, would it be helpful if I gave you background on our company?
+[09:58](https://fathom.video/calls/790032737?timestamp=598) Alan Nguyen: after you say this part.
+
+## Chapter 2 (10:00 to 20:00)
+
+[10:00](https://fathom.video/calls/790032737?timestamp=600) Carla Stivala: . Okay.
+[10:04](https://fathom.video/calls/790032737?timestamp=604) Alan Nguyen: Well, do you want to say this part?
+[10:07](https://fathom.video/calls/790032737?timestamp=607) Carla Stivala: Yes. All right. So, cool. So, you know, we talked earlier, we confirmed you're looking for anything between $50K to $100K, and you mentioned that you found us on social media, correct?
+[10:26](https://fathom.video/calls/790032737?timestamp=626) Alan Nguyen: Yep. Okay.
+[10:28](https://fathom.video/calls/790032737?timestamp=628) Carla Stivala: Beautiful. Well, that's amazing. And thank you so much for confirming this info. But before we get started, would it be helpful if I gave you a quick background on our company as well as the agenda for today's call?
+[10:40](https://fathom.video/calls/790032737?timestamp=640) Alan Nguyen: Sure.
+[10:41](https://fathom.video/calls/790032737?timestamp=641) Carla Stivala: All right. Beautiful. So, we've been helping people since 2023 with credit, corporate, and business funding. A lot of the clients that come to us have been burnt from other credit and funding companies, spending dozens and dozens of dollars, taking months and years, getting little to no results. And being over-promised and under-delivered. However, we've been able to, you know, take the same exact profiles and transform their 500 credit scores all the way up to 800 credit plus. And we were able to do that within three to six weeks instead of months and years. And, you know, another difference or, you know, something different we do is that, you know, we can actually go to $500,000 to $1 million in funding, whereas other companies stop at the $300,000 mark. I also don't think that's relevant for him, but whatever. But, you know, we have been able to do this repeatedly, repeatedly because we leverage our proven systems. We're essentially able to take practically anyone that plugs into our system, and we have generated over $10 million and more of funding across all of our clients, and this number keeps growing as we keep growing. Do you have any questions for me so far? Or should I not say, do you have any questions for me so far?
+[12:26](https://fathom.video/calls/790032737?timestamp=746) Alan Nguyen: That was a good question.
+[12:29](https://fathom.video/calls/790032737?timestamp=749) Carla Stivala: That's exactly where hit the fan with Stefan, though. So when I was like, do you have any questions for me, then he wanted to get deeper into the funding process, and that burned me.
+[12:41](https://fathom.video/calls/790032737?timestamp=761) Alan Nguyen: Got it. So then what I would say would be, I would say, was that helpful?
+[12:46](https://fathom.video/calls/790032737?timestamp=766) Carla Stivala: was that helpful? I like that.
+[12:48](https://fathom.video/calls/790032737?timestamp=768) Alan Nguyen: 100%. so I just modified this part. So leveraging our proven systems, we're essentially able to take anyone that plugs into our system, success in . And when that plugs in, we're able to take practically anyone that plugs into our system and creates success in credit and might have to reword that however you want to say it, but the way that I read it, I just basically say, I basically, without reading, I just say, leveraging our system. We're able to help clients, we've been able to help clients that plug in, generate over $10 million in growing, and I just move on. That's what I say.
+[13:38](https://fathom.video/calls/790032737?timestamp=818) Carla Stivala: .
+[13:42](https://fathom.video/calls/790032737?timestamp=822) Alan Nguyen: But however you want us to naturally.
+[13:43](https://fathom.video/calls/790032737?timestamp=823) Carla Stivala: What I don't, what I don't have clearance on, since I have to go in like a minute, is how do you want me to wrap up the call? Like, what's the next step? A consultation with you? Like, how does that work? Like, do we need his credit report before we can proceed?
+[13:57](https://fathom.video/calls/790032737?timestamp=837) Alan Nguyen: we will need his credit report. I'll to ask him questions, so it'll probably turn into a two-step close. What are things? Maybe you want to pre-frame the call, too, by saying, like, you know, the funding specialist is here, he's mixed English, but he's traveling right now, so he's just going to be muted on the side. Technical questions, he'll be here to be able to answer that for us.
+[14:20](https://fathom.video/calls/790032737?timestamp=860) Carla Stivala: Okay.
+[14:20](https://fathom.video/calls/790032737?timestamp=860) Alan Nguyen: And then you're just going to go through that process.
+[14:22](https://fathom.video/calls/790032737?timestamp=862) Carla Stivala: All right, you're going to shadow me then?
+[14:24](https://fathom.video/calls/790032737?timestamp=864) Alan Nguyen: .
+[14:25](https://fathom.video/calls/790032737?timestamp=865) Carla Stivala: All right, let me send you the link, because I already sent him my link. Okay. Awesome. Because I wasn't sure. All right, I'll see you in there. Hopefully he joins. Sounds good.
