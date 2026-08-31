@@ -3280,7 +3280,7 @@ window.APW_TRUTH_GET = function (displayName) {
               if (typeof p2 === 'string') { try { p2 = JSON.parse(p2); } catch (e) { p2 = null; } }
               if (p2 && Array.isArray(p2.results)) { PAGES[2] = p2.results; page2Failed = false; renderAll(); }
             } else if (ev2.type === 'error') { page2Failed = true; renderAll(); }
-          }, { refetchInterval: 600000, cache: { staleTime: 60000 } });
+          }, { refetchInterval: 1800000, cache: { staleTime: 300000 } });
         } catch (e) { page2Failed = true; renderAll(); }
       }
       mcp.watchTool('Notion', 'notion-query-data-sources', input, function (ev) {
@@ -3304,13 +3304,13 @@ window.APW_TRUTH_GET = function (displayName) {
           else if (c === 'server_not_connected') { if (applied) { apply(SNAP); applied = false; } rosterState('empty'); setBadge('', SNAP_TEXT + ' — add Notion in Settings → Connectors for live data'); }
           else if (c === 'blocked_by_policy' || c === 'approval_required' || c === 'not_granted') { if (applied) { apply(SNAP); applied = false; } rosterState('empty'); setBadge('', SNAP_TEXT); }
           else if (c === 'tool_error') {
-            if (!applied) rosterState('err', 'Live query failed — usually the workspace SQL quota (resets on its own; Notion Business removes it). The audited Notion tables still have everything; the board retries automatically.');
+            if (!applied) rosterState('err', 'Live query failed — the workspace hit Notion\u2019s shared SQL quota (it resets on its own; Notion Business removes it entirely). Everything else still works: the audited 83-lead book below, the GHL ground truth, and ALL your tap-corrections. The board retries automatically every 30 min.');
             setBadge('err', applied ? 'Live paused — query failed; last data shown' : 'Live query failed — snapshot shown');
           }
           else if (c === 'selection_required') { rosterState('empty'); setBadge('', SNAP_TEXT + ' — choose a Notion connector when prompted'); }
           else { setBadge(applied ? 'live' : '', applied ? badgeText.textContent : SNAP_TEXT); }
         }
-      }, { refetchInterval: 600000, cache: { staleTime: 60000 } });
+      }, { refetchInterval: 1800000, cache: { staleTime: 300000 } });
     } catch (e) { setBadge('', SNAP_TEXT); }
   })();
 </script>
