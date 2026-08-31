@@ -112,3 +112,11 @@ PROCESS CHECKLIST
 ## Message 16 (button answer, 8/31 — ruling on the 2 pre-standard receipts)
 
 only if verified by voice call audio transcript proving it to be true
+
+## Message 17
+
+everyone that's in GHL, put it into the automated tracker. Why is that not already there? It's messing up our data. Also, it needs to be clear that when it says "every prospect" under the next section, since it's confusing about being separate from the first, that has all the different sections with toggles. It needs to be clear that it's connected to the first section, and that the toggles above affect the showing below. And again, we need to resolve the unknown stuff, so please pull data from LANE 1 and all the other lanes.
+
+## Message 18 (mid-turn)
+
+because it's confusing because you're seeing 63 leads to view, but according to my manual analysis with AI, it looks like 38. You can also look and find more information in the funnel explorer.empty in the ops data.

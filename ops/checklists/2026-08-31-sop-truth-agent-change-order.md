@@ -143,6 +143,14 @@ When Alan flags an error **class** (or any severity-1 recurs), the lane MUST, be
 Once both land, Lane 2 scores every transcript against the script and fills receipted
 verdicts (each of the 5 questions asked? extra triage? booked on/after the call?).
 
+## ⚠ LANE-SYNC to Lane 1 — your funnel explorer carries the corrected Karl claim (8/31)
+`ops/data/FUNNEL_EXPLORER.md` Layer 6 says *"Karl's $7.5K agreed, unsigned"* and his card says
+🟢 QUALIFIED. **Alan 8/31: "He never agreed. He said he's going to look at it and talk to his
+partner about it."** His 8/20 transcript confirms (27:13: "I'll share it with McCall… we'll
+make a decision by our executive meeting on Tuesday"). Please correct to PROPOSED / no word
+as of 8/31 — the board and this change order carry the receipts. (Qualified-Main per Alan's
+8/31 adjudication may stand; the "agreed" money line may not.)
+
 ## Lane 2 implementation (already live, 8/31)
 - Pre-publish step added to the dashboard lane's ritual: person-claim grep (agreed/committed/
   said/promised/1-on-1/mandatory) → receipt check → PROPOSED labels where unreceipted;

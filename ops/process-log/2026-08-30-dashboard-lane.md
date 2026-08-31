@@ -203,3 +203,26 @@ FACT-CHECK RESULTS (all evidence-run this session): (1) **Direct bookings = 2 IS
   transcripts are scored against the dictated standard. Taps remain as Alan's explicit
   per-person override. Board tooltip + fx-note updated with the ruling verbatim.
   Headless-verified: before-booking → unk/queued, attested → unk, page clean.
+
+## 8/31 — v9.0 THE 38 (Lane 1 cohort pulled) + tracker-import change order + prospects wiring (Messages 17–18)
+- Pulled all lanes (git fetch --all; trunk merged twice — 5 new commits incl. Lane 1's
+  funnel_explorer_data.json + FUNNEL_EXPLORER.md, Alan's "manual analysis with AI").
+- **63-vs-38 resolved:** his 38 = Lane 1's audited SCIO ad-window cohort (Jul 28–Aug 26,
+  $6,100); my 64 = every GHL contact created in August incl. bulk imports/internal/dupes.
+  Board default is now THE 38 — new Ad Cohort group (n 0b) preset on load, verified headless:
+  inView = 38 exactly, names match Lane 1's layer-1 list; caption explains the difference.
+- **Lane 1 data injected (APW_L1):** attested show/no-show/cancelled + booking behavior for
+  the 39 cohort people → cohort show-Unknowns 26→10 (the 9 never-booked stay honest unk),
+  booked-Unknowns →1. Matching hardened: NO bare-first-name keys (Ed C. must not inherit
+  Ed McCullough's data); GHL↔tracker dedupe now key-based ("Ed McC."="Ed McCullough") —
+  universe 282→258.
+- **Tracker import change order to Lane 1** (Alan: "everyone that's in GHL, put it into the
+  automated tracker"): 154 GHL contacts not in the tracker (8 with appointments!) — full
+  payload ops/data/ghl_tracker_import_2026-08-31.csv + ops/checklists/2026-08-31-lane1-ghl-
+  tracker-import.md incl. the honest why-it-wasn't-there answer.
+- **"Every Prospect" wired visibly to the Explorer:** header banner "⬆ ONE UNIT with the
+  Funnel Explorer above" + intro sentence — the toggles above drive the list below.
+- LANE-SYNC: Lane 1's FUNNEL_EXPLORER.md still says "Karl's $7.5K agreed" — flagged for
+  correction (Alan 8/31 + transcript receipts).
+- Messages 17–18 stored verbatim. truth-agent: cohort names cross-checked 1:1 vs Lane 1
+  list · no new person-claims shipped. never-miss: 2 prompts → 5 asks → 5 mapped.
