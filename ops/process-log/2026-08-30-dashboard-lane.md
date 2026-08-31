@@ -151,3 +151,31 @@ FACT-CHECK RESULTS (all evidence-run this session): (1) **Direct bookings = 2 IS
   NEVER-MISS AGENT added to the SOP change order (Message 11) incl. SOP-base-is-trunk rule.
 - truth-agent: 3 claims checked pre-ship · 2 corrected (134→222 recordings; 66→69/87 ≤30min)
   · receipts linked. never-miss: Messages 8–12 parsed to 9 atomic asks · 9 mapped · 0 unmapped.
+
+## 8/31 — v8.7 KARL FABRICATION CORRECTED + explorer defaults + triage call ledger (Messages 11–13)
+- **Karl K. "agreed" REVERTED (Alan: "He never agreed")** — verified against the archived 8/20
+  transcript: his words were "send over whatever agreements that would need to be reviewed.
+  I can have our attorney look at that" and "I'll share it with McCall… we'll make a decision
+  by our executive meeting on Tuesday" (fathom 791088813 @27:13). Six board sites corrected to
+  PROPOSED/not-agreed with transcript receipts (cashbar aria ×2, key item, queue item ×2,
+  deals row ×2, glance line). Money-tab cashbar was ALSO still lifetime ($20,100) — the
+  backdating class again — rescoped to August.
+- **§1.16 ERROR-RESOLUTION AGENT** written into the SOP change order per Alan's order (RCA →
+  mechanical detector → whole-surface run → fix → test → register → SOP). First run logged:
+  6 Karl hits fixed, Nick/Yeshaya receipts verified, window detector caught the Money tab,
+  re-run clean. Lane 2 REPEAT-ERROR REGISTER (7 classes + detectors) added to the change order.
+- **Explorer defaults (Alan's button answer):** Raw GHL book ON by default + new Window
+  group (n 0) preset to August — 282 contacts total (104 tracked + 178 GHL-only after name
+  dedupe), 64 arrived in August. Added settle-refreshes (the first paint ran before later
+  helper blocks; counts were transient). Headless-verified twice: stable 282/64, 0 JS errors.
+- **TRIAGE CALL LEDGER built** (ops/data/triage/): per-person phone evidence from the raw GHL
+  pull — 222 contacts with call activity · 103 ever connected · 50 with a ≥2-min connected
+  call (the only ones that could hold a full triage) · 46 of those booked. Honest state:
+  call AUDIO is not in the repo (GHL auth API; Lane 4 recordings CSV came back header-only),
+  NO phone-call transcripts exist anywhere we hold, and the written 5-question script is not
+  in the repo either. THE SYSTEM (4 steps, per Alan) + Lane 4 change order (pull + transcribe
+  the 50 candidates, booked-first) are in the ledger MD. Verdicts stay TRANSCRIPT NEEDED —
+  never guessed.
+- Messages 11–13 stored verbatim in ops/prompts/2026-08-31-data-correction-demands.md.
+- truth-agent: claim-word sweep whole-surface → 6 corrected, 2 verified-kept · window sweep →
+  1 caught (Money tab) · re-run clean. never-miss: 3 prompts parsed to 8 atomic asks · 8 mapped.

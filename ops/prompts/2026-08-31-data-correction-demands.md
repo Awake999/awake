@@ -66,3 +66,19 @@ and again, how do you keep missing this? We need to create an agent into the SOP
 ## Message 10
 
 because the 1041 Explorer, I don't understand why that starts with 104.
+
+## Message 11 (button answer — triage system)
+
+You're supposed to be the one that's referencing the actual phone calls that are linked to the actual people that are stored somewhere physically, with the actual transcript of the calls, the dates, the links to the GHL, and the connection to the contacts or proof there. I'll verify every step of the way.
+
+Based off of that transcript, we should know if they were fully triaged or not. You feel, dude, analyze everything that's been asked on that triage call: if there is extra triage, if they ask the five questions that are supposed to be asked, and if they booked a call or not. This needs to be a system every time.
+
+## Message 12 (button answer — explorer default)
+
+Default to the GHL book, but then also will actually default to the preset fields for August because that's what we're analyzing right now, and then we can decide moving forward from there and decide if we want to do August, total, whatever it is.
+
+## Message 13
+
+and again, you ignore my whole thing about fake stuff, like Carl saying it's agreed versus unsigned or whatever it is. He never agreed. He said he's going to look at it and talk to his partner about it. We cannot be fabricating stuff.
+
+Please implement an agent to resolve this problem: why it was a problem, why this was done the way that it was. Create the effective solution, run the solution plan, test it, and if it works, put it in the SOP. This should not become a problem. I've had a talk about it multiple times with you. Fix all repeated errors that we keep repeating.

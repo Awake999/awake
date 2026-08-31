@@ -1,4 +1,4 @@
-# LANE-SYNC — SOP CHANGE ORDER: §1.14 QUALITY TRUTH AGENT + §1.15 NEVER-MISS AGENT (Alan-ordered 8/31)
+# LANE-SYNC — SOP CHANGE ORDER: §1.14 QUALITY TRUTH AGENT + §1.15 NEVER-MISS AGENT + §1.16 ERROR-RESOLUTION AGENT (Alan-ordered 8/31)
 
 > 🗣️ Alan, 8/31 (verbatim, [stored ↗](../prompts/2026-08-31-data-correction-demands.md)):
 > *"implement a quality truth agent in verification. Into the SOP."* and, same thread:
@@ -64,6 +64,73 @@ is ABSENT):
    "You need to get your base from there for the SOP or how you operate").
 5. **LOG LINE** — each run grade records the pass: "never-miss: N asks parsed · N mapped ·
    0 unmapped". A missed ask that Alan has to re-prompt = severity-1 (LAW 0), register-logged.
+
+## Proposed §1.16 — ERROR-RESOLUTION AGENT (Alan-ordered 8/31, third strike on fabrication)
+
+> 🗣️ Alan, 8/31 (verbatim, [stored ↗](../prompts/2026-08-31-data-correction-demands.md)):
+> *"and again, you ignore my whole thing about fake stuff, like Carl saying it's agreed versus
+> unsigned or whatever it is. He never agreed. He said he's going to look at it and talk to his
+> partner about it. We cannot be fabricating stuff. Please implement an agent to resolve this
+> problem: why it was a problem, why this was done the way that it was. Create the effective
+> solution, run the solution plan, test it, and if it works, put it in the SOP. This should not
+> become a problem. I've had a talk about it multiple times with you. Fix all repeated errors
+> that we keep repeating."*
+
+### RCA of the fabrication class (run 8/31 — why it was a problem, why it was done that way)
+- **What shipped:** "Karl K., terms agreed 8/21 · Agreed — unsigned 8 days" (board, 4 sites).
+  **What is true:** Karl's own words on the 8/20 call: *"send over whatever agreements that
+  would need to be reviewed. I can have our attorney look at that"* and *"I'll share it with
+  McCall… we'll make a decision by our executive meeting on Tuesday"*
+  ([transcript ↗](../archive/calls/fathom/2026-08-20--karl-krummenacher-guaranteed-funding--175440897/transcript.md),
+  [27:13 ↗](https://fathom.video/calls/791088813?timestamp=1633)). A proposal under review is
+  not an agreement. Same class as the Carla 1-on-1 line (8/31, strike 2) and the blanket
+  booked⇒triaged attestation reading (8/31, strike 3-adjacent).
+- **Why it was done that way (root causes):** (1) optimistic stage labels — a CRM stage /
+  debrief summary word ("verbal", "agreed") was copied onto the board as a settled fact
+  without opening the primary transcript; (2) the §1.14 truth pass as first implemented swept
+  only NEW claims on sections being touched — standing text from earlier versions was
+  grandfathered in, so Karl's line survived the very sweep that fixed Carla's; (3) narrative
+  gravity — "fastest money in the building" made "agreed" feel true.
+- **Why it matters:** Alan makes cash-position decisions off the crit bucket; a fabricated
+  "agreed $7,500" overstates near-term cash and misdirects the day's top queue item.
+
+### The agent (mechanical, not judgment)
+When Alan flags an error **class** (or any severity-1 recurs), the lane MUST, before its next publish:
+1. **RCA** — name what shipped vs. what is true (with the primary source), why it happened,
+   and why it matters. Written down, not narrated.
+2. **DETECTOR** — build a mechanical detector for the whole class (a grep/script, not a
+   re-read): e.g. fabrication class = scan the ENTIRE surface for claim-words
+   (`agreed|committed|promised|verbal|confirmed|waiting on paperwork`) and require each hit to
+   carry a primary-source receipt or a PROPOSED label.
+3. **RUN on the WHOLE surface** — never only the section being edited (that scoping is
+   exactly what let Karl's line survive the Carla fix).
+4. **FIX every hit · TEST** — the detector re-runs clean before publish.
+5. **REGISTER** — the class, detector command, and run result go into the lane's
+   REPEAT-ERROR list; every future publish re-runs every registered detector.
+6. **SOP** — after the first clean run, the class + detector ship to Lane 1 as a change order
+   (this document is that step for the fabrication class).
+
+### First run, 8/31 (the test — it works)
+- Detector run over the full board surface: **6 unreceipted hits, all Karl** (cashbar aria ×2,
+  key item, queue item ×2, deals row ×2, glance line) → all corrected to **PROPOSED, not
+  agreed** with Karl's verbatim words + transcript links as receipts.
+- Cross-checks on the same sweep: Nick S. "verbal yes" = Alan-attested 8/30 (receipted, kept);
+  Yeshaya D. "committed to securing a PG within a month" = archived 8/27 call summary
+  (receipt added to the board).
+- Bonus catch by the registered window detector: the Money-tab cashbar still showed the
+  lifetime $20,100 — the backdating class Alan flagged twice — rescoped to August.
+- Re-run after fix: **0 unreceipted claim-words**. Detector registered for every future publish.
+
+### Lane 2 REPEAT-ERROR REGISTER (detectors re-run on every publish)
+| # | Class (Alan flags) | Detector | Status |
+|---|---|---|---|
+| 1 | Fabricated person-claims (Carla, Karl) | claim-word grep, whole surface, receipt-or-PROPOSED | clean 8/31 |
+| 2 | Backdating / window mixing (Jill "8/31", lifetime cashbars) | out-of-window $ figures on month surfaces | caught+fixed 8/31 (Money tab) |
+| 3 | Silent blends (60% "qualified") | every rate names numerator+denominator | clean 8/31 |
+| 4 | Missed asks / reprompts | §1.15 atomic-ask diff before reply | running |
+| 5 | Stale SOP base | trunk pull + SOP version print, session start | running |
+| 6 | Publish to wrong URL (frozen ba359183) | canonical url param on every publish | clean since 8/31 |
+| 7 | Merge regressions (83-vs-104) | fingerprint tokens checked pre-publish | clean since 8/31 |
 
 ## Lane 2 implementation (already live, 8/31)
 - Pre-publish step added to the dashboard lane's ritual: person-claim grep (agreed/committed/
