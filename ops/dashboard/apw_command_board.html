@@ -345,6 +345,7 @@
   .cashbar-block h3 { margin: 0 0 2px; font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); }
   .cashbar { display: flex; height: 30px; border-radius: 6px; overflow: hidden; gap: 2px; background: var(--bg); margin-top: 8px; }
   .cashbar > div { height: 100%; border-radius: 3px; min-width: 6px; }
+  .hero .headline .v { display: block; line-height: 1.12; margin: 2px 0 10px; }
   .cashkey { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-top: 10px; font-size: 12.5px; color: var(--ink-2); }
   .cashkey .item { display: inline-flex; align-items: baseline; gap: 6px; }
   .cashkey .swatch { position: relative; top: 1px; }
@@ -806,9 +807,10 @@
 <div class="hero reveal">
   <span class="ring" aria-hidden="true"></span>
   <div class="headline">
-    <span class="k">August New Revenue</span>
+    <span class="k">August Revenue Collected</span>
     <div class="v mono" style="color:var(--good)">$1,600</div>
-    <span class="s">Matthew L., Aug 24 — Whop-verified 8/31; corrects the 8/28 “no new revenue” claim.
+    <span class="s"><b style="color:var(--ink)">Existing client</b> — Matthew L., paid Aug 24 (Whop-verified).
+      <b style="color:var(--crit)">New-client revenue this month: $0.</b>
       <a class="src" href="https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/archive/whop/2026-08-31/raw/payments_dashboard_text.md">Whop raw ↗</a></span>
   </div>
   <div class="cashbar-block">
@@ -819,7 +821,7 @@
       <div style="width:18.7%; background:var(--crit)"></div>
     </div>
     <div class="cashkey">
-      <span class="item"><span class="swatch" style="background:var(--good)"></span><svg class="ic" style="color:var(--good)"><use href="#i-check"/></svg><b class="mono">$20,100</b> collected (Whop-verified 8/31) — Jill <b class="mono">$15,000 PAID IN FULL</b> Jul 10 · Ed $2,000 Jun 30 · Matthew $1,600 Aug 24 · Ashwini $1,500 Jul 28 (was unrecorded) <a class="src" href="https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/archive/whop/2026-08-31/raw/payments_dashboard_text.md">raw ↗</a></span>
+      <span class="item"><span class="swatch" style="background:var(--good)"></span><svg class="ic" style="color:var(--good)"><use href="#i-check"/></svg><b class="mono" style="color:var(--good)">IN AUGUST: $1,600</b> — Matthew L. (existing client, paid Aug 24) · <span style="opacity:.75">before this month: Jill $15,000 Jul 10 · Ed $2,000 Jun 30 · Ashwini $1,500 Jul 28 · $20,100 collected to date</span> — payment dates are real; “8/31” is only the date Whop was checked <a class="src" href="https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/archive/whop/2026-08-31/raw/payments_dashboard_text.md">raw ↗</a></span>
       <span class="item"><span class="swatch" style="background:var(--warn)"></span><svg class="ic" style="color:var(--warn)"><use href="#i-clock"/></svg><b class="mono">$12,500</b> contracted, uncollected — Leo $12K at risk · Nick $500 absent from Whop, unverified</span>
       <span class="item"><span class="swatch" style="background:var(--crit)"></span><svg class="ic" style="color:var(--crit)"><use href="#i-pen"/></svg><b class="mono">$7,500</b> agreed, unsigned — Karl K., terms agreed 8/21 <a class="src" href="https://app.notion.com/p/3b95bb1ffef48139a66fd1d90439d729">record ↗</a></span>
     </div>
@@ -1193,49 +1195,49 @@
     <thead><tr><th>Client</th><th>Structure</th><th class="num">Contracted</th><th class="num">Collected</th><th>Status</th><th>Evidence</th></tr></thead>
     <tbody>
       <tr>
-        <td class="who"><a href="https://app.notion.com/p/3b75bb1ffef48114b344e6f5db65eea9">Ed C.</a></td>
+        <td class="who"><a href="https://app.notion.com/p/3b75bb1ffef48114b344e6f5db65eea9">Ed C.</a> <span class="chip mut" data-tip="Paid Jun 30 — before this month. Shown for the money trail, not counted in August.">pre-Aug</span></td>
         <td class="why">$2K deposit + 6% of first $100K funded</td>
         <td class="num mono">$2,000</td><td class="num mono">$2,000</td>
         <td><span class="chip good"><svg class="ic"><use href="#i-check"/></svg>Collected Jun 30 (Q2)</span></td>
         <td class="src"><a href="https://fathom.video/calls/732157346">close ↗</a> <a class="src" href="https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/archive/whop/2026-08-31/raw/payments_dashboard_text.md">Whop raw ↗</a></td>
       </tr>
       <tr>
-        <td class="who">Jill P.</td>
+        <td class="who">Jill P. <span class="chip mut" data-tip="Paid in full Jul 10 — before this month. Shown for the money trail, not counted in August.">pre-Aug</span></td>
         <td class="why">$15,000 — 6 × $2,500 all charged Jul 10</td>
         <td class="num mono">$15,000</td><td class="num mono">$15,000</td>
         <td><span class="chip good"><svg class="ic"><use href="#i-check"/></svg>PAID IN FULL Jul 10</span></td>
         <td class="src"><a class="src" href="https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/archive/whop/2026-08-31/raw/payments_dashboard_text.md">Whop raw ↗</a></td>
       </tr>
       <tr>
-        <td class="who"><a href="https://app.notion.com/p/3b75bb1ffef4816f91f6c9cb50c911ad">Leo D.</a></td>
+        <td class="who"><a href="https://app.notion.com/p/3b75bb1ffef4816f91f6c9cb50c911ad">Leo D.</a> <span class="chip warn" data-tip="Signed 8/7 — in this month, $0 collected.">AUG</span></td>
         <td class="why">$12,000 signed 8/7 — client cash flow ≈ −$5K/mo</td>
         <td class="num mono">$12,000</td><td class="num mono">$0</td>
         <td><span class="chip crit"><svg class="ic"><use href="#i-alert"/></svg>At risk — renegotiate</span></td>
         <td class="src"><a href="https://fathom.video/calls/777554648">signing ↗</a></td>
       </tr>
       <tr>
-        <td class="who"><a href="https://app.notion.com/p/3b95bb1ffef48139a66fd1d90439d729">Karl K.</a></td>
+        <td class="who"><a href="https://app.notion.com/p/3b95bb1ffef48139a66fd1d90439d729">Karl K.</a> <span class="chip warn" data-tip="Terms agreed 8/21 — in this month, unsigned.">AUG</span></td>
         <td class="why">1% success fee on $750K LOC at WSJ Prime −1%</td>
         <td class="num mono">$7,500</td><td class="num mono">—</td>
         <td><span class="chip warn"><svg class="ic"><use href="#i-pen"/></svg>Agreed — unsigned 8 days</span></td>
         <td class="src"><a href="https://fathom.video/calls/793137663">debrief ↗</a></td>
       </tr>
       <tr>
-        <td class="who"><a href="https://app.notion.com/p/3c85bb1ffef481a3a2d2f0ae3835ac3d">Nick S.</a></td>
+        <td class="who"><a href="https://app.notion.com/p/3c85bb1ffef481a3a2d2f0ae3835ac3d">Nick S.</a> <span class="chip warn" data-tip="Verbal yes + agreement sent in August — $500 deposit absent from Whop, unverified.">AUG</span></td>
         <td class="why">$500 refundable deposit + 5–8% success fee</td>
         <td class="num mono">$500</td><td class="num mono">?</td>
         <td><span class="chip warn"><svg class="ic"><use href="#i-q"/></svg>Absent from Whop — unverified</span></td>
         <td class="src"><a href="https://fathom.video/calls/799338953">strategy ↗</a></td>
       </tr>
       <tr>
-        <td class="who"><a href="https://app.notion.com/p/3b75bb1ffef48156b3a6dcfac60e8e14">Ashwini A.</a></td>
+        <td class="who"><a href="https://app.notion.com/p/3b75bb1ffef48156b3a6dcfac60e8e14">Ashwini A.</a> <span class="chip mut" data-tip="Paid Jul 28 — before this month; surfaced by the 8/31 Whop check (that date is the check, not the payment).">pre-Aug</span></td>
         <td class="why">Custom Consulting Package $1.5K — was unrecorded on every surface until the 8/31 Whop pull; reconcile vs her Offer-Made stage</td>
         <td class="num mono">$1,500</td><td class="num mono">$1,500</td>
         <td><span class="chip good"><svg class="ic"><use href="#i-check"/></svg>Collected Jul 28</span></td>
         <td class="src"><a class="src" href="https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/archive/whop/2026-08-31/raw/payments_dashboard_text.md">Whop raw ↗</a></td>
       </tr>
       <tr>
-        <td class="who"><a href="https://app.notion.com/p/3b75bb1ffef48172b371e1fd44fdb91e">Matthew L.</a></td>
+        <td class="who"><a href="https://app.notion.com/p/3b75bb1ffef48172b371e1fd44fdb91e">Matthew L.</a> <span class="chip good" data-tip="Paid Aug 24 — this month, from an EXISTING client. New-client revenue in August is $0.">AUG · existing</span></td>
         <td class="why">Matthew Custom Package 08.19 — the payment Alan flagged as missing; found + verified. AUGUST revenue.</td>
         <td class="num mono">$1,600</td><td class="num mono">$1,600</td>
         <td><span class="chip good"><svg class="ic"><use href="#i-check"/></svg>Collected Aug 24</span></td>
@@ -2220,6 +2222,7 @@ window.APW_TRUTH_GET = function (displayName) {
       { k: 'triage',  t: 'Triage',             n: 4,  vals: [['yes','Triaged'], ['no','Not triaged'], ['unk','Unknown']] },
       { k: 'setter',  t: 'Setter Verdict',     n: 5,  vals: [['primary','Primary fit'], ['down','Downsell fit'], ['custom','Custom fit'], ['notqual','Not qualified'], ['unk','Not recorded']] },
       { k: 'bookedq', t: 'Booked Call',        n: 6,  vals: [['yes','Booked ✓'], ['no','Not booked'], ['unk','Unknown']] },
+      { k: 'bspeed', t: 'Time to Book (arrival → booked)', n: '6b', vals: [['instant','Booked instantly (≤30 min)','Straight-through funnel behavior: form → calendar in one session. Computed from GHL ground truth (contact created → first bookedAt). This is what most ever-booked leads did — the thing that FEELS like a direct booking.'], ['sameday','Same day (≤24 h)'], ['later','Later (>24 h)'], ['unk','Never booked / no timestamps']] },
       { k: 'grade',   t: 'Setter Grading',     n: 7,  vals: [['pass','Passed checklist'], ['flag','Flagged ⚑'], ['unk','Not graded']] },
       { k: 'show',    t: 'Showed',             n: 8,  vals: [['yes','Showed ✓'], ['no','No-Show ✕'], ['unk','Unknown ?']] },
       { k: 'offer',   t: 'Offer Made — which', n: 9,  vals: [['primary','Primary Offer'], ['down','Downsell Offer'], ['custom','Custom Offer'], ['none','No offer yet'], ['unk','Unknown']] },
@@ -2349,6 +2352,15 @@ window.APW_TRUTH_GET = function (displayName) {
       for (var i = 0; i < window.APW_GRADE_ITEMS.length; i++) if (g[i] !== 1) return 'flag';
       return 'pass';
     }
+    function bookSpeedOf(tru) {
+      if (!tru || !tru.bookedAt || !tru.created) return 'unk';
+      var c = new Date(String(tru.created).replace(' ', 'T'));
+      var b = new Date(String(tru.bookedAt).replace(' ', 'T'));
+      if (isNaN(c) || isNaN(b)) return 'unk';
+      /* GHL stores bookedAt in PT but dateAdded in UTC — remove the 7h offset (verified 8/31: median gap 1.1 min after correction; 69 of 87 book ≤30 min) */
+      var mins = Math.abs(b - (c - 7 * 3600000)) / 60000;
+      return mins <= 30 ? 'instant' : mins <= 1440 ? 'sameday' : 'later';
+    }
     function bookedOf(stage) {
       if (stage === 'Booked Call' || stage === 'No-Show' || stage === 'Showed' || stage === 'Offer Made' || stage === 'Closed Won' || stage === 'Closed Lost') return 'yes';
       return 'unk';
@@ -2432,6 +2444,7 @@ window.APW_TRUTH_GET = function (displayName) {
         verbal: dl.v, agpay: agpayOf(dl), fup: dl.f,
         setter: SETFIX[nm] || 'unk',
         bookedq: (tru && tru.appts > 0) ? 'yes' : bookedOf(r['Stage']),
+        bspeed: bookSpeedOf(tru),
         grade: gradeOf(nm),
         offer: offerOf(r['Stage'], r['Qualification']),
         outcome: outcomeOf(r['Stage'], dl),
@@ -2456,6 +2469,7 @@ window.APW_TRUTH_GET = function (displayName) {
         verbal: dls.v, agpay: agpayOf(dls), fup: dls.f,
         setter: SETFIX[r[0]] || 'unk',
         bookedq: (trs && trs.appts > 0) ? 'yes' : bookedOf(r[1]),
+        bspeed: bookSpeedOf(trs),
         grade: gradeOf(r[0]),
         offer: offerOf(r[1], r[3]),
         outcome: outcomeOf(r[1], dls),
@@ -2478,7 +2492,7 @@ window.APW_TRUTH_GET = function (displayName) {
           hours: 'unk', triage: 'unk', qual: 'unk',
           show: hist.indexOf('showed') >= 0 ? 'yes' : hist.indexOf('noshow') >= 0 ? 'no' : 'unk',
           dispo: 'other', verbal: 'unk', agpay: 'unk', fup: 'unk', reason: 'unk',
-          setter: 'unk', bookedq: (typeof r[7] === 'number' && r[7] > 0) ? 'yes' : 'unk', grade: 'unk', offer: 'unk', outcome: 'open', ghl: true
+          setter: 'unk', bookedq: (typeof r[7] === 'number' && r[7] > 0) ? 'yes' : 'unk', bspeed: bookSpeedOf(window.APW_TRUTH_GET ? window.APW_TRUTH_GET(r[0]) : null), grade: 'unk', offer: 'unk', outcome: 'open', ghl: true
         });
       });
       return out;
@@ -2515,7 +2529,7 @@ window.APW_TRUTH_GET = function (displayName) {
           hours: 'unk', triage: 'unk', qual: 'unk',
           show: hist.indexOf('showed') >= 0 ? 'yes' : hist.indexOf('noshow') >= 0 ? 'no' : 'unk',
           dispo: 'other', verbal: 'unk', agpay: 'unk', fup: 'unk',
-          setter: 'unk', bookedq: (typeof r[7] === 'number' && r[7] > 0) ? 'yes' : 'unk', grade: 'unk',
+          setter: 'unk', bookedq: (typeof r[7] === 'number' && r[7] > 0) ? 'yes' : 'unk', bspeed: bookSpeedOf(window.APW_TRUTH_GET ? window.APW_TRUTH_GET(r[0]) : null), grade: 'unk',
           offer: 'unk', outcome: 'open', reason: 'unk', ghl: true };
         if (window.APW_FX_MATCH(f)) out.push({ r: r, f: f });
       });

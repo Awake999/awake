@@ -40,3 +40,11 @@ Must be completely off because there's no way we have a show qualified rate of 6
 Again, when I start filtering out everything up until the deals that close, the deals that are booked, and then the deals that were unknown in that same box or in that same section, they should show me all the names of those people.
 
 Need to be able to use this as real accurate data. The unknown does not make sense.
+
+## Message 6
+
+okay, fix the spacing because the comma from the 1600 is entering into the space of the text underneath it under Matthew, and then + for Matthew.
+
+We need to discern whether there are new clients or previous clients, because Matthew was a previous client and we have revenue from him, but there's no new revenue collected from new clients as well. We also need to discern why Jill is in there, and Jill is from before, right? It's not within the time frame, so why are you putting 8/31, Jill? That makes no sense. That's not the right date. Why is Ed in there from July, right? Why is Ashwini in there, right?
+
+For example, we need to. These are all people from before, not during this time frame, but before the time frame. You can put the number in there for Sweeney if you want or others, but we can't dilute the information. The whole purpose is to see what's been going on for this past month.
