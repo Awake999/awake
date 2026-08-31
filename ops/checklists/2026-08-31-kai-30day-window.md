@@ -14,7 +14,7 @@
 | Unique bookings | "37" | **35 unique people had appointment slots in the window** (32 from ads + Todd/Karl/Chris M. referrals) | ✅ roughly right |
 | Showed | "15" | **18 showed with recording evidence (15 from ads)** — every one linked in §2 | ✅ exactly right on ads |
 | Show rate | "41%" | Ads: **15 of 32 = 47% evidence floor**. But 15 of the 32 outcomes were NEVER recorded anywhere — the truth sits between 47% and unknowable. The 59% figure on the board was survivorship-biased (decided outcomes only) — **Alan is right that the true rate is lower than that** | 🟡 his number is inside the honest band |
-| Qualified | "1" | Tracker says **3 Qualified–Main in the window** (Gunjan P. · Whitney Y. · P Reddy P.). **Alan attests only 1 truly qualified** — "technically out of market fit for main offer, but we can still serve him — he has money and he has the credit + business." Contradiction → adjudication needed (see §3) | ⚠ 3-vs-1 conflict |
+| Qualified | "1" | **ADJUDICATED (Alan, 8/31): 1 — Whitney Y.** (has money + credit + business; out of main-offer fit but serviceable). Gunjan P. + P Reddy P. ⚠ under Alan's review (see §3) | ✅ confirmed |
 | Revenue in window | "closing at 150" | **$0 verified collected in August.** Ed C.'s $2,000 was 7/1 ([recording ↗](https://fathom.video/calls/732157346)). Nick S. **agreed, agreement sent, NOT paid** ($500, [call ↗](https://fathom.video/calls/795906442)). Contract values (Jill $15K, Leo $12K, Karl $7.5K open) have **no dates and no collection proof** — GHL Payments is EMPTY | ❗ missing data — see §4 |
 
 ## 2. Every window show, with its receipt (18 people)
