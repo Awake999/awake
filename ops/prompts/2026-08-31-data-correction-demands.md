@@ -30,3 +30,13 @@ this data is BS
 ## Message 4
 
 resolve the issue with there only being a hundred leads in view, as well as all the unknown issues in the triage section.
+
+## Message 5
+
+first off, the direct book numbers are off. There's no way that you're telling me there's only two direct bookings out of a hundred. Yeah, right. And where do the 104 leads come from? Is that total? That doesn't make any sense.
+
+Must be completely off because there's no way we have a show qualified rate of 60%. Please fact-check everything. This makes no sense.
+
+Again, when I start filtering out everything up until the deals that close, the deals that are booked, and then the deals that were unknown in that same box or in that same section, they should show me all the names of those people.
+
+Need to be able to use this as real accurate data. The unknown does not make sense.
