@@ -240,3 +240,6 @@ Each: transcript-raw.md (full Krisp API doc, untouched) + transcript.md (chapter
 - Notable content now on record: SODR/EODR culture-doc origin thread (8/17–18), Carla's full onboarding arc, the Sales Intelligence report (Leo/Joe unreadable recordings, 5 findings), show-rate playbook feedback, James decline, hiring plan, cash cabin decision thread.
 
 **Resume point:** Lynn → Grace → Anne DMs (same pattern: pages raw-first, then render_dm.py) → thread-expansion pass (#dispute-updates) → Krisp queue (Stephen 8/17, CSM calls 8/19).
+
+## Miss log (Law 0.2, 2026-08-31): mode/effort disclosure asked twice + report not delivered to chat
+Alan, verbatim (×2): "what is the proper mode and effort for this? should have been asked in your SOP". The disclosure was given only MID-TURN (between tool calls — not reliably shown), and the finished leads/booked report was pushed to the repo but the turn ended before the chat delivery. Delta = §1.9 step-5 block and the deliverable must be in the FINAL message, never only mid-turn. Fixed this reply: disclosure first, full report rendered in-chat, buttons at close. Standing rule: the disclosure block leads the final message of every execution reply.
