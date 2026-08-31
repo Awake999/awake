@@ -246,3 +246,6 @@ Alan, verbatim (×2): "what is the proper mode and effort for this? should have 
 
 ## Batch (2026-08-31): new-leads correction + funnel + weekly routine
 Alan correction (verbatim in the pulls file): new leads only. dateAdded filter applied; Jill Peralta + JOE STLOUIS pulled from leads, 9 pre-existing pulled from booked. Funnel: 38 new / 30 set (79%) / 12 verified-showed / 1 verified no-show / 16 unknown (GHL #64) / 8 never booked. Weekly Sonnet routine trig_01Cfy1iE7QdRx4CaMpT7Ntg5 (Mon 8am PDT, push notify; first fire today ~8:06am — ⚠️ org blocks connector attachment via API; if run 1 fails on Slack access Alan recreates in claude.ai Routines UI). "Chilean" + "Kyle" name ambiguities flagged for Alan, not guessed.
+
+## Batch (2026-08-31): funnel v3 — unknowns chased, Kai answers, reheat list
+16 unknowns → resolved via booking audit + daily-reports "zzz" dial lists + team-sync evidence: +1 showed (Myla, secondary), +2 no-show (Tessa explicit, Lee derived), +5 derived unresponsive; 7 remain unknown; show band tightened 40–93% → 45–69%. Chris Mclean excluded per Alan ruling. ScaleClients/Kai standing questions answered with this data (Clint's 8/27 six-pointer). Reheat list of 8 never-booked written with GHL links (HERMAN ROGERS ×2 applications top priority). All in pulls file v3.

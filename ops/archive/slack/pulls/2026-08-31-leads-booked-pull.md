@@ -168,3 +168,57 @@ Alan, verbatim: "you have names in here that should not be in here. People that 
 **Qualified/closing among new leads (register-verified only):** Michael Moore — "We are a go" + $1,000 deposit agreed 8/26 (final status per Whop + 8/27 post-mortem); Pradeep Bhatia — $300 deposit, verification = Whop (register #123-LANE-SYNC); Nick Samara — Downsell-Credit Rebuild, Funds Status Broke (register #89); Yeshaya Dank — Downsell (register #82); P Reddy P — Main-Offer qualified, walked on proof (register #82/Sales Intelligence).
 
 **Watch:** Chris Mclean — in-window GHL contact (added 7/30), showed 8/27 (call archived), but NO lead card in any of the four channels — entered through another door. Not counted as a channel lead; flagged.
+
+---
+
+# v3 (2026-08-31): unknowns chased + Kai/ScaleClients answers + reheat list
+
+**Ruling recorded:** Chris Mclean EXCLUDED from the new-lead set per Alan (no lead card in any of the 4 channels; entered another door; showed 8/27).
+
+## Show-status resolution for the 16 unknowns (evidence-mined from the archive)
+
+| Person | New status | Evidence |
+|---|---|---|
+| Myla Maheedhar | SHOWED (secondary) | Booking audit: "SHOWED ~7/31 — call reviewed in Fathom team session (fathom.video/calls/768849661)" |
+| Tessa Ndille | NO-SHOW (explicit) | [#daily reports](../channels/daily-start-and-end-of-day-reports/2026-08.md): "Tessa - missed appt/no answer - zzz" |
+| Lee McEachin Jr | [derived] no-show 8/27 | 8/27 team sync: "prospect backtracked after consulting with their spouse; Alan will call directly"; audit: 8/27 booking "no matching appt" |
+| Ms Terry (Terry Duncan) | [derived] unresponsive | [#sales-team-updates](../channels/sales-team-updates/2026-08.md): "She will not stay on a phonecall with me… shes hung up"; #urgent 8/26: "Text Ms Terry back" |
+| Shamar Samuel | [derived] unresponsive | #daily reports dial list: "Shamar - zzz" |
+| Jack Kates | [derived] unresponsive | #daily reports: "Jack Kates - zzz" ×2; #urgent 8/10: "check Jack Kates for appointment" |
+| Ed McCullough | [derived] unresponsive | #daily reports: "Ed McCullough - zzz" |
+| David Shepherd | [derived] unresponsive | #daily reports: "David Shepherd - zzz 2:18" |
+| Robert Schechner, Rena Sookra, Antonio Jenkins, Trent Hamilton, Desi Harmon, Jesse Hopcus, Behnad Zandi | UNKNOWN (7) | Booking audit exhausted recordings + Notion: "No recording. Unknown." (Behnad/Terry/Greco/Tarlochan/Truesdale/McCullough/Shepherd/McEachin/Tessa also missing from Notion Clients & Leads entirely — audit finding #6) |
+| Marx Josue Todjro | PENDING | call is Aug 31 5:45 PM CDT |
+
+## FUNNEL v3 (new leads only, resolved)
+
+| Stage | # | Rate |
+|---|---|---|
+| New leads | 38 | — |
+| Set (booked) | 30 | 79% |
+| Showed (12 verified + Myla secondary) | **13** | **45% floor** of 29 resolved |
+| No-show/unresponsive (Tarlochan, Tessa + 6 derived) | 8 | — |
+| Cancelled (George Truesdale) | 1 | — |
+| Still unknown | 7 | show-rate band: **45%–69%** |
+| Pending (Marx, today) | 1 | — |
+
+## Answers to ScaleClients' standing questions (Clint 8/27 six-pointer + Alan's 8/26 reckoning — [source](../channels/alan-nguyen9145-scaleclients/2026-03-to-2026-08.md))
+
+1. **"50+ appointments booked last 30 days — what's the show rate?"** → 66 booking notifications, 40 people, 30 NEW-lead bookers since 7/28. New-lead show rate: **45%–69%** (13 proven shows, 7 unknowable) — vs the 60% KPI and Alan's reported 16%. The verified floor already beats 16%; the gap driver is the 8 unresponsive/no-show + 7 untracked.
+2. **"Confirmation cadence + recordings?"** → recordings exist for 12 of 13 shows (linked in this file); the "zzz" dial-list evidence shows the cadence IS running on the non-responders.
+3. **"Are people lying on the form?"** → documented signal: Alan 8/21 "even those with 720+ credit are often broke broke broke"; Pedro's form says marketing agency, actual use = truck (his triage transcript); Michael Moore's medical card shows $0–10K/mo revenue vs main-offer profile.
+4. **Who is closable** → the 8/26 reckoning stands: only 3 qualified mains have ever shown; this window adds P Reddy (qualified, walked on proof) and Karl (whale, pending).
+5. **CPQBC** → $125/booked W2, $88 medical (Clint 8/27); with a 45–69% new-lead show band, CPQBC-that-shows ≈ $180–$280 W2 — better than the $1,250 Alan computed in July, still above the $100 ideal.
+
+## 🔥 REHEAT LIST — the 8 new leads who NEVER booked (for Lynn/Carla)
+
+| Priority | Person | Why | Ask/profile |
+|---|---|---|---|
+| 1 | [HERMAN ROGERS](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/RYHu2KExLZOScp0ori3t) | applied TWICE in one day (8/13) | C-Corp, 800+ credit, $100–300K ask, $250K+ income, active business |
+| 2 | [Noel Rivera](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/Rxrtsgt3VREGPivwS6RE) | strongest un-booked profile | LLC, 720-749, $300–500K ask, $250K+ income, active business |
+| 3 | [Fernando De Pieri](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/jypnYW0kj5700hD8azMk) | newest (8/26), register #69 already flags him untouched | 720-749, $50–100K |
+| 4 | [John Mazzocchi](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/yWBoytMEygPZXSyvplHl) | $250K+ income W2 | Sole prop, 720-749, $50–100K |
+| 5 | [Marko Sakren](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/zPHKP5SyzqpnJxn5gCz9) | active business | LLC, 720-749, $100–200K |
+| 6 | [LeRoy McCall](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/9kRWME9TdBvPTZiixBiX) | LLC, growing | 720-749, $50–100K |
+| 7 | [Javaris Johnson](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/1LpdOmQr5SLXuS3blGHs) | medical ($25–50K/mo revenue) | 720-749, $100–200K |
+| 8 | [Natalia Rumbuc](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/XWpYlTI8Ar1QnwizNVuA) | register #69 recovered lead, worked by Lynn | 720-749, $1M+ ask but unemployed — triage first |
