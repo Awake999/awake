@@ -249,3 +249,6 @@ Alan correction (verbatim in the pulls file): new leads only. dateAdded filter a
 
 ## Batch (2026-08-31): funnel v3 — unknowns chased, Kai answers, reheat list
 16 unknowns → resolved via booking audit + daily-reports "zzz" dial lists + team-sync evidence: +1 showed (Myla, secondary), +2 no-show (Tessa explicit, Lee derived), +5 derived unresponsive; 7 remain unknown; show band tightened 40–93% → 45–69%. Chris Mclean excluded per Alan ruling. ScaleClients/Kai standing questions answered with this data (Clint's 8/27 six-pointer). Reheat list of 8 never-booked written with GHL links (HERMAN ROGERS ×2 applications top priority). All in pulls file v3.
+
+## Batch (2026-08-31): reheat draft placed in Slack
+Draft Dr0BTB8H0EJ3 created in #sales-team-updates (C0BPN7Y9YB0) — the 8 never-booked reheat leads with GHL links, priority-ordered (HERMAN ROGERS first), + Marx Todjro same-day call reminder. One tap from Alan to send; not posted by the lane.
