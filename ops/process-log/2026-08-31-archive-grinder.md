@@ -328,3 +328,27 @@ Ran `format_transcripts.py` (174081239 → no-ts, transcript is a single unbroke
 **Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
 
 **Resume point:** next queued row (top-down, August section) is `rec 173596185` ([Fathom call 786039287](https://fathom.video/calls/786039287), 2026-08-14, "Impromptu Zoom Meeting (Ina)").
+
+## Batch 15
+
+Resumed via self-scheduled continuation (resume point re-verified against live INDEX.md after a `git pull --rebase` fast-forwarded in two unrelated Lane 3 commits — zero scope overlap). Note: the Fathom MCP server and the `send_later`/`create_trigger` tools both briefly flapped between the UUID-prefixed tool name and a friendly-named alias mid-run; resolved by re-checking via ToolSearch and using whichever name was live at the time (both eventually settled back on the original UUID-prefixed `mcp__eab8a98a-...__*` / `mcp__Claude_Code_Remote__*` names used for this batch).
+
+Continued top-down — next three queued rows, all dated 2026-08-14:
+
+| Recording | Call | Archived as |
+|---|---|---|
+| rec 173596185 | [Fathom call 786039287](https://fathom.video/calls/786039287) | [2026-08-14--edwin-experian-fraud-dispute-hancock-whitney--173596185](../archive/calls/fathom/2026-08-14--edwin-experian-fraud-dispute-hancock-whitney--173596185/transcript.md) — dispute call for client Edwin's fraudulent Hancock Whitney accounts; Experian refuses an FCRA 605B fraud block citing internal policy, denies escalation to a supervisor |
+| rec 173580972 | [Fathom call 786005742](https://fathom.video/calls/786005742) | [2026-08-14--alan-lynn-anne-grace-performance-review--173580972](../archive/calls/fathom/2026-08-14--alan-lynn-anne-grace-performance-review--173580972/transcript.md) — Alan/Lynn review new-hire Anne's likely-failing trial and Grace's attention-to-detail issues, plan SOP optimization and a final 1-week trial, work through a client follow-up list |
+| rec 173503381 | [Fathom call 785854313](https://fathom.video/calls/785854313) | [2026-08-14--carla-sales-closing-training-ops-blockers--173503381](../archive/calls/fathom/2026-08-14--carla-sales-closing-training-ops-blockers--173503381/transcript.md) — operational blockers resolved (LPOA reformatting, Experian portal bypass), then Carla's sales-closing training covering the "About Us" summary and the "Strong Frame" |
+
+Raw sourcing: rec 173596185 auto-saved to a local JSON tool-result file — extracted from the `text` field, confirmed byte-identical. rec 173503381 auto-saved to a local plain-text tool-result file — direct `cp`, confirmed identical via `cmp`. rec 173580972 returned inline — `transcript-raw.txt` written from the exact returned tool text via Write (self-flagged per the audit-approved inline-transcript raw-write procedure).
+
+Ran `format_transcripts.py` (173596185 → chaptered, 3 chapters; 173580972 → chaptered, 5 chapters; 173503381 → chaptered, 16 chapters — no splits) then `add_breadcrumbs.py`.
+
+**Verbatim self-check:** stripped structural additions and diffed against each `transcript-raw.txt` line-for-line — all three matched exactly (173596185: 59/59, 173580972: 123/123, 173503381: 414/414).
+
+**INDEX:** flipped all three rows to ✅ with clickable links + `raw ✓`. Counts: 69→72 archived, 2 no-transcript (unchanged), 163→160 queued. Verified 72+2+160 = 234 and grep-counted rows (72 ✅ / 2 n/a / 160 queued = 234) confirm.
+
+**Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
+
+**Resume point:** next queued row (top-down, August section) is `rec 173260375` ([Fathom call 783351348](https://fathom.video/calls/783351348), 2026-08-14, "Yeshaya Dank - Guaranteed Funding").

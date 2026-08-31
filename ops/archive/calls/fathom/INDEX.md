@@ -10,7 +10,7 @@
 - [July 2026](#july-2026) — 91 meetings
 - [June 2026](#june-2026) — 10 meetings
 
-**Archive status:** 69 archived ✅ · 2 verified no-transcript · 163 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+**Archive status:** 72 archived ✅ · 2 verified no-transcript · 160 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
 
 
 ## August 2026
@@ -88,9 +88,9 @@
 | 2026-08-17 | [Impromptu Zoom Meeting](https://fathom.video/calls/788184013) <sub>rec 174081239</sub> | ✅ [transcript](2026-08-17--fansync-mlcs-spv-funding-strategy-debate--174081239/transcript.md) · [summary](2026-08-17--fansync-mlcs-spv-funding-strategy-debate--174081239/summary.md) · raw ✓ |
 | 2026-08-17 | [Impromptu Zoom Meeting](https://fathom.video/calls/787910378) <sub>rec 173958367</sub> | ✅ [transcript](2026-08-17--carla-sales-training-value-equation-client-shadow--173958367/transcript.md) · [summary](2026-08-17--carla-sales-training-value-equation-client-shadow--173958367/summary.md) · raw ✓ |
 | 2026-08-14 | [Impromptu Zoom Meeting](https://fathom.video/calls/786067791) <sub>rec 173605709</sub> | ✅ [transcript](2026-08-14--carla-brother-referral-video-screening--173605709/transcript.md) · [summary](2026-08-14--carla-brother-referral-video-screening--173605709/summary.md) · raw ✓ |
-| 2026-08-14 | [Impromptu Zoom Meeting (Ina) <sub>rec 173596185</sub>](https://fathom.video/calls/786039287) | not yet — click title to watch on Fathom |
-| 2026-08-14 | [Impromptu Zoom Meeting](https://fathom.video/calls/786005742) <sub>rec 173580972</sub> | not yet — click title to watch on Fathom |
-| 2026-08-14 | [Impromptu Zoom Meeting](https://fathom.video/calls/785854313) <sub>rec 173503381</sub> | not yet — click title to watch on Fathom |
+| 2026-08-14 | [Impromptu Zoom Meeting (Ina) <sub>rec 173596185</sub>](https://fathom.video/calls/786039287) | ✅ [transcript](2026-08-14--edwin-experian-fraud-dispute-hancock-whitney--173596185/transcript.md) · [summary](2026-08-14--edwin-experian-fraud-dispute-hancock-whitney--173596185/summary.md) · raw ✓ |
+| 2026-08-14 | [Impromptu Zoom Meeting](https://fathom.video/calls/786005742) <sub>rec 173580972</sub> | ✅ [transcript](2026-08-14--alan-lynn-anne-grace-performance-review--173580972/transcript.md) · [summary](2026-08-14--alan-lynn-anne-grace-performance-review--173580972/summary.md) · raw ✓ |
+| 2026-08-14 | [Impromptu Zoom Meeting](https://fathom.video/calls/785854313) <sub>rec 173503381</sub> | ✅ [transcript](2026-08-14--carla-sales-closing-training-ops-blockers--173503381/transcript.md) · [summary](2026-08-14--carla-sales-closing-training-ops-blockers--173503381/summary.md) · raw ✓ |
 | 2026-08-14 | [Yeshaya Dank - Guaranteed Funding](https://fathom.video/calls/783351348) <sub>rec 173260375</sub> | not yet — click title to watch on Fathom |
 | 2026-08-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/784578211) <sub>rec 173254448</sub> | not yet — click title to watch on Fathom |
 | 2026-08-13 | [Lynn < Carla (Sabrina) <sub>rec 173254044</sub>](https://fathom.video/calls/784528229) | not yet — click title to watch on Fathom |
