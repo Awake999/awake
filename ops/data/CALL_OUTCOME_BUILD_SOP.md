@@ -51,3 +51,14 @@ The nightly GHL pull reads tags + statuses; outcomes flow into the roster audit,
 - Trigger-link taps are counted once per contact per link — a re-tap on a different link later still fires that link's workflow, so a wrong tap is correctable by tapping the right one (both tags land; latest note wins; flag for human if two conflicting outcome tags on one appointment day).
 - Closers must be IN #call-outcomes (invite Lynn, Carla, and any closer — 1 min).
 - The webhook URL is a secret. If it leaks, regenerate it at api.slack.com and paste the new one into the workflow.
+
+## STEP 6 — cancel notifications DIRECTLY to Alan, with the why (Alan 8/31: "we need to get notifications directly to me when they cancel, if they cancel, and why") — register #115
+One workflow, `Cancel → notify Alan` (~10 min, same session as Steps 1-5):
+1. Trigger: **Appointment Status = cancelled** → filter: the sales calendars only (Funding Consultation calendars).
+2. Action **Add Contact Tag** → `outcome-cancelled`.
+3. Action **Add Note** → `CANCELLED {{right_now.date}} {{right_now.time}} — slot was {{appointment.start_time}}`.
+4. Action **Send Internal Notification** → channels: **In-app + Email to Alan's user** → subject `🚫 CANCELLED: {{contact.name}}` → body: `{{contact.name}} · {{contact.phone}} · slot {{appointment.start_time}} · calendar {{appointment.calendar_name}} — open contact: {{contact.detail_link}}` (use the merge-field picker's exact tokens).
+5. Action **SMS to the lead** (this is what captures the WHY — GHL only stores a typed cancel reason if they cancel through the calendar link's cancel page): `Hey {{contact.first_name}}, saw the call got cancelled — no stress. Anything happen / want to grab a new time? {{booking_link}}` — their reply lands in the conversation and in Alan's notification stream.
+6. Publish, then test exactly like Step 4 (dummy appointment → cancel it → confirm Alan's phone/email gets the ping).
+Mirror workflow for **Rescheduled** if wanted (same 6 steps, trigger = rescheduled, no SMS needed — the new slot IS the answer).
+⚠️ Platform fact (why this needs the UI): GHL's API cannot create workflows — read-only there — so this build is click-work in Automation → Workflows, either Lane 4's browser session with Alan present or Carla/Lynn following this page verbatim.
