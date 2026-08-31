@@ -177,3 +177,17 @@ Each: transcript.md (chaptered, TOC) + transcript-raw.txt + summary.md (Fathom A
 **Fix (standing):** every reply from this lane now carries a MODE & EFFORT block: served model+effort verified via the session record (get_session) · needs analysis for the work in this reply · recommended model/effort for the NEXT batch with reasoning (quality first, cost second) · token runway. Session facts this batch: model claude-fable-5, effort_level medium (both configured and last-served), ultracode off, no overage, ~$371.66 session cost to date.
 
 **Standing recommendation for this lane's workload (quality-first):** backlog grinding (fetch → verbatim file → run idempotent tools → flip index rows) is mechanical copy work — Sonnet 5 at medium effort would hold quality at a fraction of the cost; judgment-heavy work (SOP writing, cross-lane reconciliation, people dossiers, verbatim-fidelity audits) is where the top-tier model earns its keep. Lane cannot switch its own model mid-session; Alan sets model per lane/session or on Routines.
+
+---
+
+## Batch (2026-08-31): Sonnet grinder stood up (Lane 3b) + full §1.7/§1.9 interaction coherence adopted
+
+**Alan, verbatim:** "set up a sonnet grinder without sacrificing quality" · then mid-turn: "where is SOP coherence from lane 1? should be responding in buttons and checks and links. integrate"
+
+**Miss log (Law 0.2):** replies were closing with "reply with any of:" text lines instead of actual tappable buttons — BUTTON LAW §1.7 applies to live replies; the text-line form is only for autonomous runs. Fixed effective immediately: every live reply ends with AskUserQuestion buttons; checklists + scorecard tables + clickable links per §1.9.
+
+**Grinder design (quality-first):**
+- Standing brief committed at ops/archive/grinder/BRIEF.md: full laws digest (VERBATIM/RAW-ORIGINALS/TANDEM/APPEND-ONLY/CLICKABLE/TRUTH/PRIVACY), exact per-call procedure, tool ritual, INDEX flip pattern, byte-identical raw self-check (cmp), pull-rebase push discipline, own process-log file (ops/process-log/*-archive-grinder.md).
+- SCOPE PARTITION: grinder writes ONLY calls/fathom/** + its own log. Lane 3 main stays off Fathom writes while grinder runs (works Krisp/Slack/people pages instead) — zero overlap.
+- AUDIT GATE: grinder stops after first batch of 3; Lane 3 (Fable) audits line-for-line vs raws before sending cross-session "AUDIT PASS — continue."
+- Model: claude-sonnet-5 (mechanical copy work; quality lives in the verbatim discipline + committed tools, not model brains).
