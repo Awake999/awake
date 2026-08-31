@@ -10,7 +10,7 @@
 - [July 2026](#july-2026) — 91 meetings
 - [June 2026](#june-2026) — 10 meetings
 
-**Archive status:** 28 archived ✅ · 1 verified no-transcript · 205 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+**Archive status:** 31 archived ✅ · 1 verified no-transcript · 202 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
 
 
 ## August 2026
@@ -33,12 +33,12 @@
 | 2026-08-27 | [Daily Ops — Meeting Cadence, Trello Control Center, Lynn's Role](https://fathom.video/calls/801291099) | ✅ [transcript](2026-08-27--daily-ops-meeting-cadence-trello-lynn-role--177414987/transcript.md) · [summary](2026-08-27--daily-ops-meeting-cadence-trello-lynn-role--177414987/summary.md) · raw ✓ |
 | 2026-08-27 | [Alan ↔ Anne 1:1 — EODR Timestamps, Todd/Ed/Matt Disputes](https://fathom.video/calls/800497411) | ✅ [transcript](2026-08-27--alan-anne-1on1-eodr-timestamps-todd-ed-matt--177244544/transcript.md) · [summary](2026-08-27--alan-anne-1on1-eodr-timestamps-todd-ed-matt--177244544/summary.md) · raw ✓ |
 | 2026-08-27 | [Chris Mclean - Guaranteed Funding](https://fathom.video/calls/798638035) | ✅ [transcript](2026-08-27--chris-mclean-guaranteed-funding--177237489/transcript.md) · [summary](2026-08-27--chris-mclean-guaranteed-funding--177237489/summary.md) · [meta](2026-08-27--chris-mclean-guaranteed-funding--177237489/meta.md) · raw ✓ |
-| 2026-08-26 | [Impromptu Zoom Meeting](https://fathom.video/calls/800411730) <sub>rec 177232030</sub> | not yet — click title to watch on Fathom |
+| 2026-08-26 | [Team Sync — Scheduling, Trello Labels, Dispute Team Performance](https://fathom.video/calls/800411730) | ✅ [transcript](2026-08-26--team-sync-scheduling-trello-dispute-performance--177232030/transcript.md) · [summary](2026-08-26--team-sync-scheduling-trello-dispute-performance--177232030/summary.md) · raw ✓ |
 | 2026-08-26 | [Todd LoGuidice - Funding Execution](https://fathom.video/calls/800283407) | ✅ [transcript](2026-08-26--todd-loguidice-funding-execution--177223749/transcript.md) · [summary](2026-08-26--todd-loguidice-funding-execution--177223749/summary.md) · [meta](2026-08-26--todd-loguidice-funding-execution--177223749/meta.md) · raw ✓ |
 | 2026-08-26 | [Nick Samara - Strategic Consulting Funding](https://fathom.video/calls/799338953) | ✅ [transcript](2026-08-26--nick-samara-strategic-consulting-funding--177160286/transcript.md) · [summary](2026-08-26--nick-samara-strategic-consulting-funding--177160286/summary.md) · raw ✓ |
-| 2026-08-26 | [Impromptu Zoom Meeting](https://fathom.video/calls/800109782) <sub>rec 177129989</sub> | not yet — click title to watch on Fathom |
+| 2026-08-26 | [Constantine — Sales Show-Rate & Lead Quality Review](https://fathom.video/calls/800109782) | ✅ [transcript](2026-08-26--constantine-sales-show-rate-lead-quality-review--177129989/transcript.md) · [summary](2026-08-26--constantine-sales-show-rate-lead-quality-review--177129989/summary.md) · raw ✓ |
 | 2026-08-26 | [Dispute Team - Daily Zoom Meeting](https://fathom.video/calls/798172547) | ✅ [transcript](2026-08-26--dispute-team-daily-zoom--177002596/transcript.md) · raw ✓ |
-| 2026-08-26 | [Impromptu Zoom Meeting](https://fathom.video/calls/798997210) <sub>rec 176817729</sub> | not yet — click title to watch on Fathom |
+| 2026-08-26 | [Braden — ML/James Candidate Vetting, Team Performance Crisis](https://fathom.video/calls/798997210) | ✅ [transcript](2026-08-26--braden-ml-james-candidate-vetting-team-review--176817729/transcript.md) · [summary](2026-08-26--braden-ml-james-candidate-vetting-team-review--176817729/summary.md) · raw ✓ |
 | 2026-08-26 | [Impromptu Zoom Meeting](https://fathom.video/calls/798940357) <sub>rec 176815084</sub> | not yet — click title to watch on Fathom |
 | 2026-08-26 | [Michael Moore - Guaranteed Funding](https://fathom.video/calls/795906439) | ✅ [transcript](2026-08-26--michael-moore-guaranteed-funding--176802936/transcript.md) · [summary](2026-08-26--michael-moore-guaranteed-funding--176802936/summary.md) — THE close call ($1K deposit, 'We are a go') |
 | 2026-08-26 | [Impromptu Zoom Meeting](https://fathom.video/calls/798796991) <sub>rec 176797747</sub> | not yet — click title to watch on Fathom |

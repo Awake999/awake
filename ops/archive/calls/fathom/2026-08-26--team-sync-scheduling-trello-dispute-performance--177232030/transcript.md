@@ -1,0 +1,243 @@
+# Team Sync — Scheduling, Trello Labels, Dispute Team Performance — 2026-08-26 — verbatim transcript
+
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (20:00 to 30:00)](#chapter-3-2000-to-3000)
+- [Chapter 4 (30:00 to 40:00)](#chapter-4-3000-to-4000)
+- [Chapter 5 (40:00 to 50:00)](#chapter-5-4000-to-5000)
+
+
+ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
+
+
+## Chapter 1 (00:00 to 10:00)
+
+[00:00](https://fathom.video/calls/800411730?timestamp=0) Alan Nguyen: That was stressful. I'm sorry I made you late to that meeting. I felt like, oh, no.
+[00:07](https://fathom.video/calls/800411730?timestamp=7) Carla Stivala: It's all good.
+[00:08](https://fathom.video/calls/800411730?timestamp=8) Alan Nguyen: I mean, it's on me. I really should have just did it yesterday or any time before. Isn't that life?
+[00:17](https://fathom.video/calls/800411730?timestamp=17) Carla Stivala: .
+[00:19](https://fathom.video/calls/800411730?timestamp=19) Alan Nguyen: Hi, Lynn. Hi, Lynn.
+[00:22](https://fathom.video/calls/800411730?timestamp=22) Carla Stivala: Hey.
+[00:24](https://fathom.video/calls/800411730?timestamp=24) Lynn N.: How are you?
+[00:25](https://fathom.video/calls/800411730?timestamp=25) Carla Stivala: Good, good.
+[00:26](https://fathom.video/calls/800411730?timestamp=26) Lynn N.: How are you? Good, thank you.
+[00:28](https://fathom.video/calls/800411730?timestamp=28) Carla Stivala: Alan, I forget, on September, Tuesday 1st, the daily sales meeting, do you want to move it to 12 p.m.? Because it interferes with Connor Robertson.
+[00:44](https://fathom.video/calls/800411730?timestamp=44) Alan Nguyen: You said Monday or what day? Tuesday, September 1st.
+[00:49](https://fathom.video/calls/800411730?timestamp=49) Carla Stivala: Tuesday, September 1st.
+[00:51](https://fathom.video/calls/800411730?timestamp=51) Alan Nguyen: Do I want to have the sales daily meeting?
+[00:57](https://fathom.video/calls/800411730?timestamp=57) Carla Stivala: That's a great question.
+[00:59](https://fathom.video/calls/800411730?timestamp=59) Alan Nguyen: Bye. Bye. What's the alternative?
+[01:04](https://fathom.video/calls/800411730?timestamp=64) Carla Stivala: Canceling it or moving it to 3 p.m.?
+[01:10](https://fathom.video/calls/800411730?timestamp=70) Alan Nguyen: Let's see. Okay, look at my previous week. Tuesdays. I got you on my personal calendar, that's why.
+[01:25](https://fathom.video/calls/800411730?timestamp=85) Carla Stivala: no worries.
+[01:34](https://fathom.video/calls/800411730?timestamp=94) Alan Nguyen: So, let me set aside this. Is there a way? I mean, I'll figure it out later. Follow my own calendar on my business email.
+[01:53](https://fathom.video/calls/800411730?timestamp=113) Lynn N.: Oh, my bot didn't join. Oh, my bot.
+[02:00](https://fathom.video/calls/800411730?timestamp=120) Carla Stivala: My bot didn't join either.
+[02:01](https://fathom.video/calls/800411730?timestamp=121) Lynn N.: It might be because he invited through Zoom itself.
+[02:08](https://fathom.video/calls/800411730?timestamp=128) Alan Nguyen: Oh, it's because it's group call. You can add it.
+[02:12](https://fathom.video/calls/800411730?timestamp=132) Carla Stivala: You can add it yourself.
+[02:14](https://fathom.video/calls/800411730?timestamp=134) Alan Nguyen: you can mainly add it. Oh.
+[02:17](https://fathom.video/calls/800411730?timestamp=137) Lynn N.: Did it pop in the waiting room?
+[02:21](https://fathom.video/calls/800411730?timestamp=141) Alan Nguyen: I saw, I thought I saw both. I saw, I pressed approve. Oh, there we go.
+[02:28](https://fathom.video/calls/800411730?timestamp=148) Carla Stivala: Oh, I remember that.
+[02:31](https://fathom.video/calls/800411730?timestamp=151) Alan Nguyen: I don't know.
+[02:33](https://fathom.video/calls/800411730?timestamp=153) Lynn N.: Mine says capture with bot. But I don't know how to get it in here.
+[02:40](https://fathom.video/calls/800411730?timestamp=160) Alan Nguyen: You, I'm not sure how that works. I know they just updated their systems, and I saw a hybrid on someone else's computer, too, with that.
+[02:48](https://fathom.video/calls/800411730?timestamp=168) Lynn N.: Where it's like, you're basically able to record without having your bot join, but I just wonder if it records screen and stuff.
+[02:53](https://fathom.video/calls/800411730?timestamp=173) Alan Nguyen: But. Cool. . Afterwards, I'd be interested to see, like, on your...
+[03:00](https://fathom.video/calls/800411730?timestamp=180) Lynn N.: Okay, well, it does say video and audio, but there's nothing showing on the screen right now, so I don't know if it'll actually record a video when there's nothing. I wonder.
+[03:14](https://fathom.video/calls/800411730?timestamp=194) Alan Nguyen: So, let's see, refresh. This looks like 10 o'clock has tech calls, 9 o'clock, 9 o'clock is open on Tuesday. Wait, What do you say?
+[03:34](https://fathom.video/calls/800411730?timestamp=214) Carla Stivala: So, I'm looking at the first, right?
+[03:36](https://fathom.video/calls/800411730?timestamp=216) Alan Nguyen: have... .
+[03:38](https://fathom.video/calls/800411730?timestamp=218) Carla Stivala: I don't see a tech call on that day.
+[03:41](https://fathom.video/calls/800411730?timestamp=221) Alan Nguyen: A what call? Did you say tech? . Let me share my screen so you can see. I don't...
+[03:48](https://fathom.video/calls/800411730?timestamp=228) Carla Stivala: I don't see that call. It'll make more sense if I share my screen.
+[03:52](https://fathom.video/calls/800411730?timestamp=232) Alan Nguyen: Not from that week, but the week prior.
+[03:55](https://fathom.video/calls/800411730?timestamp=235) Carla Stivala: Oh, the week prior, yes. But I don't see it for the first. I know, because I have to manually add those in.
+[04:04](https://fathom.video/calls/800411730?timestamp=244) Alan Nguyen: They're not recurring things that I'm opening every time. You have to manually go into the SCIO stuff and add them, because they have people that are on membership plans, and if someone basically stops paying, they have to have new links for every meeting, basically.
+[04:24](https://fathom.video/calls/800411730?timestamp=264) Carla Stivala: . . So they can't do, like, a recurring.
+[04:27](https://fathom.video/calls/800411730?timestamp=267) Alan Nguyen: It's all manual or individual. But okay, so you can see my screen, right?
+[04:32](https://fathom.video/calls/800411730?timestamp=272) Carla Stivala: .
+[04:34](https://fathom.video/calls/800411730?timestamp=274) Alan Nguyen: So basically, so I'm in tech. So I look back at the previous week, right? So on Tuesday, we had a tech call. So that means every week there's going be a tech call at 10. So this is going to be blocked off. And then, but 9, 8.30 to 9 is, 8.30 to 10 is going to be open. So, you, that's not the first.
+[05:00](https://fathom.video/calls/800411730?timestamp=300) Carla Stivala: The first is on the left, right?
+[05:07](https://fathom.video/calls/800411730?timestamp=307) Alan Nguyen: This will probably be easier if I do it like this.
+[05:14](https://fathom.video/calls/800411730?timestamp=314) Carla Stivala: Oh, so they're on Wednesdays.
+[05:18](https://fathom.video/calls/800411730?timestamp=318) Alan Nguyen: This is Tuesday. Today is Wednesday. That's the that's the dark blue.
+[05:25](https://fathom.video/calls/800411730?timestamp=325) Carla Stivala: Oh, that's what's gonna mean. What's happening?
+[05:38](https://fathom.video/calls/800411730?timestamp=338) Alan Nguyen: Mm .
+[05:43](https://fathom.video/calls/800411730?timestamp=343) Carla Stivala: Oh, I've never seen this kind of view on a calendar. That's what's throwing me off. Crazy.
+[06:00](https://fathom.video/calls/800411730?timestamp=360) Alan Nguyen: So we have 8.30 to 9.00 available.
+[06:06](https://fathom.video/calls/800411730?timestamp=366) Carla Stivala: Should I move it there? Or 2.00 p.m.? We'll have to decide on that.
+[06:12](https://fathom.video/calls/800411730?timestamp=372) Alan Nguyen: Just adding all this stuff here.
+[06:15](https://fathom.video/calls/800411730?timestamp=375) Carla Stivala: Okay. So it keeps you flexible for manual bookings?
+[06:20](https://fathom.video/calls/800411730?timestamp=380) Alan Nguyen: . So we have daily sync for an hour. Oh, dispute team, I see. Dispute team, and then I think ops is a greater priority than sales right now. So let's do ops for 9.30. No, no. I feel like sales is good to have momentum with, but I like the idea of the admin, the, what's this called? The, my brain, need more sleep. The ops, the ops meeting should. Just so we can carry that over into the tech call, just in case we have extra questions and we'll be in that headspace.
+[07:06](https://fathom.video/calls/800411730?timestamp=426) Carla Stivala: I'm gonna move the daily admin sync and just call it admin ops.
+[07:12](https://fathom.video/calls/800411730?timestamp=432) Alan Nguyen: Okay. Sounds good.
+[07:16](https://fathom.video/calls/800411730?timestamp=436) Carla Stivala: Okay. Thank you.
+[07:19](https://fathom.video/calls/800411730?timestamp=439) Alan Nguyen: Wait. Oh, okay. Sales. That's what the disconnect was.
+[07:24](https://fathom.video/calls/800411730?timestamp=444) Carla Stivala: Just that event, right? We want to keep the daily admin ops sync at 11 a.m. I'm just going to move it for Tuesday.
+[07:36](https://fathom.video/calls/800411730?timestamp=456) Alan Nguyen: No, no, Tuesday daily admin syncs we're going to want at nine now.
+[07:40](https://fathom.video/calls/800411730?timestamp=460) Carla Stivala: Oh, got you. Okay. Perfect. Thank you.
+[07:46](https://fathom.video/calls/800411730?timestamp=466) Alan Nguyen: And then sales will put in that previous position. I wonder if I move it, it move for everybody?
+[07:58](https://fathom.video/calls/800411730?timestamp=478) Carla Stivala: No. I don't No, because I didn't. Organize it.
+[08:01](https://fathom.video/calls/800411730?timestamp=481) Alan Nguyen: Let's see. I'm not sure.
+[08:04](https://fathom.video/calls/800411730?timestamp=484) Carla Stivala: Let me know if that updated on your side.
+[08:06](https://fathom.video/calls/800411730?timestamp=486) Alan Nguyen: It should update on your side because I just moved it. I got your update. Did you get my update with moving the sales from 1 to 11?
+[08:17](https://fathom.video/calls/800411730?timestamp=497) Carla Stivala: but I see it twice now. That's weird. I'll just delete it. Oh, no, it's just I need to reload. there we go. It's beautiful. I just want you to know you're my favorite girl.
+[08:44](https://fathom.video/calls/800411730?timestamp=524) Lynn N.: Love that song. Me too. I know you're singing about me, so you don't have to keep it a secret. I'm just kidding. You're so cute.
+[08:57](https://fathom.video/calls/800411730?timestamp=537) Carla Stivala: Did you bring me coffee?
+[09:00](https://fathom.video/calls/800411730?timestamp=540) Lynn N.: I did, actually. It's waiting there for you, at your door.
+[09:07](https://fathom.video/calls/800411730?timestamp=547) Carla Stivala: Ooh. So, Lynn, what are your thoughts on, I don't know if you answered me, hold on. What are your thoughts on that new board on Trello? Like, do you think the board would give you too much work or take you too much time, or do you think it would be beneficial? I was looking at it, the team accountability one, right? .
+[09:48](https://fathom.video/calls/800411730?timestamp=588) Lynn N.: I can imagine this taking me more time, but that's because I already personally have, like, a personal, Trello board where I I have things that I already use, but I'm open to trying, like, whatever, if it, like, if it's for the betterment of, like, the company and the team. So, you know. . That's very sweet. . And I'm thinking, huh, how would we do the needs attention in progress and completed part? .
+
+## Chapter 2 (10:00 to 20:00)
+
+[10:35](https://fathom.video/calls/800411730?timestamp=635) Carla Stivala: So you would have to put your name on double for cloud and essentially drag it to needs attention. But that's a good question. And that's the one thing I don't like about the board. Because then it's going to get mixed up with the other people. What I was thinking I'm going to do right now is just removing those lists because they don't really make sense. So what we can do is, like, color code. You can edit a card, and I'm going to make, like, labels, and I'll just make a red label, a yellow label, and a green label. So you know kind of, like, where you stand. Also, like, you can create your own label. So if you want it in progress to be pink, you can name the tag, and when you put the cursor on it, like, it shows you what that, what that tag is for. So other people would know that that's what you mean by pink. I'm removing them. Thank you for your feedback.
+[11:59](https://fathom.video/calls/800411730?timestamp=719) Lynn N.: no problem.
+[12:21](https://fathom.video/calls/800411730?timestamp=741) Carla Stivala: Sorry, I don't know if you heard my dad cooking. Yes, I'm making tags and the red one, it's going to be urgent. And then I'm making a yellow one. That it's going to be for in progress. But I think that if you want to have your own, it works too. Fathom. They made it girly for us because we're all women. Oh, it looks so cute. looks like Valentine's Day, Loki. Alan, what are you doing?
+[15:01](https://fathom.video/calls/800411730?timestamp=901) Alan Nguyen: I had to make a protein shake so I don't die.
+[15:04](https://fathom.video/calls/800411730?timestamp=904) Carla Stivala: Oh. Don't buzz out.
+[15:10](https://fathom.video/calls/800411730?timestamp=910) Alan Nguyen: Have you heard back from James yet? I messaged him twice today.
+[15:13](https://fathom.video/calls/800411730?timestamp=913) Carla Stivala: No, I did not. Should I call him?
+[15:20](https://fathom.video/calls/800411730?timestamp=920) Alan Nguyen: Sure.
+[15:22](https://fathom.video/calls/800411730?timestamp=922) Carla Stivala: All right. Let me see. Alan, by the way, did we email an offer in writing?
+[15:44](https://fathom.video/calls/800411730?timestamp=944) Alan Nguyen: To James. That part. . We need to do that.
+[15:52](https://fathom.video/calls/800411730?timestamp=952) Carla Stivala: Did we? Or we need to do that? We have not done that yet. We need to, because that's probably why. It's not really answering.
+[16:03](https://fathom.video/calls/800411730?timestamp=963) Alan Nguyen: I don't think that should be a good reason why. If it is the reason why he should still say something, like, okay, just in terms of responsiveness.
+[16:13](https://fathom.video/calls/800411730?timestamp=973) Carla Stivala: I feel like it might be important because he's still going to need to.
+[16:20](https://fathom.video/calls/800411730?timestamp=980) Alan Nguyen: It definitely is important. So you just want to ask him if he can start so that you can put the start date on the work offer, right? . Like one, I'd want to know, like if he's able to start and then two, like, what's like, what's the best way to be able to connect with him in terms of like responsiveness? Because we both reached out to him multiple times and he didn't, we haven't heard back from him. .
+[16:52](https://fathom.video/calls/800411730?timestamp=1012) Carla Stivala: I agree. But it's weird because like, maybe he's like busy with his parents, but still. It doesn't take you very long to answer and say, hey, I'll get back to you tomorrow. .
+[17:10](https://fathom.video/calls/800411730?timestamp=1030) Alan Nguyen: Did you try calling him or no?
+[17:12](https://fathom.video/calls/800411730?timestamp=1032) Carla Stivala: . No answer?
+[17:15](https://fathom.video/calls/800411730?timestamp=1035) Alan Nguyen: No.
+[17:17](https://fathom.video/calls/800411730?timestamp=1037) Carla Stivala: Interesting.
+[17:18](https://fathom.video/calls/800411730?timestamp=1038) Alan Nguyen: .
+[17:19](https://fathom.video/calls/800411730?timestamp=1039) Carla Stivala: Unless he's on like do not disturb mode or something. Who knows?
+[17:28](https://fathom.video/calls/800411730?timestamp=1048) Alan Nguyen: . We can even say that like once we get the start date, then that's when we can send out the agreement and then if everything looks good, we can go through it together, go over it together. Okay. then because the date will be on there as well.
+[17:40](https://fathom.video/calls/800411730?timestamp=1060) Carla Stivala: . Sounds amazing. Thank you. Thank you. All right.
+[17:51](https://fathom.video/calls/800411730?timestamp=1071) Alan Nguyen: What are we looking like? Oh, I have another question for you real quick.
+[17:55](https://fathom.video/calls/800411730?timestamp=1075) Carla Stivala: Okay.
+[17:57](https://fathom.video/calls/800411730?timestamp=1077) Alan Nguyen: Super quick.
+[17:57](https://fathom.video/calls/800411730?timestamp=1077) Carla Stivala: So you have this like. Event, every Friday, I assume you are doing this to block and add a buffer after your Constantine call, just in case it gets extended. Is that why you have this here?
+[18:15](https://fathom.video/calls/800411730?timestamp=1095) Alan Nguyen: No, I think it's because I added it there manually recurring a long time ago. Okay, can I? I'm just going to delete it.
+[18:23](https://fathom.video/calls/800411730?timestamp=1103) Carla Stivala: Sure. Because otherwise it's blocking your next 30 minutes of the day. You know what I mean?
+[18:30](https://fathom.video/calls/800411730?timestamp=1110) Alan Nguyen: good call.
+[18:38](https://fathom.video/calls/800411730?timestamp=1118) Carla Stivala: Okay, that's it. Thank you.
+[18:42](https://fathom.video/calls/800411730?timestamp=1122) Alan Nguyen: Thank you.
+[18:43](https://fathom.video/calls/800411730?timestamp=1123) Carla Stivala: also, just by the way, on Fridays, we only have 30 minutes for the operations call. Can we move that call? Let me show my screen. have 30 minutes.
+[19:00](https://fathom.video/calls/800411730?timestamp=1140) Alan Nguyen: You see?
+[19:03](https://fathom.video/calls/800411730?timestamp=1143) Carla Stivala: Sure, we move it to, like, right after Constantine and do, like, 9. No, what would that be?
+[19:10](https://fathom.video/calls/800411730?timestamp=1150) Alan Nguyen: 9.30. We could do 30-30 split before and after.
+[19:18](https://fathom.video/calls/800411730?timestamp=1158) Carla Stivala: Oh, because...
+[19:19](https://fathom.video/calls/800411730?timestamp=1159) Alan Nguyen: Or we could, like, I was thinking originally, maybe sales 30 minutes before, but I feel like, I don't know if anything's gonna, like, in terms of, like, Friday, last day of the week, and let's say there's some big challenges that we need to have going on the business, and maybe that involves the dispute team. Wait, oh, why? because it would give you a buffer of 30 minutes to, like, stay with the dispute team. I think, I think operations on Friday should go before dispute team, no? Or does it not matter? Oh. Well, don't bank.
+
+## Chapter 3 (20:00 to 30:00)
+
+[20:00](https://fathom.video/calls/800411730?timestamp=1200) Carla Stivala: Don't banks close sooner than we do?
+[20:03](https://fathom.video/calls/800411730?timestamp=1203) Alan Nguyen: The bureaus? .
+[20:06](https://fathom.video/calls/800411730?timestamp=1206) Carla Stivala: .
+[20:07](https://fathom.video/calls/800411730?timestamp=1207) Alan Nguyen: Well, it's important to have the dispute call very early on then. sure.
+[20:16](https://fathom.video/calls/800411730?timestamp=1216) Carla Stivala: Because of the time restraint on the third parties.
+[20:23](https://fathom.video/calls/800411730?timestamp=1223) Alan Nguyen: . I mean, it's the end of the week. I would like to do an operations on Friday. I would like that to be first because like 30 minutes for the dispute team isn't going to be a world of change, but starting an hour early for operations for certain specific things might make a huge difference. I think I can move this around too.
+[20:45](https://fathom.video/calls/800411730?timestamp=1245) Carla Stivala: And can we have an hour? Can we have an hour?
+[20:49](https://fathom.video/calls/800411730?timestamp=1249) Alan Nguyen: On Friday?
+[20:50](https://fathom.video/calls/800411730?timestamp=1250) Carla Stivala: .
+[20:52](https://fathom.video/calls/800411730?timestamp=1252) Alan Nguyen: I think if we did do that, we'd have to split it 30-30.
+[20:59](https://fathom.video/calls/800411730?timestamp=1259) Carla Stivala: Wait, I'm confused. What time do you want the operations on us?
+[21:03](https://fathom.video/calls/800411730?timestamp=1263) Alan Nguyen: that time's good, and then Dispute will have a full hour from 8 to 9, and then we can do another 30 after Constantine's meeting.
+[21:16](https://fathom.video/calls/800411730?timestamp=1276) Carla Stivala: Okay, I can't see anything, because my classes are not on, lol.
+[21:25](https://fathom.video/calls/800411730?timestamp=1285) Alan Nguyen: I just feel like I'm never able to give the Dispute team enough time. Oh, we deleted all of them.
+[21:34](https://fathom.video/calls/800411730?timestamp=1294) Carla Stivala: Oh, no. Dang, I can't go back. I cannot wait to buy the monitor. This is like killing me.
+[22:07](https://fathom.video/calls/800411730?timestamp=1327) Alan Nguyen: I feel you.
+[22:43](https://fathom.video/calls/800411730?timestamp=1363) Carla Stivala: And whenever you can, do send me the itinerary, please. That way I can take that out of the back of my head.
+[22:57](https://fathom.video/calls/800411730?timestamp=1377) Alan Nguyen: Got it. One moment.
+[22:59](https://fathom.video/calls/800411730?timestamp=1379) Carla Stivala: Thank you. Oh, you're going to have to go soon.
+[24:01](https://fathom.video/calls/800411730?timestamp=1441) Alan Nguyen: Got it. What, they're, they're like here having dinner. Got it. . Feel free. question. How would you two handle a situation where, an employee disappeared for like three hours? Didn't say anything.
+[24:26](https://fathom.video/calls/800411730?timestamp=1466) Carla Stivala: if it was the first time, sorry, Lynn, go ahead. Oh, no.
+[24:33](https://fathom.video/calls/800411730?timestamp=1473) Lynn N.: I don't want to hear what you had to say first.
+[24:36](https://fathom.video/calls/800411730?timestamp=1476) Carla Stivala: Oh, you're such a sweetheart. But I don't know if it was me in your shoes, Alan. If it was the first time I would be like, hey, like, why, what, why happened? Like, during this time and this time, like, I noticed, you were not active.
+[24:56](https://fathom.video/calls/800411730?timestamp=1496) Alan Nguyen: . Like, are you okay?
+[24:58](https://fathom.video/calls/800411730?timestamp=1498) Carla Stivala: Like, did anything happen? feel Like, people want to feel cared for, even if they're not being honest and integral, like they don't have integrity. Let's say they fell asleep, right? I think it's important to be like, is everything okay, essentially? Which still communicates that you noticed, you know? So instead of being like, what happened during this time? It's like, hey, was everything okay between this time and this time?
+[25:35](https://fathom.video/calls/800411730?timestamp=1535) Alan Nguyen: Got it. makes sense. appreciate that feedback. .
+[25:40](https://fathom.video/calls/800411730?timestamp=1540) Lynn N.: I like that. It reminds me of a video I was watching on Leila Hormozzi. She was talking about basically having conversation with her employees and stuff and how it's really important to not respond in a way or react. In a way that will put them automatically in defense.
+[26:05](https://fathom.video/calls/800411730?timestamp=1565) Carla Stivala: which it kind of goes into what I was trying to say earlier today when it was just you and I. That's really interesting. Awesome.
+[26:23](https://fathom.video/calls/800411730?timestamp=1583) Alan Nguyen: Well, sweet. feel free to catch up, you know, connect with dinner. I'd say, Carla, make sure that you have TerraMind installed on your computer. I thought we got that installed your first couple of days, but it looks like something happened and it's not actually installed. okay.
+[26:44](https://fathom.video/calls/800411730?timestamp=1604) Carla Stivala: .
+[26:45](https://fathom.video/calls/800411730?timestamp=1605) Alan Nguyen: So we'll have to figure that out. Do you have the link or do you need me to send your new one?
+[26:53](https://fathom.video/calls/800411730?timestamp=1613) Carla Stivala: I will try to send me a new one, please. I'm sorry. I just made a Trello. For me, for the car last Ford.
+[27:07](https://fathom.video/calls/800411730?timestamp=1627) Alan Nguyen: Yep. I added it to the high price. Oh, you moved it.
+[27:13](https://fathom.video/calls/800411730?timestamp=1633) Carla Stivala: I didn't touch anything.
+[27:18](https://fathom.video/calls/800411730?timestamp=1638) Alan Nguyen: Oh, that's there. I added it to the priority list.
+[27:24](https://fathom.video/calls/800411730?timestamp=1644) Carla Stivala: . I'm going to top of the priority list. Oh, yes. Okay. This is done.
+[27:44](https://fathom.video/calls/800411730?timestamp=1664) Alan Nguyen: I'm almost thinking too, like, it's probably gonna be better to have priority on the left-hand side. So you're not searching for it.
+[27:51](https://fathom.video/calls/800411730?timestamp=1671) Carla Stivala: I'm going to move it.
+[27:58](https://fathom.video/calls/800411730?timestamp=1678) Alan Nguyen: I don't know if you want to do it there, but. You can move it wherever, but just somewhere it's, like, front of mind.
+[28:04](https://fathom.video/calls/800411730?timestamp=1684) Carla Stivala: I like it.
+[28:07](https://fathom.video/calls/800411730?timestamp=1687) Alan Nguyen: Okay, awesome.
+[28:09](https://fathom.video/calls/800411730?timestamp=1689) Carla Stivala: My only question for today, or Blocker, really, would be the Master Documentation Hub. So you're saying that there's a Google Drive going on, but I don't think I have access to it.
+[28:21](https://fathom.video/calls/800411730?timestamp=1701) Alan Nguyen: I wouldn't worry about that. That's, like, instead of create, it should say sort now, and then, but, like, that's not even an issue. Like, organize?
+[28:30](https://fathom.video/calls/800411730?timestamp=1710) Carla Stivala: You mean organize?
+[28:33](https://fathom.video/calls/800411730?timestamp=1713) Alan Nguyen: but I would say, like, that's, like, low, low priority. Like, that's, like, literally, we're only, we're only doing that if we have literally nothing, nothing else to do. Like, absolutely nothing to do. So, like, it's. Okay.
+[28:47](https://fathom.video/calls/800411730?timestamp=1727) Carla Stivala: .
+[28:50](https://fathom.video/calls/800411730?timestamp=1730) Lynn N.: I wouldn't even, like. I was gonna ask, because, like, personally, I wrote this down, and I was like, what do you specifically mean from. Me, because I know you, like, on, of course, when I finish my higher priority items, like, what my next high priority would be, because it seems like we have, like, a lot to do and know, I don't, personally, it's not clear to me, like, what the next best thing is, but in my mind, I'm thinking, okay, one of your biggest problems, like, especially with time right now is, you're giving a lot of the, your time to the dispute team, so that means we need to start creating structure and a foundation.
+[29:40](https://fathom.video/calls/800411730?timestamp=1780) Carla Stivala: the dispute team.
+[29:42](https://fathom.video/calls/800411730?timestamp=1782) Lynn N.: In the dispute team, SO, I mean, SOP, and.
+[29:48](https://fathom.video/calls/800411730?timestamp=1788) Alan Nguyen: I went over, I went over calls for, like, three hours with, my friend on those calls. I think the general consensus is I have to fire both of them, but, I have to. We have to find replacements. So obviously this week's gonna be a trial period, in the sense that we're able to get up to speed with everything, but right now just basic attention, basic listening, basic adherence, and then like, my friend said subordination, whatever that means. He had a more extreme perspective on it.
+
+## Chapter 4 (30:00 to 40:00)
+
+[30:31](https://fathom.video/calls/800411730?timestamp=1831) Lynn N.: But so I'm just thinking like, how can we create a structure and a foundation so that this isn't happening again with new hires, like to where it takes a ton of time, because I think, inevitably, it is going to take a lot of time, when we don't have that, like, clear structure in the SOP itself.
+[30:58](https://fathom.video/calls/800411730?timestamp=1858) Carla Stivala: And then.
+[30:59](https://fathom.video/calls/800411730?timestamp=1859) Lynn N.: .
+[31:00](https://fathom.video/calls/800411730?timestamp=1860) Carla Stivala: That's an amazing question.
+[31:02](https://fathom.video/calls/800411730?timestamp=1862) Alan Nguyen: To answer that, and that is a good question. To answer that, I did ask him that question as well, too. And I did break down that specific process, and I showed him the actual videos, and I showed him, like, it's literally, it's Google Sheet.
+[31:17](https://fathom.video/calls/800411730?timestamp=1877) Lynn N.: There's a video here. There's the AI created SLP here.
+[31:20](https://fathom.video/calls/800411730?timestamp=1880) Alan Nguyen: My intention is, like, you just watch the video. You have this written thing here alongside you to keep you on track. You take notes, ask questions along the way. You mirror it and match it, and you're good. And he looked at that, and he said, dude, that's more than enough. You don't need to over-optimize for that.
+[31:33](https://fathom.video/calls/800411730?timestamp=1893) Carla Stivala: So we have a Trello actionable item that talks about setting an SLP for new hires and onboarding them. So we should probably work on that. I'm going to move that to priority. So thanks, Lynn, for pointing it out. It's... It's... Detention.
+[32:00](https://fathom.video/calls/800411730?timestamp=1920) Alan Nguyen: To answer your question, like, obviously we could do better, right? mean, I think we're both in agreement with that in the sense that, like, that video could be better, right? Like, instead of a three hour and 40 minute long form video, like, breaking it up, organizing and doing all those chunks and stuff like that. But the main thing is, from a functional perspective, like, is it good enough? And the answer is yes. And that's the main thing. Yes, we can improve to make it better, but we have to kind of, as much as it kind of sucks, it's like we have to kind of just accept it and tell where it able to free up more time, so then we can do that.
+[32:34](https://fathom.video/calls/800411730?timestamp=1954) Lynn N.: . . I was just, like, wondering about these things, because to me, like, with a fresh perspective, I know your friend has, like, experience and stuff, but to me, we're, like, a new company. We're building from the ground up, and especially, like, with me, with no experience in certain areas, I, it kind of feels like. Learning a new skill entirely, like learning how to produce versus DJ, and that's like a whole ocean of things that we have to learn. then trying to just, which goes into my question about what is my next highest priority, because, oh my god, my train of thought is getting lost. Well, it's on your priority list, right?
+[33:28](https://fathom.video/calls/800411730?timestamp=2008) Alan Nguyen: I'm looking at your Trello right now.
+[33:33](https://fathom.video/calls/800411730?timestamp=2013) Lynn N.: I'm sorry, which one?
+[33:35](https://fathom.video/calls/800411730?timestamp=2015) Alan Nguyen: So, I didn't share, well, is it cool if I share the screen on your Trello? Okay.
+[33:41](https://fathom.video/calls/800411730?timestamp=2021) Lynn N.: So.
+[33:45](https://fathom.video/calls/800411730?timestamp=2025) Alan Nguyen: Let me know when you can see it.
+[33:48](https://fathom.video/calls/800411730?timestamp=2028) Lynn N.: I can see it. Honestly, if I'm gonna be real, I haven't been using anything else other than my daily activity. Bye-bye. Because I kind of just write the priority in that list in the daily at the very, like, bottom as I'm going through my day and I'm tracking, like, what I'm doing throughout the day. But, like, if you scroll all the way down to the bottom, like, to the bottom of this daily activity list, like, you'll see my notes at the bottom, like, the thoughts that come up. That's good.
+[34:33](https://fathom.video/calls/800411730?timestamp=2073) Alan Nguyen: but so you could use this as a micro for your daily, and then you can always zoom out and be like, okay, when I finish all my stuff, what do I do next? And you can look at your kind of your macro, right? Like, okay, well, I know these are the next things on my thing, because you already did this, so I checked it out for you, unless you want to uncheck it, but. that's fine.
+[34:53](https://fathom.video/calls/800411730?timestamp=2093) Lynn N.: . Are you – is that long-form ideas thing? Something you put there? Oh, long-form ideas.
+[35:08](https://fathom.video/calls/800411730?timestamp=2108) Alan Nguyen: that was a while ago. It's kind of like lower priority. It's like, you know, that's why it's Wow, this is a really cool – good word.
+[35:19](https://fathom.video/calls/800411730?timestamp=2119) Lynn N.: Thanks. I kind of just close everything except the daily activity, though. I just – .
+[35:28](https://fathom.video/calls/800411730?timestamp=2128) Carla Stivala: Wow, you made this?
+[35:31](https://fathom.video/calls/800411730?timestamp=2131) Lynn N.: . Alan put some stuff in my board, and then I just kind of been working off of this, but – Nice. That's awesome.
+[35:46](https://fathom.video/calls/800411730?timestamp=2146) Carla Stivala: I love it. I took a screenshot so I can imitate it.
+[35:51](https://fathom.video/calls/800411730?timestamp=2151) Lynn N.: I was going to say something else about – on that topic, I just can't remember now. But I feel like another thing that's kind of like stopping me from just like also doing dispute stuff is the fact that I feel like, I don't want to get stuck in the same position as Anne or Grace where I'm like questioning everything.
+[36:31](https://fathom.video/calls/800411730?timestamp=2191) Alan Nguyen: Well, the question is, for that specifically, to not be in that position of questioning yourself, like you just have to ask yourself like the honest question, right? Like, okay, if let's say like my 100% job, right, is to like, let's say I want to learn this dispute process, whether you want to take it from the perspective of getting, you know, a raise or whatever it is, or if you wanted to look at it from the perspective of like, like, like, like, I'm just gonna imagine temporarily that this is my one and only job. The biggest thing I got to do with the legal and legal capitalization manager Thailand and Allahu you don't have to marathon it. can pause along the way, right? But you're actively participating, you're two writing notes down and then three asking questions along the way and then even doing timestamps for your questions if that's relevant. If you approach it with that mentality, I truly believe that after like one session of that, then you get your questions answered, right? And then now you have a substantial base of information and understanding the gaps were filled. Like you will be, in my mind, you be competent enough to ask better quality questions, right? Because you have the base now. And then from that place, like any type of one-on-one, like it, it, it would not require much. Exactly. exactly. Because what's happening, what's happening with them is that we're like, I don't think they've genuinely like seriously studied it. And then every, and then not only that is that when we do have conversations about it and it's like live time, which should, should be the most serious where you're like locking in and like taking every word, every, every insight, every whatever, like, you know, as serious as possible. And like the, the challenge with them is that like every, like what I'm saying is going in one ear, out the other. And like, like I'm having to constantly repeat myself saying the same thing over again, where like, ideally, like if someone says something once, like you should understand if they say it twice, okay. If they say it three times, you should probably write it down because there's an issue if you didn't hear it, hear it the third time. but If we're talking about the same subject, and I'm counting on a recorded call that we said the same thing 17 times in one call, and you still don't get it, there's something systematically, we need to look at what can we do to show it better to be able to not have to have things repeated to us so many times.
+[39:24](https://fathom.video/calls/800411730?timestamp=2364) Carla Stivala: that's a good point. Taking notes, for sure, to retain better. But anyways, they're yelling at me, because they're trying to meet me, so. go do your thing.
+[39:34](https://fathom.video/calls/800411730?timestamp=2374) Alan Nguyen: Enjoy your time with your family.
+[39:35](https://fathom.video/calls/800411730?timestamp=2375) Carla Stivala: Yes, thanks. DM me if you all need me, and I'll see you tomorrow morning at 8.
+[39:42](https://fathom.video/calls/800411730?timestamp=2382) Alan Nguyen: Sounds good. See you tomorrow. Thanks, Carla. Appreciate you. Have a good night. Everybody get rest.
+[39:46](https://fathom.video/calls/800411730?timestamp=2386) Carla Stivala: Good rest. Bye. Wait, am I?
+[39:50](https://fathom.video/calls/800411730?timestamp=2390) Lynn N.: Is it not starting at 7 tomorrow?
+[39:58](https://fathom.video/calls/800411730?timestamp=2398) Alan Nguyen: Yes, it's a good time. So we are starting at 7. Let's see, I'm checking my calendar. Tomorrow, the Daily Sync is at 7, yes.
+
+## Chapter 5 (40:00 to 50:00)
+
+[40:15](https://fathom.video/calls/800411730?timestamp=2415) Lynn N.: My calendar is not fully updated here.
+[40:22](https://fathom.video/calls/800411730?timestamp=2422) Alan Nguyen: I think I'm missing a bunch of stuff. Maybe. It's just.
+[40:32](https://fathom.video/calls/800411730?timestamp=2432) Lynn N.: Check your email.
+[40:33](https://fathom.video/calls/800411730?timestamp=2433) Alan Nguyen: Oh, because she invited your work email. Oh, no. It says you accepted it on your personal email, too.
+[40:39](https://fathom.video/calls/800411730?timestamp=2439) Lynn N.: So I see only operations in Daily Sync. Is there a sales sync or is that just the operations for now?
+[40:47](https://fathom.video/calls/800411730?timestamp=2447) Alan Nguyen: It's Daily Sync. don't think we finished the. Oh, wait. I think we didn't finish the rest of it. Okay.
+[40:55](https://fathom.video/calls/800411730?timestamp=2455) Lynn N.: Okay. Well, then. . Operations, daily. Is there, there's no admin thing I have to worry about? That's the operations thing, right?
+[41:15](https://fathom.video/calls/800411730?timestamp=2475) Alan Nguyen: the question is, do we want dispute team from 730 to 830, or do we want a 30-minute of admin ops beforehand?
+[41:26](https://fathom.video/calls/800411730?timestamp=2486) Lynn N.: I mean, I personally believe that, are you talking about Friday only, or just in general?
+[41:35](https://fathom.video/calls/800411730?timestamp=2495) Alan Nguyen: Thursday. Thursday.
+[41:38](https://fathom.video/calls/800411730?timestamp=2498) Lynn N.: Tomorrow. Personally, I believe that, I feel like, dispute team should just be first, regardless, because, like, I remember you mentioning a while back, before the dispute team was even hired, that, ideally, you'd want them calling, like, right after At the morning, that's when they would get the best results, and now I don't even think they clock in by that time, because what, you said they open 7? Central time?
+[42:14](https://fathom.video/calls/800411730?timestamp=2534) Alan Nguyen: I don't know, 8, 9, something. I see. I have to, enter into a call, it's up to you if you want to shadow or not, it's a, it's Matthew's referral, so it's like a bad credit guy that needs a strategy to be able to get eligible for funding, it's totally optional, but .
+[42:40](https://fathom.video/calls/800411730?timestamp=2560) Lynn N.: I'm willing to, I'm gonna put in my EOD, and then I'll just join from my phone, if that's okay?
+[42:46](https://fathom.video/calls/800411730?timestamp=2566) Alan Nguyen: Okay, sounds good. Okay. Alrighty. Alright, see you then. Thanks. See ya.
