@@ -470,3 +470,29 @@ Ran `format_transcripts.py` (172792113 → chaptered, 2 chapters; 172768868 → 
 **Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
 
 **Resume point:** next queued row (top-down, August section) is `rec 172690124` ([Fathom call 782770712](https://fathom.video/calls/782770712), 2026-08-12).
+
+## Batch 21
+
+Resumed via self-scheduled continuation (resume point re-verified against live INDEX.md — no change since last push, plus a fast-forwarded `git pull --rebase` picked up two unrelated files from a concurrent Lane 3 sibling push, `ops/archive/grinder/DM-BRIEF.md` and `ops/archive/slack/dms/lynn-n/raw-page1.txt`, zero scope overlap). Continued top-down — next three queued rows, all dated 2026-08-12:
+
+| Recording | Call | Archived as |
+|---|---|---|
+| rec 172690124 | [Fathom call 782770712](https://fathom.video/calls/782770712) | [2026-08-12--carla-ghl-pipeline-overhaul-stages-note-protocol--172690124](../archive/calls/fathom/2026-08-12--carla-ghl-pipeline-overhaul-stages-note-protocol--172690124/transcript.md) — Carla/Alan overhaul the GHL pipeline: source-specific pipelines (SCIO Pipeline created live), new stage set (New Lead/Booked Call/Showed/Offer Made/Nurture/Unqualified/Lost), and a mandatory `[MM/DD - Initials]` note-logging protocol |
+| rec 172648133 | [Fathom call 782677325](https://fathom.video/calls/782677325) | [2026-08-12--team-mindset-training-notion-workflow--172648133](../archive/calls/fathom/2026-08-12--team-mindset-training-notion-workflow--172648133/transcript.md) — mindset training covering the Be/Do/Have model and controlling focus, plus Notion-as-hub workflow, credit-dispute data-accuracy rules, and EOD report standards |
+| rec 172425594 | [Fathom call 781847279](https://fathom.video/calls/781847279) | [2026-08-12--grace-anne-performance-troubleshooting--172425594](../archive/calls/fathom/2026-08-12--grace-anne-performance-troubleshooting--172425594/transcript.md) — Alan troubleshoots Grace's low productivity/technical struggles and Anne's repeated errors, defines an immediate "Edwin" case performance test plus systemic fixes (mandatory Fathom/Terramine recording, EODR standards, Braden reposting the job listing as contingency) |
+
+**Near-duplicate content check:** none of the three shares overlapping subject matter, client names, or timeframe with any other — no coexistence ambiguity this batch.
+
+Raw sourcing: rec 172648133 via python JSON extraction from the persisted tool-result file (`text` field, byte-match confirmed, len 56280). rec 172425594 via `cp` from a persisted plain-text tool-result file (`cmp` confirmed identical). rec 172690124 returned inline — `transcript-raw.txt` written from the exact returned tool text via Write (self-flagged per the audit-approved inline-transcript raw-write procedure).
+
+All three summaries were fetched fresh via `get_meeting_summary` before writing any summary.md (per the batch-20 reminder) — real Fathom AI summaries existed for all three, reproduced verbatim.
+
+Ran `format_transcripts.py` (172690124 → chaptered, 4 chapters; 172425594 → chaptered, 9 chapters; 172648133 → no-ts, transcript is essentially one unbroken paragraph with a single leading timestamp, no chapter markers possible — no splits) then `add_breadcrumbs.py`.
+
+**Verbatim self-check:** stripped structural additions and diffed against each `transcript-raw.txt` line-for-line — all three matched exactly (172690124: 124/124, 172648133: 1/1, 172425594: 253/253).
+
+**INDEX:** flipped all three rows to ✅ with clickable links + `raw ✓`. Counts: 87→90 archived, 2 no-transcript (unchanged), 145→142 queued. Verified 90+2+142 = 234 and grep-counted rows (90 ✅ / 2 n/a / 142 queued = 234) confirm.
+
+**Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
+
+**Resume point:** next queued row (top-down, August section) is `rec 172378323` ([Fathom call 781403394](https://fathom.video/calls/781403394), 2026-08-11).

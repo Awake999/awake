@@ -10,7 +10,7 @@
 - [July 2026](#july-2026) — 91 meetings
 - [June 2026](#june-2026) — 10 meetings
 
-**Archive status:** 87 archived ✅ · 2 verified no-transcript · 145 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+**Archive status:** 90 archived ✅ · 2 verified no-transcript · 142 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
 
 
 ## August 2026
@@ -106,9 +106,9 @@
 | 2026-08-12 | [Impromptu Zoom Meeting](https://fathom.video/calls/782988167) <sub>rec 172792113</sub> | ✅ [transcript](2026-08-12--carla-video-content-strategy-claude-access-blocker--172792113/transcript.md) · [summary](2026-08-12--carla-video-content-strategy-claude-access-blocker--172792113/summary.md) · raw ✓ |
 | 2026-08-12 | [Impromptu Zoom Meeting (Sabrina) <sub>rec 172782608</sub>](https://fathom.video/calls/782957344) | ✅ [transcript](2026-08-12--lynn-whitney-follow-up-connor-triage-tooling-access--172782608/transcript.md) · [summary](2026-08-12--lynn-whitney-follow-up-connor-triage-tooling-access--172782608/summary.md) · raw ✓ |
 | 2026-08-12 | [Impromptu Zoom Meeting](https://fathom.video/calls/782940846) <sub>rec 172768868</sub> | ✅ [transcript](2026-08-12--anne-training-plan-trello-prioritization-demo--172768868/transcript.md) · [summary](2026-08-12--anne-training-plan-trello-prioritization-demo--172768868/summary.md) · raw ✓ |
-| 2026-08-12 | [Impromptu Zoom Meeting](https://fathom.video/calls/782770712) <sub>rec 172690124</sub> | not yet — click title to watch on Fathom |
-| 2026-08-12 | [Impromptu Zoom Meeting (Sabrina) <sub>rec 172648133</sub>](https://fathom.video/calls/782677325) | not yet — click title to watch on Fathom |
-| 2026-08-12 | [Impromptu Zoom Meeting](https://fathom.video/calls/781847279) <sub>rec 172425594</sub> | not yet — click title to watch on Fathom |
+| 2026-08-12 | [Impromptu Zoom Meeting](https://fathom.video/calls/782770712) <sub>rec 172690124</sub> | ✅ [transcript](2026-08-12--carla-ghl-pipeline-overhaul-stages-note-protocol--172690124/transcript.md) · [summary](2026-08-12--carla-ghl-pipeline-overhaul-stages-note-protocol--172690124/summary.md) · raw ✓ |
+| 2026-08-12 | [Impromptu Zoom Meeting (Sabrina) <sub>rec 172648133</sub>](https://fathom.video/calls/782677325) | ✅ [transcript](2026-08-12--team-mindset-training-notion-workflow--172648133/transcript.md) · [summary](2026-08-12--team-mindset-training-notion-workflow--172648133/summary.md) · raw ✓ |
+| 2026-08-12 | [Impromptu Zoom Meeting](https://fathom.video/calls/781847279) <sub>rec 172425594</sub> | ✅ [transcript](2026-08-12--grace-anne-performance-troubleshooting--172425594/transcript.md) · [summary](2026-08-12--grace-anne-performance-troubleshooting--172425594/summary.md) · raw ✓ |
 | 2026-08-11 | [Impromptu Zoom Meeting (Sabrina) <sub>rec 172378323</sub>](https://fathom.video/calls/781403394) | not yet — click title to watch on Fathom |
 | 2026-08-11 | [Impromptu Zoom Meeting](https://fathom.video/calls/781402990) <sub>rec 172378096</sub> | not yet — click title to watch on Fathom |
 | 2026-08-11 | [Impromptu Zoom Meeting](https://fathom.video/calls/781367731) <sub>rec 172367795</sub> | not yet — click title to watch on Fathom |
