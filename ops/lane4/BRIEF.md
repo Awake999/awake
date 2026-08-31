@@ -42,3 +42,17 @@
 ## A4. TASK 9 (added 8/30 night — Alan ruled "Option A now", ping → #call-outcomes)
 
 > TASK 9 — CALL-OUTCOME PING AUTOMATION (GHL UI build, ~45 min, Alan present for Step 0): follow `ops/data/CALL_OUTCOME_BUILD_SOP.md` verbatim — Slack incoming webhook for #call-outcomes (C0BTJL3BPPX), 5 trigger links, 5 outcome workflows (tag+note+status), the appointment-end ping workflow, then the dummy-appointment test in Step 4. This supersedes manual status-setting discipline (#64) with a machine that asks the closer after every call. NOTE: workflow creation is an approved GHL write for THIS build only; still no other writes.
+
+## A5. TONIGHT'S 30-MIN RUN (8/31, Alan at PC — ordered by risk & Monday-launch impact)
+
+> BOOTSTRAP FIRST (SOP §1.12): this chat must be opened INSIDE the repo folder → `git pull` → read CLAUDE.md → confirm SOP v1.9 → follow ops/RESPONSE_TEMPLATE.md for every reply to Alan.
+>
+> RUN ORDER (each = its own checkbox, evidence in your process-log):
+> 1. 🔒 TASK 5 — LOOM LOCK (2 min, highest security risk): fetch Notion row `3b95bb1ffef4813e9ac2d16384dfe7e9` for the 3 public Loom URLs w/ client SSNs → browser → set EACH private/workspace-only → report final visibility verbatim.
+> 2. 📣 JACOB → META ADS MANAGER (2 min, GATES THE 10AM PT LAUNCH): business.facebook.com → Business Settings → People → invite Jacob (Alan supplies email) → Ads-account access to 1821085838595242, Advertiser role (NOT admin). DM campaign only is Jacob's lane.
+> 3. 💳 NOTION BUSINESS TAP (1 min): open https://app.notion.com/checkout?source=mcp_tool_upsell&tool=query_data_sources&product=business&spaceId=45a5bb1f-fef4-8161-b4a1-00030e9d49c8 — Alan completes payment (human-only). Makes the board's live layer permanent.
+> 4. ✅ NOTION JOIN REQUEST (1 min): approve the pending "1 user waiting to join" (likely ML = Ma. Liza Tizon, identity confirmed via malizgill31@gmail.com).
+> 5. 🔑 TASK 7 — TERAMIND (10 min): https://ascendprimew.us.teramind.co → Settings→API→generate token → save LOCAL file OUTSIDE repo, report path only. Check agent coverage (digest shows only "nguye@a51" — verify/plan Carla/Lynn/Anne/Grace/ML agents). ROTATE Carla's password (was plaintext in Slack 8/27).
+> 6. 💰 TASK 8 — WHOP (10 min): dashboard → export ALL payments/orders CSV → ops/archive/whop/ (raw + dated). Generate API key → LOCAL file outside repo, path only. Then check: Ashwini $1,500 (7/28), Pradeep $300 (8/11), Nick $500 (8/26) — report found/not-found each; Lane 1 flips three qualification/stage labels on your evidence.
+> 7. 📞 TASK 9 — CALL-OUTCOME BUILD (45 min, can split to tomorrow if late): follow ops/data/CALL_OUTCOME_BUILD_SOP.md verbatim (Slack webhook → 5 trigger links → 5 workflows → ping workflow → dummy test).
+> After each item: commit+push your process-log. Lane 1 integrates on its next cycle.
