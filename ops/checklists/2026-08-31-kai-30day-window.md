@@ -50,6 +50,18 @@ Ashwini A. [🎥](https://fathom.video/calls/762499930) · Carmen M. [🎥](http
 
 **Fixed as of today (no longer missing):** real arrival datetimes, real speed-to-lead, real booking timestamps — joined from the GHL pull into the board (v7.0), 81 of 83 tracked leads matched.
 
+## 4b. Show rate, grounded month by month (from the [appointment evidence ↗](https://github.com/Awake999/awake/blob/claude/dashboard-lane-polish/ops/archive/ghl/2026-08-30/appointments_2026-08-30.csv))
+Method: unique people by latest past slot; "showed" = GHL status OR recording OR post-show stage; "unrecorded" = no outcome anywhere. Alan's attested figures ([verbatim ↗](https://github.com/Awake999/awake/blob/claude/dashboard-lane-polish/ops/prompts/2026-08-31-data-correction-demands.md)) beside the evidence.
+
+| Month | Booked | Showed | No-show | Unrecorded | Evidence floor | Alan attests |
+|---|---|---|---|---|---|---|
+| Apr | 5 | 0 | 0 | 5 | — (nothing recorded) | — |
+| Jun | 12 | 2 | 5 | 3 | **17%** | — |
+| Jul | 31 | 7 | 13 | 9 | **23%** (stage-evidence-only over raw booking rows ⇒ ~16%) | **16%** — consistent ✓ |
+| Aug | 35 | 18 | 1 | 15 | **51%** (ads only 15/32 = 47%) | **56%** · "past three days have been the absolute worst" — the 8/28–30 batch is 100% unrecorded, so the worst days are invisible in the system |
+
+⚠ 15 of 35 August outcomes (9 of 31 July) were never recorded by anyone — GHL froze at "confirmed." Every show rate is a floor, not a truth, until the Sep 1 daily close-out.
+
 ## 5. Priority order to make the Kai response bulletproof
 1. **Alan (5 min, on the board):** adjudicate the 3-vs-1 qualified; tap show verdicts for any of the 15 unknowns he knows; hit Attest for triage.
 2. **Meta spend export for Aug** (screenshot or CSV into `ops/archive/`) → verifies/replaces $6,100.

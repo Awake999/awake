@@ -1000,6 +1000,7 @@
       <div class="fx-cell"><div class="k">No-shows</div><div class="v" id="sp-ns" style="color:var(--crit)">—</div><div class="bar"><span id="sp-ns-b" style="background:var(--crit)"></span></div><div class="d" id="sp-ns-d"></div></div>
       <div class="fx-cell"><div class="k">Verbal yes · not paid</div><div class="v" id="sp-vy" style="color:var(--w-gold)">—</div><div class="bar"><span id="sp-vy-b" style="background:var(--w-gold)"></span></div><div class="d" id="sp-vy-d"></div></div>
     </div>
+    <p class="sub" id="fx-asof" style="margin:2px 0 10px">Data as of: <b>audited snapshot Aug 30</b> (live layer connects when opened on claude.ai) · GHL evidence pull <a href="https://github.com/Awake999/awake/blob/claude/dashboard-lane-polish/ops/archive/ghl/2026-08-30/GHL_PULL_SUMMARY.md">Aug 30, 08:00 UTC ↗</a></p>
     <div class="fx-rail" id="fx-rail"></div>
     <div class="fx-conv" id="fx-conv"></div>
     <div class="fx-actions">
@@ -1542,11 +1543,23 @@
     <div class="trio" style="grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); margin:10px 0 14px">
       <div class="cell"><div class="t">Window bookings (ads)</div><div class="kn mono" style="font-size:22px; color:var(--w-cyan)">32</div><div class="t" style="text-transform:none">unique people, Aug 1–30 slots · 35 with referrals · Kai read 37 ✓ close</div></div>
       <div class="cell"><div class="t">Window shows (recorded)</div><div class="kn mono" style="font-size:22px; color:var(--good)">15 <span style="font-size:13px">(+3 referral)</span></div><div class="t" style="text-transform:none">every show has a recording link · Kai read 15 ✓ exact</div></div>
-      <div class="cell"><div class="t">Window show rate</div><div class="kn mono" style="font-size:22px; color:var(--w-gold)">47%</div><div class="t" style="text-transform:none">evidence floor on ads — 15 of 32; <b>15 outcomes never recorded anywhere</b> (GHL frozen at “confirmed”) · Kai read 41%</div></div>
+      <div class="cell"><div class="t">Window show rate</div><div class="kn mono" style="font-size:22px; color:var(--w-gold)">47%</div><div class="t" style="text-transform:none">evidence floor on ads — 15 of 32 (18/35 all = 51%); <b>15 outcomes never recorded anywhere</b> · Alan attests <b>56%</b> and “past three days… the absolute worst” · Kai read 41%</div></div>
       <div class="cell"><div class="t">Window qualified</div><div class="kn mono" style="font-size:22px; color:var(--w-violet)">3 vs 1 ⚠</div><div class="t" style="text-transform:none">tracker: Gunjan P. · Whitney Y. · P Reddy P. — Alan attests only <b>1</b> truly qualified (out-of-fit but serviceable) · adjudicate via Closer Verdict taps</div></div>
       <div class="cell"><div class="t">Window verified revenue</div><div class="kn mono" style="font-size:22px; color:var(--crit)">$0</div><div class="t" style="text-transform:none">collected in Aug — Ed C.’s $2,000 was 7/1; Nick agreed · agreement sent · NOT paid; GHL Payments EMPTY</div></div>
       <div class="cell"><div class="t">Window ad spend</div><div class="kn mono" style="font-size:22px; color:var(--ink-2)">$6,100?</div><div class="t" style="text-transform:none">unverifiable — no Meta export in any store; lifetime $14,898 is the verified anchor</div></div>
     </div>
+    <div class="ff-h" style="margin-top:4px">Show rate, grounded month by month — every number from the <a href="https://github.com/Awake999/awake/blob/claude/dashboard-lane-polish/ops/archive/ghl/2026-08-30/appointments_2026-08-30.csv">appointment evidence ↗</a></div>
+    <p class="sub">Method: unique people by latest past slot; “showed” = GHL status <em>or</em> a call recording <em>or</em> a post-show stage. “Unrecorded” = nobody wrote the outcome anywhere — that column is the broken instrument. Alan's attested figures (<a href="https://github.com/Awake999/awake/blob/claude/dashboard-lane-polish/ops/prompts/2026-08-31-data-correction-demands.md">verbatim ↗</a>) sit beside the evidence; where they differ, the gap itself is unrecorded truth.</p>
+    <div class="tbl-wrap" style="border:none"><table style="min-width:640px">
+      <thead><tr><th>Month</th><th class="num">Booked</th><th class="num">Showed</th><th class="num">No-show</th><th class="num">Unrecorded</th><th>Evidence floor</th><th>Alan attests</th></tr></thead>
+      <tbody>
+        <tr><td class="mono">Apr</td><td class="num mono">5</td><td class="num mono">0</td><td class="num mono">0</td><td class="num mono">5</td><td class="why">— (nothing recorded at all)</td><td class="why">—</td></tr>
+        <tr><td class="mono">Jun</td><td class="num mono">12</td><td class="num mono">2</td><td class="num mono">5</td><td class="num mono">3</td><td><strong style="color:var(--crit)">17%</strong></td><td class="why">—</td></tr>
+        <tr><td class="mono">Jul</td><td class="num mono">31</td><td class="num mono">7</td><td class="num mono">13</td><td class="num mono">9</td><td><strong style="color:var(--crit)">23%</strong> <span class="why">(stage-evidence-only over raw booking rows ⇒ ~16%)</span></td><td><strong style="color:var(--ink)">16%</strong> — consistent ✓</td></tr>
+        <tr><td class="mono">Aug</td><td class="num mono">35</td><td class="num mono">18</td><td class="num mono">1</td><td class="num mono">15</td><td><strong style="color:var(--w-gold)">51%</strong> <span class="why">(ads only: 15/32 = 47%)</span></td><td><strong style="color:var(--ink)">56%</strong> · “past three days have been the absolute worst” — the 8/28–30 batch is 100% unrecorded, so the worst days are literally invisible in the system</td></tr>
+      </tbody>
+    </table></div>
+    <p class="sub" style="margin-bottom:14px">⚠ 15 of 35 August outcomes (and 9 of 31 July) were <strong style="color:var(--ink)">never recorded by anyone</strong> — GHL froze at “confirmed.” Until the Sep 1 daily close-out, every show rate is a floor, not a truth. Per-person receipts: <a href="https://github.com/Awake999/awake/blob/claude/dashboard-lane-polish/ops/checklists/2026-08-31-kai-30day-window.md">30-day window report ↗</a>.</p>
     <div class="tbl-wrap" style="border:none"><table style="min-width:640px">
       <thead><tr><th>Kai read</th><th>The audited book says</th></tr></thead>
       <tbody>
@@ -2485,7 +2498,7 @@ window.APW_TRUTH_GET = function (displayName) {
       spot('sp-vy', String(vyNP.length), inView.length ? vyNP.length / inView.length : 0, 'agreed on the phone \u00b7 money not in');
       var ut = document.getElementById('fx-u-tracked'), ua = document.getElementById('fx-u-all');
       if (ut || ua) {
-        var trackedN = window.APW_LIVE_ROWS ? window.APW_LIVE_ROWS.length : (window.APW_ROSTER || []).length;
+        var trackedN = window.APW_TOTAL || (window.APW_LIVE_ROWS ? window.APW_LIVE_ROWS.length : (window.APW_ROSTER || []).length);
         var names2 = {}; (window.APW_LIVE_ROWS ? window.APW_LIVE_ROWS.map(facetsLive) : (window.APW_ROSTER || []).map(facetsStatic)).forEach(function (f) { names2[f.name] = 1; });
         if (ut) ut.textContent = trackedN;
         if (ua) ua.textContent = trackedN + ghlOnly(names2).length;
@@ -3137,7 +3150,7 @@ window.APW_TRUTH_GET = function (displayName) {
          quota was the top cause of "query failed". Column set is the
          union of two individually verified queries on this table. */
       var input = { data: { data_source_urls: [DS], query:
-        'SELECT "Client", "url", "Created", "Speed to Lead (min)", "Stage", "Entry Path", "Source", "Funding Ask", "Score Band", "Human Triaged", "Qualification", "Unqualified Reasons" AS ur, "Deal Value", "No-Close Reason", "Attribution Confidence", "date:Last Touch:start" AS lt FROM "' + DS + '"' } };
+        'SELECT "Client", "url", "Created", "Speed to Lead (min)", "Stage", "Entry Path", "Source", "Funding Ask", "Score Band", "Human Triaged", "Qualification", "Unqualified Reasons" AS ur, "Deal Value", "No-Close Reason", "Attribution Confidence", "date:Last Touch:start" AS lt, COUNT(*) OVER () AS _total FROM "' + DS + '" ORDER BY datetime("Created") DESC' } };
       var applied = false;
 
       mcp.watchTool('Notion', 'notion-query-data-sources', input, function (ev) {
@@ -3150,12 +3163,16 @@ window.APW_TRUTH_GET = function (displayName) {
             rosterState('err', 'Roster feed returned no rows — the audited Notion tables remain the source of truth.');
             return;
           }
+          window.APW_TOTAL = (rows[0] && typeof rows[0]._total === 'number') ? rows[0]._total : rows.length;
           apply(computeStats(rows));
           renderRoster(rows);
           try { renderQualLive(rows); } catch (e) { /* qual section keeps snapshot */ }
           applied = true;
           var ts = (ev.result.cache && ev.result.cache.storedAt) ? new Date(ev.result.cache.storedAt) : new Date();
-          setBadge('live', 'Live · Notion · ' + ts.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }));
+          var tot = window.APW_TOTAL, loadNote = rows.length < tot ? (rows.length + ' newest loaded of ' + tot) : (tot + ' leads');
+          setBadge('live', 'Live · Notion · ' + loadNote + ' · ' + ts.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }));
+          var asof = document.getElementById('fx-asof');
+          if (asof) asof.innerHTML = 'Data as of: <b>live Notion tracker ' + ts.toLocaleString([], { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) + '</b> (' + loadNote + ', newest first) · GHL evidence pull <a href="https://github.com/Awake999/awake/blob/claude/dashboard-lane-polish/ops/archive/ghl/2026-08-30/GHL_PULL_SUMMARY.md">Aug 30, 08:00 UTC ↗</a>';
         } else if (ev.type === 'error') {
           var c = ev.error && ev.error.code;
           if (c === 'needs_reauth') { if (applied) { apply(SNAP); applied = false; } rosterState('empty'); setBadge('err', 'Reconnect Notion in claude.ai Settings → Connectors'); }
