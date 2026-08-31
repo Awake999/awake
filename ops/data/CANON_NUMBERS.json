@@ -57,7 +57,7 @@
   "transactions": 0,
   "subscriptions": 0,
   "invoices": 0,
-  "note": "GHL Payments EMPTY \u2014 money moves via Whop (register #65b); Nick $500 / Jill installments unverifiable in GHL"
+  "note": "GHL Payments EMPTY — money moves via Whop (register #65b); Nick $500 / Jill installments unverifiable in GHL"
  },
  "tracker_cross_ref": {
   "notion_tracked_leads": 104,
@@ -86,5 +86,17 @@
    "Jill installments actually collected vs the $15,000 plan - Whop"
   ],
   "status": "BLOCKED on Whop access (register #65b / Lane 4 Task 8)"
+ },
+ "teramind_VERIFIED": {
+  "licenses_in_use": "6 of 5 (over cap)",
+  "employees": 8,
+  "computers": 7,
+  "active_machines_8_28_to_8_29": 5,
+  "stale_agents": [
+   "desktop-kehsui3 (8/05)",
+   "LAPTOP-C53PU272 (8/07)"
+  ],
+  "evidence": "ops/archive/teramind/2026-08-31/teramind_ui_pull.json",
+  "correction": "digest email under-reported; agents ARE reporting on 5 machines"
  }
 }
