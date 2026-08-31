@@ -26,3 +26,7 @@ Also fix the data because the show rate is by the way 56%. That is way worse. Wa
 it won't let me change showed easily it's confusing, click pop up clear change to what icon from ? to showed?
 
 this data is BS
+
+## Message 4
+
+resolve the issue with there only being a hundred leads in view, as well as all the unknown issues in the triage section.
