@@ -1,5 +1,7 @@
 # APW MULTI-LANE OPERATING SOP — binding on every lane
-*v1.4 · 2026-08-30 (v1.3 + grading SOP link in footer, indented-🤖 checklist format, no-turn-ends-on-a-commit rule, reasoning digest) · Owner: Lane 1 (Command). A lane that has not read this file this session may not write anything.*
+**🏁 BRIEF:** how every lane hears (checklist), verifies (evidence+links), stores (repo+Notion), answers (buttons+trackers+grade), and never loses data (raws+history).
+**⏱ Timeline:** 🗣️ Alan prompts → ✅ checklist in reply → 👍 confirm → 🔨 execute → 🎯 grade vs SOP → 🔘 buttons+progress → 💾 all stored+pushed
+*v1.5 · 2026-08-31 (v1.4 + every SOP opens with a 🏁 brief + ⏱ left-to-right timeline; grade files = results-first + literal SOP-step side-by-side) · Owner: Lane 1 (Command). A lane that has not read this file this session may not write anything.*
 
 ## 0. THE NEVER-MISS PROTOCOL (Law 0 — outranks everything; from Alan: "plan a strategy to NEVER miss on a user prompt. ESPECIALLY a 2nd reprompt")
 
