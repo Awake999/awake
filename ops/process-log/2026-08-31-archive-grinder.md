@@ -496,3 +496,29 @@ Ran `format_transcripts.py` (172690124 → chaptered, 4 chapters; 172425594 → 
 **Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
 
 **Resume point:** next queued row (top-down, August section) is `rec 172378323` ([Fathom call 781403394](https://fathom.video/calls/781403394), 2026-08-11).
+
+## Batch 22
+
+Resumed via self-scheduled continuation. Fathom MCP tool names had flapped to the `mcp__Fathom__*` friendly-name form since batch 21. Re-verified resume point against live INDEX.md before touching anything — no change since batch 21's push. Continued top-down — next three queued rows, all dated 2026-08-11:
+
+| Recording | Call | Archived as |
+|---|---|---|
+| rec 172378323 | [Fathom call 781403394](https://fathom.video/calls/781403394) | [2026-08-11--dispute-team-notion-workflow-overhaul-matthew-reinsertion--172378323](../archive/calls/fathom/2026-08-11--dispute-team-notion-workflow-overhaul-matthew-reinsertion--172378323/transcript.md) — Sabrina/Alan overhaul dispute-team task management via new "Mission Control" Notion pages, discuss Matthew's Bank of America reinsertion dispute, standardize on Fathom + upgraded Zoom |
+| rec 172378096 | [Fathom call 781402990](https://fathom.video/calls/781402990) | **duplicate recording of rec 172378323** — not separately archived, INDEX row points to the 172378323 folder |
+| rec 172367795 | [Fathom call 781367731](https://fathom.video/calls/781367731) | [2026-08-11--grace-audio-troubleshooting-transunion-reinsertion--172367795](../archive/calls/fathom/2026-08-11--grace-audio-troubleshooting-transunion-reinsertion--172367795/transcript.md) — Alan troubleshoots Grace's live-call audio/Dubbing AI routing issue during an Experian call, then the team works out a two-pronged reinsertion + 605B strategy for Matthew's TransUnion dispute |
+
+**Near-duplicate content check — confirmed a genuine duplicate this time:** rec 172378323 and rec 172378096 shared near-identical summaries (same "Mission Control" Notion rollout, same Matthew reinsertion case, same tooling decisions). Pulled both full transcripts before deciding. Opening lines matched almost word-for-word ("What, like, manager supervisor position..." / "I feel, like, the tension, definitely, between you and the dispute team...") under two different speaker labels — "Sabrina Neves" in 172378323 vs. "Lynn N." in 172378096 for the same second speaker — and the closing lines matched too ("Looks like we're, we're, we're circling the process more. I think over the next couple days..."). This is a genuine duplicate bot-capture of one meeting (two Fathom bots/participants recording the same Zoom call with different diarization), not two distinct calls — unlike the three prior coexistence checks in batches 18–20, which all resolved as genuinely distinct. Archived rec 172378323 as the authoritative copy (denser transcript: 449 speaker turns vs. 318 in 172378096, same ~1h46m/1h52m span) and marked rec 172378096's INDEX row as a duplicate cross-reference rather than creating a second folder with the same content. Counted toward the archived tally since the row is now definitively resolved, not left queued.
+
+Raw sourcing: rec 172378323 auto-saved to a local plain-text tool-result file — `cp`+`cmp` confirmed byte-identical. rec 172367795 returned inline — `transcript-raw.txt` written from the exact returned tool text via Write (self-flagged per the audit-approved inline-transcript raw-write procedure; this transcript is shorter (~39 min) than the two files that overflowed to disk, consistent with it fitting inline).
+
+Both summaries fetched fresh via `get_meeting_summary` before writing summary.md (per the batch-20 reminder). rec 172378096's summary was fetched and read for the duplicate-detection comparison but not written to its own summary.md file, since the row now points to 172378323's archive instead.
+
+Ran `format_transcripts.py` (172378323 → chaptered, 11 chapters; 172367795 → chaptered, 4 chapters; no splits) then `add_breadcrumbs.py`.
+
+**Verbatim self-check:** stripped structural additions and diffed against each `transcript-raw.txt` line-for-line — both matched exactly (172378323: 450/450, 172367795: 209/209).
+
+**INDEX:** flipped 172378323 and 172367795 to ✅ with clickable links + `raw ✓`; flipped 172378096 to ✅ with a duplicate-cross-reference note (no separate folder). Counts: 90→93 archived, 2 no-transcript (unchanged), 142→139 queued. Verified 93+2+139 = 234 and grep-counted rows (93 ✅ / 2 n/a / 139 queued = 234) confirm.
+
+**Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
+
+**Resume point:** next queued row (top-down, August section) is `rec 172348134` ([Fathom call 781309435](https://fathom.video/calls/781309435), 2026-08-11).

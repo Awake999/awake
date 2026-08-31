@@ -1,0 +1,237 @@
+# Grace Audio Troubleshooting, TransUnion Reinsertion — 2026-08-11 — verbatim transcript
+
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (20:00 to 30:00)](#chapter-3-2000-to-3000)
+- [Chapter 4 (30:00 to 40:00)](#chapter-4-3000-to-4000)
+
+
+ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
+
+
+## Chapter 1 (00:00 to 10:00)
+
+[00:01](https://fathom.video/calls/781367731?timestamp=1) Rosemarie Anne Fabian: This meeting is being recorded.
+[00:04](https://fathom.video/calls/781367731?timestamp=4) Alan Nguyen: Reinsertion. Okay, awesome.
+[00:07](https://fathom.video/calls/781367731?timestamp=7) Rosemarie Anne Fabian: I'm not that confident with that one, so.
+[00:11](https://fathom.video/calls/781367731?timestamp=11) Alan Nguyen: I'm pretty sure that's just a letter. But, you could argue it out of the phone, too. But it looks like Fathom can connect to Slack huddles, so then we don't have to keep refreshing the Zooms.
+[00:24](https://fathom.video/calls/781367731?timestamp=24) Lynn N.: We just do one huddle.
+[00:26](https://fathom.video/calls/781367731?timestamp=26) Rosemarie Anne Fabian: Oh, great.
+[00:26](https://fathom.video/calls/781367731?timestamp=26) Alan Nguyen: On it looks like. I just looked it up on Google.
+[00:29](https://fathom.video/calls/781367731?timestamp=29) Lynn N.: I mean, the only reason I've been doing Zooms was because my thing wasn't working for Slack, my sound, at all. Since, I'm gonna have to try it, though. But, Grace is on her call, so. Grace, if you get to chair stream and sound.
+[01:19](https://fathom.video/calls/781367731?timestamp=79) Ina Grace Langub: I don't know how to share the screen.
+[01:25](https://fathom.video/calls/781367731?timestamp=85) Lynn N.: Should just be share and then select.
+[01:28](https://fathom.video/calls/781367731?timestamp=88) Rosemarie Anne Fabian: You can just select the three dots beside the share. Is that it? No, no, no. The share button. Sorry.
+[01:39](https://fathom.video/calls/781367731?timestamp=99) Ina Grace Langub: No, I already shared.
+[01:42](https://fathom.video/calls/781367731?timestamp=102) Rosemarie Anne Fabian: the green.
+[01:45](https://fathom.video/calls/781367731?timestamp=105) Ina Grace Langub: But the sound.
+[01:46](https://fathom.video/calls/781367731?timestamp=106) Alan Nguyen: Oh, yes. If you press share again, in the bottom right, there'll be a button that says share sound in that new window.
+[02:04](https://fathom.video/calls/781367731?timestamp=124) Lynn N.: Share someone.
+[02:06](https://fathom.video/calls/781367731?timestamp=126) Rosemarie Anne Fabian: .
+[02:09](https://fathom.video/calls/781367731?timestamp=129) Ina Grace Langub: And that's just the tip of the iceberg.
+[02:12](https://fathom.video/calls/781367731?timestamp=132) Alan Nguyen: Talk to your Experian customer service specialist about our premium plan on how it all works.
+[02:17](https://fathom.video/calls/781367731?timestamp=137) Rosemarie Anne Fabian: I can hear it.
+[02:18](https://fathom.video/calls/781367731?timestamp=138) Alan Nguyen: you guys are on hold, give me an update right now on what's going on. Do the problems of reinsertion and then we're re-disputing the Bank of America? it what's going on?
+[02:28](https://fathom.video/calls/781367731?timestamp=148) Rosemarie Anne Fabian: If you know when you sign up for Identity Works Premium, you get access to incredible advanced identity test alerts. So is doing the reinsertion. You can enjoy an entire suite of identity alerts, including a social security number trace that is still active associated with your social security number, bank account, and credit takeover alerts, in case someone opened a bank account or credit card for your information.
+[02:53](https://fathom.video/calls/781367731?timestamp=173) Alan Nguyen: And change your address alerts to let you know if your mail has been redirected, though, the U.S.
+[02:58](https://fathom.video/calls/781367731?timestamp=178) Lynn N.: Postal Service. But that's not all. Ask your Experian customer service specialist about our Identity Works premium plan.
+[03:21](https://fathom.video/calls/781367731?timestamp=201) Rosemarie Anne Fabian: You may know that we can monitor your credit and alert you to any changes, which sometimes can be a sign of identity theft across Experian and TransUnion. But did you know that we can also offer you a three bureau report, an FICO score, three-related credit report, and FNS. Grace is actually the one that's trying it out right now because I'm pretty much not confident with arguing with reinsertion. And I would love to observe first how she does the reinsertion. And that's for Experian, and TransUnion, what do you call this, I called TransUnion, and the supervisor said that the dispute request has been declined, I actually asked why it was declined, and maybe they need additional documents or something like that, but they said that, what do you call that, it did not pass the criteria for removal.
+[04:35](https://fathom.video/calls/781367731?timestamp=275) Alan Nguyen: Did you ask why?
+[04:36](https://fathom.video/calls/781367731?timestamp=276) Rosemarie Anne Fabian: I asked why, and then they said that it's internal, and that, I think it's the same with Experian, that the creditor submitted valid proof that those data.
+[04:49](https://fathom.video/calls/781367731?timestamp=289) Alan Nguyen: We're talking about TransUnion right now, right?
+[04:52](https://fathom.video/calls/781367731?timestamp=292) Rosemarie Anne Fabian: .
+[04:53](https://fathom.video/calls/781367731?timestamp=293) Alan Nguyen: But they didn't tell you specifically why?
+[04:56](https://fathom.video/calls/781367731?timestamp=296) Rosemarie Anne Fabian: They did not specifically mention why.
+[04:58](https://fathom.video/calls/781367731?timestamp=298) Alan Nguyen: They legally have have to tell tell you why. They legally have to. It doesn't mean they don't, but like, they have to.
+[05:06](https://fathom.video/calls/781367731?timestamp=306) Rosemarie Anne Fabian: Well, she just told me it did not pass the criteria.
+[05:14](https://fathom.video/calls/781367731?timestamp=314) Lynn N.: Grace is talking to the agent. Okay. Hello. Thank you for a contacting experience. My name is Eric. Could you please bring me your full name, including any middle name or generation code? Hello. I'm sorry. I cannot hear you. Can you hear me? I'm sorry. I cannot hear you. Can you hear me? I apologize, I cannot hear you. If you can hear me, I will stay on the line for about one minute. I apologize, I'm still unable to hear you.
+[06:56](https://fathom.video/calls/781367731?timestamp=416) Ina Grace Langub: If you can hear me, it has been about one minute and I will... Hello? Hello, can you hear me? I'm hearing like a glitch or an interference in the call. Can you hear me? Okay, if you can't hear me, it has been about one minute again, and I will be disconnecting due to no response. Please call us back in the next. Hello? Hello, can you hear me? Hello?
+[08:07](https://fathom.video/calls/781367731?timestamp=487) Alan Nguyen: Okay, again, if you can hear me, it's just been about one more than one minute, and I will be disconnected between our response. Please call us back, and the next representative will be able to assist you.
+[08:18](https://fathom.video/calls/781367731?timestamp=498) Ina Grace Langub: Thank you for calling, Experian. Leonard?
+[08:26](https://fathom.video/calls/781367731?timestamp=506) Alan Nguyen: Okay, what happened there?
+[08:29](https://fathom.video/calls/781367731?timestamp=509) Ina Grace Langub: He can't hear me. I don't know why.
+[08:32](https://fathom.video/calls/781367731?timestamp=512) Alan Nguyen: Right. Did you check your audio settings in Windows?
+[08:36](https://fathom.video/calls/781367731?timestamp=516) Ina Grace Langub: Yes.
+[08:40](https://fathom.video/calls/781367731?timestamp=520) Alan Nguyen: In Windows, in the actual operating system itself. So, if you go down to the Windows search bar in the bottom left, in the Windows search bar, within the operating system, System. Very bottom left, the search bar. You're inside of a browser right now.
+[09:08](https://fathom.video/calls/781367731?timestamp=548) Ina Grace Langub: It's loading. Everything is good, a while ago, adjust message tone volume.
+[09:23](https://fathom.video/calls/781367731?timestamp=563) Rosemarie Anne Fabian: Maybe you can check dubbing AI, because earlier it logged me out.
+[09:30](https://fathom.video/calls/781367731?timestamp=570) Alan Nguyen: Okay. Is dubbing AI working?
+[09:34](https://fathom.video/calls/781367731?timestamp=574) Ina Grace Langub: . Wait a minute.
+[09:38](https://fathom.video/calls/781367731?timestamp=578) Rosemarie Anne Fabian: Because your audio setting is dubbing AI.
+[09:42](https://fathom.video/calls/781367731?timestamp=582) Alan Nguyen: but it's dubbing AI working. if you open up dubbing you can hear yourself. Okay. So now, for some reason, he cannot hear you, even the dubbing microphone is that. So can you try it in Zoom? If you set Zoom to that same exact... Microphone setting.
+
+## Chapter 2 (10:00 to 20:00)
+
+[10:02](https://fathom.video/calls/781367731?timestamp=602) Rosemarie Anne Fabian: I think it's working now because there's a green line now. It was like that before.
+[10:09](https://fathom.video/calls/781367731?timestamp=609) Alan Nguyen: So can you check the Zoom and set the settings the exact same to see? Grace, can you hear me?
+[10:22](https://fathom.video/calls/781367731?timestamp=622) Ina Grace Langub: Yes, yes, I can hear you.
+[10:25](https://fathom.video/calls/781367731?timestamp=625) Alan Nguyen: Here? Yep. No. What I'm saying is open up the application, dubbing AI, so we can make extra sure that that's coming through properly on that side.
+[10:40](https://fathom.video/calls/781367731?timestamp=640) Ina Grace Langub: Yes, I can't.
+[10:44](https://fathom.video/calls/781367731?timestamp=644) Alan Nguyen: What, you pull it up on the screen so we can see it? Grace, can you hear me?
+[10:58](https://fathom.video/calls/781367731?timestamp=658) Ina Grace Langub: Yes, I can hear you. You're here.
+[11:00](https://fathom.video/calls/781367731?timestamp=660) Alan Nguyen: Thank you. So make sure your settings are running properly.
+[11:11](https://fathom.video/calls/781367731?timestamp=671) Ina Grace Langub: It's loading.
+[11:12](https://fathom.video/calls/781367731?timestamp=672) Alan Nguyen: May you please pull up your settings just so we can check to make sure it's routed to hear correctly. And then we can route it in Zoom and figure out what's going on, why he can't hear you. Because I can't hear the dubbing AI. You are at our weakest with SATA PRIME gone.
+[11:38](https://fathom.video/calls/781367731?timestamp=698) Ina Grace Langub: Hello, Mike. Hello, Mike Taz. I can hear myself. hear myself.
+[11:42](https://fathom.video/calls/781367731?timestamp=702) Alan Nguyen: Okay, so you have it set as Microphone 4.
+[11:48](https://fathom.video/calls/781367731?timestamp=708) Ina Grace Langub: Yes.
+[11:49](https://fathom.video/calls/781367731?timestamp=709) Alan Nguyen: Can you show us what you have it selected in the USB audio device, USB, keep those the same. Can you show us what it looks like in your Zoom? Okay.
+[12:01](https://fathom.video/calls/781367731?timestamp=721) Ina Grace Langub: Okay. Let's try it. Thank you. Okay. Okay. Hold on. Okay. If I set up to dubbing AI.
+[12:47](https://fathom.video/calls/781367731?timestamp=767) Alan Nguyen: No. . Grace, may you please pull up your Zoom audio settings so we can see how your mic is routed in Zoom. Hello. Yes. So we can hear you. We don't need you to press play on those things. We just want to make sure that we can hear you so that those settings are routed properly.
+[13:21](https://fathom.video/calls/781367731?timestamp=801) Ina Grace Langub: Okay. I'm Hello, hello, hello. Can you hear me?
+[13:29](https://fathom.video/calls/781367731?timestamp=809) Alan Nguyen: Yes. Yes.
+[13:31](https://fathom.video/calls/781367731?timestamp=811) Ina Grace Langub: So... A different... A different voice?
+[13:36](https://fathom.video/calls/781367731?timestamp=816) Alan Nguyen: Well, it doesn't matter what the voice right now. We're just trying to figure out why he can't hear you. So we cannot see your Zoom audio settings that you just changed. But what did you change to? What is the word for word? What is that? What is it called? Under the mic settings right now, under your Zoom.
+[13:53](https://fathom.video/calls/781367731?timestamp=833) Ina Grace Langub: Here?
+[13:53](https://fathom.video/calls/781367731?timestamp=833) Rosemarie Anne Fabian: the Zoom. The Zoom meeting.
+[13:56](https://fathom.video/calls/781367731?timestamp=836) Ina Grace Langub: the Zoom.
+[13:57](https://fathom.video/calls/781367731?timestamp=837) Lynn N.: He has to expand the window, so... So there's the zoom. Look at the zoom icon with the dots and the play button. Expand that. And I think we can change your settings once you expand it. .
+[14:15](https://fathom.video/calls/781367731?timestamp=855) Ina Grace Langub: .
+[14:16](https://fathom.video/calls/781367731?timestamp=856) Lynn N.: You literally just grabbed it and moved it. Expand the zoom. So you see the two arrows that are...
+[14:29](https://fathom.video/calls/781367731?timestamp=869) Alan Nguyen: The zoom. So can you see on the screen what I'm highlighting? Can you see that?
+[14:36](https://fathom.video/calls/781367731?timestamp=876) Lynn N.: There's two arrows.
+[14:37](https://fathom.video/calls/781367731?timestamp=877) Ina Grace Langub: The two arrows quite diagonally right there. Okay.
+[14:42](https://fathom.video/calls/781367731?timestamp=882) Alan Nguyen: Okay. Well, I guess that's just notes. We need to find a way so we can actually see your screen for the audio settings. If we cannot, I can just show you on my side. If for some reason, I mean, let's see.
+[14:55](https://fathom.video/calls/781367731?timestamp=895) Ina Grace Langub: Hopefully you should... I can. Here, you can see the...
+[14:59](https://fathom.video/calls/781367731?timestamp=899) Lynn N.: Can you...
+[15:02](https://fathom.video/calls/781367731?timestamp=902) Alan Nguyen: let's see if can do that. Well, I think it might be on a different monitor. Is your Zoom on a different monitor? Or is it on the same monitor that we're looking at with your Slack? Like your audio settings?
+[15:20](https://fathom.video/calls/781367731?timestamp=920) Ina Grace Langub: I don't know. I'll just settings here.
+[15:26](https://fathom.video/calls/781367731?timestamp=926) Alan Nguyen: There we go. There we go.
+[15:30](https://fathom.video/calls/781367731?timestamp=930) Lynn N.: Approved.
+[15:36](https://fathom.video/calls/781367731?timestamp=936) Alan Nguyen: Okay, awesome. So leave that. It's speaker. We're not going to touch the speaker. We're looking at the microphone, right? So right now, okay, look, it's working because we can obviously hear you, and your setting is set to dubbing microphone virtual device. So everything should be good, right? Because we can see this working. But for some reason, he said he could not hear You working, pretty sure you had the same thing selected, so how about let's try a test call on Grasshopper, right? Dubbing microphone, looks like the same exact thing. Okay, good. Close that.
+[16:25](https://fathom.video/calls/781367731?timestamp=985) Ina Grace Langub: . Honestly, it's really my, it's not my first time calling the Xperia and I'm going to be in the registration, but these online Xperians, they can do everything. But I try a test.
+[16:44](https://fathom.video/calls/781367731?timestamp=1004) Alan Nguyen: So let's try this. So this is the Xperia or whatever number.
+[16:48](https://fathom.video/calls/781367731?timestamp=1008) Ina Grace Langub: that's the Xperia number.
+[16:49](https://fathom.video/calls/781367731?timestamp=1009) Alan Nguyen: One, one person is using the 800 number and then one person is using the 951 number, right? Each person is dedicated to each number, right?
+[16:58](https://fathom.video/calls/781367731?timestamp=1018) Ina Grace Langub: So last.
+[17:00](https://fathom.video/calls/781367731?timestamp=1020) Alan Nguyen: Like, you two can decide which number you want to use, but I'm pretty sure last time we discussed this, Anne was using this number live, and then, you did not what?
+[17:12](https://fathom.video/calls/781367731?timestamp=1032) Ina Grace Langub: 915, the ending 915?
+[17:15](https://fathom.video/calls/781367731?timestamp=1035) Alan Nguyen: . So Grace, you're supposed to use 951.
+[17:20](https://fathom.video/calls/781367731?timestamp=1040) Ina Grace Langub: That's it. Okay.
+[17:26](https://fathom.video/calls/781367731?timestamp=1046) Alan Nguyen: Does that make sense?
+[17:29](https://fathom.video/calls/781367731?timestamp=1049) Ina Grace Langub: . So we're gonna use the number at, that one?
+[17:36](https://fathom.video/calls/781367731?timestamp=1056) Alan Nguyen: Yes. Yes.
+[17:38](https://fathom.video/calls/781367731?timestamp=1058) Ina Grace Langub: Okay.
+[17:39](https://fathom.video/calls/781367731?timestamp=1059) Alan Nguyen: You'll be using 951. Just like this.
+[17:42](https://fathom.video/calls/781367731?timestamp=1062) Ina Grace Langub: So what we're gonna do. right. type one.
+[17:44](https://fathom.video/calls/781367731?timestamp=1064) Alan Nguyen: What we're gonna do is we're gonna have you call me right now, and then we're gonna see how it sounds. Hello? Hello?
+[18:05](https://fathom.video/calls/781367731?timestamp=1085) Ina Grace Langub: Hello?
+[18:06](https://fathom.video/calls/781367731?timestamp=1086) Alan Nguyen: Yes.
+[18:07](https://fathom.video/calls/781367731?timestamp=1087) Ina Grace Langub: Hello, can you hear me?
+[18:11](https://fathom.video/calls/781367731?timestamp=1091) Alan Nguyen: so that tells me that something happened before, it's not the digital routing, but something happened before where either your physical mic was glitching out on a physical side, or maybe there's a mute button on your physical mic, because the whole time that that guy was, like, asking and see if he could talk to you, we couldn't hear you either for the most part. There's, like, one small time where you said, can you hear me, when you unmute yourself on Zoom? So I think there's something on that side, but digitally speaking, everything should be solid. Does that make sense?
+[18:41](https://fathom.video/calls/781367731?timestamp=1121) Ina Grace Langub: .
+[18:45](https://fathom.video/calls/781367731?timestamp=1125) Alan Nguyen: Okay.
+[18:45](https://fathom.video/calls/781367731?timestamp=1125) Ina Grace Langub: .
+[18:46](https://fathom.video/calls/781367731?timestamp=1126) Alan Nguyen: Do you have, like, a mute button on your mic at all?
+[18:50](https://fathom.video/calls/781367731?timestamp=1130) Ina Grace Langub: No, no, I don't have any on, oh, what do you call that one? I don't have a on and off.
+[19:02](https://fathom.video/calls/781367731?timestamp=1142) Alan Nguyen: Okay.
+[19:03](https://fathom.video/calls/781367731?timestamp=1143) Ina Grace Langub: Or a mute. I don't have any mute in the microphone.
+[19:07](https://fathom.video/calls/781367731?timestamp=1147) Alan Nguyen: Okay. So when you, when you normally call, do you normally use Optimus Prime for your, your voice?
+[19:15](https://fathom.video/calls/781367731?timestamp=1155) Ina Grace Langub: Yes.
+[19:16](https://fathom.video/calls/781367731?timestamp=1156) Alan Nguyen: Okay. And you've been able to have success with the robot voice?
+[19:22](https://fathom.video/calls/781367731?timestamp=1162) Ina Grace Langub: I already use this voice while calling the, I already use that voice when I call your role for an account. it did. It's a success.
+[19:41](https://fathom.video/calls/781367731?timestamp=1181) Alan Nguyen: But like in the past with your previous, you know, in your previous work, when you were actually disputing the items for the first time yourself and then actually successfully removing them, were you still using the same voice and they were removing the, the remarks for you?
+
+## Chapter 3 (20:00 to 30:00)
+
+[20:00](https://fathom.video/calls/781367731?timestamp=1200) Ina Grace Langub: I still use the same voice, but when it regards to the reinsertion, I don't think so.
+[20:13](https://fathom.video/calls/781367731?timestamp=1213) Alan Nguyen: Got it. I'm just, I'm just referring to like a yes or no for like just normal disputes. Let's say you're calling in to dispute hard inquiries, like back at your previous, you know, when you used to call on your previous job, when, when you would call them with the same voice as Optimus Prime voice, were you able to successfully remove inquiries using this exact voice?
+[20:36](https://fathom.video/calls/781367731?timestamp=1236) Ina Grace Langub: Yes or no? . .
+[20:38](https://fathom.video/calls/781367731?timestamp=1238) Alan Nguyen: Okay. Okay. What would you say the success rate on that was? If you had to like give a general percentage?
+[20:48](https://fathom.video/calls/781367731?timestamp=1248) Ina Grace Langub: Success rate, it depends on the inquiries. 90%, 80%, 80%, but it depends on the items.
+[20:58](https://fathom.video/calls/781367731?timestamp=1258) Alan Nguyen: Okay. Well. If it works, we're not gonna, we're not gonna, we're not gonna adjust that, but so if it works, it works. It just sounds like robotic to me, but if it's been working for you, like, we work for little bit.
+[21:12](https://fathom.video/calls/781367731?timestamp=1272) Ina Grace Langub: it sounds like Star Wars.
+[21:15](https://fathom.video/calls/781367731?timestamp=1275) Alan Nguyen: .
+[21:16](https://fathom.video/calls/781367731?timestamp=1276) Ina Grace Langub: I don't have any boys here because this is the available, sorry, available car opters in my end.
+[21:29](https://fathom.video/calls/781367731?timestamp=1289) Alan Nguyen: Oh, well, we have, you should be able to use our login.
+[21:33](https://fathom.video/calls/781367731?timestamp=1293) Ina Grace Langub: because this is not a premium, this is just free.
+[21:37](https://fathom.video/calls/781367731?timestamp=1297) Alan Nguyen: My will, Nate. I'm pretty sure in the Google Sheet that we all, we should have all access to in that Google Sheet, you should have the logins for dubbing AI. So that's the premium version.
+[21:52](https://fathom.video/calls/781367731?timestamp=1312) Ina Grace Langub: Oh, all right. So I'm using for what is available.
+[21:56](https://fathom.video/calls/781367731?timestamp=1316) Alan Nguyen: Okay.
+[21:58](https://fathom.video/calls/781367731?timestamp=1318) Ina Grace Langub: Okay.
+[21:59](https://fathom.video/calls/781367731?timestamp=1319) Alan Nguyen: So do you. Do you still have access to it? I think it should be pinned in the group, but I can resend it to you if you need.
+[22:13](https://fathom.video/calls/781367731?timestamp=1333) Rosemarie Anne Fabian: I think it was just the email, Alan.
+[22:18](https://fathom.video/calls/781367731?timestamp=1338) Ina Grace Langub: Oh, what a myth.
+[22:20](https://fathom.video/calls/781367731?timestamp=1340) Rosemarie Anne Fabian: When you input the email, it would send a code to Gmail. When you input the email? password. like, logins, you put the email, the Ascenda email.
+[22:36](https://fathom.video/calls/781367731?timestamp=1356) Alan Nguyen: Oh. Very, very bottom, very bottom left, it says logins. You see sheet one? Very, very, there you go. oh, is it not in there?
+[22:48](https://fathom.video/calls/781367731?timestamp=1368) Rosemarie Anne Fabian: because it's just Gmail.
+[22:51](https://fathom.video/calls/781367731?timestamp=1371) Ina Grace Langub: There's no passcode.
+[22:54](https://fathom.video/calls/781367731?timestamp=1374) Alan Nguyen: Wait, why is the Gmail login not in there?
+[22:57](https://fathom.video/calls/781367731?timestamp=1377) Ina Grace Langub: Wow.
+[22:59](https://fathom.video/calls/781367731?timestamp=1379) Alan Nguyen: Okay, well. I guess I'll add it in there, but all right, let's see, Google Sheets, I know, did I just only send it in the group chat? Is that what happened? I never added it to the Google Sheet?
+[23:17](https://fathom.video/calls/781367731?timestamp=1397) Rosemarie Anne Fabian: I'm not sure, but I can look it up and add it there.
+[23:23](https://fathom.video/calls/781367731?timestamp=1403) Alan Nguyen: Oh, sure, that'd be wonderful. I'm trying to find those old two on my side. But either way, I mean, if Optimus Prime's been working, you can do that, but... All right, what's been the challenges so far? So aside from that, like, what is, what's going on here? So reinsertion, we know reinsertion is an issue right now.
+[23:53](https://fathom.video/calls/781367731?timestamp=1433) Ina Grace Langub: reinsertion, according to Miss Anne, because... Ms. Anne already called the Experian and TransUnion for Matthew, and it says, she explained it before to you. There is a reinsertion. With regard to the account in Experian, the representative blacked it on December, right, Ms. Anne? And the creditor verified it.
+[24:26](https://fathom.video/calls/781367731?timestamp=1466) Alan Nguyen: you're talking about Matthews, but what about the other ones? Oh, added it in there as well, too, by the way.
+[25:10](https://fathom.video/calls/781367731?timestamp=1510) Rosemarie Anne Fabian: Hello?
+[25:11](https://fathom.video/calls/781367731?timestamp=1511) Ina Grace Langub: Oh, what's that? Hello?
+[25:14](https://fathom.video/calls/781367731?timestamp=1514) Alan Nguyen: Yep.
+[25:16](https://fathom.video/calls/781367731?timestamp=1516) Rosemarie Anne Fabian: Oh, I think Alan said he added the dubbing AI, so we can...
+[25:26](https://fathom.video/calls/781367731?timestamp=1526) Alan Nguyen: .
+[25:26](https://fathom.video/calls/781367731?timestamp=1526) Rosemarie Anne Fabian: Is it okay if we use it both at the same time?
+[25:30](https://fathom.video/calls/781367731?timestamp=1530) Alan Nguyen: you can.
+[25:32](https://fathom.video/calls/781367731?timestamp=1532) Rosemarie Anne Fabian: Okay.
+[25:34](https://fathom.video/calls/781367731?timestamp=1534) Alan Nguyen: Okay, so let's see. Let me just make sure my calendar's good. Okay. Okay, so what do we understand about reinsertion so far? About how to challenge those? What do we know so far?
+[25:54](https://fathom.video/calls/781367731?timestamp=1554) Rosemarie Anne Fabian: I read Notion, and... This is pretty much like, what do call that, like, not really debate, but somehow, like, arguing with the person on the phone. That's what I understand, that they can't just put it back, and that they must send a written notice within five days of putting it back on the account. What else? that's just what I understand. With the reinsertion, like, before, because they already removed it, and before they can put it back on your account, they must send you a notice that they will put it back. Is that correct?
+[27:01](https://fathom.video/calls/781367731?timestamp=1621) Alan Nguyen: . So, yep. So we can call back, you know, again, we just assert that, you know, must be removed XYZ law, right? Reinsertion law, which should be in there. And, or we can, you know, do the whole 605B thing as well, too. We get, did you, did you ask to get escalated to a supervisor?
+[27:19](https://fathom.video/calls/781367731?timestamp=1639) Rosemarie Anne Fabian: . I was both talking to supervisors.
+[27:25](https://fathom.video/calls/781367731?timestamp=1645) Alan Nguyen: Okay. And then what did you say and what did they say?
+[27:30](https://fathom.video/calls/781367731?timestamp=1650) Rosemarie Anne Fabian: Well, I wasn't able to do the reinsertion because, I just knew about it. And when he said that, when the, it was a guy, it was a guy. When he said that, they blocked it last December and it got back by February because the creditors gave valid proof of these data that, what do you call that? That, that they are, what Yep. And true and stuff. So, I didn't pretty much argue. I just asked if there'd be any ways that they can help out. And then, basically the supervisor said that I can just contact the creditor and the ball is not with the bureau right now. I mean, they cannot do anything about it anymore. That's what the supervisor said. .
+[28:28](https://fathom.video/calls/781367731?timestamp=1708) Alan Nguyen: And did you bring up the law as well as the data breaches and everything?
+[28:34](https://fathom.video/calls/781367731?timestamp=1714) Rosemarie Anne Fabian: I did. I told them that what you said, that based on Section 605B, it's mandated by law that it gets to be removed within four days. And the supervisor answered me like. and it's also stated on 605B that we can... we can decline the request if, I don't know. She mentioned something like, she said like, but there's also stated in that law that we can decline if it didn't pass or something.
+[29:23](https://fathom.video/calls/781367731?timestamp=1763) Alan Nguyen: Yep. And then that's where you asked them. What was the reason?
+[29:27](https://fathom.video/calls/781367731?timestamp=1767) Rosemarie Anne Fabian: I actually asked her. . They just said it did not pass the criteria and then.
+[29:35](https://fathom.video/calls/781367731?timestamp=1775) Alan Nguyen: have to give you a specific reason. And it has to be one of three reasons, but continue.
+[29:41](https://fathom.video/calls/781367731?timestamp=1781) Rosemarie Anne Fabian: they said like, actually, there is an internal criteria of how we, how we pass disputes.
+[29:50](https://fathom.video/calls/781367731?timestamp=1790) Alan Nguyen: they made that up. And.
+[29:53](https://fathom.video/calls/781367731?timestamp=1793) Rosemarie Anne Fabian: And, I don't know what the information behind it? . Cause the. Supervisors, like, terrorists.
+
+## Chapter 4 (30:00 to 40:00)
+
+[30:03](https://fathom.video/calls/781367731?timestamp=1803) Alan Nguyen: Understood. So, that, they will do that as a, that, that's, that's, that's non-compliance, and then if you challenge them on that, it becomes willful non-compliance, which becomes, like, a legal issue, but I don't want to start you guys with that, like, to, I guess with that much difficulty, but I guess it might be worth, I guess, like, we're gonna, we're gonna try the softer way, right? And we're just gonna, like, you know, keep trying to call back and send in new letters, but if this starts to become consistently a thing, which I've seen it become sometimes a thing, specifically with TransUnion, where they're not legally compliant to the law, if that happens, we're probably gonna have to, depending on the profile, we're gonna have to start in those moments, you know. I guess we'll cross the bridge when we come to it, but basically we'll just have to, like, fight back and say, like, hey, look, this is, like, and then at that moment, right, like, this is being recorded, right, and by continuing on this call, you consent to be recorded, and then you ask them that question again, and if they say that, after you told them that you recorded it, it becomes willful noncompliance, and then if we need to, if they're not willing to help, and they're breaking the law, and we get that on Ledger, then, and the client really wants us to fight for them, then we can move towards bringing it to court to be able to help win, which is not something that you guys are going to have to do, but it'll just be what we're going to need to do if it means removing an item for the client's. Does that make sense?
+[31:52](https://fathom.video/calls/781367731?timestamp=1912) Rosemarie Anne Fabian: . Oh, this is for Matthew. you don't have to worry about that.
+[31:55](https://fathom.video/calls/781367731?timestamp=1915) Alan Nguyen: .
+[31:56](https://fathom.video/calls/781367731?timestamp=1916) Rosemarie Anne Fabian: And I know that Matthew... Already received a request-decline letter, a fraud block request-decline letter from TransUnion.
+[32:10](https://fathom.video/calls/781367731?timestamp=1930) Alan Nguyen: Yep. . So that also becomes documentation that if Matthew did want to go down the route of taking it to court and getting that removed, we could do that. But there's a lot of methods that we can do that doesn't have to require doing all that. Make sense?
+[32:38](https://fathom.video/calls/781367731?timestamp=1958) Rosemarie Anne Fabian: Yes.
+[32:38](https://fathom.video/calls/781367731?timestamp=1958) Alan Nguyen: So there's going to be two layers to it. We're going to, one, close out the dispute, because it isn't closed out already. We're to send in the reinsertion letter, right? And then, hold on, one moment, Q. Okay, so basically we're going to do that, and then one, send in a reassertion letter, right? The template should already be there. We'll send that in, same method, upload it to the portal, send it to the CFPB, right? And then, aside from the reinsertion letter, we will send the 605B packet to the institution itself as well. Right? Through the same methods, through the CFPB, and through the, through the, what's it called?
+[34:10](https://fathom.video/calls/781367731?timestamp=2050) Rosemarie Anne Fabian: TFC?
+[34:11](https://fathom.video/calls/781367731?timestamp=2051) Alan Nguyen: If they have an upload portal, if they have an upload portal, it'll be that. If not, we find a way to email them or fax or whatever it is, you know, we try to get resourceful and just looking that up, it's pretty easy, just on Google. Like, just additional ways to contact them. And then, so we have like a record trail from email and the CFPB as well, too. And then in that letter, we're going to say, essentially, that the credit bureau has said that this was verified for XYZ reasons, which is, for Matthew's sake, it's because of, it was verified by his name, his date of birth, and his social security number. Right? We're going to send him that, all that dispute, and then we're also going to request the method of the verification and validation. On how that was true. And then, that basically creates a seed for the next step, but we'll just have to do that and show that we challenged it on that side and then keep a copy of that. And then when we come back later, we'll cross the bridge when we come to it. Does that make sense? . Did you, did you two understand that? This would be like a really good time to take notes if, if that didn't, if that didn't come through.
+[35:32](https://fathom.video/calls/781367731?timestamp=2132) Rosemarie Anne Fabian: . just took note that, you know, we need to submit the letter and, and, do you have a template for insertion?
+[35:43](https://fathom.video/calls/781367731?timestamp=2143) Alan Nguyen: Yes. That should be in the, the portal as well, too.
+[35:49](https://fathom.video/calls/781367731?timestamp=2149) Ina Grace Langub: Copy that.
+[35:52](https://fathom.video/calls/781367731?timestamp=2152) Rosemarie Anne Fabian: you can try logging in, Grace. I can see if I will be logged out. Let me just check.
+[36:00](https://fathom.video/calls/781367731?timestamp=2160) Ina Grace Langub: Who will be the one signing? Submit it to the CFPB?
+[36:10](https://fathom.video/calls/781367731?timestamp=2170) Alan Nguyen: Either or, you know, whoever's working on whoever's profile. So whatever profile you're working on, you'll take control of that.
+[36:17](https://fathom.video/calls/781367731?timestamp=2177) Rosemarie Anne Fabian: No, I meant the dubbing AI. I'm still Kevin. question? No, I'm still Kevin. No, I'm not. Were you able to log in?
+[36:43](https://fathom.video/calls/781367731?timestamp=2203) Alan Nguyen: Are you?
+[36:47](https://fathom.video/calls/781367731?timestamp=2207) Ina Grace Langub: Hello?
+[36:47](https://fathom.video/calls/781367731?timestamp=2207) Rosemarie Anne Fabian: have here the. Were you able to log in?
+[36:52](https://fathom.video/calls/781367731?timestamp=2212) Ina Grace Langub: Oh, no, I can't. I'm able to log in to dubbing AI. . used the ASCEND, the PRIME. I'm dot W at gmail dot com.
+[37:04](https://fathom.video/calls/781367731?timestamp=2224) Rosemarie Anne Fabian: It's supposed to, what? It's supposed to, like, send a code.
+[37:16](https://fathom.video/calls/781367731?timestamp=2236) Ina Grace Langub: Do I am using the same app or, wait a minute, continue with an email, continue with this word. Okay, I'm going share it again. I'm going share it already. Can you see it?
+[37:38](https://fathom.video/calls/781367731?timestamp=2258) Alan Nguyen: so this is, you're not typing in the email, you're doing just like the, what it says in Google Sheets, it's one click login. Right, so let's continue.
+[37:45](https://fathom.video/calls/781367731?timestamp=2265) Rosemarie Anne Fabian: you can, I'll, I used the, the email login.
+[37:56](https://fathom.video/calls/781367731?timestamp=2276) Ina Grace Langub: Are you, I mean. Where?
+[37:58](https://fathom.video/calls/781367731?timestamp=2278) Rosemarie Anne Fabian: You can also type it out, I, I type. I typed out the email as well. Go back to dubbing AI, and then you put the email there.
+[38:13](https://fathom.video/calls/781367731?timestamp=2293) Ina Grace Langub: Enter your email. My email?
+[38:16](https://fathom.video/calls/781367731?timestamp=2296) Rosemarie Anne Fabian: No, no, ASCEND email.
+[38:20](https://fathom.video/calls/781367731?timestamp=2300) Alan Nguyen: No, no, no, no, no, no, no.
+[38:22](https://fathom.video/calls/781367731?timestamp=2302) Rosemarie Anne Fabian: Just listen to what I just said. I did.
+[38:26](https://fathom.video/calls/781367731?timestamp=2306) Alan Nguyen: You press the Continue with Google button. You press the Continue with Google button. The one-click login that is written out. It says Continue with Google. It's a button. There you go. One-click login. Did you try this?
+[38:44](https://fathom.video/calls/781367731?timestamp=2324) Rosemarie Anne Fabian: No, I typed out the...
+[38:47](https://fathom.video/calls/781367731?timestamp=2327) Alan Nguyen: so that's why. So it also said two on Google Sheets specifically. One-click login. That's why there's no password there.
+[38:56](https://fathom.video/calls/781367731?timestamp=2336) Rosemarie Anne Fabian: I think this is connected to her account.
+[39:00](https://fathom.video/calls/781367731?timestamp=2340) Ina Grace Langub: Yes, it's my account.
+[39:03](https://fathom.video/calls/781367731?timestamp=2343) Rosemarie Anne Fabian: that's why you need to type it out.
+[39:08](https://fathom.video/calls/781367731?timestamp=2348) Alan Nguyen: No.
+[39:08](https://fathom.video/calls/781367731?timestamp=2348) Ina Grace Langub: I already logged out.
+[39:10](https://fathom.video/calls/781367731?timestamp=2350) Alan Nguyen: we're not typing out anything.
+[39:16](https://fathom.video/calls/781367731?timestamp=2356) Ina Grace Langub: And here again.
+[39:17](https://fathom.video/calls/781367731?timestamp=2357) Alan Nguyen: So now go to your browser and go to WAI in your browser.
