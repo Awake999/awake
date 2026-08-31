@@ -120,3 +120,17 @@ everyone that's in GHL, put it into the automated tracker. Why is that not alrea
 ## Message 18 (mid-turn)
 
 because it's confusing because you're seeing 63 leads to view, but according to my manual analysis with AI, it looks like 38. You can also look and find more information in the funnel explorer.empty in the ops data.
+
+## Message 19 (button answer, 8/31 — the never-booked 10)
+
+analyze if they have an unresponsive tag, otherwise look at our actual correspondence with them to assess each
+
+## Message 20 (mid-turn)
+
+also the main board edges do not shine as bright or as nice as the rest
+
+## Message 21 (mid-turn)
+
+also fix the unknown triaged, this is BS. we know. it should be in lane 1 and in the saved files, we already broke it down
+
+also you didn't let me know the effort - we were on low and still on it unless you tell me otherwise forfable 5

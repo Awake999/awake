@@ -226,3 +226,26 @@ FACT-CHECK RESULTS (all evidence-run this session): (1) **Direct bookings = 2 IS
   correction (Alan 8/31 + transcript receipts).
 - Messages 17–18 stored verbatim. truth-agent: cohort names cross-checked 1:1 vs Lane 1
   list · no new person-claims shipped. never-miss: 2 prompts → 5 asks → 5 mapped.
+
+## 8/31 — v9.1 UNKNOWN TRIAGED FIXED from the saved files (Messages 19–21)
+- Alan: "fix the unknown triaged, this is BS. we know. it should be in lane 1 and in the saved
+  files, we already broke it down." He was right — the breakdown existed and I wasn't reading
+  it. Built APW_TRI_TAGS from the SAVED sources: GHL tags ("0 lynn - triaged", "0 apw triaged
+  - yes", "triaged off hours") + Lane 1's funnel-explorer journey/outreach lines that state
+  triaged (with call lengths). 41 keys injected. triOf now counts those as receipted TRIAGED,
+  each row's 🎯 showing the verbatim receipt; transcript scoring vs the 15-step standard
+  becomes the verification layer on top (not the gate). Blanket attestations still excluded.
+  RESULT in the 38-cohort default view: triage yes 0 → 16, unknown 38 → 22. Verified headless.
+- Never-booked assessment (Alan: "analyze if they have an unresponsive tag, otherwise look at
+  our actual correspondence"): all 9 assessed from GHL tags + actual message counts →
+  ops/data/triage/NEVERBOOKED_ASSESSMENT_2026-08-31.md. 4 tagged-unresponsive (verified by
+  data) · 2 unresponsive in fact but UNTAGGED (John Mazzocchi, HERMAN ROGERS — LANE-SYNC to
+  Lane 1 to tag) · 1 hung-up (Noel Rivera) · 1 too-fresh (Fernando De Pieri, 8/27 lead) ·
+  1 UNDER-WORKED (Marko Sakren — only 2 dials/2 texts, unresponsiveness NOT proven). Each
+  assessment injected into the board and visible on that person's 🎯 hover.
+- Hero edges: main board ring was dimmer than the panels (10s rotation, no brightness filter,
+  2.2px) → now 6s, 2.6px, brightness 1.35 + saturate 1.3 + double drop-shadow, plus the
+  edgeglow pulse the panels use. Matches the rest of the board.
+- Effort disclosure: session runs claude-fable-5, effort LOW (confirmed via get_session) —
+  unchanged; my earlier "session default" line was vague, now stated explicitly every reply.
+- Messages 19–21 stored verbatim.
