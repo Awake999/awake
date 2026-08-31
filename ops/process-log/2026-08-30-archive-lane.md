@@ -258,3 +258,6 @@ Alan: "that show rate is bullshit. cehck and verify yourself." Verified — v3 c
 
 ## Batch (2026-08-31): v5 — ripple annotations + qualified lens + unknowns final pass
 Morawitz no-show annotated on call summary + people page + INDEX row; Connor INDEX row annotated (empty room, Sep 1 rebook). Unknowns: Fathom list swept, spot-checks negative — no rooms exist; likely-no-show verdict recorded (true show rate if so: 34%). Qualified lens added: 2–3 qualified shows / 66 bookings ≈ 3–5%, matching Alan's 8/26 reckoning. Found + flagged the two contradictory 16%s (Alan 8/21 show-rate vs Carla 8/12 no-show-rate). Jill identity double-confirmed via Fathom "Jill 1 on 1 Coaching — Jillian peralta" 8/11.
+
+## Ruling recorded (2026-08-31): the 16% stays unresolved by design
+Alan, verbatim: "Sixteen percent sure it sounds more accurate, but we need to verify everything. That's why we're building this." Recorded in the pulls file; no number canonized. Verification path: v4 recording-verified shows + Monday two-lens routine + Sep 1 call-outcome automation (register #78).

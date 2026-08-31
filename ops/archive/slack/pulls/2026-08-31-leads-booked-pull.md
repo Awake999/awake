@@ -271,3 +271,5 @@ v3's 45–69% band is retracted. Alan's 8/21 "16%" reads as a different (stricte
 | Closes at main-offer terms | 0 this window (Michael = custom $1K; Pradeep = $300 custom) | register |
 
 Both lenses now ship weekly: raw new-lead funnel (v4 method) + this qualified lens.
+
+**Alan's ruling on the 16% contradiction (2026-08-31, verbatim):** "Sixteen percent sure it sounds more accurate, but we need to verify everything. That's why we're building this." → Status: UNRESOLVED BY DESIGN — no number is canon until verified. The verified evidence to date: new-lead show rate ~34% realistic (10 proven / 29 resolved-window), qualified-show rate 3–5%. The verification machinery that settles this permanently: recording-verified shows (v4 rule), the Monday two-lens routine, and the call-outcome ping automation (register #78) capturing showed/no-show per call from Sep 1.
