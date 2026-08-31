@@ -396,3 +396,27 @@ Ran `format_transcripts.py` (173244690 → no-ts, single unbroken paragraph with
 **Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
 
 **Resume point:** next queued row (top-down, August section) is `rec 173084908` ([Fathom call 784166182](https://fathom.video/calls/784166182), 2026-08-13).
+
+## Batch 18
+
+Resumed via self-scheduled continuation (resume point re-verified against live INDEX.md after a `git pull --rebase` fast-forwarded in an unrelated Lane 3 commit — zero scope overlap). Continued top-down — next three queued rows, all dated 2026-08-13:
+
+| Recording | Call | Archived as |
+|---|---|---|
+| rec 173084908 | [Fathom call 784166182](https://fathom.video/calls/784166182) | [2026-08-13--daily-sync-wins-lessons-structure-change--173084908](../archive/calls/fathom/2026-08-13--daily-sync-wins-lessons-structure-change--173084908/transcript.md) — daily sync: "3 Things to Start" moved to right after the video, team-wins recap, Alan commits to more 1-on-1 time with Anne/Grace, Carla's shadowing/bootcamp day |
+| rec 172832320 | [Fathom call 783173636](https://fathom.video/calls/783173636) | [2026-08-13--ashwini-dispute-review-eod-protocol--172832320](../archive/calls/fathom/2026-08-13--ashwini-dispute-review-eod-protocol--172832320/transcript.md) — Ashwini dispute review: 8 TU inquiries + Affirm removed, Volvo deleted from Experian, Equifax access blocked by security questions, new structured EOD reporting protocol established |
+| rec 172829961 | [Fathom call 783153890](https://fathom.video/calls/783153890) | [2026-08-13--ashwini-equifax-troubleshooting-teramind-fix--172829961](../archive/calls/fathom/2026-08-13--ashwini-equifax-troubleshooting-teramind-fix--172829961/transcript.md) — later segment of the same workday: Ina/Lynn troubleshoot Equifax text-verification failure, Teramind install fixed via Windows security setting, Fathom call-logging protocol established |
+
+**Near-miss coexistence check:** rec 172832320's and rec 172829961's Fathom summaries both centered on client Ashwini with very similar wins (8 inquiries removed, Affirm/Volvo deletions, Teramind fix) and appeared under different names ("Grace" vs "Ina"). Pulled both full transcripts before archiving to check for a duplicate-bot-capture case per the raw-originals law — confirmed NOT a duplicate: "Grace" and "Ina" are both part of the same person's full name (Ina Grace Langub), and the two transcripts cover genuinely different segments of her workday (one is TransUnion block-request explanation from a bureau agent; the other is Equifax text-verification troubleshooting with Lynn). Archived both normally as distinct calls, no coexistence annotation needed.
+
+Raw sourcing: rec 172832320 auto-saved to a local JSON tool-result file — extracted from the `text` field, confirmed byte-identical. rec 172829961 auto-saved to a local plain-text tool-result file — direct `cp`, confirmed identical via `cmp`. rec 173084908 returned inline — `transcript-raw.txt` written from the exact returned tool text via Write (self-flagged per the audit-approved inline-transcript raw-write procedure).
+
+Ran `format_transcripts.py` (173084908 → short, <2 chapters; 172832320 → chaptered, 7 chapters; 172829961 → chaptered, 9 chapters — no splits) then `add_breadcrumbs.py`.
+
+**Verbatim self-check:** stripped structural additions and diffed against each `transcript-raw.txt` line-for-line — all three matched exactly (173084908: 34/34, 172832320: 296/296, 172829961: 404/404).
+
+**INDEX:** flipped all three rows to ✅ with clickable links + `raw ✓`. Counts: 78→81 archived, 2 no-transcript (unchanged), 154→151 queued. Verified 81+2+151 = 234 and grep-counted rows (81 ✅ / 2 n/a / 151 queued = 234) confirm.
+
+**Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
+
+**Resume point:** next queued row (top-down, August section) is `rec 172826975` ([Fathom call 783146648](https://fathom.video/calls/783146648), 2026-08-12).

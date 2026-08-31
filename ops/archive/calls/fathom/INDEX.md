@@ -10,7 +10,7 @@
 - [July 2026](#july-2026) — 91 meetings
 - [June 2026](#june-2026) — 10 meetings
 
-**Archive status:** 78 archived ✅ · 2 verified no-transcript · 154 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+**Archive status:** 81 archived ✅ · 2 verified no-transcript · 151 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
 
 
 ## August 2026
@@ -97,9 +97,9 @@
 | 2026-08-13 | [SCIO Sales Consulting (Sabrina) <sub>rec 173244690</sub>](https://fathom.video/calls/782299252) | ✅ [transcript](2026-08-13--scio-sales-consulting-qa--173244690/transcript.md) · [summary](2026-08-13--scio-sales-consulting-qa--173244690/summary.md) · raw ✓ |
 | 2026-08-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/784437796) <sub>rec 173218261</sub> | ✅ [transcript](2026-08-13--carla-show-rate-playbook-bank-intel--173218261/transcript.md) · [summary](2026-08-13--carla-show-rate-playbook-bank-intel--173218261/summary.md) · raw ✓ |
 | 2026-08-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/784176539) <sub>rec 173087425</sub> | ✅ [transcript](2026-08-13--daily-sync-dispute-process-standardization--173087425/transcript.md) · [summary](2026-08-13--daily-sync-dispute-process-standardization--173087425/summary.md) · raw ✓ |
-| 2026-08-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/784166182) <sub>rec 173084908</sub> | not yet — click title to watch on Fathom |
-| 2026-08-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/783173636) <sub>rec 172832320</sub> | not yet — click title to watch on Fathom |
-| 2026-08-13 | [Impromptu Zoom Meeting (Ina) <sub>rec 172829961</sub>](https://fathom.video/calls/783153890) | not yet — click title to watch on Fathom |
+| 2026-08-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/784166182) <sub>rec 173084908</sub> | ✅ [transcript](2026-08-13--daily-sync-wins-lessons-structure-change--173084908/transcript.md) · [summary](2026-08-13--daily-sync-wins-lessons-structure-change--173084908/summary.md) · raw ✓ |
+| 2026-08-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/783173636) <sub>rec 172832320</sub> | ✅ [transcript](2026-08-13--ashwini-dispute-review-eod-protocol--172832320/transcript.md) · [summary](2026-08-13--ashwini-dispute-review-eod-protocol--172832320/summary.md) · raw ✓ |
+| 2026-08-13 | [Impromptu Zoom Meeting (Ina) <sub>rec 172829961</sub>](https://fathom.video/calls/783153890) | ✅ [transcript](2026-08-13--ashwini-equifax-troubleshooting-teramind-fix--172829961/transcript.md) · [summary](2026-08-13--ashwini-equifax-troubleshooting-teramind-fix--172829961/summary.md) · raw ✓ |
 | 2026-08-12 | [Impromptu Zoom Meeting](https://fathom.video/calls/783146648) <sub>rec 172826975</sub> | not yet — click title to watch on Fathom |
 | 2026-08-12 | [Impromptu Zoom Meeting (Sabrina) <sub>rec 172823898</sub>](https://fathom.video/calls/783118335) | not yet — click title to watch on Fathom |
 | 2026-08-12 | [Impromptu Zoom Meeting](https://fathom.video/calls/783044555) <sub>rec 172808694</sub> | not yet — click title to watch on Fathom |

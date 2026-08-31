@@ -1,0 +1,452 @@
+# Ashwini — Equifax Access Troubleshooting, Teramind Fix, Call-Logging Protocol — 2026-08-13 — verbatim transcript
+
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (30:00 to 40:00)](#chapter-3-3000-to-4000)
+- [Chapter 4 (40:00 to 50:00)](#chapter-4-4000-to-5000)
+- [Chapter 5 (50:00 to 1:00:00)](#chapter-5-5000-to-10000)
+- [Chapter 6 (1:00:00 to 1:10:00)](#chapter-6-10000-to-11000)
+- [Chapter 7 (1:10:00 to 1:20:00)](#chapter-7-11000-to-12000)
+- [Chapter 8 (1:20:00 to 1:30:00)](#chapter-8-12000-to-13000)
+- [Chapter 9 (1:30:00 to 1:40:00)](#chapter-9-13000-to-14000)
+
+
+ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
+
+
+## Chapter 1 (00:00 to 10:00)
+
+[00:00](https://fathom.video/calls/783153890?timestamp=0) Lynn N.: Oh, he had to go, but, what have you been- He chatted to me one-on-one. Oh. .
+[00:08](https://fathom.video/calls/783153890?timestamp=8) Ina Grace Langub: Oh, it's 7.52. it's 7.52 a.m.
+[00:13](https://fathom.video/calls/783153890?timestamp=13) Lynn N.: he, he had to go, but, so I don't think he has any time, any more time to one-on-one, but. He just wanted me to check on you at this, like, right now.
+[00:28](https://fathom.video/calls/783153890?timestamp=28) Ina Grace Langub: What?
+[00:30](https://fathom.video/calls/783153890?timestamp=30) Lynn N.: Ellen just, Ellen just wanted me to check on you.
+[00:33](https://fathom.video/calls/783153890?timestamp=33) Ina Grace Langub: I'm calling the Equifax, and I'm using the text verification, and, you know, the code doesn't send, I didn't receive the code, using the number.
+[00:49](https://fathom.video/calls/783153890?timestamp=49) Lynn N.: Oh, the text verified number?
+[00:51](https://fathom.video/calls/783153890?timestamp=51) Ina Grace Langub: and I don't see any credit report from Equifax 2, so I'm using the TransUnion, but, unfortunately- Oh, It's okay. Do we need to create an Outlook account for Ashwini Rahan?
+[01:15](https://fathom.video/calls/783153890?timestamp=75) Lynn N.: He has a Gmail that we created for him.
+[01:20](https://fathom.video/calls/783153890?timestamp=80) Ina Grace Langub: Oh, right. But I think, is it not required to ask a code to log into the Gmail?
+[01:29](https://fathom.video/calls/783153890?timestamp=89) Lynn N.: . I would try. If we can try logging into his Gmail, then you would probably...
+[01:41](https://fathom.video/calls/783153890?timestamp=101) Ina Grace Langub: All right. Because most of the time, we're using Outlook.
+[01:48](https://fathom.video/calls/783153890?timestamp=108) Lynn N.: Oh, I see.
+[01:51](https://fathom.video/calls/783153890?timestamp=111) Ina Grace Langub: So, can't ask any follow-up. From the Equifax, but I guess I can do the follow-up to TransUnion now.
+[02:12](https://fathom.video/calls/783153890?timestamp=132) Lynn N.: So, wait, you're gonna follow up with TransUnion now?
+[02:17](https://fathom.video/calls/783153890?timestamp=137) Ina Grace Langub: What?
+[02:19](https://fathom.video/calls/783153890?timestamp=139) Lynn N.: I was asking, wait, what were you doing again? Sorry.
+[02:23](https://fathom.video/calls/783153890?timestamp=143) Ina Grace Langub: Oh, I, okay. I am done calling the Equifax.
+[02:29](https://fathom.video/calls/783153890?timestamp=149) Lynn N.: Okay.
+[02:30](https://fathom.video/calls/783153890?timestamp=150) Ina Grace Langub: And right now, I'm about to call the TransUnion.
+[02:34](https://fathom.video/calls/783153890?timestamp=154) Lynn N.: -huh. Okay.
+[02:37](https://fathom.video/calls/783153890?timestamp=157) Ina Grace Langub: That's good. that's the last one that I need to do before the EOD, right? . Okay. How about you? How are you?
+[02:49](https://fathom.video/calls/783153890?timestamp=169) Lynn N.: Good, good. pretty good. I just need, like, things to be more organized. It just makes me feel so scabbered. I don't know where things are, and it's...
+[03:12](https://fathom.video/calls/783153890?timestamp=192) Ina Grace Langub: Lynn, Lynn, Lynn. Is your mother Filipino?
+[03:21](https://fathom.video/calls/783153890?timestamp=201) Lynn N.: my mom is Filipino.
+[03:24](https://fathom.video/calls/783153890?timestamp=204) Ina Grace Langub: So your mom is a half-blooded Filipino?
+[03:28](https://fathom.video/calls/783153890?timestamp=208) Lynn N.: Filipino? She's mostly Filipino.
+[03:32](https://fathom.video/calls/783153890?timestamp=212) Ina Grace Langub: Or a pure-blooded Filipino.
+[03:34](https://fathom.video/calls/783153890?timestamp=214) Lynn N.: She's mostly Filipino. Like, she has a little bit, tiny bit of Chinese, tiny bit of Spanish, which is true for a lot of Filipinos, but I would say she's mostly Filipino. I don't know what the percentage is, but .
+[03:54](https://fathom.video/calls/783153890?timestamp=234) Ina Grace Langub: Really?
+[03:55](https://fathom.video/calls/783153890?timestamp=235) Lynn N.: .
+[03:57](https://fathom.video/calls/783153890?timestamp=237) Ina Grace Langub: Wow.
+[03:59](https://fathom.video/calls/783153890?timestamp=239) Lynn N.: I don't don't don't don't is
+[04:00](https://fathom.video/calls/783153890?timestamp=240) Ina Grace Langub: Oh, you know what? I lost my phone last week.
+[04:08](https://fathom.video/calls/783153890?timestamp=248) Lynn N.: Oh, no. You lost your phone.
+[04:11](https://fathom.video/calls/783153890?timestamp=251) Ina Grace Langub: I don't have an access to my WhatsApp.
+[04:15](https://fathom.video/calls/783153890?timestamp=255) Lynn N.: Oh, no.
+[04:17](https://fathom.video/calls/783153890?timestamp=257) Ina Grace Langub: I'm only using laptop as of now.
+[04:22](https://fathom.video/calls/783153890?timestamp=262) Lynn N.: Oh, no. You didn't have, did you have an iPhone?
+[04:30](https://fathom.video/calls/783153890?timestamp=270) Ina Grace Langub: No, I don't have an iPhone. iPhone here in the Philippines, it costs too much, you know?
+[04:36](https://fathom.video/calls/783153890?timestamp=276) Lynn N.: Oh, I see.
+[04:40](https://fathom.video/calls/783153890?timestamp=280) Ina Grace Langub: . One day.
+[04:44](https://fathom.video/calls/783153890?timestamp=284) Lynn N.: one day, I believe.
+[04:47](https://fathom.video/calls/783153890?timestamp=287) Ina Grace Langub: I, where's the documents? Should I share my screen to you? What time are you logging out?
+[04:57](https://fathom.video/calls/783153890?timestamp=297) Lynn N.: I'm logging out in, like, 50 minutes. So, I have almost an hour left, but right after this, I have to go, because I need to prepare so I can move, and I have a lot of stuff to do, but.
+[05:19](https://fathom.video/calls/783153890?timestamp=319) Ina Grace Langub: Okay, I think we can easily call the TransUnion, it's not really long. TransUnion. Where, where are you? What? The only available here, what are you looking for, is Equifax and TransUnion, wait, all right, here we go, did you see my screen?
+[05:52](https://fathom.video/calls/783153890?timestamp=352) Lynn N.: I'm looking at it.
+[06:03](https://fathom.video/calls/783153890?timestamp=363) Ina Grace Langub: Let me back for a shower with my eyes, okay, A2. I'm just doing a follow-up. Are you a music lover?
+[07:36](https://fathom.video/calls/783153890?timestamp=456) Lynn N.: Yes, I love music.
+[07:39](https://fathom.video/calls/783153890?timestamp=459) Ina Grace Langub: Are you a singer too?
+[07:42](https://fathom.video/calls/783153890?timestamp=462) Lynn N.: No, I see. It's because I'm not full Filipino that I can't sing. So I blame it on the rest of my ethnicities. If I was full Filipino, maybe I could sing, but I can't. Really?
+[08:00](https://fathom.video/calls/783153890?timestamp=480) Ina Grace Langub: So that is, that is a trade for the Filipino. They are good at singing.
+[08:08](https://fathom.video/calls/783153890?timestamp=488) Lynn N.: .
+[08:10](https://fathom.video/calls/783153890?timestamp=490) Ina Grace Langub: Really?
+[08:11](https://fathom.video/calls/783153890?timestamp=491) Lynn N.: I think, I think maybe I would, I would try vocal lessons.
+[08:18](https://fathom.video/calls/783153890?timestamp=498) Carla Stivala: Hi, Lynn.
+[08:20](https://fathom.video/calls/783153890?timestamp=500) Ina Grace Langub: Oh.
+[08:21](https://fathom.video/calls/783153890?timestamp=501) Lynn N.: Hello, Carla.
+[08:22](https://fathom.video/calls/783153890?timestamp=502) Ina Grace Langub: I sneaked in.
+[08:23](https://fathom.video/calls/783153890?timestamp=503) Lynn N.: Hello, Carla.
+[08:25](https://fathom.video/calls/783153890?timestamp=505) Ina Grace Langub: How was your day so far?
+[08:28](https://fathom.video/calls/783153890?timestamp=508) Carla Stivala: good. I'm a little overwhelmed by all the information. I know.
+[08:33](https://fathom.video/calls/783153890?timestamp=513) Lynn N.: It's, it's a lot of information, and it's just, like, I feel like it's so hard to just, like, keep taking in information if we're not applying it, so.
+[08:43](https://fathom.video/calls/783153890?timestamp=523) Carla Stivala: It's gonna be okay. It's gonna be okay. You can do it. You're a strong woman. I just met with Daniel, the cool high-level guy, so that left my brain reloading.
+[08:55](https://fathom.video/calls/783153890?timestamp=535) Lynn N.: Grease.
+[09:00](https://fathom.video/calls/783153890?timestamp=540) Ina Grace Langub: Ina is about to take a call, but, I think my call is good now, I can't be able to hear the, the agent, unlike before. That's good.
+[09:25](https://fathom.video/calls/783153890?timestamp=565) Carla Stivala: You're about to take a call now?
+[09:28](https://fathom.video/calls/783153890?timestamp=568) Lynn N.: .
+[09:29](https://fathom.video/calls/783153890?timestamp=569) Carla Stivala: What kind of call?
+[09:32](https://fathom.video/calls/783153890?timestamp=572) Ina Grace Langub: TransUnion.
+[09:33](https://fathom.video/calls/783153890?timestamp=573) Carla Stivala: Thank you for calling TransUnion.
+[09:34](https://fathom.video/calls/783153890?timestamp=574) Lynn N.: For English, press on A1.
+[09:41](https://fathom.video/calls/783153890?timestamp=581) Carla Stivala: This call may be monitored or recorded for quality and training purposes. Your information may be used in real time to assist our agents address your needs. For faster service, please visit www.transunion.com to explore your options or you can use our new mobile messaging experience.
+[09:59](https://fathom.video/calls/783153890?timestamp=599) Ina Grace Langub: How can we help? Dispute. I heard that you're calling about a dispute, is that correct? Yes. If you are calling to check the status of a dispute that you filed recently, please say or press 1. If you are calling about another dispute-related issue, please remain on the line. To continue this conversation over text press or say 1 for Android, and 2 for iPhone. Otherwise stay on the line for the next available agent. Did you know you can open a dispute and upload supporting documentation online? Go to TransUnion.com slash dispute to easily open a dispute, upload supporting documentation, and get notified of results once the investigation is complete. TransUnion.com slash dispute also conveniently allows you to view your results and updated credit report. you. Please. Please remain on the line while we transfer you. Please say or enter your current mailing zip code to continue this conversation over text press or say one for Android and two for iPhone. Otherwise, stay on the line for the next available agent. Please hold while you are transferred to the next available agent. Thank you for calling. Your call is very important to us and we'll be answering. Thank you for calling TransUnion. This is Dani. Before we get started, can you provide your email and phone number for callback? Hello, Dani. This is Ashwani Regina Anand. And for my callback number. Okay. And mail? . It's 951-376-2395. Thank you. And how about your email? For my email, all are lowercase, ashwini.inand.1964 at gmail.com. Thank you. And how can I assist you here? I'm calling to follow up some accounts and inquiries in my credit file. just wanted to know if this inquiries and accounts don't show in my credit file or it's already been removed. Okay, sure thing. So to start with that, we'll have to pull up your report. Can you verify your social security number? Sure. It's 343-826-111.
+
+## Chapter 2 (10:00 to 20:00)
+
+[12:51](https://fathom.video/calls/783153890?timestamp=771) Lynn N.: All right. One second. You're so quick.
+[13:02](https://fathom.video/calls/783153890?timestamp=782) Ina Grace Langub: Hello, Ashwini. Quick question. Can you verify your full name? Sure. It's Ashwini, Regina, and then... Regina? Rahana. I see. Thank you. Regina. Okay. We'll do the Twitter report now. May I know what are the inquiries and accounts they want to verify here? Okay. Let us first... Let us first to inquiries. It's Prosper Web Bank. Prosper Web Bank. The inquiry they... It's July 24, 2026. upon checking here, I don't see any inquiries on your credit report. Okay. You don't see any inquiries? Any hard inquiries? Is that correct? Hello? I'm sorry. Yes, there's no hard inquiries on your file. Okay. I thought there's no hard inquiries. Okay, how about the Capital One?
+[14:45](https://fathom.video/calls/783153890?timestamp=885) Lynn N.: Capital One, is that an account or an inquiry?
+[14:49](https://fathom.video/calls/783153890?timestamp=889) Ina Grace Langub: It's an inquiry. well, not on here. As I mentioned, there's no hard inquiries. Okay, so just to clarify, no hard inquiries. Am I correct? Yes. Okay. Let's go to the accounts, late payments. Oh, can you confirm to me if this account is still shown in the credit file? Affirm, INC. Second. Affirm. Do you have the last four of the account number? The first four only. It's KN6G. The open date was June 2026. That seemed to have been removed already. Okay, thank you for that. How about the Citizen Guarantee BK? I'm sorry, what was the name? Citizen Guarantee BK. When was that open? The open date is the account number. We're going to give the account number to you, 1017-201-7000-001. Did you get it? Yep, I see it here. It's still on your report, but under dispute. Oh, under dispute. When was the dispute started? Let me check. It was filed August 5. August 5. And when was the dispute end? When will it be? according here, the status of the dispute, the dispute is expected to be finished by September 2. Huh? What? September 2? I filed this dispute within four business days. I didn't dispute it within 30 days. How come? One second, let me see. You filed this for a fraudulent reason, is that right? . And what are the other accounts that you distributed aside from this? Okay, the account that I've mentioned to you right now is the account that... I've disputed, and I'm calling to follow up those accounts. So, Affirm, INC, Citizen Guarantee, Community Capital Bank, Volvo Car Retail, Hong Kong Whitney Bank. Okay. . All right. Well, okay. So, since the two accounts are removed, and the other accounts that you've provided are under a dispute, and I see here you have a valid STC. I'm sorry. What account is that? Since you wanted to. I'm sorry. Can you just confirm what account is still shown in my credit file? Or, and what accounts are. So again, the two accounts that we've verified earlier, those are already removed, which are a firm, and the citizen one, and the other, the community, and the, what was that, Hancock, they're still under dispute here. The citizens, community, and Hancock are under dispute, right? So the Volvo is deleted, Volvo car retail. No, that's also under dispute. The Volvo is under dispute. Yes. Okay, I want to clear anything. Affirm INC is now deleted. Citizens Guarantee is under dispute, right? Community Capital is under dispute or not? Yes. Or deleted? Yep. What yes? It's under dispute. Under dispute. So, all right. So, Affirm INC. Affirm INC is removed from your credit report. The accounts are under dispute still are Citizens Guarantee, Community Capital Bank, Hancock Whitney, and Volvo Car Retail. Is that clear? that's clear. And those four accounts, when was the dispute started of this one? It's still the same, August 5? Yes, for all of them, August 5th. Let me just disclose this dispute within 30 days. I wanted to dispute this account within four business days. I requested it to dispute within four business days. And I'm not aware that the dispute will take 30 days. I'm not aware of this. Okay. But okay. May I know how did you dispute these accounts? I disputed via CFPB. I sent the documents together with the FTT to support. The claim to dispute this account. All right, let me check that here. I've had a dispute last August 2, 2026. Yep. Okay, so Ashwini, I have already checked here on our end. I have confirmed about your CFPB and your FTC report. Now, since you are filing or you're disputing these accounts due to fraud, and they're still not removed from your credit file, what I'm going to do here for you is to connect you over to our supervisor so that they can process the removal of these accounts. Okay. Oh, okay. Are you there? Yes, I'm here. We did report. Oh. Okay. Well, yep, as I mentioned, I'll connect you over to them. So can you write down this case number before we do that? Sure. So your case number is 348-91. Okay, that's it, 349-348-91867. Yep, that is correct. Now I'm going to connect you over, if I will stay on the line. Okay. Thank you for calling. Your call is very important to us and will be answered in the order it was... Thank you for calling TransUnion. My name is Jeff, and before we get started, can you please provide me with your full name, telephone number, email address? If in case the call gets disconnected, I can call you back. Hello, Jeff. This is Ashwini Regina Anand. For my number, it's 951-376-2395. And for my email, it's all over case, ashwini.anand.1964 at gmail.com. Perfect. And can I address you by your first name, Ashvini? Would that be okay? sure. Okay. And Ashley, can you just help me with your address as well? 740 Felpott Road, London, Kentucky, 40744. Oh, that's correct. And can you confirm the last four digits of a social security number? The last four digits, 6111. Okay, then. Right. And thank you for verifying all the details. CSL, can I assist you? All right. There are light payments that is disputed within 30 days in my account. And as far as I remember, I request to dispute it within four business days. And I'm not aware that someone will dispute this within 30 days. So I just wanted to, you know, disclose the account. just let me check the status of their account. And what is the name of that creditor? Citizen Guarantee BK. And the next one? Community Capital Bank. Okay, the next one? Volvo Car Retail. Okay. So yes, right now on here, it shows me that there is some five accounts under open dispute because when the dispute of block request was initiated on the 3rd of August, then the FTC report was already attached to it. So when the notification went to the creditors, Ashmini, they rewarded back to TransUnion all the creditors that they do not want to block the account within four business days. They want to continue with the 30-day-to-split process. So there's... The reason the investigation will be completed by the 2nd of September. Oh, you know what? The information that I received is inaccurate. Some agents said it's August 5th, and you said it's 3rd of August, right? So which is which? Yes, here it shows me when I checked your TransUnion credit file. Here it shows me the Volvo account was on the 3rd of August. Just use all the accounts are on 3rd of August, none of the accounts on the 5th of August. So all the accounts where a block request was initiated on the 3rd of August, and the credit is rewarded immediately to TransUnion, that they want to continue with the 30-day dispute process. And here it shows the investigation will be completed by the 2nd of September. decided that? The creditor or the TransUnion? No, the TransUnion cannot decide on this, Ashwini, because we are a credit bureau. We can only help you to initiate a block request. Ashwini. This decision is taken by the creditor. So, as per the FCRN, per the U.S. federal laws, creditors have the full authorization to add, delete, remove, or block the accounts electronically from your TransUnion credit file, and it gets automatically updated. So, the final decision was taken by the creditor, not by TransUnion. Oh, really? But according to the law C-05, we have the right to dispute as a consumer within four business days? Correct. So, that is what TransUnion has done for you. have initiated a dispute or block request, and it has the F2C report, but then the creditor decided not to block this account within four business days, all the creditors. you did initiate it four business days? TransUnion initiated a block request. So, Ashwini, we as a credit bureau, we can only help you to initiate a dispute or a block request, but then the final decision is taken by the creditor, whether they want to block the account within four business days, or whether they want to continue with the 30 days. So in your situation, all the creditors decided, awarded back to TransUnion, that they want to continue with the 30-day-to-speak process. They do not want to block the account within four business days. So if you want to know the detailed explanation about it, you can contact the creditors individually, and they can tell you why they're denied the block request. Oh, it's really the creditor who did the dispute, not the credit bureau. it's the creditor who denied the block request. All the creditors, you can speak to them, they can give you the detailed explanation about it. Why they denied the block request. you did initiate the block, when was that time, when was that happened? so the block request was initiated on the 3rd of August, the day when you called up to dispute a block request. And then immediately we got the reply from all those faux creditors, all those fortified creditors, that they do not want to block the account within four business days, they want to continue with the 30-day-to-speak process. Please let me know if you have any further questions for me. creditor is the only one who will decide. Correct. Correct, correct, yes. Sorry. Okay. I'm sorry, I did not get that. So what about our right? Hello. Hello, I'm here. So what about our right to dispute within four business days? . Because we are in a rush right now. so contact the creditors. Correct, I understand. So if you're looking to expedite the process, or if you're looking to get those accounts blocked immediately, you can contact the creditors there. They can send the information electronically to Transcendent, and then it gets automatically blocked from your credit file. the creditors can help you on that. from Transcendent, I can assure you that we have already initiated the accounts already under an open dispute, and the investigation will be completed by the 2nd of September. Okay, and see post after this call you will receive a mother guarding a short survey guarding a call conversation. And in future see we have a website, servicetartransunion.com, where you can use all the functions like freeze, fraud, alert, dispute, view, the credit report. All right, so thank you for your time and thank you for calling TransUnion. Have a great day ahead and take care of yourself, Ashwini. Okay, thank you. No, no, no, I don't want it. Are they still there?
+
+## Chapter 3 (30:00 to 40:00)
+
+[33:30](https://fathom.video/calls/783153890?timestamp=2010) Alan Nguyen: well.
+[33:31](https://fathom.video/calls/783153890?timestamp=2011) Ina Grace Langub: Oh, hello. Sorry.
+[33:35](https://fathom.video/calls/783153890?timestamp=2015) Alan Nguyen: Are you great?
+[33:35](https://fathom.video/calls/783153890?timestamp=2015) Ina Grace Langub: Wait a minute.
+[33:38](https://fathom.video/calls/783153890?timestamp=2018) Alan Nguyen: I mean, you did a great job of staying in the pocket.
+[33:40](https://fathom.video/calls/783153890?timestamp=2020) Ina Grace Langub: Like, you were...
+[33:41](https://fathom.video/calls/783153890?timestamp=2021) Alan Nguyen: Why are you there? I just joined a few minutes ago.
+[33:48](https://fathom.video/calls/783153890?timestamp=2028) Ina Grace Langub: Oh, really? Did they see you?
+[33:50](https://fathom.video/calls/783153890?timestamp=2030) Alan Nguyen: Oh, really? I'll say, like, you did a good job of, like, being tenacious. Like, you probably fought. You fought a lot harder than, I guess I... I thought you were going to fight for it. Like, sometimes it's just like, I mean, I'm sure that you know, sometimes like when, like, when you go back and forth more than like two to three times, anything beyond that is just kind of wasting your time. Just because like, if they're not going to move it through, they're not going to move it through. I mean, it is what it is. But how about you give me a status update on what Bureau of what this was, and then what the status on his profile is so far?
+[34:27](https://fathom.video/calls/783153890?timestamp=2067) Ina Grace Langub: . there is no hard inquiries now in the Ashwanae's account, Transidian account.
+[34:36](https://fathom.video/calls/783153890?timestamp=2076) Alan Nguyen: Okay, that's a great win. How many is that? One, two, three, four, five.
+[34:40](https://fathom.video/calls/783153890?timestamp=2080) Ina Grace Langub: two, three, four, five. I don't know what. Sorry. One, two, three, four, five, six, seven, eight hard inquiries. And one late females. One, two, three, four, five. Five are under. Are under dispute.
+[35:02](https://fathom.video/calls/783153890?timestamp=2102) Alan Nguyen: And you've been removed?
+[35:04](https://fathom.video/calls/783153890?timestamp=2104) Ina Grace Langub: the dispute was started on August 5th and April 2nd to September 2nd.
+[35:11](https://fathom.video/calls/783153890?timestamp=2111) Alan Nguyen: So five still pending. Is the Affirm, is that one removed? The late payment?
+[35:15](https://fathom.video/calls/783153890?timestamp=2115) Ina Grace Langub: The Affirm.
+[35:17](https://fathom.video/calls/783153890?timestamp=2117) Alan Nguyen: Affirm INC. Okay, awesome. Wonderful. Let's get great results. So what we're going to do, great job. So that's a win, right? We're going to send that to the client, let them know exactly that. that's positive, right? We're moving in a positive direction. So since they're not pushing forward, my question is, because I didn't hear the beginning of the call, did you mention that it's related to data breaches and identity theft at all? Because I heard you, what was that? Well, I was just asking, did you mention at all that is related to data breaches and identity theft at all? Because. I didn't hear the beginning, but all I did hear was you kept going back to the law versus the, like, date of you should not end the theft. So, like.
+[36:14](https://fathom.video/calls/783153890?timestamp=2174) Ina Grace Langub: I was, sorry, I was mentioned that I did re, I did submit the documents and the FTC to support the claim that this, this accounts are. Yes, understood. Or, it's a result of fraud and identity theft. Yep. But, you know, they did initiate the block, but they don't have any, you know, control because the creditor is the one to decide.
+[36:48](https://fathom.video/calls/783153890?timestamp=2208) Alan Nguyen: it's, it's an interesting thing because when they say the creditors come back, it's not that, it's not that someone's at the institution saying, oh, this is true. No, that's not how it works. You're, they. You're familiar with the EOSCAR metric two system, or no? Anyways, it doesn't matter. The point is, there's an automated system where computers talk to computers, where TransUnion sends out a signal and says, hey, is this him? And then they'll send back and look at, oh, it's the same name or whatever it is. Yes. And that's their method of validation, which isn't like a legitimate one, but that's how the systems work. Long story short, what we want to do is TransUnion, we're going to close out this dispute and send in another, more documentation. Do you have in front of you, by the way, good job, you were doing your job, and you're fighting hard. Honestly, like, probably fighting harder than you need, just so you know. Appreciate you, like, being willing to really, like, go after it. But, like, also, you know. we'll work together on that, just so, like, you you'll kind of get what I'm saying. But, okay, so where are we? have you, do you have the dispute up that was sent on behalf of Ashwini?
+[38:21](https://fathom.video/calls/783153890?timestamp=2301) Ina Grace Langub: I didn't file a dispute yet.
+[38:25](https://fathom.video/calls/783153890?timestamp=2305) Alan Nguyen: I know you didn't file a dispute, but do you have the dispute that we filed?
+[38:33](https://fathom.video/calls/783153890?timestamp=2313) Ina Grace Langub: What do you mean, the documents, the affidavit? Is that what you mean?
+[38:36](https://fathom.video/calls/783153890?timestamp=2316) Alan Nguyen: that's what, that's part of it, but the documentation that we sent in. So, okay, nice, you have the credit report, that's good. And then there should be one other doc, oh, here we go. so, can you go up to the top?
+[38:52](https://fathom.video/calls/783153890?timestamp=2332) Ina Grace Langub: I think this is an echo box. Here is the transunion.
+[39:00](https://fathom.video/calls/783153890?timestamp=2340) Alan Nguyen: Okay, awesome. So you have it in the front. That's good. Well, you have it pulled up. And what about the other items? we hear about the names or the phone numbers or anything else mentioned?
+[39:16](https://fathom.video/calls/783153890?timestamp=2356) Ina Grace Langub: Oh, I didn't. I'm sorry. I didn't mention the phone number.
+[39:21](https://fathom.video/calls/783153890?timestamp=2361) Alan Nguyen: It's okay. Those are so minor because we need to do those so quick.
+[39:24](https://fathom.video/calls/783153890?timestamp=2364) Ina Grace Langub: I think it's already been disputed, this, you know, personal information.
+[39:30](https://fathom.video/calls/783153890?timestamp=2370) Alan Nguyen: Okay. We can figure out confirmation later through the chatbot or whatever. But, okay, one out of six police officers, highway patrol trying to meet across the highway. Okay, so what was I going to say? How are his other bureaus?
+
+## Chapter 4 (40:00 to 50:00)
+
+[40:06](https://fathom.video/calls/783153890?timestamp=2406) Ina Grace Langub: What? How?
+[40:07](https://fathom.video/calls/783153890?timestamp=2407) Alan Nguyen: The other bureaus for him. So we have TransUnion, great win.
+[40:13](https://fathom.video/calls/783153890?timestamp=2413) Ina Grace Langub: All right. I did call the Equifax. I used the text verified, and I'm unable to receive the code.
+[40:27](https://fathom.video/calls/783153890?timestamp=2427) Alan Nguyen: Oh, sorry. Hold on. It's not on me. It could be my side, the signal. Okay. Try saying something now?
+[40:40](https://fathom.video/calls/783153890?timestamp=2440) Ina Grace Langub: I'm unable to receive a code via text verified, so I undergo the security questions. And there is no credit, I think. There is no credit report in Equifax, I think. I only found Experian and TransUnion.
+[41:07](https://fathom.video/calls/783153890?timestamp=2467) Alan Nguyen: So I use TransUnion credit report since it is, you know, the same. Equifax does not allow you to print one. So you did the right thing. So everything that was challenged on the dispute, that's going to be straight from Equifax specifically. We just don't have a report because you can't print a report for it.
+[41:29](https://fathom.video/calls/783153890?timestamp=2489) Ina Grace Langub: . I will call it tomorrow. I think I need to open the email account of Ashwini. I don't think if I can open the Gmail, I didn't try. But we can give the email and send the code there to pass the security question. Hello. I think that is...
+[42:00](https://fathom.video/calls/783153890?timestamp=2520) Alan Nguyen: Sorry, I went under a bridge. didn't hear anything you said besides, one, didn't hear if, was Equifax called at all today? Like, did we get through the Equifax? Did we talk to a human on Equifax? Like, yes or no?
+[42:17](https://fathom.video/calls/783153890?timestamp=2537) Ina Grace Langub: I talked to the agent.
+[42:20](https://fathom.video/calls/783153890?timestamp=2540) Alan Nguyen: Okay, and then what did they say? What was the result of that?
+[42:24](https://fathom.video/calls/783153890?timestamp=2544) Ina Grace Langub: They did not automatically give you the information without security question. since I, it's different from the TransUnion.
+[42:38](https://fathom.video/calls/783153890?timestamp=2558) Alan Nguyen: Understood. What questions did they ask you?
+[42:42](https://fathom.video/calls/783153890?timestamp=2562) Ina Grace Langub: it's about a mortgage, a student loan. I think it's six questions. but, we can use the email. We can use the email of Ashwini to get the code. I didn't try it a while ago.
+[43:03](https://fathom.video/calls/783153890?timestamp=2583) Alan Nguyen: Got it.
+[43:04](https://fathom.video/calls/783153890?timestamp=2584) Ina Grace Langub: But I can do the secretive question.
+[43:10](https://fathom.video/calls/783153890?timestamp=2590) Alan Nguyen: Got it. then, okay, so what happened there? Did you just fail the secretive questions because you didn't have the report? And then was it not on TransUnion, or what happened there?
+[43:21](https://fathom.video/calls/783153890?timestamp=2601) Ina Grace Langub: Yes, I failed the secretive questions in Equifax, and I called it tomorrow.
+[43:27](https://fathom.video/calls/783153890?timestamp=2607) Alan Nguyen: Understood. I'm just curious, like, did you try, like,-F on TransUnion, or did you just not have the TransUnion report pulled up at the time?
+[43:36](https://fathom.video/calls/783153890?timestamp=2616) Ina Grace Langub: There is a credit report in TransUnion, I Control-F, and find a mortgage student loans. I did answer the questions, but, you know, there are some questions that I, that it's confusing.
+[43:50](https://fathom.video/calls/783153890?timestamp=2630) Alan Nguyen: Okay, what were those specifically, just so I can best help?
+[43:54](https://fathom.video/calls/783153890?timestamp=2634) Ina Grace Langub: The student loan, the mortgage. The balance, the monthly payment. That's it.
+[44:04](https://fathom.video/calls/783153890?timestamp=2644) Alan Nguyen: . And it just was not on TransUnion?
+[44:09](https://fathom.video/calls/783153890?timestamp=2649) Ina Grace Langub: There is, but I didn't see any open student loan in 2017 because I only saw the 2026, 2023. There's no 2027.
+[44:29](https://fathom.video/calls/783153890?timestamp=2669) Alan Nguyen: So I answered it, none of the above. Do you have a recording of the call?
+[44:38](https://fathom.video/calls/783153890?timestamp=2678) Ina Grace Langub: . Why? . I do have.
+[44:41](https://fathom.video/calls/783153890?timestamp=2681) Alan Nguyen: Awesome. Something that I want you to do for tomorrow is if you have the recording, just find a clip of it, right? And then just write down the same exact questions they asked you and then go into the Equifax portal. Look at his Equifax accounts. It's not going to show you a PDF, but you can manually go in there and then look for his loans, right, under his accounts, and then they'll tell you there. Does that make sense?
+[45:09](https://fathom.video/calls/783153890?timestamp=2709) Ina Grace Langub: Okay.
+[45:11](https://fathom.video/calls/783153890?timestamp=2711) Alan Nguyen: it'll just, like, obviously it'll take more time with the manual, but at least you'll see the exact information that Equifax has on him, because they might have information on him that other people don't, you know?
+[45:23](https://fathom.video/calls/783153890?timestamp=2723) Ina Grace Langub: . .
+[45:25](https://fathom.video/calls/783153890?timestamp=2725) Alan Nguyen: So, all right, we're going to open the Equifax tomorrow, Equifax account. log in and check. do you need me to write that down, or do you have it written down, just so we don't forget for tomorrow?
+[45:39](https://fathom.video/calls/783153890?timestamp=2739) Ina Grace Langub: I already put it on the Dispute Tracker in Notion.
+[45:47](https://fathom.video/calls/783153890?timestamp=2747) Lynn N.: Also, can you put the links to your, the videos that you recorded into Notion as well?
+[45:54](https://fathom.video/calls/783153890?timestamp=2754) Alan Nguyen: All right. Oh, she, okay, got it.
+[45:57](https://fathom.video/calls/783153890?timestamp=2757) Lynn N.: dispute call.
+[45:59](https://fathom.video/calls/783153890?timestamp=2759) Alan Nguyen: That'd be wonderful.
+[46:01](https://fathom.video/calls/783153890?timestamp=2761) Lynn N.: because they have a section there for it. They just need to link it, link the video.
+[46:07](https://fathom.video/calls/783153890?timestamp=2767) Alan Nguyen: Sweet. Thanks for setting it up, Lynn.
+[46:10](https://fathom.video/calls/783153890?timestamp=2770) Lynn N.: no problem.
+[46:13](https://fathom.video/calls/783153890?timestamp=2773) Alan Nguyen: Okay. Awesome. Okay, so things are getting smoother. That's good. That's good. And then also, I'm assuming since it's going to be like a long-form video, Grace, can you, whatever timestamp it is, can you just like type the timestamp in there as well too? Like, hey, this happens at this time, and just do a little brief one-line explanation, one or two lines.
+[46:39](https://fathom.video/calls/783153890?timestamp=2799) Ina Grace Langub: What? Time spot?
+[46:42](https://fathom.video/calls/783153890?timestamp=2802) Alan Nguyen: like, for example, like, let's say you had a Fathom upload, right? You send the link and be like, hey, look, I talked about the security questions at 43 minutes, 72 seconds, or 43 minutes, 27 seconds or whatever, right?
+[46:56](https://fathom.video/calls/783153890?timestamp=2816) Ina Grace Langub: I think there is a call history. They're in Grossoffer.
+[47:03](https://fathom.video/calls/783153890?timestamp=2823) Alan Nguyen: . But they don't have the reporting.
+[47:08](https://fathom.video/calls/783153890?timestamp=2828) Ina Grace Langub: It's 23 minutes and 40-50%.
+[47:13](https://fathom.video/calls/783153890?timestamp=2833) Alan Nguyen: Right. Well, understood. Well, right now we're talking about the recording, right?
+[47:20](https://fathom.video/calls/783153890?timestamp=2840) Ina Grace Langub: So let's say, like, because the recording's on Fathom, right? . Here.
+[47:26](https://fathom.video/calls/783153890?timestamp=2846) Alan Nguyen: . . So what we're going to have do is we're going to go to Fathom after the call ends, and it's going to send us a link.
+[47:33](https://fathom.video/calls/783153890?timestamp=2853) Ina Grace Langub: Do you know how to use Fathom? this is my first time. Okay.
+[47:40](https://fathom.video/calls/783153890?timestamp=2860) Alan Nguyen: .
+[47:40](https://fathom.video/calls/783153890?timestamp=2860) Ina Grace Langub: I, I think I, I can learn it. Well.
+[47:46](https://fathom.video/calls/783153890?timestamp=2866) Alan Nguyen: So here's the thing, too. Like, I just want to be clear. So, like, obviously, there's, there's things that, I have not taught you, right? And that's on me, right? And I'm okay. Teaching you if you need to be taught, that's fine. I appreciate you being willing to learn on your own. That's great too. I just want to be clear that if there's something that you're having troubles with learning, even though I know I haven't been super available, I still would like you to ask me if you're unable to do it on your own, just so that I know that I was able to teach you in an area that you needed help. Does that make sense? Yes. If you needed help and you weren't able to figure it out on your own, I just want you to know that that's still there for you. But so Fathom is super simple. Once you're done, it'll...
+[48:52](https://fathom.video/calls/783153890?timestamp=2932) Lynn N.: I can show an example as well.
+[48:56](https://fathom.video/calls/783153890?timestamp=2936) Alan Nguyen: Awesome. I mean, even if you did it right now, if you pressed end, you just... Go to fathom.video as the URL, I've been typing in the bar here. I have it linked in there, Notion, too, the link to Fathom. Okay, perfect. Perfect. And then we could do a loom or something if you need it, right, for that. But you should be pretty sure. And then you just basically copy the link. It's going to have a recording of the call. So the 23 minutes, or well, like, right now, I don't know how long have you been, how long have you two been in a Zoom together?
+[49:34](https://fathom.video/calls/783153890?timestamp=2974) Lynn N.: Like, an hour or two hours? A little over, like, about 105 minutes.
+[49:41](https://fathom.video/calls/783153890?timestamp=2981) Alan Nguyen: Okay. So you see, Grace, your fathom recording is going to be an hour, or sorry, 105 minutes, right? An hour and a half or whatever it is. Does that make sense, Grace? And then in that hour and a half or so, 105 minutes, you're going to have... At some point in that call, where you actually made the call to Equifax, and then went through the security questions, we just need to find that part, and you'll be able to look back, right, and be like, okay, hey, look, on my 105-minute call, at the 30-minute mark, or the 20-minute mark, 40-minute mark, whatever it was, we talked about this, and then you just put that number in there. Does that make sense?
+
+## Chapter 5 (50:00 to 1:00:00)
+
+[50:28](https://fathom.video/calls/783153890?timestamp=3028) Lynn N.: I'll record a loom as well, for them.
+[50:34](https://fathom.video/calls/783153890?timestamp=3034) Alan Nguyen: Grace, I think you made it.
+[50:36](https://fathom.video/calls/783153890?timestamp=3036) Ina Grace Langub: . I'm there.
+[50:39](https://fathom.video/calls/783153890?timestamp=3039) Alan Nguyen: did you, you, did you hear what I, what I said, or? we heard you. Okay, Grace, can we just get confirmation that you understand what, what was just relayed?
+[50:54](https://fathom.video/calls/783153890?timestamp=3054) Ina Grace Langub: I'm processing.
+[50:58](https://fathom.video/calls/783153890?timestamp=3058) Alan Nguyen: Ouch.
+[51:00](https://fathom.video/calls/783153890?timestamp=3060) Ina Grace Langub: Should I put the link on the, the notion?
+[51:07](https://fathom.video/calls/783153890?timestamp=3067) Alan Nguyen: Yes. Every step one.
+[51:09](https://fathom.video/calls/783153890?timestamp=3069) Ina Grace Langub: Yes. . And put some, what's it then?
+[51:14](https://fathom.video/calls/783153890?timestamp=3074) Alan Nguyen: Timestamp. Here, let me, I'll share my screen. And then let me know.
+[51:20](https://fathom.video/calls/783153890?timestamp=3080) Ina Grace Langub: Oh, so we're going to put the time like that, 3, 11.
+[51:24](https://fathom.video/calls/783153890?timestamp=3084) Alan Nguyen: whenever it is. Let me know when you can see my screen. I'll show you. It'll be really easy if I just.
+[51:29](https://fathom.video/calls/783153890?timestamp=3089) Ina Grace Langub: I see it.
+[51:31](https://fathom.video/calls/783153890?timestamp=3091) Alan Nguyen: Okay, awesome. So whenever you're done, go to fathom.video, just like that, press enter, and it's going to load, and then let's say you're going to go to a call, right? Like, click on this call, because the last call that you had would be your first one, and then it's going to load fathom like this, right? You see this?
+[51:54](https://fathom.video/calls/783153890?timestamp=3114) Ina Grace Langub: Yes.
+[51:56](https://fathom.video/calls/783153890?timestamp=3116) Alan Nguyen: Okay, awesome.
+[51:57](https://fathom.video/calls/783153890?timestamp=3117) Ina Grace Langub: Thank you for the Okay. So. So I will get up, like, where is the security question? What time is the security question?
+[52:09](https://fathom.video/calls/783153890?timestamp=3129) Alan Nguyen: Exactly, exactly. so it'll be like, okay, here, look, it's about this time, and then that is, right, 57 minutes, 50 seconds. Boom. And then you'll just say, okay, at 50, around 57.50, we talked about the security questions.
+[52:25](https://fathom.video/calls/783153890?timestamp=3145) Ina Grace Langub: Okay. All right, I get it.
+[52:28](https://fathom.video/calls/783153890?timestamp=3148) Alan Nguyen: Yep, and then this will make it easy, too. Sometimes you can just jump around, like, okay, oh, security questions right here. Boom. Click on this, and it'll jump right to that part. You see that? Anything that you click on here is a hyperlink. No show rate. You see that? I press down here, and it jumped all the way there. Grace?
+[52:53](https://fathom.video/calls/783153890?timestamp=3173) Ina Grace Langub: . I'm following.
+[52:55](https://fathom.video/calls/783153890?timestamp=3175) Alan Nguyen: Okay, it just, it just helps me understand. That you understand, if I just hear, like, you say yes, because if I say something and you don't say anything, it makes me, like, think, did you hear me?
+[53:07](https://fathom.video/calls/783153890?timestamp=3187) Ina Grace Langub: . Okay.
+[53:10](https://fathom.video/calls/783153890?timestamp=3190) Alan Nguyen: Okay, awesome. All right, so what questions do have for me about this?
+[53:16](https://fathom.video/calls/783153890?timestamp=3196) Ina Grace Langub: All clear.
+[53:18](https://fathom.video/calls/783153890?timestamp=3198) Alan Nguyen: Okay, awesome. So just to recap, right, let's say I'm, like, brand new, I don't know anything about this, right, and then now you're responsible for teaching me how to do this, what am I supposed to do with the Fathom link? Like, like, let's, let's say I just called up the bureaus, right, I called up, you know, Equifax, and then I had an important part that I got stuck on, like, the, not getting through, like, they're not being able to pass security questions, right, and then now I have my Fathom call finished, what do I do with that link to that Fathom?
+[53:58](https://fathom.video/calls/783153890?timestamp=3238) Ina Grace Langub: We'll put it on. The notion.
+[54:02](https://fathom.video/calls/783153890?timestamp=3242) Alan Nguyen: Exactly, exactly. And then what?
+[54:11](https://fathom.video/calls/783153890?timestamp=3251) Ina Grace Langub: And then spot the time where we talk about the secret questions.
+[54:25](https://fathom.video/calls/783153890?timestamp=3265) Alan Nguyen: Awesome. Yep. And then where do we put that time? When we find the time, what do we do with that?
+[54:36](https://fathom.video/calls/783153890?timestamp=3276) Ina Grace Langub: Where would I? Where should I put? Sorry.
+[54:40](https://fathom.video/calls/783153890?timestamp=3280) Alan Nguyen: you just type it up in Notion, right?
+[54:41](https://fathom.video/calls/783153890?timestamp=3281) Ina Grace Langub: All right, you will type the notion.
+[54:44](https://fathom.video/calls/783153890?timestamp=3284) Alan Nguyen: . Because then you'll see, okay, click on this link at this timestamp, you'll be here talking about, you know, whatever happened, right? Like the security questions. Make sense?
+[55:00](https://fathom.video/calls/783153890?timestamp=3300) Ina Grace Langub: .
+[55:01](https://fathom.video/calls/783153890?timestamp=3301) Alan Nguyen: Okay, awesome. And then after we do the timestamp, after we do the link, and then the timestamp in Notion, what are we going to write underneath that in Notion?
+[55:18](https://fathom.video/calls/783153890?timestamp=3318) Ina Grace Langub: About the call? Like, experience call? Security question call?
+[55:24](https://fathom.video/calls/783153890?timestamp=3324) Alan Nguyen: Exactly. Yep. Like, this timestamp at this link, 40-whatever, this is about, you know.
+[55:30](https://fathom.video/calls/783153890?timestamp=3330) Ina Grace Langub: Oh, all right. So this timestamp, I'm going to put a amount of time?
+[55:41](https://fathom.video/calls/783153890?timestamp=3341) Alan Nguyen: Well, that you just say, like, you don't have say the amount of time, as long as where it starts, or this. Be like, okay, I started talking about Experian, or sorry, Equifax, security questions, stuck on at this. Does that make sense?
+[55:54](https://fathom.video/calls/783153890?timestamp=3354) Ina Grace Langub: .
+[55:56](https://fathom.video/calls/783153890?timestamp=3356) Alan Nguyen: Okay, awesome. And then one last thing is when you are... Linking a Fathom, you cannot link it like this. You cannot copy this. It will not work. You have to go to the right and press the share button. You see that, Grace?
+[56:13](https://fathom.video/calls/783153890?timestamp=3373) Ina Grace Langub: . Share.
+[56:18](https://fathom.video/calls/783153890?timestamp=3378) Alan Nguyen: . So when you share a link with Fathom, are you using this URL up here, or do you use the button down here?
+[56:32](https://fathom.video/calls/783153890?timestamp=3392) Ina Grace Langub: Use the share.
+[56:34](https://fathom.video/calls/783153890?timestamp=3394) Alan Nguyen: Awesome. Sweet. Thank you. Okay. Sweet. Sounds like you got it. And then one last thing about the share is every time you press share, sometimes you want to look down here. You see how it says anyone with the link can view?
+[56:48](https://fathom.video/calls/783153890?timestamp=3408) Ina Grace Langub: All right. We'll set the anyone can link to view and then copy the link.
+[56:52](https://fathom.video/calls/783153890?timestamp=3412) Alan Nguyen: Exactly. Exactly. Because if it's like this, no one's going to be able to see it. Same as Google Drive. Okay, perfect. Okay, sweet. You got it. All right, awesome. I know at the end of the day for you two, any questions for me?
+[57:14](https://fathom.video/calls/783153890?timestamp=3434) Ina Grace Langub: I already installed the Terramind. and I already installed the Terramind, and I have trouble. Like, we tried it with Ms. Lynn. Is Ms. Lynn here? Oh.
+[57:38](https://fathom.video/calls/783153890?timestamp=3458) Alan Nguyen: She might be away. Not sure.
+[57:40](https://fathom.video/calls/783153890?timestamp=3460) Ina Grace Langub: Okay.
+[57:41](https://fathom.video/calls/783153890?timestamp=3461) Alan Nguyen: But you said you tried it, and then, oh you tried to log in. You're not supposed to be able to log in, but did you at least download it and install it?
+[57:47](https://fathom.video/calls/783153890?timestamp=3467) Ina Grace Langub: I already installed it, and I did log in at first. . I don't know what happened.
+[58:01](https://fathom.video/calls/783153890?timestamp=3481) Alan Nguyen: so you're not supposed to be able to log, like, you might log in for the first time to be able to download it and be able to start your account, but you won't be able to actually log into the portal. So that's normal. So actually, I see you here on my side. Oh, wait, Grace, I see you in the portal on our side. That is good. And then did Lynn show you how to start that and then stop it? Like clocking clock out, basically?
+[58:32](https://fathom.video/calls/783153890?timestamp=3512) Ina Grace Langub: . I tried to uninstall it and install it again.
+[58:40](https://fathom.video/calls/783153890?timestamp=3520) Alan Nguyen: And then what happened after that?
+[58:44](https://fathom.video/calls/783153890?timestamp=3524) Ina Grace Langub: I don't know how to install it. I tried to install it. I tried to uninstall it, but I didn't know what next. I will get help to my friend. Yep, you installed it, correct? .
+[59:06](https://fathom.video/calls/783153890?timestamp=3546) Alan Nguyen: Okay, so then what happens when you search on your computer, like Windows Search Terabind, does it come up?
+[59:15](https://fathom.video/calls/783153890?timestamp=3555) Ina Grace Langub: it does.
+[59:17](https://fathom.video/calls/783153890?timestamp=3557) Alan Nguyen: Okay, so launch the application and then tell me what you see.
+[59:22](https://fathom.video/calls/783153890?timestamp=3562) Ina Grace Langub: Okay, we'll share it.
+[59:24](https://fathom.video/calls/783153890?timestamp=3564) Alan Nguyen: Sure.
+[59:31](https://fathom.video/calls/783153890?timestamp=3571) Ina Grace Langub: Okay.
+[59:45](https://fathom.video/calls/783153890?timestamp=3585) Alan Nguyen: Oh, there you go. .
+[59:54](https://fathom.video/calls/783153890?timestamp=3594) Ina Grace Langub: and after that, there's nothing happened.
+[59:57](https://fathom.video/calls/783153890?timestamp=3597) Alan Nguyen: Nothing. Is it in the taskbar in the bottom right? Like if you open up the arrow, in the bottom right, you say there's an arrow up right next to Google Chrome on your taskbar, the very bottom.
+
+## Chapter 6 (1:00:00 to 1:10:00)
+
+[1:00:14](https://fathom.video/calls/783153890?timestamp=3614) Ina Grace Langub: Here?
+[1:00:15](https://fathom.video/calls/783153890?timestamp=3615) Alan Nguyen: Right, right, right, right, the very to the right. 5 plus, no, no, no, not the window, we're not opening up the window anymore. Here, how do I mark this?
+[1:00:28](https://fathom.video/calls/783153890?timestamp=3628) Ina Grace Langub: That's right here.
+[1:00:29](https://fathom.video/calls/783153890?timestamp=3629) Alan Nguyen: Right here? This arrow right here? Can see me drawing on your screen? In the bottom right?
+[1:00:36](https://fathom.video/calls/783153890?timestamp=3636) Ina Grace Langub: No, no, no. Here?
+[1:00:37](https://fathom.video/calls/783153890?timestamp=3637) Alan Nguyen: Oh, you see that arrow? Awesome.
+[1:00:42](https://fathom.video/calls/783153890?timestamp=3642) Ina Grace Langub: Here, here?
+[1:00:43](https://fathom.video/calls/783153890?timestamp=3643) Alan Nguyen: Is there a Territmine agent there at all, or no?
+[1:00:49](https://fathom.video/calls/783153890?timestamp=3649) Ina Grace Langub: I didn't see it. Here?
+[1:00:55](https://fathom.video/calls/783153890?timestamp=3655) Alan Nguyen: it does not look like it's properly installed. And then where's the... Download. Can you go to your downloads folder?
+[1:01:08](https://fathom.video/calls/783153890?timestamp=3668) Ina Grace Langub: Download. I delete it.
+[1:01:12](https://fathom.video/calls/783153890?timestamp=3672) Alan Nguyen: Oh, check your trash?
+[1:01:14](https://fathom.video/calls/783153890?timestamp=3674) Ina Grace Langub: Sorry, wait a minute. Sarah, can I allocate it? File, application, here.
+[1:01:29](https://fathom.video/calls/783153890?timestamp=3689) Alan Nguyen: . Are you able to check your trash can?
+[1:01:33](https://fathom.video/calls/783153890?timestamp=3693) Ina Grace Langub: Your recycling bin? Okay.
+[1:01:37](https://fathom.video/calls/783153890?timestamp=3697) Alan Nguyen: You said you deleted it, right? So it be in your recycling bin. In your top left? right there. Boom.
+[1:01:44](https://fathom.video/calls/783153890?timestamp=3704) Ina Grace Langub: Here. A lot.
+[1:01:48](https://fathom.video/calls/783153890?timestamp=3708) Alan Nguyen: Yep. And then it should be probably a tear of mine in there. Yep. So then just release one of those. Right click or something.
+[1:01:56](https://fathom.video/calls/783153890?timestamp=3716) Ina Grace Langub: Here?
+[1:01:57](https://fathom.video/calls/783153890?timestamp=3717) Alan Nguyen: . Or you just... Right click, or drag it to your computer, either one.
+[1:02:05](https://fathom.video/calls/783153890?timestamp=3725) Ina Grace Langub: Restore.
+[1:02:07](https://fathom.video/calls/783153890?timestamp=3727) Alan Nguyen: Exactly. Perfect.
+[1:02:11](https://fathom.video/calls/783153890?timestamp=3731) Ina Grace Langub: Continue.
+[1:02:18](https://fathom.video/calls/783153890?timestamp=3738) Alan Nguyen: And then you got this from the link that I sent you, right?
+[1:02:23](https://fathom.video/calls/783153890?timestamp=3743) Ina Grace Langub: . And then here?
+[1:02:26](https://fathom.video/calls/783153890?timestamp=3746) Alan Nguyen: And then, it's gonna be in your downloads. Downloads.
+[1:02:31](https://fathom.video/calls/783153890?timestamp=3751) Ina Grace Langub: Downloads. Oh, there's no here. Oh, wait.
+[1:02:49](https://fathom.video/calls/783153890?timestamp=3769) Alan Nguyen: Stop it. Or is it here? Can I, let me see if I'm- Control your screen.
+[1:03:01](https://fathom.video/calls/783153890?timestamp=3781) Ina Grace Langub: Okay.
+[1:03:13](https://fathom.video/calls/783153890?timestamp=3793) Alan Nguyen: All right. Request remote control. Awesome. Thank you. First, we're to do this.
+[1:03:42](https://fathom.video/calls/783153890?timestamp=3822) Ina Grace Langub: Second.
+[1:03:47](https://fathom.video/calls/783153890?timestamp=3827) Alan Nguyen: Great. . Just let it do its thing.
+[1:03:58](https://fathom.video/calls/783153890?timestamp=3838) Ina Grace Langub: That's all.
+[1:04:00](https://fathom.video/calls/783153890?timestamp=3840) Alan Nguyen: Interesting. I think, Grace, we've to get you a new computer. Maybe that'll be one of your incentives. Get you a new laptop.
+[1:04:18](https://fathom.video/calls/783153890?timestamp=3858) Ina Grace Langub: Or this is a laptop.
+[1:04:20](https://fathom.video/calls/783153890?timestamp=3860) Alan Nguyen: Is it a laptop or a desktop?
+[1:04:23](https://fathom.video/calls/783153890?timestamp=3863) Ina Grace Langub: It's a laptop. This is my first laptop.
+[1:04:28](https://fathom.video/calls/783153890?timestamp=3868) Alan Nguyen: Okay, nice. When did you get it?
+[1:04:33](https://fathom.video/calls/783153890?timestamp=3873) Ina Grace Langub: My friend. This is just a second hand.
+[1:04:36](https://fathom.video/calls/783153890?timestamp=3876) Alan Nguyen: Oh, for sure.
+[1:04:37](https://fathom.video/calls/783153890?timestamp=3877) Ina Grace Langub: When I started VA before.
+[1:04:40](https://fathom.video/calls/783153890?timestamp=3880) Alan Nguyen: When you started the, what, before?
+[1:04:43](https://fathom.video/calls/783153890?timestamp=3883) Ina Grace Langub: VA.
+[1:04:44](https://fathom.video/calls/783153890?timestamp=3884) Alan Nguyen: Okay, nice. How many years have you had this for?
+[1:04:48](https://fathom.video/calls/783153890?timestamp=3888) Ina Grace Langub: I think, this laptop is almost three years from now.
+[1:04:55](https://fathom.video/calls/783153890?timestamp=3895) Alan Nguyen: Okay, got it.
+[1:04:58](https://fathom.video/calls/783153890?timestamp=3898) Ina Grace Langub: maybe we can work towards it. we all have a lot of memories here.
+[1:05:04](https://fathom.video/calls/783153890?timestamp=3904) Alan Nguyen: Got it. if we could wrap a new laptop into, like, an incentive program for you, would you be interested in that?
+[1:05:17](https://fathom.video/calls/783153890?timestamp=3917) Ina Grace Langub: What?
+[1:05:19](https://fathom.video/calls/783153890?timestamp=3919) Alan Nguyen: Like, if we, how do say this? Like, if we, like, if we're able to work together, where you're able to hit the KPIs, and you're just like, you you're doing good work and stuff like that, it's kind of like a bonus, right? Like, would you, would you be open to, would you like a new laptop? Knowing that right now, it seems like...
+[1:05:40](https://fathom.video/calls/783153890?timestamp=3940) Ina Grace Langub: Oh, my God. Oh.
+[1:05:46](https://fathom.video/calls/783153890?timestamp=3946) Alan Nguyen: Okay, awesome. just because, I can see that this is probably going to be a bottleneck to your ability to do work, because, like, right now, I'm just trying to do very basic things, and it's, like, very slow. but I mean, it's still good, which is good.
+[1:06:05](https://fathom.video/calls/783153890?timestamp=3965) Ina Grace Langub: All it's okay, we're gonna, help me, I'm gonna help to my friend about this one. He's an IT student. .
+[1:06:18](https://fathom.video/calls/783153890?timestamp=3978) Alan Nguyen: Awesome. Cool. The app you're trying to install is not, okay, change recommendations. I mean, this is the problem right here. Change app recommendation settings. And we're gonna have to allow, I'm assuming. There. it, warn me. .
+[1:06:59](https://fathom.video/calls/783153890?timestamp=4019) Ina Grace Langub: Those. Do I sound male in a Zoom or not?
+[1:07:04](https://fathom.video/calls/783153890?timestamp=4024) Alan Nguyen: No.
+[1:07:05](https://fathom.video/calls/783153890?timestamp=4025) Ina Grace Langub: Okay. Oh. Yes. Begin installation. Did you see?
+[1:07:56](https://fathom.video/calls/783153890?timestamp=4076) Alan Nguyen: . Perfect. Yep. So it looks like the only thing that was blocking it was that... Since it wasn't coming from directly the Microsoft Store, by default, you know, I won't let you allow it unless you say that you're going to allow yourself to do it. But I still, kept a safety thing in there, so it still gives you a warning.
+[1:08:17](https://fathom.video/calls/783153890?timestamp=4097) Ina Grace Langub: Installation failed. Same version of HN is already installed.
+[1:08:23](https://fathom.video/calls/783153890?timestamp=4103) Alan Nguyen: Interesting. Okay, so let's uninstall it and reinstall it, because now we have the permissions. And then we're going to go, remove, remove, oh jeez, Grace, I feel, I feel for you with this, with this feed, with the, oh, do you do music? Ultimate, ultimate, vocal remover. I have that same application.
+[1:09:00](https://fathom.video/calls/783153890?timestamp=4140) Ina Grace Langub: I don't know, don't use that tool, the blocker remover.
+[1:09:06](https://fathom.video/calls/783153890?timestamp=4146) Alan Nguyen: On the computer?
+[1:09:08](https://fathom.video/calls/783153890?timestamp=4148) Ina Grace Langub: .
+[1:09:09](https://fathom.video/calls/783153890?timestamp=4149) Alan Nguyen: Got it. Cool. going on?
+[1:09:32](https://fathom.video/calls/783153890?timestamp=4172) Ina Grace Langub: Sorry.
+[1:09:37](https://fathom.video/calls/783153890?timestamp=4177) Alan Nguyen: We're just waiting for the load. Let me see this. Got 8 gigs of RAM, what are we looking at for the processor? We got i5-6200U, i5-6200U, 8 gigs of RAM. Okay.
+
+## Chapter 7 (1:10:00 to 1:20:00)
+
+[1:10:37](https://fathom.video/calls/783153890?timestamp=4237) Ina Grace Langub: are we all done now?
+[1:10:41](https://fathom.video/calls/783153890?timestamp=4241) Alan Nguyen: Oh, we're trying to, uninstall the program and reinstall it, but the window's not broken. Okay, well, I'll let you do this on, on your own time. I think, like, we removed the big block. The big block was this. So once you uninstall it, this time, it'll do a fresh uninstall, and then you're going to reinstall that application on your desktop, and then it's going to open up that Microsoft window, and then on the right side, you're going to click install on the right side, because now you'll be able to see that button.
+[1:11:15](https://fathom.video/calls/783153890?timestamp=4275) Ina Grace Langub: Okay. So we're going to uninstall it.
+[1:11:19](https://fathom.video/calls/783153890?timestamp=4279) Alan Nguyen: Oh, nice.
+[1:11:20](https://fathom.video/calls/783153890?timestamp=4280) Ina Grace Langub: Okay. Yep.
+[1:11:22](https://fathom.video/calls/783153890?timestamp=4282) Alan Nguyen: Uninstall and reinstall. Oh, it was open up. . Okay, sweet. Any questions for me?
+[1:11:29](https://fathom.video/calls/783153890?timestamp=4289) Ina Grace Langub: Not at all.
+[1:11:30](https://fathom.video/calls/783153890?timestamp=4290) Alan Nguyen: I'm all good. Okay. Awesome. Anything else that I can do for you to help make your job better or help make your job easier?
+[1:11:42](https://fathom.video/calls/783153890?timestamp=4302) Ina Grace Langub: I think there is a slow internet connection a while ago. I think Zoom and Fathom, it works. You don't need to, again. At ARC, they're RingCentral. But if you want to, you know, if you want to, to, what do you call it that one? If I wait, the call, I would suggest the RingCentral to you because there is, you know, a call there, a transcript and call, so you can monitor the call via RingCentral. But, I think Recepter is okay. Oh, never mind. Hello?
+[1:12:57](https://fathom.video/calls/783153890?timestamp=4377) Alan Nguyen: Hello. Hello? Hello? Hello?
+[1:13:03](https://fathom.video/calls/783153890?timestamp=4383) Ina Grace Langub: Oh, I'm here. Hello?
+[1:13:05](https://fathom.video/calls/783153890?timestamp=4385) Alan Nguyen: lost signal on my side. Driving through a parking garage.
+[1:13:12](https://fathom.video/calls/783153890?timestamp=4392) Ina Grace Langub: What?
+[1:13:15](https://fathom.video/calls/783153890?timestamp=4395) Alan Nguyen: Sorry, I didn't hear anything you said.
+[1:13:16](https://fathom.video/calls/783153890?timestamp=4396) Ina Grace Langub: I lost signal on my side. What were you saying? Oh. I think it's in my signal. Oh, I don't know. I think Zoom and Fathom, it really works on my end. I'm just... frustrated on the TerraMind a while ago because I don't know what happened.
+[1:13:48](https://fathom.video/calls/783153890?timestamp=4428) Alan Nguyen: But. it.
+[1:13:49](https://fathom.video/calls/783153890?timestamp=4429) Ina Grace Langub: Okay.
+[1:13:50](https://fathom.video/calls/783153890?timestamp=4430) Alan Nguyen: Awesome. Well, sweet. we should be able to get that done tonight. And then... . Any other questions, just bring it to your startup day tomorrow, and then we'll be able to get right at it. Sound good?
+[1:14:07](https://fathom.video/calls/783153890?timestamp=4447) Ina Grace Langub: Okay.
+[1:14:08](https://fathom.video/calls/783153890?timestamp=4448) Alan Nguyen: Sounds good. Thanks so much, Grace. I appreciate you. Thanks for, you know, sticking in there and staying with the TransUnion rep that wasn't really helpful.
+[1:14:18](https://fathom.video/calls/783153890?timestamp=4458) Ina Grace Langub: it's okay. That is, you know, I'm used to it.
+[1:14:24](https://fathom.video/calls/783153890?timestamp=4464) Alan Nguyen: . Well, okay. Awesome.
+[1:14:26](https://fathom.video/calls/783153890?timestamp=4466) Ina Grace Langub: Sometimes I end the call without saying goodbye.
+[1:14:30](https://fathom.video/calls/783153890?timestamp=4470) Alan Nguyen: I understand. A good thing is, though, that you got a win, a really good win. I think maybe we need to post, we need to make a group chat for that, where we're just posting, everyone's just posting their wins for the day in there. I think that'll help, like, lighten the spirit for things, too. so that was really great. So did you, I guess on that note, too, were you able to call Experian, or did you not have enough time for Ashwini's?
+[1:14:58](https://fathom.video/calls/783153890?timestamp=4498) Ina Grace Langub: I... I call the Experian for Ashwini, and they cannot be able to disclose the Hankook Whitney, I think, Hankook Whitney, cannot be able to disclose the 30 days.
+[1:15:21](https://fathom.video/calls/783153890?timestamp=4521) Alan Nguyen: Okay, what about everything else?
+[1:15:27](https://fathom.video/calls/783153890?timestamp=4527) Ina Grace Langub: But the VOVO, financial, it's already been deleted. Amazing. is the, I filed a dispute, no, no filing. I called it yesterday, in for business days, the VOVO, and right now I follow up, then I, then the credit bureau confirmed it, already been deleted.
+[1:15:56](https://fathom.video/calls/783153890?timestamp=4556) Alan Nguyen: Amazing, amazing. Okay, so for Experian specifically. And do you have this all written down as well, too?
+[1:16:04](https://fathom.video/calls/783153890?timestamp=4564) Ina Grace Langub: Sorry, what?
+[1:16:06](https://fathom.video/calls/783153890?timestamp=4566) Alan Nguyen: So I was just asking, do you have all this written down as well, too? We want to be writing this stuff down as we go. So if you get a win, write it.
+[1:16:13](https://fathom.video/calls/783153890?timestamp=4573) Ina Grace Langub: I already put all the updates in Notion under Ed's account. I already sent the dispute updates on Slack, too.
+[1:16:30](https://fathom.video/calls/783153890?timestamp=4590) Alan Nguyen: Oh, okay. Let me check my sign. Thank you for doing that. but I think that's the only one there is. Okay, what about inquiries or anything else? Or I guess I don't even know what was disputed on his account.
+[1:16:45](https://fathom.video/calls/783153890?timestamp=4605) Ina Grace Langub: I don't remember if I could look at it. There's no inquiries. Oh, there's inquiries. Wait.
+[1:16:55](https://fathom.video/calls/783153890?timestamp=4615) Alan Nguyen: Did you ask for the inquiries?
+[1:16:57](https://fathom.video/calls/783153890?timestamp=4617) Ina Grace Langub: Your remove are no longer showing them. there's no inquiries. Fathom now in Edwin Young-Q-Choy, this is the remaining inquiries, we're gonna check to the Notion, Notion, Notion, not loading, look at that, loading, if you have, can you just check to dispute staff grace, I put it under Ed's account.
+[1:18:01](https://fathom.video/calls/783153890?timestamp=4681) Alan Nguyen: I'm trying to figure out where his account is. We'll see. Dispute profile experience.
+[1:18:09](https://fathom.video/calls/783153890?timestamp=4689) Ina Grace Langub: can you just please share your screen? latest report.
+[1:18:12](https://fathom.video/calls/783153890?timestamp=4692) Alan Nguyen: Oh. Share, share, share.
+[1:18:32](https://fathom.video/calls/783153890?timestamp=4712) Ina Grace Langub: and dispute team. I don't know, and dispute staff grace.
+[1:18:43](https://fathom.video/calls/783153890?timestamp=4723) Alan Nguyen: Dispute staff grace. Dispute staff. This is the right place, right? Or no?
+[1:19:02](https://fathom.video/calls/783153890?timestamp=4742) Ina Grace Langub: Hello? at Team Studios, I think, in Team Studios.
+[1:19:09](https://fathom.video/calls/783153890?timestamp=4749) Alan Nguyen: Okay.
+[1:19:10](https://fathom.video/calls/783153890?timestamp=4750) Ina Grace Langub: Great. Okay, nice.
+[1:19:14](https://fathom.video/calls/783153890?timestamp=4754) Alan Nguyen: it's. should be, like, at the very top.
+[1:19:18](https://fathom.video/calls/783153890?timestamp=4758) Ina Grace Langub: Okay. Ian, Colleen, Ian Query's Experience. I'll take it.
+[1:19:26](https://fathom.video/calls/783153890?timestamp=4766) Alan Nguyen: I want to take these out to the top. I don't want to search for your two names, so I'm going take it out.
+[1:19:40](https://fathom.video/calls/783153890?timestamp=4780) Ina Grace Langub: Ian, if you can check the, the accounts and inquiries that has been removed, you can check it in A3 and A8, remove negative accounts and clean inquiries. You can open it. The items are there, and the updates of the bureau.
+
+## Chapter 8 (1:20:00 to 1:30:00)
+
+[1:20:15](https://fathom.video/calls/783153890?timestamp=4815) Alan Nguyen: I just feel like the notion is just too chunky. I can see how it can be organized, but like...
+[1:20:22](https://fathom.video/calls/783153890?timestamp=4822) Ina Grace Langub: that's how we feel. There's a lot also in our head when you see that Zoom.
+[1:20:32](https://fathom.video/calls/783153890?timestamp=4832) Alan Nguyen: Lynn was really pushing for it. I know Lynn was really pushing for the notion.
+[1:20:37](https://fathom.video/calls/783153890?timestamp=4837) Ina Grace Langub: Open.
+[1:20:37](https://fathom.video/calls/783153890?timestamp=4837) Alan Nguyen: Like, because of this, it's little bit slain, but anything that happens today, I just would rather we just get up to me specifically, or we put it in just updates, and I'm like, that's good enough. Like, don't, this isn't necessary.
+[1:20:53](https://fathom.video/calls/783153890?timestamp=4853) Ina Grace Langub: This is like, it's nice, but it's everything down on a point. Did didn't see it.
+[1:21:06](https://fathom.video/calls/783153890?timestamp=4866) Alan Nguyen: I didn't see, I didn't put yet to Ashwani. This is Ashwani?
+[1:21:32](https://fathom.video/calls/783153890?timestamp=4892) Ina Grace Langub: Yes, this is Ashwani. Okay, are these the inquiries that have moved? I am about to, you know, to put all the accounts and the inquiries. here, the inquiries.
+[1:21:56](https://fathom.video/calls/783153890?timestamp=4916) Alan Nguyen: Grace, your name, and I'm to put the date.
+[1:22:00](https://fathom.video/calls/783153890?timestamp=4920) Ina Grace Langub: here's the date, at the comment, 812-2026, ask for reference to you.
+[1:22:08](https://fathom.video/calls/783153890?timestamp=4928) Alan Nguyen: I thought. Okay, sweet. What about late payment? I know you said one was removed, for sure, the Volvo, but what about the other ones remaining on the account?
+[1:22:24](https://fathom.video/calls/783153890?timestamp=4944) Ina Grace Langub: Since Volvo is not yet disputed, when I asked Credit Bureau, so I disputed it within four business days. And the home cook, Whitney, I think it's under dispute.
+[1:22:40](https://fathom.video/calls/783153890?timestamp=4960) Alan Nguyen: Hold on, you're saying Volvo is not disputed? Volvo is not disputed?
+[1:22:47](https://fathom.video/calls/783153890?timestamp=4967) Ina Grace Langub: No, no. How did you know to dispute Volvo? Yesterday, Volvo is not yet disputed. That's why I am asking to dispute the Volvo.
+[1:23:01](https://fathom.video/calls/783153890?timestamp=4981) Alan Nguyen: Well, do you know if his profile needed, do you know if his Experian needed Volvo disputed? What? Or are you assuming that because it was on TransUnion?
+[1:23:15](https://fathom.video/calls/783153890?timestamp=4995) Ina Grace Langub: I did follow up on ask if that account still show in the credit file or it's already been removed and they said that the account is still showing the credit file. So I asked to dispute the account within four business days.
+[1:23:34](https://fathom.video/calls/783153890?timestamp=5014) Alan Nguyen: I understand, but if we didn't dispute originally on the paper, Volvo on Experian, there's a chance that he did not have any late payments on Volvo on Experian.
+[1:23:54](https://fathom.video/calls/783153890?timestamp=5034) Ina Grace Langub: Hello? Sorry. What if there's a chance to not? There is no Vovo in documents.
+[1:24:07](https://fathom.video/calls/783153890?timestamp=5047) Alan Nguyen: where is Ed's documents in here?
+[1:24:12](https://fathom.video/calls/783153890?timestamp=5052) Ina Grace Langub: I think there is. I found the accounts and the inquiries in the affidavit. And the agent also attached the documents for blocking the account.
+[1:24:40](https://fathom.video/calls/783153890?timestamp=5080) Alan Nguyen: notion is too slow. Do you have a report pulled up?
+[1:25:17](https://fathom.video/calls/783153890?timestamp=5117) Ina Grace Langub: What, the experience of Ashwani or Ed, Ashwani?
+[1:25:29](https://fathom.video/calls/783153890?timestamp=5129) Alan Nguyen: For sure, Ed, oh geez, because this thing is not working right now, you just didn't please.
+[1:25:40](https://fathom.video/calls/783153890?timestamp=5140) Ina Grace Langub: Okay, we'll find it to you. the experience of Ed, right? Okay.
+[1:25:48](https://fathom.video/calls/783153890?timestamp=5148) Alan Nguyen: I want to look at the line. Like documents. What was that?
+[1:26:23](https://fathom.video/calls/783153890?timestamp=5183) Ina Grace Langub: I see it, if you did it.
+[1:26:32](https://fathom.video/calls/783153890?timestamp=5192) Alan Nguyen: please Six nasty that you can say
+[1:27:05](https://fathom.video/calls/783153890?timestamp=5225) Ina Grace Langub: Your voice are cutting out, deleted, three, and then we say remaining, and by like four, just mean the number.
+[1:27:46](https://fathom.video/calls/783153890?timestamp=5266) Alan Nguyen: Does that make sense?
+[1:27:51](https://fathom.video/calls/783153890?timestamp=5271) Ina Grace Langub: Sorry, what was that? Inquiries, originally, dispute, count, deleted.
+[1:28:01](https://fathom.video/calls/783153890?timestamp=5281) Alan Nguyen: does this make sense?
+[1:28:03](https://fathom.video/calls/783153890?timestamp=5283) Ina Grace Langub: All right. So we're going to make a report, something like that, and Grace disputed.
+[1:28:10](https://fathom.video/calls/783153890?timestamp=5290) Alan Nguyen: but you'll actually have, like, the name of it, right? Well, actually, you'll actually have the name, like, name XYZ, named...
+[1:28:26](https://fathom.video/calls/783153890?timestamp=5306) Ina Grace Langub: account name.
+[1:28:29](https://fathom.video/calls/783153890?timestamp=5309) Alan Nguyen: exactly. So I think you get it, right? And then all of this should be, like, something like this, Experian, and then maybe Boyle. Hold it, whatever, right? And then make sure everything's separated. Maybe this will be one message. Boom. All right, and then we do the same thing with Transition. Okay. . Find name. Copy this, do the same thing. Does that make sense?
+
+## Chapter 9 (1:30:00 to 1:40:00)
+
+[1:30:05](https://fathom.video/calls/783153890?timestamp=5405) Ina Grace Langub: .
+[1:30:09](https://fathom.video/calls/783153890?timestamp=5409) Alan Nguyen: Okay, awesome. Sweet. Thank you, Grace. I appreciate you.
+[1:30:14](https://fathom.video/calls/783153890?timestamp=5414) Ina Grace Langub: Thank you.
+[1:30:18](https://fathom.video/calls/783153890?timestamp=5418) Alan Nguyen: So, we're to make a report like that? Yes, and then the things I want to request from you is updates on just kind of like that same format, right? Ed, Ed, TransUnion, I don't think we, I don't think we did Equifax on TransUnion.
+[1:30:39](https://fathom.video/calls/783153890?timestamp=5439) Ina Grace Langub: .
+[1:30:40](https://fathom.video/calls/783153890?timestamp=5440) Alan Nguyen: We'll do, oops, E-X-T, you basically get it.
+[1:30:54](https://fathom.video/calls/783153890?timestamp=5454) Ina Grace Langub: . That'd be great. .
+[1:31:00](https://fathom.video/calls/783153890?timestamp=5460) Alan Nguyen: All right.
+[1:31:00](https://fathom.video/calls/783153890?timestamp=5460) Ina Grace Langub: Thank you so much. I will do it after this one.
+[1:31:07](https://fathom.video/calls/783153890?timestamp=5467) Alan Nguyen: Okay.
+[1:31:07](https://fathom.video/calls/783153890?timestamp=5467) Ina Grace Langub: that's fine. Also, too, if you can get it done tonight, that'd be great. So I can give them an update.
+[1:31:14](https://fathom.video/calls/783153890?timestamp=5474) Alan Nguyen: Okay. That'd be wonderful. And it should be in your end-of-day report. Have you done yours yet? It could just be in your end-of-day report. So you just do it all together right there.
+[1:31:24](https://fathom.video/calls/783153890?timestamp=5484) Ina Grace Langub: . So the one that you sent to me, is that the EO30 report that I'm going to send to? Or not?
+[1:31:36](https://fathom.video/calls/783153890?timestamp=5496) Alan Nguyen: It's a different thing. So the end-of-day report should look like this. But for you, the main point you focus on is just the disputes. So just kind of what I said here. That's how you're it. Is that clear?
+[1:32:01](https://fathom.video/calls/783153890?timestamp=5521) Ina Grace Langub: Okay, so, that's the EOD, something like that.
+[1:32:06](https://fathom.video/calls/783153890?timestamp=5526) Alan Nguyen: . .
+[1:32:09](https://fathom.video/calls/783153890?timestamp=5529) Ina Grace Langub: Okay.
+[1:32:12](https://fathom.video/calls/783153890?timestamp=5532) Alan Nguyen: Okay, sweet. Thanks, Grace. I appreciate you.
+[1:32:17](https://fathom.video/calls/783153890?timestamp=5537) Ina Grace Langub: thank you so much, too.
+[1:32:20](https://fathom.video/calls/783153890?timestamp=5540) Alan Nguyen: All right, awesome.
+[1:32:21](https://fathom.video/calls/783153890?timestamp=5541) Ina Grace Langub: appreciate your help.
+[1:32:23](https://fathom.video/calls/783153890?timestamp=5543) Alan Nguyen: thank you. appreciate your help. Got some good wins today, got some positive momentum, and we just gotta, you know, once we, you know, learn how to, you know, work with each other and with the system better, we'll just, you know, things will get easier, and then eventually, you know, it's just kind of like riding a bike, right? You know, it's hard at first, but then once you get rolling, then it's just smooth sailing.
+[1:32:44](https://fathom.video/calls/783153890?timestamp=5564) Ina Grace Langub: . .
+[1:32:47](https://fathom.video/calls/783153890?timestamp=5567) Alan Nguyen: All right. Sweet. Have a great night.
+[1:32:50](https://fathom.video/calls/783153890?timestamp=5570) Ina Grace Langub: You too. Have great day.
+[1:32:51](https://fathom.video/calls/783153890?timestamp=5571) Alan Nguyen: See you tomorrow.
+[1:32:52](https://fathom.video/calls/783153890?timestamp=5572) Ina Grace Langub: See you.
+[1:32:53](https://fathom.video/calls/783153890?timestamp=5573) Alan Nguyen: Thanks, bud.
