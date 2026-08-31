@@ -14,6 +14,6 @@ One page per person — team AND clients. Each page lists every archived call, S
 - [[jacob-cca/index|Jacob (CCA)]] — ads / funnel consultant (external)
 
 ## Clients & prospects (archived so far)
-- [[ashwini-anand/index|Ashwini Anand]] · [[matthew-loguidice/index|Matthew LoGuidice]] · [[edwin-choi/index|Edwin "Ed" Choi]] · [[todd-loguidice/index|Todd LoGuidice]] · [[robert-morawitz/index|Robert Morawitz]] · [[michael-moore/index|Michael Moore]]
+- [[ashwini-anand/index|Ashwini Anand]] · [[matthew-loguidice/index|Matthew LoGuidice]] · [[edwin-choi/index|Edwin "Ed" Choi]] · [[todd-loguidice/index|Todd LoGuidice]] · [[robert-morawitz/index|Robert Morawitz]] · [[michael-moore/index|Michael Moore]] · [[karl-krummenacher/index|Karl Krummenacher]] · [[nick-samara/index|Nick Samara]] · [[stephen-greco/index|Stephen Greco]] · [[jill-peralta/index|Jill Peralta]] · [[yeshaya-dank/index|Yeshaya Dank]]
 
 Clients seen in the Fathom INDEX but not yet archived get pages as their calls are pulled.
