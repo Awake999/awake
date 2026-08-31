@@ -1,0 +1,144 @@
+# Leads & Booked Calls — Slack primary-source pull, July 28 → Aug 31, 2026
+
+> 🧭 [Start Here](../../START-HERE.md) · [Archive home](../../README.md) · [Slack hub](../README.md)
+
+Pulled fresh from Slack 2026-08-31 (channels are the primary source of truth per Alan). GHL links joined from Lane 4's [8/30 GHL ground-truth pull](https://github.com/Awake999/awake/tree/claude/new-session-1ofk4w/ops/archive/ghl/2026-08-30) by email (phone-verified where emails differ). Every count below is from the actual LeadConnector cards — nothing estimated.
+
+
+## 1 · [#alan-nguyen-leads](https://alan-n-95.slack.com/archives/C0AN2QCV6UF) — 40 lead cards · 36 unique people · 34 real (2 junk/test)
+
+| # | Date | Lead | GHL |
+|---|---|---|---|
+| 1 | 07-28 | Ddddddd Dwww 🗑️ junk/test | [Ddddddd Dwww](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/p3IDzIDqWJFugwvIVB7K) |
+| 2 | 07-28 | Robert Schechner | [Robert Schechner](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/VD04ZTrHJvQACmuby8KF) |
+| 3 | 07-28 | LeRoy McCall | [LeRoy McCall](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/9kRWME9TdBvPTZiixBiX) |
+| 4 | 07-29 | Rena Sookra | [Rena Sookra](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/4vDzMOYAL1dcuAqGyIIU) |
+| 5 | 07-30 | Myla Maheedhar | [Myla Maheedhar](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/hDKXjL3QDuda9XfRT7lv) |
+| 6 | 07-30 | Marko Sakren | [Marko Sakren](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/zPHKP5SyzqpnJxn5gCz9) |
+| 7 | 08-01 | Antonio Jenkins | [Antonio Jenkins](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/LWR0IetKviApaOvTmBxK) |
+| 8 | 08-02 | Trent Hamilton | [Trent Hamilton](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/nsrxMsSnOMHdr1iOkUdj) |
+| 9 | 08-03 | Shamar Samuel | [Shamar Samuel](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/WuRw9EKIbfcPuGnrVKgk) |
+| 10 | 08-03 | JOE STLOUIS | [JOE STLOUIS](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/qqUfALv2TDyD73i9Nj20) |
+| 11 | 08-04 | Jack Kates | [Jack Kates](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/4a8QdzeBed4mRo97Z4vx) |
+| 12 | 08-05 | Connor Robertson | [Connor Robertson](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/aUuP9CfKdLFG1bSqVban) |
+| 13 | 08-05 | Pradeep Bhatia | [Pradeep Bhatia](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/wc452MDflzJUVSOT6JPy) |
+| 14 | 08-05 | Pradeep Bhatia (dupe card) *(duplicate card — same person)* | [Pradeep Bhatia (dupe card)](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/wc452MDflzJUVSOT6JPy) |
+| 15 | 08-05 | Desi Harmon | [Desi Harmon](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/3pJWW8qMPiZkyWokyH7g) |
+| 16 | 08-06 | Jennifer Ulloa | [Jennifer Ulloa](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/Beb6LGrnKnPPmF9B1MpW) |
+| 17 | 08-06 | P Reddy P | [P Reddy P](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/8Ermg0m5C1JDmvAb808b) |
+| 18 | 08-07 | Jesse Hopcus | [Jesse Hopcus](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/SG3f3PsV3sJaJRS34v21) |
+| 19 | 08-08 | Natalia Rumbuc | [Natalia Rumbuc](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/XWpYlTI8Ar1QnwizNVuA) |
+| 20 | 08-11 | Behnad Zandi | [Behnad Zandi](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/Dg9fyJ621iCphlIRa0vm) |
+| 21 | 08-12 | Yeshaya Dank | [Yeshaya Dank](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/5CRpCl0usJYwUCcw0D79) |
+| 22 | 08-12 | Yeshaya Dank (dupe card) *(duplicate card — same person)* | [Yeshaya Dank (dupe card)](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/5CRpCl0usJYwUCcw0D79) |
+| 23 | 08-13 | HERMAN ROGERS | [HERMAN ROGERS](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/RYHu2KExLZOScp0ori3t) |
+| 24 | 08-13 | Terry Duncan | [Terry Duncan](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/xsHo2g1QTQgecx5OV6S4) |
+| 25 | 08-13 | Stephen Greco | [Stephen Greco](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/FWmJO9pOj3dI7eFlCUtO) |
+| 26 | 08-13 | HERMAN ROGERS (2nd submission) *(duplicate card — same person)* | [HERMAN ROGERS (2nd submission)](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/RYHu2KExLZOScp0ori3t) |
+| 27 | 08-14 | John Mazzocchi | [John Mazzocchi](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/yWBoytMEygPZXSyvplHl) |
+| 28 | 08-15 | Pedro Perez Grizzle | [Pedro Perez Grizzle](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/5IxjeWvQ0aW8onfhZ9xM) |
+| 29 | 08-15 | Noel Rivera | [Noel Rivera](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/Rxrtsgt3VREGPivwS6RE) |
+| 30 | 08-16 | Tarlochan Singh | [Tarlochan Singh](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/x5E8IABgpkEyDiOs5TZd) |
+| 31 | 08-16 | George Truesdale | [George Truesdale](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/8JvItcgAZPOFGsFVbbA2) |
+| 32 | 08-16 | Njjnn Of 🗑️ junk/test | [Njjnn Of](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/dI21IaM4rp5cDTR8VK3T) |
+| 33 | 08-20 | Nick Samara | [Nick Samara](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/lgswJD9fKGfqmRic0iul) |
+| 34 | 08-22 | David Shepherd | [David Shepherd](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/F2fA9NZW88pSwL3P6JbE) |
+| 35 | 08-23 | Lee McEachin | [Lee McEachin](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/wIxJeo4piIN0qghQiY2m) |
+| 36 | 08-23 | Robert Morawitz | [Robert Morawitz](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/Ek6fa6SLTvUfIlCNhsGk) |
+| 37 | 08-23 | Robert Morawitz (dupe card) *(duplicate card — same person)* | [Robert Morawitz (dupe card)](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/Ek6fa6SLTvUfIlCNhsGk) |
+| 38 | 08-26 | Fernando De Pieri | [Fernando De Pieri](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/jypnYW0kj5700hD8azMk) |
+| 39 | 08-28 | Jill Peralta | [Jill Peralta](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/ZtcBu49xnqBtxlP9W9aU) |
+| 40 | 08-30 | Marx Josue Todjro | Marx Josue Todjro — ⏳ entered GHL after the 8/30 pull ([search GHL](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/smart_list/All)) |
+
+## 2 · [#alan-nguyen-leads-medical](https://alan-n-95.slack.com/archives/C0BC03SN3TQ) — 6 lead cards · 6 unique people
+
+| # | Date | Lead | GHL |
+|---|---|---|---|
+| 1 | 07-30 | Chris Biwers (Bowers Chiropractic) | [Chris Biwers (Bowers Chiropractic)](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/S80lc8JjJ7284xzdh1Wi) |
+| 2 | 08-04 | Karl Krummenacher | [Karl Krummenacher](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/H4aNUi4T4zClFs5EAJtP) |
+| 3 | 08-17 | Michael Moore (Streamline Healthcare) | [Michael Moore (Streamline Healthcare)](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/lCa8gYSSfhlb1YyszdrK) |
+| 4 | 08-20 | Javaris Johnson | [Javaris Johnson](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/1LpdOmQr5SLXuS3blGHs) |
+| 5 | 08-21 | Edward McCullough | [Edward McCullough](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/NYiNc0yWNWvHUsoxZMGU) |
+| 6 | 08-23 | TESSA NDILLE | [TESSA NDILLE](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/SoJGlleiyOTlQFwfH4Jk) |
+
+## 3 · [#alan-nguyen-booked-calls](https://alan-n-95.slack.com/archives/C0ANJ8C74KC) — 66 booking notifications · 40 unique people
+
+*(re-books/reschedules counted per person in the bookings column)*
+
+| # | First booked | Person | Bookings | GHL |
+|---|---|---|---|---|
+| 1 | 07-28 | Ashwini Anand | 1 | [Ashwini Anand](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/zyX9EScR9ZWtKT9aQJiF) |
+| 2 | 07-28 | Gunjan Patel | 4 | [Gunjan Patel](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/adjVc3JxuFAAIJsBxuCP) |
+| 3 | 07-28 | Robert Schechner | 1 | [Robert Schechner](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/VD04ZTrHJvQACmuby8KF) |
+| 4 | 07-29 | Kesavan Rajendran | 1 | [Kesavan Rajendran](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/stZFzTokXZRnDDbKcVqr) |
+| 5 | 07-29 | Zacherly Sheets | 2 | [Zacherly Sheets](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/41WVU1osEDCIgZrwkrWS) |
+| 6 | 07-29 | Rena Sookra | 1 | [Rena Sookra](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/4vDzMOYAL1dcuAqGyIIU) |
+| 7 | 07-30 | Myla Maheedhar | 1 | [Myla Maheedhar](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/hDKXjL3QDuda9XfRT7lv) |
+| 8 | 07-30 | Chris Bowers | 5 | [Chris Bowers](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/S80lc8JjJ7284xzdh1Wi) |
+| 9 | 07-31 | Leo De Ornellas | 3 | [Leo De Ornellas](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/lVBxwQne0uiiXkoParUN) |
+| 10 | 07-31 | Carmen Meridith | 1 | [Carmen Meridith](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/rMXnEsp1c2F7gjZJxU8R) |
+| 11 | 08-01 | Antonio Jenkins | 1 | [Antonio Jenkins](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/LWR0IetKviApaOvTmBxK) |
+| 12 | 08-02 | Trent Hamilton | 1 | [Trent Hamilton](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/nsrxMsSnOMHdr1iOkUdj) |
+| 13 | 08-03 | Shamar Samuel | 1 | [Shamar Samuel](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/WuRw9EKIbfcPuGnrVKgk) |
+| 14 | 08-03 | JOE STLOUIS | 2 | [JOE STLOUIS](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/qqUfALv2TDyD73i9Nj20) |
+| 15 | 08-04 | Jack Kates | 1 | [Jack Kates](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/4a8QdzeBed4mRo97Z4vx) |
+| 16 | 08-04 | Whitney Young | 1 | [Whitney Young](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/8GShcGD1WsuniLQbAjaW) |
+| 17 | 08-05 | Pradeep Bhatia | 1 | [Pradeep Bhatia](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/wc452MDflzJUVSOT6JPy) |
+| 18 | 08-05 | Desi Harmon Sr | 1 | [Desi Harmon Sr](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/3pJWW8qMPiZkyWokyH7g) |
+| 19 | 08-06 | Jennifer Ulloa | 2 | [Jennifer Ulloa](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/Beb6LGrnKnPPmF9B1MpW) |
+| 20 | 08-06 | P Reddy P | 1 | [P Reddy P](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/8Ermg0m5C1JDmvAb808b) |
+| 21 | 08-07 | Jesse Hopcus | 1 | [Jesse Hopcus](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/SG3f3PsV3sJaJRS34v21) |
+| 22 | 08-12 | Behnad Zandi | 1 | [Behnad Zandi](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/Dg9fyJ621iCphlIRa0vm) |
+| 23 | 08-12 | Connor Robertson | 3 | [Connor Robertson](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/aUuP9CfKdLFG1bSqVban) |
+| 24 | 08-12 | Yeshaya Dank | 2 | [Yeshaya Dank](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/5CRpCl0usJYwUCcw0D79) |
+| 25 | 08-13 | Ms Terry (=Terry Duncan) | 1 | [Ms Terry (=Terry Duncan)](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/xsHo2g1QTQgecx5OV6S4) |
+| 26 | 08-13 | Stephen Greco | 1 | [Stephen Greco](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/FWmJO9pOj3dI7eFlCUtO) |
+| 27 | 08-15 | Pedro Perez Grizzle | 1 | [Pedro Perez Grizzle](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/5IxjeWvQ0aW8onfhZ9xM) |
+| 28 | 08-16 | Tarlochan Singh | 3 | [Tarlochan Singh](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/x5E8IABgpkEyDiOs5TZd) |
+| 29 | 08-16 | George Truesdale | 1 | [George Truesdale](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/8JvItcgAZPOFGsFVbbA2) |
+| 30 | 08-17 | Michael Moore | 4 | [Michael Moore](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/lCa8gYSSfhlb1YyszdrK) |
+| 31 | 08-18 | Karl Krummenacher | 1 | [Karl Krummenacher](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/H4aNUi4T4zClFs5EAJtP) |
+| 32 | 08-20 | Nick Samara | 4 | [Nick Samara](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/lgswJD9fKGfqmRic0iul) |
+| 33 | 08-21 | Ed McCullough | 1 | [Ed McCullough](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/NYiNc0yWNWvHUsoxZMGU) |
+| 34 | 08-22 | David Shepherd | 1 | [David Shepherd](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/F2fA9NZW88pSwL3P6JbE) |
+| 35 | 08-23 | Lee McEachin Jr | 2 | [Lee McEachin Jr](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/wIxJeo4piIN0qghQiY2m) |
+| 36 | 08-23 | Robert Morawitz | 3 | [Robert Morawitz](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/Ek6fa6SLTvUfIlCNhsGk) |
+| 37 | 08-23 | Tessa Ndille | 1 | [Tessa Ndille](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/SoJGlleiyOTlQFwfH4Jk) |
+| 38 | 08-25 | Chris Mclean | 1 | [Chris Mclean](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/paixz1K5D8j4RuZNbWxO) |
+| 39 | 08-26 | Todd LoGuidice | 1 | [Todd LoGuidice](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/nIy2smghNYT9II3enmQv) |
+| 40 | 08-30 | Marx Josue Todjro | 1 | Marx Josue Todjro — ⏳ entered GHL after the 8/30 pull ([search GHL](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/smart_list/All)) |
+
+## 4 · [#alan-nguyen-booked-calls-medical](https://alan-n-95.slack.com/archives/C0BBYPJDXRB) — **0 bookings since July 28**
+
+Only join/leave events in the window. Medical leads (Karl, Michael Moore, Tessa, Ed McCullough) booked through the MAIN booked-calls channel instead.
+
+
+## 5 · Direct-to-book — 9 people booked with NO lead card in the window
+
+*(Desi Harmon and Pedro Perez Grizzle excluded — they used different emails when booking but ARE in-window leads, phone-verified. Caveat: some below may have lead cards from BEFORE July 28 — this measures the window only.)*
+
+| Date | Person | Bookings | GHL |
+|---|---|---|---|
+| 07-28 | Ashwini Anand | 1 | [Ashwini Anand](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/zyX9EScR9ZWtKT9aQJiF) |
+| 07-28 | Gunjan Patel | 4 | [Gunjan Patel](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/adjVc3JxuFAAIJsBxuCP) |
+| 07-29 | Kesavan Rajendran | 1 | [Kesavan Rajendran](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/stZFzTokXZRnDDbKcVqr) |
+| 07-29 | Zacherly Sheets | 2 | [Zacherly Sheets](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/41WVU1osEDCIgZrwkrWS) |
+| 07-31 | Leo De Ornellas | 3 | [Leo De Ornellas](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/lVBxwQne0uiiXkoParUN) |
+| 07-31 | Carmen Meridith | 1 | [Carmen Meridith](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/rMXnEsp1c2F7gjZJxU8R) |
+| 08-04 | Whitney Young | 1 | [Whitney Young](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/8GShcGD1WsuniLQbAjaW) |
+| 08-25 | Chris Mclean | 1 | [Chris Mclean](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/paixz1K5D8j4RuZNbWxO) |
+| 08-26 | Todd LoGuidice | 1 | [Todd LoGuidice](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/nIy2smghNYT9II3enmQv) |
+
+## TOTALS
+
+| Category | Cards/notifications | Unique people |
+|---|---|---|
+| #alan-nguyen-leads | 40 | 36 (34 real + 2 junk) |
+| #alan-nguyen-leads-medical | 6 | 6 |
+| **LEADS TOTAL** | **46** | **42 (40 real)** |
+| #alan-nguyen-booked-calls | 66 | 40 |
+| #alan-nguyen-booked-calls-medical | 0 | 0 |
+| **BOOKED TOTAL** | **66** | **40** |
+| Direct-to-book (no in-window lead card) | — | **9** |
+
+Evidence: pulled via Slack API 2026-08-31 (oldest=1785222000 = Jul 28 00:00 PDT); complete windows, no pagination gaps. New cards since the 8/30 channel exports: Marx Josue Todjro (lead 8/30 06:02, booked 8/30 06:03 for Aug 31 5:45 PM CDT — todjromarcelin01@gmail.com, (214) 638-5475, LLC, $200-300K ask, 720-749).
