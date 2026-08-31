@@ -228,3 +228,15 @@ Each: transcript-raw.md (full Krisp API doc, untouched) + transcript.md (chapter
 2. DM sweep started: Carla DM (D0BP6H6AF44) page 1 captured raw (8/27–8/29, cursor saved for page 2). ops/archive/slack/dms/ structure + status README created. ⚠️ re-flagged for Lane 1: Carla's plaintext Teramind password in DM (register #73 rotation pending).
 
 **Resume point:** DM pagination (Carla page 2 → cursor bmV4dF90czoxNzg3ODQ4OTQyODYyNjc5; then Lynn/Grace/Anne DMs) → thread-expansion pass starting #dispute-updates → Krisp queue continues (next: Stephen 8/17 Krisp call, CSM client calls 8/19). Grinder handles Fathom autonomously.
+
+---
+
+## Batch (2026-08-31): Carla DM — COMPLETE capture (802 messages, Aug 9–29)
+
+- All 9 API pages saved raw incrementally (one commit per page — compaction-proof), newest-first verbatim, cursors recorded in each file header.
+- New standing tool ops/archive/tools/render_dm.py: renders export.md chronologically from raw pages, content untouched, idempotent. Carla export rendered: 802 messages.
+- DM hub README updated: Carla ✅ complete; Lynn/Grace/Anne queued.
+- ⚠️ FOR LANE 1 — credentials in plaintext found during capture (rotation recommended): Carla Teramind pw (8/27, register #73 already flags), carla@ascendprimewealth.com Google login pw (8/12), "APW2026$$" portal credential (8/12). Listed in slack/dms/README.md.
+- Notable content now on record: SODR/EODR culture-doc origin thread (8/17–18), Carla's full onboarding arc, the Sales Intelligence report (Leo/Joe unreadable recordings, 5 findings), show-rate playbook feedback, James decline, hiring plan, cash cabin decision thread.
+
+**Resume point:** Lynn → Grace → Anne DMs (same pattern: pages raw-first, then render_dm.py) → thread-expansion pass (#dispute-updates) → Krisp queue (Stephen 8/17, CSM calls 8/19).
