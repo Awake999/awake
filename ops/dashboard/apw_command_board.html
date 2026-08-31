@@ -1544,7 +1544,7 @@
       <div class="cell"><div class="t">Window bookings (ads)</div><div class="kn mono" style="font-size:22px; color:var(--w-cyan)">32</div><div class="t" style="text-transform:none">unique people, Aug 1–30 slots · 35 with referrals · Kai read 37 ✓ close</div></div>
       <div class="cell"><div class="t">Window shows (recorded)</div><div class="kn mono" style="font-size:22px; color:var(--good)">15 <span style="font-size:13px">(+3 referral)</span></div><div class="t" style="text-transform:none">every show has a recording link · Kai read 15 ✓ exact</div></div>
       <div class="cell"><div class="t">Window show rate</div><div class="kn mono" style="font-size:22px; color:var(--w-gold)">47%</div><div class="t" style="text-transform:none">evidence floor on ads — 15 of 32 (18/35 all = 51%); <b>15 outcomes never recorded anywhere</b> · Alan attests <b>56%</b> and “past three days… the absolute worst” · Kai read 41%</div></div>
-      <div class="cell"><div class="t">Window qualified</div><div class="kn mono" style="font-size:22px; color:var(--w-violet)">3 vs 1 ⚠</div><div class="t" style="text-transform:none">tracker: Gunjan P. · Whitney Y. · P Reddy P. — Alan attests only <b>1</b> truly qualified (out-of-fit but serviceable) · adjudicate via Closer Verdict taps</div></div>
+      <div class="cell"><div class="t">Window qualified</div><div class="kn mono" style="font-size:22px; color:var(--good)">1 ✓</div><div class="t" style="text-transform:none"><b>Whitney Y.</b> — Alan-adjudicated 8/31 (has money + credit + business; out of main-offer fit but serviceable) · Gunjan P. + P Reddy P.: tracker said Qualified–Main, now <b>⚠ under Alan's review</b> — out of the count until he rules</div></div>
       <div class="cell"><div class="t">Window verified revenue</div><div class="kn mono" style="font-size:22px; color:var(--crit)">$0</div><div class="t" style="text-transform:none">collected in Aug — Ed C.’s $2,000 was 7/1; Nick agreed · agreement sent · NOT paid; GHL Payments EMPTY</div></div>
       <div class="cell"><div class="t">Window ad spend</div><div class="kn mono" style="font-size:22px; color:var(--ink-2)">$6,100?</div><div class="t" style="text-transform:none">unverifiable — no Meta export in any store; lifetime $14,898 is the verified anchor</div></div>
     </div>
@@ -1570,7 +1570,7 @@
         <tr><td class="why">“of those 15 showed … show rate … 41%”</td>
             <td class="why"><strong style="color:var(--ink)">His window: 18 recorded shows (15 ads) of 35 booked = 47% evidence floor</strong> — his “15 showed” is exact; his 41% sits in the honest band. 15 window outcomes were never recorded (GHL frozen at “confirmed”), so the older 59% figure was survivorship-biased — <strong style="color:var(--ink)">the true rate is lower, as Alan says</strong></td></tr>
         <tr><td class="why">“of the 15, 1 was qualified … 14 of the 15 … unqualified”</td>
-            <td class="why"><strong style="color:var(--ink)">Window: tracker says 3 Qualified–Main</strong> (Gunjan P. · Whitney Y. · P Reddy P.) <strong style="color:var(--ink)">vs Alan’s attested 1</strong> (out-of-fit for main offer but has money + credit + business). Adjudicate with the Closer Verdict taps below — until then his “1 of 15” and our 3 are both on the table. Lifetime assessed: 8 Main / 10 Downsell / 6 Unqualified of 24.</td></tr>
+            <td class="why"><strong style="color:var(--ink)">ADJUDICATED (Alan, 8/31): window qualified = 1 — Whitney Y.</strong> (has money + credit + business; out of main-offer fit but serviceable). Gunjan P. + P Reddy P. — tracker said Qualified–Main, now ⚠ under Alan’s review (recordings linked in the roster); out of the count until he rules. So Kai’s “1 of 15” is <strong style="color:var(--ink)">confirmed on the window</strong>. Lifetime assessed remains 8 Main / 10 Downsell / 6 Unqualified of 24 (pre-review).</td></tr>
         <tr><td class="why">“you're closing at 150, at least the one deal you did close”</td>
             <td class="why">The verified close: <strong style="color:var(--ink)">Ed C., $2,000 collected 7/1</strong> <a class="src" href="https://fathom.video/calls/732157346">close ↗</a> · L3 close on verified shows <strong style="color:var(--ink)">23%</strong> (6 of 26)</td></tr>
       </tbody>
@@ -2304,6 +2304,14 @@ window.APW_TRUTH_GET = function (displayName) {
       if (t.trim()) return 'other';
       return 'unk';
     }
+    /* Alan's window adjudication (8/31, buttons): Whitney Y. = THE 1 qualified
+       (has money + credit + business; out of main-offer fit but serviceable);
+       Gunjan P. + P Reddy P. = tracker said Qualified-Main, DISPUTED — under Alan's review. */
+    function qualAdj(name, q) {
+      var k = String(name || '').toLowerCase();
+      if (k.indexOf('gunjan') === 0 || k.indexOf('p reddy') === 0) return 'unk';
+      return q;
+    }
     function qb(q) {
       if (!q) return 'unk';
       if (q.indexOf('Qualified') === 0) return 'main';
@@ -2333,7 +2341,7 @@ window.APW_TRUTH_GET = function (displayName) {
         speed: (typeof sp === 'number') ? (sp <= 1 ? 'sub1' : sp <= 2 ? 'sub2' : 'slow') : 'unk',
         hours: clk === null ? 'unk' : (clk.weekday && clk.mins >= 420 && clk.mins <= 1065 ? 'in' : 'out'),
         triage: TRIFIX[nm] || (r['Human Triaged'] ? 'yes' : 'unk'),
-        qual: qb(r['Qualification']),
+        qual: qualAdj(nm, qb(r['Qualification'])),
         show: (function () { var s = window.APW_SHOWED_FINAL(nm, r['Stage'], false); return (s === 'unk' && tru && tru.show) ? tru.show : s; })(),
         dispo: db(r['Stage']),
         verbal: dl.v, agpay: agpayOf(dl), fup: dl.f,
@@ -2357,7 +2365,7 @@ window.APW_TRUTH_GET = function (displayName) {
         speed: (trs && typeof trs.stl === 'number') ? (trs.stl <= 1 ? 'sub1' : trs.stl <= 2 ? 'sub2' : 'slow') : 'unk',
         hours: clkS === null ? 'unk' : (clkS.weekday && clkS.mins >= 420 && clkS.mins <= 1065 ? 'in' : 'out'),
         triage: TRIFIX[r[0]] || 'unk',
-        qual: qb(r[3]),
+        qual: qualAdj(r[0], qb(r[3])),
         show: (shS === 'unk' && trs && trs.show) ? trs.show : shS,
         dispo: db(r[1]),
         verbal: dls.v, agpay: agpayOf(dls), fup: dls.f,
@@ -2724,7 +2732,7 @@ window.APW_TRUTH_GET = function (displayName) {
           +"<td><span class='chip "+stClsS+"' title='Notion stage: "+esc(r[1])+"'>"+esc(stTxtS)+"</span>"+stFlagS+"</td>"
           +"<td>"+shHtml+(fid?" <a href='https://fathom.video/calls/"+fid+"'>🎥"+(sec?"²":"")+"</a>":"")+"</td>"
           +"<td class='dealtd'>"+dealHtml+"</td>"
-          +"<td class='why'>"+esc(r[3]||"—")+"</td>"
+          +"<td class='why'>"+esc(r[3]||"—")+(r[0].toLowerCase().indexOf('whitney')===0?" ★ THE 1 — Alan 8/31":(r[0].toLowerCase().indexOf('gunjan')===0||r[0].toLowerCase().indexOf('p reddy')===0)?" ⚠ under Alan review (8/31)":"")+"</td>"
           +"<td class='num mono'>"+money(r[4])+"</td>"
           +"<td class='mono' style='font-size:12px'>"+esc((r[6]||"").slice(5))+"</td></tr>";
       });
@@ -2999,7 +3007,10 @@ window.APW_TRUTH_GET = function (displayName) {
         }
         tr.appendChild(dc);
         td(typeof r['Funding Ask'] === 'number' ? fmtMoney(r['Funding Ask']) : '—', 'num mono');
-        td(r['Qualification'] || '—', 'why');
+        var qTxt = r['Qualification'] || '—', kq = nmS.toLowerCase();
+        if (kq.indexOf('whitney') === 0) qTxt += ' ★ THE 1 — Alan 8/31';
+        else if (kq.indexOf('gunjan') === 0 || kq.indexOf('p reddy') === 0) qTxt += ' ⚠ under Alan review (8/31)';
+        td(qTxt, 'why');
         td(r['lt'] || '—', 'mono');
         tr.className = 'rrow'; tr.tabIndex = 0;
         tr.setAttribute('aria-label', 'Show details for ' + shortName(r['Client']));

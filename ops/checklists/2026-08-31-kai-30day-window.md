@@ -22,10 +22,10 @@ Ashwini A. [🎥](https://fathom.video/calls/762499930) · Carmen M. [🎥](http
 
 **The 15 whose outcome was never recorded** (GHL still says "confirmed"; no recording; stage still Booked): Antonio J. · Behnad Z. · David S. · Desi H. · Ed McC. · Jack K. · Jesse H. · Lee M. · Ms Terry · Rena S. · Shamar S. · Stephen G. · Tarlochan S. · Tessa N. · Trent H. — several are the 8/29–30 batch whose calls may still be upcoming. Plus: George T. no-show, Pedro cancelled.
 
-## 3. The 1-qualified adjudication
-- Tracker's window Qualified–Main: **Gunjan P.** ([call ↗](https://fathom.video/calls/767888047)) · **Whitney Y.** ([call ↗](https://fathom.video/calls/735878820)) · **P Reddy P.** ([call ↗](https://fathom.video/calls/777298604)).
-- Alan's attestation: only **1** truly qualified in the window — out of main-offer market fit but serviceable (has money + credit + business).
-- Action: Alan names which one on the board (Closer Verdict tap: Primary / Downsell / Custom / Not qualified) — the other two get their true verdicts and the window metric becomes exact.
+## 3. The 1-qualified adjudication — ✅ RESOLVED (Alan, 8/31, via board buttons)
+- **THE 1 = Whitney Y.** ([call ↗](https://fathom.video/calls/735878820)) — has money + credit + business; out of main-offer fit but serviceable. **Kai's "1 of 15" is confirmed on the window.**
+- **Gunjan P.** ([call ↗](https://fathom.video/calls/767888047)) and **P Reddy P.** ([call ↗](https://fathom.video/calls/777298604)): tracker said Qualified–Main — **⚠ under Alan's review**; out of the qualified count until he rules (his chosen disposition: "Leave for my review").
+- 🔒 Lane 1: reflect in Notion — Whitney Y. qualification stands (annotate "out of main-offer fit, serviceable — Alan 8/31"); Gunjan P. + P Reddy P. → needs-review flag.
 
 ## 4. WHAT WE ARE MISSING — the full inventory ("all of this should already be stored somewhere")
 **Financial (nothing verifiable in any store we hold):**
