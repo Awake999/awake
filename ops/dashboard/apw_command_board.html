@@ -636,6 +636,21 @@
   #apw-tip.on { opacity: 1; }
   :root[data-board-theme="pure"] #apw-tip { background: rgba(255,255,255,.98); box-shadow: 0 10px 30px rgba(30,50,80,.22); }
   /* the big before→after change toast (Alan 8/30: "very, very clear and very, very big") */
+  #apw-pick { position: fixed; z-index: 97; min-width: 280px; padding: 14px; border-radius: 16px;
+    background: var(--panel, rgba(10,16,28,.98)); border: 1px solid rgba(51,214,245,.5);
+    box-shadow: 0 18px 55px rgba(0,0,0,.6); opacity: 0; pointer-events: none; transform: scale(.95);
+    transition: opacity .12s, transform .14s cubic-bezier(.2,.9,.3,1.2); }
+  #apw-pick.on { opacity: 1; pointer-events: auto; transform: scale(1); }
+  :root[data-board-theme="pure"] #apw-pick { background: rgba(255,255,255,.99); box-shadow: 0 18px 50px rgba(30,50,80,.28); }
+  #apw-pick .pk-t { font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); margin-bottom: 10px; }
+  #apw-pick .pk-o { display: flex; align-items: center; gap: 12px; width: 100%; padding: 12px 14px; margin: 6px 0;
+    border-radius: 12px; border: 1px solid rgba(127,127,127,.25); background: transparent; color: var(--ink);
+    font-size: 15px; font-weight: 700; cursor: pointer; text-align: left; transition: border-color .12s, background .12s, transform .1s; }
+  #apw-pick .pk-o:hover { transform: translateX(2px); border-color: var(--w-cyan); background: rgba(51,214,245,.08); }
+  #apw-pick .pk-o .pk-i { font-size: 22px; width: 30px; text-align: center; }
+  #apw-pick .pk-o .pk-s { font-size: 11px; font-weight: 400; color: var(--ink-2); display: block; }
+  #apw-pick .pk-o.cur { border-color: var(--good); background: rgba(61,220,151,.1); }
+  #apw-pick .pk-o.cur::after { content: 'NOW'; margin-left: auto; font-size: 10px; color: var(--good); letter-spacing: .1em; }
   #apw-toast { position: fixed; top: 16px; left: 50%; transform: translate(-50%, -18px) scale(.94); z-index: 96;
     display: flex; align-items: center; gap: 14px; padding: 14px 22px; border-radius: 16px;
     background: var(--panel, rgba(10,16,28,.97)); border: 1px solid rgba(51,214,245,.5);
@@ -2041,7 +2056,7 @@
       tip.style.left = x + 'px'; tip.style.top = y + 'px';
       tip.classList.add('on');
     }
-    document.addEventListener('mousemove', function (e) { lx = e.clientX; ly = e.clientY; });
+    document.addEventListener('mousemove', function (e) { lx = e.clientX; ly = e.clientY; window.__apwLX = lx; window.__apwLY = ly; });
     document.addEventListener('mouseover', function (e) {
       var t = e.target && e.target.closest && e.target.closest('[data-tip]');
       if (t) { curA = t; show(t); return; }
@@ -2071,24 +2086,52 @@
   window.APW_SHOWED_FINAL = function (name, stage, hasRec) {
     return window.APW_FIX[name] || window.APW_SHOWED(stage, hasRec);
   };
+  /* v7.5 (Alan 8/31: "click pop up clear change to what") — tap opens a CHOOSER, never a blind cycle */
+  window.APW_PICK_TARGET = null;
   window.APW_CYCLE = function (name) {
-    var order = ['yes', 'no', 'unk'];
-    var cur = window.APW_FIX[name];
-    if (!cur) window.APW_FIX[name] = 'no'; /* first tap on a wrong ✓ usually means "did NOT show" */
-    else { var i = order.indexOf(cur); if (i === order.length - 1) delete window.APW_FIX[name]; else window.APW_FIX[name] = order[i + 1]; }
-    var SL = { yes: 'SHOWED ✓', no: 'DID NOT SHOW ✕', unk: 'UNKNOWN ?' };
-    var nxt = window.APW_FIX[name];
-    window.APW_TOAST('👀', name, 'Showed up to the call',
-      cur ? SL[cur] : 'AUTO (from stage/recording)',
-      nxt ? SL[nxt] : 'BACK TO AUTO',
-      nxt === 'yes' ? 'ta-yes' : nxt === 'no' ? 'ta-no' : 'ta-unk');
-    try { localStorage.setItem('apw-showed-fix', JSON.stringify(window.APW_FIX)); } catch (e) {}
-    if (window.APW_FX_REFRESH) try { window.APW_FX_REFRESH(); } catch (e) {}
-    else {
-      if (window.renderRoster) try { window.renderRoster(); } catch (e) {}
-      if (window.applyRosterViewLive) try { window.applyRosterViewLive(); } catch (e) {}
+    var pick = document.getElementById('apw-pick');
+    if (!pick) {
+      pick = document.createElement('div'); pick.id = 'apw-pick'; document.body.appendChild(pick);
+      document.addEventListener('mousedown', function (e) {
+        if (!e.target.closest('#apw-pick') && !e.target.closest('.vbtn')) pick.classList.remove('on');
+      });
     }
-    window.APW_FIXLIST();
+    var cur = window.APW_FIX[name] || 'auto';
+    var SL = { yes: 'SHOWED ✓', no: 'DID NOT SHOW ✕', unk: 'UNKNOWN ?', auto: 'AUTO (evidence decides)' };
+    var opts = [
+      ['yes', '✓', 'SHOWED', 'they were on the call'],
+      ['no', '✕', 'DID NOT SHOW', 'booked but never came'],
+      ['unk', '?', 'UNKNOWN', 'we genuinely don\u2019t know'],
+      ['auto', '↺', 'AUTO', 'let the evidence decide (recording · stage · GHL)']
+    ];
+    pick.innerHTML = '<div class="pk-t">' + name + ' — change SHOWED to:</div>' + opts.map(function (o) {
+      return '<button type="button" class="pk-o' + (cur === o[0] ? ' cur' : '') + '" data-v="' + o[0] + '">' +
+        '<span class="pk-i" style="color:' + (o[0] === 'yes' ? 'var(--good)' : o[0] === 'no' ? 'var(--crit)' : 'var(--ink-2)') + '">' + o[1] + '</span>' +
+        '<span>' + o[2] + '<span class="pk-s">' + o[3] + '</span></span></button>';
+    }).join('');
+    pick.querySelectorAll('.pk-o').forEach(function (b) {
+      b.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var v = b.dataset.v;
+        if (v === 'auto') delete window.APW_FIX[name]; else window.APW_FIX[name] = v;
+        try { localStorage.setItem('apw-showed-fix', JSON.stringify(window.APW_FIX)); } catch (err) {}
+        pick.classList.remove('on');
+        window.APW_TOAST('👀', name, 'Showed up to the call', SL[cur], SL[v],
+          v === 'yes' ? 'ta-yes' : v === 'no' ? 'ta-no' : 'ta-unk');
+        if (window.APW_FX_REFRESH) try { window.APW_FX_REFRESH(); } catch (err) {}
+        else {
+          if (window.renderRoster) try { window.renderRoster(); } catch (err) {}
+          if (window.applyRosterViewLive) try { window.applyRosterViewLive(); } catch (err) {}
+        }
+        window.APW_FIXLIST();
+      });
+    });
+    var x = (typeof window.__apwLX === 'number' ? window.__apwLX : innerWidth / 2);
+    var y = (typeof window.__apwLY === 'number' ? window.__apwLY : innerHeight / 2);
+    pick.style.left = Math.max(8, Math.min(innerWidth - 300, x - 20)) + 'px';
+    pick.classList.add('on');
+    pick.style.top = Math.max(8, Math.min(innerHeight - pick.offsetHeight - 8, y + 14)) + 'px';
+    /* chooser handles persistence, toast, refresh */
   };
   window.APW_FIXLIST = function () {
     var box = document.getElementById('fix-list'); if (!box) return;
@@ -2708,7 +2751,7 @@ window.APW_TRUTH_GET = function (displayName) {
         if(chip==='triaged') return; /* not tracked in the static snapshot */
         c.shown++;
         var fixed = !!window.APW_FIX[r[0]];
-        var shHtml = "<button type='button' class='vbtn' onclick=\"window.APW_CYCLE('"+r[0].replace(/'/g,"\\'")+"')\" data-tip='Did this person actually show up to their booked call? ✓ showed · ✕ no-show · ? unknown. Tap to correct — saves on this device instantly.'>"
+        var shHtml = "<button type='button' class='vbtn' onclick=\"window.APW_CYCLE('"+r[0].replace(/'/g,"\\'")+"')\" data-tip='Did this person actually show up? Tap → a popup lets you PICK: ✓ showed · ✕ did not show · ? unknown · ↺ auto. One tap, saves instantly.'>"
           +(sh==='yes' ? "<span class='chip good'>✓" : sh==='no' ? "<span class='chip crit'>✕" : "<span class='chip mut'>?")
           +(fixed?" ✎":"")+"</span></button>";
         var dlS = window.APW_DEAL_GET ? window.APW_DEAL_GET(r[0], r[0], r[1]) : { v: 'unk', a: 'unk', p: 'unk', f: 'unk' };
@@ -2963,7 +3006,7 @@ window.APW_TRUTH_GET = function (displayName) {
         var sh = window.APW_SHOWED_FINAL(nmS, r['Stage'], false);
         var sc = document.createElement('td'); var shb = document.createElement('button');
         shb.type = 'button'; shb.className = 'vbtn';
-        shb.setAttribute('data-tip', 'Did this person actually show up to their booked call? ✓ = showed, ✕ = no-show, ? = unknown. Tap to correct — cycles ✓ → ✕ → ? → back to auto. Saves on this device instantly and queues for the Notion sync.');
+        shb.setAttribute('data-tip', 'Did this person actually show up? Tap → a popup lets you PICK: ✓ showed · ✕ did not show · ? unknown · ↺ auto. One tap to choose, saves instantly, queues for the Notion sync.');
         var shc = document.createElement('span');
         shc.className = 'chip ' + (sh === 'yes' ? 'good' : sh === 'no' ? 'crit' : 'mut');
         shc.textContent = (sh === 'yes' ? '✓' : sh === 'no' ? '✕' : '?') + (window.APW_FIX[shortName(r['Client'])] ? ' ✎' : '');

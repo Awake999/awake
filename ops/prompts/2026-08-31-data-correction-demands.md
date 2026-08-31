@@ -20,3 +20,9 @@ we need actual real numbers with verified hyperlinks clickable to everything and
 Why does the prospect tracked funnel Explorer say 100? It shouldn't start with what you just said before, which is like 83, and it should also show a date on there somewhere as well.
 
 Also fix the data because the show rate is by the way 56%. That is way worse. Way worse. Way worse qualified show rate as well. Just to be clear, these past three days have been the absolute worst, and the previous month, the show rate was 16%, so fix the numbers and ground it off real data. Also remember there should be hyperlinks everywhere.
+
+## Message 3 (after the v7.4 adjudication)
+
+it won't let me change showed easily it's confusing, click pop up clear change to what icon from ? to showed?
+
+this data is BS
