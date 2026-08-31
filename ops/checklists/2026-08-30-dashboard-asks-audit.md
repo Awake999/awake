@@ -18,8 +18,8 @@
 | 5 | "tony stark future" reactivity: plexus heavenly colors, moving gradient edges, instant lift, "all 3D," glass | ✅ | conic rings, tilt engine, glass tokens |
 | 6 | "clickable URL, not just freaking digits" | ✅ | full links everywhere since |
 | 7 | tables "glitches out… unusable" → no tilt on data; no sideways scrolling; mobile | ✅ | data-no-tilt; 0px overflow verified 390px |
-| 8 | tap-to-correct must be beginner-obvious: instant hover popups, big before→after change display, "does it save?" clarity | ❌ → v6.9 | today's ask |
-| 9 | results "highlighted and colorful… also at the bottom somewhere" | ❌ → v6.9 | today's ask |
+| 8 | tap-to-correct must be beginner-obvious: instant hover popups, big before→after change display, "does it save?" clarity | ✅ v6.9 | instant data-tip popups + change toast, verified |
+| 9 | results "highlighted and colorful… also at the bottom somewhere" | ✅ v6.9 | bottom results bar under both tables |
 
 ## Data-view asks
 | # | Ask | Status | Evidence |
@@ -45,8 +45,8 @@
 | 20 | in-hours = M–F 7:00–5:45 PT | ✅ | laClock |
 | 21 | filter-chain bug (table emptied) | ✅ | shared facet builders; exact repro passes |
 | 22 | Owner/Closer removed; big animated spotlight | ✅ | v6.7 |
-| 23 | **sequential order** ("closer verdict… has to be sequential"), setter verdict after triage, explicit **Booked Call** stage, offer-type before disposition, Won/Lost **separate** from Offer Made/Nurture, "reason no close" rename | ❌ → v6.9 | today's ask |
-| 24 | setter grading expandable checklist (process, all questions, booked, show-up briefing, on computer, ask/get credit report) | ❌ → v6.9 + 🔒 Lane 1 fields | today's ask |
+| 23 | **sequential order** ("closer verdict… has to be sequential"), setter verdict after triage, explicit **Booked Call** stage, offer-type before disposition, Won/Lost **separate** from Offer Made/Nurture, "reason no close" rename | ✅ v6.9 | 15-group sequential rail shipped |
+| 24 | setter grading expandable checklist (process, all questions, booked, show-up briefing, on computer, ask/get credit report) | ✅ board v6.9 / 🔒 Notion fields | in every live row detail; Lane 1 must add durable fields |
 
 ## Stage-accuracy asks (v6.8 round)
 | # | Ask | Status | Evidence |
@@ -64,6 +64,6 @@
 | 31 | draft PR "Dashboard lane: publish + polish" | 🟡 branch pushed; PR **creation blocked by environment policy** — one click: https://github.com/Awake999/awake/pull/new/claude/dashboard-lane-polish |
 
 ## The honest ❌/🔒 list in one place (what "not done" actually is)
-1. v6.9 build (today's asks): instant popups, big before→after toast, sequential group order w/ Setter Verdict + Booked Call + Setter Grading + Offer Type + separated Outcome + Reason No Close, bottom results bar, bulk triage attest. — **Lane 2, buildable now.**
+1. ~~v6.9 build~~ — **SHIPPED 8/31** (commit 5f90451→v6.9): instant popups, before→after toast, 15-group sequential rail, setter verdict + grading, offer type, separated Outcome, Reason No Close, bottom bar, bulk triage attest — all verified headless.
 2. Notion fields that don't exist yet (board can render but nothing records them): sequence fields (#17), setter grading (#24), setter verdict, offer type, reason-no-close, triage 3-value, Nick's row, GHL real arrival datetimes. — **Lane 1/4, LANE-SYNC posted.**
 3. Triage truth for the 12 (and the wider book): someone who was there must attest — via board taps/bulk attest (instant) or Lane 1 backfill from GHL notes+recordings (durable).
