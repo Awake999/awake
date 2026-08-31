@@ -444,3 +444,29 @@ Ran `format_transcripts.py` (172826975 → short, <2 chapters; 172823898 → cha
 **Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
 
 **Resume point:** next queued row (top-down, August section) is `rec 172792113` ([Fathom call 782988167](https://fathom.video/calls/782988167), 2026-08-12).
+
+## Batch 20
+
+Resumed via self-scheduled continuation (resume point re-verified against live INDEX.md — no change since last push). Continued top-down — next three queued rows, all dated 2026-08-12:
+
+| Recording | Call | Archived as |
+|---|---|---|
+| rec 172792113 | [Fathom call 782988167](https://fathom.video/calls/782988167) | [2026-08-12--carla-video-content-strategy-claude-access-blocker--172792113](../archive/calls/fathom/2026-08-12--carla-video-content-strategy-claude-access-blocker--172792113/transcript.md) — Carla is blocked finding a central Fathom-recording log for the Claude breakout-video analysis project; Alan points her to the Master Closing Framework V1 doc, dictates the Claude analysis prompt live via Whisperflow |
+| rec 172782608 | [Fathom call 782957344](https://fathom.video/calls/782957344) | [2026-08-12--lynn-whitney-follow-up-connor-triage-tooling-access--172782608](../archive/calls/fathom/2026-08-12--lynn-whitney-follow-up-connor-triage-tooling-access--172782608/transcript.md) — a later, distinct call continuing the same day's video-content-strategy thread, plus a new Whitney follow-up text script and a Connor lead-triage process |
+| rec 172768868 | [Fathom call 782940846](https://fathom.video/calls/782940846) | [2026-08-12--anne-training-plan-trello-prioritization-demo--172768868](../archive/calls/fathom/2026-08-12--anne-training-plan-trello-prioritization-demo--172768868/transcript.md) — Anne assigned Todd's profile for hands-on dispute training, Alan demos his Trello action-item prioritization tiers, Zoom waiting-room bypass fix discussed |
+
+**Near-duplicate content check:** rec 172792113 and rec 172782608 both center on the same "use Claude to analyze Fathom transcripts for breakout-video content" initiative and could have looked like a coexistence pair. Pulled both full transcripts before archiving: 172792113 opens with Carla explaining the scattered-recordings blocker and Alan dictating the analysis prompt; 172782608 opens with an entirely different (later) conversation between Alan and Lynn that also covers Whitney/Connor content not present in 172792113 at all. Confirmed genuinely distinct, sequential meetings continuing the same day's workstream — not a duplicate bot capture. Archived both normally.
+
+**Summary-verification note:** initially drafted rec 172768868's summary.md as an editorial "no Fathom summary available" writeup without actually calling `get_meeting_summary` first — caught before committing, called the tool, found a real Fathom AI summary existed, and replaced the draft with the verbatim summary per the standard convention.
+
+Raw sourcing: rec 172782608 auto-saved to a local JSON tool-result file — extracted from the `text` field, confirmed byte-identical. rec 172792113 and rec 172768868 both returned inline — `transcript-raw.txt` written from the exact returned tool text via Write for each (self-flagged per the audit-approved inline-transcript raw-write procedure).
+
+Ran `format_transcripts.py` (172792113 → chaptered, 2 chapters; 172768868 → chaptered, 2 chapters; 172782608 → no-ts, transcript is almost entirely one unbroken paragraph with a single leading timestamp, no chapter markers possible — no splits) then `add_breadcrumbs.py`.
+
+**Verbatim self-check:** stripped structural additions and diffed against each `transcript-raw.txt` line-for-line — all three matched exactly (172792113: 72/72, 172782608: 3/3, 172768868: 51/51).
+
+**INDEX:** flipped all three rows to ✅ with clickable links + `raw ✓`. Counts: 84→87 archived, 2 no-transcript (unchanged), 148→145 queued. Verified 87+2+145 = 234 and grep-counted rows (87 ✅ / 2 n/a / 145 queued = 234) confirm.
+
+**Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
+
+**Resume point:** next queued row (top-down, August section) is `rec 172690124` ([Fathom call 782770712](https://fathom.video/calls/782770712), 2026-08-12).

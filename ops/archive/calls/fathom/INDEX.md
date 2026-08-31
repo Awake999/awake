@@ -10,7 +10,7 @@
 - [July 2026](#july-2026) — 91 meetings
 - [June 2026](#june-2026) — 10 meetings
 
-**Archive status:** 84 archived ✅ · 2 verified no-transcript · 148 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+**Archive status:** 87 archived ✅ · 2 verified no-transcript · 145 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
 
 
 ## August 2026
@@ -103,9 +103,9 @@
 | 2026-08-12 | [Impromptu Zoom Meeting](https://fathom.video/calls/783146648) <sub>rec 172826975</sub> | ✅ [transcript](2026-08-12--rosemarie-todd-blocker-resolved-escalation-protocol--172826975/transcript.md) · [summary](2026-08-12--rosemarie-todd-blocker-resolved-escalation-protocol--172826975/summary.md) · raw ✓ |
 | 2026-08-12 | [Impromptu Zoom Meeting (Sabrina) <sub>rec 172823898</sub>](https://fathom.video/calls/783118335) | ✅ [transcript](2026-08-12--carla-ashwini-dispute-status-escalation-protocol--172823898/transcript.md) · [summary](2026-08-12--carla-ashwini-dispute-status-escalation-protocol--172823898/summary.md) · raw ✓ |
 | 2026-08-12 | [Impromptu Zoom Meeting](https://fathom.video/calls/783044555) <sub>rec 172808694</sub> | ✅ [transcript](2026-08-12--leo-onboarding-stalled-funding-strategy-carla-priorities--172808694/transcript.md) · [summary](2026-08-12--leo-onboarding-stalled-funding-strategy-carla-priorities--172808694/summary.md) · raw ✓ |
-| 2026-08-12 | [Impromptu Zoom Meeting](https://fathom.video/calls/782988167) <sub>rec 172792113</sub> | not yet — click title to watch on Fathom |
-| 2026-08-12 | [Impromptu Zoom Meeting (Sabrina) <sub>rec 172782608</sub>](https://fathom.video/calls/782957344) | not yet — click title to watch on Fathom |
-| 2026-08-12 | [Impromptu Zoom Meeting](https://fathom.video/calls/782940846) <sub>rec 172768868</sub> | not yet — click title to watch on Fathom |
+| 2026-08-12 | [Impromptu Zoom Meeting](https://fathom.video/calls/782988167) <sub>rec 172792113</sub> | ✅ [transcript](2026-08-12--carla-video-content-strategy-claude-access-blocker--172792113/transcript.md) · [summary](2026-08-12--carla-video-content-strategy-claude-access-blocker--172792113/summary.md) · raw ✓ |
+| 2026-08-12 | [Impromptu Zoom Meeting (Sabrina) <sub>rec 172782608</sub>](https://fathom.video/calls/782957344) | ✅ [transcript](2026-08-12--lynn-whitney-follow-up-connor-triage-tooling-access--172782608/transcript.md) · [summary](2026-08-12--lynn-whitney-follow-up-connor-triage-tooling-access--172782608/summary.md) · raw ✓ |
+| 2026-08-12 | [Impromptu Zoom Meeting](https://fathom.video/calls/782940846) <sub>rec 172768868</sub> | ✅ [transcript](2026-08-12--anne-training-plan-trello-prioritization-demo--172768868/transcript.md) · [summary](2026-08-12--anne-training-plan-trello-prioritization-demo--172768868/summary.md) · raw ✓ |
 | 2026-08-12 | [Impromptu Zoom Meeting](https://fathom.video/calls/782770712) <sub>rec 172690124</sub> | not yet — click title to watch on Fathom |
 | 2026-08-12 | [Impromptu Zoom Meeting (Sabrina) <sub>rec 172648133</sub>](https://fathom.video/calls/782677325) | not yet — click title to watch on Fathom |
 | 2026-08-12 | [Impromptu Zoom Meeting](https://fathom.video/calls/781847279) <sub>rec 172425594</sub> | not yet — click title to watch on Fathom |

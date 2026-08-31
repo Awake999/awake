@@ -1,0 +1,92 @@
+# Carla — Video Content Strategy Blocker, Scattered Fathom Recordings, Claude Access — 2026-08-12 — verbatim transcript
+
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+
+
+ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
+
+
+## Chapter 1 (00:00 to 10:00)
+
+[00:00](https://fathom.video/calls/782988167?timestamp=0) Lynn N.: This meeting is being recorded.
+[00:03](https://fathom.video/calls/782988167?timestamp=3) Carla Stivala: . So, Alan, what we're doing is we want to prompt Claude to extract from your sales calls recordings, like you mentioned, some of the objections, some of the questions, so that we can make and prepare, create that video for you to film. cause I recall you saying, you would like to preemptively cover their objections with a video.
+[00:31](https://fathom.video/calls/782988167?timestamp=31) Alan Nguyen: Exactly.
+[00:32](https://fathom.video/calls/782988167?timestamp=32) Carla Stivala: Yes.
+[00:32](https://fathom.video/calls/782988167?timestamp=32) Alan Nguyen: . A whole matrix.
+[00:34](https://fathom.video/calls/782988167?timestamp=34) Carla Stivala: .
+[00:35](https://fathom.video/calls/782988167?timestamp=35) Alan Nguyen: .
+[00:35](https://fathom.video/calls/782988167?timestamp=35) Carla Stivala: The thing is that in Notion, I was able to find some of the recordings, but they're like super scattered and they're, they're there per date versus me just having access to your call log and just being able to pull every single link altogether. Cause as of now in Notion, I'm taping, I'm type, I'm. I'm sales call from Fathom, and it takes me to very unique pages where there's one call there. Is there a way that we could have just a log of every single call you had, all of the recordings at once?
+[01:23](https://fathom.video/calls/782988167?timestamp=83) Alan Nguyen: let's see. Let's figure that out. But have you looked at the master closing framework, B2?
+[01:34](https://fathom.video/calls/782988167?timestamp=94) Carla Stivala: Master framework what?
+[01:35](https://fathom.video/calls/782988167?timestamp=95) Alan Nguyen: I'm sorry? B2. Did you see the link that I sent you? There should be, like, more than enough video listed in there. There's, like, and then V1 also, there's, like, two, three, like, a lot.
+[01:49](https://fathom.video/calls/782988167?timestamp=109) Carla Stivala: Where did you send this link?
+[01:52](https://fathom.video/calls/782988167?timestamp=112) Alan Nguyen: To your slot.
+[01:54](https://fathom.video/calls/782988167?timestamp=114) Carla Stivala: To me directly as a DM?
+[01:58](https://fathom.video/calls/782988167?timestamp=118) Alan Nguyen: I guess I didn't go through it.
+[02:00](https://fathom.video/calls/782988167?timestamp=120) Carla Stivala: I don't think it went through, because the only links I see are for, like, Zoom.
+[02:06](https://fathom.video/calls/782988167?timestamp=126) Alan Nguyen: Okay.
+[02:08](https://fathom.video/calls/782988167?timestamp=128) Carla Stivala: no worries.
+[02:09](https://fathom.video/calls/782988167?timestamp=129) Alan Nguyen: Okay, so this is the, sorry, my car's, like, tweaking out right now.
+[02:16](https://fathom.video/calls/782988167?timestamp=136) Carla Stivala: the link you just sent me is trying to take me to a meeting. All right, there we go. Perfect. this looks...
+[02:41](https://fathom.video/calls/782988167?timestamp=161) Alan Nguyen: so you maybe had troubles finding it before, because I know I said to you the other day, but I didn't move everything, so it's a little more, like, organized. Because it was kind of within the hub, it just made things too confusing. . This is kind of above the hub, and, so you have the V2 and V1. Very top two, if you open up those two, that on the very top, or sorry, so the V2, it won't be all on the top, but it'll be periodically throughout, there should be links to everything. If not, maybe I'll go edit that, all there is. But in V1, on the very top of V1, there should be a bunch of links at the top, if you see that.
+[03:24](https://fathom.video/calls/782988167?timestamp=204) Carla Stivala: V2 does not have links, but let me open V1.
+[03:29](https://fathom.video/calls/782988167?timestamp=209) Alan Nguyen: V2 is in the table, just not very top.
+[03:33](https://fathom.video/calls/782988167?timestamp=213) Carla Stivala: there's no document called V1, but I guess it's the master closing framework with no video or anything.
+[03:41](https://fathom.video/calls/782988167?timestamp=221) Alan Nguyen: Exactly, exactly.
+[03:42](https://fathom.video/calls/782988167?timestamp=222) Carla Stivala: But that one has Constantine's sales structure, and then I see a call on 617-610-6384. So, these are the Fathom calls.
+[03:59](https://fathom.video/calls/782988167?timestamp=239) Alan Nguyen: So, I... P-Ready is in there. I would say, like, I know you're eager to do, like, sales right now, and you can, like, you know, like, touch up on that stuff, but I think the most efficient route to be able to even help you get to the sales faster is, one, if we can just, like, hyper-focus on the systems first, which is just resolving the show rates, and that'll, like, significantly boost the capacity of, in which, like, people are, showing up to calls, and at that point, I can, like, quickly just dedicate the training that I want with you on that specific, that'll just be a lot better.
+[04:44](https://fathom.video/calls/782988167?timestamp=284) Lynn N.: The reason why she was, requesting the videos, though, is because you wanted us to both work on the, the material content. What did, the content, I'm gonna put. The breakout videos?
+[04:58](https://fathom.video/calls/782988167?timestamp=298) Carla Stivala: And the Q\&A.\&A.
+[05:00](https://fathom.video/calls/782988167?timestamp=300) Lynn N.: So she was going to take the video, your sales videos, and just look at the, put in Claude, pop out Q\&A questions that we can then add here.
+[05:09](https://fathom.video/calls/782988167?timestamp=309) Carla Stivala: like what are some of the questions that you get asked on these calls? So we have Claude telling us what those questions are, and also consecutively looking at what are some of the major objections, so that we can also create ideas on a content video for preemptively handling objections within a video that people can get once they booked the appointment. Does that make sense?
+[05:38](https://fathom.video/calls/782988167?timestamp=338) Alan Nguyen: Yep, that does.
+[05:39](https://fathom.video/calls/782988167?timestamp=339) Carla Stivala: So this is a perfect example, right?
+[05:41](https://fathom.video/calls/782988167?timestamp=341) Alan Nguyen: So I'm going to rename it.
+[05:42](https://fathom.video/calls/782988167?timestamp=342) Carla Stivala: you see my screen? Yes, we can see it.
+[05:52](https://fathom.video/calls/782988167?timestamp=352) Alan Nguyen: TPW, Notion, THL, Connector, right? I'm just going to rename it that. So how we get here is we click on home. We might actually have to search for it. I'll put that up in the pin. I'll put it at the very top right here.
+[06:10](https://fathom.video/calls/782988167?timestamp=370) Carla Stivala: Wait, are we supposed to be using, like, a company Claude account?
+[06:13](https://fathom.video/calls/782988167?timestamp=373) Alan Nguyen: Because I'm just using my personal Claude. so I got to figure out a way to make this work, but Lynn has access to this.
+[06:24](https://fathom.video/calls/782988167?timestamp=384) Carla Stivala: This is my personal Claude.
+[06:25](https://fathom.video/calls/782988167?timestamp=385) Alan Nguyen: . I just, like, I paid $200 a month for this, which is, like, the highest personal plan that you can get.
+[06:32](https://fathom.video/calls/782988167?timestamp=392) Carla Stivala: .
+[06:33](https://fathom.video/calls/782988167?timestamp=393) Alan Nguyen: It doesn't really make sense for me to go to Enterprise just yet.
+[06:39](https://fathom.video/calls/782988167?timestamp=399) Carla Stivala: .
+[06:41](https://fathom.video/calls/782988167?timestamp=401) Alan Nguyen: Because there's just not that need.
+[06:43](https://fathom.video/calls/782988167?timestamp=403) Carla Stivala: Well, I'm going to send the Claude recordings to Lynn, and since Lynn has access to your Claude, then she can just put what I'm sending her.
+[06:55](https://fathom.video/calls/782988167?timestamp=415) Alan Nguyen: . So also, too, like, I could also do it right here. So what is everything you asked? Sure, you were asking for, if anything, everything you asked for, if we could get that in writing, I can just copy and paste it over here. Also, I know you said, okay, so for example, pull all Fathom transcripts on live sales calls, especially the ones that converted.
+[07:22](https://fathom.video/calls/782988167?timestamp=442) Carla Stivala: .
+[07:22](https://fathom.video/calls/782988167?timestamp=442) Alan Nguyen: In general, analyze them, identify the most frequently commonly asked questions and the most frequently common objections that the prospects are having or would have that are and or are not pre-handled. So create a full systematic list of objections and frequently asked questions and topics that the prospects would like to know when they don't know anything. Or want to know more about when I do start learning about it. Create a full list on everything for ideas for quick one to two, maybe three-minute breakout videos to answer all the stuff into pre-handling.
+[08:14](https://fathom.video/calls/782988167?timestamp=494) Carla Stivala: Are you typing this in somewhere?
+[08:17](https://fathom.video/calls/782988167?timestamp=497) Lynn N.: No, he's doing it through Whisper.
+[08:20](https://fathom.video/calls/782988167?timestamp=500) Carla Stivala: Oh, he was speaking.
+[08:20](https://fathom.video/calls/782988167?timestamp=500) Lynn N.: Oh, he was speaking.
+[08:21](https://fathom.video/calls/782988167?timestamp=501) Carla Stivala: Got it. Because I was like, oh, shoot, I forgot to type.
+[08:25](https://fathom.video/calls/782988167?timestamp=505) Alan Nguyen: It's all good. Are you familiar with Whisper at all?
+[08:28](https://fathom.video/calls/782988167?timestamp=508) Carla Stivala: No.
+[08:30](https://fathom.video/calls/782988167?timestamp=510) Alan Nguyen: I'll just show you. So we can have you. Let's figure something out here. Oh. So this is Whisperflow. We need you to install this at some point. I'm going to see if I can change my email on all this stuff. I just move it over to company Gmail where we all just share.
+[08:51](https://fathom.video/calls/782988167?timestamp=531) Carla Stivala: Gmail. I like that.
+[08:53](https://fathom.video/calls/782988167?timestamp=533) Alan Nguyen: Easiest. And basically, this allows you to record yourself while you're speaking. And then it transcribed. Saves the transcription into like a little thing. And then it also like filters everything. So any all, buts, whatever it is, that gets filtered out. And then it also gets like categorized too.
+[09:15](https://fathom.video/calls/782988167?timestamp=555) Carla Stivala: . I mean, I think cost wise, we should just be using your account. So if you don't mind transitioning all of these things to your company email and giving us the password, that way we can all use Whisper. We can all use your Claude without necessarily you having to pay for more accounts or, or members on that.
+[09:42](https://fathom.video/calls/782988167?timestamp=582) Alan Nguyen: . We're all going to get that done at some point. All right. What other questions do you have for me?
+[09:53](https://fathom.video/calls/782988167?timestamp=593) Carla Stivala: That pretty much tackles what we're trying to do with Lynn.
+[09:58](https://fathom.video/calls/782988167?timestamp=598) Alan Nguyen: Okay.
+
+## Chapter 2 (10:00 to 20:00)
+
+[10:02](https://fathom.video/calls/782988167?timestamp=602) Carla Stivala: But now what we need is to see the result of what you just told Claude to do. Got it.
+[10:17](https://fathom.video/calls/782988167?timestamp=617) Alan Nguyen: If Leo is available at 4 p.m., I'm gonna jump on that call just to collect the cash from him. He's already signed. I just need to collect the cash. And then I'm gonna have to call Matthew. Gotta get an update on F20.
+[10:34](https://fathom.video/calls/782988167?timestamp=634) Carla Stivala: Would I be able to shadow your calls if they happen?
+[10:38](https://fathom.video/calls/782988167?timestamp=638) Alan Nguyen: Yes.
+[10:39](https://fathom.video/calls/782988167?timestamp=639) Carla Stivala: Okay. Yay. Okay. And then do these calls go to your calendar or you just like hop on through the phone? Okay. because they're not Zoom calls, right? You're just dialing the phone?
+[11:07](https://fathom.video/calls/782988167?timestamp=667) Alan Nguyen: like, for him specifically, we have not set up a scheduled call yet for him, no, but, I think Lynn booked in a call later today with someone on the calendar at, like, five, right?
+[11:22](https://fathom.video/calls/782988167?timestamp=682) Lynn N.: Yep, but, but, but, I forgot his name, something.
+[11:28](https://fathom.video/calls/782988167?timestamp=688) Carla Stivala: And those go to Alan's 95, email address?
+[11:34](https://fathom.video/calls/782988167?timestamp=694) Alan Nguyen: No, those go to the, like, the support email address. So in GoHighLevel, you can also see, well, actually, you can see the Slack. In the Slack, I think you can see booked calls also, but that probably is not as easy to view.
+[11:51](https://fathom.video/calls/782988167?timestamp=711) Carla Stivala: Somewhere here, I mean, it doesn't give me the link for me to click on. That's why I'm asking, because if, if the calls were going to a certain email. I would be able to subscribe to that calendar, and I can see the calls that are taking place, and I can click on the call and join.
