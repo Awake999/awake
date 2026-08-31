@@ -10,7 +10,7 @@
 - [July 2026](#july-2026) — 91 meetings
 - [June 2026](#june-2026) — 10 meetings
 
-**Archive status:** 72 archived ✅ · 2 verified no-transcript · 160 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+**Archive status:** 75 archived ✅ · 2 verified no-transcript · 157 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
 
 
 ## August 2026
@@ -91,9 +91,9 @@
 | 2026-08-14 | [Impromptu Zoom Meeting (Ina) <sub>rec 173596185</sub>](https://fathom.video/calls/786039287) | ✅ [transcript](2026-08-14--edwin-experian-fraud-dispute-hancock-whitney--173596185/transcript.md) · [summary](2026-08-14--edwin-experian-fraud-dispute-hancock-whitney--173596185/summary.md) · raw ✓ |
 | 2026-08-14 | [Impromptu Zoom Meeting](https://fathom.video/calls/786005742) <sub>rec 173580972</sub> | ✅ [transcript](2026-08-14--alan-lynn-anne-grace-performance-review--173580972/transcript.md) · [summary](2026-08-14--alan-lynn-anne-grace-performance-review--173580972/summary.md) · raw ✓ |
 | 2026-08-14 | [Impromptu Zoom Meeting](https://fathom.video/calls/785854313) <sub>rec 173503381</sub> | ✅ [transcript](2026-08-14--carla-sales-closing-training-ops-blockers--173503381/transcript.md) · [summary](2026-08-14--carla-sales-closing-training-ops-blockers--173503381/summary.md) · raw ✓ |
-| 2026-08-14 | [Yeshaya Dank - Guaranteed Funding](https://fathom.video/calls/783351348) <sub>rec 173260375</sub> | not yet — click title to watch on Fathom |
-| 2026-08-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/784578211) <sub>rec 173254448</sub> | not yet — click title to watch on Fathom |
-| 2026-08-13 | [Lynn < Carla (Sabrina) <sub>rec 173254044</sub>](https://fathom.video/calls/784528229) | not yet — click title to watch on Fathom |
+| 2026-08-14 | [Yeshaya Dank - Guaranteed Funding](https://fathom.video/calls/783351348) <sub>rec 173260375</sub> | ✅ [transcript](2026-08-14--yeshaya-dank-spv-pg-funding-strategy--173260375/transcript.md) · [summary](2026-08-14--yeshaya-dank-spv-pg-funding-strategy--173260375/summary.md) · raw ✓ |
+| 2026-08-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/784578211) <sub>rec 173254448</sub> | ✅ [transcript](2026-08-13--todd-dispute-v2-strategy-finalize--173254448/transcript.md) · [summary](2026-08-13--todd-dispute-v2-strategy-finalize--173254448/summary.md) · raw ✓ |
+| 2026-08-13 | [Lynn < Carla (Sabrina) <sub>rec 173254044</sub>](https://fathom.video/calls/784528229) | ✅ [transcript](2026-08-13--sabrina-carla-breakout-video-topics--173254044/transcript.md) · [summary](2026-08-13--sabrina-carla-breakout-video-topics--173254044/summary.md) · raw ✓ |
 | 2026-08-13 | [SCIO Sales Consulting (Sabrina) <sub>rec 173244690</sub>](https://fathom.video/calls/782299252) | not yet — click title to watch on Fathom |
 | 2026-08-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/784437796) <sub>rec 173218261</sub> | not yet — click title to watch on Fathom |
 | 2026-08-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/784176539) <sub>rec 173087425</sub> | not yet — click title to watch on Fathom |

@@ -352,3 +352,25 @@ Ran `format_transcripts.py` (173596185 → chaptered, 3 chapters; 173580972 → 
 **Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
 
 **Resume point:** next queued row (top-down, August section) is `rec 173260375` ([Fathom call 783351348](https://fathom.video/calls/783351348), 2026-08-14, "Yeshaya Dank - Guaranteed Funding").
+
+## Batch 16
+
+Resumed via self-scheduled continuation (resume point re-verified against live INDEX.md — no change since last push). Continued top-down — next three queued rows:
+
+| Recording | Call | Archived as |
+|---|---|---|
+| rec 173260375 | [Fathom call 783351348](https://fathom.video/calls/783351348) | [2026-08-14--yeshaya-dank-spv-pg-funding-strategy--173260375](../archive/calls/fathom/2026-08-14--yeshaya-dank-spv-pg-funding-strategy--173260375/transcript.md) — Yeshaya Dank funding call: $1M-$1.5M needed for US launch, blocked by lack of US financial history, two-path SPV+Personal-Guarantor funding strategy proposed |
+| rec 173254448 | [Fathom call 784578211](https://fathom.video/calls/784578211) | [2026-08-13--todd-dispute-v2-strategy-finalize--173254448](../archive/calls/fathom/2026-08-13--todd-dispute-v2-strategy-finalize--173254448/transcript.md) — Todd's dispute finalized on the V2 (data-breach/FTC) strategy; bureau access blockers (Experian 2FA, TransUnion login, Equifax) and a name-formatting error in the draft letter caught and corrected |
+| rec 173254044 | [Fathom call 784528229](https://fathom.video/calls/784528229) | [2026-08-13--sabrina-carla-breakout-video-topics--173254044](../archive/calls/fathom/2026-08-13--sabrina-carla-breakout-video-topics--173254044/transcript.md) — Sabrina/Carla consolidate ~40 client objections into 20 themed "breakout video" topics for Alan using Claude, to pre-handle sales objections |
+
+Raw sourcing: rec 173260375 auto-saved to a local plain-text tool-result file — direct `cp`, confirmed identical via `cmp`. rec 173254448 and rec 173254044 both returned inline — `transcript-raw.txt` written from the exact returned tool text via Write for each (self-flagged per the audit-approved inline-transcript raw-write procedure).
+
+Ran `format_transcripts.py` (173260375 → chaptered, 10 chapters; 173254448 → chaptered, 4 chapters; 173254044 → chaptered, 6 chapters — no splits) then `add_breadcrumbs.py`.
+
+**Verbatim self-check:** stripped structural additions and diffed against each `transcript-raw.txt` line-for-line — all three matched exactly (173260375: 295/295, 173254448: 100/100, 173254044: 213/213).
+
+**INDEX:** flipped all three rows to ✅ with clickable links + `raw ✓`. Counts: 72→75 archived, 2 no-transcript (unchanged), 160→157 queued. Verified 75+2+157 = 234 and grep-counted rows (75 ✅ / 2 n/a / 157 queued = 234) confirm.
+
+**Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
+
+**Resume point:** next queued row (top-down, August section) is `rec 173244690` ([Fathom call 782299252](https://fathom.video/calls/782299252), 2026-08-13, "SCIO Sales Consulting (Sabrina)").
