@@ -7,11 +7,11 @@
 ## The state of the physical evidence — honest
 - **222 contacts** have phone-call activity · **103** ever connected · **50** have at least one connected call ≥2 min (long enough to possibly hold a full triage conversation) · **46** of those also booked.
 - **Call AUDIO is not in the repo.** GHL stores it behind an authenticated API (Lane 4's `recordings_2026-08-30.csv` came back header-only). **No transcripts of any phone triage call exist anywhere we hold.** The Fathom archive (234 meetings) covers the booked Zoom calls, not the phone dials.
-- **The written triage script (the 5 questions) is NOT in the repo.** The 8/28 funnel-rebuild call shows the framework lives in a doc column and partly in Lynn's head ([transcript ↗](../../archive/calls/fathom/2026-08-28--funnel-rebuild-with-jacob--177941051/transcript.md)). Until it's written down, "fully triaged" cannot be scored against anything.
+- ~~The written triage script is NOT in the repo~~ ✅ **RESOLVED 8/31** — Alan dictated the full 15-step process checklist (core questions: funding amount · use plan · what they've tried · timeline · credit score): [`TRIAGE_SCRIPT_STANDARD.md`](TRIAGE_SCRIPT_STANDARD.md). Scoring now waits only on the transcripts (Lane 4 audio pull).
 
 ## THE SYSTEM (every time, per Alan 8/31)
 1. **Lane 4** pulls audio for every `TRANSCRIPT NEEDED` call via the authed GHL recordings API (msg ids in this ledger) → stores under `ops/archive/ghl/recordings/` → transcribes → transcript files land beside the audio. *(change order below)*
-2. **Alan or Lane 1** stores the written 5-question triage script in the repo (one page).
+2. ~~**Alan or Lane 1** stores the written 5-question triage script in the repo~~ ✅ **DONE 8/31** — Alan dictated the full 15-step process; canonical standard: [`TRIAGE_SCRIPT_STANDARD.md`](TRIAGE_SCRIPT_STANDARD.md).
 3. **Lane 2 (me)** reads each transcript against the script and fills the verdict columns: each of the 5 questions asked? extra triage? call booked on/after the call? → verdict `FULLY TRIAGED / PARTIAL / CONTACT ONLY`, with the transcript link as the receipt.
 4. Verdicts flow to the board's Triage column as **receipted** values (and to Notion via Lane 1). Alan verifies any row by clicking its transcript.
 

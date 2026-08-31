@@ -187,3 +187,11 @@ FACT-CHECK RESULTS (all evidence-run this session): (1) **Direct bookings = 2 IS
   block (Lane 4 audio pull ×50 · Lane 1 script storage · Alan may dictate the 5 questions —
   slot open, not yet dictated). Message 14 stored verbatim.
 - Headless re-verify: Karl PROPOSED wording + transcript quote live · 282/64 stable · 0 JS errors.
+
+## 8/31 — v8.8 TRIAGE SCRIPT STANDARD dictated by Alan (Message 15)
+- Alan dictated the full 15-step triage process checklist via buttons (core questions 1–5:
+  funding amount · use plan · what they've tried · timeline · credit score) → stored verbatim
+  as ops/data/triage/TRIAGE_SCRIPT_STANDARD.md (canonical scoring standard) + Message 15 in
+  the prompts file. Ledger + change order marked RESOLVED on the script input; scoring now
+  waits only on Lane 4's audio pull (50 candidate calls). Board strict-triage tooltip +
+  fx-note now cite the dictated standard with links. Headless: 282/64 stable, 0 JS errors.

@@ -136,10 +136,10 @@ When Alan flags an error **class** (or any severity-1 recurs), the lane MUST, be
 1. **Lane 4:** pull call audio for the 50 ≥2-min-call contacts (46 booked first) via the authed
    GHL recordings API and transcribe into `ops/archive/ghl/recordings/` — message ids in
    [`ops/data/triage/TRIAGE_CALL_LEDGER_2026-08-31.csv`](../data/triage/TRIAGE_CALL_LEDGER_2026-08-31.csv).
-2. **Lane 1:** store the written 5-question triage script in the repo (one page). It is not in
-   any store we hold — per the 8/28 funnel-rebuild call it lives partly in a doc column and
-   partly in Lynn's head. Alan also offered to dictate the questions directly; whichever lands
-   first becomes the scoring standard.
+2. ~~**Lane 1:** store the written 5-question triage script~~ **RESOLVED 8/31** — Alan dictated
+   the full 15-step process checklist (core questions 1–5: funding amount · use plan · what
+   they've tried · timeline · credit score); stored verbatim as the canonical scoring standard:
+   [`ops/data/triage/TRIAGE_SCRIPT_STANDARD.md`](../data/triage/TRIAGE_SCRIPT_STANDARD.md).
 Once both land, Lane 2 scores every transcript against the script and fills receipted
 verdicts (each of the 5 questions asked? extra triage? booked on/after the call?).
 

@@ -88,3 +88,23 @@ Please implement an agent to resolve this problem: why it was a problem, why thi
 Q: "The triage transcript system is blocked on two physical inputs. Which do you want moving first?" — A: **all** (Lane 4 pulls the 50 call audios · Lane 1/Alan supply the 5-question script · Alan may dictate the questions directly — not yet dictated).
 
 Q: "Karl now shows PROPOSED, not agreed — what's the true current state?" — A: **"No word from him yet"** (board now shows: no word as of 8/31, Alan-attested).
+
+## Message 15 (button answer, 8/31 — THE TRIAGE SCRIPT, dictated verbatim)
+
+PROCESS CHECKLIST
+0. Greeting
+0.5 Purpose
+1. How much funding do they need?
+2. How do they plan on using / investing the funding?
+3. What have they tried so far?
+4. How soon do they need it?
+5. Credit Score?
+6. Summary + Transition / Qualification
+7. Pull Back
+8. Set appointment
+9. Future Pace (Positive Dream Outcome)
+10. Secure Credit Report
+11. Confirm Appointment time
+12. Set proper expectations & requirements for the upcoming call
+13. Final confirmation + close out + questions
+14. Future Pace (excitement for the next call → their dream outcome)
