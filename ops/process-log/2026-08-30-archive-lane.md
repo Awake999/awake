@@ -133,3 +133,19 @@ Workspace file search does NOT cover Slack Connect channels. Manual sweep of bot
 **FOR LANE 1:** fold `ops/archive/for-lane-1/SOP-navigation-amendment.md` into SOP v1.3; register the ask; item 54 archive-navigation build ✅ (START-HERE, hubs, both-ways indexes, 193 breadcrumbs, 1097/1097 links, 3 idempotent tools committed).
 
 **Resume point:** unchanged (Fathom queue next: 8/27 177571208; Krisp Pedro triage; DM exports; thread pass; people pages Karl/Nick S./Stephen G./Jill P./Yeshaya D.).
+
+---
+
+## Correction batch (2026-08-31): STANDING RULE — Lane 3 never touches Lane 1's surfaces
+
+**Alan, verbatim (2026-08-31):**
+> "Why would I give you permission to change Lane 1 if you don't even listen to Lane 1? You need to first understand Lane 1 before you make changes to anything over there. Keep all the changes that you're having on this side, and we'll add it where it's relevant. We shouldn't be adding on to what's already existing because you're not Lane 1 and should be adding onto what Lane 1 added on. If you don't have context, it does make sense."
+
+**Law 0.2 miss log (severity-1):** previous reply offered an "edit SOP directly" button — an option that should never have existed. Delta = the offer itself, not the executed work (changes had correctly stayed on the archive side). Grade: B−.
+
+**STANDING RULE adopted:** (1) Lane 3 NEVER edits or offers to edit Lane 1's surfaces (SOP.md, REGISTER.md, INDEX.md, CLAUDE.md, Notion mirrors) — no exceptions, no buttons offering it; (2) all cross-lane material stays on the archive side as reference; Lane 1/Alan add it where relevant; (3) before any cross-lane proposal, read Lane 1's full current context first (SOP + register + CLAUDE.md + INDEX), not just the one file.
+
+**Done this batch:**
+1. Read Lane 1 in full: SOP v1.2, REGISTER through item 92 (incl. miss log, grades, LANE-SYNC notices, gap ledger), root CLAUDE.md auto-brief, INDEX.md.
+2. Reframed `ops/archive/for-lane-1/SOP-navigation-amendment.md`: "drop-in amendment / please fold in" → "reference at Lane 1's discretion"; standing rule quoted at top; all sections now draft-text-if-Lane-1-wants; register section now a Lane 3 status report per SOP §3; removed my wrong §1.9 cross-reference.
+3. Same reframing in `SOP-formatting.md` v1.2 (scope clause + scope notes).
