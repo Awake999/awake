@@ -8,6 +8,7 @@
 
 | Checklist | Source prompt (Alan's words only) |
 |---|---|
+| [SOP verification (8/31)](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/checklists/2026-08-31-sop-verification-CHECKLIST.md) | [verbatim](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/prompts/2026-08-31-sop-verification-spec.md) |
 | [Supervisor + token optimization (8/31)](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/checklists/2026-08-31-supervisor-token-CHECKLIST.md) | [verbatim](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/prompts/2026-08-31-supervisor-token-spec.md) |
 | [Format + grading refinement (8/30)](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/checklists/2026-08-30-format-grading-CHECKLIST.md) | [verbatim](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/prompts/2026-08-30-format-grading-refinement-spec.md) |
 | [Conversation ledger + compliance footer (8/30)](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/checklists/2026-08-30-conversation-ledger-CHECKLIST.md) | [verbatim](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/prompts/2026-08-30-conversation-ledger-spec.md) |
