@@ -7,6 +7,11 @@ import json, re, os
 D = json.load(open(os.path.join(os.path.dirname(__file__), '..', 'data', 'funnel_explorer_data.json')))
 G, O, P = D['G'], D['O'], D['P']
 
+# verbatim GHL tags, keyed by contact id parsed out of each person's GHL link
+import csv
+_csvp = os.path.join(os.path.dirname(__file__), '..', 'archive', 'ghl', '2026-08-30', 'contacts_2026-08-30.csv')
+TAGS = {c['id']: (c['tags'] or '') for c in csv.DictReader(open(_csvp, encoding='utf-8-sig'))}
+
 def slug(n): return re.sub(r'[^a-z]+', '-', n.lower()).strip('-')
 
 OC = {"showed": ("✅ SHOWED", "#16a34a"), "noshow": ("❌ NO-SHOW", "#dc2626"),
@@ -47,11 +52,16 @@ for n, o, path, tr, arr, bk, q, links in P:
         oline = (f'<div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · {att} call attempts · '
                  f'<b>{conn} connected</b> (longest {lg}) · {smo} texts out / <b>{smi} replies</b>'
                  f'<br>⚖️ <b>{v}</b></div>')
+    cid = next((u for l, u in links if not u.startswith('http')), None)
+    tagrow = ''
+    if cid and TAGS.get(cid):
+        pills = ''.join(f'<span class="b tagpill">{t.strip()}</span> ' for t in TAGS[cid].split('|'))
+        tagrow = f'<div class="row">🏷️ <b>GHL tags [V]:</b> {pills}</div>'
     card_html.append(f'''<details class="card" id="{slug(n)}" data-o="{o}" data-p="{path}" data-t="{'y' if tr else 'n'}" style="border-left-color:{col}">
 <summary><b>{n}</b> <span class="b" style="background:{col}1a;color:{col}">{ol}</span> <span class="b bpath">{PC[path]}</span></summary>
 <div class="body">
 <div class="row">📅 Opted in <b>{arr}</b> · {bk}</div>
-<div class="row">{tribadge}</div>{oline}
+<div class="row">{tribadge}</div>{tagrow}{oline}
 <div class="row">🏷 {q}</div>
 <div class="row links">🔗 {lk}</div>
 </div></details>''')
@@ -80,7 +90,7 @@ details[open] summary::after{{content:"▴"}}
 .body{{padding:2px 14px 12px;border-top:1px dashed var(--bd)}}
 .row{{padding:4px 0}} .links a{{color:var(--ac);text-decoration:none;margin-right:12px}}
 .b{{font-size:11.5px;padding:2px 9px;border-radius:12px;background:var(--bd)}}
-.btri{{background:#2563eb1a;color:#2563eb}} .bnone{{background:var(--bd);color:var(--mut)}} .bpath{{background:var(--bd);color:var(--mut)}}
+.btri{{background:#2563eb1a;color:#2563eb}} .tagpill{{background:#d977061a;color:#b45309;margin:1px 2px}} .bnone{{background:var(--bd);color:var(--mut)}} .bpath{{background:var(--bd);color:var(--mut)}}
 .note{{color:var(--mut);font-size:12.5px;margin:12px 0}}
 h2{{font-size:15px;margin:18px 0 4px}}
 </style>
