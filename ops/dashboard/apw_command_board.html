@@ -3150,7 +3150,7 @@ window.APW_TRUTH_GET = function (displayName) {
          quota was the top cause of "query failed". Column set is the
          union of two individually verified queries on this table. */
       var input = { data: { data_source_urls: [DS], query:
-        'SELECT "Client", "url", "Created", "Speed to Lead (min)", "Stage", "Entry Path", "Source", "Funding Ask", "Score Band", "Human Triaged", "Qualification", "Unqualified Reasons" AS ur, "Deal Value", "No-Close Reason", "Attribution Confidence", "date:Last Touch:start" AS lt, COUNT(*) OVER () AS _total FROM "' + DS + '" ORDER BY datetime("Created") DESC' } };
+        'SELECT "Client", "url", "Created", "Speed to Lead (min)", "Stage", "Entry Path", "Source", "Funding Ask", "Score Band", "Human Triaged", "Qualification", "Unqualified Reasons" AS ur, "Deal Value", "No-Close Reason", "Attribution Confidence", "date:Last Touch:start" AS lt, (SELECT COUNT(*) FROM "' + DS + '") AS _total FROM "' + DS + '" ORDER BY datetime("Created") DESC' } };
       var applied = false;
 
       mcp.watchTool('Notion', 'notion-query-data-sources', input, function (ev) {
