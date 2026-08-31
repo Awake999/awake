@@ -10,7 +10,7 @@
 - [July 2026](#july-2026) — 91 meetings
 - [June 2026](#june-2026) — 10 meetings
 
-**Archive status:** 42 archived ✅ · 2 verified no-transcript · 190 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+**Archive status:** 45 archived ✅ · 2 verified no-transcript · 187 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
 
 
 ## August 2026
@@ -58,9 +58,9 @@
 | 2026-08-24 | [Company Standards Reset — Trial Period, Trello/Notion (Rosemarie's capture)](https://fathom.video/calls/796561317) | ✅ [transcript](2026-08-24--standards-reset-trial-period-rosemarie-capture--176165428/transcript.md) · [summary](2026-08-24--standards-reset-trial-period-rosemarie-capture--176165428/summary.md) · raw ✓ — coexistence w/ 176165529, 176165147 |
 | 2026-08-24 | [Company Standards Reset — Trial Period, Trello/Notion (Ina's capture)](https://fathom.video/calls/796561603) | ✅ [transcript](2026-08-24--standards-reset-trial-period-ina-capture--176165529/transcript.md) · [summary](2026-08-24--standards-reset-trial-period-ina-capture--176165529/summary.md) · raw ✓ — coexistence w/ 176165428, 176165147 |
 | 2026-08-24 | [Company Standards Reset — Trial Period, Trello/Notion (primary capture)](https://fathom.video/calls/796560208) | ✅ [transcript](2026-08-24--standards-reset-trial-period-primary-capture--176165147/transcript.md) · [summary](2026-08-24--standards-reset-trial-period-primary-capture--176165147/summary.md) · raw ✓ — coexistence w/ 176165428, 176165529 |
-| 2026-08-24 | [Impromptu Zoom Meeting](https://fathom.video/calls/796461872) <sub>rec 176124914</sub> | not yet — click title to watch on Fathom |
-| 2026-08-24 | [Impromptu Zoom Meeting](https://fathom.video/calls/796432483) <sub>rec 176109891</sub> | not yet — click title to watch on Fathom |
-| 2026-08-22 | [Impromptu Zoom Meeting](https://fathom.video/calls/794778614) <sub>rec 175821783</sub> | not yet — click title to watch on Fathom |
+| 2026-08-24 | [Dispute Team — TransUnion One-Dispute Workaround, FTC Leverage](https://fathom.video/calls/796461872) | ✅ [transcript](2026-08-24--dispute-team-tu-workaround-ftc-leverage--176124914/transcript.md) · [summary](2026-08-24--dispute-team-tu-workaround-ftc-leverage--176124914/summary.md) · raw ✓ |
+| 2026-08-24 | [Dispute Team Meeting — Audio Troubleshooting (Aborted)](https://fathom.video/calls/796432483) | ✅ [transcript](2026-08-24--dispute-team-audio-troubleshooting-aborted--176109891/transcript.md) · [summary](2026-08-24--dispute-team-audio-troubleshooting-aborted--176109891/summary.md) · raw ✓ |
+| 2026-08-22 | [Rosemarie — Pay Increase Negotiation, Performance Standards](https://fathom.video/calls/794778614) | ✅ [transcript](2026-08-22--rosemarie-pay-increase-negotiation--175821783/transcript.md) · [summary](2026-08-22--rosemarie-pay-increase-negotiation--175821783/summary.md) · raw ✓ |
 | 2026-08-21 | [Impromptu Zoom Meeting](https://fathom.video/calls/794624464) <sub>rec 175776778</sub> | not yet — click title to watch on Fathom |
 | 2026-08-21 | [Impromptu Zoom Meeting](https://fathom.video/calls/794472254) <sub>rec 175700871</sub> | not yet — click title to watch on Fathom |
 | 2026-08-21 | [Impromptu Zoom Meeting](https://fathom.video/calls/793262976) <sub>rec 175468970</sub> | not yet — click title to watch on Fathom |

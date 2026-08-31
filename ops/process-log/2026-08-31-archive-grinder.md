@@ -126,3 +126,25 @@ Ran `format_transcripts.py` — all three transcripts exceeded the 150KB split t
 **Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
 
 **Resume point:** next queued row (top-down, August section) is `rec 176124914` ([Fathom call 796461872](https://fathom.video/calls/796461872), 2026-08-24).
+
+## Batch 6
+
+Continued top-down — next three queued rows in `INDEX.md`:
+
+| Recording | Call | Archived as |
+|---|---|---|
+| rec 176124914 | [Fathom call 796461872](https://fathom.video/calls/796461872) | [2026-08-24--dispute-team-tu-workaround-ftc-leverage--176124914](../archive/calls/fathom/2026-08-24--dispute-team-tu-workaround-ftc-leverage--176124914/transcript.md) — TransUnion "one dispute" workaround (file CFPB first), Special Handlings call-in script, FTC-report leverage, new shared Google Doc notes system |
+| rec 176109891 | [Fathom call 796432483](https://fathom.video/calls/796432483) | [2026-08-24--dispute-team-audio-troubleshooting-aborted--176109891](../archive/calls/fathom/2026-08-24--dispute-team-audio-troubleshooting-aborted--176109891/transcript.md) — short call, one-way audio failure, meeting aborted for a computer restart before any substantive work happened |
+| rec 175821783 | [Fathom call 794778614](https://fathom.video/calls/794778614) | [2026-08-22--rosemarie-pay-increase-negotiation--175821783](../archive/calls/fathom/2026-08-22--rosemarie-pay-increase-negotiation--175821783/transcript.md) — Alan/Rosemarie: financial-hardship pay-raise negotiation ($4→$5/hr contingent on performance), proactive-communication and independent-study standards |
+
+Raw sourcing: rec 176124914 and rec 175821783 both auto-saved to local JSON tool-result files — extracted from the `text` field programmatically, confirmed byte-identical. rec 176109891 returned inline (short call, below the auto-save threshold) — `transcript-raw.txt` written from the exact returned tool text via Write.
+
+Ran `format_transcripts.py` (176124914 → chaptered, 7 chapters; 175821783 → chaptered, 8 chapters; 176109891 → `short`, under 2 chapters so left unchaptered per the tool's own threshold — still got its breadcrumb) then `add_breadcrumbs.py`.
+
+**Verbatim self-check:** stripped structural additions and diffed against each `transcript-raw.txt` line-for-line — all three matched exactly (176124914: 115/115, 176109891: 21/21, 175821783: 185/185).
+
+**INDEX:** flipped all three rows to ✅ with clickable links + `raw ✓`. Counts: 42→45 archived, 2 no-transcript (unchanged), 190→187 queued. Verified 45+2+187 = 234 and grep-counted rows (45 ✅ / 189 non-✅ = 234) confirm.
+
+**Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
+
+**Resume point:** next queued row (top-down, August section) is `rec 175776778` ([Fathom call 794624464](https://fathom.video/calls/794624464), 2026-08-21).
