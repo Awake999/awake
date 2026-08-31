@@ -63,5 +63,16 @@
   "notion_tracked_leads": 104,
   "ghl_only_contacts": 155,
   "note": "104 = Clients & Leads rows after the 8/30 recovery of 21 ad-leads (register #69)"
+ },
+ "triage_DERIVED": {
+  "method": "human touch = source=='app' outbound OR connected call >30s; DERIVED from raw messages, not Notion tags",
+  "contacts_with_human_touch": 246,
+  "contacts_engaged_back": 156,
+  "bookers_touched_before_first_slot": 87,
+  "evidence": "ops/archive/ghl/2026-08-30/triage_derived_2026-08-30.csv"
+ },
+ "recordings": {
+  "call_recordings_found": 0,
+  "evidence": "ops/archive/ghl/2026-08-30/recordings_2026-08-30.csv (links only, auth required)"
  }
 }
