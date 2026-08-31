@@ -280,3 +280,27 @@ Ran `format_transcripts.py` (174578222 → chaptered, 2 chapters; 174549629 → 
 **Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
 
 **Resume point:** next queued row (top-down, August section) is `rec 174397848` ([Fathom call 789590405](https://fathom.video/calls/789590405), 2026-08-18, "Impromptu Zoom Meeting (Sabrina)").
+
+## Batch 13
+
+Resumed via self-scheduled continuation (resume point re-verified against live INDEX.md — no change since last push). Continued top-down — next three queued rows:
+
+| Recording | Call | Archived as |
+|---|---|---|
+| rec 174397848 | [Fathom call 789590405](https://fathom.video/calls/789590405) | [2026-08-18--team-sync-matthew-reinsertion-mandatory-recording--174397848](../archive/calls/fathom/2026-08-18--team-sync-matthew-reinsertion-mandatory-recording--174397848/transcript.md) — team sync: Matthew's urgent reinsertion dispute (#1 priority), new mandatory client-work recording mandate, sales SOP consolidation, ad-funnel revenue-range refinement |
+| rec 174120399 | [Fathom call 788351529](https://fathom.video/calls/788351529) | [2026-08-17--fathom-troubleshooting-activation-link--174120399](../archive/calls/fathom/2026-08-17--fathom-troubleshooting-activation-link--174120399/transcript.md) — very short call (Carla Valentina Stivala + unnamed "Speaker 1"), Zoom/Fathom connection troubleshooting, cuts off mid-sentence |
+| rec 174119189 | [Fathom call 788334715](https://fathom.video/calls/788334715) | [2026-08-17--fathom-bot-not-joining-troubleshooting--174119189](../archive/calls/fathom/2026-08-17--fathom-bot-not-joining-troubleshooting--174119189/transcript.md) — Carla/Alan troubleshoot the Fathom bot not auto-joining Zoom; root cause was an unlinked Zoom account, manual-join workaround documented |
+
+**No-summary case (self-flagged, not the no-transcript law):** rec 174120399's transcript fetched normally, but `get_meeting_summary` returned "No summary available for this meeting." — distinct from the brief's no-transcript-in-API case (transcript IS present). Archived the transcript as usual; wrote summary.md as a short editorial note (title/breadcrumb/call-link header + a plain-prose "What the transcript covers" paragraph) explicitly stating no Fathom AI summary existed, rather than fabricating takeaways. INDEX row counted as a normal ✅ archive (not toward the no-transcript tally), annotated "no Fathom AI summary available".
+
+Raw sourcing: rec 174397848 auto-saved to a local plain-text tool-result file — direct `cp`, confirmed identical via `cmp`. rec 174120399 and rec 174119189 both returned inline — `transcript-raw.txt` written from the exact returned tool text via Write for each (self-flagged per the audit-approved inline-transcript raw-write procedure).
+
+Ran `format_transcripts.py` (174397848 → chaptered + SPLIT into 2 parts, 2 chapters, oversized transcript; 174120399 → no-ts, too few timestamped lines to chapter; 174119189 → short, <2 chapters) then `add_breadcrumbs.py`.
+
+**Verbatim self-check:** stripped structural additions (including the split-transcript's "Split per…" index line and `---` divider) and diffed against each `transcript-raw.txt` line-for-line, concatenating both parts for 174397848 — all three matched exactly (174397848: 30/30, 174120399: 9/9, 174119189: 27/27).
+
+**INDEX:** flipped all three rows to ✅ with clickable links + `raw ✓` (174120399 additionally annotated "no Fathom AI summary available"). Counts: 63→66 archived, 2 no-transcript (unchanged), 169→166 queued. Verified 66+2+166 = 234 and grep-counted rows (66 ✅ / 2 n/a / 166 queued = 234) confirm.
+
+**Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
+
+**Resume point:** next queued row (top-down, August section) is `rec 174081239` ([Fathom call 788184013](https://fathom.video/calls/788184013), 2026-08-17).
