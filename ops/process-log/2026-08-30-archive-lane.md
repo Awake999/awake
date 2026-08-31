@@ -219,3 +219,12 @@ Each: transcript.md (chaptered, TOC) + transcript-raw.txt + summary.md (Fathom A
 Each: transcript-raw.md (full Krisp API doc, untouched) + transcript.md (chaptered) + summary.md (Krisp Action Items + Key Points verbatim) + breadcrumbs; INDEX rows flipped.
 
 **Tool fix (RAW-ORIGINALS):** add_breadcrumbs.py inserted 🧭 into the two new `transcript-raw.md` files (old raws were .txt/.json so never matched) — breadcrumbs stripped from both raws, tool patched to skip any `*-raw.*` filename. format_transcripts.py verified safe (targets transcript.md exactly).
+
+---
+
+## Batch (2026-08-31): people pages ×5 + DM sweep started
+
+1. People pages created (evidence-linked, derived-vs-verified labeled): karl-krummenacher (whale call 791088813), nick-samara (2 calls + register #83/#89 rulings), stephen-greco (zoom 8/17 + queued Krisp 8/17), jill-peralta (zoom 7/10 + [derived] Krisp 8/13 "Jill one one one" + register #35/#70/#76/#65), yeshaya-dank (SPV call + register #82 Downsell). People README updated (11 client pages). Michael Moore stale "not yet archived" note corrected with dated supersede + links to all 3 archived calls; his 8/20 folder id verified 175044393, Karl's call id verified 791088813 (both fixed from wrong first-draft ids before push).
+2. DM sweep started: Carla DM (D0BP6H6AF44) page 1 captured raw (8/27–8/29, cursor saved for page 2). ops/archive/slack/dms/ structure + status README created. ⚠️ re-flagged for Lane 1: Carla's plaintext Teramind password in DM (register #73 rotation pending).
+
+**Resume point:** DM pagination (Carla page 2 → cursor bmV4dF90czoxNzg3ODQ4OTQyODYyNjc5; then Lynn/Grace/Anne DMs) → thread-expansion pass starting #dispute-updates → Krisp queue continues (next: Stephen 8/17 Krisp call, CSM client calls 8/19). Grinder handles Fathom autonomously.
