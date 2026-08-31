@@ -25,3 +25,5 @@
 | 8/31 | "get to 100% progress" | superseded #93 hold; C3H1/Jacob stay held |
 | 8/31 | canonical board URL = c6ad801c; dup ba359183 frozen | one board, one URL |
 | 8/31 | 5-consecutive-A streak governs SOP health; breaks escalate | supervisor counts, never self-declared |
+| 22 | 8/31 | "just auto approve notion stuff, you've asked me like 10+ times" | Notion lead-tracker writes are BLANKET-APPROVED — execute without asking, ever. Applies to all lanes/agents. |
+| 23 | 8/31 | "i just need the info first before you start doing all this extra stuff" | INFO FIRST: deliver the answer/data before systems-building, meta-process talk, or next-step questions. Extra work follows the info, never precedes it. No permission-gate questions on approved work. |
