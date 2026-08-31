@@ -24,6 +24,8 @@ micro <bar+%> · macro <bar+%, register count>
 ---
 📋 SOP check: model ✓ · links ✓ · checklist ✓ · additions ✓ · tokens ✓ · scorecard→[run grade ↗](<grade file>) · buttons ✓ · [SOP](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/SOP.md)
 <AskUserQuestion buttons — live replies. Scheduled runs: "Reply with any of: ..." line>
+
+**🎚️ NEXT: <model> · <effort> — <5-word reason>**   ← THE LAST LINE, ALWAYS
 ```
 
 **Hard rules baked in:** the reply text ships in the SAME turn as the last tool call (8d) · fill EVERY slot or write "n/a — why" · micro replies still carry line 1 and the footer.
