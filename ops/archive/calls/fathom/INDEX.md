@@ -10,7 +10,7 @@
 - [July 2026](#july-2026) — 91 meetings
 - [June 2026](#june-2026) — 10 meetings
 
-**Archive status:** 54 archived ✅ · 2 verified no-transcript · 178 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+**Archive status:** 57 archived ✅ · 2 verified no-transcript · 175 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
 
 
 ## August 2026
@@ -72,9 +72,9 @@
 | 2026-08-19 | [Matthew 605B — Precision Debugging, Version 1 vs 2 Strategy](https://fathom.video/calls/791712438) | ✅ [transcript](2026-08-19--matthew-605b-precision-debugging-v1-v2--175025137/transcript.md) · [summary](2026-08-19--matthew-605b-precision-debugging-v1-v2--175025137/summary.md) · raw ✓ |
 | 2026-08-19 | [Experian Dispute Center SOP, FTC Priority Filtering](https://fathom.video/calls/791570447) | ✅ [transcript](2026-08-19--experian-dispute-center-sop-ftc-priority--174987192/transcript.md) · [summary](2026-08-19--experian-dispute-center-sop-ftc-priority--174987192/summary.md) · raw ✓ |
 | 2026-08-19 | [Jacob Rosales — Notion Client Portal Training, Funding Board Setup](https://fathom.video/calls/791537886) | ✅ [transcript](2026-08-19--jacob-rosales-notion-training-funding-board--174970047/transcript.md) · [summary](2026-08-19--jacob-rosales-notion-training-funding-board--174970047/summary.md) · raw ✓ |
-| 2026-08-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/791504315) <sub>rec 174957467</sub> | not yet — click title to watch on Fathom |
-| 2026-08-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/791440457) <sub>rec 174926566</sub> | not yet — click title to watch on Fathom |
-| 2026-08-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/791300186) <sub>rec 174853572</sub> | not yet — click title to watch on Fathom |
+| 2026-08-19 | [Team Sync — Show-Rate Systems Priority, Carla's Setter Path](https://fathom.video/calls/791504315) | ✅ [transcript](2026-08-19--team-sync-show-rate-systems-carla-setter-path--174957467/transcript.md) · [summary](2026-08-19--team-sync-show-rate-systems-carla-setter-path--174957467/summary.md) · raw ✓ |
+| 2026-08-19 | [Constantine — Sales Process Systemization, FAQ Framework ★](https://fathom.video/calls/791440457) | ✅ [transcript](2026-08-19--constantine-sales-process-systemization--174926566/transcript.md) · [summary](2026-08-19--constantine-sales-process-systemization--174926566/summary.md) · raw ✓ |
+| 2026-08-19 | [Daily Sync — New Meeting Standards, Matthew Reinsertion Coordination](https://fathom.video/calls/791300186) | ✅ [transcript](2026-08-19--daily-sync-meeting-standards-matthew-reinsertion--174853572/transcript.md) · [summary](2026-08-19--daily-sync-meeting-standards-matthew-reinsertion--174853572/summary.md) · raw ✓ |
 | 2026-08-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/790152271) <sub>rec 174596591</sub> | not yet — click title to watch on Fathom |
 | 2026-08-18 | [Impromptu Zoom Meeting](https://fathom.video/calls/790053322) <sub>rec 174583294</sub> | not yet — click title to watch on Fathom |
 | 2026-08-18 | [Impromptu Zoom Meeting](https://fathom.video/calls/790045529) <sub>rec 174581230</sub> | not yet — click title to watch on Fathom |

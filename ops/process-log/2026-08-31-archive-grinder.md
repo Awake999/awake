@@ -214,3 +214,25 @@ Ran `format_transcripts.py` (175025137 → chaptered, 8 chapters; 174987192 → 
 **Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
 
 **Resume point:** next queued row (top-down, August section) is `rec 174957467` ([Fathom call 791504315](https://fathom.video/calls/791504315), 2026-08-19).
+
+## Batch 10
+
+Resumed via self-scheduled continuation (resume point re-verified against live INDEX.md — no change since last push). Continued top-down — next three queued rows, all dated 2026-08-19:
+
+| Recording | Call | Archived as |
+|---|---|---|
+| rec 174957467 | [Fathom call 791504315](https://fathom.video/calls/791504315) | [2026-08-19--team-sync-show-rate-systems-carla-setter-path--174957467](../archive/calls/fathom/2026-08-19--team-sync-show-rate-systems-carla-setter-path--174957467/transcript.md) — systems-before-sales priority call: show-rate fix is #1, Carla's role pivots to setter (not immediate closer), breakout-video content strategy |
+| rec 174926566 | [Fathom call 791440457](https://fathom.video/calls/791440457) | [2026-08-19--constantine-sales-process-systemization--174926566](../archive/calls/fathom/2026-08-19--constantine-sales-process-systemization--174926566/transcript.md) ★ — Constantine coaches Alan on systemizing the sales process: two-tier FAQ, "master script," daily sales-meeting structure, personality-first hiring (marked ★, doctrine-level sales-systems call, matching existing ★ convention) |
+| rec 174853572 | [Fathom call 791300186](https://fathom.video/calls/791300186) | [2026-08-19--daily-sync-meeting-standards-matthew-reinsertion--174853572](../archive/calls/fathom/2026-08-19--daily-sync-meeting-standards-matthew-reinsertion--174853572/transcript.md) — new 60-min/cameras-on/pre-submitted-SOD meeting standard; Anne+Grace coordinate Matthew's time-sensitive Experian reinsertion |
+
+Raw sourcing: rec 174926566 auto-saved to a local JSON tool-result file — extracted from the `text` field, confirmed byte-identical. rec 174853572 auto-saved to a local plain-text tool-result file — direct `cp`, confirmed identical via `cmp`. rec 174957467 returned inline — `transcript-raw.txt` written from the exact returned tool text via Write.
+
+Ran `format_transcripts.py` (174957467 → chaptered, 3 chapters; 174926566 → chaptered, 6 chapters; 174853572 → chaptered, 12 chapters — no splits) then `add_breadcrumbs.py`.
+
+**Verbatim self-check:** stripped structural additions and diffed against each `transcript-raw.txt` line-for-line — all three matched exactly (174957467: 89/89, 174926566: 131/131, 174853572: 417/417).
+
+**INDEX:** flipped all three rows to ✅ with clickable links + `raw ✓`. Counts: 54→57 archived, 2 no-transcript (unchanged), 178→175 queued. Verified 57+2+175 = 234 and grep-counted rows (57 ✅ / 177 non-✅ = 234) confirm.
+
+**Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
+
+**Resume point:** next queued row (top-down, August section) is `rec 174596591` ([Fathom call 790152271](https://fathom.video/calls/790152271), 2026-08-19).
