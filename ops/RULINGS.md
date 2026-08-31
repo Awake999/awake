@@ -1,0 +1,30 @@
+# ⚖️ RULINGS LEDGER — every Alan ruling, one line, checked BEFORE any action list ships
+**🏁 BRIEF:** the anti-"like I said" file. A carried checklist item that contradicts a line here is a Law-0 violation. Lane 1 appends within the turn a ruling lands; all lanes read before building action lists.
+**⏱:** ruling lands → one line here → every future list validates against it
+
+| Date | Ruling (Alan verbatim-anchored) | Effect |
+|---|---|---|
+| 8/12+8/30 | Todd import = the ONE approved GHL write | GHL otherwise read-only |
+| 8/30 | "65 whop" | Whop = payments source of truth |
+| 8/30 | "47 go" | One-Place Architecture ratified (SOP §1c) |
+| 8/30 | MEDIA LAW | never edit a delivering ad's creative/URL; params at creation only |
+| 8/30 | "jacob is in meta ads manager, he is controlling the DM ads campaign but not SCIO" → 8/31 "does not need ads manager invite... he has access to a different one" | NO Jacob invite to 1821085838595242, ever; launch not gated |
+| 8/30 | C3H1 ad action — DISMISSED | no pause/change until Alan says |
+| 8/30 | Jacob launch brief — DISMISSED | do not write |
+| 8/30 | aged bankruptcies = CASE-BY-CASE, Alan signs each | no blanket rule |
+| 8/30 | Nick S.: "downsell is good... tag like broke" | Downsell + Funds Status=Broke; 8/31: Stage=Offer Made, Verbal✓/Sent✓/Paid✗ |
+| 8/30 | Ashwini stage: "wait for Whop proof" | Offer Made until $1,500 verified |
+| 8/30 | Jill P. ad_id: "keep original" | original stands |
+| 8/30 | reset ≠ the problem; "real difference is qualified lead issues"; marketing deep-dive → human | no ad-cause relitigating |
+| 8/30 | reheat = approved; call-outcome automation Option A + #call-outcomes channel | build per SOP |
+| 8/31 | "Robin" = Robert Morawitz ×4 dupes | out of all counts until GHL merge |
+| 8/31 | Ma. Liza Tizon = ML the contractor | excluded from funnel; not spam |
+| 8/31 | "loom lock to only APW" | APW-workspace-only, not link-private |
+| 8/31 | in-hours = Mon–Fri 7:00am–5:45pm PT (via Lane 2) | hours facets use this |
+| 8/31 | Notion Business approved | awaiting Alan's checkout tap |
+| 8/31 | "get to 100% progress" | superseded #93 hold; C3H1/Jacob stay held |
+| 8/31 | canonical board URL = c6ad801c; dup ba359183 frozen | one board, one URL |
+| 8/31 | 5-consecutive-A streak governs SOP health; breaks escalate | supervisor counts, never self-declared |
+| 22 | 8/31 | "just auto approve notion stuff, you've asked me like 10+ times" | Notion lead-tracker writes are BLANKET-APPROVED — execute without asking, ever. Applies to all lanes/agents. |
+| 23 | 8/31 | "i just need the info first before you start doing all this extra stuff" | INFO FIRST: deliver the answer/data before systems-building, meta-process talk, or next-step questions. Extra work follows the info, never precedes it. No permission-gate questions on approved work. |
+| 24 | 8/31 | "Everything needs to be verified. Every type of piece of data needs to be verified with a hyper-clickable link to the actual proof." | EVIDENCE LAW hardened: no claim ships without a clickable link to its primary source (GHL record, recording, CSV, payment). A count ships with its named list. Derived/attested items carry their label + source link. |

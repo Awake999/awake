@@ -57,7 +57,7 @@
   "transactions": 0,
   "subscriptions": 0,
   "invoices": 0,
-  "note": "GHL Payments EMPTY — money moves via Whop (register #65b); Nick $500 / Jill installments unverifiable in GHL"
+  "note": "GHL Payments EMPTY \u2014 money moves via Whop (register #65b); Nick $500 / Jill installments unverifiable in GHL"
  },
  "tracker_cross_ref": {
   "notion_tracked_leads": 104,
@@ -98,5 +98,35 @@
   ],
   "evidence": "ops/archive/teramind/2026-08-31/teramind_ui_pull.json",
   "correction": "digest email under-reported; agents ARE reporting on 5 machines"
+ },
+ "revenue_VERIFIED_WHOP_8_31": {
+  "source": "Whop dashboard biz_Lfgbj0ShjD1PRu, read 2026-08-31; raw: ops/archive/whop/2026-08-31/raw/",
+  "lifetime_collected": 20100,
+  "by_period": {
+   "june_2026_q2": {
+    "total": 2000,
+    "detail": "Ed C. $2,000 on Jun 30 - NOT July, NOT Q3"
+   },
+   "july_2026": {
+    "total": 16500,
+    "detail": "Jill Peralta $15,000 PAID IN FULL Jul 10 (6x$2,500 same day) + Ashwini Anand $1,500 Jul 28"
+   },
+   "august_2026": {
+    "total": 1600,
+    "detail": "Matthew LoGuidice $1,600 Aug 24 - AUGUST WAS NOT $0"
+   },
+   "q3_2026_to_date": 18100
+  },
+  "corrections_to_prior_ledger": [
+   "AUGUST NEW REVENUE = $1,600 (Matthew), not $0",
+   "Jill's $15,000: FULLY COLLECTED Jul 10, not 'contracted uncollected'",
+   "ASHWINI PAID $1,500 Jul 28 - carried as Offer Made $0 on every surface",
+   "Ed C. $2,000 landed JUN 30 (Q2), not 7/1",
+   "Nick S. $500: NOT in Whop - remains unverified"
+  ],
+  "ops_flags": [
+   "2 payout methods need bank reconnection",
+   "balance $0.00 - funds withdrawn"
+  ]
  }
 }

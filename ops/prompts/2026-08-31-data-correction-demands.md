@@ -52,3 +52,13 @@ For example, we need to. These are all people from before, not during this time 
 ## Message 7
 
 the number from revenue collected in August from new client revenue should be just as big as the August revenue collected, if not bigger, because new client revenue is more important from this month than previous client revenue. That should be smaller. Again, why are you backdating information? You're clogging up space. Don't even bring up this August stuff. Don't even bring up the prior months of Jill and Ashwini and other stuff like that. It's just blocking space, and it's irrelevant to this month. This is for new teams, new people, new process. Also, Leo is from a previous client too, so that needs to be previous months, so that should be important too. Sure, contribute towards this month, but it's not a new client. Also, Carla did not agree. You need to be very, very careful with your statements. Everything has to be absolute. Everything has to be factual and not fabricated.
+
+## Message 8
+
+You're trying to tell me that all opt-ins under speed delete that were done within hours. There were none that were not triaged. I don't believe that. Verify that's true.
+
+Also, based off your information, it says, again, opt-ins that were not triaged are zero. I don't believe that. I did not believe that at all. Triage counts for meaning having an actual conversation over the phone and taking them all the way through the triage process, right? All the way through the process where they ask all the questions live on the phone
+
+## Message 9
+
+and again, how do you keep missing this? We need to create an agent into the SOP to make sure that things aren't being missed. Also, you're not even following the SOP prompt or the SOP file from number one, from the main one, awake dashboard v1.2. You need to get your base from there for the SOP or how you operate.
