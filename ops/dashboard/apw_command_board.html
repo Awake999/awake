@@ -3280,7 +3280,7 @@ window.APW_TRUTH_GET = function (displayName) {
               if (typeof p2 === 'string') { try { p2 = JSON.parse(p2); } catch (e) { p2 = null; } }
               if (p2 && Array.isArray(p2.results)) { PAGES[2] = p2.results; page2Failed = false; renderAll(); }
             } else if (ev2.type === 'error') { page2Failed = true; renderAll(); }
-          }, { refetchInterval: 1800000, cache: { staleTime: 300000 } });
+          }, { refetchInterval: 600000, cache: { staleTime: 60000 } });
         } catch (e) { page2Failed = true; renderAll(); }
       }
       mcp.watchTool('Notion', 'notion-query-data-sources', input, function (ev) {
@@ -3310,7 +3310,7 @@ window.APW_TRUTH_GET = function (displayName) {
           else if (c === 'selection_required') { rosterState('empty'); setBadge('', SNAP_TEXT + ' — choose a Notion connector when prompted'); }
           else { setBadge(applied ? 'live' : '', applied ? badgeText.textContent : SNAP_TEXT); }
         }
-      }, { refetchInterval: 1800000, cache: { staleTime: 300000 } });
+      }, { refetchInterval: 600000, cache: { staleTime: 60000 } });
     } catch (e) { setBadge('', SNAP_TEXT); }
   })();
 </script>
