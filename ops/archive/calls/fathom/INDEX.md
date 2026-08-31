@@ -10,7 +10,7 @@
 - [July 2026](#july-2026) — 91 meetings
 - [June 2026](#june-2026) — 10 meetings
 
-**Archive status:** 75 archived ✅ · 2 verified no-transcript · 157 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+**Archive status:** 78 archived ✅ · 2 verified no-transcript · 154 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
 
 
 ## August 2026
@@ -94,9 +94,9 @@
 | 2026-08-14 | [Yeshaya Dank - Guaranteed Funding](https://fathom.video/calls/783351348) <sub>rec 173260375</sub> | ✅ [transcript](2026-08-14--yeshaya-dank-spv-pg-funding-strategy--173260375/transcript.md) · [summary](2026-08-14--yeshaya-dank-spv-pg-funding-strategy--173260375/summary.md) · raw ✓ |
 | 2026-08-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/784578211) <sub>rec 173254448</sub> | ✅ [transcript](2026-08-13--todd-dispute-v2-strategy-finalize--173254448/transcript.md) · [summary](2026-08-13--todd-dispute-v2-strategy-finalize--173254448/summary.md) · raw ✓ |
 | 2026-08-13 | [Lynn < Carla (Sabrina) <sub>rec 173254044</sub>](https://fathom.video/calls/784528229) | ✅ [transcript](2026-08-13--sabrina-carla-breakout-video-topics--173254044/transcript.md) · [summary](2026-08-13--sabrina-carla-breakout-video-topics--173254044/summary.md) · raw ✓ |
-| 2026-08-13 | [SCIO Sales Consulting (Sabrina) <sub>rec 173244690</sub>](https://fathom.video/calls/782299252) | not yet — click title to watch on Fathom |
-| 2026-08-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/784437796) <sub>rec 173218261</sub> | not yet — click title to watch on Fathom |
-| 2026-08-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/784176539) <sub>rec 173087425</sub> | not yet — click title to watch on Fathom |
+| 2026-08-13 | [SCIO Sales Consulting (Sabrina) <sub>rec 173244690</sub>](https://fathom.video/calls/782299252) | ✅ [transcript](2026-08-13--scio-sales-consulting-qa--173244690/transcript.md) · [summary](2026-08-13--scio-sales-consulting-qa--173244690/summary.md) · raw ✓ |
+| 2026-08-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/784437796) <sub>rec 173218261</sub> | ✅ [transcript](2026-08-13--carla-show-rate-playbook-bank-intel--173218261/transcript.md) · [summary](2026-08-13--carla-show-rate-playbook-bank-intel--173218261/summary.md) · raw ✓ |
+| 2026-08-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/784176539) <sub>rec 173087425</sub> | ✅ [transcript](2026-08-13--daily-sync-dispute-process-standardization--173087425/transcript.md) · [summary](2026-08-13--daily-sync-dispute-process-standardization--173087425/summary.md) · raw ✓ |
 | 2026-08-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/784166182) <sub>rec 173084908</sub> | not yet — click title to watch on Fathom |
 | 2026-08-13 | [Impromptu Zoom Meeting](https://fathom.video/calls/783173636) <sub>rec 172832320</sub> | not yet — click title to watch on Fathom |
 | 2026-08-13 | [Impromptu Zoom Meeting (Ina) <sub>rec 172829961</sub>](https://fathom.video/calls/783153890) | not yet — click title to watch on Fathom |

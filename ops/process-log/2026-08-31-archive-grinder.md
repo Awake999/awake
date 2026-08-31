@@ -374,3 +374,25 @@ Ran `format_transcripts.py` (173260375 → chaptered, 10 chapters; 173254448 →
 **Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
 
 **Resume point:** next queued row (top-down, August section) is `rec 173244690` ([Fathom call 782299252](https://fathom.video/calls/782299252), 2026-08-13, "SCIO Sales Consulting (Sabrina)").
+
+## Batch 17
+
+Resumed via self-scheduled continuation (resume point re-verified against live INDEX.md — no change since last push). Continued top-down — next three queued rows, all dated 2026-08-13:
+
+| Recording | Call | Archived as |
+|---|---|---|
+| rec 173244690 | [Fathom call 782299252](https://fathom.video/calls/782299252) | [2026-08-13--scio-sales-consulting-qa--173244690](../archive/calls/fathom/2026-08-13--scio-sales-consulting-qa--173244690/transcript.md) — SCIO sales consulting group Q&A (Constantine coaching): handling non-decision-makers, managing client sales-performance expectations, pre-call price pushback escalation |
+| rec 173218261 | [Fathom call 784437796](https://fathom.video/calls/784437796) | [2026-08-13--carla-show-rate-playbook-bank-intel--173218261](../archive/calls/fathom/2026-08-13--carla-show-rate-playbook-bank-intel--173218261/transcript.md) — Carla/Alan clarify the show-rate playbook and lead journey, gather Mechanics Bank lending intel (DSR, BLOC caps), pause hiring James to protect Carla's final paycheck |
+| rec 173087425 | [Fathom call 784176539](https://fathom.video/calls/784176539) | [2026-08-13--daily-sync-dispute-process-standardization--173087425](../archive/calls/fathom/2026-08-13--daily-sync-dispute-process-standardization--173087425/transcript.md) — daily sync: dispute process standardized into V1 (Identity Theft Complaint) / V2 (Data Breach Statement) packages, Experian Dispute Center report mandate, Trello-style Notion board adoption |
+
+Raw sourcing: all three recordings' transcripts auto-saved to local tool-result files this batch — rec 173244690 to a JSON file (extracted from the `text` field, confirmed byte-identical) and rec 173218261/173087425 to plain-text files (direct `cp`, confirmed identical via `cmp` for both). No inline-returned transcripts this batch.
+
+Ran `format_transcripts.py` (173244690 → no-ts, single unbroken paragraph with one leading timestamp, no chapter markers possible; 173218261 → chaptered, 9 chapters; 173087425 → chaptered + SPLIT into 2 parts, 22 chapters, oversized transcript) then `add_breadcrumbs.py`.
+
+**Verbatim self-check:** stripped structural additions and diffed against each `transcript-raw.txt` line-for-line, concatenating both parts for 173087425 — all three matched exactly (173244690: 1/1 — single-line transcript, 173218261: 291/291, 173087425: 573/573).
+
+**INDEX:** flipped all three rows to ✅ with clickable links + `raw ✓`. Counts: 75→78 archived, 2 no-transcript (unchanged), 157→154 queued. Verified 78+2+154 = 234 and grep-counted rows (78 ✅ / 2 n/a / 154 queued = 234) confirm.
+
+**Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
+
+**Resume point:** next queued row (top-down, August section) is `rec 173084908` ([Fathom call 784166182](https://fathom.video/calls/784166182), 2026-08-13).
