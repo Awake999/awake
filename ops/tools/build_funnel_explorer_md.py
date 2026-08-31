@@ -106,6 +106,41 @@ md = f'''# 🎯 APW True Funnel — Jul 28 → Aug 26 · chronological, every nu
 ## LAYER 6 — 💰 $0 COLLECTED in the window (Karl's $7.5K agreed, unsigned)
 ➕ Outside the funnel: [Chris Mclean](#{anchor("Chris Mclean")}) — Matthew referral, your 30th booked tag.
 
+
+## LAYER 7 — 📊 THE RATES (all on attested truth, every basis named above)
+| Metric | Basis | Number |
+|---|---|---|
+| Cost per lead | $6,100 / 38 leads | **$160** |
+| Opt-in → booked (ever) | 29 of 38 | **76%** |
+| Opt-in → instant booking | 25 of 38 | **66%** |
+| The 13 non-instant → later booked | 4 of 13 | **31%** |
+| Cost per booked person | $6,100 / 29 | **$210** |
+| **TOTAL SHOW RATE** | 9 of 29 booked | **31%** (32% of 28 resolved · 29% counting the fake as no real show) |
+| No-show rate | 17 of 29 | **59%** |
+| Cancelled | 2 of 29 | **7%** |
+| Show rate — triaged/connected instant bookers | 6 of 12 resolved | **50%** |
+| Show rate — never-connected instant bookers | 1 of 12 | **8%** |
+| Show rate — triage → booked later | 2 of 4 | **50%** |
+| Show rate — ALL live-connected combined | 8 of 16 resolved | **50%** vs **8%** never-connected |
+| Cost per live call | $6,100 / 9 | **$678** |
+| **QUALIFIED SHOW RATE** | 1 of 9 shows (Karl) | **11%** |
+| Qualified per booking / per lead | 1 of 29 / 1 of 38 | **3.4% / 2.6%** |
+| **Cost per qualified live call** | $6,100 / 1 | **$6,100** |
+| CPA at a 25% close rate | $6,100 × 4 | **$24,400 — vs the $15K ticket: upside-down** |
+| Cash collected in window | — | **$0** (Karl $7.5K agreed, unsigned) |
+
+## 🎤 Kai's voice note — answered line by line (real numbers)
+1. 🗣️ *"you've spent 6100"* → ✅ correct, ≈$6.1K in the window ($6,451 through 8/30 across both relaunch campaigns).
+2. 🗣️ *"37 unique bookings... about a 170 cost per booked call"* → ❌ 37 was a slot count, not people. **30 unique people booked** (29 ad leads + 1 referral; several booked multiple slots) → **$203–210 per booked person**.
+3. 🗣️ *"Of those 15 showed... roughly 410 cost per live call"* → ❌ **9 showed** (each verified by recording or Alan's review) → **$678 per live call**.
+4. 🗣️ *"show rate... 41%"* → ❌ **31%**. And it splits hard: live-connected bookers 50%, never-connected self-bookers 8%.
+5. 🗣️ *"of the 15, 1 was qualified"* → the **1 is right** (Karl) — but of **9** shows, so qualified show rate = **11%**.
+6. 🗣️ *"why 14 of the 15 live calls were unqualified... what made them unqualified"* → really 8 of 9: **4 no money** (Nick, Pradeep, Michael Moore, Chris Bowers) · **1 credit too weak** (Jesse) · **1 needs a personal guarantor** (Yeshaya) · **1 wanted no-PG funding we don't offer** (Jennifer) · **1 fake lead** (P Reddy — fake business/website). **The constraint is money + credit damage, not interest.**
+7. 🗣️ *"what's your specific ideal client and who was showing up"* → ICP: 720+ credit, funds to invest, real funding need, PG-willing owner. Who actually books: damaged-credit / no-funds owners pulled by a "guaranteed funding" application funnel — structurally a **downsell audience**. Targeting/creative problem, not a sales problem.
+8. 🗣️ *"bump show rate to 50%... $800 per qualified... 25% close... 3200 CPA"* → the model is right, the inputs aren't there yet: today it's **$6,100/qualified → $24,400 CPA**. To reach his $800/qualified: at $6.1K spend you need ~7–8 qualified calls — i.e. ~50% show AND ~50% qualified-of-shows. Show rate is fixable (triage everyone: connected bookers already show 50%). **Qualified% is the ad-audience quality problem — that's the constraint.**
+9. 🗣️ *"you're closing at 150"* → ticket is $15K main offer; in-window collections were $0 (Karl's $7.5K agreed-unsigned; August verified cash: $1.6K, a downsell household deal).
+10. 🗣️ *"what's changed between last month and this month"* → (a) Jul 28: both old campaigns replaced by relaunches — learning reset #1; (b) **Aug 10: a tracking edit touched all 12 live ads — learning reset #2** (now banned by MEDIA LAW); (c) Medical v2 never found footing — $403+/lead with one ad eating 66% of budget; (d) outcome-recording stopped entirely in August, so the worst weeks were invisible in-system.
+
 > **The triage split, same layers:** of the 25 instant bookers — 13 later got a live triage/connection → **6 showed (50%)**; the other 12 never connected despite 2–17 dials each → **1 showed (8%)**. The 4 who booked after triage → 2 showed (50%), including the only qualified. **Live human contact is carrying the entire funnel.**
 
 ---
