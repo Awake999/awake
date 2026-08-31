@@ -1,28 +1,42 @@
-# 🎯 APW True Funnel — Jul 28 → Aug 26 (click any name to jump)
+# 🎯 APW True Funnel — Jul 28 → Aug 26 · chronological, every number with its names
 
-**How to read (no context needed):** every ad lead fills the **application opt-in**. Most keep going and grab a slot the same minute — **⚡ Direct to Booking**. **Speed to lead** = instant automatic first touch (everyone got it, ≤1 min). **Connected** = an answered call (60s+). **Triaged** = Lynn got them in a real conversation. **Unresponsive** = we kept dialing/texting, they never engaged.
+**How to read:** every layer's numbers add up to the layer above it. ✓ after a name = they showed. Click any name for their full card (status · tags · outreach · proof links). Terms: **speed to lead** = instant automatic first touch (everyone got one, ≤1 min) · **direct to booking** = grabbed a slot within minutes of opting in · **connected** = answered call 60s+ · **triaged** = live conversation with Lynn · **unresponsive** = repeated dials/texts, no engagement.
 
-## ⬇️ THE WHOLE FUNNEL — one glance
+## LAYER 1 — 💵 $6,100 spend → 38 NEW LEADS came in ($160/lead, all via the application opt-in)
+[Karl Krummenacher ✓](#karl-krummenacher) · [P Reddy P ✓](#p-reddy-p) · [Jesse Hopcus ✓](#jesse-hopcus) · [Yeshaya Dank ✓](#yeshaya-dank) · [Michael Moore ✓](#michael-moore) · [Jennifer Ulloa ✓](#jennifer-ulloa) · [Nick Samara ✓](#nick-samara) · [Pradeep Bhatia ✓](#pradeep-bhatia) · [Chris Bowers ✓](#chris-bowers) · [Robert Schechner](#robert-schechner) · [Myla Maheedhar](#myla-maheedhar) · [Rena Sookra](#rena-sookra) · [Trent Hamilton](#trent-hamilton) · [Antonio Jenkins](#antonio-jenkins) · [Jack Kates](#jack-kates) · [Shamar Samuel](#shamar-samuel) · [Connor Robertson](#connor-robertson) · [Desi Harmon Sr](#desi-harmon-sr) · [Behnad Zandi](#behnad-zandi) · [Ms Terry](#ms-terry) · [Stephen Greco](#stephen-greco) · [Tarlochan Singh](#tarlochan-singh) · [Ed McCullough](#ed-mccullough) · [David Shepherd](#david-shepherd) · [Lee McEachin Jr](#lee-mceachin-jr) · [Tessa Ndille](#tessa-ndille) · [Pedro Perez Grizzle](#pedro-perez-grizzle) · [George Truesdale](#george-truesdale) · [Robert Morawitz](#robert-morawitz) · [Fernando De Pieri](#fernando-de-pieri) · [Javaris Johnson](#javaris-johnson) · [Noel Rivera](#noel-rivera) · [John Mazzocchi](#john-mazzocchi) · [HERMAN ROGERS](#herman-rogers) · [Natalia Rumbuc](#natalia-rumbuc) · [Marko Sakren](#marko-sakren) · [LeRoy McCall](#leroy-mccall) · [Njjnn Of](#njjnn-of)
 
-**$6,100 spend → 38 new leads** ($160/lead · zero skipped the opt-in)
+## LAYER 2 — what the 38 did next: **38 = 25 + 13**
+**⚡ 25 booked INSTANTLY (direct to booking):**
+[P Reddy P ✓](#p-reddy-p) · [Jesse Hopcus ✓](#jesse-hopcus) · [Yeshaya Dank ✓](#yeshaya-dank) · [Michael Moore ✓](#michael-moore) · [Nick Samara ✓](#nick-samara) · [Pradeep Bhatia ✓](#pradeep-bhatia) · [Chris Bowers ✓](#chris-bowers) · [Robert Schechner](#robert-schechner) · [Myla Maheedhar](#myla-maheedhar) · [Rena Sookra](#rena-sookra) · [Trent Hamilton](#trent-hamilton) · [Antonio Jenkins](#antonio-jenkins) · [Jack Kates](#jack-kates) · [Shamar Samuel](#shamar-samuel) · [Desi Harmon Sr](#desi-harmon-sr) · [Ms Terry](#ms-terry) · [Stephen Greco](#stephen-greco) · [Tarlochan Singh](#tarlochan-singh) · [Ed McCullough](#ed-mccullough) · [David Shepherd](#david-shepherd) · [Lee McEachin Jr](#lee-mceachin-jr) · [Tessa Ndille](#tessa-ndille) · [Pedro Perez Grizzle](#pedro-perez-grizzle) · [George Truesdale](#george-truesdale) · [Robert Morawitz](#robert-morawitz)
 
-### ⚡ DIRECT TO BOOKING — 25 (booked within minutes of opting in)
-- **🎯 Triaged / connected first — 13 → 6 showed (50%)** · 6 no-show · 1 unrecorded
-  [P Reddy P ✓](#p-reddy-p) · [Jesse Hopcus ✓](#jesse-hopcus) · [Yeshaya Dank ✓](#yeshaya-dank) · [Michael Moore ✓](#michael-moore) · [Nick Samara ✓](#nick-samara) · [Pradeep Bhatia ✓](#pradeep-bhatia) · [Chris Bowers ✓](#chris-bowers) · [Robert Schechner](#robert-schechner) · [Myla Maheedhar](#myla-maheedhar) · [Trent Hamilton](#trent-hamilton) · [Antonio Jenkins](#antonio-jenkins) · [Jack Kates](#jack-kates) · [Shamar Samuel](#shamar-samuel) · [Desi Harmon Sr](#desi-harmon-sr) · [Stephen Greco](#stephen-greco) · [Tarlochan Singh](#tarlochan-singh) · [Lee McEachin Jr](#lee-mceachin-jr) · [Pedro Perez Grizzle](#pedro-perez-grizzle) · [Robert Morawitz](#robert-morawitz)
-- **🚷 Never triaged (dialed & texted, no pickup) — 12 → 1 showed (8%)** · 9 no-show · 2 cancelled
-  [Rena Sookra](#rena-sookra) · [Ms Terry](#ms-terry) · [Ed McCullough](#ed-mccullough) · [David Shepherd](#david-shepherd) · [Tessa Ndille](#tessa-ndille) · [George Truesdale](#george-truesdale)
+**⏳ 13 did NOT book right away (opt-in only at first):**
+[Karl Krummenacher ✓](#karl-krummenacher) · [Jennifer Ulloa ✓](#jennifer-ulloa) · [Connor Robertson](#connor-robertson) · [Behnad Zandi](#behnad-zandi) · [Fernando De Pieri](#fernando-de-pieri) · [Javaris Johnson](#javaris-johnson) · [Noel Rivera](#noel-rivera) · [John Mazzocchi](#john-mazzocchi) · [HERMAN ROGERS](#herman-rogers) · [Natalia Rumbuc](#natalia-rumbuc) · [Marko Sakren](#marko-sakren) · [LeRoy McCall](#leroy-mccall) · [Njjnn Of](#njjnn-of)
 
-### 📞 TRIAGE → CALL BOOKED — 4 (connected live FIRST, then booked) → 2 showed (50%), incl. the only qualified
-  [Karl Krummenacher ✓](#karl-krummenacher) · [Jennifer Ulloa ✓](#jennifer-ulloa) · [Connor Robertson](#connor-robertson) · [Behnad Zandi](#behnad-zandi)
+## LAYER 3 — what happened to those 13: **13 = 4 + 9**
+**📞 4 booked LATER, after triage/follow-up** (Jennifer +5h · Behnad +15h · Connor +7d · Karl +14d):
+[Karl Krummenacher ✓](#karl-krummenacher) · [Jennifer Ulloa ✓](#jennifer-ulloa) · [Connor Robertson](#connor-robertson) · [Behnad Zandi](#behnad-zandi)
 
-### 📥 OPT-IN ONLY, NEVER BOOKED — 9 (chased 6–22× each, unresponsive)
-  [Fernando De Pieri](#fernando-de-pieri) · [Javaris Johnson](#javaris-johnson) · [Noel Rivera](#noel-rivera) · [John Mazzocchi](#john-mazzocchi) · [HERMAN ROGERS](#herman-rogers) · [Natalia Rumbuc](#natalia-rumbuc) · [Marko Sakren](#marko-sakren) · [LeRoy McCall](#leroy-mccall) · [Njjnn Of](#njjnn-of)
+**📥 9 NEVER booked** (chased 6–22× each — unresponsive):
+[Fernando De Pieri](#fernando-de-pieri) · [Javaris Johnson](#javaris-johnson) · [Noel Rivera](#noel-rivera) · [John Mazzocchi](#john-mazzocchi) · [HERMAN ROGERS](#herman-rogers) · [Natalia Rumbuc](#natalia-rumbuc) · [Marko Sakren](#marko-sakren) · [LeRoy McCall](#leroy-mccall) · [Njjnn Of](#njjnn-of)
 
-### 🏁 END OF FUNNEL
-**9 SHOWED (31% of 29 booked) → 1 QUALIFIED — [Karl](#karl-krummenacher) (11% of shows · $6,100/qualified) → $0 collected** (Karl's $7.5K agreed, unsigned)
-➕ Referral outside funnel: [Chris Mclean](#chris-mclean) · ❓ unrecorded: [Robert Morawitz](#robert-morawitz)
+## LAYER 4 — everyone who booked: **25 + 4 = 29 → outcomes: 9 + 17 + 2 + 1**
+**✅ 9 SHOWED (31%):**
+[Karl Krummenacher](#karl-krummenacher) · [P Reddy P](#p-reddy-p) · [Jesse Hopcus](#jesse-hopcus) · [Yeshaya Dank](#yeshaya-dank) · [Michael Moore](#michael-moore) · [Jennifer Ulloa](#jennifer-ulloa) · [Nick Samara](#nick-samara) · [Pradeep Bhatia](#pradeep-bhatia) · [Chris Bowers](#chris-bowers)
 
-> **Headline: a booking with a live triage shows ~50%. A self-booked slot nobody connected with shows 8%.** The only qualified lead came through follow-up + triage, not self-serve.
+**❌ 17 NO-SHOW:**
+[Robert Schechner](#robert-schechner) · [Myla Maheedhar](#myla-maheedhar) · [Rena Sookra](#rena-sookra) · [Trent Hamilton](#trent-hamilton) · [Antonio Jenkins](#antonio-jenkins) · [Jack Kates](#jack-kates) · [Shamar Samuel](#shamar-samuel) · [Connor Robertson](#connor-robertson) · [Desi Harmon Sr](#desi-harmon-sr) · [Behnad Zandi](#behnad-zandi) · [Ms Terry](#ms-terry) · [Stephen Greco](#stephen-greco) · [Tarlochan Singh](#tarlochan-singh) · [Ed McCullough](#ed-mccullough) · [David Shepherd](#david-shepherd) · [Lee McEachin Jr](#lee-mceachin-jr) · [Tessa Ndille](#tessa-ndille)
+
+**🚫 2 CANCELLED:** [Pedro Perez Grizzle](#pedro-perez-grizzle) · [George Truesdale](#george-truesdale) · **❓ 1 unrecorded:** [Robert Morawitz](#robert-morawitz)
+
+## LAYER 5 — of the 9 who showed: **9 = 1 + 8**
+**🟢 1 QUALIFIED:** [Karl Krummenacher](#karl-krummenacher) (11% of shows · $6,100/qualified)
+**🔴 8 unqualified** (4 no money · 1 credit too weak · 1 needs PG · 1 offer mismatch · 1 fake):
+[P Reddy P](#p-reddy-p) · [Jesse Hopcus](#jesse-hopcus) · [Yeshaya Dank](#yeshaya-dank) · [Michael Moore](#michael-moore) · [Jennifer Ulloa](#jennifer-ulloa) · [Nick Samara](#nick-samara) · [Pradeep Bhatia](#pradeep-bhatia) · [Chris Bowers](#chris-bowers)
+
+## LAYER 6 — 💰 $0 COLLECTED in the window (Karl's $7.5K agreed, unsigned)
+➕ Outside the funnel: [Chris Mclean](#chris-mclean) — Matthew referral, your 30th booked tag.
+
+> **The triage split, same layers:** of the 25 instant bookers — 13 later got a live triage/connection → **6 showed (50%)**; the other 12 never connected despite 2–17 dials each → **1 showed (8%)**. The 4 who booked after triage → 2 showed (50%), including the only qualified. **Live human contact is carrying the entire funnel.**
 
 ---
 

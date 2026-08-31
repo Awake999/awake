@@ -61,31 +61,52 @@ sections = [
     ('📥 OPTED IN, NEVER BOOKED — 9', [p for p in P if p[1] == 'optin']),
 ]
 
-md = f'''# 🎯 APW True Funnel — Jul 28 → Aug 26 (click any name to jump)
+noshow_names = [p[0] for p in P if p[1] == 'noshow']
+cancel_names = [p[0] for p in P if p[1] == 'cancelled']
+show_names = [p[0] for p in P if p[1] == 'showed' and p[2] != 'referral']
+unq_names = [n for n in show_names if n != 'Karl Krummenacher']
+all_leads = [p[0] for p in P if p[2] != 'referral']
+not_instant = later + never
 
-**How to read (no context needed):** every ad lead fills the **application opt-in**. Most keep going and grab a slot the same minute — **⚡ Direct to Booking**. **Speed to lead** = instant automatic first touch (everyone got it, ≤1 min). **Connected** = an answered call (60s+). **Triaged** = Lynn got them in a real conversation. **Unresponsive** = we kept dialing/texting, they never engaged.
+md = f'''# 🎯 APW True Funnel — Jul 28 → Aug 26 · chronological, every number with its names
 
-## ⬇️ THE WHOLE FUNNEL — one glance
+**How to read:** every layer's numbers add up to the layer above it. ✓ after a name = they showed. Click any name for their full card (status · tags · outreach · proof links). Terms: **speed to lead** = instant automatic first touch (everyone got one, ≤1 min) · **direct to booking** = grabbed a slot within minutes of opting in · **connected** = answered call 60s+ · **triaged** = live conversation with Lynn · **unresponsive** = repeated dials/texts, no engagement.
 
-**$6,100 spend → 38 new leads** ($160/lead · zero skipped the opt-in)
+## LAYER 1 — 💵 $6,100 spend → 38 NEW LEADS came in ($160/lead, all via the application opt-in)
+{links_of(all_leads)}
 
-### ⚡ DIRECT TO BOOKING — 25 (booked within minutes of opting in)
-- **🎯 Triaged / connected first — 13 → 6 showed (50%)** · 6 no-show · 1 unrecorded
-  {links_of(d_tri)}
-- **🚷 Never triaged (dialed & texted, no pickup) — 12 → 1 showed (8%)** · 9 no-show · 2 cancelled
-  {links_of(d_untri)}
+## LAYER 2 — what the 38 did next: **38 = 25 + 13**
+**⚡ 25 booked INSTANTLY (direct to booking):**
+{links_of(direct)}
 
-### 📞 TRIAGE → CALL BOOKED — 4 (connected live FIRST, then booked) → 2 showed (50%), incl. the only qualified
-  {links_of(later)}
+**⏳ 13 did NOT book right away (opt-in only at first):**
+{links_of(not_instant)}
 
-### 📥 OPT-IN ONLY, NEVER BOOKED — 9 (chased 6–22× each, unresponsive)
-  {links_of(never, mark_show=False)}
+## LAYER 3 — what happened to those 13: **13 = 4 + 9**
+**📞 4 booked LATER, after triage/follow-up** (Jennifer +5h · Behnad +15h · Connor +7d · Karl +14d):
+{links_of(later)}
 
-### 🏁 END OF FUNNEL
-**9 SHOWED (31% of 29 booked) → 1 QUALIFIED — [Karl](#{anchor("Karl Krummenacher")}) (11% of shows · $6,100/qualified) → $0 collected** (Karl's $7.5K agreed, unsigned)
-➕ Referral outside funnel: [Chris Mclean](#{anchor("Chris Mclean")}) · ❓ unrecorded: [Robert Morawitz](#{anchor("Robert Morawitz")})
+**📥 9 NEVER booked** (chased 6–22× each — unresponsive):
+{links_of(never, mark_show=False)}
 
-> **Headline: a booking with a live triage shows ~50%. A self-booked slot nobody connected with shows 8%.** The only qualified lead came through follow-up + triage, not self-serve.
+## LAYER 4 — everyone who booked: **25 + 4 = 29 → outcomes: 9 + 17 + 2 + 1**
+**✅ 9 SHOWED (31%):**
+{links_of(show_names, mark_show=False)}
+
+**❌ 17 NO-SHOW:**
+{links_of(noshow_names, mark_show=False)}
+
+**🚫 2 CANCELLED:** {links_of(cancel_names, mark_show=False)} · **❓ 1 unrecorded:** [Robert Morawitz](#{anchor("Robert Morawitz")})
+
+## LAYER 5 — of the 9 who showed: **9 = 1 + 8**
+**🟢 1 QUALIFIED:** [Karl Krummenacher](#{anchor("Karl Krummenacher")}) (11% of shows · $6,100/qualified)
+**🔴 8 unqualified** (4 no money · 1 credit too weak · 1 needs PG · 1 offer mismatch · 1 fake):
+{links_of(unq_names, mark_show=False)}
+
+## LAYER 6 — 💰 $0 COLLECTED in the window (Karl's $7.5K agreed, unsigned)
+➕ Outside the funnel: [Chris Mclean](#{anchor("Chris Mclean")}) — Matthew referral, your 30th booked tag.
+
+> **The triage split, same layers:** of the 25 instant bookers — 13 later got a live triage/connection → **6 showed (50%)**; the other 12 never connected despite 2–17 dials each → **1 showed (8%)**. The 4 who booked after triage → 2 showed (50%), including the only qualified. **Live human contact is carrying the entire funnel.**
 
 ---
 
