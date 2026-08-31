@@ -222,3 +222,32 @@ Alan, verbatim: "you have names in here that should not be in here. People that 
 | 6 | [LeRoy McCall](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/9kRWME9TdBvPTZiixBiX) | LLC, growing | 720-749, $50–100K |
 | 7 | [Javaris Johnson](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/1LpdOmQr5SLXuS3blGHs) | medical ($25–50K/mo revenue) | 720-749, $100–200K |
 | 8 | [Natalia Rumbuc](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/XWpYlTI8Ar1QnwizNVuA) | register #69 recovered lead, worked by Lynn | 720-749, $1M+ ask but unemployed — triage first |
+
+---
+
+# v4 CORRECTION (2026-08-31): show rate re-verified after Alan's challenge — v3 was INFLATED
+
+Alan, verbatim: "that show rate is bullshit. cehck and verify yourself." He was right. v3's flaw: **a recording existing was counted as a show.** A Fathom recording can be an empty no-show room (precedent: the Sales Intelligence finding that Leo's and Joe's "recordings" were mic-troubleshooting only). Every show was re-verified: archived transcripts checked for the client actually speaking; unarchived recordings pulled from the Fathom API.
+
+## Audit results
+| Person | v3 said | Verified reality | Evidence |
+|---|---|---|---|
+| Robert Morawitz | showed 8/27 | ❌ **NO-SHOW — empty room.** 2-hour recording, speakers are ONLY Alan (72), Carla (72), Lynn (28). The team used the room for the qualification-standard discussion | [archived transcript](../../calls/fathom/2026-08-27--robert-morawitz-qualification-origins--177627271/transcript.md) speaker roster |
+| Connor Robertson | showed 8/17 | ❌ [derived] **NO-SHOW ×2** — 8/17 recording has NO transcript and NO summary (empty-room signature); Carla DM 8/17: "Did Connor reschedule?"; rebooked to Sep 1 | Fathom API + [Carla DM p5](../dms/carla-stivala/raw-page5.txt) |
+| Pedro Perez Grizzle | showed | ⚠️ reclassified — the 8/20 Krisp call is a **triage**, not his booked funding call (8/18), whose outcome is UNKNOWN | [triage transcript](../../calls/krisp/2026-08-20--pedro-triage-call-carla--01a01ba2d1aa77a8b14c372378602e76/transcript.md) |
+| Chris Bowers (8/4 + 8/7), Pradeep (8/7, $300 deposit), Jennifer Ulloa (8/7), P Reddy (8/10, rated it 7/10), Yeshaya (8/14 + 8/27), Karl (8/20), Michael Moore (8/20+), Nick Samara (8/25+8/26, speaker "Nazir Samara"/"nazsa"), Stephen Greco (8/17) | showed | ✅ CONFIRMED — client speech verified in transcript or full API summary | linked per person in v2/v3 |
+| Myla Maheedhar | showed (secondary) | unchanged — Notion secondary evidence only | booking audit |
+
+## FUNNEL v4 (final, honest)
+| Stage | # |
+|---|---|
+| New leads | 38 |
+| Set (booked) | 30 (79%) |
+| **Showed — client verifiably present** | **9 verified + 1 secondary = 10** |
+| No-show (Tarlochan, Tessa, **Robert Morawitz** verified; Connor ×2, Lee, Ms Terry, Shamar, Jack Kates, Ed McCullough, David Shepherd derived) | **10** |
+| Cancelled (George Truesdale) | 1 |
+| Unknown (Schechner, Sookra, Antonio Jenkins, Trent, Desi, Jesse Hopcus, Behnad, + Pedro's booked call) | 8 |
+| Pending (Marx — today) | 1 |
+| **Show rate band** | **34% floor – 62% ceiling; 48% on resolved outcomes (10 of 21)** |
+
+v3's 45–69% band is retracted. Alan's 8/21 "16%" reads as a different (stricter) metric — likely qualified-shows over all bookings incl. pre-existing re-books; on THAT basis this window gives 3–4 qualified shows / 66 bookings ≈ **5–6%**, which matches his instinct better than any of my earlier numbers.

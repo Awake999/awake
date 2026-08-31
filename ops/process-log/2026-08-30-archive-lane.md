@@ -252,3 +252,6 @@ Alan correction (verbatim in the pulls file): new leads only. dateAdded filter a
 
 ## Batch (2026-08-31): reheat draft placed in Slack
 Draft Dr0BTB8H0EJ3 created in #sales-team-updates (C0BPN7Y9YB0) — the 8 never-booked reheat leads with GHL links, priority-ordered (HERMAN ROGERS first), + Marx Todjro same-day call reminder. One tap from Alan to send; not posted by the lane.
+
+## Miss log (TRUTH law, 2026-08-31): show-rate inflation caught by Alan
+Alan: "that show rate is bullshit. cehck and verify yourself." Verified — v3 counted recording-existence as show. Audit found Morawitz 8/27 = empty room (Alan/Carla/Lynn only), Connor 8/17 = no transcript/summary, Pedro = triage-not-booked-call. Corrected v4: 10 shows (9 verified + Myla secondary), band 34–62%, 48% on resolved. Standing rule adopted: A RECORDING IS NOT A SHOW — a show requires the client's own speech verified in the transcript (or an API summary proving conversation). Grade of v3: C (mechanism right, verification skipped).
