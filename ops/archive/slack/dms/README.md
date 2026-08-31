@@ -8,7 +8,7 @@ One folder per DM conversation. Raw pages are saved as captured (newest-first, v
 |---|---|---|---|
 | [Carla Stivala](carla-stivala/) | D0BP6H6AF44 | ✅ COMPLETE — 9 pages, 802 messages, Aug 9–29 ([page 1](carla-stivala/raw-page1.txt) … [page 9](carla-stivala/raw-page9.txt)) | ✅ [export.md](carla-stivala/export.md) (chronological, verbatim) |
 | [Lynn N.](lynn-n/) | D0BMPBLHXSA | ✅ COMPLETE — 7 pages, 676 messages, Aug 5–30 ([page 1](lynn-n/raw-page1.txt) … [page 7](lynn-n/raw-page7.txt)) | ✅ [export.md](lynn-n/export.md) (chronological, verbatim) |
-| Ina Grace Langub | — | queued | — |
+| [Ina Grace Langub](grace-langub/) | D0BP49VMRUJ | ✅ COMPLETE — 3 pages, 254 messages, Aug 9–29 ([page 1](grace-langub/raw-page1.txt) … [page 3](grace-langub/raw-page3.txt)) | ✅ [export.md](grace-langub/export.md) (chronological, verbatim) |
 | Rosemarie Anne Fabian | — | queued | — |
 
 ⚠️ FOR LANE 1 — plaintext credentials found in these DMs (rotation recommended, per the register-#73 pattern):
