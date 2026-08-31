@@ -75,4 +75,30 @@ Q1 structure: 38 ad LEADS (not bookings) = 29 booked + 9 opt-in-only; +1 referra
 Qualified of 39: Main 2 (Karl, P Reddy) · Downsell 4 (Nick, Pradeep, Yeshaya + referral Mclean) · Unqualified 2 (Michael Moore no-funds, Jennifer no-PG) · not assessed 31.
 Triage: recorded-at-the-time 1 (Connor) · Alan-attested retroactively 10 more (booked cohort) · opt-in-only group 0 · TRIAGE PROCESS WITH DATA COMPLETED: 0 of 38 (no verdicts/dates/notes captured, ever).
 Contact/speed: 36/38 first-touched ≤1 minute [V speed_to_lead CSV] — AUTOMATED touch (instant text/email); the 2 misses = Morawitz + Bowers (duplicate-id casualties). Human contact-attempt counts: never tracked (field born 8/31) — computable from 8,218 GHL messages next pass.
-Split test triaged-vs-not [CONTAMINATED — flags are retroactive, 15 outcomes silent]: Triaged 11 → showed 4 (36% floor) · cancelled 1 · silent 6 · qual: 1 Main, 1 Downsell, 1 Unq, 1 unassessed. Not-triaged booked 19 → showed 5-7 (26-37% floor) · cancelled 1 · silent 10-11 · qual: 1 Main, 3 Downsell, 1 Unq. NO statistically meaningful triage effect measurable yet — samples tiny, flags retroactive, silent outcomes dominate. The split test becomes real from Sep 1 forward.
+Split test triaged-vs-not [CONTAMINATED — flags are retroactive, 15 outcomes silent]: Triaged 11 → showed 4 (36% floor) · cancelled 1 · silent 6 · qual: 1 Main, 1 Downsell, 1 Unq, 1 unassessed. Not-triaged booked 19 → showed 5-7 (26-37% floor) · cancelled 1 · silent 10-11 · qual: 1 Main, 3 Downsell, 1 Unq. NO statistically meaningful triage effect measurable yet — samples tiny, flags retroactive, silent outcomes dominate. The split test becomes real from Sep 1 forward. **→ §G supersedes these splits: Alan's 8/31 person-by-person review resolved the silents.**
+
+## G. ATTESTED TRUTH — Alan's 8/31 person-by-person review (supersedes §C/§F rates)
+*Source: [Alan's verbatim review](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/prompts/2026-08-31-alan-review-attestations.md). Every count below is named — no blind numbers. [A] = Alan-attested 8/31.*
+
+### G1. The booked-29, final outcomes (excl. Chris Mclean — referral, Alan-excluded)
+- **SHOWED — 8:** Karl Krummenacher [V rec] · Jesse Hopcus [A] · Yeshaya Dank [V rec] · Michael Moore [V rec] · Jennifer Ulloa [V rec] · Nick Samara [V rec] · Pradeep Bhatia [V rec] · P Reddy P [V rec — but **FAKE lead**, Alan: fake website/business, wouldn't show face or report]
+- **NO-SHOW — 17 [A]:** Robert Schechner · Myla Maheedhar · Rena Sookra · Trent Hamilton · Antonio Jenkins · Jack Kates · Shamar Samuel · Connor Robertson · Desi Harmon Sr · Behnad Zandi · Ms Terry · Stephen Greco (both slots) · Tarlochan Singh · Ed McCullough · David Shepherd · Lee McEachin Jr · Tessa Ndille
+- **CANCELLED — 2 [V GHL]:** Pedro Perez Grizzle · George Truesdale
+- **UNRESOLVED — 2:** Robert Morawitz (appt on a duplicate id, merge #71) · Chris Bowers (identity/date conflict; Alan attests unqualified — bad credit, maxed, can't make $200 — show-status still unproven)
+
+### G2. Qualification after review (of the 8 shows)
+- **Qualified: 1 — Karl** (real, credit-qualified; caveat: not in market for main right now). P Reddy struck (fake). Jesse unqualified (credit too weak, loans/debt). Yeshaya unqualified as-is (needs a PG). Michael Moore no-funds (verge of bankruptcy). Jennifer offer-mismatch (no-PG demand). Nick no-funds (couldn't fund even the downsell — $500 never paid [V Whop]). Pradeep no-funds ($300 never paid [V Whop]).
+
+### G3. The rates Alan asked for (percentage-wise, resolved-basis)
+| Metric | Named basis | Rate |
+|---|---|---|
+| **Total show rate** | 8 shows / 27 resolved bookings | **30%** (27% counting the fake as not-real) |
+| **Triaged show rate** | triaged 11: showed 4 (P Reddy, Jesse, Yeshaya, Michael M.) · no-show 6 (Trent, Antonio, Jack, Shamar, Connor, Desi) · cancelled 1 (Pedro) | **36%** |
+| **Not-triaged show rate** | 18: showed 4 (Karl, Jennifer, Nick, Pradeep) · no-show 11 · cancelled 1 (George) · unresolved 2 | **25%** (4/16 resolved) |
+| **Qualified — triaged** | 0 of 4 shows | **0%** |
+| **Qualified — not triaged** | 1 of 4 shows (Karl) | **25%** |
+| **Qualified show rate overall** | 1 of 8 shows | **12.5%** |
+| **Cost per qualified** | $6.1K / 1 (Karl) | **≈$6,100 → CPA at 25% close ≈ $24K vs $15K ticket = broken** (K4 updated: the 2-qualified scenario is dead — P Reddy was fake) |
+
+### G4. The never-booked 9 — outreach audit [V GHL messages]
+Alan asked: *"Did Lynn actually try to reach out to them?... unresponsive, or has Lynn not contacted these people at all?"* **Answer: contacted, every one — outbound-only, ~zero replies = unresponsive, not neglected:** Fernando De Pieri 9 msgs (last 8/28) · Javaris Johnson 21 (8/27) · Noel Rivera 11 (8/26) · John Mazzocchi 20 (8/26) · HERMAN ROGERS 20 (8/27) · Natalia Rumbuc 22 (8/27) · Marko Sakren 6 (8/18) · LeRoy McCall 15 out/1 in (8/18) · Njjnn Of (junk-name capture, not audited as a real lead).
