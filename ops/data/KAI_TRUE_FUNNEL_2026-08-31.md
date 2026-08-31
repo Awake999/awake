@@ -1,7 +1,17 @@
 # 🎯 KAI PACKAGE — the true funnel, Jul 28–Aug 26, built on Alan's hand-checked tag lists
 
-## ⬇️ THE FUNNEL (top of page, one glance)
-**$6,100 spend → 38 new leads ($160/ea) → 29 booked (76%) → 9 showed (31% of booked) → 1 qualified (Karl, 11% of shows, $6,100/qualified) → 0 paid in window** (Karl's $7.5K agreed, unsigned). Leaks: 9 never booked (unresponsive after 6–22 msgs) · 17 no-shows · 2 cancels · 1 unknown (Morawitz) · of the 8 unqualified shows: 1 fake, 4 no money, 1 credit too weak, 1 needs a PG, 1 wrong offer.
+## ⬇️ THE FUNNEL (top of page, one glance) — SEGMENTED (rev. 2, timestamp-verified paths)
+**$6,100 spend → 38 new leads** (all pass the application opt-in page) **→ split by behavior [V opt-in→booking timestamps]:**
+- **⚡ DIRECT-TO-BOOK 25** — continued straight to the calendar, booked within minutes of opt-in
+- **🧑‍💼 BOOKED LATER 4** — opt-in first, booked only after being worked: Jennifer (+5h) · Behnad (+15h) · Connor (+7.4d) · Karl (+13.9d)
+- **📥 NEVER BOOKED 9** — contacted 6–22× each, unresponsive
+
+**→ 9 showed (31% of 29 booked) → 1 qualified (Karl, 11% of shows, $6,100/qualified) → $0 collected in window** (Karl's $7.5K agreed, unsigned).
+**The triage effect inside direct-to-book [V tags]: Lynn-worked 6/12 showed (50%) vs untouched 1/12 (8%).** Booked-later (all human-worked) showed 2/4 (50%) and produced the ONLY qualified (Karl). Self-serve untouched bookings are near-worthless; human touch is carrying everything.
+Leaks: 17 no-shows · 2 cancels · 1 unknown (Morawitz) · of 8 unqualified shows: 1 fake, 4 no money, 1 credit too weak, 1 needs PG, 1 wrong offer.
+**🖱 Interactive explorer (filter/expand every person + proof): ops/data/funnel_explorer_2026-08-31.html**
+
+⚖️ Triage definition (Alan 8/31): TRUE triage = live phone conversation + all questions + booking secured & confirmed. ZERO documented end-to-end this window; "worked/triaged" above = Lynn's GHL tag and/or Alan's attestation. Sep 1 forward-capture fixes this.
 **🏁 RESULT (rev. 8/31 post-review):** 38 ad leads · 29 booked (+1 referral = the 30 booked tags) · 9 never booked · **ATTESTED: 9 showed · 17 no-show · 2 cancelled · 1 unresolved · qualified = 1 (Karl)** — full proof per person: [VERIFICATION LINKS](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/KAI_VERIFICATION_LINKS_2026-08-31.md); §G = governing truth (supersedes §C/§D/§F drafts below)
 **⏱:** Alan's manual tags → GHL join (arrival dates, appointments, UTMs) → Fathom recordings → tracker qualifications → this file
 *Sources: [Alan's verbatim lists + Kai's note](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/prompts/2026-08-31-kai-true-data-spec.md) · [GHL raw](https://github.com/Awake999/awake/tree/claude/new-session-1ofk4w/ops/archive/ghl/2026-08-30) · [qual verdicts w/ quotes](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/QUAL_BACKFILL_2026-08-30.md). Labels: [V] verified · [D] derived · U = unrecorded (nobody logged it).*
@@ -10,7 +20,7 @@
 🗣️ *"safe to assume that the call booked scio tags were direct to booking, meaning the remaining new lead tags were 8 opt ins only correct?"*
 **Not quite, on both halves [V]:**
 1. The never-booked group is **9, not 8**: Fernando De Pieri · Javaris Johnson · Njjnn Of (junk-name lead) · Noel Rivera · John Mazzocchi · HERMAN ROGERS · Natalia Rumbuc · Marko Sakren · LeRoy McCall. The 30th booked tag is **Chris Mclean — a Matthew referral, not one of the 38 ad leads.** So: 38 ad leads = 29 booked + 9 opt-in-only.
-2. They are **not "direct to booking"** — all 38 carry SCIO **Application-funnel UTMs** (opt-in first, then the calendar). "Call booked" tag = reached the calendar after opting in. True paths: 29 opt-in→booked · 9 opt-in-only · 1 referral→booked.
+2. Refined [V timestamps]: all 38 pass the application opt-in page (no one skips it — UTMs prove it), but **25 of the 29 bookers behaved as DIRECT-TO-BOOK** — they continued straight from opt-in to the calendar and booked within 0–11 minutes. Only 4 booked later after being worked (Jennifer +5h, Behnad +15h, Connor +7.4d, Karl +13.9d). 9 opted in and never booked. So Alan's "30 direct to booking" intuition ≈ right in behavior: 25 direct + 4 worked + referral Mclean = the 30 booked tags.
 
 ## B. Per-person truth — all 39, one row each
 | # | Person | Arrived [V GHL] | Booked | Showed | Qualification (evidence) |
