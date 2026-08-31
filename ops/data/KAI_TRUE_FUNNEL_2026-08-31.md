@@ -1,4 +1,7 @@
 # 🎯 KAI PACKAGE — the true funnel, Jul 28–Aug 26, built on Alan's hand-checked tag lists
+
+## ⬇️ THE FUNNEL (top of page, one glance)
+**$6,100 spend → 38 new leads ($160/ea) → 29 booked (76%) → 9 showed (31% of booked) → 1 qualified (Karl, 11% of shows, $6,100/qualified) → 0 paid in window** (Karl's $7.5K agreed, unsigned). Leaks: 9 never booked (unresponsive after 6–22 msgs) · 17 no-shows · 2 cancels · 1 unknown (Morawitz) · of the 8 unqualified shows: 1 fake, 4 no money, 1 credit too weak, 1 needs a PG, 1 wrong offer.
 **🏁 RESULT (rev. 8/31 post-review):** 38 ad leads · 29 booked (+1 referral = the 30 booked tags) · 9 never booked · **ATTESTED: 9 showed · 17 no-show · 2 cancelled · 1 unresolved · qualified = 1 (Karl)** — full proof per person: [VERIFICATION LINKS](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/KAI_VERIFICATION_LINKS_2026-08-31.md); §G = governing truth (supersedes §C/§D/§F drafts below)
 **⏱:** Alan's manual tags → GHL join (arrival dates, appointments, UTMs) → Fathom recordings → tracker qualifications → this file
 *Sources: [Alan's verbatim lists + Kai's note](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/prompts/2026-08-31-kai-true-data-spec.md) · [GHL raw](https://github.com/Awake999/awake/tree/claude/new-session-1ofk4w/ops/archive/ghl/2026-08-30) · [qual verdicts w/ quotes](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/QUAL_BACKFILL_2026-08-30.md). Labels: [V] verified · [D] derived · U = unrecorded (nobody logged it).*
