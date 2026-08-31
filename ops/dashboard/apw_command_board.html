@@ -628,6 +628,37 @@
   details.rawbook[open] > summary .chev2 { transform: rotate(90deg); display: inline-block; }
 
   /* ============ FUNNEL EXPLORER ============ */
+  /* instant plain-English tooltip (Alan 8/30: "instantly, without having to wait") */
+  #apw-tip { position: fixed; z-index: 95; max-width: 260px; padding: 9px 12px; border-radius: 11px;
+    background: var(--panel, rgba(10,16,28,.97)); border: 1px solid rgba(51,214,245,.45);
+    color: var(--ink); font-size: 12.5px; line-height: 1.5; box-shadow: 0 10px 34px rgba(0,0,0,.5);
+    opacity: 0; pointer-events: none; transition: opacity .06s linear; }
+  #apw-tip.on { opacity: 1; }
+  :root[data-board-theme="pure"] #apw-tip { background: rgba(255,255,255,.98); box-shadow: 0 10px 30px rgba(30,50,80,.22); }
+  /* the big before→after change toast (Alan 8/30: "very, very clear and very, very big") */
+  #apw-toast { position: fixed; top: 16px; left: 50%; transform: translate(-50%, -18px) scale(.94); z-index: 96;
+    display: flex; align-items: center; gap: 14px; padding: 14px 22px; border-radius: 16px;
+    background: var(--panel, rgba(10,16,28,.97)); border: 1px solid rgba(51,214,245,.5);
+    box-shadow: 0 16px 50px rgba(0,0,0,.55), 0 0 30px rgba(51,214,245,.12);
+    opacity: 0; pointer-events: none; transition: opacity .18s, transform .22s cubic-bezier(.2,.9,.3,1.3); max-width: min(92vw, 640px); }
+  #apw-toast.on { opacity: 1; transform: translate(-50%, 0) scale(1); }
+  :root[data-board-theme="pure"] #apw-toast { background: rgba(255,255,255,.98); box-shadow: 0 16px 44px rgba(30,50,80,.25); }
+  #apw-toast .ticon { font-size: 34px; line-height: 1; filter: drop-shadow(0 0 10px rgba(51,214,245,.35)); }
+  #apw-toast .twho { font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); }
+  #apw-toast .tchange { font-size: 21px; font-weight: 800; margin: 2px 0; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  #apw-toast .tb { color: var(--ink-2); text-decoration: line-through; text-decoration-thickness: 2px; }
+  #apw-toast .tarrow { color: var(--w-cyan); }
+  #apw-toast .ta-yes { color: var(--good); } #apw-toast .ta-no { color: var(--crit); } #apw-toast .ta-unk { color: var(--ink-2); }
+  #apw-toast .tsave { font-size: 11.5px; color: var(--ink-2); }
+  /* bottom results bar (Alan 8/30: "make sure it's also at the bottom somewhere") */
+  .fx-bottom { display: flex; flex-wrap: wrap; gap: 8px 22px; align-items: baseline; margin-top: 12px;
+    padding: 14px 18px; border-radius: 14px; background: var(--glass-a, rgba(51,214,245,.05));
+    border: 1px solid rgba(51,214,245,.25); font-size: 12.5px; color: var(--ink-2); }
+  .fx-bottom b { font-size: 21px; font-family: ui-monospace, SFMono-Regular, monospace; margin: 0 2px; }
+  .grade-box { margin-top: 12px; padding: 12px 14px; border-radius: 12px; border: 1px dashed rgba(255,233,161,.4); }
+  .grade-box .gt { font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--w-gold); margin-bottom: 8px; }
+  .grade-box label { display: flex; gap: 8px; align-items: flex-start; font-size: 12.5px; color: var(--ink); margin: 5px 0; cursor: pointer; }
+  .grade-box input { accent-color: var(--w-green); margin-top: 2px; }
   .dealtd { white-space: nowrap; }
   .dealb { font-size: 13px; padding: 1px 2px; border-radius: 6px; opacity: .3; filter: grayscale(1); transition: opacity .18s, filter .18s, transform .14s; line-height: 1; }
   .dealb.on { opacity: 1; filter: none; }
@@ -973,8 +1004,9 @@
     <div class="fx-actions">
       <button type="button" class="theme-toggle" style="margin-left:0" id="fx-clear">Clear all</button>
       <button type="button" class="theme-toggle" id="fx-copy">Copy this report</button>
+      <button type="button" class="theme-toggle" style="border-color:rgba(61,220,151,.5)" onclick="if(window.APW_ATTEST_TRIAGE)window.APW_ATTEST_TRIAGE()" data-tip="One tap = every person currently in view whose Triage says Unknown gets marked TRIAGED ✓ on your word. Saves on this device and queues in Pending sync — Notion stays untouched until Lane 1 writes it.">🎯 Attest: everyone in view WAS triaged</button>
     </div>
-    <p class="sub" style="margin:10px 0 0" id="fx-note">“+ Raw GHL book” adds every system contact to the counts (their speed &amp; show facets come from GHL; the table below still lists tracked leads only). Hours reads the tracker's live Created time — snapshot rows show Unknown. In-hours = Mon–Fri 7:00am–5:45pm PT, per Alan 8/30. Groups 8–11 (Verbal Yes · Agreement &amp; Payment · Follow-Up · No-Sign-Up Reason) derive from Stage + Alan's attested corrections until the Notion fields exist — tap the 🎯🗣📄💰🔁 icons on any row to set the truth yourself; corrections queue in the sync panel.</p>
+    <p class="sub" style="margin:10px 0 0" id="fx-note">“+ Raw GHL book” adds every system contact to the counts (their speed &amp; show facets come from GHL; the table below still lists tracked leads only). Hours reads the tracker's live Created time — snapshot rows show Unknown. In-hours = Mon–Fri 7:00am–5:45pm PT, per Alan 8/30. The 15 groups run in true pipeline order (Alan 8/30). Setter Verdict, Setter Grading, offer type and the deal stages have no Notion fields yet — they read from Stage + your tap-to-correct (🎯🎙🗣📄💰🔁 icons, hover any icon for a plain-English explainer; every tap shows a big before→after confirmation and queues in Pending sync). Expand any row for the setter-grading checklist.</p>
   </div>
 </section>
 
@@ -1001,7 +1033,7 @@
       <strong>Your corrections (local, pending sync to the tracker):</strong>
       <pre id="fix-list" class="mono" style="margin:6px 0; font-size:12px; white-space:pre-wrap"></pre>
       <button type="button" class="theme-toggle" style="margin-left:0" onclick="try{navigator.clipboard.writeText(document.getElementById('fix-list').textContent)}catch(e){}">Copy for #call-outcomes</button>
-      <button type="button" class="theme-toggle" onclick="window.APW_FIX={};if(window.APW_TRIFIX)for(var _k in window.APW_TRIFIX)delete window.APW_TRIFIX[_k];if(window.APW_DEALFIX)for(var _k2 in window.APW_DEALFIX)delete window.APW_DEALFIX[_k2];try{localStorage.removeItem('apw-showed-fix');localStorage.removeItem('apw-triage-fix');localStorage.removeItem('apw-deal-fix')}catch(e){};if(window.renderRoster)window.renderRoster();if(window.applyRosterViewLive)window.applyRosterViewLive();window.APW_FIXLIST();">Clear all</button>
+      <button type="button" class="theme-toggle" onclick="window.APW_FIX={};if(window.APW_TRIFIX)for(var _k in window.APW_TRIFIX)delete window.APW_TRIFIX[_k];if(window.APW_DEALFIX)for(var _k2 in window.APW_DEALFIX)delete window.APW_DEALFIX[_k2];if(window.APW_SETFIX)for(var _k3 in window.APW_SETFIX)delete window.APW_SETFIX[_k3];if(window.APW_GRADEFIX)for(var _k4 in window.APW_GRADEFIX)delete window.APW_GRADEFIX[_k4];try{localStorage.removeItem('apw-showed-fix');localStorage.removeItem('apw-triage-fix');localStorage.removeItem('apw-deal-fix');localStorage.removeItem('apw-setter-verdict');localStorage.removeItem('apw-setter-grade')}catch(e){};if(window.renderRoster)window.renderRoster();if(window.applyRosterViewLive)window.applyRosterViewLive();window.APW_FIXLIST();">Clear all</button>
     </div>
     <div class="rfilters" id="rfilters" hidden>
       <label>From <input type="date" id="rf-from"></label>
@@ -1974,6 +2006,43 @@
     if (hasRec || stage === 'Showed' || stage === 'Offer Made' || stage === 'Closed Won') return 'yes';
     return 'unk';
   };
+  /* instant tooltip + big change toast (beginner-obvious feedback, Alan 8/30) */
+  (function () {
+    var tip = document.createElement('div'); tip.id = 'apw-tip'; document.body.appendChild(tip);
+    var toast = document.createElement('div'); toast.id = 'apw-toast'; document.body.appendChild(toast);
+    var curA = null, lx = -1, ly = -1;
+    function show(t) {
+      tip.textContent = t.getAttribute('data-tip');
+      var r = t.getBoundingClientRect();
+      var x = Math.max(8, Math.min(window.innerWidth - tip.offsetWidth - 8, r.left + r.width / 2 - tip.offsetWidth / 2));
+      var y = r.top - tip.offsetHeight - 10; if (y < 8) y = r.bottom + 10;
+      tip.style.left = x + 'px'; tip.style.top = y + 'px';
+      tip.classList.add('on');
+    }
+    document.addEventListener('mousemove', function (e) { lx = e.clientX; ly = e.clientY; });
+    document.addEventListener('mouseover', function (e) {
+      var t = e.target && e.target.closest && e.target.closest('[data-tip]');
+      if (t) { curA = t; show(t); return; }
+      if (curA && !curA.contains(e.target)) { curA = null; tip.classList.remove('on'); }
+    });
+    window.addEventListener('scroll', function () {
+      if (!curA) return;
+      var r = curA.getBoundingClientRect();
+      /* keep the popup if the cursor is still on the icon (or we have no cursor fix yet); just re-anchor it */
+      if (lx >= 0 && (lx < r.left || lx > r.right || ly < r.top || ly > r.bottom)) { curA = null; tip.classList.remove('on'); }
+      else show(curA);
+    }, true);
+  })();
+  window.APW_TOAST = function (icon, who, label, before, after, cls, save) {
+    var t = document.getElementById('apw-toast'); if (!t) return;
+    t.innerHTML = '<span class="ticon">' + icon + '</span><div class="tmain">' +
+      '<div class="twho">' + who + ' — ' + label + '</div>' +
+      '<div class="tchange"><span class="tb">' + before + '</span><span class="tarrow">→</span><span class="' + (cls || 'ta-unk') + '">' + after + '</span></div>' +
+      '<div class="tsave">' + (save || 'Saved on this device instantly · listed in “Pending sync” below · Notion is untouched until Lane 1 syncs it') + '</div></div>';
+    t.classList.remove('on'); void t.offsetWidth; t.classList.add('on');
+    clearTimeout(window.__apwToastT);
+    window.__apwToastT = setTimeout(function () { t.classList.remove('on'); }, 4600);
+  };
   /* Alan's modular corrections: name -> 'yes'|'no'|'unk'; local until synced to Notion */
   window.APW_FIX = {};
   try { window.APW_FIX = JSON.parse(localStorage.getItem('apw-showed-fix') || '{}') || {}; } catch (e) {}
@@ -1985,6 +2054,12 @@
     var cur = window.APW_FIX[name];
     if (!cur) window.APW_FIX[name] = 'no'; /* first tap on a wrong ✓ usually means "did NOT show" */
     else { var i = order.indexOf(cur); if (i === order.length - 1) delete window.APW_FIX[name]; else window.APW_FIX[name] = order[i + 1]; }
+    var SL = { yes: 'SHOWED ✓', no: 'DID NOT SHOW ✕', unk: 'UNKNOWN ?' };
+    var nxt = window.APW_FIX[name];
+    window.APW_TOAST('👀', name, 'Showed up to the call',
+      cur ? SL[cur] : 'AUTO (from stage/recording)',
+      nxt ? SL[nxt] : 'BACK TO AUTO',
+      nxt === 'yes' ? 'ta-yes' : nxt === 'no' ? 'ta-no' : 'ta-unk');
     try { localStorage.setItem('apw-showed-fix', JSON.stringify(window.APW_FIX)); } catch (e) {}
     if (window.APW_FX_REFRESH) try { window.APW_FX_REFRESH(); } catch (e) {}
     else {
@@ -2001,6 +2076,14 @@
     var df = window.APW_DEALFIX || {}, DL = { v: 'Verbal yes', a: 'Agreement sent', p: 'Paid', f: 'Follow-up required' };
     Object.keys(df).forEach(function (k) {
       Object.keys(df[k]).forEach(function (kk) { lines.push(k + ' → ' + DL[kk] + ': ' + df[k][kk].toUpperCase()); });
+    });
+    var sf = window.APW_SETFIX || {}, SL2 = { primary: 'PRIMARY FIT', down: 'DOWNSELL FIT', custom: 'CUSTOM FIT', notqual: 'NOT QUALIFIED' };
+    Object.keys(sf).forEach(function (k) { lines.push(k + ' → Setter verdict: ' + (SL2[sf[k]] || sf[k])); });
+    var gf = window.APW_GRADEFIX || {}, GI = window.APW_GRADE_ITEMS || [];
+    Object.keys(gf).forEach(function (k) {
+      var done = [], miss = [];
+      GI.forEach(function (it, i) { (gf[k][i] === 1 ? done : miss).push(it); });
+      lines.push(k + ' → Setter grading: ' + done.length + '/' + GI.length + ' done' + (miss.length ? ' · missing: ' + miss.join('; ') : ' · PASS'));
     });
     box.parentElement.hidden = lines.length === 0;
     box.textContent = lines.join('\n');
@@ -2027,18 +2110,25 @@
 <script>
   /* ===== FUNNEL EXPLORER — faceted multi-toggle engine (Alan's 8/30 spec, confirmed) ===== */
   (function () {
+    /* sequential per Alan 8/30: "It has to be sequential" — lead → speed → hours → triage →
+       setter verdict → booked → setter grading → showed → which offer → closer verdict →
+       follow-up → verbal yes → agreement & payment → outcome (won/lost SEPARATE) → reason no close */
     var GROUPS = [
-      { k: 'entry',  t: 'Lead In',            n: 1, vals: [['Opt-In Form','Opt-In'], ['Direct Booked Call','Direct-Book'], ['DM','DM'], ['Referral','Referral'], ['unk','Untagged']] },
-      { k: 'speed',  t: 'Speed to Lead',      n: 2, vals: [['sub1','≤ 1 min'], ['sub2','≤ 2 min'], ['slow','> 2 min'], ['unk','Unknown']] },
-      { k: 'hours',  t: 'Hours (M–F 7:00–5:45 PT)', n: 3, vals: [['in','In-hours'], ['out','Out-of-hours'], ['unk','Unknown']] },
-      { k: 'triage', t: 'Triage',             n: 4, vals: [['yes','Triaged'], ['no','Not triaged'], ['unk','Unknown']] },
-      { k: 'qual',   t: 'Closer Verdict',      n: 5, vals: [['main','Primary Offer'], ['down','Downsell Offer'], ['custom','Custom Offer'], ['unq','Not Qualified'], ['unk','Not assessed']] },
-      { k: 'show',   t: 'Showed',             n: 6, vals: [['yes','Showed ✓'], ['no','No-Show ✕'], ['unk','Unknown ?']] },
-      { k: 'dispo',  t: 'Disposition',        n: 7, vals: [['booked','Booked (pending)'], ['offer','Offer Made'], ['won','Closed Won'], ['lost','Closed Lost'], ['nurture','Nurture'], ['unqual','Unqualified'], ['other','Other']] },
-      { k: 'verbal', t: 'Verbal Yes',          n: 8, vals: [['yes','Verbal Yes \ud83d\udde3'], ['no','No verbal yes'], ['unk','Unknown']] },
-      { k: 'agpay',  t: 'Agreement & Payment', n: 9, vals: [['paid','Paid \u2713'], ['sent','Agreement sent \u00b7 not paid'], ['none','Neither'], ['unk','Unknown']] },
-      { k: 'fup',    t: 'Follow-Up',           n: 10, vals: [['yes','Follow-up call required'], ['no','No follow-up needed'], ['unk','Unknown']] },
-      { k: 'reason', t: 'No-Sign-Up Reason',   n: 11, vals: [['nomoney','Not enough money'], ['partner','Partner blocker'], ['mismatch','Offer mismatch'], ['other','Other'], ['unk','Unknown']] }
+      { k: 'entry',   t: 'Lead In',            n: 1,  vals: [['Opt-In Form','Opt-In'], ['Direct Booked Call','Direct-Book'], ['DM','DM'], ['Referral','Referral'], ['unk','Untagged']] },
+      { k: 'speed',   t: 'Speed to Lead',      n: 2,  vals: [['sub1','≤ 1 min'], ['sub2','≤ 2 min'], ['slow','> 2 min'], ['unk','Unknown']] },
+      { k: 'hours',   t: 'Hours (M–F 7:00–5:45 PT)', n: 3, vals: [['in','In-hours'], ['out','Out-of-hours'], ['unk','Unknown']] },
+      { k: 'triage',  t: 'Triage',             n: 4,  vals: [['yes','Triaged'], ['no','Not triaged'], ['unk','Unknown']] },
+      { k: 'setter',  t: 'Setter Verdict',     n: 5,  vals: [['primary','Primary fit'], ['down','Downsell fit'], ['custom','Custom fit'], ['notqual','Not qualified'], ['unk','Not recorded']] },
+      { k: 'bookedq', t: 'Booked Call',        n: 6,  vals: [['yes','Booked ✓'], ['no','Not booked'], ['unk','Unknown']] },
+      { k: 'grade',   t: 'Setter Grading',     n: 7,  vals: [['pass','Passed checklist'], ['flag','Flagged ⚑'], ['unk','Not graded']] },
+      { k: 'show',    t: 'Showed',             n: 8,  vals: [['yes','Showed ✓'], ['no','No-Show ✕'], ['unk','Unknown ?']] },
+      { k: 'offer',   t: 'Offer Made — which', n: 9,  vals: [['primary','Primary Offer'], ['down','Downsell Offer'], ['custom','Custom Offer'], ['none','No offer yet'], ['unk','Unknown']] },
+      { k: 'qual',    t: 'Closer Verdict',     n: 10, vals: [['main','Primary Offer'], ['down','Downsell Offer'], ['custom','Custom Offer'], ['unq','Not Qualified'], ['unk','Not assessed']] },
+      { k: 'fup',     t: 'Follow-Up',          n: 11, vals: [['yes','Follow-up call required'], ['no','No follow-up needed'], ['unk','Unknown']] },
+      { k: 'verbal',  t: 'Verbal Yes',         n: 12, vals: [['yes','Verbal Yes 🗣'], ['no','No verbal yes'], ['unk','Unknown']] },
+      { k: 'agpay',   t: 'Agreement & Payment', n: 13, vals: [['paid','Paid ✓'], ['sent','Agreement sent · not paid'], ['none','Neither'], ['unk','Unknown']] },
+      { k: 'outcome', t: 'Outcome',            n: 14, vals: [['won','Closed Won ✓ (paid)'], ['lost','Closed Lost ✕'], ['unq','Unqualified out'], ['open','Still in motion']] },
+      { k: 'reason',  t: 'Reason No Close',    n: 15, vals: [['nomoney','Not enough money'], ['credit','Credit not strong enough'], ['partner','Partner blocker'], ['mismatch','Offer mismatch'], ['other','Other'], ['unk','Unknown']] }
     ];
     var SETS = {}; GROUPS.forEach(function (g) { SETS[g.k] = {}; });
 
@@ -2067,6 +2157,12 @@
       var d = dealDerive(client, stage), fx = DEALFIX[name] || {};
       return { v: fx.v || d.v, a: fx.a || d.a, p: fx.p || d.p, f: fx.f || d.f };
     };
+    var DEAL_META = {
+      v: ['🗣', 'Verbal Yes', 'said YES on the phone — wants to move forward'],
+      a: ['📄', 'Agreement Sent', 'the agreement/contract was sent to them'],
+      p: ['💰', 'Paid', 'money actually collected'],
+      f: ['🔁', 'Follow-Up Required', 'needs another call after showing with the closer']
+    };
     window.APW_DEAL_CYCLE = function (name, key) {
       var cur = (DEALFIX[name] || {})[key];
       var next = !cur ? 'yes' : cur === 'yes' ? 'no' : cur === 'no' ? 'unk' : null;
@@ -2074,6 +2170,11 @@
       if (next === null) delete DEALFIX[name][key]; else DEALFIX[name][key] = next;
       if (!Object.keys(DEALFIX[name]).length) delete DEALFIX[name];
       try { localStorage.setItem('apw-deal-fix', JSON.stringify(DEALFIX)); } catch (e) {}
+      var m = DEAL_META[key] || ['✎', key, ''];
+      var VL = { yes: 'YES ✓', no: 'NO ✕', unk: 'UNKNOWN ?' };
+      window.APW_TOAST(m[0], name, m[1] + ' — ' + m[2],
+        cur ? VL[cur] : 'AUTO', next ? VL[next] : 'BACK TO AUTO',
+        next === 'yes' ? 'ta-yes' : next === 'no' ? 'ta-no' : 'ta-unk');
       if (window.APW_FX_REFRESH) try { window.APW_FX_REFRESH(); } catch (e) {}
       if (window.APW_FIXLIST) window.APW_FIXLIST();
     };
@@ -2084,16 +2185,84 @@
       var next = !cur ? 'yes' : cur === 'yes' ? 'no' : null;
       if (next === null) delete TRIFIX[name]; else TRIFIX[name] = next;
       try { localStorage.setItem('apw-triage-fix', JSON.stringify(TRIFIX)); } catch (e) {}
+      var TL = { yes: 'TRIAGED ✓', no: 'NOT TRIAGED ✕' };
+      window.APW_TOAST('🎯', name, 'Triage — a human vetted this lead before/after booking',
+        cur ? TL[cur] : 'UNKNOWN ? (nothing recorded in Notion)',
+        next ? TL[next] : 'BACK TO UNKNOWN ?',
+        next === 'yes' ? 'ta-yes' : next === 'no' ? 'ta-no' : 'ta-unk');
       if (window.APW_FX_REFRESH) try { window.APW_FX_REFRESH(); } catch (e) {}
       if (window.APW_FIXLIST) window.APW_FIXLIST();
     };
+    var SETFIX = {}; try { SETFIX = JSON.parse(localStorage.getItem('apw-setter-verdict') || '{}') || {}; } catch (e) {}
+    window.APW_SETFIX = SETFIX;
+    window.APW_SET_CYCLE = function (name) {
+      var ord = ['primary', 'down', 'custom', 'notqual'];
+      var cur = SETFIX[name];
+      var next = !cur ? 'primary' : (ord.indexOf(cur) === ord.length - 1 ? null : ord[ord.indexOf(cur) + 1]);
+      if (next === null) delete SETFIX[name]; else SETFIX[name] = next;
+      try { localStorage.setItem('apw-setter-verdict', JSON.stringify(SETFIX)); } catch (e) {}
+      var L = { primary: 'PRIMARY FIT', down: 'DOWNSELL FIT', custom: 'CUSTOM FIT', notqual: 'NOT QUALIFIED' };
+      window.APW_TOAST('🎙', name, 'Setter Verdict (before booking)',
+        cur ? L[cur] : 'NOT RECORDED', next ? L[next] : 'BACK TO NOT RECORDED',
+        next === 'notqual' ? 'ta-no' : next ? 'ta-yes' : 'ta-unk');
+      if (window.APW_FX_REFRESH) try { window.APW_FX_REFRESH(); } catch (e) {}
+      if (window.APW_FIXLIST) window.APW_FIXLIST();
+    };
+    var GRADEFIX = {}; try { GRADEFIX = JSON.parse(localStorage.getItem('apw-setter-grade') || '{}') || {}; } catch (e) {}
+    window.APW_GRADEFIX = GRADEFIX;
+    window.APW_GRADE_ITEMS = [
+      'Followed the process',
+      'Asked all the questions',
+      'Actually booked the call',
+      'End-of-call briefing: show up in an unobstructed environment, focus-ready, on a computer',
+      'Asked for the credit report',
+      'Got the credit report'
+    ];
+    window.APW_GRADE_SET = function (name, idx, val) {
+      if (!GRADEFIX[name]) GRADEFIX[name] = [];
+      GRADEFIX[name][idx] = val ? 1 : 0;
+      try { localStorage.setItem('apw-setter-grade', JSON.stringify(GRADEFIX)); } catch (e) {}
+      var g = GRADEFIX[name], all = true;
+      for (var i = 0; i < window.APW_GRADE_ITEMS.length; i++) if (g[i] !== 1) all = false;
+      window.APW_TOAST('📋', name, 'Setter grading — “' + window.APW_GRADE_ITEMS[idx] + '”',
+        val ? 'UNCHECKED' : 'CHECKED', val ? 'DONE ✓' : 'NOT DONE ✕',
+        val ? 'ta-yes' : 'ta-no',
+        all ? 'All ' + window.APW_GRADE_ITEMS.length + ' items done — this setter PASSES on this lead · saved on this device' : 'Saved on this device · this lead now shows as Flagged ⚑ in Setter Grading until every box is checked');
+      if (window.APW_FX_REFRESH) try { window.APW_FX_REFRESH(); } catch (e) {}
+    };
+    function gradeOf(name) {
+      var g = GRADEFIX[name];
+      if (!g || !g.length) return 'unk';
+      for (var i = 0; i < window.APW_GRADE_ITEMS.length; i++) if (g[i] !== 1) return 'flag';
+      return 'pass';
+    }
+    function bookedOf(stage) {
+      if (stage === 'Booked Call' || stage === 'No-Show' || stage === 'Showed' || stage === 'Offer Made' || stage === 'Closed Won' || stage === 'Closed Lost') return 'yes';
+      return 'unk';
+    }
+    function offerOf(stage, qual) {
+      if (stage === 'Offer Made' || stage === 'Closed Won' || stage === 'Closed Lost') {
+        var q = qb(qual);
+        return q === 'main' ? 'primary' : q === 'down' ? 'down' : 'unk';
+      }
+      return 'none';
+    }
+    function outcomeOf(stage, dl) {
+      if (dl && dl.p === 'yes') return 'won';
+      if (stage === 'Closed Won') return dl && dl.p === 'no' ? 'open' : 'won';
+      if (stage === 'Closed Lost') return 'lost';
+      if (stage === 'Unqualified') return 'unq';
+      return 'open';
+    }
     function agpayOf(d) { return d.p === 'yes' ? 'paid' : d.a === 'yes' ? 'sent' : (d.a === 'no' && d.p === 'no') ? 'none' : 'unk'; }
     function reasonOf(qual, ncr) {
-      var t = String(qual || '') + ' ' + String(ncr || '');
+      /* only unqualified-qual text + the no-close reason count — a Downsell "Credit Rebuild" fit is NOT a no-close reason */
+      var t = (String(qual || '').indexOf('Unqualified') === 0 ? String(qual) : '') + ' ' + String(ncr || '');
       if (/No Funds|no money|not enough money|can.t afford/i.test(t)) return 'nomoney';
+      if (/credit|score|late payment|collection|charge.?off|bankrupt/i.test(t)) return 'credit';
       if (/partner|spouse|brother|sister|wife|husband|family/i.test(t)) return 'partner';
       if (/Mismatch/i.test(t)) return 'mismatch';
-      if (String(qual || '').indexOf('Unqualified') === 0 || String(ncr || '')) return 'other';
+      if (t.trim()) return 'other';
       return 'unk';
     }
     function qb(q) {
@@ -2127,6 +2296,11 @@
         show: window.APW_SHOWED_FINAL(nm, r['Stage'], false),
         dispo: db(r['Stage']),
         verbal: dl.v, agpay: agpayOf(dl), fup: dl.f,
+        setter: SETFIX[nm] || 'unk',
+        bookedq: bookedOf(r['Stage']),
+        grade: gradeOf(nm),
+        offer: offerOf(r['Stage'], r['Qualification']),
+        outcome: outcomeOf(r['Stage'], dl),
         reason: reasonOf(r['Qualification'], r['No-Close Reason'])
       };
     }
@@ -2143,6 +2317,11 @@
         show: window.APW_SHOWED_FINAL(r[0], r[1], !!fid),
         dispo: db(r[1]),
         verbal: dls.v, agpay: agpayOf(dls), fup: dls.f,
+        setter: SETFIX[r[0]] || 'unk',
+        bookedq: bookedOf(r[1]),
+        grade: gradeOf(r[0]),
+        offer: offerOf(r[1], r[3]),
+        outcome: outcomeOf(r[1], dls),
         reason: reasonOf(r[3], null)
       };
     }
@@ -2161,7 +2340,8 @@
           speed: (typeof r[10] === 'number') ? (r[10] <= 1 ? 'sub1' : r[10] <= 2 ? 'sub2' : 'slow') : 'unk',
           hours: 'unk', triage: 'unk', qual: 'unk',
           show: hist.indexOf('showed') >= 0 ? 'yes' : hist.indexOf('noshow') >= 0 ? 'no' : 'unk',
-          dispo: 'other', verbal: 'unk', agpay: 'unk', fup: 'unk', reason: 'unk', ghl: true
+          dispo: 'other', verbal: 'unk', agpay: 'unk', fup: 'unk', reason: 'unk',
+          setter: 'unk', bookedq: (typeof r[7] === 'number' && r[7] > 0) ? 'yes' : 'unk', grade: 'unk', offer: 'unk', outcome: 'open', ghl: true
         });
       });
       return out;
@@ -2182,6 +2362,21 @@
       return true;
     }
     window.APW_FX_MATCH = function (f) { return passes(f, null); };
+    /* Alan 8/30: "We clearly know these people have been triaged" — one tap, his attestation */
+    window.APW_ATTEST_TRIAGE = function () {
+      var hit = rowsNow().filter(function (f) { return !f.ghl && passes(f, null) && f.triage === 'unk'; });
+      if (!hit.length) {
+        window.APW_TOAST('🎯', 'Nobody to update', 'Attest triage', 'everyone in view', 'already has a triage value', 'ta-yes', 'No change made.');
+        return;
+      }
+      hit.forEach(function (f) { TRIFIX[f.name] = 'yes'; });
+      try { localStorage.setItem('apw-triage-fix', JSON.stringify(TRIFIX)); } catch (e) {}
+      window.APW_TOAST('🎯', hit.length + ' people in view', 'Triage — your attestation applied to everyone Unknown',
+        'UNKNOWN ?', 'TRIAGED ✓', 'ta-yes',
+        'Saved on this device · all ' + hit.length + ' are listed in “Pending sync” for Lane 1 to write into Notion');
+      if (window.APW_FX_REFRESH) try { window.APW_FX_REFRESH(); } catch (e) {}
+      if (window.APW_FIXLIST) window.APW_FIXLIST();
+    };
 
     function pulse(el, txt) {
       if (el.textContent === txt) return;
@@ -2274,6 +2469,27 @@
       /* drive the rosters below */
       if (window.renderRoster) try { window.renderRoster(); } catch (e) {}
       if (window.applyRosterViewLive) try { window.applyRosterViewLive(); } catch (e) {}
+      /* bottom results bar — Alan 8/30: "make sure it's also at the bottom somewhere" */
+      function ensureBar(anchor, id) {
+        if (!anchor) return null;
+        var el = document.getElementById(id);
+        if (!el) { el = document.createElement('div'); el.className = 'fx-bottom'; el.id = id; anchor.parentNode.insertBefore(el, anchor.nextSibling); }
+        return el;
+      }
+      var won2 = inView.filter(function (f) { return f.outcome === 'won'; }).length;
+      var lost2 = inView.filter(function (f) { return f.outcome === 'lost'; }).length;
+      var vyNP2 = inView.filter(function (f) { return f.verbal === 'yes' && f.agpay !== 'paid'; }).length;
+      var barHtml =
+        '<span>In view <b style="color:var(--w-cyan)">' + inView.length + '</b> of ' + all.length + '</span>' +
+        '<span>Showed <b style="color:var(--good)">' + showed.length + '</b> · No-show <b style="color:var(--crit)">' + noshow.length + '</b> (' + pct(showed.length, showed.length + noshow.length) + ' show rate)</span>' +
+        '<span>Booked pending <b style="color:var(--w-violet)">' + booked.length + '</b></span>' +
+        '<span>Verbal yes · not paid <b style="color:var(--w-gold)">' + vyNP2 + '</b></span>' +
+        '<span>Won <b style="color:var(--good)">' + won2 + '</b> · Lost <b style="color:var(--crit)">' + lost2 + '</b></span>';
+      var bl = ensureBar(document.getElementById('roster-wrap'), 'fx-bottom-live');
+      var sb = document.getElementById('roster-body');
+      var bs = ensureBar(sb && sb.closest ? sb.closest('.tbl-wrap') : null, 'fx-bottom-static');
+      if (bl) bl.innerHTML = barHtml;
+      if (bs) bs.innerHTML = barHtml;
       var note = document.getElementById('fx-note');
       if (note) note.hidden = !!window.APW_LIVE_ROWS;
       /* data-accuracy meter — Alan 8/30: "right now the data is not correct" */
@@ -2440,17 +2656,19 @@
         if(chip==='triaged') return; /* not tracked in the static snapshot */
         c.shown++;
         var fixed = !!window.APW_FIX[r[0]];
-        var shHtml = "<button type='button' class='vbtn' onclick=\"window.APW_CYCLE('"+r[0].replace(/'/g,"\\'")+"')\" title='Tap to correct — cycles ✓ → ✕ → ? → auto'>"
+        var shHtml = "<button type='button' class='vbtn' onclick=\"window.APW_CYCLE('"+r[0].replace(/'/g,"\\'")+"')\" data-tip='Did this person actually show up to their booked call? ✓ showed · ✕ no-show · ? unknown. Tap to correct — saves on this device instantly.'>"
           +(sh==='yes' ? "<span class='chip good'>✓" : sh==='no' ? "<span class='chip crit'>✕" : "<span class='chip mut'>?")
           +(fixed?" ✎":"")+"</span></button>";
         var dlS = window.APW_DEAL_GET ? window.APW_DEAL_GET(r[0], r[0], r[1]) : { v: 'unk', a: 'unk', p: 'unk', f: 'unk' };
         var tvS = (window.APW_TRIFIX && window.APW_TRIFIX[r[0]]) || 'unk';
         var nEsc = r[0].replace(/'/g, "\\'");
         function dbn(icon, lbl, val, fn) {
-          return "<button type='button' class='vbtn dealb" + (val === 'yes' ? ' on' : val === 'no' ? ' off' : '') + "' title='" + lbl + ": " + (val === 'yes' ? 'YES' : val === 'no' ? 'NO' : 'unknown') + " · tap to cycle' onclick=\"event.stopPropagation();" + fn + "\">" + icon + "</button>";
+          return "<button type='button' class='vbtn dealb" + (val === 'yes' ? ' on' : val === 'no' ? ' off' : '') + "' data-tip='" + lbl + ". Right now: " + (val === 'yes' ? 'YES ✓' : val === 'no' ? 'NO ✕' : 'UNKNOWN — nothing recorded yet') + ". Tap to change it — saves on this device instantly and queues for the Notion sync.' onclick=\"event.stopPropagation();" + fn + "\">" + icon + "</button>";
         }
-        var dealHtml = dbn('🎯', 'Triaged', tvS, "window.APW_TRI_CYCLE('" + nEsc + "')")
-          + dbn('🗣', 'Verbal yes', dlS.v, "window.APW_DEAL_CYCLE('" + nEsc + "','v')")
+        var svS = (window.APW_SETFIX && window.APW_SETFIX[r[0]]) || 'unk';
+        var dealHtml = dbn('🎯', 'Triaged — a human vetted this lead', tvS, "window.APW_TRI_CYCLE('" + nEsc + "')")
+          + dbn('🎙', 'Setter Verdict — cycles Primary → Downsell → Custom → Not qualified', svS === 'unk' ? 'unk' : (svS === 'notqual' ? 'no' : 'yes'), "window.APW_SET_CYCLE('" + nEsc + "')")
+          + dbn('🗣', 'Verbal Yes — they said yes on the phone', dlS.v, "window.APW_DEAL_CYCLE('" + nEsc + "','v')")
           + dbn('📄', 'Agreement sent', dlS.a, "window.APW_DEAL_CYCLE('" + nEsc + "','a')")
           + dbn('💰', 'Paid', dlS.p, "window.APW_DEAL_CYCLE('" + nEsc + "','p')")
           + dbn('🔁', 'Follow-up required', dlS.f, "window.APW_DEAL_CYCLE('" + nEsc + "','f')");
@@ -2681,7 +2899,8 @@
         tr.appendChild(st);
         var sh = window.APW_SHOWED_FINAL(nmS, r['Stage'], false);
         var sc = document.createElement('td'); var shb = document.createElement('button');
-        shb.type = 'button'; shb.className = 'vbtn'; shb.title = 'Tap to correct — cycles ✓ → ✕ → ? → auto';
+        shb.type = 'button'; shb.className = 'vbtn';
+        shb.setAttribute('data-tip', 'Did this person actually show up to their booked call? ✓ = showed, ✕ = no-show, ? = unknown. Tap to correct — cycles ✓ → ✕ → ? → back to auto. Saves on this device instantly and queues for the Notion sync.');
         var shc = document.createElement('span');
         shc.className = 'chip ' + (sh === 'yes' ? 'good' : sh === 'no' ? 'crit' : 'mut');
         shc.textContent = (sh === 'yes' ? '✓' : sh === 'no' ? '✕' : '?') + (window.APW_FIX[shortName(r['Client'])] ? ' ✎' : '');
@@ -2691,15 +2910,27 @@
         /* Deal column — 🎯 triaged · 🗣 verbal yes · 📄 agreement · 💰 paid · 🔁 follow-up; tap cycles yes→no→auto */
         var dc = document.createElement('td'); dc.className = 'dealtd';
         var tv = (window.APW_TRIFIX && window.APW_TRIFIX[nmS]) || (r['Human Triaged'] ? 'yes' : 'unk');
-        [['t', '🎯', 'Triaged', tv], ['v', '🗣', 'Verbal yes — said yes on the phone', dl.v], ['a', '📄', 'Agreement sent', dl.a], ['p', '💰', 'Paid', dl.p], ['f', '🔁', 'Follow-up call required', dl.f]].forEach(function (it) {
+        var sv = (window.APW_SETFIX && window.APW_SETFIX[nmS]) || 'unk';
+        var SVL = { primary: 'PRIMARY FIT', down: 'DOWNSELL FIT', custom: 'CUSTOM FIT', notqual: 'NOT QUALIFIED' };
+        [['t', '🎯', 'Triaged — a human vetted this lead', tv],
+         ['s', '🎙', 'Setter Verdict — setter\u2019s call before booking (cycles Primary → Downsell → Custom → Not qualified)', sv === 'unk' ? 'unk' : (sv === 'notqual' ? 'no' : 'yes')],
+         ['v', '🗣', 'Verbal Yes — they said yes on the phone, ready to go', dl.v],
+         ['a', '📄', 'Agreement Sent — the contract went out to them', dl.a],
+         ['p', '💰', 'Paid — money actually collected', dl.p],
+         ['f', '🔁', 'Follow-Up Required — needs another call after showing with the closer', dl.f]].forEach(function (it) {
           var b2 = document.createElement('button'); b2.type = 'button';
           b2.className = 'vbtn dealb' + (it[3] === 'yes' ? ' on' : it[3] === 'no' ? ' off' : '');
-          b2.title = it[2] + ': ' + (it[3] === 'yes' ? 'YES' : it[3] === 'no' ? 'NO' : 'unknown') + ' · tap to cycle';
+          var state = it[0] === 's'
+            ? (sv === 'unk' ? 'NOT RECORDED' : SVL[sv])
+            : (it[3] === 'yes' ? 'YES ✓' : it[3] === 'no' ? 'NO ✕' : 'UNKNOWN — nothing recorded yet');
+          b2.setAttribute('data-tip', it[2] + '. Right now: ' + state + '. Tap to change it — it saves on this device instantly and queues for the Notion sync.');
+          b2.setAttribute('aria-label', it[2]);
           b2.textContent = it[1];
           (function (k2) {
             b2.addEventListener('click', function (e) {
               e.stopPropagation();
               if (k2 === 't') { if (window.APW_TRI_CYCLE) window.APW_TRI_CYCLE(nmS); }
+              else if (k2 === 's') { if (window.APW_SET_CYCLE) window.APW_SET_CYCLE(nmS); }
               else if (window.APW_DEAL_CYCLE) window.APW_DEAL_CYCLE(nmS, k2);
             });
           })(it[0]);
@@ -2745,7 +2976,27 @@
             op.textContent = 'Open full Notion record ↗';
             grid.appendChild(op);
           }
-          cell.appendChild(grid); dr.appendChild(cell);
+          cell.appendChild(grid);
+          /* setter grading — Alan 8/30: "a little expandable checklist … what the setter should be graded" */
+          if (window.APW_GRADE_ITEMS) {
+            var gb = document.createElement('div'); gb.className = 'grade-box';
+            var gt = document.createElement('div'); gt.className = 'gt';
+            gt.textContent = '📋 Setter grading — check what the setter actually did on this lead';
+            gb.appendChild(gt);
+            var gcur = (window.APW_GRADEFIX && window.APW_GRADEFIX[shortName(r['Client'])]) || [];
+            window.APW_GRADE_ITEMS.forEach(function (item, gi) {
+              var lb = document.createElement('label');
+              var cb = document.createElement('input'); cb.type = 'checkbox'; cb.checked = gcur[gi] === 1;
+              cb.setAttribute('data-tip', 'Part of the setter\u2019s grade. Checking = the setter did this. Saves on this device instantly; all ' + window.APW_GRADE_ITEMS.length + ' checked = Passed, any missing = Flagged ⚑ in the Setter Grading filter.');
+              (function (idx, nm3) {
+                cb.addEventListener('change', function (e) { e.stopPropagation(); window.APW_GRADE_SET(nm3, idx, cb.checked); });
+              })(gi, shortName(r['Client']));
+              lb.appendChild(cb); lb.appendChild(document.createTextNode(item));
+              gb.appendChild(lb);
+            });
+            cell.appendChild(gb);
+          }
+          dr.appendChild(cell);
           tr.parentNode.insertBefore(dr, tr.nextSibling);
         }
         tr.addEventListener('click', function (e) { if (!e.target.closest('a')) toggle(); });
