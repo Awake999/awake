@@ -191,3 +191,17 @@ Each: transcript.md (chaptered, TOC) + transcript-raw.txt + summary.md (Fathom A
 - SCOPE PARTITION: grinder writes ONLY calls/fathom/** + its own log. Lane 3 main stays off Fathom writes while grinder runs (works Krisp/Slack/people pages instead) — zero overlap.
 - AUDIT GATE: grinder stops after first batch of 3; Lane 3 (Fable) audits line-for-line vs raws before sending cross-session "AUDIT PASS — continue."
 - Model: claude-sonnet-5 (mechanical copy work; quality lives in the verbatim discipline + committed tools, not model brains).
+
+---
+
+## Batch (2026-08-31): grinder batch-1 AUDIT PASS + green light delivered + reprompt fix
+
+**Alan, verbatim (reprompt ×2):** "where is SOP coherence from lane 1? should be responding in buttons and checks and links. integrate"
+
+**Law 0.2 miss log:** the previous turn spawned the grinder but ended without rendering the final reply at all — Alan saw no buttons, no checklist, no report. Delta = the reply itself. Fix: every live reply now renders §1.9-style (checklist map, links, scorecard) and ENDS with actual AskUserQuestion buttons (§1.7). Grade of the missed turn: D (work right, delivery absent).
+
+**Grinder status:**
+- Session session_01VLy5T2Uvb4SzbTbfzHSqtt (Sonnet 5) ran batch 1 autonomously: commit f31b67b, three 8/26 calls (177232030 team sync scheduling/trello/dispute-performance · 177129989 Constantine show-rate/lead-quality · 176817729 Braden/ML/James vetting + team review, split 2 parts/18 chapters). Cost: $2.77 (vs this Fable session's ~$372 to date) — the economics case proven on the first batch.
+- AUDIT (line-for-line vs raws): 0 missing lines (454/223/211), chapters+breadcrumbs+verbatim summaries verified, INDEX rows flipped, counts 31+1+202=234. PASS. Grinder self-flagged its one deviation (inline transcript → Write from exact tool text; no auto-saved file existed) — approved as standard.
+- Green light: SendMessage unreachable cross-container → delivered via one-shot trigger trig_01BVb2dHvQ9uNHhVsXJXxaAP firing into the grinder session 05:13Z with the continue order (next recs 176815084, 176797747, then 8/26→8/25 downward). ⚠️ trigger cannot pass connectors; if grinder wakes without Fathom MCP it logs-and-stops per brief. Self check-in scheduled 05:36Z (trig_01Ane4Yn6q2pnUpuGuCBRy2P).
+- Fathom count now 31/234 archived (28 by Lane 3 + 3 by grinder).
