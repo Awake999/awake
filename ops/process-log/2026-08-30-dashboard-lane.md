@@ -122,3 +122,32 @@ FACT-CHECK RESULTS (all evidence-run this session): (1) **Direct bookings = 2 IS
 🗣️ *"Leo is from a previous client too... contribute towards this month, but it's not a new client"* → Leo chip AUG · existing.
 🗣️ *"Carla did not agree... factual and not fabricated"* → the Team-tab cadence line stated "Alan ↔ Carla daily 1-on-1" as settled; corrected to **PROPOSED 8/28, not agreed (Alan 8/31)**. Register-worthy miss: the line was ported from Lane 1's 8/28 data truth without a person-claim receipt — exactly the class the new protocol kills.
 🗣️ *"implement a quality truth agent in verification. Into the SOP."* → SOP is Lane 1's surface, so shipped as **`ops/checklists/2026-08-31-sop-truth-agent-change-order.md`** (proposed §1.14: person-claim receipts or PROPOSED label · number receipts · window rule · no silent blends · falsification diff vs raw originals · logged truth-agent line per run; severity-1 for shipped fabrications) — **adopted in Lane 2 immediately**; first enforcement run's catches listed in the order (Carla, the qualified blend, the Whop-date fencing, pre-month dilution, new-vs-existing split). All verified headless (hero $0 big, no Jill in money surfaces, Carla PROPOSED, Leo existing, 0 errors/overflow). Canonical at v8.5.
+
+## 8/31 — trunk merge + v8.6 STRICT TRIAGE (Messages 8–12)
+- Merged trunk `claude/new-session-1ofk4w` (SOP → v1.17, CLAUDE.md hardened: first reply must
+  print SOP version + model/effort + 5 compliance answers). Board conflict resolved `--ours`
+  after fingerprint check proved Lane 2's copy a strict superset (trunk lacked PROPOSED-8/28
+  Carla fix, Time to Book, booking-speed group).
+- **Strict-triage verification (Alan Message 10: "There were none that were not triaged. I
+  don't believe that. Verify that's true.")** — VERDICT: Alan was right; the board was wrong.
+  My 8/31 blanket booked⇒triaged attestation reading was over-generous. Evidence against it:
+  69 of 87 booked leads booked ≤30 min of arriving (TZ-corrected: bookedAt is PT,
+  dateAdded UTC — 7h offset), leaving no room for a triage call first; GHL first-outbound
+  types are SMS 120 / EMAIL 16 / CALL 4; 222 of 256 conversation threads hold
+  callRecordingMsgIds = phone contact evidence, NOT proof of the full triage script.
+  (Earlier in-session figure "134 contacts with recordings" was a misparse — corrected to 222
+  unique contactIds straight from conversations_meta_2026-08-30.csv before shipping.)
+- **v8.6 board changes:** triOf strict — only "Yes - before booking" receipts or taps count
+  as TRIAGED (static data: Connor R., Todd L.); "Yes - attested" values demoted to Unknown
+  with visible SET-ASIDE reason; attest button reworded "WAS phone-triaged" (strict); 🎯
+  tooltips surface the GHL call-recording signal per person (`rec` flag added to gen_truth.py
+  from callRecordingMsgIds, TRUTH regenerated: 241/285 entries flagged); triage group buttons
+  carry the strict definition; fx-note rewritten. Headless-verified: receipted→yes,
+  attested→unk, blank→unk; no JS errors beyond the expected offline live-fetch reset.
+- **Explorer starting set (Message 12 "why 104"):** caption now states starting set = the
+  Tracked funnel (104 Notion tracker rows: 83 audited + 21 imported 8/30), with "+ Raw GHL
+  book" as the way to start from all 259+ system contacts.
+- Message 10 stored verbatim in ops/prompts/2026-08-31-data-correction-demands.md; §1.15
+  NEVER-MISS AGENT added to the SOP change order (Message 11) incl. SOP-base-is-trunk rule.
+- truth-agent: 3 claims checked pre-ship · 2 corrected (134→222 recordings; 66→69/87 ≤30min)
+  · receipts linked. never-miss: Messages 8–12 parsed to 9 atomic asks · 9 mapped · 0 unmapped.

@@ -62,3 +62,7 @@ Also, based off your information, it says, again, opt-ins that were not triaged 
 ## Message 9
 
 and again, how do you keep missing this? We need to create an agent into the SOP to make sure that things aren't being missed. Also, you're not even following the SOP prompt or the SOP file from number one, from the main one, awake dashboard v1.2. You need to get your base from there for the SOP or how you operate.
+
+## Message 10
+
+because the 1041 Explorer, I don't understand why that starts with 104.
