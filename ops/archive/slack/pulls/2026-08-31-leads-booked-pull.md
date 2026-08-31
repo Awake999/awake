@@ -142,3 +142,29 @@ Only join/leave events in the window. Medical leads (Karl, Michael Moore, Tessa,
 | Direct-to-book (no in-window lead card) | — | **9** |
 
 Evidence: pulled via Slack API 2026-08-31 (oldest=1785222000 = Jul 28 00:00 PDT); complete windows, no pagination gaps. New cards since the 8/30 channel exports: Marx Josue Todjro (lead 8/30 06:02, booked 8/30 06:03 for Aug 31 5:45 PM CDT — todjromarcelin01@gmail.com, (214) 638-5475, LLC, $200-300K ask, 720-749).
+
+---
+
+# v2 CORRECTION (2026-08-31, per Alan): NEW LEADS ONLY
+
+Alan, verbatim: "you have names in here that should not be in here. People that were already previous clients should not be in here… We should only be looking at things that are actually new leads." + "we're focusing on actual new leads to be able to track and figure out all the data around setting, show rates, qualified closing."
+
+**Objective filter applied:** GHL contact `dateAdded` before 2026-07-28 = pre-existing (returning), not a new lead. Removed from the lead lists: **Jill Peralta** (GHL 7/8 — existing client, her 8/28 card is a re-entry) and **JOE STLOUIS** (GHL 7/16). Removed from booked-new: Ashwini Anand (7/11, client), Gunjan Patel (7/8), Kesavan Rajendran (7/7), Zacherly Sheets (7/13), Leo De Ornellas (6/25), Carmen Meridith (7/24), Whitney Young (7/6), Todd LoGuidice (6/30, client), JOE STLOUIS (7/16). Junk excluded: Ddddddd Dwww, Njjnn Of.
+
+## NEW-LEADS FUNNEL (July 28 → Aug 31)
+
+| Stage | Count | Rate |
+|---|---|---|
+| NEW leads (main 32 + medical 6) | **38** | — |
+| Booked a call (set) | **30** | **79% set rate** |
+| Verified SHOWED (a recording exists — Fathom/Krisp/Zoom inventory) | **12** | ≥40% of booked (floor) |
+| Verified NO-SHOW (documented evidence) | **1** (Tarlochan Singh — Carla DM 8/19 "no show") | — |
+| Cancelled only (GHL) | **1** (George Truesdale, 8/17) | — |
+| UNKNOWN (GHL statuses unmaintained — register #64) | **16** | show rate ceiling 93%, floor 40% |
+| Never booked | **8** (LeRoy McCall, Marko Sakren, Natalia Rumbuc, HERMAN ROGERS, John Mazzocchi, Noel Rivera, Javaris Johnson, Fernando De Pieri) | — |
+
+**Verified shows (12, recording = proof):** Chris Bowers (8/4, 8/7), Karl Krummenacher (8/20), Connor Robertson (8/17), Pradeep Bhatia (8/7), Jennifer Ulloa (8/7), P Reddy P (8/10), Yeshaya Dank (8/14, 8/27), Michael Moore (8/20, 8/26, 8/27), Nick Samara (8/25, 8/26), Robert Morawitz (8/27), Stephen Greco (8/17), Pedro Perez Grizzle (8/20 triage).
+
+**Qualified/closing among new leads (register-verified only):** Michael Moore — "We are a go" + $1,000 deposit agreed 8/26 (final status per Whop + 8/27 post-mortem); Pradeep Bhatia — $300 deposit, verification = Whop (register #123-LANE-SYNC); Nick Samara — Downsell-Credit Rebuild, Funds Status Broke (register #89); Yeshaya Dank — Downsell (register #82); P Reddy P — Main-Offer qualified, walked on proof (register #82/Sales Intelligence).
+
+**Watch:** Chris Mclean — in-window GHL contact (added 7/30), showed 8/27 (call archived), but NO lead card in any of the four channels — entered through another door. Not counted as a channel lead; flagged.
