@@ -1,5 +1,5 @@
 # 🎯 KAI PACKAGE — the true funnel, Jul 28–Aug 26, built on Alan's hand-checked tag lists
-**🏁 RESULT:** 38 ad leads · 29 of them booked (+1 referral = your 30 booked tags) · 9 opted in but never booked · verified shows 9–11 · **15 booked calls have NO recorded outcome (the broken instrument)** · evidence-graded qualified: **2 Main Offer** (Alan attests 1 — adjudication open), 4 downsell-fit, 2 hard-unqualified
+**🏁 RESULT (rev. 8/31 post-review):** 38 ad leads · 29 booked (+1 referral = the 30 booked tags) · 9 never booked · **ATTESTED: 9 showed · 17 no-show · 2 cancelled · 1 unresolved · qualified = 1 (Karl)** — full proof per person: [VERIFICATION LINKS](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/KAI_VERIFICATION_LINKS_2026-08-31.md); §G = governing truth (supersedes §C/§D/§F drafts below)
 **⏱:** Alan's manual tags → GHL join (arrival dates, appointments, UTMs) → Fathom recordings → tracker qualifications → this file
 *Sources: [Alan's verbatim lists + Kai's note](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/prompts/2026-08-31-kai-true-data-spec.md) · [GHL raw](https://github.com/Awake999/awake/tree/claude/new-session-1ofk4w/ops/archive/ghl/2026-08-30) · [qual verdicts w/ quotes](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/QUAL_BACKFILL_2026-08-30.md). Labels: [V] verified · [D] derived · U = unrecorded (nobody logged it).*
 
@@ -15,19 +15,19 @@
 | 1 | Robert Schechner | 7/29 | ✓ 7/29 | U — no recording/outcome | not assessed |
 | 2 | LeRoy McCall | 7/29 | ✗ | — | opt-in only → reheat list |
 | 3 | Marko Sakren | 7/30 | ✗ | — | opt-in only → reheat |
-| 4 | Myla Maheedhar | 7/30 | ✓ 7/31 | [D] showed (team debrief only) | not assessed — her recording doesn't exist |
+| 4 | Myla Maheedhar | 7/30 | ✓ 7/31 | ❌ NO-SHOW [A 8/31 — overrides the debrief-derived guess; GHL `0 no show` tag agrees [V]] | — |
 | 5 | Rena Sookra | 7/30 | ✓ 8/02 | U | not assessed |
 | 6 | Trent Hamilton | 8/02 | ✓ 8/03 | U | triage-attested; no outcome |
 | 7 | Antonio Jenkins | 8/02 | ✓ 8/05 | U | triage-attested; no outcome |
 | 8 | Jack Kates | 8/04 | ✓ 8/04 | U | triage-attested; no outcome |
 | 9 | Shamar Samuel | 8/03 | ✓ 8/05 | U | triage-attested; no outcome |
 | 10 | Pradeep Bhatia | 8/05 | ✓ 8/07 | ✅ [V rec 775117204] | 🟡 Downsell (collections, maxed cards; $300 committed) |
-| 11 | Connor Robertson | 8/05 | ✓ 8/13→8/17 (+Sep 1) | ✅ [D stage; his recording is empty] | not assessed → live Sep 1 4pm ET |
+| 11 | Connor Robertson | 8/05 | ✓ 8/13→8/17 (+Sep 1) | ❌ NO-SHOW [A 8/31 — Alan: never spoke to him; may talk this week] | Sep 1 4pm ET slot stands |
 | 12 | Karl Krummenacher | 8/05 | ✓ 8/20 | ✅ [V rec 791088813] | 🟢 **Qualified - Main Offer** ($7.5K deal agreed, unsigned) |
 | 13 | Jennifer Ulloa | 8/06 | ✓ 8/07 (2nd cancelled) | ✅ [V rec 775643888] | 🔴 Unqualified — wants no-PG funding |
 | 14 | Desi Harmon Sr | 8/06 | ✓ 8/08 | U | triage-attested; no outcome |
 | 15 | P Reddy P | 8/07 | ✓ 8/10 | ✅ [V rec 777298604] | 🟢 **Qualified - Main Offer** (722/735/744, $30K reserves; researching us) |
-| 16 | Jesse Hopcus | 8/08 | ✓ 8/10 | U | triage-attested; no outcome |
+| 16 | Jesse Hopcus | 8/08 | ✓ 8/10 | ✅ [A 8/31] | 🔴 Unqualified — credit too weak, loans/debt [A] |
 | 17 | Natalia Rumbuc | 8/09 | ✗ | — | opt-in only → reheat (was worked untracked) |
 | 18 | Behnad Zandi | 8/12 | ✓ 8/12 | U | not assessed |
 | 19 | Ms Terry | 8/13 | ✓ 8/13 | U | not assessed |
@@ -47,11 +47,12 @@
 | 33 | David Shepherd | 8/22 | ✓ 8/24 | U | not assessed |
 | 34 | Lee McEachin Jr | 8/23 | ✓ 8/24 | U | not assessed |
 | 35 | Tessa Ndille | 8/23 | ✓ 8/24 | U | not assessed |
-| 36 | Robert Morawitz | 8/27* | ✓ tag; 0 appts on this contact | U | ⚠️ ×4 GHL duplicates — appt likely sits on another dupe; merge pending (#71) |
+| 36 | Robert Morawitz | 8/23 [V id Ek6fa6SL] | ✓ 8/23 → slot 8/27 [V] | U | CORRECTED 8/31: appt found on his real record; the "0 appts" read came off one of his 3 empty dupes (merge #71 stands) |
 | 37 | Fernando De Pieri | 8/27* | ✗ | — | opt-in only → reheat Tier-1 |
-| 38 | Chris Bowers | 8/28* | ✓ tag; 0 appts on this id | [V rec 768297031 exists ~8/1 ⚠️ date conflict] | not assessed — identity/dupe check needed |
+| 38 | Chris Bowers | **7/31 [V id S80lc8Jj]** | ✓ 8/3 + 8/6 (+8/25 cancelled) [V] | ✅✅ [V recs 768297031 (8/4) + 771447748 (8/7)] | CORRECTED 8/31 (Alan caught it): 8/28 was an empty "Upload" dupe. Real record: C3H1 medical ad [V UTM], Lynn-triaged tag [V], SHOWED ×2 (8/4, 8/7); Alan attests Unqualified - No Funds (bad credit, maxed, can't make $200) |
 | +1 | Chris Mclean (referral) | 7/30 | ✓ 8/26 | ✅ [V rec 798638035] | 🟡 Downsell (late payments, collections) |
 *\* arrival stamp outside Alan's window — tag timing vs GHL dateAdded mismatch, flagged not hidden.*
+**⚖️ Outcome column above = what the instruments recorded at build time; [Alan's 8/31 review](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/prompts/2026-08-31-alan-review-attestations.md) resolved every U — §G1 is the governing per-person outcome list.**
 
 ## C. The window math (honest floors, not blended guesses)
 - **Spend [D]:** the two relaunch campaigns total $6,451 through 8/30 → **≈$5.8–6.2K in Alan's window** (his $6,100 ≈ right). Meta export needed for to-the-penny.
@@ -80,25 +81,28 @@ Split test triaged-vs-not [CONTAMINATED — flags are retroactive, 15 outcomes s
 ## G. ATTESTED TRUTH — Alan's 8/31 person-by-person review (supersedes §C/§F rates)
 *Source: [Alan's verbatim review](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/prompts/2026-08-31-alan-review-attestations.md). Every count below is named — no blind numbers. [A] = Alan-attested 8/31.*
 
-### G1. The booked-29, final outcomes (excl. Chris Mclean — referral, Alan-excluded)
-- **SHOWED — 8:** Karl Krummenacher [V rec] · Jesse Hopcus [A] · Yeshaya Dank [V rec] · Michael Moore [V rec] · Jennifer Ulloa [V rec] · Nick Samara [V rec] · Pradeep Bhatia [V rec] · P Reddy P [V rec — but **FAKE lead**, Alan: fake website/business, wouldn't show face or report]
-- **NO-SHOW — 17 [A]:** Robert Schechner · Myla Maheedhar · Rena Sookra · Trent Hamilton · Antonio Jenkins · Jack Kates · Shamar Samuel · Connor Robertson · Desi Harmon Sr · Behnad Zandi · Ms Terry · Stephen Greco (both slots) · Tarlochan Singh · Ed McCullough · David Shepherd · Lee McEachin Jr · Tessa Ndille
+### G1. The booked-29, final outcomes (excl. Chris Mclean — referral, Alan-excluded) — per-person proof: [VERIFICATION LINKS](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/KAI_VERIFICATION_LINKS_2026-08-31.md)
+- **SHOWED — 9:** Karl Krummenacher [V rec 791088813] · Jesse Hopcus [A] · Yeshaya Dank [V rec 783351348] · Michael Moore [V rec 791826979] · Jennifer Ulloa [V rec 775643888] · Nick Samara [V rec 795906442] · Pradeep Bhatia [V rec 775117204] · **Chris Bowers [V recs 768297031 + 771447748 — showed ×2 (8/4, 8/7), corrected 8/31]** · P Reddy P [V rec 777298604 — but **FAKE lead**, Alan: fake website/business, wouldn't show face or report]
+- **NO-SHOW — 17 [A]:** Robert Schechner · Myla Maheedhar · Rena Sookra · Trent Hamilton · Antonio Jenkins · Jack Kates · Shamar Samuel · Connor Robertson · Desi Harmon Sr · Behnad Zandi · Ms Terry · Stephen Greco (both slots) · Tarlochan Singh · Ed McCullough · David Shepherd · Lee McEachin Jr · Tessa Ndille — 8 of these also carry the setter's own GHL `0 no show` tag [V]
 - **CANCELLED — 2 [V GHL]:** Pedro Perez Grizzle · George Truesdale
-- **UNRESOLVED — 2:** Robert Morawitz (appt on a duplicate id, merge #71) · Chris Bowers (identity/date conflict; Alan attests unqualified — bad credit, maxed, can't make $200 — show-status still unproven)
+- **UNRESOLVED — 1:** Robert Morawitz (booked [V], slot 8/27 13:00 on real id Ek6fa6SL — outcome unrecorded; dupe merge #71)
 
-### G2. Qualification after review (of the 8 shows)
-- **Qualified: 1 — Karl** (real, credit-qualified; caveat: not in market for main right now). P Reddy struck (fake). Jesse unqualified (credit too weak, loans/debt). Yeshaya unqualified as-is (needs a PG). Michael Moore no-funds (verge of bankruptcy). Jennifer offer-mismatch (no-PG demand). Nick no-funds (couldn't fund even the downsell — $500 never paid [V Whop]). Pradeep no-funds ($300 never paid [V Whop]).
+### G2. Qualification after review (of the 9 shows)
+- **Qualified: 1 — Karl** (real, credit-qualified; caveat: not in market for main right now). P Reddy struck (fake). Jesse unqualified (credit too weak, loans/debt). Yeshaya unqualified as-is (needs a PG). Michael Moore no-funds (verge of bankruptcy). Jennifer offer-mismatch (no-PG demand). Nick no-funds (couldn't fund even the downsell — $500 never paid [V Whop]). Pradeep no-funds ($300 never paid [V Whop]). Chris Bowers no-funds [A] (bad credit, maxed, can't make $200 — showed ×2 [V recs 768297031, 771447748]; 8/7 tape: chiropractor, heavy debt, can't pay down utilization).
 
-### G3. The rates Alan asked for (percentage-wise, resolved-basis)
-| Metric | Named basis | Rate |
+### G3. The rates Alan asked for (percentage-wise, resolved-basis) — REVISED 8/31 after the Bowers correction
+| Metric | Named basis ([per-person proof](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/KAI_VERIFICATION_LINKS_2026-08-31.md)) | Rate |
 |---|---|---|
-| **Total show rate** | 8 shows / 27 resolved bookings | **30%** (27% counting the fake as not-real) |
-| **Triaged show rate** | triaged 11: showed 4 (P Reddy, Jesse, Yeshaya, Michael M.) · no-show 6 (Trent, Antonio, Jack, Shamar, Connor, Desi) · cancelled 1 (Pedro) | **36%** |
-| **Not-triaged show rate** | 18: showed 4 (Karl, Jennifer, Nick, Pradeep) · no-show 11 · cancelled 1 (George) · unresolved 2 | **25%** (4/16 resolved) |
-| **Qualified — triaged** | 0 of 4 shows | **0%** |
-| **Qualified — not triaged** | 1 of 4 shows (Karl) | **25%** |
-| **Qualified show rate overall** | 1 of 8 shows | **12.5%** |
+| **Total show rate** | 9 shows / 28 resolved bookings | **32%** (30% counting the fake as not-real) |
+| **Triaged show rate (Alan-attested cut, 11)** | showed 4 (P Reddy, Jesse, Yeshaya, Michael M.) · no-show 6 (Trent, Antonio, Jack, Shamar, Connor, Desi) · cancelled 1 (Pedro) | **36%** |
+| **Triaged show rate (GHL-tag cut, 16 [V])** | showed 7 (P Reddy, Jennifer, Yeshaya, Michael M., Nick, Pradeep, Bowers) · no-show 8 · unresolved 1 (Morawitz) | **47%** |
+| **Not-triaged show rate** | tag-cut untagged 13: showed 2 (Karl, Jesse) · no-show 9 · cancelled 2 | **15%** (Alan-cut basis: 28%) |
+| **Qualified — triaged** | 0 of the triaged shows (either cut) | **0%** |
+| **Qualified — not triaged** | Karl (1) | **1 of 2 tag-cut shows** |
+| **Qualified show rate overall** | 1 of 9 shows (Karl) | **11%** |
 | **Cost per qualified** | $6.1K / 1 (Karl) | **≈$6,100 → CPA at 25% close ≈ $24K vs $15K ticket = broken** (K4 updated: the 2-qualified scenario is dead — P Reddy was fake) |
+
+⚠️ The two triage cuts disagree on WHO counts as triaged (Alan attested 11; GHL `triaged` tags sit on 16 [V]) but agree on the direction: **triaged leads show 2–3× more**. Neither cut is timestamped — Sep 1 forward-capture is the clean test.
 
 ### G4. The never-booked 9 — outreach audit [V GHL messages]
 Alan asked: *"Did Lynn actually try to reach out to them?... unresponsive, or has Lynn not contacted these people at all?"* **Answer: contacted, every one — outbound-only, ~zero replies = unresponsive, not neglected:** Fernando De Pieri 9 msgs (last 8/28) · Javaris Johnson 21 (8/27) · Noel Rivera 11 (8/26) · John Mazzocchi 20 (8/26) · HERMAN ROGERS 20 (8/27) · Natalia Rumbuc 22 (8/27) · Marko Sakren 6 (8/18) · LeRoy McCall 15 out/1 in (8/18) · Njjnn Of (junk-name capture, not audited as a real lead).

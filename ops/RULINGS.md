@@ -27,3 +27,4 @@
 | 8/31 | 5-consecutive-A streak governs SOP health; breaks escalate | supervisor counts, never self-declared |
 | 22 | 8/31 | "just auto approve notion stuff, you've asked me like 10+ times" | Notion lead-tracker writes are BLANKET-APPROVED — execute without asking, ever. Applies to all lanes/agents. |
 | 23 | 8/31 | "i just need the info first before you start doing all this extra stuff" | INFO FIRST: deliver the answer/data before systems-building, meta-process talk, or next-step questions. Extra work follows the info, never precedes it. No permission-gate questions on approved work. |
+| 24 | 8/31 | "Everything needs to be verified. Every type of piece of data needs to be verified with a hyper-clickable link to the actual proof." | EVIDENCE LAW hardened: no claim ships without a clickable link to its primary source (GHL record, recording, CSV, payment). A count ships with its named list. Derived/attested items carry their label + source link. |
