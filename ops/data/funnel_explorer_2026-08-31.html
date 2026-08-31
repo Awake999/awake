@@ -1,17 +1,21 @@
 <title>APW True Funnel Explorer</title>
 <style>
-:root{--bg:#f8fafc;--card:#fff;--tx:#0f172a;--mut:#64748b;--bd:#e2e8f0;--ac:#2563eb}
+:root{--bg:#f8fafc;--card:#fff;--tx:#0f172a;--mut:#64748b;--bd:#e2e8f0;--ac:#2563eb;--ok:#16a34a;--bad:#dc2626}
 @media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1220;--card:#131c2e;--tx:#e2e8f0;--mut:#94a3b8;--bd:#243146}}
-body{background:var(--bg);color:var(--tx);font:14px/1.5 -apple-system,Segoe UI,sans-serif;margin:0;padding:20px;max-width:860px;margin:auto}
-h1{font-size:20px;margin:8px 0} h2{font-size:15px;margin:22px 0 8px;color:var(--mut);text-transform:uppercase;letter-spacing:.05em}
-.funnel{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:16px;margin-bottom:16px}
-.stage{display:flex;align-items:center;gap:10px;padding:7px 0;border-bottom:1px dashed var(--bd)} .stage:last-child{border:none}
-.stage .num{font-size:22px;font-weight:800;min-width:52px;text-align:right}
-.stage .leak{color:var(--mut);font-size:12px}
-.filters{position:sticky;top:0;background:var(--bg);padding:10px 0;display:flex;flex-wrap:wrap;gap:6px;z-index:5}
+body{background:var(--bg);color:var(--tx);font:14px/1.5 -apple-system,Segoe UI,sans-serif;margin:0 auto;padding:16px;max-width:900px}
+h1{font-size:19px;margin:6px 0 10px}
+.map{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:14px 16px;margin-bottom:14px}
+.mrow{padding:8px 0;border-bottom:1px dashed var(--bd)} .mrow:last-child{border:none}
+.mhead{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.mnum{font-size:20px;font-weight:800}
+.msub{margin:6px 0 2px 16px;padding-left:10px;border-left:3px solid var(--bd)}
+.rate{font-weight:700} .good{color:var(--ok)} .bad{color:var(--bad)}
+.chip{display:inline-block;font-size:11px;border:1px solid;border-radius:11px;padding:1px 7px;margin:2px 3px 0 0;text-decoration:none}
+.mut{color:var(--mut);font-size:12px}
+.filters{position:sticky;top:0;background:var(--bg);padding:8px 0;display:flex;flex-wrap:wrap;gap:6px;z-index:5}
 .filters button{border:1px solid var(--bd);background:var(--card);color:var(--tx);border-radius:20px;padding:5px 12px;cursor:pointer;font-size:12.5px}
 .filters button.on{background:var(--ac);border-color:var(--ac);color:#fff}
-.card{background:var(--card);border:1px solid var(--bd);border-left:4px solid;border-radius:10px;margin:8px 0;padding:0}
+.card{background:var(--card);border:1px solid var(--bd);border-left:4px solid;border-radius:10px;margin:8px 0;scroll-margin-top:60px}
 summary{padding:10px 14px;cursor:pointer;list-style:none;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 summary::-webkit-details-marker{display:none} summary::after{content:"▾";margin-left:auto;color:var(--mut)}
 details[open] summary::after{content:"▴"}
@@ -19,352 +23,331 @@ details[open] summary::after{content:"▴"}
 .row{padding:4px 0} .links a{color:var(--ac);text-decoration:none;margin-right:12px}
 .b{font-size:11.5px;padding:2px 9px;border-radius:12px;background:var(--bd)}
 .btri{background:#2563eb1a;color:#2563eb} .bnone{background:var(--bd);color:var(--mut)} .bpath{background:var(--bd);color:var(--mut)}
-.note{color:var(--mut);font-size:12.5px;margin:14px 0}
+.note{color:var(--mut);font-size:12.5px;margin:12px 0}
+h2{font-size:15px;margin:18px 0 4px}
 </style>
-<h1>🎯 APW True Funnel — Jul 28 → Aug 26</h1>
-<div class="note">Every number expands to names; every claim links to its proof (GHL record / Fathom recording). Sources: Alan's hand-checked tags + raw GHL export + Alan's 8/31 person-by-person review. Full evidence file: <a href="https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/KAI_VERIFICATION_LINKS_2026-08-31.md" target="_blank" style="color:var(--ac)">verification links ↗</a></div>
-<div class="funnel">
-<div class="stage"><span class="num">$6.1K</span><span><b>Ad spend</b></span></div>
-<div class="stage"><span class="num">38</span><span><b>New leads</b> — all via the application opt-in (zero skipped it) <span class="leak">$160/lead</span></span></div>
-<div class="stage"><span class="num">25</span><span><b>⚡ Direct-to-book</b> — continued straight to the calendar, booked within minutes <span class="leak">66% of leads</span></span></div>
-<div class="stage"><span class="num">4</span><span><b>🧑‍💼 Booked later, after being worked</b> — Jennifer +5h · Behnad +15h · Connor +7d · Karl +14d</span></div>
-<div class="stage"><span class="num">9</span><span><b>📥 Never booked</b> — all contacted 6–22×, unresponsive</span></div>
-<div class="stage"><span class="num">9</span><span><b>✅ Showed</b> (31% of the 29 booked) <span class="leak">$678/show · direct-to-book cohort: Lynn-worked showed 6/12 = 50% vs untouched 1/12 = 8%</span></span></div>
-<div class="stage"><span class="num">1</span><span><b>🟢 Qualified — Karl</b> (11% of shows) <span class="leak">$6,100/qualified — and he came from the WORKED path, not self-serve</span></span></div>
-<div class="stage"><span class="num">$0</span><span><b>Collected in window</b> — Karl's $7.5K agreed, unsigned</span></div>
+<h1>🎯 APW True Funnel — Jul 28 → Aug 26 · the WHOLE picture, top of page</h1>
+
+<div class="map">
+<div class="mrow mhead"><span class="mnum">$6,100</span> ad spend → <span class="mnum">38</span> <b>new leads</b> <span class="mut">($160/lead · every lead got speed-to-lead ≤1 min · zero skipped the application opt-in)</span></div>
+
+<div class="mrow">
+<div class="mhead"><span class="mnum">25</span> <b>⚡ DIRECT TO BOOKING</b> <span class="mut">— booked a slot within minutes of opting in</span></div>
+<div class="msub"><b>🎯 Triaged / connected first — 13</b> → <span class="rate good">6 showed (50%)</span> · 6 no-show · 1 unrecorded<br>
+<a class="chip" style="border-color:#16a34a;color:#16a34a" href="#p-reddy-p">P Reddy P ✓</a><a class="chip" style="border-color:#16a34a;color:#16a34a" href="#jesse-hopcus">Jesse Hopcus ✓</a><a class="chip" style="border-color:#16a34a;color:#16a34a" href="#yeshaya-dank">Yeshaya Dank ✓</a><a class="chip" style="border-color:#16a34a;color:#16a34a" href="#michael-moore">Michael Moore ✓</a><a class="chip" style="border-color:#16a34a;color:#16a34a" href="#nick-samara">Nick Samara ✓</a><a class="chip" style="border-color:#16a34a;color:#16a34a" href="#pradeep-bhatia">Pradeep Bhatia ✓</a><a class="chip" style="border-color:#16a34a;color:#16a34a" href="#chris-bowers">Chris Bowers ✓</a><a class="chip" style="border-color:#dc2626;color:#dc2626" href="#robert-schechner">Robert Schechner</a><a class="chip" style="border-color:#dc2626;color:#dc2626" href="#myla-maheedhar">Myla Maheedhar</a><a class="chip" style="border-color:#dc2626;color:#dc2626" href="#trent-hamilton">Trent Hamilton</a><a class="chip" style="border-color:#dc2626;color:#dc2626" href="#antonio-jenkins">Antonio Jenkins</a><a class="chip" style="border-color:#dc2626;color:#dc2626" href="#jack-kates">Jack Kates</a><a class="chip" style="border-color:#dc2626;color:#dc2626" href="#shamar-samuel">Shamar Samuel</a><a class="chip" style="border-color:#dc2626;color:#dc2626" href="#desi-harmon-sr">Desi Harmon Sr</a><a class="chip" style="border-color:#dc2626;color:#dc2626" href="#stephen-greco">Stephen Greco</a><a class="chip" style="border-color:#dc2626;color:#dc2626" href="#tarlochan-singh">Tarlochan Singh</a><a class="chip" style="border-color:#dc2626;color:#dc2626" href="#lee-mceachin-jr">Lee McEachin Jr</a><a class="chip" style="border-color:#d97706;color:#d97706" href="#pedro-perez-grizzle">Pedro Perez Grizzle</a><a class="chip" style="border-color:#7c3aed;color:#7c3aed" href="#robert-morawitz">Robert Morawitz</a></div>
+<div class="msub"><b>🚷 Never triaged (dialed &amp; texted, no pickup) — 12</b> → <span class="rate bad">1 showed (8%)</span> · 9 no-show · 2 cancelled<br>
+<a class="chip" style="border-color:#dc2626;color:#dc2626" href="#rena-sookra">Rena Sookra</a><a class="chip" style="border-color:#dc2626;color:#dc2626" href="#ms-terry">Ms Terry</a><a class="chip" style="border-color:#dc2626;color:#dc2626" href="#ed-mccullough">Ed McCullough</a><a class="chip" style="border-color:#dc2626;color:#dc2626" href="#david-shepherd">David Shepherd</a><a class="chip" style="border-color:#dc2626;color:#dc2626" href="#tessa-ndille">Tessa Ndille</a><a class="chip" style="border-color:#d97706;color:#d97706" href="#george-truesdale">George Truesdale</a></div>
 </div>
+
+<div class="mrow">
+<div class="mhead"><span class="mnum">4</span> <b>📞 TRIAGE → CALL BOOKED</b> <span class="mut">— connected live FIRST, then booked</span> → <span class="rate good">2 showed (50%)</span>, incl. the only qualified</div>
+<div class="msub"><a class="chip" style="border-color:#16a34a;color:#16a34a" href="#karl-krummenacher">Karl Krummenacher ✓</a><a class="chip" style="border-color:#16a34a;color:#16a34a" href="#jennifer-ulloa">Jennifer Ulloa ✓</a><a class="chip" style="border-color:#dc2626;color:#dc2626" href="#connor-robertson">Connor Robertson</a><a class="chip" style="border-color:#dc2626;color:#dc2626" href="#behnad-zandi">Behnad Zandi</a></div>
+</div>
+
+<div class="mrow">
+<div class="mhead"><span class="mnum">9</span> <b>📥 OPT-IN ONLY, NEVER BOOKED</b> <span class="mut">— chased 6–22× each, unresponsive (we did reach out — proof in each card)</span></div>
+<div class="msub"><a class="chip" style="border-color:#64748b;color:#64748b" href="#fernando-de-pieri">Fernando De Pieri</a><a class="chip" style="border-color:#64748b;color:#64748b" href="#javaris-johnson">Javaris Johnson</a><a class="chip" style="border-color:#64748b;color:#64748b" href="#noel-rivera">Noel Rivera</a><a class="chip" style="border-color:#64748b;color:#64748b" href="#john-mazzocchi">John Mazzocchi</a><a class="chip" style="border-color:#64748b;color:#64748b" href="#herman-rogers">HERMAN ROGERS</a><a class="chip" style="border-color:#64748b;color:#64748b" href="#natalia-rumbuc">Natalia Rumbuc</a><a class="chip" style="border-color:#64748b;color:#64748b" href="#marko-sakren">Marko Sakren</a><a class="chip" style="border-color:#64748b;color:#64748b" href="#leroy-mccall">LeRoy McCall</a><a class="chip" style="border-color:#64748b;color:#64748b" href="#njjnn-of">Njjnn Of</a></div>
+</div>
+
+<div class="mrow mhead"><span class="mnum">9</span> <b>✅ SHOWED</b> <span class="mut">(31% of 29 booked)</span> → <span class="mnum">1</span> <b>🟢 QUALIFIED — Karl</b> <span class="mut">(11% of shows · $6,100/qualified)</span> → <span class="mnum">$0</span> <b>collected</b> <span class="mut">(Karl's $7.5K agreed, unsigned)</span></div>
+
+<div class="mrow mut">➕ Referral outside the funnel: <a class="chip" style="border-color:#16a34a;color:#16a34a" href="#chris-mclean">Chris Mclean</a> · ❓ unrecorded outcome: <a class="chip" style="border-color:#7c3aed;color:#7c3aed" href="#robert-morawitz">Robert Morawitz</a> · Headline: <b>a booking with a live triage shows ~50%; a self-booked slot nobody connected with shows 8%.</b></div>
+</div>
+
 <div class="filters">
 <button class="on" data-f="all">All 39</button>
-<button data-f="o:showed">✅ Showed (9+1)</button>
-<button data-f="o:noshow">❌ No-show (17)</button>
-<button data-f="o:cancelled">🚫 Cancelled (2)</button>
-<button data-f="o:unresolved">❓ Unresolved (1)</button>
-<button data-f="o:optin">📥 Never booked (9)</button>
-<button data-f="p:direct">⚡ Direct-to-book (25)</button>
-<button data-f="p:later">🧑‍💼 Booked later (4)</button>
-<button data-f="t:y">🎯 Triaged/worked (16)</button>
-<button data-f="t:n">Untouched (23)</button>
+<button data-f="o:showed">✅ Showed</button>
+<button data-f="o:noshow">❌ No-show</button>
+<button data-f="o:cancelled">🚫 Cancelled</button>
+<button data-f="o:optin">📥 Never booked</button>
+<button data-f="p:direct">⚡ Direct to Booking</button>
+<button data-f="p:later">📞 Triage → Booked</button>
+<button data-f="t:y">🎯 Triaged</button>
+<button data-f="t:n">Not triaged</button>
 </div>
-<details class="card" data-o="showed" data-p="later" data-t="n" style="border-left-color:#16a34a">
-<summary><b>Karl Krummenacher</b> <span class="b" style="background:#16a34a1a;color:#16a34a">✅ SHOWED</span> <span class="b bpath">🧑‍💼 booked LATER after being worked</span></summary>
+<h2>Every person — tap to expand (status · path · outreach proof · links)</h2>
+<details class="card" id="karl-krummenacher" data-o="showed" data-p="later" data-t="n" style="border-left-color:#16a34a">
+<summary><b>Karl Krummenacher</b> <span class="b" style="background:#16a34a1a;color:#16a34a">✅ SHOWED</span> <span class="b bpath">📞 Triage → Call Booked</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/05</b> · booked 8/18 → slot 8/20 (13.9 days after opt-in)</div>
-<div class="row">🧑‍💼 booked LATER after being worked</div>
-<div class="row"><span class="b bnone">no triage evidence</span></div>
+<div class="row">📅 Opted in <b>8/05</b> · opted in 8/05 → stayed in follow-up → booked 8/18 (slot 8/20)</div>
+<div class="row"><span class="b bnone">no triage recorded</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 7 call attempts · <b>1 connected</b> (longest 1m30s) · 38 texts out / <b>20 replies</b><br>⚖️ <b>TEXT-RESPONSIVE — 20 replies; connected 90s; booked 14 days after opt-in; showed + QUALIFIED</b></div>
 <div class="row">🏷 🟢 QUALIFIED - Main Offer — real, credit-qualified; not in market for main right now (Alan 8/31)</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/H4aNUi4T4zClFs5EAJtP" target="_blank">GHL record ↗</a> <a href="https://fathom.video/calls/791088813" target="_blank">Recording 8/20 ↗</a></div>
-</div></details><details class="card" data-o="showed" data-p="direct" data-t="y" style="border-left-color:#16a34a">
-<summary><b>P Reddy P</b> <span class="b" style="background:#16a34a1a;color:#16a34a">✅ SHOWED</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="p-reddy-p" data-o="showed" data-p="direct" data-t="y" style="border-left-color:#16a34a">
+<summary><b>P Reddy P</b> <span class="b" style="background:#16a34a1a;color:#16a34a">✅ SHOWED</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/07</b> · booked 1 min after opt-in → slot 8/10</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b btri">🎯 Lynn's tag + Alan-attested</span></div>
+<div class="row">📅 Opted in <b>8/07</b> · direct to booking — 1 min from opt-in → slot 8/10</div>
+<div class="row"><span class="b btri">🎯 Lynn's tag [V] + Alan-attested</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 4 call attempts · <b>0 connected</b> (longest 46s) · 15 texts out / <b>6 replies</b><br>⚖️ <b>TEXT-RESPONSIVE — 6 replies; triage-tagged; showed (fake)</b></div>
 <div class="row">🏷 🔴 FAKE LEAD (Alan 8/31): fake website/business, wouldn't show face or report → Unqualified-Other</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/8Ermg0m5C1JDmvAb808b" target="_blank">GHL record ↗</a> <a href="https://fathom.video/calls/777298604" target="_blank">Recording 8/10 ↗</a></div>
-</div></details><details class="card" data-o="showed" data-p="direct" data-t="y" style="border-left-color:#16a34a">
-<summary><b>Jesse Hopcus</b> <span class="b" style="background:#16a34a1a;color:#16a34a">✅ SHOWED</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="jesse-hopcus" data-o="showed" data-p="direct" data-t="y" style="border-left-color:#16a34a">
+<summary><b>Jesse Hopcus</b> <span class="b" style="background:#16a34a1a;color:#16a34a">✅ SHOWED</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/08</b> · booked 1 min after opt-in → slot 8/10</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b btri">🎯 Alan-attested triage</span></div>
+<div class="row">📅 Opted in <b>8/08</b> · direct to booking — 1 min from opt-in → slot 8/10</div>
+<div class="row"><span class="b btri">🎯 Alan-attested triage</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 3 call attempts · <b>1 connected</b> (longest 3m10s) · 14 texts out / <b>10 replies</b><br>⚖️ <b>TEXT-RESPONSIVE — 10 replies + one 190s call; showed</b></div>
 <div class="row">🏷 🔴 Unqualified — credit too weak, too many loans/debt (Alan 8/31)</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/SG3f3PsV3sJaJRS34v21" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="showed" data-p="direct" data-t="y" style="border-left-color:#16a34a">
-<summary><b>Yeshaya Dank</b> <span class="b" style="background:#16a34a1a;color:#16a34a">✅ SHOWED</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="yeshaya-dank" data-o="showed" data-p="direct" data-t="y" style="border-left-color:#16a34a">
+<summary><b>Yeshaya Dank</b> <span class="b" style="background:#16a34a1a;color:#16a34a">✅ SHOWED</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/13</b> · booked 2 min after opt-in → slots 8/13 + 8/27 (+Sep 10)</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b btri">🎯 Lynn's tag + Alan-attested</span></div>
-<div class="row">🏷 🔴 Unqualified as-is — needs a personal guarantor (Alan 8/31); Sep 10 follow-up stands</div>
+<div class="row">📅 Opted in <b>8/13</b> · direct to booking — 2 min from opt-in → slots 8/13 + 8/27 (+Sep 10)</div>
+<div class="row"><span class="b btri">🎯 Lynn's tag [V] + Alan-attested</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 1 call attempts · <b>1 connected</b> (longest 21m57s) · 27 texts out / <b>13 replies</b><br>⚖️ <b>CONNECTED — 22-min call + 13 replies; triaged; showed</b></div>
+<div class="row">🏷 🔴 Unqualified as-is — needs a personal guarantor (Alan 8/31); Sep 10 stands</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/5CRpCl0usJYwUCcw0D79" target="_blank">GHL record ↗</a> <a href="https://fathom.video/calls/783351348" target="_blank">Recording 8/13 ↗</a> <a href="https://fathom.video/calls/799338949" target="_blank">Recording 8/27 ↗</a></div>
-</div></details><details class="card" data-o="showed" data-p="direct" data-t="y" style="border-left-color:#16a34a">
-<summary><b>Michael Moore</b> <span class="b" style="background:#16a34a1a;color:#16a34a">✅ SHOWED</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="michael-moore" data-o="showed" data-p="direct" data-t="y" style="border-left-color:#16a34a">
+<summary><b>Michael Moore</b> <span class="b" style="background:#16a34a1a;color:#16a34a">✅ SHOWED</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/17</b> · booked 2 min after opt-in → 4 slots 8/19–8/27</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b btri">🎯 Lynn's tag + Alan-attested</span></div>
+<div class="row">📅 Opted in <b>8/17</b> · direct to booking — 2 min from opt-in → 4 slots 8/19–8/27</div>
+<div class="row"><span class="b btri">🎯 Lynn's tag [V] + Alan-attested</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 10 call attempts · <b>4 connected</b> (longest 45m23s) · 49 texts out / <b>12 replies</b><br>⚖️ <b>CONNECTED ×4 — up to 45 min; triaged; showed</b></div>
 <div class="row">🏷 🔴 Unqualified - No Funds — verge of bankruptcy (Alan 8/31)</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/lCa8gYSSfhlb1YyszdrK" target="_blank">GHL record ↗</a> <a href="https://fathom.video/calls/791826979" target="_blank">Recording ↗</a></div>
-</div></details><details class="card" data-o="showed" data-p="later" data-t="y" style="border-left-color:#16a34a">
-<summary><b>Jennifer Ulloa</b> <span class="b" style="background:#16a34a1a;color:#16a34a">✅ SHOWED</span> <span class="b bpath">🧑‍💼 booked LATER after being worked</span></summary>
+</div></details><details class="card" id="jennifer-ulloa" data-o="showed" data-p="later" data-t="y" style="border-left-color:#16a34a">
+<summary><b>Jennifer Ulloa</b> <span class="b" style="background:#16a34a1a;color:#16a34a">✅ SHOWED</span> <span class="b bpath">📞 Triage → Call Booked</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/06</b> · booked 5 hours after opt-in → slot 8/07 (2nd cancelled)</div>
-<div class="row">🧑‍💼 booked LATER after being worked</div>
-<div class="row"><span class="b btri">🎯 Lynn's GHL 'triaged' tag</span></div>
+<div class="row">📅 Opted in <b>8/06</b> · opted in → 24-min triage call → booked 5h later (slot 8/07)</div>
+<div class="row"><span class="b btri">🎯 Lynn's 'triaged' tag [V]</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 2 call attempts · <b>1 connected</b> (longest 23m41s) · 14 texts out / <b>3 replies</b><br>⚖️ <b>CONNECTED — 24-min triage call, then booked; showed</b></div>
 <div class="row">🏷 🔴 Unqualified — offer mismatch, wants no-PG funding (Alan 8/31)</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/Beb6LGrnKnPPmF9B1MpW" target="_blank">GHL record ↗</a> <a href="https://fathom.video/calls/775643888" target="_blank">Recording 8/07 ↗</a></div>
-</div></details><details class="card" data-o="showed" data-p="direct" data-t="y" style="border-left-color:#16a34a">
-<summary><b>Nick Samara</b> <span class="b" style="background:#16a34a1a;color:#16a34a">✅ SHOWED</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="nick-samara" data-o="showed" data-p="direct" data-t="y" style="border-left-color:#16a34a">
+<summary><b>Nick Samara</b> <span class="b" style="background:#16a34a1a;color:#16a34a">✅ SHOWED</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/20</b> · booked 2 min after opt-in → 3 slots 8/20–8/26</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b btri">🎯 Lynn's GHL 'triaged' tag</span></div>
-<div class="row">🏷 🔴 Unqualified - No Funds — couldn't fund even the $500 downsell; never paid (Whop verified)</div>
+<div class="row">📅 Opted in <b>8/20</b> · direct to booking — 2 min from opt-in → 3 slots 8/20–8/26</div>
+<div class="row"><span class="b btri">🎯 Lynn's 'triaged' tag [V]</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 9 call attempts · <b>1 connected</b> (longest 31m10s) · 34 texts out / <b>2 replies</b><br>⚖️ <b>CONNECTED — 31-min call; triaged; showed</b></div>
+<div class="row">🏷 🔴 Unqualified - No Funds — couldn't fund even the $500 downsell; never paid (Whop)</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/lgswJD9fKGfqmRic0iul" target="_blank">GHL record ↗</a> <a href="https://fathom.video/calls/795906442" target="_blank">Recording 8/26 ↗</a></div>
-</div></details><details class="card" data-o="showed" data-p="direct" data-t="y" style="border-left-color:#16a34a">
-<summary><b>Pradeep Bhatia</b> <span class="b" style="background:#16a34a1a;color:#16a34a">✅ SHOWED</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="pradeep-bhatia" data-o="showed" data-p="direct" data-t="y" style="border-left-color:#16a34a">
+<summary><b>Pradeep Bhatia</b> <span class="b" style="background:#16a34a1a;color:#16a34a">✅ SHOWED</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/05</b> · booked 9 min after opt-in → slot 8/07 (+8/17)</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b btri">🎯 Lynn's GHL 'triaged' tag</span></div>
-<div class="row">🏷 🔴 Unqualified - No Funds — $300 committed, never paid (Whop verified)</div>
+<div class="row">📅 Opted in <b>8/05</b> · direct to booking — 9 min from opt-in → slot 8/07 (+8/17)</div>
+<div class="row"><span class="b btri">🎯 Lynn's 'triaged' tag [V]</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 8 call attempts · <b>4 connected</b> (longest 50m09s) · 18 texts out / <b>0 replies</b><br>⚖️ <b>CONNECTED ×4 — up to 50 min; triaged; showed</b></div>
+<div class="row">🏷 🔴 Unqualified - No Funds — $300 committed, never paid (Whop)</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/wc452MDflzJUVSOT6JPy" target="_blank">GHL record ↗</a> <a href="https://fathom.video/calls/775117204" target="_blank">Recording 8/07 ↗</a></div>
-</div></details><details class="card" data-o="showed" data-p="direct" data-t="y" style="border-left-color:#16a34a">
-<summary><b>Chris Bowers</b> <span class="b" style="background:#16a34a1a;color:#16a34a">✅ SHOWED</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="chris-bowers" data-o="showed" data-p="direct" data-t="y" style="border-left-color:#16a34a">
+<summary><b>Chris Bowers</b> <span class="b" style="background:#16a34a1a;color:#16a34a">✅ SHOWED</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>7/31</b> · booked 2 min after opt-in → slots 8/3 + 8/6 (8/25 cancelled) — SHOWED ×2</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b btri">🎯 Lynn's GHL 'triaged' tag</span></div>
+<div class="row">📅 Opted in <b>7/31</b> · direct to booking — 2 min from opt-in → slots 8/3 + 8/6 (8/25 cancelled) — SHOWED ×2</div>
+<div class="row"><span class="b btri">🎯 Lynn's 'triaged' tag [V]</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 17 call attempts · <b>6 connected</b> (longest 14m36s) · 68 texts out / <b>19 replies</b><br>⚖️ <b>CONNECTED ×6 + 19 replies; triaged; showed ×2</b></div>
 <div class="row">🏷 🔴 Unqualified - No Funds — bad credit, maxed, can't make $200 (Alan 8/31)</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/S80lc8JjJ7284xzdh1Wi" target="_blank">GHL record ↗</a> <a href="https://fathom.video/calls/768297031" target="_blank">Recording 8/4 ↗</a> <a href="https://fathom.video/calls/771447748" target="_blank">Recording 8/7 ↗</a></div>
-</div></details><details class="card" data-o="noshow" data-p="direct" data-t="y" style="border-left-color:#dc2626">
-<summary><b>Robert Schechner</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="robert-schechner" data-o="noshow" data-p="direct" data-t="y" style="border-left-color:#dc2626">
+<summary><b>Robert Schechner</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>7/29</b> · booked 1 min after opt-in → slot 7/29</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b btri">🎯 Lynn's GHL 'triaged' tag</span></div>
-<div class="row">🏷 —</div><div class="row">📌 setter's own GHL '0 no show' tag agrees</div>
+<div class="row">📅 Opted in <b>7/29</b> · direct to booking — 1 min from opt-in → slot 7/29</div>
+<div class="row"><span class="b btri">🎯 Lynn's 'triaged' tag [V]</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 9 call attempts · <b>1 connected</b> (longest 13m38s) · 21 texts out / <b>4 replies</b><br>⚖️ <b>CONNECTED — one 13-min call; still no-showed</b></div>
+<div class="row">🏷 —</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/VD04ZTrHJvQACmuby8KF" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="noshow" data-p="direct" data-t="y" style="border-left-color:#dc2626">
-<summary><b>Myla Maheedhar</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="myla-maheedhar" data-o="noshow" data-p="direct" data-t="y" style="border-left-color:#dc2626">
+<summary><b>Myla Maheedhar</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>7/30</b> · booked same minute → slot 7/31</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b btri">🎯 Lynn's GHL 'triaged' tag</span></div>
-<div class="row">🏷 —</div><div class="row">📌 '0 no show' tag agrees; Alan: cancel-notifications wanted</div>
+<div class="row">📅 Opted in <b>7/30</b> · direct to booking — same minute → slot 7/31</div>
+<div class="row"><span class="b btri">🎯 Lynn's 'triaged' tag [V]</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 9 call attempts · <b>1 connected</b> (longest 12m40s) · 21 texts out / <b>0 replies</b><br>⚖️ <b>CONNECTED — one 12-min call; still no-showed</b></div>
+<div class="row">🏷 Alan: cancel-notifications to him wanted going forward</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/hDKXjL3QDuda9XfRT7lv" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="noshow" data-p="direct" data-t="n" style="border-left-color:#dc2626">
-<summary><b>Rena Sookra</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="rena-sookra" data-o="noshow" data-p="direct" data-t="n" style="border-left-color:#dc2626">
+<summary><b>Rena Sookra</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>7/30</b> · booked 1 min after opt-in → slot 8/02</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b bnone">no triage evidence</span></div>
-<div class="row">🏷 —</div><div class="row">📌 '0 no show' tag agrees</div>
+<div class="row">📅 Opted in <b>7/30</b> · direct to booking — 1 min → slot 8/02</div>
+<div class="row"><span class="b bnone">no triage recorded</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 13 call attempts · <b>0 connected</b> (longest 9s) · 22 texts out / <b>0 replies</b><br>⚖️ <b>UNRESPONSIVE — 13 dials, never picked up (longest ring 9s), 0 text replies</b></div>
+<div class="row">🏷 —</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/4vDzMOYAL1dcuAqGyIIU" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="noshow" data-p="direct" data-t="y" style="border-left-color:#dc2626">
-<summary><b>Trent Hamilton</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="trent-hamilton" data-o="noshow" data-p="direct" data-t="y" style="border-left-color:#dc2626">
+<summary><b>Trent Hamilton</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/02</b> · booked same minute → slot 8/03</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b btri">🎯 Alan-attested triage</span></div>
-<div class="row">🏷 —</div><div class="row">📌 '0 no show' tag agrees</div>
+<div class="row">📅 Opted in <b>8/02</b> · direct to booking — same minute → slot 8/03</div>
+<div class="row"><span class="b btri">🎯 Alan-attested triage</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 11 call attempts · <b>1 connected</b> (longest 1m05s) · 19 texts out / <b>0 replies</b><br>⚖️ <b>UNRESPONSIVE — 11 dials, one 65s pickup, 0 text replies</b></div>
+<div class="row">🏷 —</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/nsrxMsSnOMHdr1iOkUdj" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="noshow" data-p="direct" data-t="y" style="border-left-color:#dc2626">
-<summary><b>Antonio Jenkins</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="antonio-jenkins" data-o="noshow" data-p="direct" data-t="y" style="border-left-color:#dc2626">
+<summary><b>Antonio Jenkins</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/02</b> · booked same minute → slot 8/05</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b btri">🎯 Lynn's tag + Alan-attested</span></div>
+<div class="row">📅 Opted in <b>8/02</b> · direct to booking — same minute → slot 8/05</div>
+<div class="row"><span class="b btri">🎯 Lynn's tag [V] + Alan-attested</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 6 call attempts · <b>1 connected</b> (longest 28m24s) · 17 texts out / <b>2 replies</b><br>⚖️ <b>CONNECTED — one 28-min call (triage); still no-showed</b></div>
 <div class="row">🏷 —</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/LWR0IetKviApaOvTmBxK" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="noshow" data-p="direct" data-t="y" style="border-left-color:#dc2626">
-<summary><b>Jack Kates</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="jack-kates" data-o="noshow" data-p="direct" data-t="y" style="border-left-color:#dc2626">
+<summary><b>Jack Kates</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/04</b> · booked 1 min after opt-in → slot 8/04</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b btri">🎯 Alan-attested triage</span></div>
-<div class="row">🏷 —</div><div class="row">📌 '0 no show' + reschedule tags</div>
+<div class="row">📅 Opted in <b>8/04</b> · direct to booking — 1 min → slot 8/04; rescheduled</div>
+<div class="row"><span class="b btri">🎯 Alan-attested triage</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 17 call attempts · <b>7 connected</b> (longest 1m22s) · 27 texts out / <b>4 replies</b><br>⚖️ <b>CONNECTED-BRIEF — 7 short pickups (max 82s), rescheduled, never held a triage</b></div>
+<div class="row">🏷 —</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/4a8QdzeBed4mRo97Z4vx" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="noshow" data-p="direct" data-t="y" style="border-left-color:#dc2626">
-<summary><b>Shamar Samuel</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="shamar-samuel" data-o="noshow" data-p="direct" data-t="y" style="border-left-color:#dc2626">
+<summary><b>Shamar Samuel</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/03</b> · booked 1 min after opt-in → slot 8/05</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b btri">🎯 Alan-attested triage</span></div>
-<div class="row">🏷 —</div><div class="row">📌 '0 no show' tag agrees</div>
+<div class="row">📅 Opted in <b>8/03</b> · direct to booking — 1 min → slot 8/05</div>
+<div class="row"><span class="b btri">🎯 Alan-attested triage</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 13 call attempts · <b>0 connected</b> (longest 34s) · 21 texts out / <b>1 replies</b><br>⚖️ <b>UNRESPONSIVE — 13 dials, no pickup ≥60s</b></div>
+<div class="row">🏷 —</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/WuRw9EKIbfcPuGnrVKgk" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="noshow" data-p="later" data-t="y" style="border-left-color:#dc2626">
-<summary><b>Connor Robertson</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">🧑‍💼 booked LATER after being worked</span></summary>
+</div></details><details class="card" id="connor-robertson" data-o="noshow" data-p="later" data-t="y" style="border-left-color:#dc2626">
+<summary><b>Connor Robertson</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">📞 Triage → Call Booked</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/05</b> · booked 7.4 DAYS after opt-in → slots 8/13, 8/17 (+Sep 1 still on)</div>
-<div class="row">🧑‍💼 booked LATER after being worked</div>
-<div class="row"><span class="b btri">🎯 Lynn's tag + Alan-attested</span></div>
-<div class="row">🏷 Alan 8/31: never spoke to him; may talk this week</div>
+<div class="row">📅 Opted in <b>8/05</b> · opted in 8/05 → triaged live (47-min call) → booked 8/12 → slots 8/13, 8/17 (+Sep 1 still on)</div>
+<div class="row"><span class="b btri">🎯 Lynn's tag [V] + Alan-attested</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 7 call attempts · <b>3 connected</b> (longest 46m47s) · 36 texts out / <b>18 replies</b><br>⚖️ <b>CONNECTED ×3 — up to 47 min; triaged; then ghosted the closer call</b></div>
+<div class="row">🏷 Alan 8/31: never spoke to the CLOSER; may talk this week</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/aUuP9CfKdLFG1bSqVban" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="noshow" data-p="direct" data-t="y" style="border-left-color:#dc2626">
-<summary><b>Desi Harmon Sr</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="desi-harmon-sr" data-o="noshow" data-p="direct" data-t="y" style="border-left-color:#dc2626">
+<summary><b>Desi Harmon Sr</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/06</b> · booked 1 min after opt-in → slot 8/08</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b btri">🎯 Alan-attested triage</span></div>
-<div class="row">🏷 —</div><div class="row">📌 '0 no show' tag agrees</div>
+<div class="row">📅 Opted in <b>8/06</b> · direct to booking — 1 min → slot 8/08</div>
+<div class="row"><span class="b btri">🎯 Alan-attested triage</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 3 call attempts · <b>0 connected</b> (longest 44s) · 13 texts out / <b>2 replies</b><br>⚖️ <b>UNDER-CHASED — only 3 dials before his slot</b></div>
+<div class="row">🏷 —</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/3pJWW8qMPiZkyWokyH7g" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="noshow" data-p="later" data-t="y" style="border-left-color:#dc2626">
-<summary><b>Behnad Zandi</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">🧑‍💼 booked LATER after being worked</span></summary>
+</div></details><details class="card" id="behnad-zandi" data-o="noshow" data-p="later" data-t="y" style="border-left-color:#dc2626">
+<summary><b>Behnad Zandi</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">📞 Triage → Call Booked</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/12</b> · booked 15 hours after opt-in → slot 8/12</div>
-<div class="row">🧑‍💼 booked LATER after being worked</div>
-<div class="row"><span class="b btri">🎯 Lynn's GHL 'triaged' tag</span></div>
-<div class="row">🏷 tags: '1 - qualified' then '3 - not interested'</div>
+<div class="row">📅 Opted in <b>8/12</b> · opted in → triaged live (19-min call) → booked 15h later → slot 8/12</div>
+<div class="row"><span class="b btri">🎯 Lynn's 'triaged' tag [V]</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 6 call attempts · <b>2 connected</b> (longest 18m57s) · 13 texts out / <b>3 replies</b><br>⚖️ <b>CONNECTED ×2 — up to 19 min; triaged then 'not interested'; no-showed</b></div>
+<div class="row">🏷 tagged '1 - qualified' then '3 - not interested'</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/Dg9fyJ621iCphlIRa0vm" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="noshow" data-p="direct" data-t="n" style="border-left-color:#dc2626">
-<summary><b>Ms Terry</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="ms-terry" data-o="noshow" data-p="direct" data-t="n" style="border-left-color:#dc2626">
+<summary><b>Ms Terry</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/13</b> · booked 1 min after opt-in → slot 8/13</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b bnone">no triage evidence</span></div>
-<div class="row">🏷 tags: 'hung up'</div>
+<div class="row">📅 Opted in <b>8/13</b> · direct to booking — 1 min → slot 8/13</div>
+<div class="row"><span class="b bnone">no triage recorded</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 11 call attempts · <b>1 connected</b> (longest 1m38s) · 18 texts out / <b>4 replies</b><br>⚖️ <b>HUNG UP (tag) — 11 dials; her one 98s pickup came 8/27, after the 8/13 no-show</b></div>
+<div class="row">🏷 tagged '2 - hung up'</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/xsHo2g1QTQgecx5OV6S4" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="noshow" data-p="direct" data-t="y" style="border-left-color:#dc2626">
-<summary><b>Stephen Greco</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="stephen-greco" data-o="noshow" data-p="direct" data-t="y" style="border-left-color:#dc2626">
+<summary><b>Stephen Greco</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/14</b> · booked 11 min after opt-in → slots 8/17 + 8/24 (both silent)</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b btri">🎯 Lynn's GHL 'triaged' tag</span></div>
+<div class="row">📅 Opted in <b>8/14</b> · direct to booking — 11 min → slots 8/17 + 8/24 (both silent)</div>
+<div class="row"><span class="b btri">🎯 Lynn's 'triaged' tag [V]</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 2 call attempts · <b>2 connected</b> (longest 6m56s) · 20 texts out / <b>8 replies</b><br>⚖️ <b>CONNECTED ×2 + 8 replies; still silent on both slots</b></div>
 <div class="row">🏷 —</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/FWmJO9pOj3dI7eFlCUtO" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="noshow" data-p="direct" data-t="y" style="border-left-color:#dc2626">
-<summary><b>Tarlochan Singh</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="tarlochan-singh" data-o="noshow" data-p="direct" data-t="y" style="border-left-color:#dc2626">
+<summary><b>Tarlochan Singh</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/16</b> · booked 2 min after opt-in → slot 8/19</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b btri">🎯 Lynn's GHL 'triaged' tag</span></div>
-<div class="row">🏷 —</div><div class="row">📌 '0 no show' tag agrees</div>
+<div class="row">📅 Opted in <b>8/16</b> · direct to booking — 2 min → slot 8/19</div>
+<div class="row"><span class="b btri">🎯 Lynn's 'triaged' tag [V]</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 7 call attempts · <b>1 connected</b> (longest 1m06s) · 23 texts out / <b>4 replies</b><br>⚖️ <b>CONNECTED-BRIEF — one 66s pickup; no-showed</b></div>
+<div class="row">🏷 —</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/x5E8IABgpkEyDiOs5TZd" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="noshow" data-p="direct" data-t="n" style="border-left-color:#dc2626">
-<summary><b>Ed McCullough</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="ed-mccullough" data-o="noshow" data-p="direct" data-t="n" style="border-left-color:#dc2626">
+<summary><b>Ed McCullough</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/21</b> · booked 1 min after opt-in → slot 8/24</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b bnone">no triage evidence</span></div>
+<div class="row">📅 Opted in <b>8/21</b> · direct to booking — 1 min → slot 8/24</div>
+<div class="row"><span class="b bnone">no triage recorded</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 2 call attempts · <b>0 connected</b> (longest 0s) · 10 texts out / <b>1 replies</b><br>⚖️ <b>UNDER-CHASED — only 2 dials (arrived 8/21, slot 8/24)</b></div>
 <div class="row">🏷 NOT client Ed C. — different person</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/NYiNc0yWNWvHUsoxZMGU" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="noshow" data-p="direct" data-t="n" style="border-left-color:#dc2626">
-<summary><b>David Shepherd</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="david-shepherd" data-o="noshow" data-p="direct" data-t="n" style="border-left-color:#dc2626">
+<summary><b>David Shepherd</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/22</b> · booked 2 min after opt-in → slot 8/24</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b bnone">no triage evidence</span></div>
+<div class="row">📅 Opted in <b>8/22</b> · direct to booking — 2 min → slot 8/24</div>
+<div class="row"><span class="b bnone">no triage recorded</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 2 call attempts · <b>0 connected</b> (longest 41s) · 9 texts out / <b>1 replies</b><br>⚖️ <b>UNDER-CHASED — only 2 dials (arrived 8/22, slot 8/24)</b></div>
 <div class="row">🏷 —</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/F2fA9NZW88pSwL3P6JbE" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="noshow" data-p="direct" data-t="y" style="border-left-color:#dc2626">
-<summary><b>Lee McEachin Jr</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="lee-mceachin-jr" data-o="noshow" data-p="direct" data-t="y" style="border-left-color:#dc2626">
+<summary><b>Lee McEachin Jr</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/23</b> · booked 1 min after opt-in → slot 8/24</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b btri">🎯 Lynn's GHL 'triaged' tag</span></div>
+<div class="row">📅 Opted in <b>8/23</b> · direct to booking — 1 min → slot 8/24</div>
+<div class="row"><span class="b btri">🎯 Lynn's 'triaged' tag [V]</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 7 call attempts · <b>3 connected</b> (longest 10m45s) · 16 texts out / <b>0 replies</b><br>⚖️ <b>CONNECTED ×3 — up to 11 min; triaged; no-showed</b></div>
 <div class="row">🏷 —</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/wIxJeo4piIN0qghQiY2m" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="noshow" data-p="direct" data-t="n" style="border-left-color:#dc2626">
-<summary><b>Tessa Ndille</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="tessa-ndille" data-o="noshow" data-p="direct" data-t="n" style="border-left-color:#dc2626">
+<summary><b>Tessa Ndille</b> <span class="b" style="background:#dc26261a;color:#dc2626">❌ NO-SHOW</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/23</b> · booked 1 min after opt-in → slot 8/24</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b bnone">no triage evidence</span></div>
+<div class="row">📅 Opted in <b>8/23</b> · direct to booking — 1 min → slot 8/24</div>
+<div class="row"><span class="b bnone">no triage recorded</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 7 call attempts · <b>0 connected</b> (longest 39s) · 13 texts out / <b>0 replies</b><br>⚖️ <b>UNRESPONSIVE — 7 dials, no pickup</b></div>
 <div class="row">🏷 —</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/SoJGlleiyOTlQFwfH4Jk" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="cancelled" data-p="direct" data-t="y" style="border-left-color:#d97706">
-<summary><b>Pedro Perez Grizzle</b> <span class="b" style="background:#d977061a;color:#d97706">🚫 CANCELLED</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="pedro-perez-grizzle" data-o="cancelled" data-p="direct" data-t="y" style="border-left-color:#d97706">
+<summary><b>Pedro Perez Grizzle</b> <span class="b" style="background:#d977061a;color:#d97706">🚫 CANCELLED</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/15</b> · booked 1 min after opt-in → slot 8/18 CANCELLED</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b btri">🎯 Alan-attested triage</span></div>
+<div class="row">📅 Opted in <b>8/15</b> · direct to booking — 1 min → slot 8/18 CANCELLED</div>
+<div class="row"><span class="b btri">🎯 Alan-attested triage</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 7 call attempts · <b>2 connected</b> (longest 11m03s) · 15 texts out / <b>1 replies</b><br>⚖️ <b>CONNECTED — real 11-min call before slot; then cancelled</b></div>
 <div class="row">🏷 —</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/5IxjeWvQ0aW8onfhZ9xM" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="cancelled" data-p="direct" data-t="n" style="border-left-color:#d97706">
-<summary><b>George Truesdale</b> <span class="b" style="background:#d977061a;color:#d97706">🚫 CANCELLED</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="george-truesdale" data-o="cancelled" data-p="direct" data-t="n" style="border-left-color:#d97706">
+<summary><b>George Truesdale</b> <span class="b" style="background:#d977061a;color:#d97706">🚫 CANCELLED</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/16</b> · booked 2 min after opt-in → slot 8/17 CANCELLED</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b bnone">no triage evidence</span></div>
-<div class="row">🏷 tags: 'hung up'</div>
+<div class="row">📅 Opted in <b>8/16</b> · direct to booking — 2 min → slot 8/17 CANCELLED</div>
+<div class="row"><span class="b bnone">no triage recorded</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 10 call attempts · <b>0 connected</b> (longest 49s) · 15 texts out / <b>0 replies</b><br>⚖️ <b>HUNG UP (tag) — 10 dials, no pickup ≥60s</b></div>
+<div class="row">🏷 tagged '2 - hung up'</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/8JvItcgAZPOFGsFVbbA2" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="unresolved" data-p="direct" data-t="y" style="border-left-color:#7c3aed">
-<summary><b>Robert Morawitz</b> <span class="b" style="background:#7c3aed1a;color:#7c3aed">❓ UNRESOLVED</span> <span class="b bpath">⚡ direct-to-book</span></summary>
+</div></details><details class="card" id="robert-morawitz" data-o="unresolved" data-p="direct" data-t="y" style="border-left-color:#7c3aed">
+<summary><b>Robert Morawitz</b> <span class="b" style="background:#7c3aed1a;color:#7c3aed">❓ UNRESOLVED</span> <span class="b bpath">⚡ Direct to Booking</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/23</b> · booked 6 min after opt-in → slot 8/27 — outcome never recorded; 3 empty GHL dupes</div>
-<div class="row">⚡ direct-to-book (booked within minutes of opt-in)</div>
-<div class="row"><span class="b btri">🎯 Lynn's GHL 'triaged' tag</span></div>
+<div class="row">📅 Opted in <b>8/23</b> · direct to booking — 6 min → slot 8/27 — outcome never recorded; 3 empty GHL dupes</div>
+<div class="row"><span class="b btri">🎯 Lynn's 'triaged' tag [V]</span></div><div class="row">📞 <b>Outreach:</b> speed to lead ≤1 min ✓ · 14 call attempts · <b>8 connected</b> (longest 61m54s) · 39 texts out / <b>7 replies</b><br>⚖️ <b>CONNECTED ×8 — up to 62 min; triaged; outcome unrecorded</b></div>
 <div class="row">🏷 —</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/Ek6fa6SLTvUfIlCNhsGk" target="_blank">GHL record (real) ↗</a></div>
-</div></details><details class="card" data-o="optin" data-p="never" data-t="n" style="border-left-color:#64748b">
-<summary><b>Fernando De Pieri</b> <span class="b" style="background:#64748b1a;color:#64748b">📥 NEVER BOOKED</span> <span class="b bpath">opt-in only</span></summary>
+</div></details><details class="card" id="fernando-de-pieri" data-o="optin" data-p="never" data-t="n" style="border-left-color:#64748b">
+<summary><b>Fernando De Pieri</b> <span class="b" style="background:#64748b1a;color:#64748b">📥 NEVER BOOKED</span> <span class="b bpath">Opt-in only</span></summary>
 <div class="body">
 <div class="row">📅 Opted in <b>8/27</b> · never booked — 9 msgs, last 8/28, no reply</div>
-<div class="row">opt-in only</div>
-<div class="row"><span class="b bnone">no triage evidence</span></div>
+<div class="row"><span class="b bnone">no triage recorded</span></div>
 <div class="row">🏷 reheat Tier-1</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/jypnYW0kj5700hD8azMk" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="optin" data-p="never" data-t="n" style="border-left-color:#64748b">
-<summary><b>Javaris Johnson</b> <span class="b" style="background:#64748b1a;color:#64748b">📥 NEVER BOOKED</span> <span class="b bpath">opt-in only</span></summary>
+</div></details><details class="card" id="javaris-johnson" data-o="optin" data-p="never" data-t="n" style="border-left-color:#64748b">
+<summary><b>Javaris Johnson</b> <span class="b" style="background:#64748b1a;color:#64748b">📥 NEVER BOOKED</span> <span class="b bpath">Opt-in only</span></summary>
 <div class="body">
 <div class="row">📅 Opted in <b>8/20</b> · never booked — 21 msgs, last 8/27, no reply</div>
-<div class="row">opt-in only</div>
-<div class="row"><span class="b bnone">no triage evidence</span></div>
+<div class="row"><span class="b bnone">no triage recorded</span></div>
 <div class="row">🏷 reheat</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/1LpdOmQr5SLXuS3blGHs" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="optin" data-p="never" data-t="n" style="border-left-color:#64748b">
-<summary><b>Noel Rivera</b> <span class="b" style="background:#64748b1a;color:#64748b">📥 NEVER BOOKED</span> <span class="b bpath">opt-in only</span></summary>
+</div></details><details class="card" id="noel-rivera" data-o="optin" data-p="never" data-t="n" style="border-left-color:#64748b">
+<summary><b>Noel Rivera</b> <span class="b" style="background:#64748b1a;color:#64748b">📥 NEVER BOOKED</span> <span class="b bpath">Opt-in only</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/15</b> · never booked — 11 msgs, last 8/26; 'hung up' tag</div>
-<div class="row">opt-in only</div>
-<div class="row"><span class="b bnone">no triage evidence</span></div>
+<div class="row">📅 Opted in <b>8/15</b> · never booked — 11 msgs, last 8/26; tagged 'hung up'</div>
+<div class="row"><span class="b bnone">no triage recorded</span></div>
 <div class="row">🏷 reheat</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/Rxrtsgt3VREGPivwS6RE" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="optin" data-p="never" data-t="n" style="border-left-color:#64748b">
-<summary><b>John Mazzocchi</b> <span class="b" style="background:#64748b1a;color:#64748b">📥 NEVER BOOKED</span> <span class="b bpath">opt-in only</span></summary>
+</div></details><details class="card" id="john-mazzocchi" data-o="optin" data-p="never" data-t="n" style="border-left-color:#64748b">
+<summary><b>John Mazzocchi</b> <span class="b" style="background:#64748b1a;color:#64748b">📥 NEVER BOOKED</span> <span class="b bpath">Opt-in only</span></summary>
 <div class="body">
 <div class="row">📅 Opted in <b>8/14</b> · never booked — 20 msgs, last 8/26, no reply</div>
-<div class="row">opt-in only</div>
-<div class="row"><span class="b bnone">no triage evidence</span></div>
+<div class="row"><span class="b bnone">no triage recorded</span></div>
 <div class="row">🏷 reheat</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/yWBoytMEygPZXSyvplHl" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="optin" data-p="never" data-t="n" style="border-left-color:#64748b">
-<summary><b>HERMAN ROGERS</b> <span class="b" style="background:#64748b1a;color:#64748b">📥 NEVER BOOKED</span> <span class="b bpath">opt-in only</span></summary>
+</div></details><details class="card" id="herman-rogers" data-o="optin" data-p="never" data-t="n" style="border-left-color:#64748b">
+<summary><b>HERMAN ROGERS</b> <span class="b" style="background:#64748b1a;color:#64748b">📥 NEVER BOOKED</span> <span class="b bpath">Opt-in only</span></summary>
 <div class="body">
 <div class="row">📅 Opted in <b>8/13</b> · never booked — 20 msgs, last 8/27, no reply</div>
-<div class="row">opt-in only</div>
-<div class="row"><span class="b bnone">no triage evidence</span></div>
+<div class="row"><span class="b bnone">no triage recorded</span></div>
 <div class="row">🏷 reheat</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/RYHu2KExLZOScp0ori3t" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="optin" data-p="never" data-t="n" style="border-left-color:#64748b">
-<summary><b>Natalia Rumbuc</b> <span class="b" style="background:#64748b1a;color:#64748b">📥 NEVER BOOKED</span> <span class="b bpath">opt-in only</span></summary>
+</div></details><details class="card" id="natalia-rumbuc" data-o="optin" data-p="never" data-t="n" style="border-left-color:#64748b">
+<summary><b>Natalia Rumbuc</b> <span class="b" style="background:#64748b1a;color:#64748b">📥 NEVER BOOKED</span> <span class="b bpath">Opt-in only</span></summary>
 <div class="body">
 <div class="row">📅 Opted in <b>8/09</b> · never booked — 22 msgs, last 8/27, no reply</div>
-<div class="row">opt-in only</div>
-<div class="row"><span class="b bnone">no triage evidence</span></div>
+<div class="row"><span class="b bnone">no triage recorded</span></div>
 <div class="row">🏷 reheat</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/XWpYlTI8Ar1QnwizNVuA" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="optin" data-p="never" data-t="n" style="border-left-color:#64748b">
-<summary><b>Marko Sakren</b> <span class="b" style="background:#64748b1a;color:#64748b">📥 NEVER BOOKED</span> <span class="b bpath">opt-in only</span></summary>
+</div></details><details class="card" id="marko-sakren" data-o="optin" data-p="never" data-t="n" style="border-left-color:#64748b">
+<summary><b>Marko Sakren</b> <span class="b" style="background:#64748b1a;color:#64748b">📥 NEVER BOOKED</span> <span class="b bpath">Opt-in only</span></summary>
 <div class="body">
 <div class="row">📅 Opted in <b>7/30</b> · never booked — 6 msgs, last 8/18, no reply</div>
-<div class="row">opt-in only</div>
-<div class="row"><span class="b bnone">no triage evidence</span></div>
+<div class="row"><span class="b bnone">no triage recorded</span></div>
 <div class="row">🏷 reheat</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/zPHKP5SyzqpnJxn5gCz9" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="optin" data-p="never" data-t="n" style="border-left-color:#64748b">
-<summary><b>LeRoy McCall</b> <span class="b" style="background:#64748b1a;color:#64748b">📥 NEVER BOOKED</span> <span class="b bpath">opt-in only</span></summary>
+</div></details><details class="card" id="leroy-mccall" data-o="optin" data-p="never" data-t="n" style="border-left-color:#64748b">
+<summary><b>LeRoy McCall</b> <span class="b" style="background:#64748b1a;color:#64748b">📥 NEVER BOOKED</span> <span class="b bpath">Opt-in only</span></summary>
 <div class="body">
 <div class="row">📅 Opted in <b>7/29</b> · never booked — 15 msgs out / 1 reply, last 8/18</div>
-<div class="row">opt-in only</div>
-<div class="row"><span class="b bnone">no triage evidence</span></div>
+<div class="row"><span class="b bnone">no triage recorded</span></div>
 <div class="row">🏷 reheat</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/9kRWME9TdBvPTZiixBiX" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="optin" data-p="never" data-t="n" style="border-left-color:#64748b">
-<summary><b>Njjnn Of</b> <span class="b" style="background:#64748b1a;color:#64748b">📥 NEVER BOOKED</span> <span class="b bpath">opt-in only</span></summary>
+</div></details><details class="card" id="njjnn-of" data-o="optin" data-p="never" data-t="n" style="border-left-color:#64748b">
+<summary><b>Njjnn Of</b> <span class="b" style="background:#64748b1a;color:#64748b">📥 NEVER BOOKED</span> <span class="b bpath">Opt-in only</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>8/17</b> · never booked — junk-name capture, likely not a real person</div>
-<div class="row">opt-in only</div>
-<div class="row"><span class="b bnone">no triage evidence</span></div>
+<div class="row">📅 Opted in <b>8/17</b> · never booked — junk-name capture, likely not real</div>
+<div class="row"><span class="b bnone">no triage recorded</span></div>
 <div class="row">🏷 —</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/dI21IaM4rp5cDTR8VK3T" target="_blank">GHL record ↗</a></div>
-</div></details><details class="card" data-o="showed" data-p="referral" data-t="n" style="border-left-color:#16a34a">
-<summary><b>Chris Mclean</b> <span class="b" style="background:#16a34a1a;color:#16a34a">✅ SHOWED</span> <span class="b bpath">➕ referral</span></summary>
+</div></details><details class="card" id="chris-mclean" data-o="showed" data-p="referral" data-t="n" style="border-left-color:#16a34a">
+<summary><b>Chris Mclean</b> <span class="b" style="background:#16a34a1a;color:#16a34a">✅ SHOWED</span> <span class="b bpath">➕ Referral</span></summary>
 <div class="body">
-<div class="row">📅 Opted in <b>7/30</b> · Matthew referral (NOT an ad lead — excluded from funnel math) → showed 8/26</div>
-<div class="row">➕ referral (outside funnel)</div>
-<div class="row"><span class="b bnone">no triage evidence</span></div>
+<div class="row">📅 Opted in <b>7/30</b> · Matthew referral — NOT an ad lead, outside the funnel → showed 8/26</div>
+<div class="row"><span class="b bnone">no triage recorded</span></div>
 <div class="row">🏷 🟡 Downsell — late payments, collections</div>
 <div class="row links">🔗 <a href="https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/paixz1K5D8j4RuZNbWxO" target="_blank">GHL record ↗</a> <a href="https://fathom.video/calls/798638035" target="_blank">Recording 8/26 ↗</a></div>
 </div></details>
-<div class="note">⚖️ Triage definition note (Alan 8/31): a TRUE triage = live phone conversation, all questions asked, booking secured &amp; confirmed. Nobody recorded that end-to-end in this window — "triaged/worked" here = Lynn's GHL tag and/or Alan's attestation. Sep 1 forward: Setter Verdict + Triage Date fields capture it properly.</div>
+<div class="note">⚖️ <b>Definitions (APW language):</b> speed to lead = instant automatic first touch · connected = answered call ≥60s (raw call logs) · triaged = live conversation with Lynn (tag [V] and/or Alan-attested) · unresponsive = repeated dials/texts, no engagement. Alan's TRUE-triage bar (live convo + all questions + confirmed booking) was documented ZERO times this window — Sep 1 fields fix that. Raw proof: <a style="color:var(--ac)" target="_blank" href="https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/archive/ghl/2026-08-30/contacts_2026-08-30.csv">contacts</a> · <a style="color:var(--ac)" target="_blank" href="https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/archive/ghl/2026-08-30/appointments_2026-08-30.csv">appointments</a> · <a style="color:var(--ac)" target="_blank" href="https://github.com/Awake999/awake/tree/claude/new-session-1ofk4w/ops/archive/ghl/2026-08-30/raw">messages/calls raw</a> · <a style="color:var(--ac)" target="_blank" href="https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/KAI_VERIFICATION_LINKS_2026-08-31.md">per-person verification file</a></div>
 <script>
 document.querySelectorAll('.filters button').forEach(b=>b.onclick=()=>{
  document.querySelectorAll('.filters button').forEach(x=>x.classList.remove('on'));b.classList.add('on');
  const f=b.dataset.f;document.querySelectorAll('.card').forEach(c=>{
   if(f==='all'){c.hidden=false;return}
-  const[k,v]=f.split(':');c.hidden=c.dataset[k==='o'?'o':k==='p'?'p':'t']!==v;
+  const[k,v]=f.split(':');c.hidden=c.dataset[k]!==v;
  });
 });
+document.querySelectorAll('.chip').forEach(a=>a.onclick=()=>{const el=document.getElementById(a.getAttribute('href').slice(1));if(el)el.open=true;});
 </script>
