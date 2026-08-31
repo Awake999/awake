@@ -10,7 +10,7 @@
 - [July 2026](#july-2026) — 91 meetings
 - [June 2026](#june-2026) — 10 meetings
 
-**Archive status:** 28 archived ✅ · 1 verified no-transcript · 208 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+**Archive status:** 28 archived ✅ · 1 verified no-transcript · 205 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
 
 
 ## August 2026
