@@ -179,3 +179,11 @@ FACT-CHECK RESULTS (all evidence-run this session): (1) **Direct bookings = 2 IS
 - Messages 11–13 stored verbatim in ops/prompts/2026-08-31-data-correction-demands.md.
 - truth-agent: claim-word sweep whole-surface → 6 corrected, 2 verified-kept · window sweep →
   1 caught (Money tab) · re-run clean. never-miss: 3 prompts parsed to 8 atomic asks · 8 mapped.
+
+## 8/31 — v8.7.1 Karl status + triage priority (Alan button answers, Message 14)
+- Karl: Alan confirmed "No word from him yet" → all 3 Karl sites now show "no word as of
+  8/31 (Alan-attested)"; decision was due at the 8/26 exec meeting, silence visible.
+- Triage inputs: Alan answered "all" → change order gains the ⚡ ALAN-CONFIRMED PRIORITY
+  block (Lane 4 audio pull ×50 · Lane 1 script storage · Alan may dictate the 5 questions —
+  slot open, not yet dictated). Message 14 stored verbatim.
+- Headless re-verify: Karl PROPOSED wording + transcript quote live · 282/64 stable · 0 JS errors.

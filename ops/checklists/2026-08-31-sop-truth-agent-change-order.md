@@ -132,6 +132,17 @@ When Alan flags an error **class** (or any severity-1 recurs), the lane MUST, be
 | 6 | Publish to wrong URL (frozen ba359183) | canonical url param on every publish | clean since 8/31 |
 | 7 | Merge regressions (83-vs-104) | fingerprint tokens checked pre-publish | clean since 8/31 |
 
+## ⚡ ALAN-CONFIRMED PRIORITY (8/31 buttons: "all") — the two triage-system inputs
+1. **Lane 4:** pull call audio for the 50 ≥2-min-call contacts (46 booked first) via the authed
+   GHL recordings API and transcribe into `ops/archive/ghl/recordings/` — message ids in
+   [`ops/data/triage/TRIAGE_CALL_LEDGER_2026-08-31.csv`](../data/triage/TRIAGE_CALL_LEDGER_2026-08-31.csv).
+2. **Lane 1:** store the written 5-question triage script in the repo (one page). It is not in
+   any store we hold — per the 8/28 funnel-rebuild call it lives partly in a doc column and
+   partly in Lynn's head. Alan also offered to dictate the questions directly; whichever lands
+   first becomes the scoring standard.
+Once both land, Lane 2 scores every transcript against the script and fills receipted
+verdicts (each of the 5 questions asked? extra triage? booked on/after the call?).
+
 ## Lane 2 implementation (already live, 8/31)
 - Pre-publish step added to the dashboard lane's ritual: person-claim grep (agreed/committed/
   said/promised/1-on-1/mandatory) → receipt check → PROPOSED labels where unreceipted;

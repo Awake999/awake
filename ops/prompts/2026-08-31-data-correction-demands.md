@@ -82,3 +82,9 @@ Default to the GHL book, but then also will actually default to the preset field
 and again, you ignore my whole thing about fake stuff, like Carl saying it's agreed versus unsigned or whatever it is. He never agreed. He said he's going to look at it and talk to his partner about it. We cannot be fabricating stuff.
 
 Please implement an agent to resolve this problem: why it was a problem, why this was done the way that it was. Create the effective solution, run the solution plan, test it, and if it works, put it in the SOP. This should not become a problem. I've had a talk about it multiple times with you. Fix all repeated errors that we keep repeating.
+
+## Message 14 (button answers, 8/31)
+
+Q: "The triage transcript system is blocked on two physical inputs. Which do you want moving first?" — A: **all** (Lane 4 pulls the 50 call audios · Lane 1/Alan supply the 5-question script · Alan may dictate the questions directly — not yet dictated).
+
+Q: "Karl now shows PROPOSED, not agreed — what's the true current state?" — A: **"No word from him yet"** (board now shows: no word as of 8/31, Alan-attested).
