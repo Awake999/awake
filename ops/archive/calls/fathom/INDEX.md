@@ -10,7 +10,7 @@
 - [July 2026](#july-2026) — 91 meetings
 - [June 2026](#june-2026) — 10 meetings
 
-**Archive status:** 25 archived ✅ · 1 verified no-transcript · 208 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+**Archive status:** 28 archived ✅ · 1 verified no-transcript · 208 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
 
 
 ## August 2026
@@ -28,10 +28,10 @@
 | 2026-08-27 | [Impromptu Zoom Meeting — Michael Moore post-mortem + August review](https://fathom.video/calls/801909953) | ✅ [transcript](2026-08-27--michael-moore-postmortem-august-review--177669876/transcript.md) · [summary](2026-08-27--michael-moore-postmortem-august-review--177669876/summary.md) · [meta](2026-08-27--michael-moore-postmortem-august-review--177669876/meta.md) · raw ✓ |
 | 2026-08-27 | [Impromptu Zoom Meeting ★ 4-day dispute doctrine](https://fathom.video/calls/801867207) | ✅ [transcript](2026-08-27--four-day-dispute-doctrine--177662775/transcript.md) · [summary](2026-08-27--four-day-dispute-doctrine--177662775/summary.md) · [meta](2026-08-27--four-day-dispute-doctrine--177662775/meta.md) |
 | 2026-08-27 | [Robert Morawitz - Guaranteed Funding ★ Qualification standard origins](https://fathom.video/calls/798787726) | ✅ [transcript](2026-08-27--robert-morawitz-qualification-origins--177627271/transcript.md) · [summary](2026-08-27--robert-morawitz-qualification-origins--177627271/summary.md) · [meta](2026-08-27--robert-morawitz-qualification-origins--177627271/meta.md) · raw ✓ |
-| 2026-08-27 | [Impromptu Zoom Meeting](https://fathom.video/calls/801601613) <sub>rec 177571208</sub> | not yet — click title to watch on Fathom |
+| 2026-08-27 | [Team Sync — Accountability, Dispute Escalation, Sales Objections](https://fathom.video/calls/801601613) | ✅ [transcript](2026-08-27--team-sync-accountability-dispute-escalation--177571208/transcript.md) · [summary](2026-08-27--team-sync-accountability-dispute-escalation--177571208/summary.md) · raw ✓ |
 | 2026-08-27 | [Yeshaya Dank - $1M-$1.5M Dank SPV Funding](https://fathom.video/calls/799338949) | ✅ [transcript](2026-08-27--yeshaya-dank-spv-funding--177510654/transcript.md) · [summary](2026-08-27--yeshaya-dank-spv-funding--177510654/summary.md) · [meta](2026-08-27--yeshaya-dank-spv-funding--177510654/meta.md) · raw ✓ |
-| 2026-08-27 | [Impromptu Zoom Meeting](https://fathom.video/calls/801291099) <sub>rec 177414987</sub> | not yet — click title to watch on Fathom |
-| 2026-08-27 | [Impromptu Zoom Meeting](https://fathom.video/calls/800497411) <sub>rec 177244544</sub> | not yet — click title to watch on Fathom |
+| 2026-08-27 | [Daily Ops — Meeting Cadence, Trello Control Center, Lynn's Role](https://fathom.video/calls/801291099) | ✅ [transcript](2026-08-27--daily-ops-meeting-cadence-trello-lynn-role--177414987/transcript.md) · [summary](2026-08-27--daily-ops-meeting-cadence-trello-lynn-role--177414987/summary.md) · raw ✓ |
+| 2026-08-27 | [Alan ↔ Anne 1:1 — EODR Timestamps, Todd/Ed/Matt Disputes](https://fathom.video/calls/800497411) | ✅ [transcript](2026-08-27--alan-anne-1on1-eodr-timestamps-todd-ed-matt--177244544/transcript.md) · [summary](2026-08-27--alan-anne-1on1-eodr-timestamps-todd-ed-matt--177244544/summary.md) · raw ✓ |
 | 2026-08-27 | [Chris Mclean - Guaranteed Funding](https://fathom.video/calls/798638035) | ✅ [transcript](2026-08-27--chris-mclean-guaranteed-funding--177237489/transcript.md) · [summary](2026-08-27--chris-mclean-guaranteed-funding--177237489/summary.md) · [meta](2026-08-27--chris-mclean-guaranteed-funding--177237489/meta.md) · raw ✓ |
 | 2026-08-26 | [Impromptu Zoom Meeting](https://fathom.video/calls/800411730) <sub>rec 177232030</sub> | not yet — click title to watch on Fathom |
 | 2026-08-26 | [Todd LoGuidice - Funding Execution](https://fathom.video/calls/800283407) | ✅ [transcript](2026-08-26--todd-loguidice-funding-execution--177223749/transcript.md) · [summary](2026-08-26--todd-loguidice-funding-execution--177223749/summary.md) · [meta](2026-08-26--todd-loguidice-funding-execution--177223749/meta.md) · raw ✓ |

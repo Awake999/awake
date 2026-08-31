@@ -149,3 +149,19 @@ Workspace file search does NOT cover Slack Connect channels. Manual sweep of bot
 1. Read Lane 1 in full: SOP v1.2, REGISTER through item 92 (incl. miss log, grades, LANE-SYNC notices, gap ledger), root CLAUDE.md auto-brief, INDEX.md.
 2. Reframed `ops/archive/for-lane-1/SOP-navigation-amendment.md`: "drop-in amendment / please fold in" → "reference at Lane 1's discretion"; standing rule quoted at top; all sections now draft-text-if-Lane-1-wants; register section now a Lane 3 status report per SOP §3; removed my wrong §1.9 cross-reference.
 3. Same reframing in `SOP-formatting.md` v1.2 (scope clause + scope notes).
+
+---
+
+## Batch (2026-08-31): Fathom backlog — three 8/27 calls archived (28/234 done)
+
+Alan: "ok continue with operations" — resumed the Fathom queue per the standing resume point.
+
+| Call | Folder | What it holds |
+|---|---|---|
+| [801601613](https://fathom.video/calls/801601613) | 2026-08-27--team-sync-accountability-dispute-escalation--177571208 | Team sync: Trello Accountability Board, daily-sync pep-rally format, TU Special-Handlings escalation path (5 steps), sales objection framework (origin story / magic wand), Leo + Lee McEachin lead plays. 106KB transcript, chaptered. |
+| [801291099](https://fathom.video/calls/801291099) | 2026-08-27--daily-ops-meeting-cadence-trello-lynn-role--177414987 | Daily Ops: new meeting cadence (7:00 sync / 7:30 ops / 8:15 dispute / 9:00 office hours PST), Admin Operations Control Center Trello as source of truth, Lynn's expanded role + IG DM campaign (ManyChat/Mochi research), process-change protocol. 143KB transcript, chaptered. |
+| [800497411](https://fathom.video/calls/800497411) | 2026-08-27--alan-anne-1on1-eodr-timestamps-todd-ed-matt--177244544 | Alan↔Anne 1:1: Teramind offline-gap resolved (restart, not reopened), new timestamped-EODR standard, Todd freezes/alerts verified, Ed expedite + personal-info removals, Matt re-file with Aug-11 documentation. 21-min transcript, chaptered. |
+
+Each: transcript.md (chaptered, TOC) + transcript-raw.txt + summary.md (Fathom AI summary verbatim, deep-linked) + breadcrumbs; INDEX rows flipped to ✅ both-ways links. Ritual run: format_transcripts.py + add_breadcrumbs.py (6 files).
+
+**Resume point:** Fathom next: 8/26 — 177232030, 177129989, 176817729, 176815084, 176797747. Then Krisp Pedro triage. DM exports, thread pass, people pages still queued.
