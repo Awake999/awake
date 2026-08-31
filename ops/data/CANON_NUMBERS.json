@@ -74,5 +74,17 @@
  "recordings": {
   "call_recordings_found": 0,
   "evidence": "ops/archive/ghl/2026-08-30/recordings_2026-08-30.csv (links only, auth required)"
+ },
+ "revenue_periods_ALAN_RULING_8_31": {
+  "ruling_verbatim": "August revenue should not have ed's money in there from july. jills stuff too. missing information. missing matthews payment also. Separate august from Q3 starting july",
+  "structure": {
+   "august_2026": "ONLY cash landed Aug 1-31 - Ed C. $2,000 (paid 7/1) is JULY; Jill's 7/23 won deal is JULY; never blend",
+   "q3_2026_to_date": "July 1 - present: Ed $2,000 (7/1) + Jill (won 7/23, installments per Whop) + MATTHEW L. PAYMENT (owner-confirmed to exist; amount/date UNKNOWN pending Whop) + anything else in Whop"
+  },
+  "missing_evidence": [
+   "Matthew L. payment: amount+date from Whop/bank (GHL payments empty - unverifiable locally)",
+   "Jill installments actually collected vs the $15,000 plan - Whop"
+  ],
+  "status": "BLOCKED on Whop access (register #65b / Lane 4 Task 8)"
  }
 }
