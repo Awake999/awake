@@ -59,3 +59,6 @@
 
 ## A6 — GHL BUILD ORDER (Alan 8/31: "execute that GHL part that needs to be built")
 Run [ops/data/CALL_OUTCOME_BUILD_SOP.md](../data/CALL_OUTCOME_BUILD_SOP.md) end-to-end in the GHL UI (location Prismatic): Step 0 Slack webhook (Alan, 3 min) → Steps 1-3 outcome ping loop (~35 min) → Step 4 test → **Step 6 `Cancel → notify Alan` (register #115, ~10 min)**. This is an Alan-approved write (his 8/31 order); everything reversible (delete the workflows). Report each published workflow name back into the process log + LANE-SYNC.
+
+## A7 — IG LEADS → SLACK (Alan 8/31, register #123) — browser task, run alongside A6
+Channel **#ig-leads** is already created (`C0BTTRX09UM`). Run [ops/data/MANYCHAT_IG_LEADS_SLACK_SOP.md](../data/MANYCHAT_IG_LEADS_SLACK_SOP.md) in the ManyChat tab Alan has open: Step 0 Slack webhook (Alan, 3 min) → Steps 1-3 External Request action on the live IG capture flow → Step 4 test DM → confirm the card lands in #ig-leads. Webhook URL is a SECRET: ManyChat + Alan's local file only, never the repo. If External Request is unavailable (Free plan), report which fallback in Step 5 applies — do not improvise a paid signup.
