@@ -1,0 +1,234 @@
+DM channel D0BMPBLHXSA (Alan Nguyen U0ADC1UNXAQ ↔ Lynn U0BMPBL29UN). Captured 2026-08-31 via Slack MCP slack_read_channel, page 5 of N, newest-first, verbatim as returned. Covers 2026-08-14 14:08:11 PDT → 2026-08-17 15:04:30 PDT. Next-page cursor: bmV4dF90czoxNzg2NzQxNjc5MjQxMDM5
+
+Lynn <neves.lynn7@gmail.com>: not sure what to do about TU as its saying its suspended [2026-08-17 15:04:30 PDT]
+
+Lynn <neves.lynn7@gmail.com>: and missing credit karma [2026-08-17 15:04:18 PDT]
+
+Lynn <neves.lynn7@gmail.com>: missing TU [2026-08-17 15:04:11 PDT]
+
+Lynn <neves.lynn7@gmail.com>:  [2026-08-17 15:04:07 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Should've only took like 5-10 mins right? [2026-08-17 15:03:47 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: What were you able to get from the list? [2026-08-17 15:03:37 PDT]
+
+Lynn <neves.lynn7@gmail.com>: and todd has to go right now [2026-08-17 15:02:54 PDT]
+
+Lynn <neves.lynn7@gmail.com>: it said his account is temp suspended [2026-08-17 15:02:49 PDT]
+
+Lynn <neves.lynn7@gmail.com>: but when anne tried [2026-08-17 15:02:42 PDT]
+
+Lynn <neves.lynn7@gmail.com>: Todd just logged into his TU [2026-08-17 15:02:39 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Todd called  [2026-08-17 14:44:10 PDT]
+
+Lynn <neves.lynn7@gmail.com>: just lmk when you can verify: use passkey or tap yes on phone ot tablet [2026-08-17 14:12:50 PDT]
+
+Lynn <neves.lynn7@gmail.com>: I'm trying to google login to claude since it signed me out [2026-08-17 14:12:19 PDT]
+
+Lynn <neves.lynn7@gmail.com>: about FTC report [2026-08-17 13:54:36 PDT]
+
+Lynn <neves.lynn7@gmail.com>: Anne has a nuanced question idk how to answer [2026-08-17 13:54:26 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Todd checklist
+• notarized pdf signed and sent back (online $20-$25 typically 5 mins quick virtual session via the website and PDF sent in email already)
+• Create text verified and Gmail
+• Transunion and Equifax 2FA - change his emails
+• Experian 2FA code + security question answer
+•  CreditKarma 2FA code + security question answer [2026-08-17 12:18:45 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: I tried huddling you [2026-08-17 11:53:08 PDT]
+
+Slackbot: A huddle started [2026-08-17 11:52:51 PDT]
+
+Lynn <neves.lynn7@gmail.com>: im supposed to have a call with todd in like 30 mins so [2026-08-17 11:52:49 PDT]
+
+Lynn <neves.lynn7@gmail.com>: okay there's nuances to the process that I am not fully sure about.
+so... might take a minute for me to make sure the information is right [2026-08-17 11:52:37 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Or actually the whole thing why not [2026-08-17 11:51:43 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: I would prompt it with that first paragraph  [2026-08-17 11:51:31 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: And then can you upload and ask to make sure
+1)  there are no typos or mistakes, and
+2) that each bureau file has the EXACT report number on that letter with the specific bureau report
+3) as well as the exact bureau specific account number?
+
+Because 2 & 3  change per bureau
+
+Uploaded files should be
+• Transunion credit report
+• Experian DISPUTE CENTER credit report (not regular consumer report)
+• Equifax screenshots and/or Credit Karma Equifax credit report (with print friendly version) …. This is only for data, account numbers can not be relied on here…. Equifax account numbers must be manually drawn from Equifax dispute portal via screenshots / text…. But luckily Todd's profile is hard inquiries only, which do not require account numbers .. only exact dates specified from the Equifax official dispute center login
+• Each 605b v2/B dispute packet (same template as ashwini's) - one for each bureau, 3 total
+
+Output a text checklist in chat to relay what you understand you are supposed to do, and then review post output additionally to assure what has, and has not been addressed / completed
+
++ any final adjustments or insights  [2026-08-17 11:49:10 PDT]
+
+Lynn <neves.lynn7@gmail.com>: ok [2026-08-17 11:44:03 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: You have my Claude, so she can send to you the original report and her ready to send uploads  [2026-08-17 11:43:57 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Upload the files and ask to confirm everything is correct [2026-08-17 11:43:37 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Yeah Claude ^ [2026-08-17 11:43:22 PDT]
+
+Lynn <neves.lynn7@gmail.com>: I see [2026-08-17 11:43:20 PDT]
+
+Lynn <neves.lynn7@gmail.com>: but idk i know you're busy [2026-08-17 11:43:16 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: I think we might need to reschedule michael Moore, I think he accidentally booked [2026-08-17 11:43:15 PDT]
+
+Lynn <neves.lynn7@gmail.com>: anne was waiting for you to check her work [2026-08-17 11:43:10 PDT]
+
+Lynn <neves.lynn7@gmail.com>: wait [2026-08-17 11:43:04 PDT]
+
+Lynn <neves.lynn7@gmail.com>: well [2026-08-17 11:43:03 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Okay awesome [2026-08-17 11:43:01 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Before I lock back in? Trying to laser focus Carla for sales calls [2026-08-17 11:42:57 PDT]
+
+Lynn <neves.lynn7@gmail.com>: not as of right now [2026-08-17 11:42:55 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Anything else? [2026-08-17 11:42:44 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: ! [2026-08-17 11:42:37 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: ! [2026-08-17 11:42:35 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Awesome great job' [2026-08-17 11:42:33 PDT]
+
+Lynn <neves.lynn7@gmail.com>: yes [2026-08-17 11:42:27 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Gmail - new ? Right [2026-08-17 11:42:26 PDT]
+
+Lynn <neves.lynn7@gmail.com>: paperwork for? [2026-08-17 11:42:25 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Personal  [2026-08-17 11:42:20 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: I was referring to paperwork  [2026-08-17 11:42:16 PDT]
+
+Lynn <neves.lynn7@gmail.com>: personal or work [2026-08-17 11:42:16 PDT]
+
+Lynn <neves.lynn7@gmail.com>: for his email [2026-08-17 11:42:13 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Awesome  [2026-08-17 11:42:11 PDT]
+
+Lynn <neves.lynn7@gmail.com>: just refreshed [2026-08-17 11:42:08 PDT]
+
+Lynn <neves.lynn7@gmail.com>: I fixed it [2026-08-17 11:42:05 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: <@U0BMPBL29UN|Lynn>  [2026-08-17 11:42:04 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Run it through Claude and ask for errors [2026-08-17 11:41:57 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Hmmm
+
+For notes, we will have to temporarily use Google Docs for speed  [2026-08-17 11:41:31 PDT]
+
+Lynn <neves.lynn7@gmail.com>: <@U0ADC1UNXAQ|Alan Nguyen> [2026-08-17 11:31:24 PDT]
+
+Lynn <neves.lynn7@gmail.com>: <@U0ADC1UNXAQ|Alan Nguyen> [2026-08-17 11:31:22 PDT]
+
+Lynn <neves.lynn7@gmail.com>: shes ready to submit, but wants to show you her work [2026-08-17 11:31:20 PDT]
+
+Lynn <neves.lynn7@gmail.com>: <@U0ADC1UNXAQ|Alan Nguyen> Do you want anne to still cross check the information with you [2026-08-17 11:31:11 PDT]
+
+Lynn <neves.lynn7@gmail.com>: well i think i can fix it [2026-08-17 11:21:58 PDT]
+
+Lynn <neves.lynn7@gmail.com>: yeah GHL stuff hasnt been working for me at all [2026-08-17 11:21:18 PDT]
+
+Lynn <neves.lynn7@gmail.com>:  [2026-08-17 11:21:12 PDT]
+
+Lynn <neves.lynn7@gmail.com>: notes arent saving for me on GHL [2026-08-17 11:00:12 PDT]
+
+Lynn <neves.lynn7@gmail.com>: I get the vibe that sometimes they're scared to ask you things cause they know you're kinda cutthroat [2026-08-17 10:19:59 PDT]
+
+Lynn <neves.lynn7@gmail.com>: I told both of them that there are no bad questions, that they shouldn't be afraid to ask questions for clarity even if it sounds repetitive. [2026-08-17 10:18:52 PDT]
+
+Lynn <neves.lynn7@gmail.com>: I told Anne to be resourceful, and that if there's any question that the SOPs and the videos don't have an answer to - to ask grace and you. There could be some nuanced questions that she has [2026-08-17 10:17:51 PDT]
+
+Lynn <neves.lynn7@gmail.com>: we were only able to get into experian, have to wait to get the other 2 logins  [2026-08-17 10:14:28 PDT]
+
+Lynn <neves.lynn7@gmail.com>:  [2026-08-17 10:13:59 PDT]
+
+Lynn <neves.lynn7@gmail.com>: getting logins for anne right now [2026-08-17 09:58:16 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Ok just let me know! [2026-08-17 09:03:19 PDT]
+
+Lynn <neves.lynn7@gmail.com>: Next weekend, I'll be leaving early morning to el paso or las cruces.. or if I can push it, maybe tucson az, sunday would be arriving in palm springs OR i might drive straight to redondo beach sunday just depends on how i feel [2026-08-17 08:52:53 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Glad you're driving safe!
+When are you planning to be near Palm Springs? [2026-08-17 08:51:47 PDT]
+
+Lynn <neves.lynn7@gmail.com>: ready to lead! [2026-08-17 08:50:58 PDT]
+
+Lynn <neves.lynn7@gmail.com>: Good morning, yup. I literally just arrived in Killeen and unpacked my car a moment ago [2026-08-17 08:50:45 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Good morning Lynn :) may you please lead the team meeting today? :)
++ fathom  [2026-08-17 08:49:47 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>:  [2026-08-16 17:10:48 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Grouping* we should look into that [2026-08-15 23:50:53 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Prime examples can't access notion due to signal probably, so I need it work in slack better.
+
+Also I wonder if there's a way to do global settings for the groping   [2026-08-15 23:50:52 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Knowing that slack is now becoming a cluster of too many different things… to the point where I have to actively search to just see team convo + everything else….
+
+
+What would you recommend doing for organization and ease of everyone?
+
+• I know notion is powerful, but it's just too many steps + effort to search notion room for me to get the information … vs just opening my slack - and going to relevant chat, not needing to log in/loan, search etc [2026-08-15 23:19:24 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Amazing! Thank you!! You're great Lynn :) [2026-08-15 23:18:36 PDT]
+
+Lynn <neves.lynn7@gmail.com>: it's pinned alr [2026-08-15 21:53:57 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Hey Lynn, whenever you get the chance, can you pin the link here of the breakout videos, Q&A and video topics? Please and thank you :pray:  [2026-08-15 20:52:36 PDT]
+
+Lynn <neves.lynn7@gmail.com>: i want travel hack  [2026-08-15 18:26:00 PDT]
+
+Lynn <neves.lynn7@gmail.com>: how to travel hack  [2026-08-15 18:25:55 PDT]
+
+Lynn <neves.lynn7@gmail.com>: drinking and walking around :)  [2026-08-15 17:32:32 PDT]
+
+Lynn <neves.lynn7@gmail.com>: i'm in NOLA now  [2026-08-15 17:32:24 PDT]
+
+Lynn <neves.lynn7@gmail.com>: oo i'll take a look when i get the chance [2026-08-15 17:32:15 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Thoughts?
+ [2026-08-15 15:24:01 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: <https://youtu.be/Q_PTqHkVhIQ?is=JbFsxA4Nxh6son7t|https://youtu.be/Q_PTqHkVhIQ?is=JbFsxA4Nxh6son7t>  [2026-08-15 15:23:34 PDT]
+
+Lynn <neves.lynn7@gmail.com>: won't even let me sign back in on my laptop rn, but i'll create it from my phone [2026-08-14 16:47:28 PDT]
+
+Lynn <neves.lynn7@gmail.com>: took me a hot min to get logged back in lmfao [2026-08-14 16:46:10 PDT]
+
+Lynn <neves.lynn7@gmail.com>: Yes [2026-08-14 16:45:53 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: may you please create the SOD  (start of day) channels for both grace and carla? [2026-08-14 16:40:29 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: you are an admin in slack now [2026-08-14 16:39:58 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: good question [2026-08-14 16:39:52 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: B [2026-08-14 16:36:53 PDT]
+
+Lynn <neves.lynn7@gmail.com>: Just to clarify, you said ashwini's template is for version B? [2026-08-14 15:59:01 PDT]
+
+Lynn <neves.lynn7@gmail.com>: Scheduled an appointment with pradeep for monday, was kinda unsure what to specifically ask but he sounded overall confused or like he had forgotten the offer. So I just scheduled time for him and u to talk [2026-08-14 14:28:06 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: ok [2026-08-14 14:08:21 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: could even be a phone call if he's unable to commit [2026-08-14 14:08:20 PDT]
+
+Lynn <neves.lynn7@gmail.com>: gonna text that question since he didnt asnwer [2026-08-14 14:08:18 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: basically just setting him to get on a call with me [2026-08-14 14:08:11 PDT]
