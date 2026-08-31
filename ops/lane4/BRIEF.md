@@ -56,3 +56,6 @@
 > 6. 💰 TASK 8 — WHOP (10 min): dashboard → export ALL payments/orders CSV → ops/archive/whop/ (raw + dated). Generate API key → LOCAL file outside repo, path only. Then check: Ashwini $1,500 (7/28), Pradeep $300 (8/11), Nick $500 (8/26) — report found/not-found each; Lane 1 flips three qualification/stage labels on your evidence.
 > 7. 📞 TASK 9 — CALL-OUTCOME BUILD (45 min, can split to tomorrow if late): follow ops/data/CALL_OUTCOME_BUILD_SOP.md verbatim (Slack webhook → 5 trigger links → 5 workflows → ping workflow → dummy test).
 > After each item: commit+push your process-log. Lane 1 integrates on its next cycle.
+
+## A6 — GHL BUILD ORDER (Alan 8/31: "execute that GHL part that needs to be built")
+Run [ops/data/CALL_OUTCOME_BUILD_SOP.md](../data/CALL_OUTCOME_BUILD_SOP.md) end-to-end in the GHL UI (location Prismatic): Step 0 Slack webhook (Alan, 3 min) → Steps 1-3 outcome ping loop (~35 min) → Step 4 test → **Step 6 `Cancel → notify Alan` (register #115, ~10 min)**. This is an Alan-approved write (his 8/31 order); everything reversible (delete the workflows). Report each published workflow name back into the process log + LANE-SYNC.
