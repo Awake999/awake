@@ -192,3 +192,25 @@ Ran `format_transcripts.py` (175448782 → chaptered, 2 chapters; 175036919 → 
 **Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
 
 **Resume point:** next queued row (top-down, August section) is `rec 175025137` ([Fathom call 791712438](https://fathom.video/calls/791712438), 2026-08-19).
+
+## Batch 9
+
+Resumed via self-scheduled continuation (resume point re-verified against live INDEX.md first — a concurrent Lane 3 batch had landed on Slack Carla-DM export, no overlap with this lane's Fathom scope). Continued top-down — next three queued rows, all dated 2026-08-19:
+
+| Recording | Call | Archived as |
+|---|---|---|
+| rec 175025137 | [Fathom call 791712438](https://fathom.video/calls/791712438) | [2026-08-19--matthew-605b-precision-debugging-v1-v2--175025137](../archive/calls/fathom/2026-08-19--matthew-605b-precision-debugging-v1-v2--175025137/transcript.md) — root-caused Matthew's stalled TransUnion dispute to a single wrong checkbox on the identity-theft affidavit; finalized Version 1 Experian+TransUnion packets |
+| rec 174987192 | [Fathom call 791570447](https://fathom.video/calls/791570447) | [2026-08-19--experian-dispute-center-sop-ftc-priority--174987192](../archive/calls/fathom/2026-08-19--experian-dispute-center-sop-ftc-priority--174987192/transcript.md) — new SOP: always pull the Experian *Dispute Center* report (not the consumer report) for correct account-number formatting; FTC disputes prioritize hard inquiries/negative accounts first |
+| rec 174970047 | [Fathom call 791537886](https://fathom.video/calls/791537886) | [2026-08-19--jacob-rosales-notion-training-funding-board--174970047](../archive/calls/fathom/2026-08-19--jacob-rosales-notion-training-funding-board--174970047/transcript.md) — Jacob Rosales trains Alan/Carla/Lynn on Notion client-portal version history/analytics and the new color-coded "Funding" board |
+
+Raw sourcing: rec 174987192 auto-saved to a local plain-text tool-result file — direct `cp`, confirmed identical via `cmp`. rec 175025137 and rec 174970047 both returned inline — `transcript-raw.txt` written from the exact returned tool text via Write for each.
+
+Ran `format_transcripts.py` (175025137 → chaptered, 8 chapters; 174987192 → chaptered, 11 chapters; 174970047 → chaptered, 2 chapters — no splits) then `add_breadcrumbs.py`.
+
+**Verbatim self-check:** stripped structural additions and diffed against each `transcript-raw.txt` line-for-line — all three matched exactly (175025137: 173/173, 174987192: 480/480, 174970047: 56/56).
+
+**INDEX:** flipped all three rows to ✅ with clickable links + `raw ✓`. Counts: 51→54 archived, 2 no-transcript (unchanged), 181→178 queued. Verified 54+2+178 = 234 and grep-counted rows (54 ✅ / 180 non-✅ = 234) confirm.
+
+**Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
+
+**Resume point:** next queued row (top-down, August section) is `rec 174957467` ([Fathom call 791504315](https://fathom.video/calls/791504315), 2026-08-19).

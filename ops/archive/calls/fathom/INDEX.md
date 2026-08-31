@@ -10,7 +10,7 @@
 - [July 2026](#july-2026) — 91 meetings
 - [June 2026](#june-2026) — 10 meetings
 
-**Archive status:** 51 archived ✅ · 2 verified no-transcript · 181 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+**Archive status:** 54 archived ✅ · 2 verified no-transcript · 178 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
 
 
 ## August 2026
@@ -69,9 +69,9 @@
 | 2026-08-20 | [Team Strategy — Matthew Funding Gamble, Show-Rate Bottleneck, Company Vision ★](https://fathom.video/calls/791883972) | ✅ [transcript](2026-08-20--team-strategy-matthew-funding-company-vision--175052490/transcript.md) · [summary](2026-08-20--team-strategy-matthew-funding-company-vision--175052490/summary.md) · raw ✓ |
 | 2026-08-20 | [Michael Moore - Guaranteed Funding](https://fathom.video/calls/791826979) | ✅ [transcript](2026-08-20--michael-moore-guaranteed-funding--175044393/transcript.md) · raw ✓ |
 | 2026-08-20 | [Edwin Choi Onboarding — EIN Fix, Website Audit, Personal Credit Strategy](https://fathom.video/calls/791773496) | ✅ [transcript](2026-08-20--edwin-choi-onboarding-ein-website-credit--175036919/transcript.md) · [summary](2026-08-20--edwin-choi-onboarding-ein-website-credit--175036919/summary.md) · raw ✓ |
-| 2026-08-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/791712438) <sub>rec 175025137</sub> | not yet — click title to watch on Fathom |
-| 2026-08-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/791570447) <sub>rec 174987192</sub> | not yet — click title to watch on Fathom |
-| 2026-08-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/791537886) <sub>rec 174970047</sub> | not yet — click title to watch on Fathom |
+| 2026-08-19 | [Matthew 605B — Precision Debugging, Version 1 vs 2 Strategy](https://fathom.video/calls/791712438) | ✅ [transcript](2026-08-19--matthew-605b-precision-debugging-v1-v2--175025137/transcript.md) · [summary](2026-08-19--matthew-605b-precision-debugging-v1-v2--175025137/summary.md) · raw ✓ |
+| 2026-08-19 | [Experian Dispute Center SOP, FTC Priority Filtering](https://fathom.video/calls/791570447) | ✅ [transcript](2026-08-19--experian-dispute-center-sop-ftc-priority--174987192/transcript.md) · [summary](2026-08-19--experian-dispute-center-sop-ftc-priority--174987192/summary.md) · raw ✓ |
+| 2026-08-19 | [Jacob Rosales — Notion Client Portal Training, Funding Board Setup](https://fathom.video/calls/791537886) | ✅ [transcript](2026-08-19--jacob-rosales-notion-training-funding-board--174970047/transcript.md) · [summary](2026-08-19--jacob-rosales-notion-training-funding-board--174970047/summary.md) · raw ✓ |
 | 2026-08-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/791504315) <sub>rec 174957467</sub> | not yet — click title to watch on Fathom |
 | 2026-08-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/791440457) <sub>rec 174926566</sub> | not yet — click title to watch on Fathom |
 | 2026-08-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/791300186) <sub>rec 174853572</sub> | not yet — click title to watch on Fathom |
