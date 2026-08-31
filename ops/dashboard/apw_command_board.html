@@ -1068,6 +1068,7 @@
     <div id="roster-empty">
 <p class="sub">Every lead and client, no exceptions. <strong style="color:var(--ink)">Name → their Notion row</strong> (the modular edit surface: flip Stage/Triaged/Qualification, add notes — this board recomputes from it). 🎥 = the actual call recording. Live layer refreshes this table from Notion; blank cells are honestly blank in the tracker, not hidden.</p>
     <div style="display:flex; gap:10px; flex-wrap:wrap; margin:10px 0 14px">
+      <span id="people-count" class="mono" style="font-size:12px;color:var(--ink-2);align-self:center" data-tip="How many people are in the audited snapshot, and how many the current search/filters are showing."></span>
       <input id="people-search" type="search" placeholder="Search name…" style="background:var(--raised); border:1px solid var(--line); color:var(--ink); border-radius:6px; padding:7px 12px; font-size:13px; font-family:inherit; min-width:200px">
       <select id="people-stage" style="background:var(--raised); border:1px solid var(--line); color:var(--ink); border-radius:6px; padding:7px 10px; font-size:13px; font-family:inherit">
         <option value="">All stages</option><option>Booked Call</option><option>Showed</option><option>Offer Made</option><option>Closed Won</option><option>Closed Lost</option><option>No-Show</option><option>Nurture</option><option>Unqualified</option>
@@ -2526,7 +2527,13 @@ window.APW_TRUTH_GET = function (displayName) {
       var inView = all.filter(function (f) { return passes(f, null); });
       var nEl = document.getElementById('fx-n'), ofEl = document.getElementById('fx-of');
       if (nEl) pulse(nEl, String(inView.length));
-      if (ofEl) ofEl.textContent = all.length;
+      if (ofEl) {
+        if (window.APW_LIVE_ROWS) ofEl.textContent = all.length;
+        else {
+          var heroN = (document.getElementById('lead-count') || {}).textContent || '';
+          ofEl.textContent = all.length + (heroN && heroN !== String(all.length) ? ' audited (of ' + heroN + ' tracked — live layer loads the rest)' : '');
+        }
+      }
       /* per-button counts against all OTHER groups' filters */
       rail.querySelectorAll('.fx-btn').forEach(function (b) {
         var g = b.dataset.g, v = b.dataset.v;
