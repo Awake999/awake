@@ -102,3 +102,27 @@ Ran `format_transcripts.py` (176566669 → chaptered, 8 chapters; 176360534 → 
 **Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
 
 **Resume point:** next queued row (top-down, August section) is `rec 176165428` ([Fathom call 796561317](https://fathom.video/calls/796561317), 2026-08-24, Rosemarie).
+
+## Batch 5
+
+Continued top-down — next three queued rows, all dated 2026-08-24:
+
+| Recording | Call | Archived as |
+|---|---|---|
+| rec 176165428 | [Fathom call 796561317](https://fathom.video/calls/796561317) | [2026-08-24--standards-reset-trial-period-rosemarie-capture--176165428](../archive/calls/fathom/2026-08-24--standards-reset-trial-period-rosemarie-capture--176165428/transcript.md) |
+| rec 176165529 | [Fathom call 796561603](https://fathom.video/calls/796561603) | [2026-08-24--standards-reset-trial-period-ina-capture--176165529](../archive/calls/fathom/2026-08-24--standards-reset-trial-period-ina-capture--176165529/transcript.md) |
+| rec 176165147 | [Fathom call 796560208](https://fathom.video/calls/796560208) | [2026-08-24--standards-reset-trial-period-primary-capture--176165147](../archive/calls/fathom/2026-08-24--standards-reset-trial-period-primary-capture--176165147/transcript.md) |
+
+**Coexistence detected:** all three rows turned out to be the **same team meeting** (Aug 24 company-standards reset: one-week trial period, results-driven culture, Trello/Notion rollout, new meeting cadence) captured by 3 different Fathom bots — near-identical wins/lessons content, distinct independent transcriptions/timestamps per bot (confirmed by comparing opening lines: same Carla eSIM-card exchange, worded slightly differently in each). Per the raw-originals law and the precedent Lane 3 set for 8/25 daily-sync coexistence captures, archived **all three separately** (each is its own primary source) rather than skipping duplicates, and added a "Coexistence note" cross-link at the top of each `summary.md` plus an INDEX annotation ("coexistence w/ ...") so a reader isn't confused by triplicated content.
+
+Raw sourcing: all three auto-saved to local tool-result files (plain text) — direct `cp`, confirmed identical via `cmp` for all three.
+
+Ran `format_transcripts.py` — all three transcripts exceeded the 150KB split threshold (20–21 chapters each) and were SPLIT into 2 parts; `add_breadcrumbs.py` added breadcrumbs to all 12 resulting files (3× transcript.md index + 3×2 parts + 3× summary.md).
+
+**Verbatim self-check:** stripped structural additions from each transcript's combined parts and diffed against its `transcript-raw.txt` line-for-line — all three matched exactly (176165428: 270/270, 176165529: 287/287, 176165147: 284/284).
+
+**INDEX:** flipped all three rows to ✅ with clickable links + `raw ✓` + coexistence annotation. Counts: 39→42 archived, 2 no-transcript (unchanged), 193→190 queued. Verified 42+2+190 = 234 and grep-counted rows (42 ✅ / 192 non-✅ = 234) confirm.
+
+**Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
+
+**Resume point:** next queued row (top-down, August section) is `rec 176124914` ([Fathom call 796461872](https://fathom.video/calls/796461872), 2026-08-24).

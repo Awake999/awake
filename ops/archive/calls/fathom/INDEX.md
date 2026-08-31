@@ -10,7 +10,7 @@
 - [July 2026](#july-2026) — 91 meetings
 - [June 2026](#june-2026) — 10 meetings
 
-**Archive status:** 39 archived ✅ · 2 verified no-transcript · 193 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+**Archive status:** 42 archived ✅ · 2 verified no-transcript · 190 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
 
 
 ## August 2026
@@ -55,9 +55,9 @@
 | 2026-08-25 | [Dispute Team - Daily Zoom Meeting](https://fathom.video/calls/798172465) | ✅ [transcript](2026-08-25--dispute-team-daily-zoom--176562530/transcript.md) · raw ✓ |
 | 2026-08-25 | [James Beckett — Role Offer, Onboarding Clarification](https://fathom.video/calls/797219041) | ✅ [transcript](2026-08-25--james-beckett-role-offer-onboarding--176360534/transcript.md) · [summary](2026-08-25--james-beckett-role-offer-onboarding--176360534/summary.md) · raw ✓ |
 | 2026-08-24 | [Edwin Choi — Business Setup, Grasshopper & DUNS Verification](https://fathom.video/calls/797017809) | ✅ [transcript](2026-08-24--edwin-choi-business-setup-duns--176336909/transcript.md) · [summary](2026-08-24--edwin-choi-business-setup-duns--176336909/summary.md) · raw ✓ |
-| 2026-08-24 | [Impromptu Zoom Meeting (Rosemarie) <sub>rec 176165428</sub>](https://fathom.video/calls/796561317) | not yet — click title to watch on Fathom |
-| 2026-08-24 | [Impromptu Zoom Meeting (Ina) <sub>rec 176165529</sub>](https://fathom.video/calls/796561603) | not yet — click title to watch on Fathom |
-| 2026-08-24 | [Impromptu Zoom Meeting](https://fathom.video/calls/796560208) <sub>rec 176165147</sub> | not yet — click title to watch on Fathom |
+| 2026-08-24 | [Company Standards Reset — Trial Period, Trello/Notion (Rosemarie's capture)](https://fathom.video/calls/796561317) | ✅ [transcript](2026-08-24--standards-reset-trial-period-rosemarie-capture--176165428/transcript.md) · [summary](2026-08-24--standards-reset-trial-period-rosemarie-capture--176165428/summary.md) · raw ✓ — coexistence w/ 176165529, 176165147 |
+| 2026-08-24 | [Company Standards Reset — Trial Period, Trello/Notion (Ina's capture)](https://fathom.video/calls/796561603) | ✅ [transcript](2026-08-24--standards-reset-trial-period-ina-capture--176165529/transcript.md) · [summary](2026-08-24--standards-reset-trial-period-ina-capture--176165529/summary.md) · raw ✓ — coexistence w/ 176165428, 176165147 |
+| 2026-08-24 | [Company Standards Reset — Trial Period, Trello/Notion (primary capture)](https://fathom.video/calls/796560208) | ✅ [transcript](2026-08-24--standards-reset-trial-period-primary-capture--176165147/transcript.md) · [summary](2026-08-24--standards-reset-trial-period-primary-capture--176165147/summary.md) · raw ✓ — coexistence w/ 176165428, 176165529 |
 | 2026-08-24 | [Impromptu Zoom Meeting](https://fathom.video/calls/796461872) <sub>rec 176124914</sub> | not yet — click title to watch on Fathom |
 | 2026-08-24 | [Impromptu Zoom Meeting](https://fathom.video/calls/796432483) <sub>rec 176109891</sub> | not yet — click title to watch on Fathom |
 | 2026-08-22 | [Impromptu Zoom Meeting](https://fathom.video/calls/794778614) <sub>rec 175821783</sub> | not yet — click title to watch on Fathom |
