@@ -1003,14 +1003,14 @@
       <span class="cap">leads in view · <span id="fx-of">—</span> total · filters stack left → right, booking &amp; outcome on the right</span>
     </div>
     <div class="fx-uni chips" id="fx-uni">
-      <button type="button" data-u="tracked" aria-pressed="true">Tracked funnel <span class="mono" id="fx-u-tracked"></span></button>
-      <button type="button" data-u="all" aria-pressed="false">+ Raw GHL book <span class="mono" id="fx-u-all"></span></button>
+      <button type="button" data-u="tracked" aria-pressed="true" data-tip="Every row in the Notion lead tracker — the worked funnel. Right now: 104 = the 83 audited leads + 21 fresh leads imported from GHL on 8/30. NOT the whole world: the raw GHL book (259+) is the other button.">Tracked funnel <span class="mono" id="fx-u-tracked"></span></button>
+      <button type="button" data-u="all" aria-pressed="false" data-tip="Adds every contact the GHL system ever captured — 259+, including duplicates and junk rows — to the counts AND the table (marked GHL). This is the whole universe; the tracked funnel is the worked subset.">+ Raw GHL book <span class="mono" id="fx-u-all"></span></button>
     </div>
     <div class="fx-spot" id="fx-spot">
       <div class="fx-cell"><div class="k">In view</div><div class="v" id="sp-n" style="color:var(--w-cyan)">—</div><div class="bar"><span id="sp-n-b" style="background:var(--grad-ice); background-size:200% 100%"></span></div><div class="d" id="sp-n-d"></div></div>
       <div class="fx-cell"><div class="k">Evidenced show rate</div><div class="v" id="sp-sr" style="color:var(--good)">—</div><div class="bar"><span id="sp-sr-b" style="background:var(--good)"></span></div><div class="d" id="sp-sr-d"></div></div>
       <div class="fx-cell"><div class="k">Triaged → showed</div><div class="v" id="sp-ts" style="color:var(--teal)">—</div><div class="bar"><span id="sp-ts-b" style="background:var(--teal)"></span></div><div class="d" id="sp-ts-d"></div></div>
-      <div class="fx-cell"><div class="k">Showed → qualified</div><div class="v" id="sp-sq" style="color:var(--w-gold)">—</div><div class="bar"><span id="sp-sq-b" style="background:var(--w-gold)"></span></div><div class="d" id="sp-sq-d"></div></div>
+      <div class="fx-cell" data-tip="Workable = the closer put them in ANY offer lane (Primary OR Downsell). The primary-only rate is shown underneath — they are different numbers on purpose."><div class="k">Showed → workable (Main+Downsell)</div><div class="v" id="sp-sq" style="color:var(--w-gold)">—</div><div class="bar"><span id="sp-sq-b" style="background:var(--w-gold)"></span></div><div class="d" id="sp-sq-d"></div></div>
       <div class="fx-cell"><div class="k">Booked pending</div><div class="v" id="sp-bk" style="color:var(--w-violet)">—</div><div class="bar"><span id="sp-bk-b" style="background:var(--w-violet)"></span></div><div class="d" id="sp-bk-d"></div></div>
       <div class="fx-cell"><div class="k">No-shows</div><div class="v" id="sp-ns" style="color:var(--crit)">—</div><div class="bar"><span id="sp-ns-b" style="background:var(--crit)"></span></div><div class="d" id="sp-ns-d"></div></div>
       <div class="fx-cell"><div class="k">Verbal yes · not paid</div><div class="v" id="sp-vy" style="color:var(--w-gold)">—</div><div class="bar"><span id="sp-vy-b" style="background:var(--w-gold)"></span></div><div class="d" id="sp-vy-d"></div></div>
@@ -2199,7 +2199,7 @@ window.APW_TRUTH_GET = function (displayName) {
        setter verdict → booked → setter grading → showed → which offer → closer verdict →
        follow-up → verbal yes → agreement & payment → outcome (won/lost SEPARATE) → reason no close */
     var GROUPS = [
-      { k: 'entry',   t: 'Lead In',            n: 1,  vals: [['Opt-In Form','Opt-In'], ['Direct Booked Call','Direct-Book'], ['DM','DM'], ['Referral','Referral'], ['unk','Untagged']] },
+      { k: 'entry',   t: 'Lead In',            n: 1,  vals: [['Opt-In Form','Opt-In','Came in through the Application form (GHL sources “Application” / “Application W2/Business Owner” — 82 of 87 ever-booked contacts). Most booked their call within minutes of the form — that same-session booking is the opt-in funnel working, not a direct booking.'], ['Direct Booked Call','Direct-Book','FACT-CHECKED against GHL (8/31): exactly 2 contacts were ever created BY the calendar itself — Chris M. (Matthew referral) and Lynn N. (internal). Everyone else entered via the Application form first. If you count “booked straight away” as direct, that is most of the book — but the entry PATH was the form.'], ['DM','DM'], ['Referral','Referral'], ['unk','Untagged']] },
       { k: 'speed',   t: 'Speed to Lead',      n: 2,  vals: [['sub1','≤ 1 min'], ['sub2','≤ 2 min'], ['slow','> 2 min'], ['unk','Unknown']] },
       { k: 'hours',   t: 'Hours (M–F 7:00–5:45 PT)', n: 3, vals: [['in','In-hours'], ['out','Out-of-hours'], ['unk','Unknown']] },
       { k: 'triage',  t: 'Triage',             n: 4,  vals: [['yes','Triaged'], ['no','Not triaged'], ['unk','Unknown']] },
@@ -2542,6 +2542,7 @@ window.APW_TRUTH_GET = function (displayName) {
           b.setAttribute('aria-pressed', 'false');
           b.dataset.g = g.k; b.dataset.v = v[0];
           var fn = document.createElement('span'); fn.className = 'fn'; fn.textContent = v[1];
+          if (v[2]) b.setAttribute('data-tip', v[2]);
           var fc = document.createElement('span'); fc.className = 'fc'; fc.textContent = '0';
           var fp = document.createElement('span'); fp.className = 'fp'; fp.textContent = '';
           b.appendChild(fn); b.appendChild(fc); b.appendChild(fp);
@@ -2582,6 +2583,7 @@ window.APW_TRUTH_GET = function (displayName) {
       var showed = inView.filter(function (f) { return f.show === 'yes'; });
       var noshow = inView.filter(function (f) { return f.show === 'no'; });
       var showQual = showed.filter(function (f) { return f.qual === 'main' || f.qual === 'down'; });
+      var showMain = showed.filter(function (f) { return f.qual === 'main'; });
       var booked = inView.filter(function (f) { return f.dispo === 'booked'; });
       /* spotlight — the big animated main-changes box */
       function spot(id, txt, frac, dtxt) {
@@ -2597,7 +2599,7 @@ window.APW_TRUTH_GET = function (displayName) {
       spot('sp-n', String(inView.length), all.length ? inView.length / all.length : 0, Math.round((all.length ? inView.length / all.length : 0) * 100) + '% of ' + all.length);
       spot('sp-sr', pct(showed.length, showed.length + noshow.length), vRate / 100, 'whole book: ' + allRate + '%');
       spot('sp-ts', pct(triShow.length, tri.length), tri.length ? triShow.length / tri.length : 0, triShow.length + ' of ' + tri.length + ' triaged');
-      spot('sp-sq', pct(showQual.length, showed.length), showed.length ? showQual.length / showed.length : 0, showQual.length + ' of ' + showed.length + ' showed');
+      spot('sp-sq', pct(showQual.length, showed.length), showed.length ? showQual.length / showed.length : 0, showQual.length + ' of ' + showed.length + ' showed · PRIMARY only: ' + showMain.length + ' (' + pct(showMain.length, showed.length) + ')');
       spot('sp-bk', String(booked.length), inView.length ? booked.length / inView.length : 0, pct(booked.length, inView.length) + ' of view');
       spot('sp-ns', String(noshow.length), inView.length ? noshow.length / inView.length : 0, pct(noshow.length, inView.length) + ' of view');
       var vyNP = inView.filter(function (f) { return f.verbal === 'yes' && f.agpay !== 'paid'; });
@@ -2613,7 +2615,7 @@ window.APW_TRUTH_GET = function (displayName) {
       if (conv) conv.innerHTML =
         '<span class="cv">of those who got triaged, showed: <b>' + pct(triShow.length, tri.length) + '</b> (' + triShow.length + '/' + tri.length + ')</span>' +
         '<span class="cv">evidenced show rate: <b>' + pct(showed.length, showed.length + noshow.length) + '</b> (✓' + showed.length + ' / ✕' + noshow.length + ')</span>' +
-        '<span class="cv">of showed → qualified (main+downsell): <b>' + pct(showQual.length, showed.length) + '</b></span>' +
+        '<span class="cv">of showed → workable (main+downsell): <b>' + pct(showQual.length, showed.length) + '</b> · PRIMARY only: <b>' + pct(showMain.length, showed.length) + '</b></span>' +
         '<span class="cv">booked calls pending: <b>' + booked.length + '</b></span>' +
         '<span class="cv">no-shows: <b>' + noshow.length + '</b></span>';
       /* drive the rosters below */
