@@ -205,3 +205,17 @@ Each: transcript.md (chaptered, TOC) + transcript-raw.txt + summary.md (Fathom A
 - AUDIT (line-for-line vs raws): 0 missing lines (454/223/211), chapters+breadcrumbs+verbatim summaries verified, INDEX rows flipped, counts 31+1+202=234. PASS. Grinder self-flagged its one deviation (inline transcript → Write from exact tool text; no auto-saved file existed) — approved as standard.
 - Green light: SendMessage unreachable cross-container → delivered via one-shot trigger trig_01BVb2dHvQ9uNHhVsXJXxaAP firing into the grinder session 05:13Z with the continue order (next recs 176815084, 176797747, then 8/26→8/25 downward). ⚠️ trigger cannot pass connectors; if grinder wakes without Fathom MCP it logs-and-stops per brief. Self check-in scheduled 05:36Z (trig_01Ane4Yn6q2pnUpuGuCBRy2P).
 - Fathom count now 31/234 archived (28 by Lane 3 + 3 by grinder).
+
+---
+
+## Batch (2026-08-31): Krisp — Pedro triage, Leo 12k, Jill 1:1 archived (12/~150)
+
+| Call | Folder | What it holds |
+|---|---|---|
+| [Pedro - Triage Call - Carla](https://app.krisp.ai/m/01a01ba2d1aa77a8b14c372378602e76) | calls/krisp/2026-08-20--pedro-triage-call-carla--… | Spanish triage: 720–749 score, $50–100K for a CDL truck, digital-marketing agency $7–10K/mo, prior bad agency experience, 5% fee pushback → escalated to funding manager, 7pm ET Zoom set |
+| [Leo - 12k call - void](https://app.krisp.ai/m/01a01b92aae5748fa156e556becf1ce9) | calls/krisp/2026-08-20--leo-12k-call-void--… | Full $12K negotiation: guarantee tiers, "funding isn't automatic" exchange, Leo (79) refuses $12K upfront, floats performance-based pay, $100–125K target, Tim voids contract as courtesy, Mon 4pm CST follow-up |
+| [Jill one one one](https://app.krisp.ai/m/019ffceef96e74c7ab2c52e3fed24da6) | calls/krisp/2026-08-13--jill-one-on-one--… | 96-min 1:1, 10 chapters, 109KB |
+
+Each: transcript-raw.md (full Krisp API doc, untouched) + transcript.md (chaptered) + summary.md (Krisp Action Items + Key Points verbatim) + breadcrumbs; INDEX rows flipped.
+
+**Tool fix (RAW-ORIGINALS):** add_breadcrumbs.py inserted 🧭 into the two new `transcript-raw.md` files (old raws were .txt/.json so never matched) — breadcrumbs stripped from both raws, tool patched to skip any `*-raw.*` filename. format_transcripts.py verified safe (targets transcript.md exactly).

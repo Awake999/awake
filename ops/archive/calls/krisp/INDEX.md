@@ -19,8 +19,8 @@
 | 2026-08-25 | [Tech Call w/ Daniel Jimenez](https://app.krisp.ai/m/01a0265b8b627670a7354aef13be3379) | 4h | not yet — click title to open in Krisp |
 | 2026-08-24 | [Sales Spotlight w/ Jeff Smith](https://app.krisp.ai/m/01a0234220e177d9a31453c5f83597a3) | 4h | not yet — click title to open in Krisp |
 | 2026-08-22 | [Prioritizing Tasks and Workflow](https://app.krisp.ai/m/01a02152db21754faf5a857c63eba2b3) | 5m | not yet — click title to open in Krisp |
-| 2026-08-20 | [Pedro - Triage Call - Carla](https://app.krisp.ai/m/01a01ba2d1aa77a8b14c372378602e76) | 11m | not yet — click title to open in Krisp |
-| 2026-08-20 | [Leo - 12k call - void](https://app.krisp.ai/m/01a01b92aae5748fa156e556becf1ce9) | 27m | not yet — click title to open in Krisp |
+| 2026-08-20 | [Pedro - Triage Call - Carla](https://app.krisp.ai/m/01a01ba2d1aa77a8b14c372378602e76) | 11m | ✅ [transcript](2026-08-20--pedro-triage-call-carla--01a01ba2d1aa77a8b14c372378602e76/transcript.md) · [summary](2026-08-20--pedro-triage-call-carla--01a01ba2d1aa77a8b14c372378602e76/summary.md) · raw ✓ |
+| 2026-08-20 | [Leo - 12k call - void](https://app.krisp.ai/m/01a01b92aae5748fa156e556becf1ce9) | 27m | ✅ [transcript](2026-08-20--leo-12k-call-void--01a01b92aae5748fa156e556becf1ce9/transcript.md) · [summary](2026-08-20--leo-12k-call-void--01a01b92aae5748fa156e556becf1ce9/summary.md) · raw ✓ |
 | 2026-08-20 | [Sourcing Spotlight – David Hill](https://app.krisp.ai/m/01a01b848e487318b6cf5ef2f594b670) | 4h | not yet — click title to open in Krisp |
 | 2026-08-19 | [Client Call (CSM) - Alan Nguyen](https://app.krisp.ai/m/01a01b36954774049ea573878f92a1aa) | 16m | not yet — click title to open in Krisp |
 | 2026-08-19 | [Client Call (CSM) - Alan Nguyen](https://app.krisp.ai/m/01a01b0b153f718984926aaaddbdfd73) | 14m | not yet — click title to open in Krisp |
@@ -28,7 +28,7 @@
 | 2026-08-19 | [CCA Office Hours](https://app.krisp.ai/m/01a01791f91076a6bcf4e0fe0e7fc0c8) | 6m | not yet — click title to open in Krisp |
 | 2026-08-18 | [Commercial Real Estate Underwriting Explained](https://app.krisp.ai/m/01a01786eeb971229dae5549a3e29c2b) | 16m | not yet — click title to open in Krisp |
 | 2026-08-17 | [Alan Nguyen & Stephen Funding Discussion (Connor, Stephen, Carla)](https://app.krisp.ai/m/01a011583bc0767aa0423150fb3739f2) | 23m | not yet — click title to open in Krisp |
-| 2026-08-13 | [Jill one one one](https://app.krisp.ai/m/019ffceef96e74c7ab2c52e3fed24da6) | 96m | not yet — click title to open in Krisp |
+| 2026-08-13 | [Jill one one one](https://app.krisp.ai/m/019ffceef96e74c7ab2c52e3fed24da6) | 96m | ✅ [transcript](2026-08-13--jill-one-on-one--019ffceef96e74c7ab2c52e3fed24da6/transcript.md) · [summary](2026-08-13--jill-one-on-one--019ffceef96e74c7ab2c52e3fed24da6/summary.md) · raw ✓ |
 | 2026-08-12 | [04:32 PM Chrome (Alan, Linda)](https://app.krisp.ai/m/019ff7b6c80970bd8346a1ed789a363e) | 1.8h | not yet — click title to open in Krisp |
 | 2026-08-12 | [Wednesday Funding Forum](https://app.krisp.ai/m/019ff7b1ce41748c8a164b991860684f) | 99m | not yet — click title to open in Krisp |
 | 2026-08-12 | [CCA Funding Forum](https://app.krisp.ai/m/019ff7af85f277babb85580a01d60e6d) | 57m | not yet — click title to open in Krisp |

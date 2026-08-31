@@ -42,6 +42,8 @@ def main():
         rel = os.path.relpath(path, ROOT)
         if os.sep + "tools" + os.sep in path:
             continue
+        if "-raw." in os.path.basename(path):   # RAW-ORIGINALS law: never touch raw files
+            continue
         crumb = crumb_for(rel)
         if crumb is None:
             continue
