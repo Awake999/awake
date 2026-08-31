@@ -1,0 +1,67 @@
+{
+ "_meta": {
+  "source": "GHL location WFkoNzKa9J9PxhngsLfl, local pull (LANE 4)",
+  "pull_date": "2026-08-30",
+  "law": "These figures are VERIFIED from raw GHL API responses (ops/archive/ghl/2026-08-30/raw/). Lanes bake these into snapshots verbatim; do not hand-edit this file."
+ },
+ "contacts": {
+  "total": 259,
+  "with_email": 128,
+  "with_phone": 244,
+  "with_attribution": 246,
+  "dnd": 0
+ },
+ "appointments": {
+  "events": 144,
+  "unique_bookers": 87,
+  "statuses": {
+   "confirmed": 109,
+   "cancelled": 25,
+   "noshow": 8,
+   "showed": 2
+  },
+  "status_note": "confirmed = never updated after the call (not a show); see register #64"
+ },
+ "dispositions_vs_roster_audit": {
+  "audit_unknown_events": 79,
+  "resolved_by_ghl": 16,
+  "resolved_breakdown": {
+   "cancelled": 10,
+   "noshow": 6
+  },
+  "unresolvable_from_ghl": 63,
+  "evidence": "ops/archive/ghl/2026-08-30/ROSTER_RECONCILIATION.md"
+ },
+ "opportunities": {
+  "total": 200,
+  "by_status": {
+   "open": 199,
+   "won": 1
+  }
+ },
+ "conversations": {
+  "total": 256,
+  "messages": 8218,
+  "by_channel": {
+   "EMAIL": 1593,
+   "SMS": 4545,
+   "CALL": 1473,
+   "ACTIVITY_OPPORTUNITY": 296,
+   "ACTIVITY_APPOINTMENT": 212,
+   "ACTIVITY_CONTACT": 76,
+   "SMS_REACTION": 23
+  }
+ },
+ "payments": {
+  "orders": 0,
+  "transactions": 0,
+  "subscriptions": 0,
+  "invoices": 0,
+  "note": "GHL Payments EMPTY \u2014 money moves via Whop (register #65b); Nick $500 / Jill installments unverifiable in GHL"
+ },
+ "tracker_cross_ref": {
+  "notion_tracked_leads": 104,
+  "ghl_only_contacts": 155,
+  "note": "104 = Clients & Leads rows after the 8/30 recovery of 21 ad-leads (register #69)"
+ }
+}
