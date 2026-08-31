@@ -1,5 +1,7 @@
 # Summary — SCIO Sales Consulting, 2026-06-18 (Krisp 019edcc4e7f570319907bba589f809dd)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Krisp index](../INDEX.md)**
+
 > **Companion to `transcript.md` — never a replacement.** The verbatim original in this folder is the source of truth; this AI summary (Krisp key points + action items) is for fast orientation only.
 
 ## Key Points

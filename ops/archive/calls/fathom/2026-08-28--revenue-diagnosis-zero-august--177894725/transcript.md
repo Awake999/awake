@@ -1,6 +1,21 @@
 # Transcript — Revenue diagnosis, $0 August (2026-08-28, Fathom call 803087357)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (20:00 to 30:00)](#chapter-3-2000-to-3000)
+- [Chapter 4 (30:00 to 40:00)](#chapter-4-3000-to-4000)
+
+
 ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
+
+
+## Chapter 1 (00:00 to 10:00)
 
 [00:00](https://fathom.video/calls/803087357?timestamp=0) Alan Nguyen: What can I do to help shift all of these things in the direction or favor that I want to be able to create the results that I want?
 [00:09](https://fathom.video/calls/803087357?timestamp=9) Carla Stivala: But what I mean by that is not finding the blame, but rather the root cause of the problem.
@@ -32,6 +47,9 @@ ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
 [09:37](https://fathom.video/calls/803087357?timestamp=577) Carla Stivala: Like, department meetings, unfortunately, do need to be a minimum of 45 minutes.
 [09:43](https://fathom.video/calls/803087357?timestamp=583) Alan Nguyen: Okay, so as of right now, we'll do operations 7.30 to 8.15, dispute team 8.15 to 9.00, then I use it at 9.00'clock meeting and or depending on the o'clock meeting. But then, the sales meeting.
 [09:59](https://fathom.video/calls/803087357?timestamp=599) Carla Stivala: Since We are already having this discussion. Lynn and I were chatting yesterday because I want to take a chief of staff approach to things and making sure we are communicating with each other and everybody is heard and their proposals are listened to. So I messaged her yesterday and I was like, wait, hold on, let me recap. You want the ops meeting after the dispute meeting, right? And I think she has a very valid point. Like the bureaus open at 8 a.m. no matter what time zone you're in. And I think that if the dispute team is the one meeting at 730, prepares them to get on the phones at 8, because Lynn also mentioned that you mentioned that you have more success when they first open. So if the dispute is a huge bottleneck in the speed of implementation, then I think it's very worth it to at this point in the business. Prioritize dispute meeting before ops meeting. And then it gives ops more of like a background to what we need to fix.
+
+## Chapter 2 (10:00 to 20:00)
+
 [11:11](https://fathom.video/calls/803087357?timestamp=671) Alan Nguyen: So, that makes sense. And I did acknowledge that the other day with Lynn. The logistics of it is, maybe just to clarify, the dispute team, what makes it easier is easier in the sense that you don't have to wait as long on hold when you're calling in the morning. Generally speaking, that's really the only thing that's really true. Right? So that being the case, like, to me, it made the most sense to align with, okay, operations is, at least for the short term, is going to be way more important. I mean, I agree. And then that also then gives the dispute team time to at least make a call, because they're not going to be on hold for a super long time. Ideally, you could get one or two calls done during that time and then use those calls in the meeting afterwards to go over. It'd be like live and fresh.
 [12:07](https://fathom.video/calls/803087357?timestamp=727) Carla Stivala: That's a good approach. That's a good mindset for it too. All right. So let's leave things how they are because I did not know it was just a matter of like on-hold time. And essentially speaking, while they're on hold, they can still do other paperwork, right? It's not like that time goes to waste. So there's no reason to prioritize their meeting. I thought it was something more like technical. So perfect. The way we have things set up right now is daily meeting 7 a.m. to 7.30. Ops meeting is 45 minutes currently. We may want to have an hour in the ops meeting and then 45 minutes to dispute or no. Do you want to keep 45 minutes for ops?
 [12:58](https://fathom.video/calls/803087357?timestamp=778) Alan Nguyen: If we had more time, I'd totally be down, but we don't Depending on the dates, my 9 and 10 is usually taken. I've just been skipping those things.
@@ -63,6 +81,9 @@ ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
 [19:05](https://fathom.video/calls/803087357?timestamp=1145) Alan Nguyen: So don't start implementing that just yet. I was just like trying to get, like I was trying to like brainstorm some stuff. . It was more so for the future type stuff because people are typically, like the data shows that a lot of sales are made around noontime. .
 [19:25](https://fathom.video/calls/803087357?timestamp=1165) Carla Stivala: And essentially Lynn and I can chip in and run the meeting for you. I think we need to prioritize you being client-facing. So I'm going to have to test this, Alan, to be honest. This is a project I volunteer for. I want to see if I was a lead, can I book with you from 7 to 7.30 now that the event is free rather than busy. So I'm going to log into the landing page. I'll get to the booking and I'm going to see if I can book with you. It's a 45 minute session.
 [19:59](https://fathom.video/calls/803087357?timestamp=1199) Alan Nguyen: They will. We'll not let you book. I think we'll only let you book with an hour window.
+
+## Chapter 3 (20:00 to 30:00)
+
 [20:05](https://fathom.video/calls/803087357?timestamp=1205) Carla Stivala: What do you mean?
 [20:07](https://fathom.video/calls/803087357?timestamp=1207) Alan Nguyen: Like, if you try to book a call on the calendar as a lead, it's only going to book one hour time slot. .
 [20:13](https://fathom.video/calls/803087357?timestamp=1213) Carla Stivala: But I just want to see if me setting these events to free, would that open up? Like, can somebody book this hour now that I made both events free? So I'm just going to try it and see what happens. But I, but we can do that.
@@ -134,5 +155,9 @@ ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
 [29:23](https://fathom.video/calls/803087357?timestamp=1763) Alan Nguyen: I don't know if I would use the word failure, but like, I'd be like, you know, what do I say?
 [29:28](https://fathom.video/calls/803087357?timestamp=1768) Carla Stivala: The lack of, the lack, the lack of communication with us essentially will have this consequence.
 [29:38](https://fathom.video/calls/803087357?timestamp=1778) Alan Nguyen: I'm going to say we need to ensure a clean, high-frequency means of professional communication to be able to rely on one another here at APW. I'll just say that for now, and we'll see what he says, and then we can figure out something else later. Okay, so, all right, Lynn, are you working on that, or what are you working on right now? I'm about to work on the DM script thing.
+
+## Chapter 4 (30:00 to 40:00)
+
 [30:39](https://fathom.video/calls/803087357?timestamp=1839) Lynn N.: Okay, awesome. I might call, like, a newish lead that hasn't answered me yet. Okay, got it. Thank you.
 [30:48](https://fathom.video/calls/803087357?timestamp=1848) Alan Nguyen: Also, in terms of, like, your ability to execute that task. Somewhere, we're on the next meeting, and that's far away, to be able to ask him about his thoughts on the DM setting, somewhere, somewhere, somewhere, okay.
+

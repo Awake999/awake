@@ -1,5 +1,7 @@
 # Meta — Yeshaya Dank, Dank SPV Funding
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 - **Date:** 2026-08-27
 - **Fathom recording ID:** 177510654
 - **Link:** https://fathom.video/calls/799338949

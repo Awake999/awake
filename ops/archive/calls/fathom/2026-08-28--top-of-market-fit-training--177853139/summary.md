@@ -1,5 +1,7 @@
 # Summary — Top of market fit training (Fathom call 802994217)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 > **Companion to `transcript.md` — never a replacement.** The verbatim original (+ `transcript-raw.json`) in this folder is the source of truth; this AI summary is for fast orientation only.
 
 ## Meeting Purpose

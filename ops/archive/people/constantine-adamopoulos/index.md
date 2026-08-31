@@ -1,5 +1,7 @@
 # Constantine Adamopoulos — SCIO sales coach (external)
 
+> 🧭 [Start Here](../../START-HERE.md) · [Archive home](../../README.md) · **[⬆ back to People index](../README.md)**
+
 Email seen on calls: constantine@scaleclients.io. Weekly coaching with Alan (Wednesdays 11am) plus ad-hoc sessions. Kai is the SCIO owner; Clinton also on the SCIO side.
 
 ## Archived calls

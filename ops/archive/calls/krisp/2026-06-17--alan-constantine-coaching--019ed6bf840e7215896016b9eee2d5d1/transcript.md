@@ -1,5 +1,20 @@
 # Transcript — Alan + Constantine coaching (2026-06-17, Krisp meeting 019ed6bf840e7215896016b9eee2d5d1)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Krisp index](../INDEX.md)**
+
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (20:00 to 30:00)](#chapter-3-2000-to-3000)
+- [Chapter 4 (30:00 to 40:00)](#chapter-4-3000-to-4000)
+- [Chapter 5 (40:00 to 50:00)](#chapter-5-4000-to-5000)
+- [Chapter 6 (50:00 to 1:00:00)](#chapter-6-5000-to-10000)
+- [Chapter 7 (1:00:00 to 1:10:00)](#chapter-7-10000-to-11000)
+
+
 ORIGINAL VERBATIM TRANSCRIPT from Krisp. Link: https://app.krisp.ai/m/019ed6bf840e7215896016b9eee2d5d1
 
 # Alan + Constantine
@@ -9,6 +24,9 @@ ORIGINAL VERBATIM TRANSCRIPT from Krisp. Link: https://app.krisp.ai/m/019ed6bf84
 
 ## Transcript 2
 # Transcript
+
+## Chapter 1 (00:00 to 10:00)
+
 **constantine@scaleclients.io | 00:07**
 Hey, what's that, brother?
 
@@ -178,6 +196,9 @@ You want to have as many slides, and then you basically want to have... Let's sa
 Then maybe you have a few bullet points and that's pretty much that. Maybe at most you might have two slides per one phase, but you don't want to overwhelm them with too many slides and too many bullets and too much reading. You want to basically just do most of the explaining, but just have a visual so they can follow along.
 But if the following along becomes inundation from the information, then it's very hard for them to track, and they begin to feel overwhelmed. But anyway, did you have any thoughts around that?
 
+
+## Chapter 2 (10:00 to 20:00)
+
 **Alan Nguyen | 10:18**
 Yes, yeah, absolutely, I agree. So this wouldn't be what is being used for the pitch itself. This is just a part of the VSL. Yeah, I was just showing that for context reference or whatever.
 
@@ -298,6 +319,9 @@ Yeah, the what is basically just a descriptor. You want to think about it like t
 Okay. So, like, for this process, is it. Are these basically gonna be the same exact thing or the same thing for the most part?
 Because like, when we walk them through the three step pro, you know, three three step or whatever step process, we're telling them what we're going to do together. And then it kind of kind of explains how it works a little bit.
 Like, do this for the augmentative.
+
+
+## Chapter 3 (20:00 to 30:00)
 
 **constantine@scaleclients.io | 20:22**
 Yeah. So we're... Yeah, that's a good point. So basically, I guess to clarify, we're essentially operationalizing what most people would be doing naturally. What's less natural is the "who".
@@ -423,6 +447,9 @@ But I like that to... It doesn't really feel like work when I'm actually helping
 Got it. Got it. So what would be the additional time commit? Because I'm guessing, I'm thinking like everybody wants the done for you a competitive advant.
 It's technically only a competitive advantage if they want that.
 
+
+## Chapter 4 (30:00 to 40:00)
+
 **Alan Nguyen | 30:19**
 Yeah, I see.
 
@@ -522,6 +549,9 @@ So the goal or the high-level outcome... Then to the actual backstory, how do I 
 
 **constantine@scaleclients.io | 39:56**
 No. So it would be... I don't remember exactly how I said it, but... So I'm going to share with you the process right now. The goal is for us to be able to secure $200,000 in funding. Now the way we've done that for our clients...
+
+
+## Chapter 5 (40:00 to 50:00)
 
 **Alan Nguyen | 40:14**
 Okay, nice.
@@ -657,6 +687,9 @@ Okay.
 **Alan Nguyen | 49:58**
 But not all companies do it right. So I don't know. A lot of the people that are in the funding space are just people that have gotten funding, and they just want to turn into a business, and they just basically try to get other people to join.
 
+
+## Chapter 6 (50:00 to 1:00:00)
+
 **constantine@scaleclients.io | 50:01**
 And why don't they do it right?
 
@@ -777,6 +810,9 @@ But people typically charge more, so their pricing structure is different, and t
 Yeah. The only challenge would be giving that to them too early if they're on the pricing ascension thing of $2,000 upfront because... I guess the worst thing would be people joining and then taking that stuff and then leaving, if that makes sense.
 Because for the smaller percentage of those that would find it valuable... It's disproportionately valuable if that makes sense. If a funding company wanted to join and learn how to do this because a lot of funding companies don't know how to take it to the next level. Being able to pay $2,000 versus the higher ticket price...
 The logistical thing that I figured out is that I give them an entry-level course to keep them satiated for the first round. And once they get funded, if they want to get access to the other stuff, then they can... Not give them the PayPal.
+
+
+## Chapter 7 (1:00:00 to 1:10:00)
 
 **constantine@scaleclients.io | 01:00:13**
 So is a good workaround for that then just having them pay in full like if you do have that option where you get it done for you plus the training that would require a painful because essentially we're just giving you the entire playbook.

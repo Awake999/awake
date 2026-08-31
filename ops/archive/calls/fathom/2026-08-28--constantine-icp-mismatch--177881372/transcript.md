@@ -1,6 +1,20 @@
 # Transcript — Constantine coaching, ICP mismatch (2026-08-28, Fathom call 803053542)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (20:00 to 30:00)](#chapter-3-2000-to-3000)
+
+
 ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
+
+
+## Chapter 1 (00:00 to 10:00)
 
 [00:00](https://fathom.video/calls/803053542?timestamp=0) Alan Nguyen: it'll be a great time.
 [00:02](https://fathom.video/calls/803053542?timestamp=2) Constantine Adamopoulos: only a week, but, you know, I'll still be on Slack. Maybe not, like, as active, as responsive, but I'll be around.
@@ -28,6 +42,9 @@ ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
 [09:26](https://fathom.video/calls/803053542?timestamp=566) Carla Stivala: . But maybe in future scenarios where this happens, because it's very common, like I need to talk to my business partner about this, we are going to encounter this situation. So we should be prepared. What we used to do is like, I completely understand your business partner is a part of this decision. It's a shame that they were not involved in the process since day one. But what I recommend is that we book a call with your business partner so we can address any concerns directly.
 [09:58](https://fathom.video/calls/803053542?timestamp=598) Constantine Adamopoulos: Yep.
 [09:59](https://fathom.video/calls/803053542?timestamp=599) Carla Stivala: Absolutely. with family... Remember, that seems a little bit more difficult, even though it shouldn't be. But I don't know if it would have been worth it to be like, you know, do you think your brother would be interested in joining a call so that we can clear any doubts? But, you know, when you're involving someone very personal to them, then that's when we start looking like we're crossing a line. Like, I agree with you, Alan, on that.
+
+## Chapter 2 (10:00 to 20:00)
+
 [10:25](https://fathom.video/calls/803053542?timestamp=625) Constantine Adamopoulos: Well, just to be clear, I'll make one comment there just very briefly. I think the reason it's actually, in a way, more important to get somebody who's involved in a decision who's not a business partner into the picture is because the family member will act from a place of fear. So it's not very logical. So when they enter into our world, we can explain things in a way that will reduce that fear and they can think more clearly to find out if this decision actually makes sense because they don't know what they don't know. So they're just thinking about governments and lawsuits and, you know, credit bureaus and banks getting their account shut down.
 [11:00](https://fathom.video/calls/803053542?timestamp=660) Carla Stivala: And things like that. Scams, like we're scanners. exactly.
 [11:03](https://fathom.video/calls/803053542?timestamp=663) Constantine Adamopoulos: .
@@ -47,6 +64,9 @@ ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
 [17:55](https://fathom.video/calls/803053542?timestamp=1075) Carla Stivala: . So our main sales problem is the kind of people we're talking to.
 [18:00](https://fathom.video/calls/803053542?timestamp=1080) Constantine Adamopoulos: like we're reaching for scraps at this point. But I would say this is opening up a good conversation to have when people are a bit concerned and they don't know if they want to do something or not. I would say don't ever, maybe we are, it's inevitable that we will cross some lines. But I would also say that when I, at least in my career, when I noticed that somebody seems to want to do it, but they're hesitating, I always pause and call out their feelings and say, listen, if you feel like at some point down the line, you're going to regret this decision, it doesn't really make any sense for us to do this. And usually that brings them forward. Sometimes that pushes them away, which is great because then they would have either charged back or refunded, you know, then you kind of put a strain on fulfillment and then they end up leaving or churning or calling a lawyer, right? There could be a whole host of problems. So I always like to double, triple confirm, call out somebody's. So even if we had that call with the brother, I don't recommend doing some kind of tactic to close. But if they're kind of close and saying, I think we could do this, we would do the whole are you sure thing, which is I'm noticing that you're still not fully comfortable. And this doesn't make sense if you're not fully comfortable. And Alan, I've seen you do that. So I don't really think you guys are going to have a problem with that.
 [19:23](https://fathom.video/calls/803053542?timestamp=1163) Carla Stivala: I really like that you said that because it literally connects to our approach of like, oh, maybe you don't qualify. And then people are like, what do I do to qualify? So in this case, if you call out someone's hesitation and you're like, oh, if you look back in a few months and you think you're going to regret this decision, maybe this is not a good fit. So I think that triggers a thought process in them of like, yo, am I really going to regret this? What's the real benefit? Like they're putting me on the spot. I need to make a decision now. It's a call to action, which most people lack. So I really like that. We should definitely, definitely call out their feelings because it, like, feelings are what make you start thinking. 100%. I can try to sell you this solution and this beautiful end result, but you're not feeling that. What you're feeling is what you're feeling.
+
+## Chapter 3 (20:00 to 30:00)
+
 [20:17](https://fathom.video/calls/803053542?timestamp=1217) Constantine Adamopoulos: . And then we give them space to come forward. They may not come forward, but without doing it, they can't come forward. But if we do it, they can't.
 [20:25](https://fathom.video/calls/803053542?timestamp=1225) Carla Stivala: mean they will, but they can't come forward. Okay.
 [20:28](https://fathom.video/calls/803053542?timestamp=1228) Constantine Adamopoulos: .
@@ -101,3 +121,4 @@ ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
 [28:37](https://fathom.video/calls/803053542?timestamp=1717) Alan Nguyen: No, no. The confidence was a lot better in this.
 [28:39](https://fathom.video/calls/803053542?timestamp=1719) Constantine Adamopoulos: it was. There's no problem with that. Guys, my meeting is in the room, so I do have to jump.
 [28:45](https://fathom.video/calls/803053542?timestamp=1725) Alan Nguyen: Sounds good. Thanks, Constantine. We appreciate you. Yes, absolutely appreciate you guys. Constantine. God bless you all anytime.
+

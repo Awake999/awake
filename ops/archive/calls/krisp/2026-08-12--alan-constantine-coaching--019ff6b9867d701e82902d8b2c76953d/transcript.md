@@ -1,5 +1,19 @@
 # Transcript — Alan + Constantine coaching (2026-08-12, Krisp meeting 019ff6b9867d701e82902d8b2c76953d)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Krisp index](../INDEX.md)**
+
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (20:00 to 30:00)](#chapter-3-2000-to-3000)
+- [Chapter 4 (30:00 to 40:00)](#chapter-4-3000-to-4000)
+- [Chapter 5 (40:00 to 50:00)](#chapter-5-4000-to-5000)
+- [Chapter 6 (50:00 to 1:00:00)](#chapter-6-5000-to-10000)
+
+
 ORIGINAL VERBATIM TRANSCRIPT from Krisp. Link: https://app.krisp.ai/m/019ff6b9867d701e82902d8b2c76953d
 
 # Alan + Constantine
@@ -9,6 +23,9 @@ ORIGINAL VERBATIM TRANSCRIPT from Krisp. Link: https://app.krisp.ai/m/019ff6b986
 
 ## Transcript 2
 # Transcript
+
+## Chapter 1 (00:00 to 10:00)
+
 **Speaker 2 | 00:00**
 Good. How is yours, Mat?
 
@@ -103,6 +120,9 @@ Humi yes. WA.
 
 **Speaker 3 | 09:50**
 Yeah. So for example, in yesterday's call, you just had a bunch of people that are not necessarily from... And are running their own companies.
+
+
+## Chapter 2 (10:00 to 20:00)
 
 **Speaker 2 | 10:01**
 You correct.
@@ -279,6 +299,9 @@ And at the end of it, I try to prehandle all objections beforend. And then at th
 **Speaker 2 | 19:54**
 Yes. I mean, you kind of... Yes. So you walked me through the structure, so I understand that. I guess my question is, you have a lot of tabs here.
 
+
+## Chapter 3 (20:00 to 30:00)
+
 **Alan Nguyen | 20:02**
 I only look at the clean tab.
 
@@ -408,6 +431,9 @@ And then essentially, you know, in exchange, she's going to be able to earn her 
 So the like more time sensitive stuff was more. So on the like the operations and systems sides of things. Assistant side of things. But then like eventually we're going to move towards closing account manager actually learning the whole funding process itself, being able to take some from a to Z.
 So if you're confused on why you're like why does this person came in with he she doesn't watch any of the videos. She doesn't know any of this stuff. That. That's why.
 
+
+## Chapter 4 (30:00 to 40:00)
+
 **Speaker 2 | 30:52**
 Yeah, it's not like I just I don't I just don't know where to start, right? So... That's why, yeah, that's the main thing, not yeah, it's nothing like it's like wisest person here. It's not like they're yeah, it's like what do we do, what are we doing? I mean.
 
@@ -517,6 +543,9 @@ Yeah, stuff like that. So yeah, so main challenge background, and then the backg
 On the funding. Sorry to interrupt. On the funding side, they get approved for this money. They get the money deposited in their accounts so they can pay off whoever and whatever with the money. It's not because I've dealt with clients remotely leveraging that they were receiving business funding, and it was difficult to close them because essentially they had to email my invoice to their business funding whatever bank they were working with, and then the bank essentially had to approve that invoice, and the bank itself would make the payment to remote leverage, not the clients.
 So I don't know how this funding structure works, whether they get the money deposited in their own business checking or personal checking. Or is the bank funding this business or people? Are they the ones overseeing the money and making payments?
 
+
+## Chapter 5 (40:00 to 50:00)
+
 **Speaker 2 | 40:27**
 Do you want to cover that in detail? So Carla has an understanding.
 
@@ -621,6 +650,9 @@ So how do you ask for that permission, though? How do you frame it? What's the w
 **Speaker 2 | 49:58**
 Yeah, it's something simple. This is actually another side point, which is if you notice, I don't know, you probably only joined one call at this point. Yes. So I do have some light scripting in the document, but that's only because sometimes people ask me for the scripting. I would rather prefer...
 Yeah, if you see something that I'm writing or that's even in Alan's thing, and I told Lin this as well. That doesn't roll off your tongue because it doesn't sound like something Carla would say. Then just use your words communicating the same point.
+
+
+## Chapter 6 (50:00 to 1:00:00)
 
 **Speaker 3 | 50:29**
 Yeah. I mean, I would try to avoid a situation where they could hit me with a "no. So instead of framing it... You tell me about your experience and what you think. So instead of framing it as, "Are you ready for me to walk you through our process?" I would rather be assertive and say, "All right.
