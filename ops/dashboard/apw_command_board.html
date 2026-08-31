@@ -1023,7 +1023,7 @@
       <button type="button" class="theme-toggle" id="fx-copy">Copy this report</button>
       <button type="button" class="theme-toggle" style="border-color:rgba(61,220,151,.5)" onclick="if(window.APW_ATTEST_TRIAGE)window.APW_ATTEST_TRIAGE()" data-tip="One tap = every person currently in view whose Triage says Unknown gets marked TRIAGED ✓ on your word. Saves on this device and queues in Pending sync — Notion stays untouched until Lane 1 writes it.">🎯 Attest: everyone in view WAS triaged</button>
     </div>
-    <p class="sub" style="margin:10px 0 0" id="fx-note">“+ Raw GHL book” adds every system contact to the counts (their speed &amp; show facets come from GHL; the table below still lists tracked leads only). Hours reads the tracker's live Created time — snapshot rows show Unknown. In-hours = Mon–Fri 7:00am–5:45pm PT, per Alan 8/30. Real arrival datetimes, speed-to-lead and booking timestamps come from the GHL system pull (81 of 83 tracked leads matched; Stefan + Bryan are non-GHL referrals) — they override the tracker's bulk-import stamps. The 15 groups run in true pipeline order (Alan 8/30). Setter Verdict, Setter Grading, offer type and the deal stages have no Notion fields yet — they read from Stage + your tap-to-correct (🎯🎙🗣📄💰🔁 icons, hover any icon for a plain-English explainer; every tap shows a big before→after confirmation and queues in Pending sync). Expand any row for the setter-grading checklist.</p>
+    <p class="sub" style="margin:10px 0 0" id="fx-note">“+ Raw GHL book” adds every system contact to the counts (their speed &amp; show facets come from GHL; the table below still lists tracked leads only). Hours reads the tracker's live Created time — snapshot rows show Unknown. In-hours = Mon–Fri 7:00am–5:45pm PT, per Alan 8/30. Triage: leads that reached a booked call count as TRIAGED per Alan's 8/31 attestation (tap 🎯 to override any row; <a href="https://github.com/Awake999/awake/blob/claude/dashboard-lane-polish/ops/prompts/2026-08-31-data-correction-demands.md">his words ↗</a>) — only never-booked leads stay Unknown until Lane 1 backfills Notion. Real arrival datetimes, speed-to-lead and booking timestamps come from the GHL system pull (81 of 83 tracked leads matched; Stefan + Bryan are non-GHL referrals) — they override the tracker's bulk-import stamps. The 15 groups run in true pipeline order (Alan 8/30). Setter Verdict, Setter Grading, offer type and the deal stages have no Notion fields yet — they read from Stage + your tap-to-correct (🎯🎙🗣📄💰🔁 icons, hover any icon for a plain-English explainer; every tap shows a big before→after confirmation and queues in Pending sync). Expand any row for the setter-grading checklist.</p>
   </div>
 </section>
 
@@ -2276,7 +2276,7 @@ window.APW_TRUTH_GET = function (displayName) {
       window.APW_CHOOSE(name + ' — change TRIAGE to:', [
         { v: 'yes', i: '🎯', l: 'TRIAGED', s: 'a human vetted this lead', c: 'var(--good)' },
         { v: 'no', i: '✕', l: 'NOT TRIAGED', s: 'nobody vetted them', c: 'var(--crit)' },
-        { v: 'auto', i: '↺', l: 'AUTO', s: 'use what Notion has (else Unknown)', c: 'var(--ink-2)' }
+        { v: 'auto', i: '↺', l: 'AUTO', s: 'Notion value → else booked ⇒ triaged (Alan-attested) → else Unknown', c: 'var(--ink-2)' }
       ], cur, function (v) {
         if (v === 'auto') delete TRIFIX[name]; else TRIFIX[name] = v;
         try { localStorage.setItem('apw-triage-fix', JSON.stringify(TRIFIX)); } catch (e) {}
@@ -2366,6 +2366,17 @@ window.APW_TRUTH_GET = function (displayName) {
     /* Alan's window adjudication (8/31, buttons): Whitney Y. = THE 1 qualified
        (has money + credit + business; out of main-offer fit but serviceable);
        Gunjan P. + P Reddy P. = tracker said Qualified-Main, DISPUTED — under Alan's review. */
+    /* Alan 8/31 ("resolve … all the unknown issues in the triage section" + earlier
+       "we clearly know these people have been triaged"): a lead that reached a booked call
+       went through triage — attested TRIAGED unless Notion or a tap says otherwise.
+       Genuinely-new leads (never booked) honestly stay Unknown. */
+    function triOf(name, humanTriaged, stage, ghlBooked) {
+      if (TRIFIX[name]) return { v: TRIFIX[name], src: 'your tap' };
+      if (humanTriaged) return { v: 'yes', src: 'Notion' };
+      if (bookedOf(stage) === 'yes' || ghlBooked) return { v: 'yes', src: 'Alan-attested 8/31 — booked ⇒ triaged' };
+      return { v: 'unk', src: 'never booked — nothing recorded' };
+    }
+    window.APW_TRI_OF = triOf;
     function qualAdj(name, q) {
       var k = String(name || '').toLowerCase();
       if (k.indexOf('gunjan') === 0 || k.indexOf('p reddy') === 0) return 'unk';
@@ -2399,7 +2410,7 @@ window.APW_TRUTH_GET = function (displayName) {
         entry: r['Entry Path'] || 'unk',
         speed: (typeof sp === 'number') ? (sp <= 1 ? 'sub1' : sp <= 2 ? 'sub2' : 'slow') : 'unk',
         hours: clk === null ? 'unk' : (clk.weekday && clk.mins >= 420 && clk.mins <= 1065 ? 'in' : 'out'),
-        triage: TRIFIX[nm] || (r['Human Triaged'] ? 'yes' : 'unk'),
+        triage: triOf(nm, r['Human Triaged'], r['Stage'], tru && tru.appts > 0).v,
         qual: qualAdj(nm, qb(r['Qualification'])),
         show: (function () { var s = window.APW_SHOWED_FINAL(nm, r['Stage'], false); return (s === 'unk' && tru && tru.show) ? tru.show : s; })(),
         dispo: db(r['Stage']),
@@ -2423,7 +2434,7 @@ window.APW_TRUTH_GET = function (displayName) {
         entry: r[2] || 'unk',
         speed: (trs && typeof trs.stl === 'number') ? (trs.stl <= 1 ? 'sub1' : trs.stl <= 2 ? 'sub2' : 'slow') : 'unk',
         hours: clkS === null ? 'unk' : (clkS.weekday && clkS.mins >= 420 && clkS.mins <= 1065 ? 'in' : 'out'),
-        triage: TRIFIX[r[0]] || 'unk',
+        triage: triOf(r[0], null, r[1], trs && trs.appts > 0).v,
         qual: qualAdj(r[0], qb(r[3])),
         show: (shS === 'unk' && trs && trs.show) ? trs.show : shS,
         dispo: db(r[1]),
@@ -2777,13 +2788,14 @@ window.APW_TRUTH_GET = function (displayName) {
           +(sh==='yes' ? "<span class='chip good'>✓" : sh==='no' ? "<span class='chip crit'>✕" : "<span class='chip mut'>?")
           +(fixed?" ✎":"")+"</span></button>";
         var dlS = window.APW_DEAL_GET ? window.APW_DEAL_GET(r[0], r[0], r[1]) : { v: 'unk', a: 'unk', p: 'unk', f: 'unk' };
-        var tvS = (window.APW_TRIFIX && window.APW_TRIFIX[r[0]]) || 'unk';
+        var tvoS = window.APW_TRI_OF ? window.APW_TRI_OF(r[0], null, r[1], (window.APW_TRUTH_GET && (window.APW_TRUTH_GET(r[0]) || {}).appts > 0)) : { v: 'unk', src: '' };
+        var tvS = tvoS.v;
         var nEsc = r[0].replace(/'/g, "\\'");
         function dbn(icon, lbl, val, fn) {
           return "<button type='button' class='vbtn dealb" + (val === 'yes' ? ' on' : val === 'no' ? ' off' : '') + "' data-tip='" + lbl + ". Right now: " + (val === 'yes' ? 'YES ✓' : val === 'no' ? 'NO ✕' : 'UNKNOWN — nothing recorded yet') + ". Tap → a popup lets you PICK the new value. Saves instantly, queues for the Notion sync.' onclick=\"event.stopPropagation();" + fn + "\">" + icon + "</button>";
         }
         var svS = (window.APW_SETFIX && window.APW_SETFIX[r[0]]) || 'unk';
-        var dealHtml = dbn('🎯', 'Triaged — a human vetted this lead', tvS, "window.APW_TRI_CYCLE('" + nEsc + "')")
+        var dealHtml = dbn('🎯', 'Triaged — a human vetted this lead (source: ' + tvoS.src.replace(/'/g, '') + ')', tvS, "window.APW_TRI_CYCLE('" + nEsc + "')")
           + dbn('🎙', 'Setter Verdict — popup: Primary / Downsell / Custom / Not qualified', svS === 'unk' ? 'unk' : (svS === 'notqual' ? 'no' : 'yes'), "window.APW_SET_CYCLE('" + nEsc + "')")
           + dbn('🗣', 'Verbal Yes — they said yes on the phone', dlS.v, "window.APW_DEAL_CYCLE('" + nEsc + "','v')")
           + dbn('📄', 'Agreement sent', dlS.a, "window.APW_DEAL_CYCLE('" + nEsc + "','a')")
@@ -3037,10 +3049,11 @@ window.APW_TRUTH_GET = function (displayName) {
         sc.appendChild(shb); tr.appendChild(sc);
         /* Deal column — 🎯 triaged · 🗣 verbal yes · 📄 agreement · 💰 paid · 🔁 follow-up; tap cycles yes→no→auto */
         var dc = document.createElement('td'); dc.className = 'dealtd';
-        var tv = (window.APW_TRIFIX && window.APW_TRIFIX[nmS]) || (r['Human Triaged'] ? 'yes' : 'unk');
+        var tvo = window.APW_TRI_OF ? window.APW_TRI_OF(nmS, r['Human Triaged'], r['Stage'], truR && truR.appts > 0) : { v: (r['Human Triaged'] ? 'yes' : 'unk'), src: '' };
+        var tv = tvo.v;
         var sv = (window.APW_SETFIX && window.APW_SETFIX[nmS]) || 'unk';
         var SVL = { primary: 'PRIMARY FIT', down: 'DOWNSELL FIT', custom: 'CUSTOM FIT', notqual: 'NOT QUALIFIED' };
-        [['t', '🎯', 'Triaged — a human vetted this lead', tv],
+        [['t', '🎯', 'Triaged — a human vetted this lead (source: ' + tvo.src + ')', tv],
          ['s', '🎙', 'Setter Verdict — setter\u2019s call before booking (popup: Primary / Downsell / Custom / Not qualified)', sv === 'unk' ? 'unk' : (sv === 'notqual' ? 'no' : 'yes')],
          ['v', '🗣', 'Verbal Yes — they said yes on the phone, ready to go', dl.v],
          ['a', '📄', 'Agreement Sent — the contract went out to them', dl.a],
@@ -3229,6 +3242,47 @@ window.APW_TRUTH_GET = function (displayName) {
         'SELECT "Client", "url", "Created", "Speed to Lead (min)", "Stage", "Entry Path", "Source", "Funding Ask", "Score Band", "Human Triaged", "Qualification", "Unqualified Reasons" AS ur, "Deal Value", "No-Close Reason", "Attribution Confidence", "date:Last Touch:start" AS lt, (SELECT COUNT(*) FROM "' + DS + '") AS _total FROM "' + DS + '" ORDER BY datetime("Created") DESC' } };
       var applied = false;
 
+      /* Notion serves at most ~100 rows per query page; page 2 (OFFSET 100) spawns only
+         once the tracker exceeds that, and any page-2 failure degrades to the honest
+         'newest 100 of N' label — never breaks page 1. (Alan 8/31: "resolve … a hundred leads in view") */
+      var PAGES = { 1: null, 2: null }, page2Started = false, page2Failed = false, lastTs = null;
+      function combined() {
+        var a = PAGES[1] || [];
+        if (!PAGES[2] || !PAGES[2].length) return a;
+        var seen = {};
+        a.forEach(function (r) { seen[(r.url || '') + '|' + (r['Client'] || '')] = 1; });
+        return a.concat(PAGES[2].filter(function (r) { return !seen[(r.url || '') + '|' + (r['Client'] || '')]; }));
+      }
+      function renderAll() {
+        var rows = combined();
+        if (!rows.length) return;
+        window.APW_TOTAL = (PAGES[1] && PAGES[1][0] && typeof PAGES[1][0]._total === 'number') ? PAGES[1][0]._total : rows.length;
+        apply(computeStats(rows));
+        renderRoster(rows);
+        try { renderQualLive(rows); } catch (e) { /* qual section keeps snapshot */ }
+        applied = true;
+        var ts = lastTs || new Date();
+        var tot = window.APW_TOTAL;
+        var loadNote = rows.length < tot
+          ? (rows.length + ' newest loaded of ' + tot + (page2Failed ? ' (page 2 unavailable — retries automatically)' : ' — loading the rest…'))
+          : ('ALL ' + tot + ' leads');
+        setBadge('live', 'Live · Notion · ' + loadNote + ' · ' + ts.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }));
+        var asof = document.getElementById('fx-asof');
+        if (asof) asof.innerHTML = 'Data as of: <b>live Notion tracker ' + ts.toLocaleString([], { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) + '</b> (' + loadNote + ', newest first) · GHL evidence pull <a href="https://github.com/Awake999/awake/blob/claude/dashboard-lane-polish/ops/archive/ghl/2026-08-30/GHL_PULL_SUMMARY.md">Aug 30, 08:00 UTC ↗</a>';
+      }
+      function startPage2() {
+        if (page2Started) return; page2Started = true;
+        var input2 = { data: { data_source_urls: input.data.data_source_urls, query: input.data.query + ' LIMIT 100 OFFSET 100' } };
+        try {
+          mcp.watchTool('Notion', 'notion-query-data-sources', input2, function (ev2) {
+            if (ev2.type === 'data') {
+              var p2 = ev2.result && ev2.result.payload;
+              if (typeof p2 === 'string') { try { p2 = JSON.parse(p2); } catch (e) { p2 = null; } }
+              if (p2 && Array.isArray(p2.results)) { PAGES[2] = p2.results; page2Failed = false; renderAll(); }
+            } else if (ev2.type === 'error') { page2Failed = true; renderAll(); }
+          }, { refetchInterval: 600000, cache: { staleTime: 60000 } });
+        } catch (e) { page2Failed = true; renderAll(); }
+      }
       mcp.watchTool('Notion', 'notion-query-data-sources', input, function (ev) {
         if (ev.type === 'data') {
           var p = ev.result && ev.result.payload;
@@ -3239,16 +3293,11 @@ window.APW_TRUTH_GET = function (displayName) {
             rosterState('err', 'Roster feed returned no rows — the audited Notion tables remain the source of truth.');
             return;
           }
-          window.APW_TOTAL = (rows[0] && typeof rows[0]._total === 'number') ? rows[0]._total : rows.length;
-          apply(computeStats(rows));
-          renderRoster(rows);
-          try { renderQualLive(rows); } catch (e) { /* qual section keeps snapshot */ }
-          applied = true;
-          var ts = (ev.result.cache && ev.result.cache.storedAt) ? new Date(ev.result.cache.storedAt) : new Date();
-          var tot = window.APW_TOTAL, loadNote = rows.length < tot ? (rows.length + ' newest loaded of ' + tot) : (tot + ' leads');
-          setBadge('live', 'Live · Notion · ' + loadNote + ' · ' + ts.toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' }));
-          var asof = document.getElementById('fx-asof');
-          if (asof) asof.innerHTML = 'Data as of: <b>live Notion tracker ' + ts.toLocaleString([], { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) + '</b> (' + loadNote + ', newest first) · GHL evidence pull <a href="https://github.com/Awake999/awake/blob/claude/dashboard-lane-polish/ops/archive/ghl/2026-08-30/GHL_PULL_SUMMARY.md">Aug 30, 08:00 UTC ↗</a>';
+          PAGES[1] = rows;
+          lastTs = (ev.result.cache && ev.result.cache.storedAt) ? new Date(ev.result.cache.storedAt) : new Date();
+          var tot1 = (rows[0] && typeof rows[0]._total === 'number') ? rows[0]._total : rows.length;
+          if (tot1 > rows.length) startPage2();
+          renderAll();
         } else if (ev.type === 'error') {
           var c = ev.error && ev.error.code;
           if (c === 'needs_reauth') { if (applied) { apply(SNAP); applied = false; } rosterState('empty'); setBadge('err', 'Reconnect Notion in claude.ai Settings → Connectors'); }
