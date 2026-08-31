@@ -1,0 +1,387 @@
+DM channel D0BMPBLHXSA (Alan Nguyen U0ADC1UNXAQ ↔ Lynn U0BMPBL29UN). Captured 2026-08-31 via Slack MCP slack_read_channel, page 2 of N, newest-first, verbatim as returned. Covers 2026-08-20 12:38:26 PDT → 2026-08-25 00:46:40 PDT. Next-page cursor: bmV4dF90czoxNzg3MjU0Njg0NzI4NDM5
+
+Alan Nguyen <nguyenalan95@gmail.com>: And i think we need to ask ourselves: Is this genuinely required to produce the desired outcome, or have we simply made it a prerequisite?
+• notion is definitely not genuinely required to produce the desired outcomes of disputes completed asap
+• it is definitely the prerequisite to an idealized system long term - where we just don't have enough training on it for anyone here to confidently lead anyone else easily into it & quickly [2026-08-25 00:46:40 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: "I think we need something like:
+*Current system → simplify → document → run → measure → identify actual bottleneck → change ONE thing → measure again.*
+• thank you for this example of a viable solution! this is the type of high quality conversation that we want to be having - speaking of true productivity. Communication primarily on solutions.
+Not:
+*Current system → add five things → AI them → automate them → document them → create meetings around them → discover nobody understands them → add another thing."*
+
+• I agree. I used A.I. to help with the integration into notion, to make your job easier, under the premise of leading the integration over to notion.  I take responsibility on bearing too much of that responsibility on to you without proper foundational context. That's on me.
+• from now on we are just going to have each department follow my lead for each respective department, and we will not have cross pollination in the form of management, if there is no actual experience in it.
+Just to be clear, nobody understood because there was complaining about how things were, so we tried to resolve that - which fundamentally made things much more complicated through over-optimization
+
+when the real solution was just to spend the genuine time to go through the process step by step. That's what created the actual understanding.
+
+The initial dispute system was ran in the initial way that you expressed, we just misidentified the actual bottleneck, which was implementing a solution that gets things done in real time
+• & the thought / process of idealism / perfection long term, was causing further disruption  [2026-08-25 00:45:06 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: "I feel like im being asked to execute inside ambiguity while simultaneously mentally organizing the ambiguity for everyone else.
+
+feels like the result of more tools + more documentation + more meetings + more tasks + more mental overhead = less actual productivity."
+
+• I will have you only focus on regular static tasks, and less about new tasks, new systems, leading new integrations, etc.  [2026-08-25 00:38:06 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: "and I think im reacting to something deeper than just "lack of organization"
+It's lack of a single source of truth + uncontrolled complexity.
+• the single primary source of truth has always been me. No need for uncontrolled complexity, just a focus on simplicity.
+We don't have a clearly defined:
+*Goal → Process → Owner → Tool → Input → Action → Output → Feedback → Adjustment*
+
+• We do have all of these things.
+• In what way are you specifically experiencing that we do not have this?
+• is this because of the dispute side of things? Perhaps it's because we've been stepping into the role from a top down mentality, vs a ground up approach?
+instead, we're getting:
+*Problem → new tool → new meeting → new AI thing → new document → new task → new prerequisite → new adjustment → another problem*
+and my brain is going, "Wait, what the fuck is the actual system we're operating?""
+
+• this sounds like the natural evolution of any problem / solution  in real time
+• solution oriented problem solving as our primary core
+That's the beauty and nature of life. Everything is changing and evolving.
+
+Our greatest opportunity is learning how to adapt in real time to everything and implement the next best solution together as unit.
+
+Sometimes it may work, sometimes it may not.
+Either way, we need to make decision fast and quickly, and do it together as a unit.
+
+Not every decision will be a perfect decision, but every decision will bring us one step closer to realizing what is a good / bad solution --> which ultimately brings us closer to the goal. Okay, trying to get everyone on notion didn't work for 3 weeks? okay lets try something else that's quicker and real time, until we iron out the bugs [2026-08-25 00:30:09 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: "which in turn, feels like to me that we're trying to fix things and do things that are:
+• not actually giving us real actionable feedback (or maybe it feels like that for me as i'm not very involved in dispute)
+    ◦ I think this is also because you're not fully invested into the dispute process, so perhaps you're not seeing the feedback for that reason.
+• now taking away from productivity
+    ◦  we already have proof that it has contributed positively towards productivity and results. In one day, and not weeks.
+• creating more unstructured slop
+    ◦ the unstructured slop comes from not actually seeing the benefit because it is not directly applying to you. --> for the same reason you use trello and not notion for your job, is the same type of organizational - operational ease that we are implementing for the dispute team
+• directionless meetings - as we're too focused on many different directions at once, making everyone overwhelmed and confused.
+    ◦ it doesn't seem like we are on the same page of the actual direction.
+    ◦ Perhaps I need to be more clear on what the direction is, and how it applies to everyone.
+    ◦ What was unclear about the direction the meeting was going as a group?
+    ◦ - yes perhaps some people had to be present while others were being taught, just as everyone else did. sometimes it might not be as ideal, but everyone needs to be showing up with a team player mentality
+• more unnecessary work for me and everyone involved, when im already mentally managing everything.. and things could just be simple today, actual necessary adjustments"
+    ◦ Confirming that we will be pulling you from management roles.
+Yes, I am hearing and receiving your points of friction.
+Thank you for sharing.
+
+This will be very important for me to clearly communicate moving forward, that naturally we will always have differentiating points of view; and that if there is something that bothers us, or if there is something that we believe we need to change - we will be given the space to voice it - where the only requirement for such, will be to accompany that same thread of frustration or disagreement, with a tangible, viable solution to resolve it that functionally works, and can be easily adapted to by any open minded, willing participant, with a good mindset/attitude. [2026-08-25 00:29:28 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Hey Lynn, thank you for sending this thorough message.
+I will do my best to respond to each point fully.
+
+"My frustrations lie in the fact that it feels to me like with the lack of structure, we're just adding more and more slop, more shit into the pile of shit...basically trying to operate inside a machine while the machine is being rebuilt while we're using it"
+
+• I hear you. & I can totally understand that it can be frustrating to have specific expectations for structure that we may not be fully aligned with in the moment.
+    ◦ the more slop, I can empathize with
+        ▪︎ however, it is really important to know that everyone else does not perceive it as slop. & actually prefer it. (in regards to the movement towards Trello & it's simplicity)
+I understand your frustrations, because you have voiced multiple times this in our group calls, that you want everything in one place, and that too many different things feels overwhelming. I get it.
+• This is exactly why we transitioned to notion, because this is what YOU wanted. & the company adapted to your individual wants, needs, and desires; despite it being more of an uphill thing for myself, and others.
+    ◦ We moved in this direction, because this was your preference for simplicity, so we accommodated; despite my approach focused on ease and effectiveness, at the cost of multiple different places to be.
+        ▪︎ In my mind and experience, the easiest / most simple workflow that produces effective results quickly is...
+            • GHL for client facing - first contact communications - CRM
+            • Slack for internal communications + client communications if desired (most people prefer text, call and email)
+            • Google Docs for cloud synced word processing - which can double as notes, records, client history, process, etc. All in one - taking care of client tracking, although perhaps not as pretty. If things get dense, adding a Google Sheets (spreadsheet) helps organize Google Docs, and any attachments / files
+            • Files uploaded via Google Drive. Simple. Effective. Yes, we could have spent more time organizing it, but everything IS there.
+Which ultimately brings us back to the whole full circle loop.....
+This over-optimization has been initiated and driven by this long term "perfect" concept with Notion - that has not been fully integrated as of yet.
+• Which brings us back to 1) the accommodation for your desires to sooth your frustrations --> through the integrating of a singular solution through notion
+• ... If you remember, the beginning of this journey, I outwardly expressed that we CAN move this direction if you would like, and we could do that.. however this would be lead and driven by you, since you have the experience with notion.
+Granted, notion has taken a very long time for us to get up and running, AND get everyone quickly up to speed with it.
+Weeks later, we still are not fully flushed with it, and no one actually knows how to use it yet fully.
+
+Which led us back to the whole over-optimization theme once again.
+
+We need things immediate, and quick to pick up, and easy to understand and follow through with, without complexity.
+& even though the ideal of notion is great; the reality is that it is actually more complex in effective practice to operate with as beginners, than juggling multiple other services are.
+
+Which in turn, is the important and appropriate time to bring up a healthy mindset when it comes to adapting to multiple new things.
+Yes there may be many things, however these things are just the requirements. It CAN be overwhelming, or we can choose to learn how to adapt to these things.
+
+...
+
+Just like with Apex right?
+If we were brand new to Apex, and hot dropped, it would seem pretty darn overwhelming.
+Especially if we focused on ALL the things we needed to do
+• walk
+• look around
+• do both at the same time
+• pick up weapons
+• reloads
+• sort between different guns
+• sort between different ammo
+• memorize the guns???
+• how many different guns?
+• slide jumps?
+• wall bounces?
+• holstering?
+• shooting AND moving?
+• ATTACHMENTS??
+• HOW MANY??
+• ABILITIES??
+• ULTIMATES??
+• CHARACTERS???
+......
+if we went into the "i need to do more and learn more? and that more is exhausting?" - mindset, that would be very unpleasant, and frustrating for sure.
+
+which brings me back to healthy, and loving mindset.
+
+i will respond to more, but i have another meeting, one moment.
+
+everything i say is said with love and respect and peace of course [2026-08-24 21:03:54 PDT]
+
+Lynn <neves.lynn7@gmail.com>: Working on the Trello RN
+• adding to what i meant in the call earlier.. i know you're looking to create an easy way to monitor and review this week's progress, but i think going over SODR for a long time isn't something that's helping us generate money today.
+• love the idea and checklist thing, but going forward i think it's no longer appropriate using meeting time to create a new function
+• Meeting time should be strictly for reinforcing/enhancing knowledge and skill, where each meeting we can all leave with more value and understanding [2026-08-24 16:20:20 PDT]
+
+Lynn <neves.lynn7@gmail.com>: Also btw, I did inform you through text yesterday, the 28th is when I have to be up in chico getting my lease. Might not have internet that exact day, not sure yet, but also we have to unpack the storage room and get it all into the apartment (could take all day. so might look like midnight thursday drive up to chico, then get moved in w uhaul/storage unit stuff.) If you can take a look at my text when u get the chance [2026-08-24 13:50:28 PDT]
+
+Lynn <neves.lynn7@gmail.com>: My frustrations lie in the fact that it feels to me like with the lack of structure, we're just adding more and more slop, more shit into the pile of shit...basically trying to operate inside a machine while the machine is being rebuilt while we're using it
+
+which in turn, feels like to me that we're trying to fix things and do things that are:
+• not actually giving us real actionable feedback (or maybe it feels like that for me as i'm not very involved in dispute)
+• now taking away from productivity
+• creating more unstructured slop
+• directionless meetings - as we're too focused on many different directions at once, making everyone overwhelmed and confused.
+• more unnecessary work for me and everyone involved, when im already mentally managing everything.. and things could just be simple today, actual necessary adjustments
+and I think im reacting to something deeper than just "lack of organization"
+It's lack of a single source of truth + uncontrolled complexity.
+We don't have a clearly defined:
+*Goal → Process → Owner → Tool → Input → Action → Output → Feedback → Adjustment*
+
+instead, we're getting:
+*Problem → new tool → new meeting → new AI thing → new document → new task → new prerequisite → new adjustment → another problem*
+and my brain is going, "Wait, what the fuck is the actual system we're operating?"
+
+I feel like im being asked to execute inside ambiguity while simultaneously mentally organizing the ambiguity for everyone else.
+
+feels like the result of more tools + more documentation + more meetings + more tasks + more mental overhead = less actual productivity.
+
+I think we need something like:
+*Current system → simplify → document → run → measure → identify actual bottleneck → change ONE thing → measure again.*
+
+Not:
+*Current system → add five things → AI them → automate them → document them → create meetings around them → discover nobody understands them → add another thing.*
+
+And i think we need to ask ourselves: Is this genuinely required to produce the desired outcome, or have we simply made it a prerequisite? [2026-08-24 13:44:42 PDT]
+
+Lynn <neves.lynn7@gmail.com>: waiting [2026-08-24 09:32:10 PDT]
+
+Lynn <neves.lynn7@gmail.com>: joined [2026-08-24 09:32:09 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: the one i posted [2026-08-24 09:31:51 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: APW [2026-08-24 09:31:46 PDT]
+
+Lynn <neves.lynn7@gmail.com>: which one [2026-08-24 09:31:39 PDT]
+
+Lynn <neves.lynn7@gmail.com>: carla's [2026-08-24 09:31:37 PDT]
+
+Lynn <neves.lynn7@gmail.com>: im in the zoom [2026-08-24 09:31:36 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: join first plz [2026-08-24 09:31:30 PDT]
+
+Lynn <neves.lynn7@gmail.com>: fixing it rn [2026-08-24 09:31:26 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>:  [2026-08-24 09:31:13 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: please fix that asap [2026-08-24 09:30:38 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: paused [2026-08-24 09:30:34 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: also it says that your notifications are pause [2026-08-24 09:30:32 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: waiting on you [2026-08-24 09:30:26 PDT]
+
+Lynn <neves.lynn7@gmail.com>: Okay [2026-08-24 09:04:36 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: finishing up with dispute team [2026-08-24 09:01:45 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: delay with the team meeting [2026-08-24 09:01:40 PDT]
+
+Lynn <neves.lynn7@gmail.com>: can you name mine "Lynn's" please [2026-08-24 09:01:24 PDT]
+
+Lynn <neves.lynn7@gmail.com>:  [2026-08-24 09:01:09 PDT]
+
+Lynn <neves.lynn7@gmail.com>: <https://fathom.video/share/uz3kQADTPco-W-4YxrwQyxgNJ_Jn7EEH|fathom.video/share/uz3kQADTPco-W-4YxrwQyxgNJ_Jn7EEH> [2026-08-24 09:00:22 PDT]
+
+Lynn <neves.lynn7@gmail.com>: i dont have access to this when i click on the link [2026-08-24 08:42:54 PDT]
+
+Lynn <neves.lynn7@gmail.com>: where do i go for these!! LOL i was not aware [2026-08-24 08:26:30 PDT]
+
+Lynn <neves.lynn7@gmail.com>: and i just seen this  [2026-08-24 08:26:20 PDT]
+
+Lynn <neves.lynn7@gmail.com>: where do you find these resources  [2026-08-24 08:25:57 PDT]
+
+Lynn <neves.lynn7@gmail.com>: uhhh. what would staff questions look requests be for? sounds like clutter but where would u want it [2026-08-24 08:24:44 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Are you coming to the dispute team meeting? [2026-08-24 08:04:55 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: (Also in the in between waiting time also) [2026-08-24 07:43:14 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Meaning that if you can study up the essentials of the DM process with CCA, first and foremost (30 mins)
+
+And then 30 mins on the ad process
+• dedicated between 10-11am PST
+That means we could get them running today, and I could discuss that with you at our 11am briefly
+
+Or whenever I get back from the dmv which is hopefully between 12pm-12:55pm [2026-08-24 07:42:58 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>:  [2026-08-24 07:40:36 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Thinking about you're goals again
+
+3) we need to get the 3rd campaign up and running again for the DM campaign
+• Carla is out of the office for today
+• My calendar is pretty much packed until late tonight
+—> so you may have to lead the charge on that for studying the ads process through CCA (after all higher priority tasks are done)
+
+Otherwise I can look at it tonight or tomorrow
+
+But I really need to focus on these breakout videos  [2026-08-24 07:39:18 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Thoughts? [2026-08-24 07:36:52 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Thank you for this.
+
+Let's get into the habit of transitioning these great requests into the "agenda" channel
+
+Or if that gets too crowded, maybe we should create a slack channel for APW-staff-questions-look-requests [2026-08-24 07:36:48 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Thank you.
+
+1) And ok, I can film another video, but this time a dedicated loom for the differences.
+
+Thank you.
+
+2) I can create another dedicated loom / visual for the FTC reports sent in per bureau
+• same with CFPB
+• probably will be a Canva whiteboard for ease  [2026-08-24 07:35:44 PDT]
+
+Lynn <neves.lynn7@gmail.com>: yes i'll send it [2026-08-24 07:22:07 PDT]
+
+Lynn <neves.lynn7@gmail.com>: the ones i can think of so far:
+•  ver A, ver B, ver C differences. (1 video per)
+• clarification on how many FTC reports sent in per bureau, how many CFPB reports sent in
+whoops didn't send this but i have more  [2026-08-24 07:22:03 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: whenever you get the chance, may you share with me the fathom that you and I were on when I went to the airport? my notetaker wasnt in there because i was on my phone [2026-08-22 01:50:55 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Paid, thank you again Lynn! [2026-08-22 00:28:19 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Thank you! [2026-08-21 21:47:12 PDT]
+
+Lynn <neves.lynn7@gmail.com>: Yeah I will [2026-08-21 19:47:22 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: Thank you.
+
+If there is anything that you notice seems like a pattern or certain repeating challenging & confusing topics for multiple people in the dispute process, or anywhere
+
+Please write them down in a doc
+
+• so I can film looms on them for everyone in the future, and to clarify and make things easier  [2026-08-21 17:18:48 PDT]
+
+Lynn <neves.lynn7@gmail.com>: <https://docs.google.com/document/d/1AkppdxiG73HpKrdh-qYFTJBC4oA3q2zh4gV75exJbyA/edit?usp=sharing|docs.google.com/document/d/1AkppdxiG73H…/edit?usp=sharing> [2026-08-21 15:21:24 PDT]
+
+Lynn <neves.lynn7@gmail.com>: <https://docs.google.com/document/d/1AkppdxiG73HpKrdh-qYFTJBC4oA3q2zh4gV75exJbyA/edit?usp=sharing|docs.google.com/document/d/1AkppdxiG73H…/edit?usp=sharing> [2026-08-21 15:21:10 PDT]
+
+Lynn <neves.lynn7@gmail.com>: these are the FAQ btw [2026-08-21 15:21:02 PDT]
+
+Lynn <neves.lynn7@gmail.com>:  [2026-08-21 15:21:00 PDT]
+
+Lynn <neves.lynn7@gmail.com>: do you still want me to try and call again and still get him scheduled today? [2026-08-21 14:53:34 PDT]
+
+Lynn <neves.lynn7@gmail.com>: though you're busy today [2026-08-21 14:53:13 PDT]
+
+Lynn <neves.lynn7@gmail.com>: zacherly did not answer [2026-08-21 14:53:09 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: zacherly was a same day today to sign [2026-08-21 14:49:19 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: and thank you [2026-08-21 14:48:59 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: zacherly? [2026-08-21 14:48:56 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: nick? [2026-08-21 14:48:54 PDT]
+
+Lynn <neves.lynn7@gmail.com>: and figured you're busy [2026-08-21 14:43:39 PDT]
+
+Lynn <neves.lynn7@gmail.com>: yeah i scheduled nick for tues [2026-08-21 14:43:36 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: zacherly update? [2026-08-21 14:43:34 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: i may not be available today [2026-08-21 14:43:27 PDT]
+
+Lynn <neves.lynn7@gmail.com>: so if you wanna try calling again sometime or i can call her later or monday [2026-08-21 14:21:17 PDT]
+
+Lynn <neves.lynn7@gmail.com>: i alr called but she didnt answer [2026-08-21 14:21:04 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: or take down questions that she has [2026-08-21 14:20:56 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: you can call her to schedule with me if needed [2026-08-21 14:20:52 PDT]
+
+Lynn <neves.lynn7@gmail.com>: i wrote notes for her [2026-08-21 14:20:49 PDT]
+
+Lynn <neves.lynn7@gmail.com>: yeahhh [2026-08-21 14:20:44 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: thats gonna be a me thing [2026-08-21 14:20:41 PDT]
+
+Lynn <neves.lynn7@gmail.com>: that makes it kinda weird for me to call her [2026-08-21 14:20:35 PDT]
+
+Lynn <neves.lynn7@gmail.com>: but theres a nuance [2026-08-21 14:20:28 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: its gonna be a technical questioning [2026-08-21 14:20:28 PDT]
+
+Lynn <neves.lynn7@gmail.com>: idk yet i wanted to schedule something w her [2026-08-21 14:20:22 PDT]
+
+Lynn <neves.lynn7@gmail.com>: cause idk how to handle calling her - though she didnt answer me the first time [2026-08-21 14:20:12 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: michaels daughter [2026-08-21 14:20:09 PDT]
+
+Lynn <neves.lynn7@gmail.com>: i just wanted to give you context [2026-08-21 14:20:01 PDT]
+
+Lynn <neves.lynn7@gmail.com>: to talk to me or with michael's daughter [2026-08-21 14:19:56 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: what time [2026-08-21 14:17:58 PDT]
+
+Lynn <neves.lynn7@gmail.com>: are u free to talk? [2026-08-21 13:07:30 PDT]
+
+Lynn <neves.lynn7@gmail.com>: Just talked to Michael he referred his daughter so he wants me to call her to hop on an appointment with you [2026-08-21 13:07:17 PDT]
+
+Lynn <neves.lynn7@gmail.com>: <https://app.notion.com/p/ascendprimewealth/Opt-In-Call-Script-3b35bb1ffef4801eafd0f3da9572efa3?source=copy_link|📲 Opt-In Call Script> [2026-08-21 11:28:49 PDT]
+
+Lynn <neves.lynn7@gmail.com>: I plan to get off right at 7 to pack my car up again n just get up and leave at 4AM or so [2026-08-21 08:14:30 PDT]
+
+Lynn <neves.lynn7@gmail.com>: just lmk [2026-08-20 20:08:37 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: no pressure / expectations - just potential opportunity :slightly_smiling_face: [2026-08-20 19:06:07 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: would be a wild b day present if we could make it work [2026-08-20 19:05:53 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: 8k commission would put you at your first 10k+ month in 1 week in sep [2026-08-20 19:05:43 PDT]
+
+Lynn <neves.lynn7@gmail.com>:  [2026-08-20 16:57:45 PDT]
+
+Lynn <neves.lynn7@gmail.com>: for CFPB [2026-08-20 14:06:00 PDT]
+
+Lynn <neves.lynn7@gmail.com>: its during this part of the application process: [2026-08-20 14:05:56 PDT]
+
+Lynn <neves.lynn7@gmail.com>: <@U0ADC1UNXAQ|Alan Nguyen> why is this clicked no? Legacy puts Yes.
+I'd assume it's Yes because the bureau provides this information on the credit report [2026-08-20 14:04:08 PDT]
+
+Lynn <neves.lynn7@gmail.com>: mhm [2026-08-20 13:20:31 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: and this is why basic attention to detail matters [2026-08-20 13:20:06 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: yes [2026-08-20 13:19:55 PDT]
+
+Lynn <neves.lynn7@gmail.com>: this is why structure is important [2026-08-20 13:19:44 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: 2.5 hours of training 2 people to do a 5-15 minute job [2026-08-20 13:19:21 PDT]
+
+Lynn <neves.lynn7@gmail.com>: mhm [2026-08-20 13:18:25 PDT]
+
+Alan Nguyen <nguyenalan95@gmail.com>: are you hearing this? [2026-08-20 13:18:15 PDT]
+
+Lynn <neves.lynn7@gmail.com>:  [2026-08-20 12:38:26 PDT]
