@@ -10,7 +10,7 @@
 - [July 2026](#july-2026) — 91 meetings
 - [June 2026](#june-2026) — 10 meetings
 
-**Archive status:** 34 archived ✅ · 1 verified no-transcript · 199 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+**Archive status:** 36 archived ✅ · 2 verified no-transcript · 196 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
 
 
 ## August 2026
@@ -44,12 +44,12 @@
 | 2026-08-26 | [Dispute Team Coaching — Script Adherence, Call Recording Protocol](https://fathom.video/calls/798796991) | ✅ [transcript](2026-08-26--dispute-team-coaching-script-adherence--176797747/transcript.md) · [summary](2026-08-26--dispute-team-coaching-script-adherence--176797747/summary.md) · raw ✓ |
 | 2026-08-25 | [Nick Samara - Guaranteed Funding](https://fathom.video/calls/795906442) | ✅ [transcript](2026-08-25--nick-samara-guaranteed-funding--176779823/transcript.md) · raw ✓ |
 | 2026-08-25 | [Team Ops Sync — Trello Centralization, Meeting Schedule, Client Cases](https://fathom.video/calls/798581474) | ✅ [transcript](2026-08-25--team-ops-sync-trello-schedule-client-cases--176753966/transcript.md) · [summary](2026-08-25--team-ops-sync-trello-schedule-client-cases--176753966/summary.md) · raw ✓ |
-| 2026-08-25 | [Impromptu Zoom Meeting (Rosemarie Anne Fabian) <sub>rec 176731448</sub>](https://fathom.video/calls/798529571) | not yet — click title to watch on Fathom |
-| 2026-08-25 | [Impromptu Zoom Meeting (Sabrina Neves) <sub>rec 176664762</sub>](https://fathom.video/calls/798393367) | not yet — click title to watch on Fathom |
+| 2026-08-25 | [Impromptu Zoom Meeting (Rosemarie Anne Fabian) <sub>rec 176731448</sub>](https://fathom.video/calls/798529571) | n/a — no transcript in API (checked 2026-08-31) |
+| 2026-08-25 | [Sabrina Neves — Setter SOP, Slack Structure, Team Ops](https://fathom.video/calls/798393367) | ✅ [transcript](2026-08-25--sabrina-neves-setter-sop-team-ops--176664762/transcript.md) · [summary](2026-08-25--sabrina-neves-setter-sop-team-ops--176664762/summary.md) · raw ✓ |
 | 2026-08-25 | [Tech Call w/ Daniel Jimenez](https://fathom.video/calls/796488274) | ✅ [transcript](2026-08-25--tech-call-daniel-jimenez--176649683/transcript.md) |
 | 2026-08-25 | [APW - Daily Sync (Ina)](https://fathom.video/calls/796919606) | ✅ [transcript](2026-08-25--apw-daily-sync-ina--176612115/transcript.md) · raw ✓ |
 | 2026-08-25 | [APW - Daily Sync (Rosemarie)](https://fathom.video/calls/796092304) | ✅ [transcript](2026-08-25--apw-daily-sync-rosemarie--176612379/transcript.md) · raw ✓ — (+raw; duplicate capture of same sync) |
-| 2026-08-25 | [Impromptu Zoom Meeting](https://fathom.video/calls/798282012) <sub>rec 176612153</sub> | not yet — click title to watch on Fathom |
+| 2026-08-25 | [Daily Meeting Cadence, SBI Feedback, Mindset Audio Review](https://fathom.video/calls/798282012) | ✅ [transcript](2026-08-25--daily-meeting-cadence-sbi-feedback--176612153/transcript.md) · [summary](2026-08-25--daily-meeting-cadence-sbi-feedback--176612153/summary.md) · raw ✓ |
 | 2026-08-25 | [APW - Daily Sync (Sabrina)](https://fathom.video/calls/796488288) | ✅ [transcript](2026-08-25--apw-daily-sync-sabrina--176587651/transcript.md) · raw ✓ — (+raw; third capture of same sync) |
 | 2026-08-25 | [Impromptu Zoom Meeting (Ina) <sub>rec 176566669</sub>](https://fathom.video/calls/798180477) | not yet — click title to watch on Fathom |
 | 2026-08-25 | [Dispute Team - Daily Zoom Meeting](https://fathom.video/calls/798172465) | ✅ [transcript](2026-08-25--dispute-team-daily-zoom--176562530/transcript.md) · raw ✓ |

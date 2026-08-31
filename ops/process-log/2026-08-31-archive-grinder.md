@@ -56,3 +56,25 @@ Ran `format_transcripts.py` (rec 176815084 → chaptered, 5 chapters; rec 176797
 **Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
 
 **Resume point:** next queued row (top-down, August section) is `rec 176731448` ([Fathom call 798529571](https://fathom.video/calls/798529571), 2026-08-25, Rosemarie Anne Fabian).
+
+## Batch 3
+
+Continued top-down — next three queued rows in `INDEX.md`:
+
+| Recording | Call | Result |
+|---|---|---|
+| rec 176731448 | [Fathom call 798529571](https://fathom.video/calls/798529571) | **No transcript in API** — `get_meeting_transcript`/`get_meeting_summary` both returned empty ("No transcript/summary available for this meeting"). Per brief, marked the INDEX row `n/a — no transcript in API (checked 2026-08-31)` rather than guessing; absence from the API is not proof it doesn't exist — Lane 3 recheck later. |
+| rec 176664762 | [Fathom call 798393367](https://fathom.video/calls/798393367) | [2026-08-25--sabrina-neves-setter-sop-team-ops--176664762](../archive/calls/fathom/2026-08-25--sabrina-neves-setter-sop-team-ops--176664762/transcript.md) — Alan/Carla/Sabrina/Daniel: new setter SOP for unqualified leads, Slack channel restructure, Trello-vs-Notion tooling decision, GHL pipeline automation |
+| rec 176612153 | [Fathom call 798282012](https://fathom.video/calls/798282012) | [2026-08-25--daily-meeting-cadence-sbi-feedback--176612153](../archive/calls/fathom/2026-08-25--daily-meeting-cadence-sbi-feedback--176612153/transcript.md) — team daily sync: wins/lessons round, mindset-audio feedback, SBI framework intro, new daily meeting cadence (Ops/Dispute/Sync split) |
+
+Raw sourcing: rec 176664762 auto-saved to a local plain-text tool-result file — `transcript-raw.txt` is a direct `cp`, confirmed identical via `cmp`. rec 176612153 auto-saved to a local JSON tool-result file — `transcript-raw.txt` extracted from the JSON's `text` field programmatically, confirmed byte-identical (`raw == text` check passed).
+
+Ran `format_transcripts.py` (176664762 → chaptered, 9 chapters; 176612153 → chaptered, 6 chapters — no splits) then `add_breadcrumbs.py`. Both carry `formatted: chapters-v1` and `> 🧭` breadcrumbs, confirmed by grep.
+
+**Verbatim self-check:** stripped structural additions and diffed against each `transcript-raw.txt` line-for-line — both matched exactly (176664762: 324/324, 176612153: 227/227).
+
+**INDEX:** flipped the two transcribed rows to ✅ with clickable links + `raw ✓`; marked the no-transcript row per the brief's no-transcript convention. Counts: 34→36 archived, 1→2 no-transcript, 199→196 queued. Verified 36+2+196 = 234 and grep-counted rows (36 ✅ + 2 no-transcript rows / 196 queued = 234) confirm.
+
+**Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
+
+**Resume point:** next queued row (top-down, August section) is `rec 176566669` ([Fathom call 798180477](https://fathom.video/calls/798180477), 2026-08-25, Ina).
