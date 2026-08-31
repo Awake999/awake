@@ -548,3 +548,29 @@ Ran `format_transcripts.py` (172348134 → chaptered, 3 chapters; 172199022 → 
 **Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
 
 **Resume point:** next queued row (top-down, August section) is `rec 171944256` ([Fathom call 779845972](https://fathom.video/calls/779845972), 2026-08-11).
+
+## Batch 24
+
+Resumed via self-scheduled continuation. Fathom MCP tool names stayed on the UUID-prefixed form (`mcp__eab8a98a-3df1-41f9-9cd1-7d1993930308__*`) throughout this batch. Re-verified resume point against live INDEX.md before touching anything — a concurrent Lane 3 sibling push had landed six DM-grinder files (`ops/archive/slack/dms/anne-fabian/**`, `ops/archive/slack/dms/grace-langub/**`, `ops/archive/slack/dms/README.md`, `ops/process-log/2026-08-31-dm-grinder.md`), zero scope overlap, fast-forwarded cleanly. Continued top-down — next three queued rows, spanning 2026-08-10 and 2026-08-11:
+
+| Recording | Call | Archived as |
+|---|---|---|
+| rec 171944256 | [Fathom call 779845972](https://fathom.video/calls/779845972) | [2026-08-11--lynn-client-portal-tracking-hub-sync-fix--171944256](../archive/calls/fathom/2026-08-11--lynn-client-portal-tracking-hub-sync-fix--171944256/transcript.md) — Lynn/Alan walk through Notion's Client Portal vs. internal Client Tracking Hub, discover a sync gap between them, plan a fix call with Jacob, and agree on task-naming/note-placement conventions |
+| rec 171939436 | [Fathom call 779813812](https://fathom.video/calls/779813812) | [2026-08-10--team-pipeline-review-coral-whitney-zachary-new-cadence--171939436](../archive/calls/fathom/2026-08-10--team-pipeline-review-coral-whitney-zachary-new-cadence--171939436/transcript.md) — full-team pipeline review of prospects Coral, Whitney, Zachary (lost to a competitor), P.Ready (likely a window-shopper), Gunjan and Leo, plus a new daily 9 AM top-3-priorities cadence |
+| rec 171935538 | [Fathom call 779780027](https://fathom.video/calls/779780027) | [2026-08-10--rosemarie-live-experian-dispute-call-roleplay--171935538](../archive/calls/fathom/2026-08-10--rosemarie-live-experian-dispute-call-roleplay--171935538/transcript.md) — Alan roleplays an Experian dispute escalation script with Rosemarie, then she runs the live call (voice-masked via Dubbing AI/Grasshopper) and gets the case transferred to the fraud department |
+
+**Near-duplicate content check:** none of the three overlaps in subject, client, or dialogue — no coexistence ambiguity this batch (distinct topics: Notion tooling fix, team-wide client-pipeline review, live dispute-call training).
+
+Raw sourcing: all three transcripts returned inline (no persisted tool-result files this batch, all shorter calls, well under the inline token limit) — `transcript-raw.txt` written from the exact returned tool text via Write for each (self-flagged per the audit-approved inline-transcript raw-write procedure).
+
+All three summaries fetched fresh via `get_meeting_summary` before writing any summary.md (per the batch-20 reminder) — real Fathom AI summaries existed for all three, reproduced verbatim.
+
+Ran `format_transcripts.py` (171944256 → chaptered, 3 chapters; 171939436 → chaptered, 3 chapters; 171935538 → chaptered, 3 chapters; no splits) then `add_breadcrumbs.py`.
+
+**Verbatim self-check:** stripped structural additions and diffed against each `transcript-raw.txt` line-for-line — all three matched exactly (171944256: 93/93, 171939436: 99/99, 171935538: 120/120).
+
+**INDEX:** flipped all three rows to ✅ with clickable links + `raw ✓`. Counts: 96→99 archived, 2 no-transcript (unchanged), 136→133 queued. Verified 99+2+133 = 234 and grep-counted rows (99 ✅ / 2 n/a / 133 queued = 234) confirm.
+
+**Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
+
+**Resume point:** next queued row (top-down, August section) is `rec 171929413` ([Fathom call 779740517](https://fathom.video/calls/779740517), 2026-08-10).
