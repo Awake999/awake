@@ -1,5 +1,11 @@
 # APW OPS — READ THIS FIRST (auto-loaded by every local Claude session)
 
+⛔ **BEFORE ANYTHING ELSE — three mechanical steps, no exceptions:**
+1. `git pull` (this very file may be stale — the laws change daily; a stale clone loads dead law).
+2. RE-READ this file AFTER the pull (it just updated), then [ops/SOP.md](ops/SOP.md) — confirm the version in its header.
+3. Your FIRST reply MUST print: the SOP version on disk + your model/effort + your 5 answers to [ops/LANE_COMPLIANCE_TEST.md](ops/LANE_COMPLIANCE_TEST.md). If you cannot print the SOP version, SAY SO — do not proceed to work.
+Every reply to Alan is built from [ops/RESPONSE_TEMPLATE.md](ops/RESPONSE_TEMPLATE.md): verbatim-quote checklist, model line, token line, REAL buttons, final 🎚️ mode/effort line. This is SOP §1.9 (v1.17+) and it binds THIS session from its first message.
+
 You are working inside the Ascend Prime Wealth ops repo. **Before doing anything:**
 
 1. **Read [`ops/SOP.md`](ops/SOP.md)** — the binding laws (verbatim checklists, evidence links, raw originals, scan-ready output) + lane ownership + the sync ritual (git pull first, push after every batch).
