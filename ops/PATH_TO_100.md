@@ -5,10 +5,10 @@
 ## 👤 ALAN — 11 actions (the biggest lever: one PC session closes 1–7)
 1. 🔒 **Loom lock** (Task 5 — 3 public videos w/ client SSNs; highest security risk) · 2 min
 2. 🔑 **Teramind token + agent coverage check + rotate Carla's password** (Task 7) · 10 min
-3. 💰 **Whop export + API key** (Task 8) — unblocks Ashwini/Pradeep/Nick payment verifications + the whole revenue ledger · 10 min
-4. 📞 **Call-outcome GHL build** (Task 9, [click-by-click SOP](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/CALL_OUTCOME_BUILD_SOP.md)) · 45 min
-5. 💳 **Notion Business checkout tap** ([one-tap link](https://app.notion.com/checkout?source=mcp_tool_upsell&tool=query_data_sources&product=business&spaceId=45a5bb1f-fef4-8161-b4a1-00030e9d49c8)) — makes the board permanently live · 1 min
-6. 📣 **Invite Jacob to Meta Ads Manager** — gates the Sep 1 10am PT launch · 2 min
+3. ~~💰 Whop~~ ✅ DONE 8/31 (Lane 4 run — register #112: Ashwini/Pradeep/Nick verified)
+4. 📞 **Call-outcome GHL build** (Task 9, [click-by-click SOP](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/CALL_OUTCOME_BUILD_SOP.md)) — now incl. **Step 6 cancel→Alan ping (#115)** · ~50 min
+5. ~~💳 Notion Business~~ ✅ DONE 8/31 (register #90b — board permanently live)
+6. ~~📣 Jacob invite~~ ❌ STRUCK (ruling #, 8/30: Jacob has his OWN Ads Manager account — launch NOT gated on this; stale-item class killed by RULINGS.md)
 7. ✅ **Approve the pending Notion join request** (likely ML) · 1 min
 8. ⚖️ **Pricing ruling** — 5 structures on the table, oldest open ruling · thinking time
 9. 🧾 **Payroll figures** — unlocks true team-cost analysis (#48)
