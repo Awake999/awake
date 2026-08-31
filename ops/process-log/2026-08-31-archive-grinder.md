@@ -420,3 +420,27 @@ Ran `format_transcripts.py` (173084908 → short, <2 chapters; 172832320 → cha
 **Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
 
 **Resume point:** next queued row (top-down, August section) is `rec 172826975` ([Fathom call 783146648](https://fathom.video/calls/783146648), 2026-08-12).
+
+## Batch 19
+
+Resumed via self-scheduled continuation (resume point re-verified against live INDEX.md — no change since last push). Continued top-down — next three queued rows, all dated 2026-08-12:
+
+| Recording | Call | Archived as |
+|---|---|---|
+| rec 172826975 | [Fathom call 783146648](https://fathom.video/calls/783146648) | [2026-08-12--rosemarie-todd-blocker-resolved-escalation-protocol--172826975](../archive/calls/fathom/2026-08-12--rosemarie-todd-blocker-resolved-escalation-protocol--172826975/transcript.md) — Rosemarie's Todd-login blocker resolved (found in GoHilo/Tally form), new DM-escalation protocol for critical blockers, EOD/SOD reporting requirements set |
+| rec 172823898 | [Fathom call 783118335](https://fathom.video/calls/783118335) | [2026-08-12--carla-ashwini-dispute-status-escalation-protocol--172823898](../archive/calls/fathom/2026-08-12--carla-ashwini-dispute-status-escalation-protocol--172823898/transcript.md) — Ashwini's TransUnion 30-day dispute pivot and Equifax access blocker (client-status day prior to batch 18's near-identical Aug 13 status update on the same client — confirmed as a distinct day, not a duplicate), Slack DM/Notion documentation protocol |
+| rec 172808694 | [Fathom call 783044555](https://fathom.video/calls/783044555) | [2026-08-12--leo-onboarding-stalled-funding-strategy-carla-priorities--172808694](../archive/calls/fathom/2026-08-12--leo-onboarding-stalled-funding-strategy-carla-priorities--172808694/transcript.md) — client Leo's onboarding stalls on the $12k fee, revised two-phase SPV funding strategy discussed with him live on the call, Carla's internal priorities set (GHL CRM, no-show rate, Fathom/Trello onboarding) |
+
+**Near-duplicate content check:** rec 172823898's summary (Ashwini TransUnion/Equifax status, Aug 12) closely mirrors batch 18's rec 172832320/172829961 (same client, same TransUnion 30-day pivot and Equifax block, Aug 13) — recurring day-over-day status updates on the same ongoing dispute, not a coexistence duplicate. Confirmed distinct by date and by pulling the full transcript before archiving.
+
+Raw sourcing: rec 172823898 auto-saved to a local plain-text tool-result file — direct `cp`, confirmed identical via `cmp`. rec 172808694 auto-saved to a local JSON tool-result file — extracted from the `text` field, confirmed byte-identical. rec 172826975 returned inline — `transcript-raw.txt` written from the exact returned tool text via Write (self-flagged per the audit-approved inline-transcript raw-write procedure).
+
+Ran `format_transcripts.py` (172826975 → short, <2 chapters; 172823898 → chaptered, 10 chapters; 172808694 → chaptered, 6 chapters — no splits) then `add_breadcrumbs.py`.
+
+**Verbatim self-check:** stripped structural additions and diffed against each `transcript-raw.txt` line-for-line — all three matched exactly (172826975: 48/48, 172823898: 414/414, 172808694: 137/137).
+
+**INDEX:** flipped all three rows to ✅ with clickable links + `raw ✓`. Counts: 81→84 archived, 2 no-transcript (unchanged), 151→148 queued. Verified 84+2+148 = 234 and grep-counted rows (84 ✅ / 2 n/a / 148 queued = 234) confirm.
+
+**Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
+
+**Resume point:** next queued row (top-down, August section) is `rec 172792113` ([Fathom call 782988167](https://fathom.video/calls/782988167), 2026-08-12).
