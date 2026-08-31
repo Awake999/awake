@@ -784,7 +784,7 @@
   <h1>APW Command Board</h1>
   <div class="asof-wrap"><div class="asof mono">
     <span id="live-badge" class="live-badge"><span class="dot"></span><span id="live-badge-text">Snapshot · Aug 30 2026</span></span><button type="button" class="theme-toggle" id="theme-toggle" aria-pressed="false">◐ Pure</button><br>
-    <span id="lead-count">104</span> tracked leads · roster-audited 8/30
+    <span id="lead-count">104</span> tracked leads · synced live 8/31
   </div></div>
 </header>
 
@@ -1023,7 +1023,7 @@
       <button type="button" class="theme-toggle" id="fx-copy">Copy this report</button>
       <button type="button" class="theme-toggle" style="border-color:rgba(61,220,151,.5)" onclick="if(window.APW_ATTEST_TRIAGE)window.APW_ATTEST_TRIAGE()" data-tip="One tap = every person currently in view whose Triage says Unknown gets marked TRIAGED ✓ on your word. Saves on this device and queues in Pending sync — Notion stays untouched until Lane 1 writes it.">🎯 Attest: everyone in view WAS triaged</button>
     </div>
-    <p class="sub" style="margin:10px 0 0" id="fx-note">“+ Raw GHL book” adds every system contact to the counts (their speed &amp; show facets come from GHL; the table below still lists tracked leads only). Hours reads the tracker's live Created time — snapshot rows show Unknown. In-hours = Mon–Fri 7:00am–5:45pm PT, per Alan 8/30. Triage: leads that reached a booked call count as TRIAGED per Alan's 8/31 attestation (tap 🎯 to override any row; <a href="https://github.com/Awake999/awake/blob/claude/dashboard-lane-polish/ops/prompts/2026-08-31-data-correction-demands.md">his words ↗</a>) — only never-booked leads stay Unknown until Lane 1 backfills Notion. Real arrival datetimes, speed-to-lead and booking timestamps come from the GHL system pull (81 of 83 tracked leads matched; Stefan + Bryan are non-GHL referrals) — they override the tracker's bulk-import stamps. The 15 groups run in true pipeline order (Alan 8/30). Setter Verdict, Setter Grading, offer type and the deal stages have no Notion fields yet — they read from Stage + your tap-to-correct (🎯🎙🗣📄💰🔁 icons, hover any icon for a plain-English explainer; every tap shows a big before→after confirmation and queues in Pending sync). Expand any row for the setter-grading checklist.</p>
+    <p class="sub" style="margin:10px 0 0" id="fx-note">“+ Raw GHL book” adds every system contact to the counts AND lists the matched GHL-only people in the table below, marked <b>GHL</b> (their speed &amp; show facets come straight from GHL). Hours reads the tracker's live Created time — snapshot rows show Unknown. In-hours = Mon–Fri 7:00am–5:45pm PT, per Alan 8/30. Triage: leads that reached a booked call count as TRIAGED per Alan's 8/31 attestation (tap 🎯 to override any row; <a href="https://github.com/Awake999/awake/blob/claude/dashboard-lane-polish/ops/prompts/2026-08-31-data-correction-demands.md">his words ↗</a>) — only never-booked leads stay Unknown until Lane 1 backfills Notion. Real arrival datetimes, speed-to-lead and booking timestamps come from the GHL system pull (81 of 83 tracked leads matched; Stefan + Bryan are non-GHL referrals) — they override the tracker's bulk-import stamps. The 15 groups run in true pipeline order (Alan 8/30). Setter Verdict, Setter Grading, offer type and the deal stages have no Notion fields yet — they read from Stage + your tap-to-correct (🎯🎙🗣📄💰🔁 icons, hover any icon for a plain-English explainer; every tap shows a big before→after confirmation and queues in Pending sync). Expand any row for the setter-grading checklist.</p>
   </div>
 </section>
 
@@ -1071,7 +1071,7 @@
       <span id="people-count" class="mono" style="font-size:12px;color:var(--ink-2);align-self:center" data-tip="How many people are in the audited snapshot, and how many the current search/filters are showing."></span>
       <input id="people-search" type="search" placeholder="Search name…" style="background:var(--raised); border:1px solid var(--line); color:var(--ink); border-radius:6px; padding:7px 12px; font-size:13px; font-family:inherit; min-width:200px">
       <select id="people-stage" style="background:var(--raised); border:1px solid var(--line); color:var(--ink); border-radius:6px; padding:7px 10px; font-size:13px; font-family:inherit">
-        <option value="">All stages</option><option>Booked Call</option><option>Showed</option><option>Offer Made</option><option>Closed Won</option><option>Closed Lost</option><option>No-Show</option><option>Nurture</option><option>Unqualified</option>
+        <option value="">All stages</option><option>New Lead</option><option>Contacted</option><option>Booked Call</option><option>Showed</option><option>Offer Made</option><option>Closed Won</option><option>Closed Lost</option><option>No-Show</option><option>Nurture</option><option>Unqualified</option>
       </select>
     </div>
     <div class="tbl-wrap"><table style="min-width:860px">
@@ -2484,6 +2484,28 @@ window.APW_TRUTH_GET = function (displayName) {
       return true;
     }
     window.APW_FX_MATCH = function (f) { return passes(f, null); };
+    window.APW_UNIVERSE = function () { return UNIVERSE; };
+    /* raw GHL contacts NOT in the tracker that pass the current filters — so the table
+       can show every matched person's name (Alan 8/31: "missing every prospect") */
+    window.APW_GHL_MATCHED = function () {
+      var tracked = window.APW_LIVE_ROWS ? window.APW_LIVE_ROWS.map(facetsLive) : (window.APW_ROSTER || []).map(facetsStatic);
+      var names = {}; tracked.forEach(function (f) { names[f.name] = 1; });
+      var out = [];
+      (window.APW_GHL_DATA || []).forEach(function (r) {
+        var nm = window.APW_SHORT ? window.APW_SHORT(r[0]) : r[0];
+        if (names[nm]) return;
+        var hist = String(r[8] || '');
+        var f = { name: nm, entry: 'unk',
+          speed: (typeof r[10] === 'number') ? (r[10] <= 1 ? 'sub1' : r[10] <= 2 ? 'sub2' : 'slow') : 'unk',
+          hours: 'unk', triage: 'unk', qual: 'unk',
+          show: hist.indexOf('showed') >= 0 ? 'yes' : hist.indexOf('noshow') >= 0 ? 'no' : 'unk',
+          dispo: 'other', verbal: 'unk', agpay: 'unk', fup: 'unk',
+          setter: 'unk', bookedq: (typeof r[7] === 'number' && r[7] > 0) ? 'yes' : 'unk', grade: 'unk',
+          offer: 'unk', outcome: 'open', reason: 'unk', ghl: true };
+        if (window.APW_FX_MATCH(f)) out.push({ r: r, f: f });
+      });
+      return out;
+    };
     /* Alan 8/30: "We clearly know these people have been triaged" — one tap, his attestation */
     window.APW_ATTEST_TRIAGE = function () {
       var hit = rowsNow().filter(function (f) { return !f.ghl && passes(f, null) && f.triage === 'unk'; });
@@ -2663,91 +2685,7 @@ window.APW_TRUTH_GET = function (displayName) {
     // [name, stage, entryPath, qualification, ask, deal(-1=empty), lastTouch, notionId]
   (function () {
     // [name, stage, entryPath, qualification, ask, deal(-1=empty), lastTouch, notionId]
-    window.APW_ROSTER = [
-      ["Abayomi S.","Booked Call","","",200000,-1,"2026-04-26","3b75bb1ffef481fa9f86e4206684204f"],
-      ["Andrew W.","Booked Call","","",50000,-1,"2026-07-19","3b75bb1ffef481869d23f7d09c2d40a2"],
-      ["Antonio J.","Booked Call","","",0,-1,"2026-08-02","3b85bb1ffef48189b965cfbb335f4e45"],
-      ["Armand A.","Booked Call","","",50000,-1,"2026-07-19","3b75bb1ffef481efaee2fbc3d59976b8"],
-      ["Behnad Z.","Booked Call","Opt-In Form","",1000000,-1,"2026-08-12","3cc5bb1ffef481af8816c2d2c08d3084"],
-      ["Bryon C.","Booked Call","","",200000,-1,"2026-07-28","3b75bb1ffef4813eb30bd2c500c4fa54"],
-      ["Charlie M.","No-Show","","",50000,-1,"2026-07-14","3b75bb1ffef48180acb2c5f5a1ffdc2c"],
-      ["Dance K.","Booked Call","","",0,-1,"2026-06-22","3b95bb1ffef481e18eeaf24f24d982df"],
-      ["David S.","Booked Call","Opt-In Form","",0,-1,"2026-08-22","3cc5bb1ffef481f88939f53cc87ce6ae"],
-      ["Desi H.","Booked Call","","",0,-1,"2026-08-06","3b85bb1ffef4819795cec21e775976a8"],
-      ["Donnie B.","Booked Call","","",200000,-1,"2026-06-21","3b75bb1ffef4812196a7d7d50da2f94f"],
-      ["Drandre T.","Booked Call","","",500000,-1,"2026-07-15","3b75bb1ffef481cfb17ce3a0dcff26a5"],
-      ["Ed McC.","Booked Call","Opt-In Form","",0,-1,"2026-08-21","3cc5bb1ffef48186bd55ce74f758a29e"],
-      ["George T.","No-Show","Opt-In Form","",0,-1,"2026-08-16","3cc5bb1ffef481d29988dc62318d6502"],
-      ["Jack K.","Booked Call","","",0,-1,"2026-08-04","3b85bb1ffef481cca720c98a6cb75bda"],
-      ["James B.","No-Show","","",300000,-1,"2026-06-30","3b75bb1ffef481d9b3f8c640521a47f3"],
-      ["Jesse H.","Booked Call","","",0,-1,"2026-08-08","3b85bb1ffef4818c8e25fd1196a4aa0c"],
-      ["Jose D.","Booked Call","","",50000,-1,"2026-07-19","3b75bb1ffef481bc9d2afa1d2a1570bd"],
-      ["Jose R.","No-Show","","",100000,-1,"2026-07-05","3b75bb1ffef481b1b6aaf135842b8a8c"],
-      ["Ken'Bre M.","Booked Call","","",1000000,-1,"2026-07-23","3b75bb1ffef481fa98f2e5811afa2b6e"],
-      ["Kesavan R.","Booked Call","","",50000,-1,"2026-07-30","3b75bb1ffef481968ebbcfeaa5cf3d8f"],
-      ["Kevin C.","Booked Call","","",0,-1,"2026-04-27","3b75bb1ffef4811d901fd1cc1fe782ad"],
-      ["Lee M.","Booked Call","Opt-In Form","",0,-1,"2026-08-26","3cc5bb1ffef48111b010e4ca59dbaf18"],
-      ["Michael R.","No-Show","","",0,-1,"2026-07-07","3b85bb1ffef4819fb6bef019eb7a774d"],
-      ["Milad K.","No-Show","","",200000,-1,"2026-06-26","3b75bb1ffef481ca94fbcf584bf97e45"],
-      ["Ms Terry","Booked Call","Opt-In Form","",1000000,-1,"2026-08-13","3cc5bb1ffef481179b6df80d5e0d0616"],
-      ["Nia B.","No-Show","","",50000,-1,"2026-07-11","3b75bb1ffef4813e858cd7b57fa42dc4"],
-      ["Rena S.","Booked Call","","",500000,-1,"2026-07-30","3b75bb1ffef481629415e0f83c291688"],
-      ["Ric I.","No-Show","","",200000,-1,"2026-07-01","3b75bb1ffef4812e8fa0cafdf4bf3917"],
-      ["Rico R.","Booked Call","","",50000,-1,"2026-07-20","3b75bb1ffef48198ae0fd500c2aa0a9e"],
-      ["Robert S.","Booked Call","","",500000,-1,"2026-07-29","3b75bb1ffef48121b4d1f566ff371bbd"],
-      ["Ronrecus G.","Booked Call","","",50000,-1,"2026-07-07","3b75bb1ffef481cca3ecc2d8636e16b0"],
-      ["Sari G.","Booked Call","","",200000,-1,"2026-04-24","3b75bb1ffef481538eb2d66b80bfc8d4"],
-      ["Shamar S.","Booked Call","","",0,-1,"2026-08-03","3b85bb1ffef481ceb271c12cd3a0a9f7"],
-      ["Stephen G.","Booked Call","Opt-In Form","",0,-1,"2026-08-13","3cc5bb1ffef4815bbeaaf99de42db195"],
-      ["Tarlochan S.","Booked Call","Opt-In Form","",0,-1,"2026-08-17","3cc5bb1ffef4815c9007d6cf12e09acf"],
-      ["Tessa N.","Booked Call","Opt-In Form","",0,-1,"2026-08-23","3cc5bb1ffef481549c07dc66fd149ff7"],
-      ["Trent H.","Booked Call","","",0,-1,"2026-08-02","3b85bb1ffef4814b9c85deb83ccca1c4"],
-      ["Vernon L.","Booked Call","","",1000000,-1,"2026-07-17","3b75bb1ffef48163a4b2fd5823564225"],
-      ["Jennifer U.","Closed Lost","","Unqualified - Offer Mismatch",250000,-1,"2026-08-07","3b75bb1ffef481cda846db107d10f959"],
-      ["Zacherly S.","Closed Lost","","",200000,-1,"2026-08-10","3b75bb1ffef48167a5b4c1715b9c50c5"],
-      ["Ed C.","Closed Won","","Qualified - Main Offer",1000000,2000,"2026-08-28","3b75bb1ffef48114b344e6f5db65eea9"],
-      ["Jill P.","Closed Won","","Qualified - Main Offer",300000,15000,"2026-07-31","3b75bb1ffef481cc8fb4fc1e0b1f7728"],
-      ["Leo D.","Closed Won","","Downsell - Credit Rebuild",100000,12000,"2026-08-12","3b75bb1ffef4816f91f6c9cb50c911ad"],
-      ["Matt L.","Closed Won","","",500000,0,"2026-08-28","3b75bb1ffef48172b371e1fd44fdb91e"],
-      ["Nick S. (ExtremeFunMI)","Closed Won","","",200000,500,"2026-08-26","3c85bb1ffef481a3a2d2f0ae3835ac3d"],
-      ["Todd L.","Closed Won","Referral","Qualified - Main Offer",0,0,"2026-08-30","3b75bb1ffef481faab74cd4ceba6e95d"],
-      ["Cordero G.","No-Show","","",200000,-1,"2026-06-30","3b75bb1ffef48196a8c3ebb43e61bb2b"],
-      ["David B.","No-Show","","",100000,-1,"2026-07-07","3b75bb1ffef4818f8e7fe98fe8aff0e2"],
-      ["Eliel N.","No-Show","","",300000,-1,"2026-07-09","3b75bb1ffef4812e985fed7c71e159a3"],
-      ["Fabio C.","No-Show","","",200000,-1,"2026-07-15","3b75bb1ffef4810b82c7f062c2f379d5"],
-      ["Flavio P.","No-Show","","",300000,-1,"2026-07-15","3b75bb1ffef481c38cb5cc095ee83d06"],
-      ["Luis R.","No-Show","","",100000,-1,"2026-06-29","3b75bb1ffef4813fa8a8cd8c696911bc"],
-      ["Marcos M.","No-Show","","",100000,-1,"2026-06-30","3b75bb1ffef48198966ef84e4d312e68"],
-      ["Patrick O.","No-Show","","",100000,-1,"2026-07-28","3b75bb1ffef4812eb09ad2ebc19af162"],
-      ["Pedro (CDL)","No-Show","","",0,-1,"2026-08-18","3c15bb1ffef4810c9a2fc90c5c81c673"],
-      ["Ran D.","No-Show","","",300000,-1,"2026-07-16","3b75bb1ffef481e79383db647c8fb158"],
-      ["Valentino G.","No-Show","","",1000000,-1,"2026-07-11","3b75bb1ffef481d3891ee8b4fcf32aee"],
-      ["Yasantha L.","No-Show","","",500000,-1,"2026-06-27","3b75bb1ffef4812284b9f104b8d0c430"],
-      ["Chris B.","Nurture","","",50000,-1,"2026-08-07","3b75bb1ffef481a18690e80be1452227"],
-      ["Michael M. (wellness ctr)","Nurture","","Unqualified - No Funds",200000,1000,"2026-08-27","3c25bb1ffef48167a52be1cac6373e84"],
-      ["Stefan","Nurture","","",0,-1,"2026-08-18","3c15bb1ffef481139b64f9b6f6e38f5e"],
-      ["Ashwini A.","Offer Made","","",500000,-1,"2026-08-28","3b75bb1ffef48156b3a6dcfac60e8e14"],
-      ["George J.","Offer Made","","",50000,-1,"2026-07-01","3b75bb1ffef481e1b1d5e2756a6275a3"],
-      ["Joe S.","Offer Made","","",0,-1,"2026-08-08","3b75bb1ffef481eabc67f6066358a4c0"],
-      ["Karl K. (Modern Thyroid Clinic)","Offer Made","Referral","Qualified - Main Offer",750000,7500,"2026-08-20","3b95bb1ffef48139a66fd1d90439d729"],
-      ["Pradeep B.","Offer Made","","",200000,-1,"2026-08-07","3b75bb1ffef4811cae89c7cbbbd58fb2"],
-      ["Robert M.","Offer Made","","Downsell - Credit Rebuild",1000000,-1,"2026-08-27","3c95bb1ffef481c8bf6cf87b5915c6e7"],
-      ["Whitney Y.","Offer Made","","",300000,-1,"2026-08-10","3b75bb1ffef481339557f53bd7f57326"],
-      ["Yeshaya D.","Offer Made","","",1500000,-1,"2026-08-14","3bc5bb1ffef4813caf97de68e8ae061c"],
-      ["Allen S.","Showed","","",100000,-1,"2026-07-27","3b75bb1ffef481709737ce87b86dfb67"],
-      ["Bryan (RE dev)","Showed","","",1400000,-1,"2026-08-08","3b75bb1ffef4812fb11ad477dfe02b9d"],
-      ["Carmen M.","Showed","","",25000,-1,"2026-08-01","3b75bb1ffef481369488cd0c55476bd4"],
-      ["Chris M.","Showed","","Downsell - Credit Rebuild",0,-1,"2026-08-27","3c95bb1ffef481c9ab9bd7dd26f6fefd"],
-      ["Connor R.","Showed","Opt-In Form","",0,-1,"2026-08-17","3bf5bb1ffef48150b0a1d7cce41368bb"],
-      ["Ghani A.","Showed","","Unqualified - Offer Mismatch",100000,-1,"2026-07-15","3b75bb1ffef481b48d4aea1c126cc0fd"],
-      ["Gunjan P.","Showed","","",300000,-1,"2026-08-01","3b75bb1ffef481a3b4e6f852fa6328f0"],
-      ["Johnny S.","Showed","","",500000,-1,"2026-07-22","3b75bb1ffef48156870bf0b653e7a02d"],
-      ["Lonnie G.","Showed","","",100000,-1,"2026-06-21","3b75bb1ffef481a7bd5ced6d4ed68151"],
-      ["Myla M.","Showed","","",100000,-1,"2026-07-31","3b75bb1ffef4811cb490c02d65d520de"],
-      ["P Reddy P.","Showed","","",0,-1,"2026-08-10","3b85bb1ffef481868853f960a3db76e7"],
-      ["Jennifer L.","Unqualified","","",200000,-1,"2026-04-30","3b75bb1ffef481b2a6f5e212c94bede5"],
-      ["Lynn N.","Unqualified","","",0,-1,"2026-07-08","3b75bb1ffef481188c39c241871b9130"]
-    ];
+    window.APW_ROSTER = [["Ricky W.", "New Lead", "Opt-In Form", "", 0, -1, "2026-04-13", "3cc5bb1ffef481028059d16184d3b793"], ["Lance M.", "New Lead", "Opt-In Form", "", 0, -1, "2026-07-08", "3cc5bb1ffef4810ebb78c3a83880a284"], ["Jonathan L.", "New Lead", "Opt-In Form", "", 0, -1, "2026-07-13", "3cc5bb1ffef481259d0ef4270a69d8b9"], ["Marko S.", "New Lead", "Opt-In Form", "", 0, -1, "2026-07-30", "3cc5bb1ffef4812b9289e2c0fa6f61ce"], ["Javaris J.", "New Lead", "Opt-In Form", "", 0, -1, "2026-08-20", "3cc5bb1ffef4813fa18bf4b0c106873e"], ["Kevin-Vincent R.", "New Lead", "Opt-In Form", "", 0, -1, "2026-07-19", "3cc5bb1ffef48150a4a4ca0d2f5c6cbf"], ["Natalia R.", "Contacted", "Opt-In Form", "", 0, -1, "2026-08-27", "3cc5bb1ffef481598968e51920dbd2d6"], ["Fernando D.", "New Lead", "Opt-In Form", "", 0, -1, "2026-08-27", "3cc5bb1ffef4815ab0e3ead2f6f57059"], ["Arlene L.", "Contacted", "Opt-In Form", "", 0, -1, "2026-07-16", "3cc5bb1ffef48173981cfdd2e7ccdb81"], ["Herman R.", "New Lead", "Opt-In Form", "", 0, -1, "2026-08-13", "3cc5bb1ffef48175b813ddb25dc66c10"], ["LeRoy M.", "New Lead", "Opt-In Form", "", 0, -1, "2026-07-29", "3cc5bb1ffef48182928fef18820fb450"], ["John L.", "New Lead", "Opt-In Form", "", 0, -1, "2026-06-21", "3cc5bb1ffef48183af6aea4badd1ea05"], ["Tony P.", "New Lead", "Opt-In Form", "", 0, -1, "2026-07-03", "3cc5bb1ffef481908776f16ff5b6dd63"], ["Ray S.", "New Lead", "Opt-In Form", "", 0, -1, "2026-07-04", "3cc5bb1ffef4819f9c2ee84ac5321228"], ["Ee Loong C.", "New Lead", "Opt-In Form", "", 0, -1, "2026-06-23", "3cc5bb1ffef481b4b487c90358fa0989"], ["Mark G.", "New Lead", "Opt-In Form", "", 0, -1, "2026-06-30", "3cc5bb1ffef481b4b994c5bd0cfd1647"], ["Kenneth P.", "New Lead", "Opt-In Form", "", 0, -1, "2026-06-21", "3cc5bb1ffef481bbb8fff885fb58642e"], ["Sara M.", "New Lead", "Opt-In Form", "", 0, -1, "2026-04-23", "3cc5bb1ffef481c8a1aecbb043a05373"], ["Meckdad M.", "New Lead", "Opt-In Form", "", 0, -1, "2026-07-14", "3cc5bb1ffef481d69947f7af55287ab7"], ["Noel R.", "New Lead", "Opt-In Form", "", 0, -1, "2026-08-15", "3cc5bb1ffef481e1a50eeba03383b7f5"], ["John M. (Mazzocchi)", "New Lead", "Opt-In Form", "", 0, -1, "2026-08-14", "3cc5bb1ffef481f0b768d58a77d7cd0c"], ["Lee M.", "Booked Call", "Opt-In Form", "", 0, -1, "2026-08-26", "3cc5bb1ffef48111b010e4ca59dbaf18"], ["Ms Terry", "Booked Call", "Opt-In Form", "", 1000000, -1, "2026-08-13", "3cc5bb1ffef481179b6df80d5e0d0616"], ["Tessa N.", "Booked Call", "Opt-In Form", "", 0, -1, "2026-08-23", "3cc5bb1ffef481549c07dc66fd149ff7"], ["Stephen G.", "Booked Call", "Opt-In Form", "", 0, -1, "2026-08-13", "3cc5bb1ffef4815bbeaaf99de42db195"], ["Tarlochan S.", "Booked Call", "Opt-In Form", "", 0, -1, "2026-08-17", "3cc5bb1ffef4815c9007d6cf12e09acf"], ["Ed McC.", "Booked Call", "Opt-In Form", "", 0, -1, "2026-08-21", "3cc5bb1ffef48186bd55ce74f758a29e"], ["Behnad Z.", "Booked Call", "Opt-In Form", "", 1000000, -1, "2026-08-12", "3cc5bb1ffef481af8816c2d2c08d3084"], ["George T.", "No-Show", "Opt-In Form", "", 0, -1, "2026-08-16", "3cc5bb1ffef481d29988dc62318d6502"], ["David S.", "Booked Call", "Opt-In Form", "", 0, -1, "2026-08-22", "3cc5bb1ffef481f88939f53cc87ce6ae"], ["Robert M.", "Offer Made", "", "Downsell - Credit Rebuild", 1000000, -1, "2026-08-27", "3c95bb1ffef481c8bf6cf87b5915c6e7"], ["Chris M.", "Showed", "Direct Booked Call", "Downsell - Credit Rebuild", 0, -1, "2026-08-27", "3c95bb1ffef481c9ab9bd7dd26f6fefd"], ["Nick S. (ExtremeFunMI)", "Offer Made", "Opt-In Form", "Downsell - Credit Rebuild", 200000, -1, "2026-08-26", "3c85bb1ffef481a3a2d2f0ae3835ac3d"], ["Michael M. (wellness ctr)", "Nurture", "Opt-In Form", "Unqualified - No Funds", 200000, -1, "2026-08-27", "3c25bb1ffef48167a52be1cac6373e84"], ["Pedro (CDL)", "No-Show", "Opt-In Form", "", 0, -1, "2026-08-18", "3c15bb1ffef4810c9a2fc90c5c81c673"], ["Stefan", "Nurture", "", "", 0, -1, "2026-08-18", "3c15bb1ffef481139b64f9b6f6e38f5e"], ["Connor R.", "Showed", "Opt-In Form", "Not Yet Assessed", 0, -1, "2026-08-17", "3bf5bb1ffef48150b0a1d7cce41368bb"], ["Yeshaya D.", "Offer Made", "Opt-In Form", "Downsell - Credit Rebuild", 1500000, -1, "2026-08-27", "3bc5bb1ffef4813caf97de68e8ae061c"], ["Karl K. (Modern Thyroid Clinic)", "Offer Made", "Referral", "Qualified - Main Offer", 750000, -1, "2026-08-20", "3b95bb1ffef48139a66fd1d90439d729"], ["Dance K.", "Booked Call", "Opt-In Form", "", 0, -1, "2026-06-22", "3b95bb1ffef481e18eeaf24f24d982df"], ["Trent H.", "Booked Call", "Opt-In Form", "", 0, -1, "2026-08-02", "3b85bb1ffef4814b9c85deb83ccca1c4"], ["P Reddy P.", "Showed", "Opt-In Form", "Qualified - Main Offer", 0, -1, "2026-08-10", "3b85bb1ffef481868853f960a3db76e7"], ["Antonio J.", "Booked Call", "Opt-In Form", "", 0, -1, "2026-08-02", "3b85bb1ffef48189b965cfbb335f4e45"], ["Jesse H.", "Booked Call", "Opt-In Form", "", 0, -1, "2026-08-08", "3b85bb1ffef4818c8e25fd1196a4aa0c"], ["Desi H.", "Booked Call", "Opt-In Form", "", 0, -1, "2026-08-06", "3b85bb1ffef4819795cec21e775976a8"], ["Michael R.", "No-Show", "Opt-In Form", "", 0, -1, "2026-07-07", "3b85bb1ffef4819fb6bef019eb7a774d"], ["Jack K.", "Booked Call", "Opt-In Form", "", 0, -1, "2026-08-04", "3b85bb1ffef481cca720c98a6cb75bda"], ["Shamar S.", "Booked Call", "Opt-In Form", "", 0, -1, "2026-08-03", "3b85bb1ffef481ceb271c12cd3a0a9f7"], ["Pradeep B.", "Offer Made", "Opt-In Form", "Downsell - Credit Rebuild", 200000, -1, "2026-08-07", "3b75bb1ffef4811cae89c7cbbbd58fb2"], ["Bryan (RE dev)", "Showed", "", "Qualified - Main Offer", 1400000, -1, "2026-08-08", "3b75bb1ffef4812fb11ad477dfe02b9d"], ["Carmen M.", "Showed", "Opt-In Form", "Downsell - Credit Rebuild", 25000, -1, "2026-08-01", "3b75bb1ffef481369488cd0c55476bd4"], ["Jennifer U.", "Closed Lost", "Opt-In Form", "Unqualified - Offer Mismatch", 250000, -1, "2026-08-07", "3b75bb1ffef481cda846db107d10f959"], ["Joe S.", "Offer Made", "Opt-In Form", "Not Yet Assessed", 0, -1, "2026-08-08", "3b75bb1ffef481eabc67f6066358a4c0"], ["Fabio C.", "No-Show", "Opt-In Form", "", 200000, -1, "2026-07-15", "3b75bb1ffef4810b82c7f062c2f379d5"], ["Ed C.", "Closed Won", "", "Qualified - Main Offer", 1000000, -1, "2026-08-28", "3b75bb1ffef48114b344e6f5db65eea9"], ["Lynn N.", "Unqualified", "Direct Booked Call", "Unqualified - Other", 0, -1, "2026-07-08", "3b75bb1ffef481188c39c241871b9130"], ["Kevin C.", "Booked Call", "Opt-In Form", "", 0, -1, "2026-04-27", "3b75bb1ffef4811d901fd1cc1fe782ad"], ["Donnie B.", "Booked Call", "Opt-In Form", "", 200000, -1, "2026-06-21", "3b75bb1ffef4812196a7d7d50da2f94f"], ["Yasantha L.", "No-Show", "Opt-In Form", "", 500000, -1, "2026-06-27", "3b75bb1ffef4812284b9f104b8d0c430"], ["Ric I.", "No-Show", "Opt-In Form", "", 200000, -1, "2026-07-01", "3b75bb1ffef4812e8fa0cafdf4bf3917"], ["Eliel N.", "No-Show", "Opt-In Form", "", 300000, -1, "2026-07-09", "3b75bb1ffef4812e985fed7c71e159a3"], ["Nia B.", "No-Show", "Opt-In Form", "", 50000, -1, "2026-07-11", "3b75bb1ffef4813e858cd7b57fa42dc4"], ["Luis R.", "No-Show", "Opt-In Form", "", 100000, -1, "2026-06-29", "3b75bb1ffef4813fa8a8cd8c696911bc"], ["Sari G.", "Booked Call", "Opt-In Form", "", 200000, -1, "2026-04-24", "3b75bb1ffef481538eb2d66b80bfc8d4"], ["David B.", "No-Show", "Opt-In Form", "", 100000, -1, "2026-07-07", "3b75bb1ffef4818f8e7fe98fe8aff0e2"], ["Cordero G.", "No-Show", "Opt-In Form", "", 200000, -1, "2026-06-30", "3b75bb1ffef48196a8c3ebb43e61bb2b"], ["Marcos M.", "No-Show", "Opt-In Form", "", 100000, -1, "2026-06-30", "3b75bb1ffef48198966ef84e4d312e68"], ["Lonnie G.", "Showed", "Opt-In Form", "Not Yet Assessed", 100000, -1, "2026-06-21", "3b75bb1ffef481a7bd5ced6d4ed68151"], ["Jose R.", "No-Show", "Opt-In Form", "", 100000, -1, "2026-07-05", "3b75bb1ffef481b1b6aaf135842b8a8c"], ["Jennifer L.", "Unqualified", "Opt-In Form", "Unqualified - Other", 200000, -1, "2026-04-30", "3b75bb1ffef481b2a6f5e212c94bede5"], ["Flavio P.", "No-Show", "Opt-In Form", "", 300000, -1, "2026-07-15", "3b75bb1ffef481c38cb5cc095ee83d06"], ["Milad K.", "No-Show", "Opt-In Form", "", 200000, -1, "2026-06-26", "3b75bb1ffef481ca94fbcf584bf97e45"], ["Ronrecus G.", "Booked Call", "Opt-In Form", "", 50000, -1, "2026-07-07", "3b75bb1ffef481cca3ecc2d8636e16b0"], ["Valentino G.", "No-Show", "Opt-In Form", "", 1000000, -1, "2026-07-11", "3b75bb1ffef481d3891ee8b4fcf32aee"], ["James B.", "No-Show", "Opt-In Form", "", 300000, -1, "2026-06-30", "3b75bb1ffef481d9b3f8c640521a47f3"], ["George J.", "Offer Made", "Opt-In Form", "Downsell - Credit Rebuild", 50000, -1, "2026-07-01", "3b75bb1ffef481e1b1d5e2756a6275a3"], ["Ran D.", "No-Show", "Opt-In Form", "", 300000, -1, "2026-07-16", "3b75bb1ffef481e79383db647c8fb158"], ["Abayomi S.", "Booked Call", "Opt-In Form", "", 200000, -1, "2026-04-26", "3b75bb1ffef481fa9f86e4206684204f"], ["Myla M.", "Showed", "Opt-In Form", "Not Yet Assessed", 100000, -1, "2026-07-31", "3b75bb1ffef4811cb490c02d65d520de"], ["Robert S.", "Booked Call", "Opt-In Form", "", 500000, -1, "2026-07-29", "3b75bb1ffef48121b4d1f566ff371bbd"], ["Patrick O.", "No-Show", "Opt-In Form", "", 100000, -1, "2026-07-28", "3b75bb1ffef4812eb09ad2ebc19af162"], ["Whitney Y.", "Offer Made", "Opt-In Form", "Qualified - Main Offer", 300000, -1, "2026-08-10", "3b75bb1ffef481339557f53bd7f57326"], ["Bryon C.", "Booked Call", "Opt-In Form", "", 200000, -1, "2026-07-28", "3b75bb1ffef4813eb30bd2c500c4fa54"], ["Johnny S.", "Showed", "Opt-In Form", "Not Yet Assessed", 500000, -1, "2026-07-22", "3b75bb1ffef48156870bf0b653e7a02d"], ["Ashwini A.", "Offer Made", "Opt-In Form", "Downsell - Credit Rebuild", 500000, -1, "2026-08-28", "3b75bb1ffef48156b3a6dcfac60e8e14"], ["Rena S.", "Booked Call", "Opt-In Form", "", 500000, -1, "2026-07-30", "3b75bb1ffef481629415e0f83c291688"], ["Vernon L.", "Booked Call", "Opt-In Form", "", 1000000, -1, "2026-07-17", "3b75bb1ffef48163a4b2fd5823564225"], ["Zacherly S.", "Closed Lost", "Opt-In Form", "", 200000, -1, "2026-08-10", "3b75bb1ffef48167a5b4c1715b9c50c5"], ["Leo D.", "Closed Won", "Opt-In Form", "Downsell - Credit Rebuild", 100000, -1, "2026-08-12", "3b75bb1ffef4816f91f6c9cb50c911ad"], ["Allen S.", "Showed", "Opt-In Form", "Unqualified - Other", 100000, -1, "2026-07-27", "3b75bb1ffef481709737ce87b86dfb67"], ["Charlie M.", "No-Show", "Opt-In Form", "", 50000, -1, "2026-07-14", "3b75bb1ffef48180acb2c5f5a1ffdc2c"], ["Andrew W.", "Booked Call", "Opt-In Form", "", 50000, -1, "2026-07-19", "3b75bb1ffef481869d23f7d09c2d40a2"], ["Kesavan R.", "Booked Call", "Opt-In Form", "", 50000, -1, "2026-07-30", "3b75bb1ffef481968ebbcfeaa5cf3d8f"], ["Rico R.", "Booked Call", "Opt-In Form", "", 50000, -1, "2026-07-20", "3b75bb1ffef48198ae0fd500c2aa0a9e"], ["Chris B.", "Nurture", "Opt-In Form", "", 50000, -1, "2026-08-07", "3b75bb1ffef481a18690e80be1452227"], ["Gunjan P.", "Showed", "Opt-In Form", "Qualified - Main Offer", 300000, -1, "2026-08-01", "3b75bb1ffef481a3b4e6f852fa6328f0"], ["Ghani A.", "Showed", "Opt-In Form", "Unqualified - Offer Mismatch", 100000, -1, "2026-07-15", "3b75bb1ffef481b48d4aea1c126cc0fd"], ["Jose D.", "Booked Call", "Opt-In Form", "", 50000, -1, "2026-07-19", "3b75bb1ffef481bc9d2afa1d2a1570bd"], ["Jill P.", "Closed Won", "Opt-In Form", "Qualified - Main Offer", 300000, -1, "2026-07-31", "3b75bb1ffef481cc8fb4fc1e0b1f7728"], ["Drandre T.", "Booked Call", "Opt-In Form", "", 500000, -1, "2026-07-15", "3b75bb1ffef481cfb17ce3a0dcff26a5"], ["Armand A.", "Booked Call", "Opt-In Form", "", 50000, -1, "2026-07-19", "3b75bb1ffef481efaee2fbc3d59976b8"], ["Ken'Bre M.", "Booked Call", "Opt-In Form", "", 1000000, -1, "2026-07-23", "3b75bb1ffef481fa98f2e5811afa2b6e"], ["Matt L.", "Closed Won", "Opt-In Form", "Downsell - Credit Rebuild", 500000, -1, "2026-08-28", "3b75bb1ffef48172b371e1fd44fdb91e"], ["Todd L.", "Closed Won", "Referral", "Qualified - Main Offer", 0, -1, "2026-08-30", "3b75bb1ffef481faab74cd4ceba6e95d"]];
     // Verified show recordings (from BOOKING_ROSTER_AUDIT.md; s = secondary evidence)
     window.APW_FATHOM = {
       "Lonnie G.":"718619432","Matt L.":"723857619","Ed C.":"726927356","George J.":"730407363",
@@ -2813,9 +2751,25 @@ window.APW_TRUTH_GET = function (displayName) {
           +"<td class='num mono'>"+money(r[4])+"</td>"
           +"<td class='mono' style='font-size:12px'>"+esc((r[6]||"").slice(5))+"</td></tr>";
       });
+      var extraN = 0;
+      if (window.APW_UNIVERSE && window.APW_UNIVERSE() === 'all' && window.APW_GHL_MATCHED && !st) {
+        window.APW_GHL_MATCHED().forEach(function (m) {
+          var r2 = m.r;
+          if (q && String(r2[0]).toLowerCase().indexOf(q) < 0) return;
+          extraN++;
+          var sh2 = m.f.show === 'yes' ? "<span class='chip good'>✓</span>" : m.f.show === 'no' ? "<span class='chip crit'>✕</span>" : "<span class='chip mut'>?</span>";
+          html += "<tr><td class='who'>" + esc(r2[0]) + " <span class='chip mut' data-tip='In the raw GHL system book only — not yet in the audited tracker. Fields straight from GHL.'>GHL</span></td>"
+            + "<td><span class='chip mut'>" + esc(r2[9] || 'GHL contact') + "</span></td>"
+            + "<td>" + sh2 + "</td>"
+            + "<td class='dealtd mono' style='color:var(--ink-2)'>—</td>"
+            + "<td class='why'>" + esc((r2[12] || '—').split('|').slice(0, 3).join(' · ')) + "</td>"
+            + "<td class='num mono'>—</td>"
+            + "<td class='mono' style='font-size:12px'>" + esc(r2[2] || '') + "</td></tr>";
+        });
+      }
       body.innerHTML=html;
       window.APW_RATES(c);
-      var pc=document.getElementById('people-count'); if(pc) pc.textContent=window.APW_ROSTER.length+(c.shown<window.APW_ROSTER.length?" ("+c.shown+" shown)":"");
+      var pc=document.getElementById('people-count'); if(pc) pc.textContent=window.APW_ROSTER.length+(c.shown<window.APW_ROSTER.length?" ("+c.shown+" shown)":"")+(extraN?" + "+extraN+" raw GHL":"");
     };
     document.getElementById('people-search').addEventListener('input', window.renderRoster);
     document.getElementById('people-stage').addEventListener('change', window.renderRoster);
@@ -3153,6 +3107,23 @@ window.APW_TRUTH_GET = function (displayName) {
         tr.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); } });
         tbody.appendChild(tr);
       });
+      if (window.APW_UNIVERSE && window.APW_UNIVERSE() === 'all' && window.APW_GHL_MATCHED) {
+        function escG(s) { var d = document.createElement('span'); d.textContent = s == null ? '' : s; return d.innerHTML; }
+        window.APW_GHL_MATCHED().forEach(function (m) {
+          var r2 = m.r;
+          var sh2 = m.f.show === 'yes' ? "<span class='chip good'>✓</span>" : m.f.show === 'no' ? "<span class='chip crit'>✕</span>" : "<span class='chip mut'>?</span>";
+          var tr2 = document.createElement('tr');
+          tr2.innerHTML = "<td class='who'>" + escG(r2[0]) + " <span class='chip mut' data-tip='In the raw GHL system book only — not yet in the audited tracker. Fields straight from GHL.'>GHL</span></td>"
+            + "<td class='mono'>" + escG(r2[2] || '—') + "</td>"
+            + "<td><span class='chip mut'>" + escG(r2[9] || 'GHL contact') + "</span></td>"
+            + "<td>" + sh2 + "</td>"
+            + "<td class='dealtd mono' style='color:var(--ink-2)'>—</td>"
+            + "<td class='num mono'>—</td>"
+            + "<td class='why'>" + escG((r2[12] || '—').split('|').slice(0, 3).join(' · ')) + "</td>"
+            + "<td class='mono'>—</td>";
+          tbody.appendChild(tr2);
+        });
+      }
     }
 
     function computeStats(rows) {
