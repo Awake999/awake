@@ -148,3 +148,25 @@ Ran `format_transcripts.py` (176124914 → chaptered, 7 chapters; 175821783 → 
 **Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
 
 **Resume point:** next queued row (top-down, August section) is `rec 175776778` ([Fathom call 794624464](https://fathom.video/calls/794624464), 2026-08-21).
+
+## Batch 7
+
+Continued top-down — next three queued rows, all dated 2026-08-21:
+
+| Recording | Call | Archived as |
+|---|---|---|
+| rec 175776778 | [Fathom call 794624464](https://fathom.video/calls/794624464) | [2026-08-21--james-beckett-offer-finalization--175776778](../archive/calls/fathom/2026-08-21--james-beckett-offer-finalization--175776778/transcript.md) — James's competing-offer analysis (cleaning co. vs. ASCEND), $11.50/hr match, EOD decision deadline |
+| rec 175700871 | [Fathom call 794472254](https://fathom.video/calls/794472254) | [2026-08-21--team-sync-trello-notion-hybrid-standards--175700871](../archive/calls/fathom/2026-08-21--team-sync-trello-notion-hybrid-standards--175700871/transcript.md) — Trello/Notion hybrid workflow decision, urgent Ashwini/Ed dispute actions, new EOD/SOD-report + cameras-on standards |
+| rec 175468970 | [Fathom call 793262976](https://fathom.video/calls/793262976) | [2026-08-21--lynn-show-rate-kpi-crisis-career-path--175468970](../archive/calls/fathom/2026-08-21--lynn-show-rate-kpi-crisis-career-path--175468970/transcript.md) — Alan/Lynn 1:1: 16% show-rate KPI crisis (vs 60% target), Lynn's path to $3.5k base + $5k+ income, "Cash Cabin" live sales event |
+
+Raw sourcing: all three auto-saved to local tool-result files (plain text) — direct `cp`, confirmed identical via `cmp` for all three.
+
+Ran `format_transcripts.py` (175776778 → chaptered, 9 chapters; 175468970 → chaptered, 13 chapters; 175700871 → SPLIT into 2 parts, 17 chapters) then `add_breadcrumbs.py`.
+
+**Verbatim self-check:** stripped structural additions and diffed against each `transcript-raw.txt` line-for-line — all three matched exactly (175776778: 272/272, 175468970: 288/288, 175700871: 427/427 across both parts).
+
+**INDEX:** flipped all three rows to ✅ with clickable links + `raw ✓`. Counts: 45→48 archived, 2 no-transcript (unchanged), 187→184 queued. Verified 48+2+184 = 234 and grep-counted rows (48 ✅ / 186 non-✅ = 234) confirm.
+
+**Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`. Noted a concurrent commit from Lane 3 (people pages) landed mid-session via `git pull --rebase` — clean rebase, no overlap with this lane's scope.
+
+**Resume point:** next queued row (top-down, August section) is `rec 175448782` ([Fathom call 793137663](https://fathom.video/calls/793137663), 2026-08-20).

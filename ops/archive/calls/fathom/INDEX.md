@@ -10,7 +10,7 @@
 - [July 2026](#july-2026) — 91 meetings
 - [June 2026](#june-2026) — 10 meetings
 
-**Archive status:** 45 archived ✅ · 2 verified no-transcript · 187 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+**Archive status:** 48 archived ✅ · 2 verified no-transcript · 184 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
 
 
 ## August 2026
@@ -61,9 +61,9 @@
 | 2026-08-24 | [Dispute Team — TransUnion One-Dispute Workaround, FTC Leverage](https://fathom.video/calls/796461872) | ✅ [transcript](2026-08-24--dispute-team-tu-workaround-ftc-leverage--176124914/transcript.md) · [summary](2026-08-24--dispute-team-tu-workaround-ftc-leverage--176124914/summary.md) · raw ✓ |
 | 2026-08-24 | [Dispute Team Meeting — Audio Troubleshooting (Aborted)](https://fathom.video/calls/796432483) | ✅ [transcript](2026-08-24--dispute-team-audio-troubleshooting-aborted--176109891/transcript.md) · [summary](2026-08-24--dispute-team-audio-troubleshooting-aborted--176109891/summary.md) · raw ✓ |
 | 2026-08-22 | [Rosemarie — Pay Increase Negotiation, Performance Standards](https://fathom.video/calls/794778614) | ✅ [transcript](2026-08-22--rosemarie-pay-increase-negotiation--175821783/transcript.md) · [summary](2026-08-22--rosemarie-pay-increase-negotiation--175821783/summary.md) · raw ✓ |
-| 2026-08-21 | [Impromptu Zoom Meeting](https://fathom.video/calls/794624464) <sub>rec 175776778</sub> | not yet — click title to watch on Fathom |
-| 2026-08-21 | [Impromptu Zoom Meeting](https://fathom.video/calls/794472254) <sub>rec 175700871</sub> | not yet — click title to watch on Fathom |
-| 2026-08-21 | [Impromptu Zoom Meeting](https://fathom.video/calls/793262976) <sub>rec 175468970</sub> | not yet — click title to watch on Fathom |
+| 2026-08-21 | [James Beckett — Offer Finalization, Competing-Offer Analysis](https://fathom.video/calls/794624464) | ✅ [transcript](2026-08-21--james-beckett-offer-finalization--175776778/transcript.md) · [summary](2026-08-21--james-beckett-offer-finalization--175776778/summary.md) · raw ✓ |
+| 2026-08-21 | [Team Sync — Trello/Notion Hybrid, Urgent Client Priorities, New Standards](https://fathom.video/calls/794472254) | ✅ [transcript](2026-08-21--team-sync-trello-notion-hybrid-standards--175700871/transcript.md) · [summary](2026-08-21--team-sync-trello-notion-hybrid-standards--175700871/summary.md) · raw ✓ |
+| 2026-08-21 | [Alan ↔ Lynn — Show-Rate KPI Crisis, Career Path, Cash Cabin Event](https://fathom.video/calls/793262976) | ✅ [transcript](2026-08-21--lynn-show-rate-kpi-crisis-career-path--175468970/transcript.md) · [summary](2026-08-21--lynn-show-rate-kpi-crisis-career-path--175468970/summary.md) · raw ✓ |
 | 2026-08-20 | [Impromptu Zoom Meeting](https://fathom.video/calls/793137663) <sub>rec 175448782</sub> | not yet — click title to watch on Fathom |
 | 2026-08-20 | [Karl Krummenacher - Guaranteed Funding](https://fathom.video/calls/791088813) | ✅ [transcript](2026-08-20--karl-krummenacher-guaranteed-funding--175440897/transcript.md) · [summary](2026-08-20--karl-krummenacher-guaranteed-funding--175440897/summary.md) — the whale call (Modern Thyroid, $8M rev, exit plan) |
 | 2026-08-20 | [Impromptu Zoom Meeting](https://fathom.video/calls/791883972) <sub>rec 175052490</sub> | not yet — click title to watch on Fathom |
