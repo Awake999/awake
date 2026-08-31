@@ -1,3 +1,4 @@
+<!-- SNAPSHOT: SOP v1.10 · live at creation · 2026-08-31T04:39:49.517408+00:00 · READ-ONLY -->
 # APW MULTI-LANE OPERATING SOP — binding on every lane
 **🏁 BRIEF:** how every lane hears (checklist), verifies (evidence+links), stores (repo+Notion), answers (buttons+trackers+grade), and never loses data (raws+history).
 **⏱ Timeline:** 🗣️ Alan prompts → ✅ checklist in reply → 👍 confirm → 🔨 execute → 🎯 grade vs SOP → 🔘 buttons+progress → 💾 all stored+pushed
