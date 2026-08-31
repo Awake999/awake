@@ -28,10 +28,26 @@
 
 **🚫 2 CANCELLED:** [Pedro Perez Grizzle](#pedro-perez-grizzle) · [George Truesdale](#george-truesdale) · **❓ 1 unrecorded:** [Robert Morawitz](#robert-morawitz)
 
-## LAYER 5 — of the 9 who showed: **9 = 1 + 8**
-**🟢 1 QUALIFIED:** [Karl Krummenacher](#karl-krummenacher) (11% of shows · $6,100/qualified)
-**🔴 8 unqualified** (4 no money · 1 credit too weak · 1 needs PG · 1 offer mismatch · 1 fake):
-[P Reddy P](#p-reddy-p) · [Jesse Hopcus](#jesse-hopcus) · [Yeshaya Dank](#yeshaya-dank) · [Michael Moore](#michael-moore) · [Jennifer Ulloa](#jennifer-ulloa) · [Nick Samara](#nick-samara) · [Pradeep Bhatia](#pradeep-bhatia) · [Chris Bowers](#chris-bowers)
+## LAYER 5 — of the 9 who showed: qualification, downsell, and the exact reason per person
+**The split: 9 = 1 Main-qualified + 2 downsell-offered + 6 disqualified outright**
+
+| Person | Stage-1 verdict | Reason (category) | What was offered | Outcome | Proof |
+|---|---|---|---|---|---|
+| [Karl Krummenacher](#karl-krummenacher) | 🟢 **QUALIFIED — Main Offer** | credit ✓ money ✓ — just not in market for main right now | $7.5K deal | 🖊 agreed, **unsigned** | [rec](https://fathom.video/calls/791088813) |
+| [Nick Samara](#nick-samara) | 🟡 Downsell offered → 🔴 DQ'd | 💰 **money** — dead broke, couldn't fund even the downsell | $500 custom credit-rebuild | verbal ✅ · agreement sent ✅ · **paid ❌** [V Whop] | [rec](https://fathom.video/calls/795906442) |
+| [Pradeep Bhatia](#pradeep-bhatia) | 🟡 Downsell offered → 🔴 DQ'd | 💰 **money** — collections, cards at 90%+ | $300 dispute-side rebuild | committed Monday · **paid ❌** [V Whop] | [rec](https://fathom.video/calls/775117204) |
+| [Michael Moore](#michael-moore) | 🔴 DISQUALIFIED | 💰 **money** — can't cover ~$200; verge of bankruptcy | none viable | → Nurture | [rec](https://fathom.video/calls/791826979) |
+| [Chris Bowers](#chris-bowers) | 🔴 DISQUALIFIED | 💰💳 **money + credit** — maxed cards, can't pay down utilization, can't make $200 | paused mid-process | stalled 8/7 | [rec 8/4](https://fathom.video/calls/768297031) · [8/7](https://fathom.video/calls/771447748) |
+| [Jesse Hopcus](#jesse-hopcus) | 🔴 DISQUALIFIED | 💳 **credit** — too weak, too many loans/debt | none | closed out | [GHL](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/SG3f3PsV3sJaJRS34v21) |
+| [Yeshaya Dank](#yeshaya-dank) | 🔴 DQ'd as-is (downsell-fit on tape) | 🖊 **structure** — empty US credit file, needs a personal guarantor ("find someone else") | build-stage path if PG found | Sep 10 follow-up pending PG | [rec](https://fathom.video/calls/783351348) |
+| [Jennifer Ulloa](#jennifer-ulloa) | 🔴 DISQUALIFIED | 🎯 **offer mismatch** — wants no-PG funding we don't sell | none | closed out | [rec](https://fathom.video/calls/775643888) |
+| [P Reddy P](#p-reddy-p) | 🔴 STRUCK — FAKE | 🎭 **fake lead** — fake business/website, wouldn't show face or report | — | struck from funnel quality math | [rec](https://fathom.video/calls/777298604) |
+
+**The percentages that matter:**
+- Of 9 shows: **Main-qualified 11% (1)** · downsell-offered 22% (2) · disqualified outright 67% (6)
+- Of the 8 non-qualified: **money is the blocker for 50% (4)** · money-or-credit involved in **75% (6 of 8)** — only Jennifer (mismatch) and P Reddy (fake) fall outside money/credit
+- **Downsell funnel: 2 offered → 2 verbal yes → 0 paid = 0% downsell conversion** [V Whop] — even the downsell price is above this audience's reach
+- ➕ Outside funnel: [Chris Mclean](#chris-mclean) (referral) = downsell-fit (late payments, collections)
 
 ## LAYER 6 — 💰 $0 COLLECTED in the window (Karl's $7.5K agreed, unsigned)
 ➕ Outside the funnel: [Chris Mclean](#chris-mclean) — Matthew referral, your 30th booked tag.
