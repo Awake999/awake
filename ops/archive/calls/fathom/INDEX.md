@@ -10,7 +10,7 @@
 - [July 2026](#july-2026) — 91 meetings
 - [June 2026](#june-2026) — 10 meetings
 
-**Archive status:** 57 archived ✅ · 2 verified no-transcript · 175 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
+**Archive status:** 60 archived ✅ · 2 verified no-transcript · 172 still queued (★ first, then Aug 20+ top-down, then client-named, then the rest).
 
 
 ## August 2026
@@ -75,9 +75,9 @@
 | 2026-08-19 | [Team Sync — Show-Rate Systems Priority, Carla's Setter Path](https://fathom.video/calls/791504315) | ✅ [transcript](2026-08-19--team-sync-show-rate-systems-carla-setter-path--174957467/transcript.md) · [summary](2026-08-19--team-sync-show-rate-systems-carla-setter-path--174957467/summary.md) · raw ✓ |
 | 2026-08-19 | [Constantine — Sales Process Systemization, FAQ Framework ★](https://fathom.video/calls/791440457) | ✅ [transcript](2026-08-19--constantine-sales-process-systemization--174926566/transcript.md) · [summary](2026-08-19--constantine-sales-process-systemization--174926566/summary.md) · raw ✓ |
 | 2026-08-19 | [Daily Sync — New Meeting Standards, Matthew Reinsertion Coordination](https://fathom.video/calls/791300186) | ✅ [transcript](2026-08-19--daily-sync-meeting-standards-matthew-reinsertion--174853572/transcript.md) · [summary](2026-08-19--daily-sync-meeting-standards-matthew-reinsertion--174853572/summary.md) · raw ✓ |
-| 2026-08-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/790152271) <sub>rec 174596591</sub> | not yet — click title to watch on Fathom |
-| 2026-08-18 | [Impromptu Zoom Meeting](https://fathom.video/calls/790053322) <sub>rec 174583294</sub> | not yet — click title to watch on Fathom |
-| 2026-08-18 | [Impromptu Zoom Meeting](https://fathom.video/calls/790045529) <sub>rec 174581230</sub> | not yet — click title to watch on Fathom |
+| 2026-08-19 | [Impromptu Zoom Meeting](https://fathom.video/calls/790152271) <sub>rec 174596591</sub> | ✅ [transcript](2026-08-19--alan-lynn-client-portal-sync-hiring--174596591/transcript.md) · [summary](2026-08-19--alan-lynn-client-portal-sync-hiring--174596591/summary.md) · raw ✓ |
+| 2026-08-18 | [Impromptu Zoom Meeting](https://fathom.video/calls/790053322) <sub>rec 174583294</sub> | ✅ [transcript](2026-08-18--apw-sales-sop-3-tier-offer-cash-cabin--174583294/transcript.md) · [summary](2026-08-18--apw-sales-sop-3-tier-offer-cash-cabin--174583294/summary.md) · raw ✓ |
+| 2026-08-18 | [Impromptu Zoom Meeting](https://fathom.video/calls/790045529) <sub>rec 174581230</sub> | ✅ [transcript](2026-08-18--carla-pedro-no-show-protocol--174581230/transcript.md) · [summary](2026-08-18--carla-pedro-no-show-protocol--174581230/summary.md) · raw ✓ |
 | 2026-08-18 | [Impromptu Zoom Meeting](https://fathom.video/calls/790032737) <sub>rec 174578222</sub> | not yet — click title to watch on Fathom |
 | 2026-08-18 | [Impromptu Zoom Meeting](https://fathom.video/calls/789918031) <sub>rec 174549629</sub> | not yet — click title to watch on Fathom |
 | 2026-08-18 | [Impromptu Zoom Meeting](https://fathom.video/calls/789716789) <sub>rec 174453400</sub> | not yet — click title to watch on Fathom |

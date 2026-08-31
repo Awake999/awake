@@ -236,3 +236,25 @@ Ran `format_transcripts.py` (174957467 → chaptered, 3 chapters; 174926566 → 
 **Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
 
 **Resume point:** next queued row (top-down, August section) is `rec 174596591` ([Fathom call 790152271](https://fathom.video/calls/790152271), 2026-08-19).
+
+## Batch 11
+
+Resumed via self-scheduled continuation (resume point re-verified against live INDEX.md after a `git pull --rebase` picked up an unrelated Lane 3 commit — zero scope overlap). Continued top-down — next three queued rows:
+
+| Recording | Call | Archived as |
+|---|---|---|
+| rec 174596591 | [Fathom call 790152271](https://fathom.video/calls/790152271) | [2026-08-19--alan-lynn-client-portal-sync-hiring--174596591](../archive/calls/fathom/2026-08-19--alan-lynn-client-portal-sync-hiring--174596591/transcript.md) — Alan/Lynn work through the client-portal vs. internal-tracking sync gap (call booked w/ Jacob), performance concerns with new hires Ina and Grace, considering a $3k/mo credit specialist manager hire |
+| rec 174583294 | [Fathom call 790053322](https://fathom.video/calls/790053322) | [2026-08-18--apw-sales-sop-3-tier-offer-cash-cabin--174583294](../archive/calls/fathom/2026-08-18--apw-sales-sop-3-tier-offer-cash-cabin--174583294/transcript.md) — APW sales SOP review, 3-tier offer strategy ($0-upfront success fee / optimization fee / $10k PRIME program), Tennessee "Cash Cabin" retreat logistics (Sept 7–12), VA-hiring strategy |
+| rec 174581230 | [Fathom call 790045529](https://fathom.video/calls/790045529) | [2026-08-18--carla-pedro-no-show-protocol--174581230](../archive/calls/fathom/2026-08-18--carla-pedro-no-show-protocol--174581230/transcript.md) — short call: Carla/Alan troubleshoot client Pedro's no-show, refine the state-ground-rules → get-confirmation → offer-reschedule client-call protocol |
+
+Raw sourcing: rec 174583294 auto-saved to a local plain-text tool-result file — direct `cp`, confirmed identical via `cmp`. rec 174596591 and rec 174581230 both returned inline; the prior turn that first fetched them was interrupted by a context-compaction boundary before any files were written, so both were **re-fetched fresh** from Fathom via `get_meeting_transcript`/`get_meeting_summary` this turn rather than reconstructed from a stale summary — `transcript-raw.txt` written from the freshly-returned exact tool text via Write for each (self-flagged per the audit-approved inline-transcript raw-write procedure).
+
+Ran `format_transcripts.py` (174596591 → chaptered, 6 chapters; 174583294 → chaptered, 11 chapters; 174581230 → "short", 1 chapter's worth of timestamped lines, no chapter headings added — file still got its breadcrumb) then `add_breadcrumbs.py`.
+
+**Verbatim self-check:** stripped structural additions and diffed against each `transcript-raw.txt` line-for-line — all three matched exactly (174596591: 175/175, 174583294: 380/380, 174581230: 17/17).
+
+**INDEX:** flipped all three rows to ✅ with clickable links + `raw ✓`. Counts: 57→60 archived, 2 no-transcript (unchanged), 175→172 queued. Verified 60+2+172 = 234 and grep-counted rows (60 ✅ / 1 explicit "n/a — no transcript" + 1 differently-worded no-transcript row + 172 queued = 174 non-✅ = 234) confirm.
+
+**Not touched:** no other archive area, no other lane's files, no `ops/SOP.md`/`REGISTER.md`/root `INDEX.md`.
+
+**Resume point:** next queued row (top-down, August section) is `rec 174578222` ([Fathom call 790032737](https://fathom.video/calls/790032737), 2026-08-18).
