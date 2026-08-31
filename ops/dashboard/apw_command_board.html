@@ -2087,8 +2087,8 @@
     return window.APW_FIX[name] || window.APW_SHOWED(stage, hasRec);
   };
   /* v7.5 (Alan 8/31: "click pop up clear change to what") — tap opens a CHOOSER, never a blind cycle */
-  window.APW_PICK_TARGET = null;
-  window.APW_CYCLE = function (name) {
+  /* v7.6 — generic chooser: every correction icon opens a pick-what-it-becomes popup */
+  window.APW_CHOOSE = function (title, options, cur, onPick) {
     var pick = document.getElementById('apw-pick');
     if (!pick) {
       pick = document.createElement('div'); pick.id = 'apw-pick'; document.body.appendChild(pick);
@@ -2096,34 +2096,16 @@
         if (!e.target.closest('#apw-pick') && !e.target.closest('.vbtn')) pick.classList.remove('on');
       });
     }
-    var cur = window.APW_FIX[name] || 'auto';
-    var SL = { yes: 'SHOWED ✓', no: 'DID NOT SHOW ✕', unk: 'UNKNOWN ?', auto: 'AUTO (evidence decides)' };
-    var opts = [
-      ['yes', '✓', 'SHOWED', 'they were on the call'],
-      ['no', '✕', 'DID NOT SHOW', 'booked but never came'],
-      ['unk', '?', 'UNKNOWN', 'we genuinely don\u2019t know'],
-      ['auto', '↺', 'AUTO', 'let the evidence decide (recording · stage · GHL)']
-    ];
-    pick.innerHTML = '<div class="pk-t">' + name + ' — change SHOWED to:</div>' + opts.map(function (o) {
-      return '<button type="button" class="pk-o' + (cur === o[0] ? ' cur' : '') + '" data-v="' + o[0] + '">' +
-        '<span class="pk-i" style="color:' + (o[0] === 'yes' ? 'var(--good)' : o[0] === 'no' ? 'var(--crit)' : 'var(--ink-2)') + '">' + o[1] + '</span>' +
-        '<span>' + o[2] + '<span class="pk-s">' + o[3] + '</span></span></button>';
+    pick.innerHTML = '<div class="pk-t">' + title + '</div>' + options.map(function (o) {
+      return '<button type="button" class="pk-o' + (cur === o.v ? ' cur' : '') + '" data-v="' + o.v + '">' +
+        '<span class="pk-i" style="color:' + (o.c || 'var(--ink-2)') + '">' + o.i + '</span>' +
+        '<span>' + o.l + '<span class="pk-s">' + o.s + '</span></span></button>';
     }).join('');
     pick.querySelectorAll('.pk-o').forEach(function (b) {
       b.addEventListener('click', function (e) {
         e.stopPropagation();
-        var v = b.dataset.v;
-        if (v === 'auto') delete window.APW_FIX[name]; else window.APW_FIX[name] = v;
-        try { localStorage.setItem('apw-showed-fix', JSON.stringify(window.APW_FIX)); } catch (err) {}
         pick.classList.remove('on');
-        window.APW_TOAST('👀', name, 'Showed up to the call', SL[cur], SL[v],
-          v === 'yes' ? 'ta-yes' : v === 'no' ? 'ta-no' : 'ta-unk');
-        if (window.APW_FX_REFRESH) try { window.APW_FX_REFRESH(); } catch (err) {}
-        else {
-          if (window.renderRoster) try { window.renderRoster(); } catch (err) {}
-          if (window.applyRosterViewLive) try { window.applyRosterViewLive(); } catch (err) {}
-        }
-        window.APW_FIXLIST();
+        onPick(b.dataset.v);
       });
     });
     var x = (typeof window.__apwLX === 'number' ? window.__apwLX : innerWidth / 2);
@@ -2131,7 +2113,27 @@
     pick.style.left = Math.max(8, Math.min(innerWidth - 300, x - 20)) + 'px';
     pick.classList.add('on');
     pick.style.top = Math.max(8, Math.min(innerHeight - pick.offsetHeight - 8, y + 14)) + 'px';
-    /* chooser handles persistence, toast, refresh */
+  };
+  window.APW_CYCLE = function (name) {
+    var cur = window.APW_FIX[name] || 'auto';
+    var SL = { yes: 'SHOWED ✓', no: 'DID NOT SHOW ✕', unk: 'UNKNOWN ?', auto: 'AUTO (evidence decides)' };
+    window.APW_CHOOSE(name + ' — change SHOWED to:', [
+      { v: 'yes', i: '✓', l: 'SHOWED', s: 'they were on the call', c: 'var(--good)' },
+      { v: 'no', i: '✕', l: 'DID NOT SHOW', s: 'booked but never came', c: 'var(--crit)' },
+      { v: 'unk', i: '?', l: 'UNKNOWN', s: 'we genuinely don\u2019t know', c: 'var(--ink-2)' },
+      { v: 'auto', i: '↺', l: 'AUTO', s: 'let the evidence decide (recording · stage · GHL)', c: 'var(--ink-2)' }
+    ], cur, function (v) {
+      if (v === 'auto') delete window.APW_FIX[name]; else window.APW_FIX[name] = v;
+      try { localStorage.setItem('apw-showed-fix', JSON.stringify(window.APW_FIX)); } catch (err) {}
+      window.APW_TOAST('👀', name, 'Showed up to the call', SL[cur], SL[v],
+        v === 'yes' ? 'ta-yes' : v === 'no' ? 'ta-no' : 'ta-unk');
+      if (window.APW_FX_REFRESH) try { window.APW_FX_REFRESH(); } catch (err) {}
+      else {
+        if (window.renderRoster) try { window.renderRoster(); } catch (err) {}
+        if (window.applyRosterViewLive) try { window.applyRosterViewLive(); } catch (err) {}
+      }
+      window.APW_FIXLIST();
+    });
   };
   window.APW_FIXLIST = function () {
     var box = document.getElementById('fix-list'); if (!box) return;
@@ -2246,49 +2248,62 @@ window.APW_TRUTH_GET = function (displayName) {
       f: ['🔁', 'Follow-Up Required', 'needs another call after showing with the closer']
     };
     window.APW_DEAL_CYCLE = function (name, key) {
-      var cur = (DEALFIX[name] || {})[key];
-      var next = !cur ? 'yes' : cur === 'yes' ? 'no' : cur === 'no' ? 'unk' : null;
-      if (!DEALFIX[name]) DEALFIX[name] = {};
-      if (next === null) delete DEALFIX[name][key]; else DEALFIX[name][key] = next;
-      if (!Object.keys(DEALFIX[name]).length) delete DEALFIX[name];
-      try { localStorage.setItem('apw-deal-fix', JSON.stringify(DEALFIX)); } catch (e) {}
       var m = DEAL_META[key] || ['✎', key, ''];
-      var VL = { yes: 'YES ✓', no: 'NO ✕', unk: 'UNKNOWN ?' };
-      window.APW_TOAST(m[0], name, m[1] + ' — ' + m[2],
-        cur ? VL[cur] : 'AUTO', next ? VL[next] : 'BACK TO AUTO',
-        next === 'yes' ? 'ta-yes' : next === 'no' ? 'ta-no' : 'ta-unk');
-      if (window.APW_FX_REFRESH) try { window.APW_FX_REFRESH(); } catch (e) {}
-      if (window.APW_FIXLIST) window.APW_FIXLIST();
+      var cur = (DEALFIX[name] || {})[key] || 'auto';
+      var VL = { yes: 'YES ✓', no: 'NO ✕', unk: 'UNKNOWN ?', auto: 'AUTO (from stage)' };
+      window.APW_CHOOSE(name + ' — ' + m[1].toUpperCase() + ':', [
+        { v: 'yes', i: m[0], l: 'YES', s: m[2], c: 'var(--good)' },
+        { v: 'no', i: '✕', l: 'NO', s: 'definitely not — ' + m[1].toLowerCase(), c: 'var(--crit)' },
+        { v: 'unk', i: '?', l: 'UNKNOWN', s: 'we genuinely don\u2019t know', c: 'var(--ink-2)' },
+        { v: 'auto', i: '↺', l: 'AUTO', s: 'derive from the pipeline stage', c: 'var(--ink-2)' }
+      ], cur, function (v) {
+        if (!DEALFIX[name]) DEALFIX[name] = {};
+        if (v === 'auto') delete DEALFIX[name][key]; else DEALFIX[name][key] = v;
+        if (!Object.keys(DEALFIX[name]).length) delete DEALFIX[name];
+        try { localStorage.setItem('apw-deal-fix', JSON.stringify(DEALFIX)); } catch (e) {}
+        window.APW_TOAST(m[0], name, m[1] + ' — ' + m[2], VL[cur], VL[v],
+          v === 'yes' ? 'ta-yes' : v === 'no' ? 'ta-no' : 'ta-unk');
+        if (window.APW_FX_REFRESH) try { window.APW_FX_REFRESH(); } catch (e) {}
+        if (window.APW_FIXLIST) window.APW_FIXLIST();
+      });
     };
     var TRIFIX = {}; try { TRIFIX = JSON.parse(localStorage.getItem('apw-triage-fix') || '{}') || {}; } catch (e) {}
     window.APW_TRIFIX = TRIFIX;
     window.APW_TRI_CYCLE = function (name) {
-      var cur = TRIFIX[name];
-      var next = !cur ? 'yes' : cur === 'yes' ? 'no' : null;
-      if (next === null) delete TRIFIX[name]; else TRIFIX[name] = next;
-      try { localStorage.setItem('apw-triage-fix', JSON.stringify(TRIFIX)); } catch (e) {}
-      var TL = { yes: 'TRIAGED ✓', no: 'NOT TRIAGED ✕' };
-      window.APW_TOAST('🎯', name, 'Triage — a human vetted this lead before/after booking',
-        cur ? TL[cur] : 'UNKNOWN ? (nothing recorded in Notion)',
-        next ? TL[next] : 'BACK TO UNKNOWN ?',
-        next === 'yes' ? 'ta-yes' : next === 'no' ? 'ta-no' : 'ta-unk');
-      if (window.APW_FX_REFRESH) try { window.APW_FX_REFRESH(); } catch (e) {}
-      if (window.APW_FIXLIST) window.APW_FIXLIST();
+      var cur = TRIFIX[name] || 'auto';
+      var TL = { yes: 'TRIAGED ✓', no: 'NOT TRIAGED ✕', auto: 'AUTO (Notion / unknown)' };
+      window.APW_CHOOSE(name + ' — change TRIAGE to:', [
+        { v: 'yes', i: '🎯', l: 'TRIAGED', s: 'a human vetted this lead', c: 'var(--good)' },
+        { v: 'no', i: '✕', l: 'NOT TRIAGED', s: 'nobody vetted them', c: 'var(--crit)' },
+        { v: 'auto', i: '↺', l: 'AUTO', s: 'use what Notion has (else Unknown)', c: 'var(--ink-2)' }
+      ], cur, function (v) {
+        if (v === 'auto') delete TRIFIX[name]; else TRIFIX[name] = v;
+        try { localStorage.setItem('apw-triage-fix', JSON.stringify(TRIFIX)); } catch (e) {}
+        window.APW_TOAST('🎯', name, 'Triage — a human vetted this lead before/after booking',
+          TL[cur], TL[v], v === 'yes' ? 'ta-yes' : v === 'no' ? 'ta-no' : 'ta-unk');
+        if (window.APW_FX_REFRESH) try { window.APW_FX_REFRESH(); } catch (e) {}
+        if (window.APW_FIXLIST) window.APW_FIXLIST();
+      });
     };
     var SETFIX = {}; try { SETFIX = JSON.parse(localStorage.getItem('apw-setter-verdict') || '{}') || {}; } catch (e) {}
     window.APW_SETFIX = SETFIX;
     window.APW_SET_CYCLE = function (name) {
-      var ord = ['primary', 'down', 'custom', 'notqual'];
-      var cur = SETFIX[name];
-      var next = !cur ? 'primary' : (ord.indexOf(cur) === ord.length - 1 ? null : ord[ord.indexOf(cur) + 1]);
-      if (next === null) delete SETFIX[name]; else SETFIX[name] = next;
-      try { localStorage.setItem('apw-setter-verdict', JSON.stringify(SETFIX)); } catch (e) {}
-      var L = { primary: 'PRIMARY FIT', down: 'DOWNSELL FIT', custom: 'CUSTOM FIT', notqual: 'NOT QUALIFIED' };
-      window.APW_TOAST('🎙', name, 'Setter Verdict (before booking)',
-        cur ? L[cur] : 'NOT RECORDED', next ? L[next] : 'BACK TO NOT RECORDED',
-        next === 'notqual' ? 'ta-no' : next ? 'ta-yes' : 'ta-unk');
-      if (window.APW_FX_REFRESH) try { window.APW_FX_REFRESH(); } catch (e) {}
-      if (window.APW_FIXLIST) window.APW_FIXLIST();
+      var cur = SETFIX[name] || 'auto';
+      var L = { primary: 'PRIMARY FIT', down: 'DOWNSELL FIT', custom: 'CUSTOM FIT', notqual: 'NOT QUALIFIED', auto: 'NOT RECORDED' };
+      window.APW_CHOOSE(name + ' — SETTER VERDICT (before booking):', [
+        { v: 'primary', i: '🥇', l: 'PRIMARY FIT', s: 'funding-ready — main offer', c: 'var(--good)' },
+        { v: 'down', i: '🔧', l: 'DOWNSELL FIT', s: 'credit rebuild first, can pay', c: 'var(--w-gold)' },
+        { v: 'custom', i: '🧩', l: 'CUSTOM FIT', s: 'serviceable via a custom structure', c: 'var(--w-violet)' },
+        { v: 'notqual', i: '✕', l: 'NOT QUALIFIED', s: 'neither primary nor downsell', c: 'var(--crit)' },
+        { v: 'auto', i: '↺', l: 'CLEAR', s: 'back to Not recorded', c: 'var(--ink-2)' }
+      ], cur, function (v) {
+        if (v === 'auto') delete SETFIX[name]; else SETFIX[name] = v;
+        try { localStorage.setItem('apw-setter-verdict', JSON.stringify(SETFIX)); } catch (e) {}
+        window.APW_TOAST('🎙', name, 'Setter Verdict (before booking)', L[cur], L[v],
+          v === 'notqual' ? 'ta-no' : v === 'auto' ? 'ta-unk' : 'ta-yes');
+        if (window.APW_FX_REFRESH) try { window.APW_FX_REFRESH(); } catch (e) {}
+        if (window.APW_FIXLIST) window.APW_FIXLIST();
+      });
     };
     var GRADEFIX = {}; try { GRADEFIX = JSON.parse(localStorage.getItem('apw-setter-grade') || '{}') || {}; } catch (e) {}
     window.APW_GRADEFIX = GRADEFIX;
@@ -2758,11 +2773,11 @@ window.APW_TRUTH_GET = function (displayName) {
         var tvS = (window.APW_TRIFIX && window.APW_TRIFIX[r[0]]) || 'unk';
         var nEsc = r[0].replace(/'/g, "\\'");
         function dbn(icon, lbl, val, fn) {
-          return "<button type='button' class='vbtn dealb" + (val === 'yes' ? ' on' : val === 'no' ? ' off' : '') + "' data-tip='" + lbl + ". Right now: " + (val === 'yes' ? 'YES ✓' : val === 'no' ? 'NO ✕' : 'UNKNOWN — nothing recorded yet') + ". Tap to change it — saves on this device instantly and queues for the Notion sync.' onclick=\"event.stopPropagation();" + fn + "\">" + icon + "</button>";
+          return "<button type='button' class='vbtn dealb" + (val === 'yes' ? ' on' : val === 'no' ? ' off' : '') + "' data-tip='" + lbl + ". Right now: " + (val === 'yes' ? 'YES ✓' : val === 'no' ? 'NO ✕' : 'UNKNOWN — nothing recorded yet') + ". Tap → a popup lets you PICK the new value. Saves instantly, queues for the Notion sync.' onclick=\"event.stopPropagation();" + fn + "\">" + icon + "</button>";
         }
         var svS = (window.APW_SETFIX && window.APW_SETFIX[r[0]]) || 'unk';
         var dealHtml = dbn('🎯', 'Triaged — a human vetted this lead', tvS, "window.APW_TRI_CYCLE('" + nEsc + "')")
-          + dbn('🎙', 'Setter Verdict — cycles Primary → Downsell → Custom → Not qualified', svS === 'unk' ? 'unk' : (svS === 'notqual' ? 'no' : 'yes'), "window.APW_SET_CYCLE('" + nEsc + "')")
+          + dbn('🎙', 'Setter Verdict — popup: Primary / Downsell / Custom / Not qualified', svS === 'unk' ? 'unk' : (svS === 'notqual' ? 'no' : 'yes'), "window.APW_SET_CYCLE('" + nEsc + "')")
           + dbn('🗣', 'Verbal Yes — they said yes on the phone', dlS.v, "window.APW_DEAL_CYCLE('" + nEsc + "','v')")
           + dbn('📄', 'Agreement sent', dlS.a, "window.APW_DEAL_CYCLE('" + nEsc + "','a')")
           + dbn('💰', 'Paid', dlS.p, "window.APW_DEAL_CYCLE('" + nEsc + "','p')")
@@ -3019,7 +3034,7 @@ window.APW_TRUTH_GET = function (displayName) {
         var sv = (window.APW_SETFIX && window.APW_SETFIX[nmS]) || 'unk';
         var SVL = { primary: 'PRIMARY FIT', down: 'DOWNSELL FIT', custom: 'CUSTOM FIT', notqual: 'NOT QUALIFIED' };
         [['t', '🎯', 'Triaged — a human vetted this lead', tv],
-         ['s', '🎙', 'Setter Verdict — setter\u2019s call before booking (cycles Primary → Downsell → Custom → Not qualified)', sv === 'unk' ? 'unk' : (sv === 'notqual' ? 'no' : 'yes')],
+         ['s', '🎙', 'Setter Verdict — setter\u2019s call before booking (popup: Primary / Downsell / Custom / Not qualified)', sv === 'unk' ? 'unk' : (sv === 'notqual' ? 'no' : 'yes')],
          ['v', '🗣', 'Verbal Yes — they said yes on the phone, ready to go', dl.v],
          ['a', '📄', 'Agreement Sent — the contract went out to them', dl.a],
          ['p', '💰', 'Paid — money actually collected', dl.p],
@@ -3029,7 +3044,7 @@ window.APW_TRUTH_GET = function (displayName) {
           var state = it[0] === 's'
             ? (sv === 'unk' ? 'NOT RECORDED' : SVL[sv])
             : (it[3] === 'yes' ? 'YES ✓' : it[3] === 'no' ? 'NO ✕' : 'UNKNOWN — nothing recorded yet');
-          b2.setAttribute('data-tip', it[2] + '. Right now: ' + state + '. Tap to change it — it saves on this device instantly and queues for the Notion sync.');
+          b2.setAttribute('data-tip', it[2] + '. Right now: ' + state + '. Tap → a popup lets you PICK the new value. Saves instantly, queues for the Notion sync.');
           b2.setAttribute('aria-label', it[2]);
           b2.textContent = it[1];
           (function (k2) {
