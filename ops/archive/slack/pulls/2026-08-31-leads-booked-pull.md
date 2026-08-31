@@ -251,3 +251,23 @@ Alan, verbatim: "that show rate is bullshit. cehck and verify yourself." He was 
 | **Show rate band** | **34% floor – 62% ceiling; 48% on resolved outcomes (10 of 21)** |
 
 v3's 45–69% band is retracted. Alan's 8/21 "16%" reads as a different (stricter) metric — likely qualified-shows over all bookings incl. pre-existing re-books; on THAT basis this window gives 3–4 qualified shows / 66 bookings ≈ **5–6%**, which matches his instinct better than any of my earlier numbers.
+
+---
+
+# v5 addendum (2026-08-31): unknowns final pass + the qualified lens
+
+**Unknowns final verdict:** Fathom recordings list swept Jul 29–Aug 13 + spot-checked untitled rooms on Behnad's and Desi's dates (internal/affiliate calls, not them). Combined with the booking audit's per-event "No recording" findings: **the 8 unknowns have no rooms at all — most likely no-shows, unprovable.** If all 8 no-showed, the true show rate = 10/29 = **34%**.
+
+**Two different 16%s on record (unresolved — Alan to rule):** Alan 8/21 to Kai: "16% is much below 60% KPI" (reads as SHOW rate). Carla's 8/12 priority list (Fathom 783044555): "reduce the 16% no-show rate" (reads as NO-SHOW rate). Both cannot be right; the archive keeps both verbatim.
+
+## THE QUALIFIED LENS (the strict Kai/ScaleClients metric — updates every Monday with the routine)
+
+| Metric | Window value | Basis |
+|---|---|---|
+| Bookings (all, incl. re-books & pre-existing) | 66 | Slack booked-calls channel |
+| Shows by NEW leads (client verifiably present) | 10 | v4 audit |
+| **QUALIFIED shows** (clean 720+ AND has money AND in-market — Alan's 8/26 definition) | **2–3**: P Reddy (qualified, walked), Karl (whale, pending), Michael Moore (borderline — closed at $1K custom, but ICP-mismatch per Constantine 8/28) | register #82 + archived calls |
+| **Qualified-show rate** | **2–3 / 66 ≈ 3–5%** | matches Alan's 8/26 reckoning ("only 3 qualified individuals have shown… ever") |
+| Closes at main-offer terms | 0 this window (Michael = custom $1K; Pradeep = $300 custom) | register |
+
+Both lenses now ship weekly: raw new-lead funnel (v4 method) + this qualified lens.

@@ -255,3 +255,6 @@ Draft Dr0BTB8H0EJ3 created in #sales-team-updates (C0BPN7Y9YB0) — the 8 never-
 
 ## Miss log (TRUTH law, 2026-08-31): show-rate inflation caught by Alan
 Alan: "that show rate is bullshit. cehck and verify yourself." Verified — v3 counted recording-existence as show. Audit found Morawitz 8/27 = empty room (Alan/Carla/Lynn only), Connor 8/17 = no transcript/summary, Pedro = triage-not-booked-call. Corrected v4: 10 shows (9 verified + Myla secondary), band 34–62%, 48% on resolved. Standing rule adopted: A RECORDING IS NOT A SHOW — a show requires the client's own speech verified in the transcript (or an API summary proving conversation). Grade of v3: C (mechanism right, verification skipped).
+
+## Batch (2026-08-31): v5 — ripple annotations + qualified lens + unknowns final pass
+Morawitz no-show annotated on call summary + people page + INDEX row; Connor INDEX row annotated (empty room, Sep 1 rebook). Unknowns: Fathom list swept, spot-checks negative — no rooms exist; likely-no-show verdict recorded (true show rate if so: 34%). Qualified lens added: 2–3 qualified shows / 66 bookings ≈ 3–5%, matching Alan's 8/26 reckoning. Found + flagged the two contradictory 16%s (Alan 8/21 show-rate vs Carla 8/12 no-show-rate). Jill identity double-confirmed via Fathom "Jill 1 on 1 Coaching — Jillian peralta" 8/11.

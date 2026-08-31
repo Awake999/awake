@@ -25,3 +25,6 @@ Qualify a funding prospect and align on internal workflow priorities.
 ## Next Steps
 - **Alan:** email Morawitz the recording, transcript, and summary; send Carla the trip itinerary.
 - **Carla:** update the "Efficient Daily Sync Meeting System" Trello card; sort the "Agenda" list into correct columns.
+
+---
+**CORRECTION (2026-08-31, show-status audit):** Robert Morawitz did NOT attend this call. The 2-hour recording's only speakers are Alan Nguyen (72 turns), Carla Stivala (72), and Lynn N. (28) — the room became the team's qualification-standard working session after the client no-showed. Recorded as a verified NO-SHOW in [the funnel report](../../../slack/pulls/2026-08-31-leads-booked-pull.md).
