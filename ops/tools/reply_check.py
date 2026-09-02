@@ -34,9 +34,12 @@ def main():
                    bool(re.search(model_re, body, re.I)),
                    'put the serving model in the run-header or token line, not just the 🎚️ line'))
     # 2. token disclosure INCLUDING remaining budget
-    tok = re.search(r'[Tt]okens?.{0,120}', text, re.S)
+    # scan EVERY "token" occurrence, not just the first — a table header named
+    # "Tokens" was shadowing the real disclosure line (found by the script's own
+    # first live run, 2026-09-02)
+    toks = [m.group(0).lower() for m in re.finditer(r'[Tt]okens?.{0,120}', text, re.S)]
     checks.append(('FLOOR', 'token line includes remaining budget',
-                   bool(tok) and 'remaining' in tok.group(0).lower(),
+                   any('remaining' in t for t in toks),
                    'write: **Tokens:** ~NK this run · ~N.NM session remaining'))
     # 3. options mirrored in text
     checks.append(('FLOOR', '🔘 OPTIONS list mirrored in text',
