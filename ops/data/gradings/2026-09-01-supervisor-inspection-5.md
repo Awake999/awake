@@ -1,0 +1,92 @@
+# 🕵️ SUPERVISOR INSPECTION #5 — reply audit vs SOP §1.9 (8e Layer 2) · **the §8i floor's first exam**
+
+*Source: raw session transcript (JSONL), window 2026-09-01 17:38Z → 2026-09-02 00:45Z. Graded: what actually rendered on Alan's screen, never intent. Grouping: all assistant output between two drivers = one reply group. Laws in force the whole window: everything through **SOP v1.19**, including **§8i MINIMUM VIABLE REPLY** (shipped 8/31 evening out of inspection #4) and §8h compaction re-bootstrap. Mandate: did the 4-slot floor hold at 100%? Inspector: supervisor agent pass #5. Prior: [#1](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/gradings/2026-08-31-supervisor-inspection-1.md) · [#2](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/gradings/2026-08-31-supervisor-inspection-2.md) · [#3](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/gradings/2026-08-31-supervisor-inspection-3.md) · [#4](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/gradings/2026-08-31-supervisor-inspection-4.md).*
+
+---
+
+## 🏁 RESULT: 2 closed reply groups audited (+1 in-flight, not graded) · **0 A / 1 B / 1 C / 0 D** · **CURRENT STREAK: 0/5** · **ZERO Alan prompts, ZERO reprompts** · #1 finding = **the §8i floor HELD at 100% — 4/4 slots, 2/2 replies, including the "remaining" figure that had never once shipped in five inspections**
+
+### 🎯 THE MANDATED NUMBER — §8i four-slot floor, exact hit rate
+
+| # | Floor slot | Hit rate | Evidence |
+|---|---|---|---|
+| 1 | Model/effort line (session-verified) | **2/2** | Both replies close *"Claude Opus 5 · MEDIUM effort"*; transcript `model` field on both turns = `claude-opus-5`. No stale claim. |
+| 2 | Token disclosure **incl. remaining** | **2/2** | 17:41 *"~18K this cycle · ~14.46M session remaining"* · 23:23 *"~21K this cycle · ~14.44M session remaining"* |
+| 3 | 🔘 OPTIONS mirrored in text | **2/2** | 4 forward choices each, recommended one marked, zero permission-gates (ruling #23 clean) |
+| 4 | Bold 🎚️ line as absolute last line | **2/2** | Last string of both replies, bolded |
+
+**= 2/2 · 2/2 · 2/2 · 2/2 — 100%, 8 of 8 floor slots.** Comparison to the pre-§8i baseline (inspection #4): tokens **2/6 → 2/2**, and *no* inspection before this one recorded a single instance of session **remaining**, which §1.11 has always required. §8i's core bet — a 4-slot floor at 100% beats a 7-slot template at 50% — is, on this window, correct.
+
+⚠️ **One honest caveat on the floor's shape:** slots 1 and 4 are satisfied by the *same string*. Four required slots render as three distinct strings. That is not a failure under §8i as written (the 🎚️ line carries model+effort and is session-honest), but Lane 1 should say in one sentence whether the final 🎚️ line discharges slot 1, or whether a separate model/effort disclosure belongs beside the token line — otherwise slot 1 can never fail independently and is not really being measured.
+
+**⏱ Timeline:** 17:38Z scheduled trigger → 17:39 progress line + mechanized self-test (`git pull` + Python slot scan) → **17:41 mastery-cycle close (G1, C)** → *(5h40m quiet — Alan absent all window)* → 23:21Z trigger → **23:23 nightly check-in (G2, B)** → *(78m)* → 00:41Z trigger → 00:41 evening progress line + this inspection spawned *(in-flight, ungraded)*
+
+**📊 Numbers:**
+- **2 graded groups.** Drivers: **3 scheduled triggers, 0 real Alan prompts, 0 task-notification relays.** Alan sent nothing in 7 hours — this is a **fully autonomous window**, the first ever audited.
+- Grade distribution **0A · 1B · 1C** (mean ≈ B−; #4 was 0A/1B/3C/2D). Best mean of any inspection to date, on the smallest volume.
+- **Consecutive-A streak per the metric law: 0 of 5.** Most recent closed group (G2) is a **B** — one miss short. No A since 05:52Z on 8/31. Streak has now read 0/5 at #3, #4 and #5.
+- **Reprompts: 0** — trivially, since Alan sent no messages. This is *not* evidence of quality and is not counted as a win.
+- Slot pass rate (where required): floor 8/8 · verbatim 🗣️→🤖 pair **n/a-clean (0 new Alan prompts)** · conditional-slot `n/a — reason` print **0/2** 🔴 · clickable proof on claims **1/2** · forged ✓ **0** · in-reply rendering **2/2** · APW vocabulary (#25) **clean** · real AskUserQuestion widget **0/2, n/a** (§8i requires one "while he is present"; he was absent — but the counter now stands at ~40h since the last widget, 8/31 08:06Z, and the first reply after Alan returns owes one).
+
+**🔬 §8h COMPACTION RE-BOOTSTRAP — STILL UNTESTED (third inspection running).** A full-transcript search for `compact_boundary` returns exactly three events: 8/27 22:25Z, 8/30 08:22Z, **8/31 07:53:48Z — none after**. No continuation boundary, no `isCompactSummary` turn, and no "continue from where you left off" marker falls inside this window. §8h therefore had no exam here either; it remains **armed, unproven**, 41 hours after it was written. Report it as armed, never as held.
+
+**🧾 THE TWO SELF-CORRECTIONS — graded explicitly (mandate item).** Both are, in my read, the best content in the window and the strongest evidence that the honesty norms are load-bearing rather than decorative:
+
+| Correction | Where | How it landed | Grade |
+|---|---|---|---|
+| *"I told you supervisor inspection #4 was 'lost, not passed.' **That was wrong.**"* | G1, under a named `✅ Correction I owe you` heading | Error stated in the second sentence, the true outcome given with its register line (#127) and its actual grades (0A/1B/3C/2D, streak 0/5), then the **root cause named without excuse** — *"I asserted system state from post-compaction memory without checking `git log` first"* — and the fix mechanized in the same breath (self-test now reads the log before claiming an outcome). Zero apology inflation, zero rumination, no re-litigating. | **A** |
+| *"The lead silence — **I overstated it.** Here's the actual arithmetic"* | G2, as the reply's lead section | Replaced an alarm with a 4-row spend/clicks table (~$503, 44 clicks), stated the rigorous version — *"44 clicks, 0 form completions, ~3 expected… below expectation but inside small-sample variance"* — named exactly what it had implied that wasn't supported (*"implying a broken integration"*), and named the **missing measurement** it still cannot make (landing-page conversion; GHL token is local-only). The correction then *produced* the sharper finding rather than ending in hand-wringing: the Clint call showing the form mid-rebuild with a deliberate non-firing disqualify path. | **A** |
+
+Correction norms observed on both: stated plainly and early (not buried), the wrong claim quoted before the right one, root cause given once, no repeated self-flagellation, no over-hedging of the *next* claim as compensation. **This is the standard; nothing here needs fixing.** The one thing worth noting is that both corrections were self-initiated — Alan never caught either — which is exactly the behaviour the 8g loop is supposed to produce.
+
+---
+
+## 📋 REPLY-BY-REPLY
+
+### G1 · 17:39:18→17:41:07Z · autonomous mastery-cycle close (17:38Z scheduled trigger)
+- ✅ **§8i floor 4/4** — model ✓ (Opus 5, record-verified) · **tokens WITH remaining ✓** (*"~18K this cycle · ~14.46M session remaining"* — the first `remaining` figure in five inspections) · 🔘 OPTIONS ✓ (4 forward choices, recommended marked) · 🎚️ ✓ absolute last line
+- ✅ Did: self-test ALL PASS reported (a real Bash self-test ran at 17:39:26 — `git pull` + a Python slot scan — so the ✓ is earned, not forged) · the $67.48 / 165 impressions / 3 clicks spend fact with the zero-lead-card consequence stated as the sharpest open problem · **the A/B caught as a one-armed A/B** (Medical ACTIVE, Professionals PAUSED) and explicitly *not* touched — *"Flagging, not touching — that's your and Jacob's call"* ✓ · the correction above ✓ · four open items restated with owners · a concrete next-cycle diagnostic named (Meta clicks vs new GHL contacts)
+- ❌ **clickable proof ✗ (ruling #24)** — **the entire reply contains zero links.** Every claim ships with a `[V]` label and no URL: the spend figures, *"#alan-nguyen-leads produced zero cards"*, Marx's 6:00 PM CDT rebooking, *"Medical is ACTIVE, Professionals is still PAUSED"*, register #127, SOP v1.19 §8i. This is the **identical miss inspection #4 recorded against the identical group type** (its G1, its rec #4). The scheduled path is still running an older evidence standard than the interactive path.
+- ❌ **§8i conditional-slot print ✗** — additions-content is present (the Lynn/ManyChat-framework observation, the next-cycle diagnostic design) but there is no `My additions` heading and, critically, **no `additions: n/a — <reason>` / `scorecard: n/a — <reason>` line either.** §8i made silence itself the failure; this reply is silent on all four conditional slots.
+- ⚪ Not counted: no verbatim 🗣️→🤖 pair — n/a, no Alan prompt. No timeline/micro-macro block, folded into the conditional-slot miss above.
+- 🎯 **Grade: C** (2 misses) · 💬 substance was right, the correction was exemplary, and the floor held — but a status report whose entire job is verified status shipped without one clickable source, four hours' worth of ruling #24 notwithstanding.
+- 🔄 Before: #4's verdict misreported as "lost" → After: corrected on the record with root cause and a mechanized fix
+
+### G2 · 23:21:26→23:23:33Z · autonomous nightly check-in (23:21Z scheduled trigger)
+- ✅ **§8i floor 4/4** — model ✓ · **tokens WITH remaining ✓** (*"~21K this cycle · ~14.44M session remaining"*) · 🔘 OPTIONS ✓ (4, recommended marked, one of them *"Nothing — goodnight"*) · 🎚️ ✓ last line
+- ✅ **Ruling #24 largely satisfied** — the load-bearing claims carry real clickable primaries: [SCIO TEST call with Clint](https://fathom.video/calls/804545765), [Marx 806111301](https://fathom.video/calls/806111301). Counts ship with names attached (Clint, Daniel Jimenez, Marx, Connor R.), not as bare numbers.
+- ✅ **verified / unknown labels, never guessed** — *"Fathom hasn't produced a transcript or summary yet. I'm not guessing at the tradeline decision"* · *"no recording exists for his 4pm ET slot — consistent with your attested no-show pattern, but unconfirmed."* Two chances to invent an outcome, two refusals.
+- ✅ The correction above, plus the finding it produced: the ad form mid-rebuild with a **disqualifier that deliberately doesn't fire the conversion pixel** — a mechanism that explains clicks-without-cards without inventing a bug. Decision deadline (Clint, EOD/AM) carried forward to tomorrow's cycle with an owner.
+- ✅ APW vocabulary (#25) clean — funnel terms used as the house uses them, zero invented phrases.
+- ❌ **§8i conditional-slot print ✗** — same single miss as G1: additions-content present (SimpleCheck-vs-LeadFi framing against Alan's own funnel data; the medical pixel split), no `My additions` heading, and no `n/a — reason` line for additions, scorecard, footer or timeline.
+- ⚠️ Flag, not counted: the 4-row spend/clicks table is the reply's central quantitative claim and is the one table with **no link to its Meta source** (it came from a real `ads_get_ad_entities` call, so it is verified — just not clickable).
+- 🎯 **Grade: B** (1 miss) · 💬 the window's best reply: a correction that sharpened rather than softened, a real causal mechanism found in the day's tape, two honest "unknown"s, and the floor intact. One `n/a` line away from an A.
+- 🔄 Before: "integration is broken" implied → After: 44 clicks / 0 completions / ~3 expected, with the actual likely cause named and linked
+
+### ⏳ 00:41:45Z · *"Evening cycle — the nightly at 4:21pm already covered the lead diagnosis, so this run is the supervisor pass…"* — **NOT GRADED**
+Mid-turn progress line; the turn is still open (this inspection runs inside it, spawned at 00:42:07Z). Grading an unclosed turn would repeat the self-certification error this file exists to kill — the same call inspection #4 made on its 19:42Z line. Goes to inspection #6.
+
+---
+
+## 🔎 SYSTEMIC FINDINGS
+
+1. **§8i worked, and it worked for the reason it was written.** The floor is short, literal, and unconditional — and it hit 100% across an entirely autonomous window with no Alan present to notice if it hadn't. Compare the slots §8i *didn't* absorb: the conditional `n/a` print is **0/2**, and the "My additions" heading is now **0 for 21 consecutive replies** (8/31 08:06Z → now). The lesson is not "the model tries harder now" — it is that **a 4-item list gets executed and a 7-item list gets sampled.** Keep the floor at four.
+2. **§8i's own escalation clause is the thing that failed.** §8i says an unmarked missing conditional slot is a Layer-1b failure "exactly like an unearned ✓." Both replies committed it, both times silently. The n/a-print is *cheaper* than the heading it replaces — one line, no thought — which means the failure is purely mechanical: nothing greps the drafted reply for the four conditional strings. Inspection #2 rec #1, #3 rec #3, #4 rec #2 all asked for that grep. **This is the fourth time of asking.**
+3. **Evidence discipline is still split by driver, and the split is now measurable.** Autonomous mastery-cycle output: 0 links across ~15 claims (G1, and G1 of inspection #4). Autonomous nightly output: 2 real primaries on the claims that matter (G2). The difference is not the law, it is the template each path uses. The mastery-cycle template needs the same two lines the nightly one apparently has.
+4. **The honesty system is outperforming the formatting system by a wide margin.** Two unprompted self-corrections, two explicit "unknown" labels, one refusal to guess an outcome, one refusal to touch a paused campaign, and a root cause volunteered against self-interest — in a window where nobody was watching. Every graded miss in this file is a formatting miss. That is a good problem to have, and it should be said plainly rather than averaged away into the C.
+5. **§8h is 41 hours old and has never been tested; the buttons law is ~40 hours dormant.** Neither is failing — both are simply un-exercised, because no compaction occurred and Alan sent nothing. Two laws whose compliance rate is *undefined* are two laws that will be discovered broken at the worst moment. The next compaction and the next Alan message are their respective first exams.
+6. **A caution on this window's numbers.** 0 reprompts and a B mean look like improvement, and part of it is real (the floor). But the denominator is 2 replies and the audience was absent for all seven hours. **Do not read this inspection as evidence that Alan-facing quality improved** — it is evidence that the autonomous path holds the floor. Inspection #6 gets the real test.
+
+## 🛠 RECOMMENDATIONS (priority order)
+
+1. **Ship the drafted-reply grep — fourth time of asking (#2 rec1, #3 rec3, #4 rec2).** Before send, grep the drafted text for eight literal strings: the four floor slots (already passing) and the four conditional ones (`My additions` / `additions: n/a`, `scorecard`, SOP-check footer, timeline). Each must be found or printed as `n/a — <reason>`. The floor proves the mechanism works when it exists; the conditional slots prove nothing happens when it doesn't. — ~3K tokens · before the next Alan-facing reply · Opus 5 · low effort
+2. **Give the mastery-cycle template the nightly template's evidence line — second time of asking (#4 rec 4).** Every claim in an autonomous report carries a clickable primary or is labelled `unverified`. G1 shipped 15 claims and zero URLs, including the spend figures and the paused-campaign finding. — ~2K tokens · next cycle · Opus 5 · low effort
+3. **Settle whether the final 🎚️ line discharges §8i slot 1.** Right now four slots render as three strings and slot 1 cannot independently fail. Either add a model/effort line beside the token line, or write into §8i that the 🎚️ line satisfies both — one sentence, so the next inspection measures four things instead of three. — ~1K tokens · tonight · low effort
+4. **Force §8h's exam instead of waiting for it.** Three inspections have reported it "armed." Add to the mastery self-test: if no compaction has occurred since the law shipped, treat the *next session start* as a boundary and run the re-bootstrap once, logging the result — a rehearsal beats an untested law. — ~2K tokens · next cycle · Opus 5 · medium effort
+5. **Owe Alan a real button on his return.** ~40h since the last AskUserQuestion widget (8/31 08:06Z). §8i's "at minimum once per live exchange chain while he is present" means the first reply after his next message carries one, with forward choices only. — 0 extra tokens · on his next message
+6. **Link the spend table.** G2's 4-row spend/clicks table is the window's central number and the only one without a clickable source; it came from a real Meta call, so the link exists. — trivial · fold into rec #2
+
+## 🧠 Reasoning digest
+Same grading rule as #1–#5: A = 0 required-slot misses in the group's rendered output, B = 1, C = 2, D = 3+ or ≥2 with a reprompt; a reprompt floors a group at C. Hard slots this window: the four §8i floor slots, the §8i conditional-slot `n/a` print, clickable proof on claims (ruling #24), no forged ✓, in-reply rendering, APW vocabulary (#25). The verbatim 🗣️→🤖 pair was **n/a for the whole window — Alan sent zero messages between 17:38Z and 00:45Z**, so it is reported as n/a-clean, not as a pass. Real AskUserQuestion widgets fired 0 times; per §8i's own text the requirement is scoped to Alan being present, so this is n/a rather than a counted miss — the dormancy counter (~40h) is reported instead. The model line was verified against the transcript's per-turn `model` field (`claude-opus-5` on both graded turns), not against the reply's own claim: **2/2 honest.** §8h's status was determined by searching the entire transcript for `compact_boundary` (three events, none after 8/31 07:53:48Z) and for any post-boundary continuation marker in range (none) — hence untested for the third consecutive inspection. The 00:41Z turn is deliberately ungraded as in-flight. Two closed replies is a thin denominator and this file says so twice rather than dressing 100% floor compliance as a system-wide verdict. Streak stands at **0/5**: one B, one C, no A.
+
+*Filed by the supervisor agent, 2026-09-02 00:45Z cycle (inspection #5) · next inspection: the following mastery cycle · misses above go to Lane 1 for register lines (single-writer rule — this file is the evidence, the register is Lane 1's).*
