@@ -1,0 +1,42 @@
+{
+  "_readme": "Config for the APW Teramind daily app (ops/tools/teramind_daily.py). Edit this, not the code. Nothing here is a secret — the API key lives ONLY in ~/apw-intel/.env.",
+  "instance": "ascendprimew.us.teramind.co",
+  "timezone_label": "PST",
+  "work_start_hour": 7,
+  "work_end_hour": 17,
+  "interval_minutes": 50,
+  "owner_unbounded": ["Alan Nguyen", "nguye@a51"],
+  "_owner_unbounded_note": "Alan works past 17:00 by his own statement ('I'm here until I go to sleep') — his after-hours time is shown, never flagged as outside-window.",
+
+  "session_link_template": "",
+  "_session_link_note": "Paste ONE real Teramind session-player URL from the address bar. Placeholders: {instance} {session} {user} {ts} {date} {epoch}. Until set, cells render as plain text — a link is NEVER fabricated (SOP evidence law).",
+
+  "roster": [
+    {"name": "Alan Nguyen",           "tm_ids": ["Alan Nguyen", "nguye@a51", "support@ascendprimewealth.com"], "role": "Owner"},
+    {"name": "Carla Stivala",         "tm_ids": ["Carla", "cvstivala@icloud.com"],                             "role": "Ops / setter"},
+    {"name": "Grace Langub",          "tm_ids": ["Grace", "langubinagrace@gmail.com"],                          "role": "Setter"},
+    {"name": "Anne Fabian",           "tm_ids": ["Anne (Rosemarie) Fabian", "rosemarieannefabian@gmail.com"],   "role": "Setter"},
+    {"name": "Lynn Neves",            "tm_ids": ["Lynn", "neves.lynn7@gmail.com"],                              "role": "Setter"},
+    {"name": "ML",                    "tm_ids": ["ML", "malizgill31@gmail.com"],                                "role": "Unassigned — never logged in"},
+    {"name": "blossom@desktop-kehsui3","tm_ids": ["blossom@desktop-kehsui3"],                                   "role": "Unidentified machine — license holder, last seen 8/5"}
+  ],
+
+  "productive_patterns": [
+    ["gohighlevel|leadconnector|prismatic",        "🟢 CRM"],
+    ["zoom\\.us|fathom|meet\\.google|slack",       "🟢 calls / comms"],
+    ["mail\\.google|gmail|outlook",                "🟢 email"],
+    ["docs\\.google|sheets\\.google|drive\\.google","🟢 docs"],
+    ["linkedin\\.com",                             "🟢 hiring campaign (Alan-assigned)"],
+    ["facebook\\.com/adsmanager|business\\.facebook","🟢 ads"],
+    ["notion\\.so|github\\.com|claude\\.ai",       "🟢 ops"],
+    ["manychat|instagram\\.com/direct",            "🟢 IG leads"]
+  ],
+  "flag_patterns": [
+    ["glassdoor|indeed\\.com|ziprecruiter|monster\\.com|careerbuilder", "🔴 job search"],
+    ["netflix|hulu|disneyplus|twitch\\.tv|youtube\\.com/watch",         "🔴 streaming"],
+    ["chess\\.com|steampowered|roblox|epicgames|solitaire",             "🔴 gaming"],
+    ["amazon\\.com|ebay\\.com|temu\\.com|shein",                        "🟠 shopping"],
+    ["tiktok\\.com|reddit\\.com|x\\.com/home|twitter\\.com/home",       "🟠 social (non-work)"]
+  ],
+  "_flag_law": "RULING #29, Alan verbatim 9/3: 'indeed, in glass stored and sip recruiter monster are all still flagged for everybody. Is only linked in.' — linkedin.com is the ONLY exemption and it is a SITE exemption. No person is exempt, Alan included. Do not add names here."
+}
