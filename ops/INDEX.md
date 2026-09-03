@@ -50,3 +50,14 @@
 [LOCAL_PULL_RUNBOOK](https://drive.google.com/file/d/1RqEpBa4Em1iwE_GdHhuk_kxhotBYXPjx/view) · [BACKFILL_FINDINGS v3](https://drive.google.com/file/d/1cc38HfZOekS2TqhubCckI0lDDLajplJA/view) · [AD_TRACKING_SPEC](https://drive.google.com/file/d/1ymOUhLTkuTJLoOaz5ba0gyXom85nP9kq/view)
 
 **Sync:** GitHub push/pull is the bus · Notion mirrors refresh each sweep · Obsidian = this repo folder opened as a vault · backup map in [SOP.md §4](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/SOP.md).
+
+## 🖥 APW DAILY — Teramind tracking (added 9/3, register #163)
+| Want | Go |
+|---|---|
+| **Today: what is everyone doing** | [ops/data/TERAMIND_TODAY.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/TERAMIND_TODAY.md) |
+| See the layout now (demo data) | [ops/data/teramind/2026-09-03-DEMO.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/teramind/2026-09-03-DEMO.md) |
+| How to run it / what unblocks it | [ops/data/TERAMIND_DAILY_APP.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/TERAMIND_DAILY_APP.md) |
+| Notion face | [🖥 APW DAILY](https://app.notion.com/p/3d05bb1ffef4817db6c2c23df7905de5) |
+| One-click launcher | [.bat](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/lane4/APW-DAILY.bat) · [.sh](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/lane4/APW-DAILY.sh) |
+| Roster + flag rules | [ops/data/teramind/CONFIG.json](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/teramind/CONFIG.json) |
+| Archive of every day built | [ops/data/teramind/](https://github.com/Awake999/awake/tree/claude/new-session-1ofk4w/ops/data/teramind) |
