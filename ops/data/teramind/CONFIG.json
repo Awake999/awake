@@ -10,8 +10,8 @@
     "nguye@a51"
   ],
   "_owner_unbounded_note": "Alan works past 17:00 by his own statement ('I'm here until I go to sleep') — his after-hours time is shown, never flagged as outside-window.",
-  "session_link_template": "",
-  "_session_link_note": "Paste ONE real Teramind session-player URL from the address bar. Placeholders: {instance} {session} {user} {ts} {date} {epoch}. Until set, cells render as plain text — a link is NEVER fabricated (SOP evidence law).",
+  "session_link_template": "https://{instance}/v2/player?userId={userid}&computerId={computerid}&timestamp={epoch}&isLive=false",
+  "_session_link_note": "VERIFIED shape — read off the real Teramind alert emails (e.g. the 2026-08-31 nguye@a51 'Job search websites' notification), not guessed. Placeholders: {instance} {userid} {computerid} {epoch} {session} {user} {ts} {date}. userId/computerId come from teramind_ids below; an employee with no id there falls back to plain text rather than a broken link.",
   "roster": [
     {
       "name": "Alan Nguyen",
@@ -276,5 +276,26 @@
       "In the file manager{titlepart}"
     ]
   ],
-  "_explain_note": "DERIVED, never invented: {hint} comes from the URL path (url_hints), {titlepart} is the captured window title verbatim. If neither exists the row says so rather than guessing intent."
+  "_explain_note": "DERIVED, never invented: {hint} comes from the URL path (url_hints), {titlepart} is the captured window title verbatim. If neither exists the row says so rather than guessing intent.",
+  "teramind_ids": {
+    "Alan Nguyen": {
+      "user_id": "70188c6d-b3df-5cd3-8c29-51e5f4a44b15",
+      "computer_id": "50a06224-adc2-5f8e-85fe-28d6f28653a6",
+      "computer": "A51"
+    },
+    "Anne Fabian": {
+      "user_id": "d05ad1fd-2b4f-56fe-b576-db84a6b4268d",
+      "computer_id": "ac999f10-98cc-51e6-bf44-728ad7e78f89",
+      "computer": "DESKTOP-KC8USI1"
+    },
+    "blossom@desktop-kehsui3": {
+      "user_id": "e35c2989-3fef-5bab-b219-67622c429f7c",
+      "computer_id": "92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba",
+      "computer": "DESKTOP-KEHSUI3"
+    }
+  },
+  "_teramind_ids_note": "Harvested from Teramind alert emails (primary source). Carla, Grace and Lynn have no id yet because no alert has ever fired on their accounts — their ids come from the Employees page or the first CSV export. Missing id = plain-text time, never a fabricated link.",
+  "rule_ids": {
+    "Job search websites": "768ddbc3-a64e-5554-b0f7-a5f6c9cf2e81"
+  }
 }

@@ -40,6 +40,7 @@ INTERVAL = CFG["interval_minutes"]
 GAP_MIN = CFG.get("gap_minutes", 4)
 TZ = CFG["timezone_label"]
 UNBOUNDED = set(CFG["owner_unbounded"])
+TM_IDS = CFG.get("teramind_ids", {})
 
 ALIAS, ROLE, ROSTER = {}, {}, []
 for _p in CFG["roster"]:
@@ -309,11 +310,16 @@ def main():
         tag, is_flag = classify(f"{site} {app} {title}")
         cat, what = explain(site, app, title)
         link = ""
-        if tmpl and sess:
+        ids = TM_IDS.get(canon(raw_user), {})
+        if tmpl and (sess or ids):
             link = (tmpl.replace("{instance}", CFG["instance"]).replace("{session}", sess)
+                        .replace("{userid}", ids.get("user_id", ""))
+                        .replace("{computerid}", ids.get("computer_id", ""))
                         .replace("{user}", raw_user).replace("{ts}", ts.isoformat())
                         .replace("{date}", ts.date().isoformat())
                         .replace("{epoch}", str(int(ts.timestamp()))))
+            if "userId=&" in link or "computerId=&" in link:
+                link = ""      # id unknown for this person — plain text, never a broken link
         events.append(dict(ts=ts, end=end_ts, dur=dur, user=canon(raw_user), raw=raw_user,
                            site=site, app=app, title=title, sess=sess, link=link,
                            tag=tag, flag=is_flag, cat=cat, what=what))
