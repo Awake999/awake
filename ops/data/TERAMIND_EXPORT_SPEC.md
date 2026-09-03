@@ -14,6 +14,11 @@ No API, no key, no scheduling, no waiting for tomorrow's digest.
 
 **This is the shortest distance between the data existing and you seeing it analysed.** Everything else below is about making it automatic.
 
+### ⚠️ MUST-HAVE COLUMN — the one that makes cells clickable
+When exporting, **include the `Session ID` / `Record ID` column** (sometimes "Session", "Record", or "ID"). That field is what turns every cell in the timetable into a **hyperlink straight to the Teramind session player** for that moment — the video and detail for that exact interval.
+
+**And send me ONE sample link:** open any session in Teramind, copy the URL from the address bar, paste it here. That single URL gives the shape (e.g. `https://<instance>/#/sessionplayer/<id>`), and from then on **every cell in every future timetable links automatically**. Until that sample exists, cells render as plain text — [the builder](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/tools/build_teramind_timetable.py) never fabricates a URL.
+
 ### The reports worth exporting, in priority order
 | Report | What it unlocks | Why it matters here |
 |---|---|---|
