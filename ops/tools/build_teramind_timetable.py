@@ -26,8 +26,10 @@ FLAG_PATTERNS = [                      # work-hours problem list
     (r"netflix|hulu|disneyplus|twitch\.tv", "🔴 streaming"),
     (r"chess\.com|steampowered|roblox|epicgames", "🔴 gaming"),
 ]
-# LinkedIn deliberately NOT flagged — Alan assigned the hiring campaign (his ruling).
-EXEMPT_USERS_JOBSEARCH = {"nguye@a51", "alan", "carla"}   # hiring campaign owners
+# Alan's ruling 9/3, verbatim: "indeed, glassdoor and zip recruiter monster are all still
+# flagged for everybody. Is only linked in." → LinkedIn is the ONLY exemption, and it is a
+# SITE exemption, not a person exemption. NO user is exempt from job-search flagging.
+EXEMPT_USERS_JOBSEARCH = set()   # nobody — Alan included
 
 def pick(row, *names):
     for n in names:
@@ -89,7 +91,7 @@ def main():
         for pat, tag in FLAG_PATTERNS:
             if re.search(pat, hay):
                 in_hours = WORK_START <= ts.hour < WORK_END
-                exempt = "job search" in tag and any(e in user.lower() for e in EXEMPT_USERS_JOBSEARCH)
+                exempt = False   # ruling 9/3: no person-level exemption for job-search sites
                 flags.append((ts, user, tag, label, in_hours, exempt, cell))
 
     users = sorted(users)
@@ -126,8 +128,8 @@ def main():
         lines.append("**None detected in the work window.**")
     if outside:
         lines.append(f"\n*{len(outside)} hit(s) outside {WORK_START:02d}:00–{WORK_END:02d}:00 — not flagged, per Alan's rule.*")
-    if exempted:
-        lines.append(f"\n*{len(exempted)} job-search hit(s) exempted (hiring-campaign owners). LinkedIn is never flagged.*")
+    lines.append("\n*LinkedIn is never flagged (Alan assigned the hiring campaign). "
+                 "Glassdoor · Indeed · ZipRecruiter · Monster are flagged for EVERYONE, Alan included — ruling 9/3.*")
 
     md = "\n".join(lines) + "\n"
     if out:

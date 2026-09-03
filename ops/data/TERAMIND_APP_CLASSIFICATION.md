@@ -43,18 +43,20 @@
 
 ⚠️ **Deliberately NOT on this list:**
 - **`instagram.com`, `tiktok.com`, `facebook.com` (personal feed)** — **these are work tools at APW now.** IG DMs feed ManyChat, TikTok carries content, Facebook runs the ads. Marking social unproductive would penalise Lynn and Carla for doing their jobs.
-- **`glassdoor.com`, `indeed.com`, `linkedin.com`** — see §4; these are *hiring* tools for Alan and Carla.
+- **`linkedin.com`** — the hiring campaign runs there. **Glassdoor, Indeed, ZipRecruiter and Monster ARE flagged, for everyone.**
 
 ---
 
 ## 4️⃣ ROLE EXCEPTIONS — where a flat list gets it wrong
 | Site | Alan & Carla | Everyone else |
 |---|---|---|
-| `linkedin.com` · `glassdoor.com` · `indeed.com` | **PRODUCTIVE** — running the credit-specialist hiring campaign + APW LinkedIn build | Neutral, and the existing "job search websites" alert stays on |
+| **`linkedin.com` only** | **PRODUCTIVE** — the hiring campaign + APW LinkedIn build | Neutral (never flagged) |
+| `glassdoor.com` · `indeed.com` · `ziprecruiter.com` · `monster.com` | **FLAGGED — no exemption, Alan included** | **FLAGGED** |
 | `instagram.com` · `tiktok.com` | **PRODUCTIVE** for Lynn & Carla (content + IG lead DMs) | Neutral |
 | `amazon.com` | Neutral | Neutral |
 
-**Also fix the false positive we already hit:** the *"Job search websites"* rule fired on Alan's own machine (`nguye@a51`) on 8/31 while he was doing hiring research. **Add an owner/manager exemption to that rule** or it will keep crying wolf.
+**⚖️ RULING 9/3 — Alan, verbatim:** *"indeed, in glass stored and sip recruiter monster are all still flagged for everybody. Is only linked in."*
+**Only LinkedIn is exempt, and the exemption is on the SITE, not on any person.** Glassdoor, Indeed, ZipRecruiter and Monster stay flagged for **everyone — Alan included**. This supersedes the earlier suggestion of an owner exemption: **remove `glassdoor.com` from any exemption and instead REMOVE `linkedin.com` from the "Job search websites" rule.** That kills the 8/31 false positive class without blinding the rule to actual job hunting.
 
 ---
 

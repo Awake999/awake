@@ -1,7 +1,7 @@
 # APW MULTI-LANE OPERATING SOP — binding on every lane
 **🏁 BRIEF:** how every lane hears (checklist), verifies (evidence+links), stores (repo+Notion), answers (buttons+trackers+grade), and never loses data (raws+history).
 **⏱ Timeline:** 🗣️ Alan prompts → ✅ checklist in reply → 👍 confirm → 🔨 execute → 🎯 grade vs SOP → 🔘 buttons+progress → 💾 all stored+pushed
-*v1.21 · 2026-09-03 (v1.20 + **8k THE VAULT LAW** — the system is named **APW VAULT** (GitHub = spine · Obsidian = local knowledge · Notion/board = live face · local disk = resilience); nothing is considered delivered until it lands on every reachable surface, enforced by a three-agent cascade. v1.20 was 8j THE PRE-SEND SCAN IS A SCRIPT — supervisor inspections #2, #3, #4 and #5 all recommended mechanizing the reply check and it was logged four times instead of built; the script now exists at ops/tools/reply_check.py. Also from #5: the model line must appear in the BODY, not only in the 🎚️ final line, because those two slots were being satisfied by one string. v1.19 was 8i MINIMUM VIABLE REPLY; from supervisor inspection #4: three template slots — additions heading, SOP-check footer, real buttons — showed ZERO recovery across a whole window even with reprompts at 0. A 7-slot template at 50% compliance is worse than a 4-slot floor at 100%: the floor is now law and the rest is explicitly conditional) · Owner: Lane 1 (Command). A lane that has not read this file this session may not write anything; the [5-question compliance test](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/LANE_COMPLIANCE_TEST.md) gates every session start.*
+*v1.20 · 2026-09-02 (v1.19 + **8j THE PRE-SEND SCAN IS A SCRIPT** — supervisor inspections #2, #3, #4 and #5 all recommended mechanizing the reply check and it was logged four times instead of built; the script now exists at ops/tools/reply_check.py. Also from #5: the model line must appear in the BODY, not only in the 🎚️ final line, because those two slots were being satisfied by one string. v1.19 was 8i MINIMUM VIABLE REPLY; from supervisor inspection #4: three template slots — additions heading, SOP-check footer, real buttons — showed ZERO recovery across a whole window even with reprompts at 0. A 7-slot template at 50% compliance is worse than a 4-slot floor at 100%: the floor is now law and the rest is explicitly conditional) · Owner: Lane 1 (Command). A lane that has not read this file this session may not write anything; the [5-question compliance test](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/LANE_COMPLIANCE_TEST.md) gates every session start.*
 
 ## 0. THE NEVER-MISS PROTOCOL (Law 0 — outranks everything; from Alan: "plan a strategy to NEVER miss on a user prompt. ESPECIALLY a 2nd reprompt")
 
@@ -73,25 +73,6 @@ Plus, whenever the reply answers a NEW Alan prompt: the **verbatim 🗣️ quote
 **8j. THE PRE-SEND SCAN IS A SCRIPT, NOT A HABIT (v1.20 — the fourth-time-of-asking rule)** — [`ops/tools/reply_check.py`](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/tools/reply_check.py) greps a DRAFTED reply for the literal strings and exits non-zero if it must not ship: FLOOR (model identity in the body · token line containing "remaining" · 🔘 OPTIONS list · 🎚️ as the absolute last line), CONDITIONAL (verbatim 🗣️→🤖 pair when Alan sent a new prompt · "My additions" — each satisfiable ONLY by the section itself or a printed `n/a — reason`), EVIDENCE (any reply carrying numbers must carry a link, ruling #24). Usage: `python3 ops/tools/reply_check.py draft.md [--new-prompt]`. **A recommendation that survives four inspections is no longer a recommendation, it is the failure** — when the supervisor repeats itself, the repeat becomes the highest-priority build, not another register line.
 
 *Two structural findings this law encodes (inspection #5):* (a) the model line and the 🎚️ line were being satisfied by the SAME string, so a 4-slot floor was really 3 — the model identity must now appear in the body independently; (b) the mastery-cycle reply template shipped zero links while the nightly template linked properly — **evidence discipline must not vary by which trigger is driving**; the EVIDENCE check enforces it either way.
-
-**8k. THE VAULT LAW — everything we make lives in APW VAULT, by default, on every surface (v1.21, from Alan 9/3: "everything that we're creating should be stored inside of our… system… by SOP default")**
-
-**THE SYSTEM IS NAMED: APW VAULT.** The board is its face, not its body. Four surfaces, each with a job:
-| Surface | Role | Canonical for |
-|---|---|---|
-| **GitHub** `Awake999/awake` | the **spine** — versioned, diffable, append-only history | SOP · REGISTER · RULINGS · every artifact and script |
-| **Obsidian** (local vault) | human-readable knowledge graph, offline, linkable | reading, connecting, thinking |
-| **Notion + the live board** | the **face** — what Alan and the team look at | dashboards, mirrors, team-facing views |
-| **Local disk** (Alan's PC, Lane 4) | resilience — survives every cloud outage | raw pulls, secrets (never committed) |
-
-**The law:** an artifact is **not delivered** until it exists on every surface that can hold it. A file in GitHub alone is a draft. Writing to one surface and calling it done is the same class of failure as a checklist with an unearned ✓ (§1.14).
-
-**THE THREE-AGENT CASCADE** — Alan's recursive requirement, verbatim: *"deploy an agent to make sure to understand why we have not deployed an agent to resolve why we have not deployed an agent… deploy another agent that makes sure everything gets solidified as the user desires in the plan SOP."*
-1. **VAULT AGENT** — after any artifact is created, verifies it landed on every reachable surface and lands it where it has not. Files what it could not reach and why.
-2. **VAULT AUDITOR (meta)** — verifies the Vault Agent actually ran. **If it did not, its job is to root-cause the non-deployment itself** — not to do the missing work quietly. Non-deployment is the finding.
-3. **PLAN-FIDELITY AGENT** — checks delivered work against what Alan *actually asked for*, in his words, not against what was convenient to build. Catches drift between the ask and the artifact.
-
-Each runs in the mastery cycle; each files to the register. **A surface that cannot be reached from a cloud lane (Obsidian, local disk) is a routed task, never a silent omission** — it goes to Lane 4 with a named owner.
 
 **8d. NO TURN ENDS ON A COMMIT** — the user-facing reply (buttons, footer, trackers) is composed in the same turn as the final tool call; a commit is never the last act (root cause of the 8/30 missed-buttons misses).
 
