@@ -1,5 +1,5 @@
 # 🚩 JOB-SEARCH AUDIT — every alert on record, verified
-*Built 2026-09-03 · Lane 1 · Register #165. **Source: the Teramind alert emails themselves** — no derivation, no demo data. Every row links to the Teramind session player at that exact second, to the employee's Teramind profile, and to the original alert email.*
+*Built 2026-09-03 · Lane 1 · Register #165 · **corrected same day, register #166** (license claim retracted, favicon evidence restated). **Source: the Teramind alert emails themselves** — no derivation, no demo data. Every row links to the Teramind session player at that exact second, to the employee's Teramind profile, and to the original alert email.*
 
 > ⚖️ **The rule** (ruling #29, Alan verbatim 9/3): *"indeed, in glass stored and sip recruiter monster are all still flagged for everybody. Is only linked in."* — **linkedin.com is the only exemption and it is a SITE exemption.** No person is exempt, Alan included. Teramind rule: [Job search websites](https://ascendprimew.us.teramind.co/v2/configurations/behavior-policies/rules/768ddbc3-a64e-5554-b0f7-a5f6c9cf2e81).
 
@@ -7,8 +7,8 @@
 
 ## 📌 TL;DR
 - **7 alerts · 5 distinct dates · 3 people** — Jul 15 → Aug 31 2026 (48 days).
-- **Anne (Rosemarie) Fabian — 3 alerts on 2 dates, and one of them is an active job APPLICATION**, not browsing: the Indeed Apply *contact-info form*. Two minutes later, a **remote cold-caller / sales-rep** listing on Glassdoor — the same job she does here.
-- **blossom@desktop-kehsui3 — 3 alerts on 2 dates** (ZipRecruiter, then an engineering firm's site twice). This is the **unidentified 6th license** nobody has claimed, last seen 8/5.
+- **Anne (Rosemarie) Fabian — 3 alerts on 2 dates, all inside work hours.** The Aug 21 14:57 alert is the URL of the **Indeed Apply contact-info form** — that form had been opened in her browser at some point by then (see the evidence section for exactly what a favicon alert proves). Two minutes later, a Glassdoor listing for a **remote cold-caller / sales rep** — the same job she does here.
+- **blossom@desktop-kehsui3 — 3 alerts on 2 dates** (ZipRecruiter, then an engineering firm's site twice). Agent last seen **Aug 5**; the account is still listed on the Employees page. ~~"the unclaimed 6th license"~~ — **RETRACTED 9/3**: Alan checked the live Licenses view and blossom is not one of the 6 seats in use. I inferred that from a roster count; it was never in the source.
 - **nguye@a51 (Alan) — 1 alert**, Glassdoor homepage, 8/31 — the day the hiring campaign was green-lit.
 - **Nothing in September.** Zero job-search alerts on Sep 01, Sep 02 or Sep 03. The most recent is 3 days old.
 - **Carla, Grace and Lynn have never triggered this rule. Not once.**
@@ -42,7 +42,7 @@
 **Aug 19** was `glassdoor.com/job/index.htm` at 10:23 PT — also inside the window, also a job-search page, two days earlier.
 
 ### 🟠 blossom@desktop-kehsui3 — [Teramind profile](https://ascendprimew.us.teramind.co/v2/employees/e35c2989-3fef-5bab-b219-67622c429f7c) · [DESKTOP-KEHSUI3](https://ascendprimew.us.teramind.co/v2/computers/92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba)
-**3 alerts · 2 dates · all outside the work window.** This account is the **unidentified 6th Teramind license** — it holds a seat, it has never been matched to a named employee, and its last login on record is **Aug 5**.
+**3 alerts · 2 dates · all outside the work window.** Unidentified account, agent last seen **Aug 5**. **Correction 9/3:** I called this "the unclaimed 6th license" — Alan checked the live Licenses view and it is **not** one of the 6 seats in use. That was my inference from an 8-name roster against a 6/5 license count, and the source never said it. Retracted.
 
 | When (PT) | What | Evidence |
 |---|---|---|
@@ -73,16 +73,26 @@
 1. **Open a session link above** — the player shows exactly how long the tab stayed open. 30 seconds per event.
 2. **Export the Web & Applications report** for those 5 dates into `ops/archive/teramind/inbox/` — then [APW DAILY](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/TERAMIND_DAILY_APP.md) prints the exact start–end and duration of every one of these events automatically, alongside everything else those people did that day.
 
-## ⚠️ ONE TECHNICAL CAVEAT, STATED PLAINLY
+## ⚠️ WHAT THESE ALERTS PROVE — AND WHAT THEY DON'T (corrected 9/3)
 
-Every one of these 7 alerts fired on a **favicon-fetch URL** (`gstatic.com/faviconv2?...&url=<the real site>`), not on the page URL itself. That is how Chrome requests a site's icon. **What it proves:** the domain was loaded in that browser at that second — and the real page path is carried inside the favicon query, which is how we know it was `/job/index.htm`, `/indeedapply/form/contact-info-module` and `/job-listing/remote-cold-caller-sales-rep...`. **What it does not prove on its own:** how long the page was open, or what was typed into it. The session recordings do. This caveat is why every row above links to the video instead of asking you to take my word for it.
+Every one of the 7 alerts fired on a **favicon request**, not on the page itself. Six of them carry `client=chrome_desktop&check_seen=true` — that is Chrome's **omnibox / history favicon service**: Chrome requests that icon when it shows a suggestion or history entry for a URL, or when the page is open. Alan's one carries `client=aim`, a different requester I cannot identify.
+
+| It proves | It does **not** prove |
+|---|---|
+| The exact URL (e.g. the Indeed application form) **was in that browser's history** by that second — it had been visited at some point | That the page was **open at that second** |
+| Teramind saw it on **that machine, that account** | **Duration** — an alert is one timestamp, no length |
+| The site was a job board / job page | **What was typed or submitted** |
+
+**So the Anne sentence in the TL;DR should be read exactly this way:** by Aug 21 14:57 PT the Indeed Apply contact-info form was in her browser history and Chrome surfaced it — she had been on that form at some point. Whether she was on it at that moment, and for how long, **the recording at that timestamp shows and this page does not.** I overstated it above as "an application in progress"; that is the strongest reading, not the only one.
+
+**Alan's doubt about ZipRecruiter is fair to raise.** The Jul 15 alert is a favicon request for `www.ziprecruiter.com` on blossom's machine — [the raw email](https://mail.google.com/mail/u/0/#inbox/19f683f9a44e452b) is the entire evidence. It shows the browser had that site in history; it does not show anyone applying there.
 
 ## ✅ WHAT I RECOMMEND, IN ORDER
 
 | # | Action | Why |
 |---|---|---|
 | 1 | **Watch Anne's Aug 21 17:57 recording first** — [▶ here](https://ascendprimew.us.teramind.co/v2/player?userId=d05ad1fd-2b4f-56fe-b576-db84a6b4268d&computerId=ac999f10-98cc-51e6-bf44-728ad7e78f89&timestamp=1787349431&isLive=false) | It is the single highest-signal artifact on this page: an application form, mid-work-window, for her own role |
-| 2 | **Identify or revoke `blossom@desktop-kehsui3`** | It burns one of your 6 licenses (you are 6/5, over cap), nobody has claimed it, and it has job-search history |
+| 2 | **Identify `blossom@desktop-kehsui3`** | Unnamed account with job-search history and an agent silent since Aug 5. Not a license issue — that claim was wrong |
 | 3 | **Export Web & Apps for Aug 19, Aug 21 and Aug 31** | Turns every "unknown duration" on this page into a real number, automatically |
 | 4 | **Decide the LinkedIn carve-out is enough** | Grace's hiring-campaign LinkedIn work has never tripped this rule, so the site-level exemption is working as you specified |
 
