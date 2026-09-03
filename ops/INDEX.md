@@ -41,6 +41,8 @@
 | Qualification Standard (for Kai) | [open](https://app.notion.com/p/3cc5bb1ffef481aa8c8ce7c33bade43b) |
 | 4-Day Dispute SOP | [open](https://app.notion.com/p/3ca5bb1ffef481468487e9be6136ba40) |
 | Pre-Booking Qualification Filter SOP | [open](https://app.notion.com/p/3ca5bb1ffef481d08aa6ed398c388176) |
+| 📋 CHECKLIST SOP — two-person review (quoted · linked · counted · spoken/unspoken) | [RELATIONSHIP_REVIEW_CHECKLIST_SOP.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/sops/RELATIONSHIP_REVIEW_CHECKLIST_SOP.md) · check: `reply_check.py --review` |
+| 🤝 Carla ↔ Alan review v2 (14 calls, 86 rows, desires spoken/unspoken, unified plan) | [CARLA_ALAN_REVIEW_2026-09-03.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/CARLA_ALAN_REVIEW_2026-09-03.md) |
 | Master Closing Framework v2 | [open](https://app.notion.com/p/3b95bb1ffef481f293fbeaf311e224e4) |
 | Lane 4 brief (PC work orders) | [BRIEF.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/lane4/BRIEF.md) |
 | All open PRs (every lane's work) | [PR list](https://github.com/Awake999/awake/pulls) |
