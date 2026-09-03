@@ -69,3 +69,8 @@ All three rails are BUILT — nothing to write, only to run. Follow [ops/data/TE
 **Rail 2:** add `TERAMIND_API_KEY` + `TERAMIND_INSTANCE` to `apw-intel/.env`, run `python3 ops/lane4/teramind_pull.py --discover`, write the printed `TERAMIND_API_BASE` into .env, then pull + commit.
 **Rail 3 (optional):** `pip install "mcp[cli]"` then `claude mcp add teramind -- python3 <path>/ops/mcp/teramind_mcp_server.py` for live querying.
 ⚠️ The key goes in `.env` on the PC ONLY — never committed. Report which rail(s) landed into the process log + LANE-SYNC.
+
+## A9 — WIRE OBSIDIAN INTO THE VAULT (Alan 9/3, SOP v1.21 §8k, register #162) 🔴 BIGGEST GAP
+Obsidian is a named surface of **APW VAULT** and has **never received a single artifact — 0% coverage**. Cloud lanes cannot reach a local vault, so this is routed here.
+**The 2-minute fix:** open Obsidian → **Open folder as vault** → select the cloned repo's **`ops/`** directory. Obsidian reads markdown natively, so every file already written (SOP, REGISTER, RULINGS, funnel explorer, EODRs, timetables, Teramind suite) becomes a linked note immediately — no sync code, no export, no duplication. `git pull` then updates the vault.
+Optional: add `.obsidian/` to `.gitignore` so vault settings don't pollute the repo. Report completion into the process log + LANE-SYNC.
