@@ -13,13 +13,28 @@
 
 ---
 
-## What the page shows, in this order
+## What the page shows, in this order — **record first, analysis second**
 
-1. **WHOLE PICTURE** — every monitored person on one screen: role · first seen · last seen · tracked time · events · problem count. Anyone on the roster with **zero events is printed as ⚫ NO DATA**, never dropped, because absence from an export is not proof of absence of monitoring ([ruling #27](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/RULINGS.md)).
-2. **SIDE BY SIDE** — 50-minute intervals across 07:00–17:00 PST, everyone in parallel columns. Every block in the window is printed even when empty, so gaps are visible instead of invisible. Blocks outside the window are shown and labelled *(outside)*, not hidden — that's Alan's own after-hours time.
-3. **PROBLEM LIST** — flagged activity inside the work window: proof link first, then time, person, flag, what.
-4. **PERSON BY PERSON** — where each person's time actually went, ranked, with the first-hit proof link on every row.
-5. **VERIFY THIS PAGE** — source filename, sha256, rows read / used / skipped, the columns the export actually had, roster size, names seen that aren't on the roster, and whether session links were on. Every page can be audited without asking anyone.
+| § | Section | What it gives you |
+|---|---|---|
+| 1 | **COVERAGE MAP** | Hour-by-hour density bar per person. `█` a full hour captured, `·` nothing. The whole day, everyone, in one strip. |
+| 2 | **TIMETABLE** | 50-minute side-by-side blocks anchored to 07:00. Each cell: how many events and what kind, with a proof link. |
+| 3 | **ALL-HANDS STREAM** | **Every event, everyone, chronological, to the second.** Start–End · length · person · what was being done · where. Nothing summarised away. |
+| 4 | **FULL LEDGER** | Per person, the complete day: every event *and every gap*. A gap over 4 minutes prints as ⚪ **NO CAPTURE** with its length — silence is shown, never closed over. |
+| 5 | **PROBLEMS** | Flagged activity inside the work window, proof first, with total flagged time per person. |
+| 6 | **ANALYSIS** | Only after the record: captured time, longest unbroken stretch, biggest gap, top categories per person, and time-by-category across everyone. |
+| 7 | **VERIFY** | Source file + sha256, rows read / used / skipped, the exact columns the export had, off-roster names, gap threshold, links on/off. |
+
+## "What was being done" — derived, never invented
+
+Every row carries a plain-English explanation built **only from what Teramind captured**: the URL path and the window title.
+
+- `app.gohighlevel.com/conversations` + title `Conversation — Teresa Graham (SMS)` → **GHL — working the conversation inbox (SMS/email threads) — "Conversation — Teresa Graham (SMS)"**
+- `zoom.us/j/8842013` + title `Triage call — Karl Ruiz` → **On a Zoom call — "Triage call — Karl Ruiz"**
+- `indeed.com/jobs?q=...` → **Job-search site — on a job listing page — "..."** 🔴
+
+If a row has no title and no recognisable URL, it says so — *"no title or URL captured — intent unknown"* — rather than guessing what someone was doing. The mapping lives in `explain_rules` and `url_hints` in CONFIG.json, so it is editable and auditable.
+
 
 ## The rules it enforces (so it can't drift)
 

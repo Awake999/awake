@@ -5,38 +5,276 @@
   "work_start_hour": 7,
   "work_end_hour": 17,
   "interval_minutes": 50,
-  "owner_unbounded": ["Alan Nguyen", "nguye@a51"],
+  "owner_unbounded": [
+    "Alan Nguyen",
+    "nguye@a51"
+  ],
   "_owner_unbounded_note": "Alan works past 17:00 by his own statement ('I'm here until I go to sleep') — his after-hours time is shown, never flagged as outside-window.",
-
   "session_link_template": "",
   "_session_link_note": "Paste ONE real Teramind session-player URL from the address bar. Placeholders: {instance} {session} {user} {ts} {date} {epoch}. Until set, cells render as plain text — a link is NEVER fabricated (SOP evidence law).",
-
   "roster": [
-    {"name": "Alan Nguyen",           "tm_ids": ["Alan Nguyen", "nguye@a51", "support@ascendprimewealth.com"], "role": "Owner"},
-    {"name": "Carla Stivala",         "tm_ids": ["Carla", "cvstivala@icloud.com"],                             "role": "Ops / setter"},
-    {"name": "Grace Langub",          "tm_ids": ["Grace", "langubinagrace@gmail.com"],                          "role": "Setter"},
-    {"name": "Anne Fabian",           "tm_ids": ["Anne (Rosemarie) Fabian", "rosemarieannefabian@gmail.com"],   "role": "Setter"},
-    {"name": "Lynn Neves",            "tm_ids": ["Lynn", "neves.lynn7@gmail.com"],                              "role": "Setter"},
-    {"name": "ML",                    "tm_ids": ["ML", "malizgill31@gmail.com"],                                "role": "Unassigned — never logged in"},
-    {"name": "blossom@desktop-kehsui3","tm_ids": ["blossom@desktop-kehsui3"],                                   "role": "Unidentified machine — license holder, last seen 8/5"}
+    {
+      "name": "Alan Nguyen",
+      "tm_ids": [
+        "Alan Nguyen",
+        "nguye@a51",
+        "support@ascendprimewealth.com"
+      ],
+      "role": "Owner"
+    },
+    {
+      "name": "Carla Stivala",
+      "tm_ids": [
+        "Carla",
+        "cvstivala@icloud.com"
+      ],
+      "role": "Ops / setter"
+    },
+    {
+      "name": "Grace Langub",
+      "tm_ids": [
+        "Grace",
+        "langubinagrace@gmail.com"
+      ],
+      "role": "Setter"
+    },
+    {
+      "name": "Anne Fabian",
+      "tm_ids": [
+        "Anne (Rosemarie) Fabian",
+        "rosemarieannefabian@gmail.com"
+      ],
+      "role": "Setter"
+    },
+    {
+      "name": "Lynn Neves",
+      "tm_ids": [
+        "Lynn",
+        "neves.lynn7@gmail.com"
+      ],
+      "role": "Setter"
+    },
+    {
+      "name": "ML",
+      "tm_ids": [
+        "ML",
+        "malizgill31@gmail.com"
+      ],
+      "role": "Unassigned — never logged in"
+    },
+    {
+      "name": "blossom@desktop-kehsui3",
+      "tm_ids": [
+        "blossom@desktop-kehsui3"
+      ],
+      "role": "Unidentified machine — license holder, last seen 8/5"
+    }
   ],
-
   "productive_patterns": [
-    ["gohighlevel|leadconnector|prismatic",        "🟢 CRM"],
-    ["zoom\\.us|fathom|meet\\.google|slack",       "🟢 calls / comms"],
-    ["mail\\.google|gmail|outlook",                "🟢 email"],
-    ["docs\\.google|sheets\\.google|drive\\.google","🟢 docs"],
-    ["linkedin\\.com",                             "🟢 hiring campaign (Alan-assigned)"],
-    ["facebook\\.com/adsmanager|business\\.facebook","🟢 ads"],
-    ["notion\\.so|github\\.com|claude\\.ai",       "🟢 ops"],
-    ["manychat|instagram\\.com/direct",            "🟢 IG leads"]
+    [
+      "gohighlevel|leadconnector|prismatic",
+      "🟢 CRM"
+    ],
+    [
+      "zoom\\.us|fathom|meet\\.google|slack",
+      "🟢 calls / comms"
+    ],
+    [
+      "mail\\.google|gmail|outlook",
+      "🟢 email"
+    ],
+    [
+      "docs\\.google|sheets\\.google|drive\\.google",
+      "🟢 docs"
+    ],
+    [
+      "linkedin\\.com",
+      "🟢 hiring campaign (Alan-assigned)"
+    ],
+    [
+      "facebook\\.com/adsmanager|business\\.facebook",
+      "🟢 ads"
+    ],
+    [
+      "notion\\.so|github\\.com|claude\\.ai",
+      "🟢 ops"
+    ],
+    [
+      "manychat|instagram\\.com/direct",
+      "🟢 IG leads"
+    ]
   ],
   "flag_patterns": [
-    ["glassdoor|indeed\\.com|ziprecruiter|monster\\.com|careerbuilder", "🔴 job search"],
-    ["netflix|hulu|disneyplus|twitch\\.tv|youtube\\.com/watch",         "🔴 streaming"],
-    ["chess\\.com|steampowered|roblox|epicgames|solitaire",             "🔴 gaming"],
-    ["amazon\\.com|ebay\\.com|temu\\.com|shein",                        "🟠 shopping"],
-    ["tiktok\\.com|reddit\\.com|x\\.com/home|twitter\\.com/home",       "🟠 social (non-work)"]
+    [
+      "glassdoor|indeed\\.com|ziprecruiter|monster\\.com|careerbuilder",
+      "🔴 job search"
+    ],
+    [
+      "netflix|hulu|disneyplus|twitch\\.tv|youtube\\.com/watch",
+      "🔴 streaming"
+    ],
+    [
+      "chess\\.com|steampowered|roblox|epicgames|solitaire",
+      "🔴 gaming"
+    ],
+    [
+      "amazon\\.com|ebay\\.com|temu\\.com|shein",
+      "🟠 shopping"
+    ],
+    [
+      "tiktok\\.com|reddit\\.com|x\\.com/home|twitter\\.com/home",
+      "🟠 social (non-work)"
+    ]
   ],
-  "_flag_law": "RULING #29, Alan verbatim 9/3: 'indeed, in glass stored and sip recruiter monster are all still flagged for everybody. Is only linked in.' — linkedin.com is the ONLY exemption and it is a SITE exemption. No person is exempt, Alan included. Do not add names here."
+  "_flag_law": "RULING #29, Alan verbatim 9/3: 'indeed, in glass stored and sip recruiter monster are all still flagged for everybody. Is only linked in.' — linkedin.com is the ONLY exemption and it is a SITE exemption. No person is exempt, Alan included. Do not add names here.",
+  "gap_minutes": 4,
+  "_gap_note": "A gap longer than this between one event's end and the next event's start is printed as an explicit ⚪ NO CAPTURE row with its duration. Gaps are never silently closed.",
+  "url_hints": {
+    "/conversations": "working the conversation inbox (SMS/email threads)",
+    "/contacts": "in the contact list",
+    "/opportunities": "in the sales pipeline",
+    "/calendars": "in the booking calendar",
+    "/appointments": "reviewing appointments",
+    "/settings": "in CRM settings",
+    "/automation": "in workflows/automation",
+    "/reporting": "in CRM reporting",
+    "/adsmanager": "in Ads Manager",
+    "/inbox": "in the inbox",
+    "/direct": "in Instagram DMs",
+    "/jobs": "on a job listing page",
+    "/watch": "watching a video"
+  },
+  "explain_rules": [
+    [
+      "gohighlevel|leadconnector|prismatic",
+      "GHL CRM",
+      "GHL — {hint}{titlepart}"
+    ],
+    [
+      "zoom\\.us",
+      "Zoom call",
+      "On a Zoom call{titlepart}"
+    ],
+    [
+      "meet\\.google",
+      "Google Meet",
+      "On a Google Meet{titlepart}"
+    ],
+    [
+      "fathom",
+      "Fathom",
+      "Reviewing a call recording/summary in Fathom{titlepart}"
+    ],
+    [
+      "slack",
+      "Slack",
+      "In Slack{titlepart}"
+    ],
+    [
+      "mail\\.google|gmail",
+      "Gmail",
+      "In Gmail{titlepart}"
+    ],
+    [
+      "outlook",
+      "Outlook",
+      "In Outlook{titlepart}"
+    ],
+    [
+      "docs\\.google",
+      "Google Docs",
+      "In a Google Doc{titlepart}"
+    ],
+    [
+      "sheets\\.google",
+      "Google Sheets",
+      "In a Google Sheet{titlepart}"
+    ],
+    [
+      "drive\\.google",
+      "Google Drive",
+      "In Google Drive{titlepart}"
+    ],
+    [
+      "calendar\\.google",
+      "Google Calendar",
+      "In Google Calendar{titlepart}"
+    ],
+    [
+      "linkedin\\.com",
+      "LinkedIn",
+      "LinkedIn — {hint}{titlepart} (hiring campaign, Alan-assigned)"
+    ],
+    [
+      "business\\.facebook|facebook\\.com/adsmanager",
+      "Meta Ads",
+      "Meta Ads Manager — {hint}{titlepart}"
+    ],
+    [
+      "manychat",
+      "ManyChat",
+      "In ManyChat{titlepart}"
+    ],
+    [
+      "instagram\\.com",
+      "Instagram",
+      "Instagram — {hint}{titlepart}"
+    ],
+    [
+      "notion\\.so",
+      "Notion",
+      "In Notion{titlepart}"
+    ],
+    [
+      "github\\.com",
+      "GitHub",
+      "In GitHub{titlepart}"
+    ],
+    [
+      "claude\\.ai|claude\\.exe",
+      "Claude",
+      "Working in Claude{titlepart}"
+    ],
+    [
+      "glassdoor|indeed\\.com|ziprecruiter|monster\\.com|careerbuilder",
+      "Job search",
+      "**Job-search site** — {hint}{titlepart}"
+    ],
+    [
+      "netflix|hulu|disneyplus|twitch\\.tv|youtube\\.com",
+      "Streaming",
+      "**Streaming/video** — {hint}{titlepart}"
+    ],
+    [
+      "chess\\.com|steampowered|roblox|epicgames|solitaire",
+      "Gaming",
+      "**Gaming**{titlepart}"
+    ],
+    [
+      "amazon\\.com|ebay\\.com|temu\\.com|shein",
+      "Shopping",
+      "**Shopping site**{titlepart}"
+    ],
+    [
+      "tiktok\\.com|reddit\\.com|x\\.com|twitter\\.com",
+      "Social",
+      "**Social (non-work)**{titlepart}"
+    ],
+    [
+      "chrome|edge|firefox|safari",
+      "Browser",
+      "Browsing{titlepart}"
+    ],
+    [
+      "excel|word|powerpoint",
+      "Office",
+      "In Microsoft Office{titlepart}"
+    ],
+    [
+      "explorer\\.exe|finder",
+      "File manager",
+      "In the file manager{titlepart}"
+    ]
+  ],
+  "_explain_note": "DERIVED, never invented: {hint} comes from the URL path (url_hints), {titlepart} is the captured window title verbatim. If neither exists the row says so rather than guessing intent."
 }
