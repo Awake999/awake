@@ -1,0 +1,11 @@
+{
+  "_source": "Teramind daily snapshot emails (no-reply@teramind.co) to support@ascendprimewealth.com, read verbatim from Gmail 2026-09-03. These are the REAL per-day numbers Teramind sent. NOTE: each list is a TOP-3 leaderboard, not the full roster — a person absent from a day's list is NOT necessarily idle (ruling #27).",
+  "_email_ids": {"Aug 29":"1a051040017f139a","Aug 30":"1a05606eb638aa38","Aug 31":"1a05b274d422cfb6","Sep 01":"1a060651bb90d954","Sep 02":"1a0657b64b87aee1"},
+  "days": [
+    {"date":"2026-08-29","alerts":[],"emails_total":"70/0","emails":{"nguye@a51":"70/0"},"printed":"none","websites_total":149,"top_sites":[["setup.exe","0m"],["www.youtube.com","0m"],["smallbusiness.experian.com","0m"]],"activity_headline":null,"activity":{}},
+    {"date":"2026-08-30","alerts":[["nguye@a51","Social media sites: 50+ minutes"]],"emails_total":"10/1","emails":{"nguye@a51":"10/1"},"printed":"none","websites_total":76,"top_sites":[["www.youtube.com","2m"],["www.doordash.com","0m"],["whatsapp.root.exe","5m"]],"activity_headline":null,"activity":{},"new_users":[["malizgill31@gmail.com","21 hrs ago"]]},
+    {"date":"2026-08-31","alerts":[["nguye@a51","Job search websites"]],"emails_total":"131/2","emails":{"nguye@a51":"119/2","malizgill31@gmail.com":"11/0","langubinagrace@gmail.com":"1/0"},"printed":"1/84 (nguye@a51)","websites_total":168,"top_sites":[["www.youtube.com","6m"],["wishlist.teramind.co","0m"],["teramind.tmui","0m"]],"activity_headline":"49%","activity":{"malizgill31@gmail.com":"35%","langubinagrace@gmail.com":"39%","cvstivala@icloud.com":"44%"}},
+    {"date":"2026-09-01","alerts":[],"emails_total":"196/5","emails":{"nguye@a51":"171/5","malizgill31@gmail.com":"25/0"},"printed":"1/27 (nguye@a51: 3/27)","websites_total":139,"top_sites":[["www.youtube.com","12m"],["windowsterminal.exe","0m"],["zoom.us","0m"]],"activity_headline":"44%","activity":{"neves.lynn7@gmail.com":"36%","malizgill31@gmail.com":"39%","cvstivala@icloud.com":"40%"}},
+    {"date":"2026-09-02","alerts":[],"emails_total":"187/8","emails":{"nguye@a51":"162/8","malizgill31@gmail.com":"25/0"},"printed":"none","websites_total":149,"top_sites":[["www.creditkarma.com","0m"],["www.youtube.com","7m"],["windowsterminal.exe","6m"]],"activity_headline":"45%","activity":{"malizgill31@gmail.com":"21%","nguye@a51":"43%","neves.lynn7@gmail.com":"48%"}}
+  ]
+}
