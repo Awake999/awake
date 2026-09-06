@@ -7,8 +7,8 @@
 ## What is in this folder NOW (pulled from Gmail, no login needed)
 | Folder / file | What | Coverage |
 |---|---|---|
-| [digests/DIGESTS_ALL.json](digests/DIGESTS_ALL.json) | every daily **Snapshot** digest: alerts, emails in/out per user, IM, printed, websites + minutes (top-3), activity % (headline + **top-3 leaderboard**, ruling #27), new users | **54 days**, Jul 7 → Sep 4 (no digest exists in Gmail for Jul 13–21, Aug 15, Aug 22–23) |
-| [alerts/ALERTS_ALL.json](alerts/ALERTS_ALL.json) | every rule-violation alert email, verbatim detail + **player deep-link** + Gmail source | **44 alerts** Jul 7 → Sep 4 (blossom 30 · Anne 9 · Alan 2 · Lynn 2) |
+| [digests/DIGESTS_ALL.json](digests/DIGESTS_ALL.json) | every daily **Snapshot** digest: alerts, emails in/out per user, IM, printed, websites + minutes (top-3), activity % (headline + **top-3 leaderboard**, ruling #27), new users | **48 days** (44 re-parsed here + Aug 29–Sep 1 in the legacy block), Jul 7 → Sep 4 (no digest exists in Gmail for Jul 13–21, Aug 15, Aug 22–23) |
+| [alerts/ALERTS_ALL.json](alerts/ALERTS_ALL.json) | every rule-violation alert email, verbatim detail + **player deep-link** + Gmail source | **49 alerts** Jul 7 → Sep 4 (blossom 36 · Anne 9 · Alan 2 · Lynn 2) |
 | [api/postman_collection_TW74jRAB.json](api/postman_collection_TW74jRAB.json) | Teramind's own API collection, 239 endpoints | — |
 | [2026-08-31/](2026-08-31/) | the one UI pull (employees page, licence count) | Aug 31 |
 | [export/](export/) | **the full API export lands here** (`teramind_pull.py --all`) | empty until a token exists |
