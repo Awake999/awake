@@ -1,5 +1,5 @@
 {
- "_about": "Teramind daily 'Snapshot' digest emails to support@, every one Gmail holds (Jul 7 – Sep 4 2026). Verbatim data lines only; boilerplate ('Set up alerts…') dropped. Days with no digest email in Gmail: Jul 13–21, Aug 15, Aug 22–23. Activity block = TOP-3 LEADERBOARD, not a roster (ruling #27). Legacy parse of Aug 29–Sep 1 kept under _legacy_2026-08-29_to_09-01.",
+ "_about": "Teramind daily 'Snapshot' digest emails to support@, every one Gmail holds (Jul 7 – Sep 5 2026 (COMPLETE — subscription cancelled Sep 6)). Verbatim data lines only; boilerplate ('Set up alerts…') dropped. Days with no digest email in Gmail: Jul 13–21, Aug 15, Aug 22–23. Activity block = TOP-3 LEADERBOARD, not a roster (ruling #27). Legacy parse of Aug 29–Sep 1 kept under _legacy_2026-08-29_to_09-01.",
  "_written": "2026-09-06 by Lane 1, register #174",
  "days": {
   "2026-07-07": {
@@ -1702,6 +1702,44 @@
    "new_users": [],
    "note": null,
    "source": "https://mail.google.com/mail/u/0/#inbox/1a06fd749e7c67c9"
+  },
+  "2026-09-05": {
+   "gmail_thread": "1a074e995837a8d5",
+   "alerts": {
+    "count": 0
+   },
+   "emails": {
+    "total": "91/4",
+    "by_user": {
+     "nguye@a51": "91/4"
+    }
+   },
+   "im": "not captured (IM capture off)",
+   "printed": "none",
+   "websites": {
+    "count": 85,
+    "top": [
+     {
+      "site": "zoom.us",
+      "time": "3 mins"
+     },
+     {
+      "site": "www.chime.com",
+      "time": "0 mins"
+     },
+     {
+      "site": "chatgpt.com",
+      "time": "2 mins"
+     }
+    ]
+   },
+   "activity_headline_pct": 58,
+   "activity_by_user_pct": {
+    "nguye@a51": 58
+   },
+   "new_users": [],
+   "note": "FINAL DIGEST. Subscription cancelled 2026-09-06 09:40Z; no further Teramind data will ever be produced for this tenant.",
+   "source": "https://mail.google.com/mail/u/0/#inbox/1a074e995837a8d5"
   }
  },
  "_legacy_2026-08-29_to_09-01": {
@@ -1877,5 +1915,6 @@
     }
    }
   ]
- }
+ },
+ "_final": "Teramind subscription CANCELLED 2026-09-06 09:40Z (billing@teramind.co, 'Your Subscription Has Been Canceled'). The Sep-5 digest is the last one that will ever arrive. This file plus ALERTS_ALL.json is now the entire surviving Teramind record; the behind-login data (minute activity, sessions, screen recordings) was never exported and is gone with the tenant."
 }
