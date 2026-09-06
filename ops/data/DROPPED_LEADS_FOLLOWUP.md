@@ -16,7 +16,7 @@
 | 1 | **Never contacted at all** — lead arrived, zero outbound ever | **9** | *"Hey can you help me get funding I'm desperate"* — no reply in 49 days |
 | 2 | **No-showed or cancelled, never rebooked** | **20** | 7 no-shows and 13 cancellations, none chased |
 | 3 | **Opportunities rotting in the pipeline** (open, untouched 14+ days) | **90** | one sitting in "Scheduled Call" for **157 days** |
-| 4 | **They replied, we went silent** | **5** | Matthew LoGuidice, Chris McLean |
+| 4 | **They replied, no human ever answered** | **7** | Stephen Greco — 15 days, only a bot replied |
 | 5 | **Duplicate contact records hiding the lead** | **2 real leads** | Chris Bowers exists twice — one record has 135 messages, the other was never touched |
 
 ---
@@ -86,16 +86,22 @@ Deals marked **open** in GHL that nobody has moved in weeks. The oldest have sat
 
 …and 81 more. **A deal sitting in "Scheduled Call" for 157 days means the stage was never updated after the call happened or didn't** — so the pipeline number you look at is not real.
 
-## 4️⃣ THEY REPLIED, WE WENT SILENT — 5 leads
-| Lead | Last THEY said | When | Open GHL |
-|---|---|---|---|
-| **Matthew LoGuidice** | *"Ok. Thank you"* — then Sep 3 in Slack: *"sign the agreement? when can you call me?"* | Aug 29 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/A0Jy0hg4FTHyN5d6fDvP) |
-| **Chris McLean** | Liked our card-paydown advice; asked *"Should I pay those off first?"* | Aug 28 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/paixz1K5D8j4RuZNbWxO) |
-| Igor Barash | (Matthew's referral, C-Corp work) | Aug 8 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/vqhYrMiKPNJYyYjoQo9R) |
-| (470) 502-7875 | *"help me get funding I'm desperate"* | Jul 19 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/ukgmHlcK9EFuezZyg1Wn) |
-| (703) 214-6235 | *"Ascend Prime Wealth??"* | Jul 8 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/xv6cBBTF4dwc945GTAt4) |
+## 4️⃣ THEY REPLIED — AND NO HUMAN EVER ANSWERED — 7 leads
+**Corrected 2026-09-06.** The first two versions of this page missed people here because the code counted an **automated message as a reply**. If a lead wrote in and the only thing that went back was an appointment confirmation, a feedback-request bot, or a blank/attachment message, my filter recorded it as "we answered." It was not an answer. Fixed in `ops/tools/dropped_leads.py`; 🤖 marks the ones that bug was hiding.
 
-**Also flagged in Slack Sep 3–4 but not visible in the Aug-30 export** (so confirm in GHL directly): **Stephen Greco** — asked *"Do you have time to answer a few questions"* Aug 21, only an automated bot replied, still unanswered Sep 4 (**~15 days**) [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/FWmJO9pOj3dI7eFlCUtO) · **Connor Robertson** — *"Let's talk tmr"*, Lynn drafted a reply and marked it *"not sent"* [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/aUuP9CfKdLFG1bSqVban) · **Whitney Young** — asked repeatedly whether we broker; unanswered; rebooked Sep 10 [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/8GShcGD1WsuniLQbAjaW) · **Chandrahas Amin** — owed research since Sep 3, called us Sep 4.
+| Lead | Last THEY said | When | Silent | What went back | Open GHL |
+|---|---|---|---|---|---|
+| 🤖 **Stephen Greco** | *"Good evening Alan, Do you have time to answer a few questions"* | Aug 21 | **15 days** | only an automated *"thank you for your appointment… share your feedback"* on Aug 24. **Last human message to him: Aug 17.** | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/FWmJO9pOj3dI7eFlCUtO) |
+| 🤖 **Ms Terry** | *"Only 2 mo bank statements · Personal credit score 710 · Rev 80–125K monthly · Just purchased Business $590 + inventory $210 all cash"* | Aug 26 | **10 days** | one blank/attachment message. She sent her full qualifying numbers and got nothing written back | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/xsHo2g1QTQgecx5OV6S4) |
+| **Matthew LoGuidice** | *"Ok. Thank you"* — then Sep 3 in Slack: *"sign the agreement? when can you call me?"* | Aug 29 | 8 days | nothing | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/A0Jy0hg4FTHyN5d6fDvP) |
+| **Chris McLean** | *"Should I pay those off first since I'm going to close?"* then liked our advice | Aug 28 | 9 days | nothing | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/paixz1K5D8j4RuZNbWxO) |
+| **Igor Barash** | Matthew's referral for C-Corp optimization | Aug 8 | 29 days | nothing — **no human outbound ever** | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/vqhYrMiKPNJYyYjoQo9R) |
+| **(470) 502-7875** | *"Hey can you help me get funding I'm desperate"* | Jul 19 | **49 days** | nothing — no outbound ever | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/ukgmHlcK9EFuezZyg1Wn) |
+| **(703) 214-6235** | *"Ascend Prime Wealth??"* | Jul 8 | 59 days | nothing — no outbound ever | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/xv6cBBTF4dwc945GTAt4) |
+
+**Ms Terry is the one to call first.** 710 credit, $80–125K monthly revenue, just bought a business in cash — she volunteered exactly the numbers a setter asks for, and the system's answer was a blank message.
+
+**Also flagged in Slack Sep 3–4, after the Aug-30 export** (confirm live in GHL): **Connor Robertson** — *"Let's talk tmr"*, Lynn drafted a reply and marked it *"not sent"* [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/aUuP9CfKdLFG1bSqVban) · **Whitney Young** — asked repeatedly whether we broker; unanswered; rebooked Sep 10 [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/8GShcGD1WsuniLQbAjaW) · **Chandrahas Amin** — owed research since Sep 3, called us Sep 4.
 
 ## 5️⃣ DUPLICATE RECORDS — the mechanism that hides leads
 When a lead comes in twice, GHL makes a **second contact record with no history**. The team works the record they know; the new one sits untouched forever.

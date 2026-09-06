@@ -29,15 +29,33 @@ def main():
     g = lambda x: (x or "")
     url = lambda cid: f"https://app.gohighlevel.com/v2/location/{LOC}/contacts/detail/{cid}"
     optout = re.compile(r"dnd enabled|^\s*(stop|unsubscribe|remove me|opt.?out)\s*$", re.I)
+    # BUG FIX 2026-09-06 (register #179): automated messages are NOT a reply.
+    # Counting them as one hid Stephen Greco and Ms Terry for weeks.
+    auto = re.compile(r"opportunity\s+(updated|status\s+changed)"
+                      r"|your\s+appointment\s+(has\s+been\s+scheduled|is\s+confirmed)"
+                      r"|thank\s+you\s+for\s+your\s+appointment|please\s+share\s+your\s+feedback"
+                      r"|see\s+you\s+in\s+15\s+minutes|reply\s+stop|unsubscribe"
+                      r"|sent\s+you\s+a\s+document|view\s+document"
+                      r"|^\s*$", re.I)   # blank-body outbound (attachment/system) is not a verifiable reply
     junk_tag = re.compile(r"name via lookup|couldn.t find caller", re.I)
     junk_body = re.compile(r"\bstop\b|reply help|dispute credit report|yelp|reminder:|consultation|unsubscribe", re.I)
     staff = re.compile(r"ascend|support team|\bliza\b|blossom|^test", re.I)
     rows = []
     for conv, arr in msgs.items():
         ms = sorted([m for m in arr if m.get("dateAdded")], key=lambda m: m["dateAdded"])
-        if not ms or ms[-1].get("direction") != "inbound":
+        if not ms:
             continue
-        last = ms[-1]; c = contacts.get(last.get("contactId"), {})
+        ins = [m for m in ms if m.get("direction") == "inbound" and len(g(m.get("body")).strip()) > 3]
+        if not ins:
+            continue
+        last = ins[-1]
+        human_out = [m for m in ms if m.get("direction") == "outbound"
+                     and not auto.search(g(m.get("body")).strip())]
+        if human_out and human_out[-1]["dateAdded"] > last["dateAdded"]:
+            continue          # a real person did reply after them
+        bot_only = any(m for m in ms if m.get("direction") == "outbound"
+                       and m["dateAdded"] > last["dateAdded"])
+        c = contacts.get(last.get("contactId"), {})
         name = g(c.get("contactName")) or (g(c.get("firstName")) + " " + g(c.get("lastName"))).strip()
         tags = ",".join(c.get("tags", []))
         body = g(last.get("body")).strip().replace("\n", " ")
@@ -52,19 +70,22 @@ def main():
         rows.append({"name": name, "phone": g(c.get("phone")), "cid": last.get("contactId"),
                      "tags": tags, "when": last["dateAdded"][:10],
                      "silent": round((today - li).total_seconds() / 86400, 1),
-                     "last": body[:220], "n_in": sum(1 for m in ms if m["direction"] == "inbound"),
+                     "last": body[:220], "bot_only": bot_only,
+                     "n_in": sum(1 for m in ms if m["direction"] == "inbound"),
                      "n_out": sum(1 for m in ms if m["direction"] == "outbound")})
     rows.sort(key=lambda r: r["when"], reverse=True)
     L = [f"# 📞 LEADS WE DROPPED — LIVE (auto-generated {today:%Y-%m-%d %H:%M UTC})",
          "",
-         f"*Source: GHL pull **{date}** · {len(msgs)} conversations scanned · {len(rows)} leads spoke last and got no reply.*",
+         f"*Source: GHL pull **{date}** · {len(msgs)} conversations scanned · {len(rows)} leads got **no human reply** after their last message.*",
          "*Auto-built by `ops/tools/dropped_leads.py`. For the narrated, setter-friendly version see [DROPPED_LEADS_FOLLOWUP.md](DROPPED_LEADS_FOLLOWUP.md).*",
          "", "Excluded automatically: `DnD`/opt-outs (compliance stops), B2B \"name via lookup\" spam, our-side-only threads.",
+         "", "🤖 = only an automated message went out after they spoke. Nobody human ever replied.",
          "", "| Lead | Phone | Last THEY said | When | Silent (days) | in/out | Open GHL |",
          "|---|---|---|---|---|---|---|"]
     for r in rows:
         safe = r["last"].replace("|", "\\|")[:120]
-        L.append(f"| **{r['name']}** | {r['phone']} | {safe} | {r['when']} | {r['silent']} | {r['n_in']}/{r['n_out']} | [open]({url(r['cid'])}) |")
+        bot = " 🤖" if r["bot_only"] else ""
+        L.append(f"| **{r['name']}**{bot} | {r['phone']} | {safe} | {r['when']} | {r['silent']} | {r['n_in']}/{r['n_out']} | [open]({url(r['cid'])}) |")
     OUT.write_text("\n".join(L) + "\n", encoding="utf-8")
     print(f"wrote {OUT.relative_to(REPO)} — {len(rows)} leads from GHL pull {date}")
 
