@@ -1,77 +1,116 @@
-# 📞 LEADS WE DROPPED — people who replied, and we went quiet
+# 📞 EVERY LEAD WE DROPPED — the complete audit
 
-*Built 2026-09-05 (9:46 PM PT window) · Lane 1 · Register #175. This is the list of real funding leads who **answered us and then heard nothing back**. It is for the setter and for anyone brand-new: every row says who they are, what they wanted, the last thing **they** said, the last thing **we** said, how long we have been silent, and a one-click link straight into their Go High Level (GHL) profile.*
-
----
-
-## 🧭 HOW TO READ THIS (start here if you have no context)
-- **"Last THEY said"** = the most recent message the lead sent us. If there is nothing from us after it, the ball is in our court.
-- **"Silent for"** = days from their last message to **Sep 5, 2026**. The bigger the number, the colder the lead.
-- **"Open GHL" 🔗** = click it to jump straight to that person in Go High Level (you need GHL access). From there you can text/call and see the full thread.
-- **Where the facts come from:** the GHL message history was exported **Aug 30** (so GHL quotes are through Aug 30), and the **Slack #----urgent / #sales-team-chat threads from Sep 3–4** confirm which of these were *still* unanswered days later. When both agree, the lead was dropped and stayed dropped. Anything I could not verify is marked "unconfirmed."
-- **Nothing here is invented.** Every quote is copied from the lead's actual message. Links prove it.
+*Built 2026-09-06 · Lane 1 · Register #178. **This replaces the first version, which was too narrow.** That one only found leads who *texted us last*. It missed the bigger holes: people we never contacted at all, no-shows nobody ever rebooked, and deals rotting in the pipeline. All of it is below.*
 
 ---
 
-## 🔴 TIER 1 — HOT, RECENT, NAMED (chase these first)
+## 🧭 HOW TO READ THIS (start here, no context needed)
+- Five different ways a lead gets lost. **Category 2 is the biggest and was completely missed the first time.**
+- **"Open GHL" 🔗** jumps straight to that person in Go High Level. Text or call them from there.
+- Source: the GHL export of **Aug 30, 2026** (256 conversations, 259 contacts, 144 appointments, 90+ opportunities), cross-checked against Slack Sep 3–4. Numbers are as of the export unless noted.
+- Internal records (staff, tests, "BROKEN GHL GLITCH") and B2B spam are stripped out. Only real leads are listed.
 
-| # | Lead | What they want | Last THEY said | Silent for | Open GHL |
-|---|---|---|---|---|---|
-| 1 | **Stephen Greco** | Funding; showed to his call, wants a clear path forward | *"Good evening Alan, Do you have time to answer a few questions"* (Aug 21) | **~15 days** | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/FWmJO9pOj3dI7eFlCUtO) |
-| 2 | **Matthew LoGuidice** | Ready to sign, wants a call | *"sign the agreement? when can you call me?"* (Sep 3) | **~2 days** | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/A0Jy0hg4FTHyN5d6fDvP) |
-| 3 | **Connor Robertson** | Wanted to talk; we drafted a reply and never sent it | *"Let's talk tmr"* (Sep 4) | **~1 day** | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/aUuP9CfKdLFG1bSqVban) |
-| 4 | **Chris McLean** | Mid-plan on his credit cards, needs next step | *"I will just close it and follow the plan"* / liked our advice (Aug 28) | **~8 days** | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/paixz1K5D8j4RuZNbWxO) |
-| 5 | **Chris Bowers** | Medical; call dropped when his phone died | *"available to talk TODAY at 2:30 CDT"* (Sep 3) | **~2 days** | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/S80lc8JjJ7284xzdh1Wi) |
-| 6 | **Whitney Young** | Showed up; had an unanswered question about how we work | *"asked multiple times if we're brokering the transaction"* (Sep 4) | recovering* | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/8GShcGD1WsuniLQbAjaW) |
-| 7 | **Chandrahas Amin (CJ)** | $250K funding; owed research after his call | called Alan (Sep 4); owed PG research since Sep 3 7 PM CT | **~2 days** | search GHL "Chandrahas" |
-
-\*Whitney booked a Sep 5 call, so she is partly recovered — but her "are you brokers?" question was never answered and will come up again.
-
-### The detail, person by person
-
-**1. Stephen Greco — the clearest miss.** [Open in GHL](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/FWmJO9pOj3dI7eFlCUtO) · tags: high priority · showed up.
-He booked and joined his funding call (Aug 17, *"Im on the zoom call waiting…"* — [Zoom transcript](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/archive/calls/zoom/2026-08-17--stephen-greco-guaranteed-funding--88946114010/transcript.md)). Then on **Aug 21 at 6:31 PM CDT he texted: _"Good evening Alan, Do you have time to answer a few questions."_** The only thing in the thread after that is an **automated** "thank you for your appointment, please share feedback" bot on Aug 24. **No human ever answered his questions.** Two weeks later Lynn is still flagging him in Slack ([#----urgent](https://alan-n-95.slack.com/archives/C0BLEMY8MCN), Sep 3–4): *"Stephen Greco — interested in moving forward if u can provide a clear path forward"* and *"contact/respond to Stephen Greco."* He is warm, he asked to move forward, and he has been waiting ~15 days.
-
-**2. Matthew LoGuidice — ready to sign.** [Open in GHL](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/A0Jy0hg4FTHyN5d6fDvP) · showed up · huge two-way thread.
-He went through the whole process and on **Sep 3 asked: _"sign the agreement? when can you call me?"_** ([Slack GHL follow-up list](https://alan-n-95.slack.com/archives/C0BLEMY8MCN)). That is a buying signal — he is asking us to close him — and it was sitting unactioned.
-
-**3. Connor Robertson — we wrote the reply and never hit send.** [Open in GHL](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/aUuP9CfKdLFG1bSqVban) · booked Sep 1, connected.
-On **Sep 3–4 he said _"Let's talk tmr"_**. Lynn even drafted a response — and wrote in Slack: *"My drafted response (not sent)."* So the reply exists, it just never went out. One send closes this gap.
-
-**4. Chris McLean — left mid-plan.** [Open in GHL](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/paixz1K5D8j4RuZNbWxO) · Matthew's referral · call booked.
-Aug 27–28 he was actively working his card-paydown plan with us: *"I will just close it and follow the plan. Should I pay those off first since I'm going to close?"* We answered once, he **liked** the reply (Aug 28) — and then nothing. Slack Sep 3: *"Respond to Christopher Mclean — talking about stuff on his credit report."* He is coachable and engaged; he just needs the next instruction.
-
-**5. Chris Bowers — dropped call, time-boxed window.** [Open in GHL](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/S80lc8JjJ7284xzdh1Wi) · medical · call booked.
-His **call cut off Aug 27 because his phone died** (*"No! My phone died! …Sorry about that"*). We sent the upload link. Then Slack Sep 3: *"Chris Bowers available to talk TODAY at 2:30 CDT."* That was a specific window — if no one called him at 2:30, it lapsed and needs a fresh reach-out.
-
-**6. Whitney Young — recovering, but with an open question.** [Open in GHL](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/8GShcGD1WsuniLQbAjaW) · showed up · high priority.
-Long active thread; she booked a Sep 5 call. The gap: **she asked more than once whether we broker the transaction**, and Lynn flagged (Sep 4) she couldn't answer it. Not a cold drop — but that question needs a clear scripted answer before the call.
-
-**7. Chandrahas Amin (CJ) — owed a callback.** No SMS thread in GHL (he came via phone/Zoom); [Call Library note](https://app.notion.com/p/3d05bb1ffef481ac8f1ac1668320c55b).
-After his Sep 2 call he was owed PG/credit-rent research by **Sep 3 7 PM CT**, and he **called Alan on Sep 4** ([#----urgent](https://alan-n-95.slack.com/archives/C0BLEMY8MCN)). He is chasing us. Deliver the research and book the follow-up.
+## 📊 THE SCOREBOARD
+| # | How they were lost | Count | Worst example |
+|---|---|---|---|
+| 1 | **Never contacted at all** — lead arrived, zero outbound ever | **9** | *"Hey can you help me get funding I'm desperate"* — no reply in 49 days |
+| 2 | **No-showed or cancelled, never rebooked** | **20** | 7 no-shows and 13 cancellations, none chased |
+| 3 | **Opportunities rotting in the pipeline** (open, untouched 14+ days) | **90** | one sitting in "Scheduled Call" for **157 days** |
+| 4 | **They replied, we went silent** | **5** | Matthew LoGuidice, Chris McLean |
+| 5 | **Duplicate contact records hiding the lead** | **2 real leads** | Chris Bowers exists twice — one record has 135 messages, the other was never touched |
 
 ---
 
-## 🟠 TIER 2 — OLDER MISSES FROM THE GHL EXPORT (worth a re-touch)
+## 1️⃣ NEVER CONTACTED AT ALL — 9 leads
+Nobody ever sent these people a single message. Not a slow reply — **no reply, ever.**
 
-| Lead | Last THEY said | When | Silent for | Open GHL |
-|---|---|---|---|---|
-| **(470) 502-7875** | *"Hey can you help me get funding I'm desperate"* | Jul 19 | **~48 days · never answered at all** | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/ukgmHlcK9EFuezZyg1Wn) |
-| **Todd LoGuidice** | 👍 to "Alan should be available by 3:30… he can give you a call" | Aug 26 | ~10 days · promised callback | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/nIy2smghNYT9II3enmQv) |
-| **(703) 214-6235** | *"Ascend Prime Wealth??"* | Jul 8 | ~59 days · never answered | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/xv6cBBTF4dwc945GTAt4) |
+| Lead | Arrived | Open GHL |
+|---|---|---|
+| **Chris Bowers** *(2nd record — see §5)* | Aug 28 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/tC26d38FKKhMon62AtsB) |
+| **Robert Morawitz** *(2nd record — see §5)* | Aug 27 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/CDax69Bvm2YttP8b6lax) |
+| (779) 903-6750 | Aug 14 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/RrtO1KrAQaeROsfpuY7Q) |
+| **(470) 502-7875** — *"Hey can you help me get funding I'm desperate"* | Jul 19 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/ukgmHlcK9EFuezZyg1Wn) |
+| (406) 318-3218 | Jul 8 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/5q3s7KEvEO8mRhzNQhib) |
+| (703) 214-6235 — *"Ascend Prime Wealth??"* | Jul 8 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/xv6cBBTF4dwc945GTAt4) |
+| (215) 948-6160 | Jun 30 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/9fNHHDmpqBo8YPcO7RH8) |
+| (866) 290-9357 | Jun 27 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/d7Elp7jEeLylGktUFzuQ) |
+| luffy@gmail.com | Mar 20 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/KTKAtqdIQ1xTErjL8J05) |
 
-- **(470) 502-7875 is the one that should sting:** a person texted *"I'm desperate"* for funding on Jul 19 and **we sent zero replies, ever.** Whatever the reason, that inbound never got worked. Worth a call even now.
-- **Todd LoGuidice** was told Alan would call "by 3:30" on Aug 26; he acknowledged with a 👍 and the thread goes quiet. Confirm the callback happened — if not, it's a warm lead left on the promise of a call.
+## 2️⃣ NO-SHOWED OR CANCELLED — AND NEVER REBOOKED — 20 leads
+**This is the hole.** Each of these people booked a call with us. It didn't happen. Nobody ever booked them again. A no-show is not a dead lead — it is a lead who needs one text.
+
+**No-shows (7)** — they wanted the call and didn't make it:
+| Lead | Missed | Open GHL |
+|---|---|---|
+| Michael Romano | Jul 7 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/uRfz5N6q6qWWmJnI8g3P) |
+| Jose Reinoso | Jul 6 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/lNlFbE1OnyNybL7uSTW7) |
+| David Butler | Jul 6 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/dIe0wr70voH4byEdM43W) |
+| Ric Inting | Jul 3 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/VElSiTMnV9Wyx4uKfMu8) |
+| James Bradley | Jul 1 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/s6ECUffAvOuTu70PJMkI) |
+| Luis Rosa | Jun 29 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/jB334pthMJOVWrBQV5n4) |
+| Milad Keshavarz | Jun 27 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/Op9dVw0zNovHRET8GjwN) |
+
+**Cancellations (13)** — booked, cancelled, never re-offered a slot:
+| Lead | Cancelled | Appts booked | Open GHL |
+|---|---|---|---|
+| **Chris Bowers** | Aug 25 | 3 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/S80lc8JjJ7284xzdh1Wi) |
+| Pedro Perez Grizzle | Aug 18 | 1 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/5IxjeWvQ0aW8onfhZ9xM) |
+| **Jennifer Ulloa** | Aug 18 | 2 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/Beb6LGrnKnPPmF9B1MpW) |
+| George Truesdale | Aug 17 | 1 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/8JvItcgAZPOFGsFVbbA2) |
+| **Kesavan Rajendran** | Jul 30 | 2 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/stZFzTokXZRnDDbKcVqr) |
+| Jill Peralta ⚠️ | Jul 29 | 4 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/ZtcBu49xnqBtxlP9W9aU) |
+| Patrick O | Jul 28 | 1 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/Kby40q23X5P2LGEQ8vbE) |
+| Rico Rice | Jul 21 | 1 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/vEDk6s6HDayHYKB8cFtX) |
+| Charlie Murphy | Jul 15 | 1 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/zGnj3RjjrjIjLU2RUZhp) |
+| Nia Becker | Jul 14 | 1 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/Cpw3HApQspTN95MOrX6E) |
+| Yasantha Lion | Jun 27 | 1 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/Bh9gDHCfPWz3bbgCf3qY) |
+| Ee Loong Chaw | Jun 24 | 1 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/uPZo7Qevay8jtW69aI92) |
+| Bryon Cooper | Jun 23 | 1 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/dAOsTTKWYRjwoGpPL3jX) |
+
+⚠️ **Check before you chase Jill Peralta** — she is recorded as a completed $15K client; her cancellation is likely post-sale, not a lost lead. Anyone who booked 2+ times (Jennifer Ulloa, Kesavan Rajendran, Chris Bowers) was **actively trying to meet us** — those are the warmest on this list.
+
+## 3️⃣ OPPORTUNITIES ROTTING IN THE PIPELINE — 90 open, untouched 14+ days
+Deals marked **open** in GHL that nobody has moved in weeks. The oldest have sat since spring.
+
+| Days stuck | Stage | Lead | Open GHL |
+|---|---|---|---|
+| **157** | Scheduled Call | Clint | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/U0tbWltybZfpRopdwiVj) |
+| **138** | New Lead | Ricky | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/6i0aEfZysP9R3WfFPF7g) |
+| **128** | New Lead | Sara | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/NVnHhbYRhe1gHea689Jj) |
+| **127** | Scheduled Call | Sari | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/mMWCfpUes68WBLo0PHYw) |
+| **125** | Scheduled Call | Abayomi | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/zzzVGlcWC8GMovsS2lWT) |
+| **121** | Scheduled Call | Jennifer | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/V9CMDGMhvaGasRH7TPHy) |
+| 69 | Scheduled Call | VALENTINO | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/nSM6AnWwsM2efc7tNKCU) |
+| 66 | Scheduled Call | Matthew | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/A0Jy0hg4FTHyN5d6fDvP) |
+| 65 | Scheduled Call | Leo | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/lVBxwQne0uiiXkoParUN) |
+
+…and 81 more. **A deal sitting in "Scheduled Call" for 157 days means the stage was never updated after the call happened or didn't** — so the pipeline number you look at is not real.
+
+## 4️⃣ THEY REPLIED, WE WENT SILENT — 5 leads
+| Lead | Last THEY said | When | Open GHL |
+|---|---|---|---|
+| **Matthew LoGuidice** | *"Ok. Thank you"* — then Sep 3 in Slack: *"sign the agreement? when can you call me?"* | Aug 29 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/A0Jy0hg4FTHyN5d6fDvP) |
+| **Chris McLean** | Liked our card-paydown advice; asked *"Should I pay those off first?"* | Aug 28 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/paixz1K5D8j4RuZNbWxO) |
+| Igor Barash | (Matthew's referral, C-Corp work) | Aug 8 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/vqhYrMiKPNJYyYjoQo9R) |
+| (470) 502-7875 | *"help me get funding I'm desperate"* | Jul 19 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/ukgmHlcK9EFuezZyg1Wn) |
+| (703) 214-6235 | *"Ascend Prime Wealth??"* | Jul 8 | [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/xv6cBBTF4dwc945GTAt4) |
+
+**Also flagged in Slack Sep 3–4 but not visible in the Aug-30 export** (so confirm in GHL directly): **Stephen Greco** — asked *"Do you have time to answer a few questions"* Aug 21, only an automated bot replied, still unanswered Sep 4 (**~15 days**) [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/FWmJO9pOj3dI7eFlCUtO) · **Connor Robertson** — *"Let's talk tmr"*, Lynn drafted a reply and marked it *"not sent"* [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/aUuP9CfKdLFG1bSqVban) · **Whitney Young** — asked repeatedly whether we broker; unanswered; rebooked Sep 10 [🔗](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/8GShcGD1WsuniLQbAjaW) · **Chandrahas Amin** — owed research since Sep 3, called us Sep 4.
+
+## 5️⃣ DUPLICATE RECORDS — the mechanism that hides leads
+When a lead comes in twice, GHL makes a **second contact record with no history**. The team works the record they know; the new one sits untouched forever.
+- **Chris Bowers** — [record A](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/S80lc8JjJ7284xzdh1Wi) has 135 messages and 3 appointments; [record B](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/tC26d38FKKhMon62AtsB) (Aug 28) has **never been touched**.
+- **Robert Morawitz** — [record A](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/Ek6fa6SLTvUfIlCNhsGk) and [record B](https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/CDax69Bvm2YttP8b6lax) (Aug 27, **never touched**).
+- Merge these two, then make merging part of the intake routine.
 
 ---
 
-## ⚪ NOT dropped (so nobody wastes time on them)
-- **~55 GHL threads** where the "last message" is *"DnD enabled by customer"* — that is the lead **opting out / blocking us**, not us going silent. Do not chase; it's a compliance stop.
-- **B2B solicitors** ("name via lookup" companies — search-solution, ozark, shaheen, Jesus E Santos on ManyChat selling marketing). Not funding leads.
-- **Teresa Graham** — **closed at 1.5% on Sep 2**, not a drop. [Call Library](https://app.notion.com/p/3d05bb1ffef48182b2f0e2d7a73e34d4).
-- **Stanley Carter** — No-Show on Sep 4 (Carla), 600 score + child support = disqualified per the <700 SOP, not a follow-up.
-
----
+## ✅ WHAT TO ACTUALLY DO, IN ORDER
+1. **Text the 7 no-shows and the 6 warm cancellations today.** One line: *"Hey [name] — we missed each other. Still want the funding conversation? Here's my calendar."* Highest return per minute on this whole page.
+2. **Work the 9 never-contacted.** Start with (470) 502-7875 — that person asked for help while desperate and got nothing for 49 days.
+3. **Merge the duplicate records** (Chris Bowers, Robert Morawitz) so nobody works half a history again.
+4. **Sweep the 90 stale opportunities** — most just need the stage corrected; the pipeline is currently reporting numbers that aren't true.
+5. **Standing rule so this never rebuilds:** any lead with no outbound within 1 hour, any no-show/cancel with no rebooking within 24 hours, and any open opp untouched 14 days auto-posts to a #needs-reply channel.
 
 ## 🔧 Method & honesty note
-GHL message history was exported **Aug 30** (raw at [ops/archive/ghl/2026-08-30/](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/archive/ghl/2026-08-30)); the Tier-1 "still open" status is confirmed by **Slack #----urgent + #sales-team-chat on Sep 3–4**, which independently list these same names as still needing a response. I do **not** have a live GHL pull past Aug 30 from this environment, so if someone was answered between Aug 31 and today it may not show here — every row is cross-checked against the Sep 3–4 Slack flags, which is the freshest signal available. "Silent for" is measured to **Sep 5, 2026**. Alan's example "Stefan Greco" is **Stephen Greco** (row 1) — same person. A live GHL re-pull from the PC would make this exact to the hour.
+Built from the **Aug 30, 2026** GHL export ([raw data](https://github.com/Awake999/awake/tree/claude/new-session-1ofk4w/ops/archive/ghl/2026-08-30)) using  plus the appointments, opportunities, speed-to-lead and derived-triage tables; Slack #----urgent and #sales-team-chat (Sep 3–4) supplied the post-export names. **I do not have a live GHL pull past Aug 30 from this environment** — running  on the PC refreshes everything to the hour. Speed-to-lead minutes could not be computed reliably: most rows have no first-outbound timestamp *because no outbound exists*, which is category 1, not a timing problem. Alan's "Stefan Greco" is **Stephen Greco**.
