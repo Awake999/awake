@@ -9,7 +9,7 @@
 ## What is in this folder NOW (pulled from Gmail, no login needed)
 | Folder / file | What | Coverage |
 |---|---|---|
-| [digests/DIGESTS_ALL.json](digests/DIGESTS_ALL.json) | every daily **Snapshot** digest: alerts, emails in/out per user, IM, printed, websites + minutes (top-3), activity % (headline + **top-3 leaderboard**, ruling #27), new users | **49 days** (Jul 7 → **Sep 5, final**); 16 dates have no digest because Teramind never sent one (no digest exists in Gmail for Jul 13–21, Aug 15, Aug 22–23) |
+| [digests/DIGESTS_ALL.json](digests/DIGESTS_ALL.json) | every daily **Snapshot** digest: alerts, emails in/out per user, IM, printed, websites + minutes (top-3), activity % (headline + **top-3 leaderboard**, ruling #27), new users | **49 days** (Jul 7 → **Sep 5, final**); 12 dates have no digest because Teramind never sent one (Jul 13–21, Aug 15, Aug 22–23) (no digest exists in Gmail for Jul 13–21, Aug 15, Aug 22–23) |
 | [alerts/ALERTS_ALL.json](alerts/ALERTS_ALL.json) | every rule-violation alert email, verbatim detail + **player deep-link** + Gmail source | **49 alerts** Jul 7 → Sep 4 (blossom 36 · Anne 9 · Alan 2 · Lynn 2) |
 | [api/postman_collection_TW74jRAB.json](api/postman_collection_TW74jRAB.json) | Teramind's own API collection, 239 endpoints | — |
 | [2026-08-31/](2026-08-31/) | the one UI pull (employees page, licence count) | Aug 31 |

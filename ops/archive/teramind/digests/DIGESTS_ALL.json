@@ -1575,6 +1575,171 @@
    "note": "digest carried no Activity block this day",
    "source": "https://mail.google.com/mail/u/0/#inbox/1a04bb61370b105c"
   },
+  "2026-08-29": {
+   "gmail_thread": null,
+   "alerts": {
+    "count": 0,
+    "lines": []
+   },
+   "emails": {
+    "total": "70/0",
+    "by_user": {
+     "nguye@a51": "70/0"
+    }
+   },
+   "im": "not captured (IM capture off)",
+   "printed": "none",
+   "websites": {
+    "count": 149,
+    "top": [
+     {
+      "site": "setup.exe",
+      "time": "0m"
+     },
+     {
+      "site": "www.youtube.com",
+      "time": "0m"
+     },
+     {
+      "site": "smallbusiness.experian.com",
+      "time": "0m"
+     }
+    ]
+   },
+   "activity_headline_pct": null,
+   "activity_by_user_pct": {},
+   "new_users": [],
+   "note": "merged 2026-09-06 from the earlier DIGESTS.json parse",
+   "source": null
+  },
+  "2026-08-30": {
+   "gmail_thread": null,
+   "alerts": {
+    "count": 1,
+    "lines": [
+     "nguye@a51 — Social media sites: 50+ minutes"
+    ]
+   },
+   "emails": {
+    "total": "10/1",
+    "by_user": {
+     "nguye@a51": "10/1"
+    }
+   },
+   "im": "not captured (IM capture off)",
+   "printed": "none",
+   "websites": {
+    "count": 76,
+    "top": [
+     {
+      "site": "www.youtube.com",
+      "time": "2m"
+     },
+     {
+      "site": "www.doordash.com",
+      "time": "0m"
+     },
+     {
+      "site": "whatsapp.root.exe",
+      "time": "5m"
+     }
+    ]
+   },
+   "activity_headline_pct": null,
+   "activity_by_user_pct": {},
+   "new_users": [
+    "malizgill31@gmail.com"
+   ],
+   "note": "merged 2026-09-06 from the earlier DIGESTS.json parse",
+   "source": null
+  },
+  "2026-08-31": {
+   "gmail_thread": null,
+   "alerts": {
+    "count": 1,
+    "lines": [
+     "nguye@a51 — Job search websites"
+    ]
+   },
+   "emails": {
+    "total": "131/2",
+    "by_user": {
+     "nguye@a51": "119/2",
+     "malizgill31@gmail.com": "11/0",
+     "langubinagrace@gmail.com": "1/0"
+    }
+   },
+   "im": "not captured (IM capture off)",
+   "printed": "1/84 (nguye@a51)",
+   "websites": {
+    "count": 168,
+    "top": [
+     {
+      "site": "www.youtube.com",
+      "time": "6m"
+     },
+     {
+      "site": "wishlist.teramind.co",
+      "time": "0m"
+     },
+     {
+      "site": "teramind.tmui",
+      "time": "0m"
+     }
+    ]
+   },
+   "activity_headline_pct": "49%",
+   "activity_by_user_pct": {
+    "malizgill31@gmail.com": "35%",
+    "langubinagrace@gmail.com": "39%",
+    "cvstivala@icloud.com": "44%"
+   },
+   "new_users": [],
+   "note": "merged 2026-09-06 from the earlier DIGESTS.json parse",
+   "source": null
+  },
+  "2026-09-01": {
+   "gmail_thread": null,
+   "alerts": {
+    "count": 0,
+    "lines": []
+   },
+   "emails": {
+    "total": "196/5",
+    "by_user": {
+     "nguye@a51": "171/5",
+     "malizgill31@gmail.com": "25/0"
+    }
+   },
+   "im": "not captured (IM capture off)",
+   "printed": "1/27 (nguye@a51: 3/27)",
+   "websites": {
+    "count": 139,
+    "top": [
+     {
+      "site": "www.youtube.com",
+      "time": "12m"
+     },
+     {
+      "site": "windowsterminal.exe",
+      "time": "0m"
+     },
+     {
+      "site": "zoom.us",
+      "time": "0m"
+     }
+    ]
+   },
+   "activity_headline_pct": "44%",
+   "activity_by_user_pct": {
+    "neves.lynn7@gmail.com": "36%",
+    "malizgill31@gmail.com": "39%",
+    "cvstivala@icloud.com": "40%"
+   },
+   "new_users": [],
+   "note": "merged 2026-09-06 from the earlier DIGESTS.json parse",
+   "source": null
+  },
   "2026-09-02": {
    "gmail_thread": "1a0657b64b87aee1",
    "alerts": {
@@ -1916,5 +2081,25 @@
    }
   ]
  },
- "_final": "Teramind subscription CANCELLED 2026-09-06 09:40Z (billing@teramind.co, 'Your Subscription Has Been Canceled'). The Sep-5 digest is the last one that will ever arrive. This file plus ALERTS_ALL.json is now the entire surviving Teramind record; the behind-login data (minute activity, sessions, screen recordings) was never exported and is gone with the tenant."
+ "_final": "Teramind subscription CANCELLED 2026-09-06 09:40Z (billing@teramind.co, 'Your Subscription Has Been Canceled'). The Sep-5 digest is the last one that will ever arrive. This file plus ALERTS_ALL.json is now the entire surviving Teramind record; the behind-login data (minute activity, sessions, screen recordings) was never exported and is gone with the tenant.",
+ "_coverage": {
+  "unique_days": 49,
+  "first": "2026-07-07",
+  "last": "2026-09-05",
+  "gaps_no_digest_email_exists": [
+   "2026-07-13",
+   "2026-07-14",
+   "2026-07-15",
+   "2026-07-16",
+   "2026-07-17",
+   "2026-07-18",
+   "2026-07-19",
+   "2026-07-20",
+   "2026-07-21",
+   "2026-08-15",
+   "2026-08-22",
+   "2026-08-23"
+  ],
+  "note": "Gaps are dates on which Teramind never sent a Snapshot email — verified against Gmail, not a capture failure."
+ }
 }
