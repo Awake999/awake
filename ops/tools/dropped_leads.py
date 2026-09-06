@@ -29,14 +29,24 @@ def main():
     g = lambda x: (x or "")
     url = lambda cid: f"https://app.gohighlevel.com/v2/location/{LOC}/contacts/detail/{cid}"
     optout = re.compile(r"dnd enabled|^\s*(stop|unsubscribe|remove me|opt.?out)\s*$", re.I)
-    # BUG FIX 2026-09-06 (register #179): automated messages are NOT a reply.
-    # Counting them as one hid Stephen Greco and Ms Terry for weeks.
-    auto = re.compile(r"opportunity\s+(updated|status\s+changed)"
-                      r"|your\s+appointment\s+(has\s+been\s+scheduled|is\s+confirmed)"
-                      r"|thank\s+you\s+for\s+your\s+appointment|please\s+share\s+your\s+feedback"
-                      r"|see\s+you\s+in\s+15\s+minutes|reply\s+stop|unsubscribe"
-                      r"|sent\s+you\s+a\s+document|view\s+document"
-                      r"|^\s*$", re.I)   # blank-body outbound (attachment/system) is not a verifiable reply
+    # RULE (register #180): a reply is a WRITTEN SMS/email, or a call that connected.
+    # Type-based, not text-based — text matching kept hiding people (Greco, P Reddy).
+    SMS, EMAIL, CALL = 2, 3, 1
+    autotxt = re.compile(r"your appointment (has been scheduled|is confirmed)"
+                         r"|thank you for your appointment|please share your feedback"
+                         r"|see you in 15 minutes|sent you a document|view document"
+                         r"|reply stop|unsubscribe", re.I)
+    def is_reply(m):
+        if m.get("direction") != "outbound":
+            return False
+        t = m.get("type")
+        if t in (SMS, EMAIL):
+            b = g(m.get("body")).strip()
+            return len(b) > 3 and not autotxt.search(b)
+        if t == CALL:
+            return (((m.get("meta") or {}).get("call") or {}).get("duration") or 0) >= 30
+        return False   # activities, reactions, blank bodies are never a reply
+
     junk_tag = re.compile(r"name via lookup|couldn.t find caller", re.I)
     junk_body = re.compile(r"\bstop\b|reply help|dispute credit report|yelp|reminder:|consultation|unsubscribe", re.I)
     staff = re.compile(r"ascend|support team|\bliza\b|blossom|^test", re.I)
@@ -45,14 +55,14 @@ def main():
         ms = sorted([m for m in arr if m.get("dateAdded")], key=lambda m: m["dateAdded"])
         if not ms:
             continue
-        ins = [m for m in ms if m.get("direction") == "inbound" and len(g(m.get("body")).strip()) > 3]
+        ins = [m for m in ms if m.get("direction") == "inbound" and m.get("type") in (2, 3, 45)
+               and len(g(m.get("body")).strip()) > 3]
         if not ins:
             continue
         last = ins[-1]
-        human_out = [m for m in ms if m.get("direction") == "outbound"
-                     and not auto.search(g(m.get("body")).strip())]
+        human_out = [m for m in ms if is_reply(m)]
         if human_out and human_out[-1]["dateAdded"] > last["dateAdded"]:
-            continue          # a real person did reply after them
+            continue          # a real person wrote back or a call connected
         bot_only = any(m for m in ms if m.get("direction") == "outbound"
                        and m["dateAdded"] > last["dateAdded"])
         c = contacts.get(last.get("contactId"), {})
