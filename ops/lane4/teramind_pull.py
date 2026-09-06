@@ -4,6 +4,7 @@
 (archived at ops/archive/teramind/api/postman_collection_TW74jRAB.json, 239 endpoints).
 
     python3 ops/lane4/teramind_pull.py --check              # validate token (GET /tm-api/time)
+    python3 ops/lane4/teramind_pull.py --all 2026-07-15     # FULL EXPORT before cancellation: every table, every day → ops/archive/teramind/export/
     python3 ops/lane4/teramind_pull.py                      # pull yesterday
     python3 ops/lane4/teramind_pull.py 2026-09-02           # pull a specific day
     python3 ops/lane4/teramind_pull.py 2026-08-19 2026-08-21   # a range (inclusive)
@@ -126,9 +127,129 @@ def pull(d):
     print(f"  ✓ {csvp.relative_to(REPO)}  → now run: python3 ops/tools/teramind_daily.py --date {d}")
     return 0
 
+# ---------------------------------------------------------------------------
+# --all START [END] : full account export (register #174 — "download all data
+# from teramind right now before i cancel my subscription"). Everything the
+# tm-api exposes as JSON, one file per table per day, plus the one-time tables.
+# Video: requests server-side exports per computer per day (player/export-video)
+# and records the job ids; download is a second pass once Teramind renders them.
+# ---------------------------------------------------------------------------
+ONE_TIME = [
+    ("GET",  "/v1/agents",            None),
+    ("GET",  "/v1/computers",         None),
+    ("GET",  "/v1/departments",       None),
+    ("GET",  "/behavior-policy",      None),
+    ("GET",  "/behavior-group",       None),
+    ("GET",  "/monitoring-profiles",  None),
+    ("GET",  "/v1/rules",             None),
+    ("GET",  "/schedules",            None),
+    ("GET",  "/time",                 None),
+]
+DAILY_GRIDS = [
+    "/report/web-pages-applications/grid", "/report/sessions/grid", "/report/keystrokes/grid",
+    "/report/file-transfers/grid", "/report/printing/grid", "/report/audit/grid",
+    "/report/emails/grid", "/report/im/grid", "/report/social-media/grid", "/report/searches/grid",
+    "/report/clipboard/grid", "/report/network/grid", "/report/ocr/grid", "/report/login-sessions/grid",
+    "/tt/r/time-records/grid", "/tt/r/time-records-by-day/grid",
+]
+CUBES = ["activity", "alerts", "web", "apps", "emails", "keystrokes", "files", "sessions", "productivity"]
+
+def _safe(fn, *a, **k):
+    try: return fn(*a, **k)
+    except urllib.error.HTTPError as e:
+        return e.code, {"_error": e.code, "_body": e.read().decode(errors="replace")[:500]}
+    except Exception as e:
+        return 0, {"_error": str(e)}
+
+def export_all(start, end=None):
+    need_key()
+    end = end or datetime.date.today()
+    root = REPO / "ops/archive/teramind/export"
+    (root / "meta").mkdir(parents=True, exist_ok=True)
+    log = open(root / "EXPORT_LOG.txt", "a", encoding="utf-8")
+    def L(msg): print(msg); log.write(f"{datetime.datetime.utcnow():%Y-%m-%dT%H:%MZ} {msg}\n"); log.flush()
+    L(f"== FULL EXPORT {start} → {end} on {INSTANCE}")
+    # 1. one-time tables
+    for m, path, body in ONE_TIME:
+        s, obj = _safe(call, m, path, body)
+        name = path.strip("/").replace("/", "_") + ".json"
+        (root / "meta" / name).write_text(json.dumps(obj, indent=1, ensure_ascii=False), encoding="utf-8")
+        L(f"  meta {name:40} HTTP {s} {'ERR' if isinstance(obj, dict) and obj.get('_error') else 'ok'}")
+    agents = json.loads((root / "meta" / "v1_agents.json").read_text())
+    computers = json.loads((root / "meta" / "v1_computers.json").read_text())
+    # 2. per-day tables
+    d = start
+    while d <= end:
+        ps, pe, a, b = day_bounds(d)
+        day = root / d.isoformat(); day.mkdir(exist_ok=True)
+        for path in DAILY_GRIDS:
+            s, obj = _safe(call, "POST", path, {"periodStart": str(ps), "periodEnd": str(pe), "limit": 5000, "offset": 0})
+            name = path.strip("/").replace("/", "_") + ".json"
+            (day / name).write_text(json.dumps(obj, indent=1, ensure_ascii=False), encoding="utf-8")
+            n = len(obj.get("data", obj.get("rows", []))) if isinstance(obj, dict) and not obj.get("_error") else ("ERR" if isinstance(obj, dict) else len(obj))
+            L(f"  {d} {name:45} HTTP {s} rows={n}")
+        for cube in CUBES:
+            rows, offset, limit = [], 0, 1000
+            while True:
+                s, page = _safe(call, "POST", "/wip/tma-query", {
+                    "cube": cube, "timezone": TZ, "aggregate": False, "dims": [], "measures": [],
+                    "dim_filters": {"date": {"range": [d.isoformat(), d.isoformat()]}},
+                    "data_filters": {}, "offset": offset, "limit": limit, "order": []})
+                if isinstance(page, dict) and page.get("_error"): rows = page; break
+                chunk = page.get("data") if isinstance(page, dict) else page
+                if not chunk: break
+                rows += chunk; offset += limit
+                if len(chunk) < limit: break
+            (day / f"cube_{cube}.json").write_text(json.dumps(rows, indent=1, ensure_ascii=False), encoding="utf-8")
+            L(f"  {d} cube_{cube:20} rows={len(rows) if isinstance(rows, list) else 'ERR'}")
+        s, al = _safe(call, "GET", "/v1/alerts", params={
+            "periodStart": a.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "periodEnd":   b.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")})
+        (day / "v1_alerts.json").write_text(json.dumps(al, indent=1, ensure_ascii=False), encoding="utf-8")
+        # 3. video: what exists, and request an export per computer that has data
+        vids = []
+        for c in (computers if isinstance(computers, list) else []):
+            cid = c.get("id") or c.get("computer_id")
+            s, av = _safe(call, "GET", "/player/available-video-data", params={"computer": cid, "start": ps, "end": pe})
+            if isinstance(av, (list, dict)) and av and not (isinstance(av, dict) and av.get("_error")):
+                s2, job = _safe(call, "POST", "/player/export-video", {"computer": cid, "start": ps, "end": pe, "format": "mp4"})
+                vids.append({"computer": cid, "name": c.get("name"), "available": av, "export_request": job, "http": s2})
+        (day / "video_exports.json").write_text(json.dumps(vids, indent=1, ensure_ascii=False), encoding="utf-8")
+        L(f"  {d} video: {len(vids)} computers with data → export requested (download pass: --video-download)")
+        d += datetime.timedelta(days=1)
+    L("== DONE. Next: git add ops/archive/teramind/export && git commit && git push")
+    return 0
+
+def video_download():
+    need_key()
+    root = REPO / "ops/archive/teramind/export"
+    got = 0
+    for vj in sorted(root.glob("*/video_exports.json")):
+        for v in json.loads(vj.read_text()):
+            job = v.get("export_request") or {}
+            jid = job.get("id") if isinstance(job, dict) else None
+            if not jid: continue
+            s, st = _safe(call, "GET", f"/player/export-video/status/{jid}")
+            if isinstance(st, dict) and str(st.get("status", "")).lower() in ("done", "ready", "completed", "finished"):
+                url = f"https://{INSTANCE}/tm-api/player/export-video/download/{jid}"
+                req = urllib.request.Request(url, headers={"x-access-token": KEY})
+                out = vj.parent / f"video_{v.get('name', v.get('computer'))}_{jid}.mp4"
+                with urllib.request.urlopen(req, timeout=600) as r, open(out, "wb") as f: f.write(r.read())
+                got += 1; print(f"  ✓ {out.relative_to(REPO)} ({out.stat().st_size//1024} KB)")
+            else:
+                print(f"  … job {jid} ({v.get('name')}, {vj.parent.name}): {st if isinstance(st, dict) else s}")
+    print(f"{got} video file(s) downloaded. NOTE: mp4s > 100 MB will not push to GitHub — keep them on disk + Drive, commit the index only.")
+    return 0
+
 def main():
     a = sys.argv[1:]
     if "--check" in a: return check()
+    if "--video-download" in a: return video_download()
+    if "--all" in a:
+        ds = [x for x in a if not x.startswith("--")]
+        st = datetime.date.fromisoformat(ds[0]) if ds else datetime.date(2026, 7, 15)
+        en = datetime.date.fromisoformat(ds[1]) if len(ds) > 1 else None
+        return export_all(st, en)
     ds = [x for x in a if not x.startswith("--")]
     if not ds:
         days = [datetime.date.today() - datetime.timedelta(days=1)]

@@ -1,5 +1,5 @@
 # 📊 APW ACTIVITY RECORD — from Teramind's own daily reports (REAL)
-*Built 2026-09-03 · Lane 1 · Register #167. **100% real Teramind data** — the numbers Teramind emailed to support@ascendprimewealth.com, read verbatim. Every day links to its source email. This is NOT the demo.*
+*Built 2026-09-06 · Lane 1 · Register #167. **100% real Teramind data** — the numbers Teramind emailed to support@ascendprimewealth.com, read verbatim. Every day links to its source email. This is NOT the demo.*
 
 > ⚠️ **Read this once.** Each Teramind digest lists only the **top 3** per category, not the whole team. So a person missing from a day means *not in that day's top 3* — **never** 'idle' or 'unmonitored' (ruling #27). The full per-person, minute-by-minute day — the thing you actually want — is **not in these emails**; it needs a one-time export or API token ([how](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/TERAMIND_DAILY_APP.md)). What IS below is real and verified.
 
