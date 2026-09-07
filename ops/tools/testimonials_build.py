@@ -14,7 +14,8 @@ import json, re, sys, pathlib
 GHL = "https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/"
 def F(call, sec): return f"https://fathom.video/calls/{call}?timestamp={sec}"
 
-# ---------------------------------------------------------------- CALLS (title, date, url-id)
+# ---------------------------------------------------------------- CALLS (title, date, url-id) + Fathom recording_id (for archive folders)
+REC_ID = {'723857619': '158430973', '728895030': '159705624', '730696625': '159714984', '741969838': '162841569', '745679194': '163365871', '759494613': '167666706', '762499930': '168073294', '764436554': '168556212', '767888047': '169322939', '769061378': '169310910', '779847306': '171947309', '783351348': '173260375', '791826979': '175044393', '795906439': '176802936', '795906442': '176779823', '797017809': '176336909', '799338949': '177510654', '799338953': '177160286'}
 CALLS = {
  "723857619": ("Matthew LoGuidice | Guaranteed Funding (first call)", "2026-06-25"),
  "769061378": ("Alan's Zoom w/ Matthew + Todd LoGuidice (funding execution)", "2026-07-31"),
@@ -194,7 +195,7 @@ def md():
     for a,b in NOT_FOUND: o.append(f"| {a} | {b} |")
     o.append("\n## Excluded on purpose\n"+"\n".join(f"- {e}" for e in EXCLUDED))
     o.append("\n## Sources swept\n- **Fathom:** every client-titled recording Jun 21 → Sep 6 was listed (296 recordings); the 18 calls in the table below were read in full. Calls with no transcript: Ed Choi 6/29 (159223709) — \"No transcript available\".\n- **GHL:** all 256 conversations in the 2026-08-30 export (`ops/archive/ghl/2026-08-30/raw/messages_by_conversation.json`), inbound SMS + email, positive-keyword sweep then hand-read per person.\n- **NOT swept — GHL phone-call recordings/transcriptions:** none exist in GitHub. The 2026-08-30 export has 1,473 call rows (458 answered ≥30s) but zero audio and zero transcripts; GHL only returns duration/status from the messages endpoint. `ops/lane4/ghl_pull_recordings.py` (added 2026-09-07, wired into `APW-PULL-ALL`) fetches GHL's own transcription + optional audio per call when run on the PC with the token. Re-run this build after that pull lands. Also not swept: Slack, Gmail.\n- **Repo call archive checked:** `ops/archive/calls/` (Fathom 42 folders, Krisp 9 coaching calls, Zoom 7). Zoom-only Stephen Greco 8/17 read: skeptical prospect, no praise (\"I've heard the same spiel so many times\" → \"Thanks, man\").\n\n| Call | Date | Link |\n|---|---|---|")
-    for k,(t,d) in sorted(CALLS.items(), key=lambda x:x[1][1]): o.append(f"| {t} | {d} | https://fathom.video/calls/{k} |")
+    for k,(t,d) in sorted(CALLS.items(), key=lambda x:x[1][1]): o.append(f"| {t} | {d} | https://fathom.video/calls/{k} · [archived transcript](../archive/calls/fathom/) rec {REC_ID.get(k,'?')} |")
     o.append("\n---\n*Every claim above carries its link and date (SOP RULING #24). Built from the raw originals; nothing paraphrased.*\n")
     return "\n".join(o)
 
@@ -204,7 +205,7 @@ def main():
     root=pathlib.Path(__file__).resolve().parents[1]/'data'
     (root/'CLIENT_TESTIMONIALS.md').write_text(md())
     (root/'CLIENT_TESTIMONIALS.json').write_text(json.dumps(
-        {"built":"2026-09-07","ghl_contact_base":GHL,"calls":CALLS,
+        {"built":"2026-09-07","ghl_contact_base":GHL,"calls":CALLS,"recording_ids":REC_ID,
          "people":[{"name":c['name'],"ghl_contact_id":c['ghl'],"role":c['role'],
                     "quotes":[dict(date=d,quote=q,source=s,link=l,note=n) for d,q,s,l,n in c['rows']]} for c in CLIENTS],
          "not_found":[{"recalled":a,"finding":b} for a,b in NOT_FOUND],"excluded":EXCLUDED}, indent=1, ensure_ascii=False))

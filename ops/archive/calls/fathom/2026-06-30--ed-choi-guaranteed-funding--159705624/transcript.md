@@ -1,0 +1,391 @@
+# Ed Choi | Guaranteed Funding
+
+**Date:** 2026-06-30 · **Fathom:** https://fathom.video/calls/728895030 · **recording_id:** 159705624 · **Segments:** 193 · **Last timestamp:** 33 min
+
+> Verbatim Fathom transcript as returned by the Fathom MCP on 2026-09-07 (Lane 1, testimonials run). Speaker labels are Fathom's (device names like "iPad"/"iPhone" are the client). Each line links to that second of the recording.
+
+[0:06](https://fathom.video/calls/728895030?timestamp=6) Alan Nguyen: Hey, Ed, how's it going?
+
+[0:08](https://fathom.video/calls/728895030?timestamp=8) ed: Good, how are you? Good, I'm doing good.
+
+[0:11](https://fathom.video/calls/728895030?timestamp=11) Alan Nguyen: Thanks for sending all that stuff over. I was able to take a look at it. Were you ever able to pull a copy of your credit report by any chance?
+
+[0:21](https://fathom.video/calls/728895030?timestamp=21) ed: Oh, I can send it to you. Hold on. Okay, wonderful.
+
+[0:26](https://fathom.video/calls/728895030?timestamp=26) Alan Nguyen: I know that's not me. I should have asked you for that in the email, but no big deal. You do have a copy of the three bureau report, though, of all three of bureaus?
+
+[0:38](https://fathom.video/calls/728895030?timestamp=38) ed: of course. My score, IQ, I think.
+
+[0:43](https://fathom.video/calls/728895030?timestamp=43) Alan Nguyen: Okay, nice. That'll work. All right, awesome. While you pulled that up, do you have any questions for me that you've thought of over the past couple days?
+
+[0:56](https://fathom.video/calls/728895030?timestamp=56) ed: No, I think I'm good. You know, I don't need $500K, $700K right away. If I can then get my hands on, you know, $50K to $100K for the time being, and then every month if I can get more funding, that's ideal also. Absolutely.
+
+[1:18](https://fathom.video/calls/728895030?timestamp=78) Alan Nguyen: That is, I'm super glad you said that because that is a very realistic goal target to fulfill.
+
+[1:25](https://fathom.video/calls/728895030?timestamp=85) ed: let me get to my credit monitoring, my score IQ, and I see I'm getting, I get the most recent, which is shoot.
+
+[1:51](https://fathom.video/calls/728895030?timestamp=111) Alan Nguyen: So I took a look at the financials and it looks like, if I'm understanding correctly, the business is doing good revenue, but according to tax returns, it's taking. A minor loss over the past handful of years. Is that sound about right?
+
+[2:05](https://fathom.video/calls/728895030?timestamp=125) ed: At least on paper?
+
+[2:06](https://fathom.video/calls/728895030?timestamp=126) Alan Nguyen: Okay.
+
+[2:07](https://fathom.video/calls/728895030?timestamp=127) ed: . So whatever profit I've left over, I'm reinvesting and buying, acquiring. Understood.
+
+[2:17](https://fathom.video/calls/728895030?timestamp=137) Alan Nguyen: .
+
+[2:18](https://fathom.video/calls/728895030?timestamp=138) ed: . Understood.
+
+[2:19](https://fathom.video/calls/728895030?timestamp=139) Alan Nguyen: I'll still run a buy are bankers that do the large lines of credit. I'm assuming it should still be okay. But we'll see. If anything, I think it'll just be a lower amount, but we still should be able to help you achieve success. And then even worst case scenario, let's say the business lines of credit were off the table, which I couldn't see why they would be completely. We could still do the credit card stacking and with a strong credit profile, we'll be to help you with that. No problem.
+
+[2:52](https://fathom.video/calls/728895030?timestamp=172) ed: Gotcha. So I can't find the most recent one that I pulled 10 days ago. problem. But No I would, this is the one from February. Okay.
+
+[3:06](https://fathom.video/calls/728895030?timestamp=186) Alan Nguyen: Sounds good. Are you sending it via email?
+
+[3:11](https://fathom.video/calls/728895030?timestamp=191) ed: On the chat. Oh, in, in the chat. Oh, perfect.
+
+[3:14](https://fathom.video/calls/728895030?timestamp=194) Alan Nguyen: Thank you. And that pulled up.
+
+[3:28](https://fathom.video/calls/728895030?timestamp=208) ed: So 767, 788, 788.
+
+[3:34](https://fathom.video/calls/728895030?timestamp=214) Alan Nguyen: We just couldn't pull it up. Oh, strange. Are you not able to open? Oh, there we go. . was being weird, but I got it. So I'm going to run it. I'm going to look over it manually and then also run through the software as well, too. Just to make things easier. . Right. Loading it in. Sweet. It's going to start processing. Okay. Now I'm just going to look over the report and then just let you know anything that come up. Let's see. Okay. So I can help you optimize the name thing. The also known as, are you tied to those names by any chance? Like, do you want them on there specifically or are you okay with having the secondary also? So known as Names Removed.
+
+[5:03](https://fathom.video/calls/728895030?timestamp=303) ed: What page is that?
+
+[5:05](https://fathom.video/calls/728895030?timestamp=305) Alan Nguyen: That is page number one on Experian.
+
+[5:09](https://fathom.video/calls/728895030?timestamp=309) ed: It looks like you got the Oh, so that's my legal name on my citizenship papers and passport. That's my Korean name, right? But I usually go by just by my American name, Edwin Choi. I rarely use the middle initial.
+
+[5:27](https://fathom.video/calls/728895030?timestamp=327) Alan Nguyen: Okay, but that's actually your legal name under the also known as?
+
+[5:31](https://fathom.video/calls/728895030?timestamp=331) ed: . I mean, that's what's in the passport, the naturalization paperwork. Okay, awesome.
+
+[5:39](https://fathom.video/calls/728895030?timestamp=339) Alan Nguyen: Then we'll leave those on there. The current address is on here. Is that up to date? Which one is up to date? Is it the 85, the 3663? That's my home.
+
+[5:50](https://fathom.video/calls/728895030?timestamp=350) ed: 3663 is my work. So I don't know who decides what's put on there. Got it.
+
+[5:57](https://fathom.video/calls/728895030?timestamp=357) Alan Nguyen: Okay, sweet. And then the, the other. Address is like 3333-2211.
+
+[6:02](https://fathom.video/calls/728895030?timestamp=362) ed: That's an old work address.
+
+[6:05](https://fathom.video/calls/728895030?timestamp=365) Alan Nguyen: Okay, got it. For those ones specifically, are you open to having us help clean those up for you just because? sure.
+
+[6:15](https://fathom.video/calls/728895030?timestamp=375) ed: Okay, awesome. moved out of there, what, back in 2018. It's been almost eight years.
+
+[6:22](https://fathom.video/calls/728895030?timestamp=382) Alan Nguyen: Okay, awesome.
+
+[6:24](https://fathom.video/calls/728895030?timestamp=384) ed: So 3333 is our old work address. 211 Long Branch is my second home, which is basically a rental property.
+
+[6:35](https://fathom.video/calls/728895030?timestamp=395) Alan Nguyen: All right, sweet. I'm going to write this down just to make sure. So we're keeping 3663, and then we're keeping 85. And then in terms of 3333 and 866 and 211, you're okay with removing those?
+
+[6:56](https://fathom.video/calls/728895030?timestamp=416) ed: Those are my current work addresses. Is there a specific reason why I should remove those?
+
+[7:04](https://fathom.video/calls/728895030?timestamp=424) Alan Nguyen: Well, if you're actively using them, we can keep them. It's just a lot of the bankers in the underwriting algorithms, they like to see less addresses. It creates less flags in the system, which can result in... guy with multiple entities, so I have 10 different addresses.
+
+[7:19](https://fathom.video/calls/728895030?timestamp=439) ed: That's fine. mean, whatever you think is better in terms of what we're doing, that's fine. If you look at Equifax, all the way to the bottom, the employers, healthcare partners, I haven't worked for them for 20 years or longer. I don't know why it's still there. That's the other thing.
+
+[7:37](https://fathom.video/calls/728895030?timestamp=457) Alan Nguyen: Are you okay with us removing all the employers?
+
+[7:39](https://fathom.video/calls/728895030?timestamp=459) ed: . Or do you need them?
+
+[7:41](https://fathom.video/calls/728895030?timestamp=461) Alan Nguyen: Okay, sweet. Employers.
+
+[7:45](https://fathom.video/calls/728895030?timestamp=465) ed: What's the benefit of having employers on the credit report?
+
+[7:50](https://fathom.video/calls/728895030?timestamp=470) Alan Nguyen: We've personally seen it to be more detrimental than not. It's for verification, it's typically for people that don't have businesses and that are looking for personal funding. But on the business side of things, we found that the algorithms are more friendly and they approve higher amounts and they deny less or give less pushback or manual reviews when there's less addresses and no employers. Does that make sense? Okay.
+
+[8:14](https://fathom.video/calls/728895030?timestamp=494) ed: .
+
+[8:16](https://fathom.video/calls/728895030?timestamp=496) Alan Nguyen: And just to confirm, because I don't want to remove an address that you are using, right? Because if there's a store behind it, it's okay to keep it there as long as we can explain it to them in a way that makes sense. Yes. So out of the last three numbers that I listed, the 3333, the 866, and 211, did you want to keep any of those because they're active or anything? Okay.
+
+[8:36](https://fathom.video/calls/728895030?timestamp=516) ed: So 3333, we'll share. We moved out of that location. It was a lease.
+
+[8:43](https://fathom.video/calls/728895030?timestamp=523) Alan Nguyen: Okay. So you're not there anymore. 2018, so it's irrelevant.
+
+[8:47](https://fathom.video/calls/728895030?timestamp=527) ed: Definitely get rid of 3333, we'll share. Okay. 3663, West Sixth Street is where I'm at right now. Keep that, yep.
+
+[8:57](https://fathom.video/calls/728895030?timestamp=537) Alan Nguyen: it's my work.
+
+[9:00](https://fathom.video/calls/728895030?timestamp=540) ed: 85 Leroy is my home. Yep, keep that. 211 Long Branch is a rental property. It's my second home.
+
+[9:08](https://fathom.video/calls/728895030?timestamp=548) Alan Nguyen: Okay, we'll probably keep that one. So want to keep it, I don't care.
+
+[9:12](https://fathom.video/calls/728895030?timestamp=552) ed: And then as far as entities, I don't care if they stay there or not. It's up to you. Whatever you think is better for our situation.
+
+[9:23](https://fathom.video/calls/728895030?timestamp=563) Alan Nguyen: Awesome. Yep, so 866, is that a keep or is that a delete? I guess it is a current address.
+
+[9:32](https://fathom.video/calls/728895030?timestamp=572) ed: For one of my clinics, but you can remove it.
+
+[9:36](https://fathom.video/calls/728895030?timestamp=576) Alan Nguyen: Clinic address. That's fine. If it's active, we can keep it on there.
+
+[9:41](https://fathom.video/calls/728895030?timestamp=581) ed: Okay. Because it'll probably help.
+
+[9:43](https://fathom.video/calls/728895030?timestamp=583) Alan Nguyen: Are you trying to get funding for that 866 clinic as well too?
+
+[9:45](https://fathom.video/calls/728895030?timestamp=585) ed: Yes. Okay, we'll keep it on there. No. Remember, I sent you three entities, text returns. So VM cosmetic is 3663. And then the other two are 866.
+
+[9:59](https://fathom.video/calls/728895030?timestamp=599) Alan Nguyen: Okay. Nice.
+
+[10:02](https://fathom.video/calls/728895030?timestamp=602) ed: Sweet.
+
+[10:03](https://fathom.video/calls/728895030?timestamp=603) Alan Nguyen: All right. Just write down notes so I have it all there. Okay, look, scores look good. It looks like, okay, you got a good mix, which is great. You got 22 plus open accounts. great. Balances. Okay, let's see here.
+
+[10:19](https://fathom.video/calls/728895030?timestamp=619) ed: Now, remember, this is February. So I just paid off a big chunk yesterday. So I think within a week, it'll be reflected in the score. So I'll pull another report when you're ready.
+
+[10:32](https://fathom.video/calls/728895030?timestamp=632) Alan Nguyen: Do you know what, okay, well, I guess the first question is, are all of your cards under 9.0% utilization? It wasn't.
+
+[10:42](https://fathom.video/calls/728895030?timestamp=642) ed: it's okay.
+
+[10:43](https://fathom.video/calls/728895030?timestamp=643) Alan Nguyen: Well, as of like now. As of yesterday, no, it was like over 30%.
+
+[10:47](https://fathom.video/calls/728895030?timestamp=647) ed: So that's why I had to pay them off. Understood. As of right now, after you paid them off, are they, what's the percentage looking like? It should be less than 20 for sure. But if you want it to be less than 10%, I have to pay off some more.
+
+[11:06](https://fathom.video/calls/728895030?timestamp=666) Alan Nguyen: Okay, understood. Would you be able to do that comfortably or would that kind of put you in a challenging situation?
+
+[11:14](https://fathom.video/calls/728895030?timestamp=674) ed: No, no, no, I can do that right away. Okay, awesome.
+
+[11:17](https://fathom.video/calls/728895030?timestamp=677) Alan Nguyen: So what we've seen is that if you have no card greater than 9.0%, we've seen those yield the best results in terms of automated approvals, funding amounts, ease, things of that nature.
+
+[11:33](https://fathom.video/calls/728895030?timestamp=693) ed: I've done business stacking before, business credit card stacking before, so I'm very well aware. Thank you. Oh, awesome.
+
+[11:40](https://fathom.video/calls/728895030?timestamp=700) Alan Nguyen: Well, okay, sweet. Well, I guess that makes me curious. Like, if you've done it before, did you work with a company before or did you do it yourself?
+
+[11:49](https://fathom.video/calls/728895030?timestamp=709) ed: I worked with a company before. Okay.
+
+[11:52](https://fathom.video/calls/728895030?timestamp=712) Alan Nguyen: And is there any reason why you didn't continue with them versus wanting to partner with us?
+
+[11:58](https://fathom.video/calls/728895030?timestamp=718) ed: Because it wasn't one time. Oh, they didn't offer like extensions or like additional funding or? No, no. Okay.
+
+[12:09](https://fathom.video/calls/728895030?timestamp=729) Alan Nguyen: What, were you happy with that?
+
+[12:10](https://fathom.video/calls/728895030?timestamp=730) ed: I tried, tried, I tried it on my own six months after, but it didn't pan out.
+
+[12:18](https://fathom.video/calls/728895030?timestamp=738) Alan Nguyen: . Can be challenging for sure. Understood. Understood. Okay. Did you have a good experience with that company?
+
+[12:24](https://fathom.video/calls/728895030?timestamp=744) ed: I mean, it was, it was good. I think I was able to get, roughly about $80,000. Okay.
+
+[12:35](https://fathom.video/calls/728895030?timestamp=755) Alan Nguyen: Nice. Across?
+
+[12:37](https://fathom.video/calls/728895030?timestamp=757) ed: know, BCC. . Nice.
+
+[12:39](https://fathom.video/calls/728895030?timestamp=759) Alan Nguyen: What were those cards from?
+
+[12:41](https://fathom.video/calls/728895030?timestamp=761) ed: Wells Fargo and Bank of America. Okay. So I was able to get 35, 35 on Wells Fargo, two of the Wells Fargo accounts, but for BOA, were very stingy, 15,000 on one card, 7,500 on the second card. good tonight not When And $3,500 of the third quarter. And that was it.
+
+[13:07](https://fathom.video/calls/728895030?timestamp=787) Alan Nguyen: And this was, when was this? And on what business? March of 2025. Okay. March of 2025, about a year ago. What business was this on? Is this on one of the businesses?
+
+[13:22](https://fathom.video/calls/728895030?timestamp=802) ed: Next IPA, Nanum, Next MSO, and Next IPA. So that's Wells Fargo. On the BOA side, I think it was Jonah Medical Group, Nanum Medical Group, VM Cosmetic Surgery. Very low limits.
+
+[13:48](https://fathom.video/calls/728895030?timestamp=828) Alan Nguyen: Interesting. Jonah Medical Group, the second one was?
+
+[13:51](https://fathom.video/calls/728895030?timestamp=831) ed: Nanum. The three entities that I sent you.
+
+[13:55](https://fathom.video/calls/728895030?timestamp=835) Alan Nguyen: Okay. And then the third one? Sorry, just so I have it written down?
+
+[13:58](https://fathom.video/calls/728895030?timestamp=838) ed: VM Cosmetic Surgery.
+
+[14:01](https://fathom.video/calls/728895030?timestamp=841) Alan Nguyen: Okay, that's not turning off. Okay, sweet. Awesome. Thank you for that. that's interesting why they, did you do B of A yourself or did they help you with that? Because normally you do four cards on one entity.
+
+[14:22](https://fathom.video/calls/728895030?timestamp=862) ed: You do four cards on one? No, that's not what I was told. With Bank of America specifically. I'm sorry? Okay.
+
+[14:31](https://fathom.video/calls/728895030?timestamp=871) Alan Nguyen: I was just saying with Bank of America specifically for.
+
+[14:35](https://fathom.video/calls/728895030?timestamp=875) ed: You do four cards under one entity. .
+
+[14:39](https://fathom.video/calls/728895030?timestamp=879) Alan Nguyen: Yep. That's what we've been seeing working. So I wonder if that contributed to that. Were these new businesses when you applied for them? Like less than six months old, less than two years? The Jonah, Nanu, VM.
+
+[14:51](https://fathom.video/calls/728895030?timestamp=891) ed: They've been around since 2009. Okay.
+
+[14:54](https://fathom.video/calls/728895030?timestamp=894) Alan Nguyen: So been around for a while. And then the next MSO, next IPA.
+
+[14:58](https://fathom.video/calls/728895030?timestamp=898) ed: Those are relatively new. Next IP is 2019, next MSO is 2023, 2024. Okay, got it.
+
+[15:09](https://fathom.video/calls/728895030?timestamp=909) Alan Nguyen: And when you applied, did you just apply straight out? Did you have to open up an account, put a certain money in for X amount of time?
+
+[15:14](https://fathom.video/calls/728895030?timestamp=914) ed: No, no, I was using them. I was using them as our main checking account, business checking accounts.
+
+[15:19](https://fathom.video/calls/728895030?timestamp=919) Alan Nguyen: Okay, got it. So pre-existing relationship. Got it. Okay. Good to know. Okay, so that's it. And then you said you tried doing it on your own. Where did you try, when you tried on your own?
+
+[15:34](https://fathom.video/calls/728895030?timestamp=934) ed: Then I applied to these newer banks, local banks, Columbia, M\\&T. Okay. I don't remember all the names, but they're smaller banks.
+
+[15:53](https://fathom.video/calls/728895030?timestamp=953) Alan Nguyen: Okay. I think I applied with, U.S.
+
+[15:56](https://fathom.video/calls/728895030?timestamp=956) ed: as well.
+
+[16:00](https://fathom.video/calls/728895030?timestamp=960) Alan Nguyen: How did you apply? Do you apply online or did go in person? Okay.
+
+[16:04](https://fathom.video/calls/728895030?timestamp=964) ed: you know, they told me to go in person, but when I showed up there, they said, we don't accept the applications in the office, in person, you need to go online and apply.
+
+[16:14](https://fathom.video/calls/728895030?timestamp=974) Alan Nguyen: So that's what I did. Okay, interesting. and what were the results for that, just so I can help understand the client better? It was a disaster.
+
+[16:23](https://fathom.video/calls/728895030?timestamp=983) ed: No success at all.
+
+[16:26](https://fathom.video/calls/728895030?timestamp=986) Alan Nguyen: Did it say why on the adverse action? it say like specific reason?
+
+[16:32](https://fathom.video/calls/728895030?timestamp=992) ed: Something about my credit line or you've already applied, blah, blah, blah, blah. I don't remember now.
+
+[16:38](https://fathom.video/calls/728895030?timestamp=998) Alan Nguyen: Okay. Understood. Let's see. Now looking at this, where's the, should still be able to help, especially because you have a lot of entities and it's not the end of the world. And plus you only have two institutions, which is great, which means you have a lot of space.
+
+[17:00](https://fathom.video/calls/728895030?timestamp=1020) ed: I don't do well with Chase or American Express.
+
+[17:07](https://fathom.video/calls/728895030?timestamp=1027) Alan Nguyen: Don't apply there.
+
+[17:09](https://fathom.video/calls/728895030?timestamp=1029) ed: I think I'm blacklisted by them.
+
+[17:12](https://fathom.video/calls/728895030?timestamp=1032) Alan Nguyen: Okay. Can you tell me more about that?
+
+[17:15](https://fathom.video/calls/728895030?timestamp=1035) ed: With Chase, there's a dispute. It has to do with the second mortgage. Back in 2013, I filed for personal and corporate bankruptcy, but it was tied to the house. So even though it was discharged from bankruptcy court, they're saying there's a secured collateral, so I still have to pay. But my bankruptcy lawyer, he's the one that's at fault. He never told me that I still need to pay that off because it's secured by the house.
+
+[17:56](https://fathom.video/calls/728895030?timestamp=1076) Alan Nguyen: Okay. Interesting. Interesting. Okay. Okay. So do you, are your bankruptcies currently reporting on your credit report? Because I didn't see any.
+
+[18:05](https://fathom.video/calls/728895030?timestamp=1085) ed: 2013. And it's reporting on there?
+
+[18:09](https://fathom.video/calls/728895030?timestamp=1089) Alan Nguyen: No, no, no.
+
+[18:10](https://fathom.video/calls/728895030?timestamp=1090) ed: It's not there. Oh.
+
+[18:12](https://fathom.video/calls/728895030?timestamp=1092) Alan Nguyen: I about to say, I like, I didn't see it. . Usually because after like eight plus years, it falls off. Exactly. This was 13 years ago. Awesome. And then Amex is similar, similar situation?
+
+[18:22](https://fathom.video/calls/728895030?timestamp=1102) ed: Yep. Okay. Awesome.
+
+[18:23](https://fathom.video/calls/728895030?timestamp=1103) Alan Nguyen: So no Amex, no Chase. That's fine. Tons of other places we can go. So have you pulled your secondary bureau reports? I know that's a very odd question.
+
+[18:35](https://fathom.video/calls/728895030?timestamp=1115) ed: it is odd. So explain.
+
+[18:38](https://fathom.video/calls/728895030?timestamp=1118) Alan Nguyen: So you know how we have the primary bureaus like TransUnion, Equifax, Experian, right? There's secondary bureaus called things like LexisNexis, CheckSystems, Anovus, stuff like that.
+
+[18:50](https://fathom.video/calls/728895030?timestamp=1130) ed: It's just secondary. Oh. I've heard of LexisNexis. .
+
+[18:54](https://fathom.video/calls/728895030?timestamp=1134) Alan Nguyen: They're just second data aggregators that like EWS, for example. The reason why I asked that question is because sometimes when people go through, you know, bankruptcies or lay payments, whatever it is, and then it's not showing up on the primary reports anymore. It can show up on the secondary reports. It can be an invisible thing that's holding people back from funding.
+
+[19:13](https://fathom.video/calls/728895030?timestamp=1153) ed: So that's why I asked that question. I did it March of 2025. I haven't done it since.
+
+[19:22](https://fathom.video/calls/728895030?timestamp=1162) Alan Nguyen: You looked at those 2025? Exactly. Okay. And was everything good? Yes.
+
+[19:28](https://fathom.video/calls/728895030?timestamp=1168) ed: Okay, awesome.
+
+[19:29](https://fathom.video/calls/728895030?timestamp=1169) Alan Nguyen: And you checked LexisNexis for sure. And then what about check systems?
+
+[19:33](https://fathom.video/calls/728895030?timestamp=1173) ed: I don't think so.
+
+[19:35](https://fathom.video/calls/728895030?timestamp=1175) Alan Nguyen: Okay. So check, checks, check. EWS, I'm assuming you did not check either?
+
+[19:43](https://fathom.video/calls/728895030?timestamp=1183) ed: No, never heard of it before.
+
+[19:46](https://fathom.video/calls/728895030?timestamp=1186) Alan Nguyen: Clarity. Okay, awesome. we can help you with that. Okay, so. Got it. I know you said you're short on time, so ideally, I'm assuming you probably want something where we would be able to check those things for you, so you don't have to take the time to pull that yourself? Correct. Okay. Sounds good. And . So, I mean, your profile looks solid. I just got to get to the inquiry section. The main thing is we're going to, before we start applying, ideally, if we want the best odds, we're going to want to get those utilization, that utilization down. We'll also have to remove the inquiries. Looks like you got seven on TransUnion, so we'll try to, we'll focus on removing all these. can get that in process as well, too. Let's see what else. So I'm just going write down notes, remove inquiries, inquiries, seven on TransUnion. Where'd it go? Eight Experian and And one Equifax, okay. So we'll get that in queue as well too. And then let's see. Okay. So the main thing that's going to be, as I said before, you know, relative to our success is making sure that all of these accounts are going to be under 9%, 9.0% in utilization reporting on your credit report. So I know this isn't an updated one specifically, but do you happen to know the reporting dates or the minimum payment dates of the cards that are reporting high utilization, like higher than 10%? it's around now, end of the month, all the way up to the first seven days of the month. Okay. So all your cards hang around this area. .
+
+[21:49](https://fathom.video/calls/728895030?timestamp=1309) ed: Okay.
+
+[21:50](https://fathom.video/calls/728895030?timestamp=1310) Alan Nguyen: Awesome. That's perfect. That'll give us enough time. We can, you can for sure get those all paid down below 9% by the time they report. Correct. Yes.
+
+[22:00](https://fathom.video/calls/728895030?timestamp=1320) ed: Okay, awesome.
+
+[22:16](https://fathom.video/calls/728895030?timestamp=1336) ed: Nope. Okay.
+
+[22:19](https://fathom.video/calls/728895030?timestamp=1339) Alan Nguyen: Sweet. then, okay. Just want to, thank you for being patient with me during this. Normally, we try to review these reports before the call, but I just wanted to go over this with you. Let's see. All right. Do you have any recently opened accounts within the past six months?
+
+[22:54](https://fathom.video/calls/728895030?timestamp=1374) ed: No, it would be seven, eight, nine months Okay, nice.
+
+[23:02](https://fathom.video/calls/728895030?timestamp=1382) Alan Nguyen: That's solid. And it looks like you have a Lightstream loan. Is that an auto loan?
+
+[23:08](https://fathom.video/calls/728895030?timestamp=1388) ed: It's a personal loan.
+
+[23:10](https://fathom.video/calls/728895030?timestamp=1390) Alan Nguyen: Okay. Does it show up as an auto loan or does it show up as a personal loan?
+
+[23:13](https://fathom.video/calls/728895030?timestamp=1393) ed: I think it shows up as a personal loan.
+
+[23:16](https://fathom.video/calls/728895030?timestamp=1396) Alan Nguyen: Okay. Sounds good. And that's been at least six months?
+
+[23:22](https://fathom.video/calls/728895030?timestamp=1402) ed: Oh. That was taken out last year.
+
+[23:25](https://fathom.video/calls/728895030?timestamp=1405) Alan Nguyen: Okay. Awesome. Okay. So something that you're going to want to do as well, too, is once you, well, actually, let me just double check before I say this. So I'm bouncing back and forth between like the, our software overview and just kind of what it looks like in person. Okay. . So once you pay down your Capital One, I would call in on Capital One and And Sync B, once you pay that down, and it reports, like it posts the payment, I would call in and ask, or do it online, however it works, to see if you can get a credit line increase on each of those cards without doing a hard inquiry. If you can, it'll help. If not, no big deal. Let's see. Okay. On which cards? Capital One and Sync B. You have a Capital One for $5,000? I have three Capital One cards.
+
+[24:32](https://fathom.video/calls/728895030?timestamp=1472) ed: I can lump them together, if that helps.
+
+[24:37](https://fathom.video/calls/728895030?timestamp=1477) Alan Nguyen: What's the age on all of them?
+
+[24:40](https://fathom.video/calls/728895030?timestamp=1480) ed: Two, three, four years.
+
+[24:43](https://fathom.video/calls/728895030?timestamp=1483) Alan Nguyen: Two, three, four years. Let's see. What are the limits on them?
+
+[24:50](https://fathom.video/calls/728895030?timestamp=1490) ed: Oh, 5,000. All around the same. 5,000, 5,000, 5,000, something like that. I just sent you the, in the chat, I just downloaded the most recent report, 6-20, 10 days ago. Oh, wonderful.
+
+[25:08](https://fathom.video/calls/728895030?timestamp=1508) Alan Nguyen: All right, let's see.
+
+[25:10](https://fathom.video/calls/728895030?timestamp=1510) ed: So the score is lower because of the high utilization, but we're going to take care of that this week.
+
+[25:19](https://fathom.video/calls/728895030?timestamp=1519) Alan Nguyen: Yep. as long as we take care of the utilization, we should be good. It's utilization inquiries, right? Is there anything else that is on there that you're seeing that I'm It's the utilization and inquiries. Okay, got it. Sweet. I'll put in your second one now. so I can get this in process for the sake of time. Let's see. so what's your highest individual standing limit card where you're the primary owner? Like, what's the highest limit on one card specifically that you have?
+
+[25:56](https://fathom.video/calls/728895030?timestamp=1556) ed: Robin Hood, I think it's 10,000. Robin, 10,000?
+
+[26:00](https://fathom.video/calls/728895030?timestamp=1560) Alan Nguyen: Okay. 10,000.
+
+[26:02](https://fathom.video/calls/728895030?timestamp=1562) ed: 10,000, yep.
+
+[26:03](https://fathom.video/calls/728895030?timestamp=1563) Alan Nguyen: Got it. Okay. So. I'm just going to ask one more thing. How many? I think it would be a good idea to combine the limits on your Capital One once you pay them down, assuming they'll allow you to do that. That would be good, because then you have another card that's over 10K, which would be solid. Because you only have one card over 10K, right? Which is the one you just mentioned, Robin Hood.
+
+[26:30](https://fathom.video/calls/728895030?timestamp=1590) ed: . Synchrony is 7,000, I think.
+
+[26:37](https://fathom.video/calls/728895030?timestamp=1597) Alan Nguyen: Okay. Awesome. Yep. So is that through like Amazon or something like that? Department store?
+
+[26:44](https://fathom.video/calls/728895030?timestamp=1604) ed: Amazon? No, no, no. PayPal.
+
+[26:48](https://fathom.video/calls/728895030?timestamp=1608) Alan Nguyen: Okay. Got it. . I'll even write this down on a list too, but I would also, once you pay that off or pay that down or whatever, request a credit limit increase. increase on right down here, sync B, capital one, and then combine after you ask, then see if you can combine them. Won't be the biggest deal if you cannot. Find card limits. And then also Robinhood too, if you can. No big deal if you can't. It's just, you know, that little bit may help, will help. But also it's not worth the hard inquiry, right? So if they, if they say it's, it's, it's going to take a hard inquiry, then don't do it. Does that make sense? Right.
+
+[27:35](https://fathom.video/calls/728895030?timestamp=1655) ed: Sweet. And most likely they will ask to do the hard inquiry, right?
+
+[27:40](https://fathom.video/calls/728895030?timestamp=1660) Alan Nguyen: Depends on the bank. It's institution by institution. And I know policies are always changing. So depends. I think capital one probably would, but there's a chance. Either way, no big deal. Let's see. Okay. I think that's pretty much everything. So, so, so far from what you understand about, you know, us taking you through the. Credit optimization process to the actual funding strategy itself, which we will create a custom strategy specifically for you and your geolocation, specifically for your profile, and then eventually just the funding in general, and then credit inquiry removal throughout the process. Do you have any questions about any of those steps or what questions may you have about any of those? I don't have any questions.
+
+[28:21](https://fathom.video/calls/728895030?timestamp=1701) ed: Okay.
+
+[28:22](https://fathom.video/calls/728895030?timestamp=1702) Alan Nguyen: Awesome. So, okay, in terms of timelines, it sounds like you want to get $50K-$100K relatively soon within the next 30 days or so, and then we'll work our way up towards, you know, getting a large amount of funding with the stacks and whatnot. Hopefully we can get some large VLOC approvals as well, too. I was able to come back with the custom quote for that, just trying to find something that would be relatively reasonable. So let me know what your thoughts are on this. So right now, how I have it structured is, so we're not going to have you do the, so normally we have a program where we teach people. How to do this themselves, and basically, you know, rinse and repeat, but obviously, you're super busy, so that doesn't sound like that would be something for you, correct?
+
+[29:08](https://fathom.video/calls/728895030?timestamp=1748) ed: Correct. Okay, awesome.
+
+[29:10](https://fathom.video/calls/728895030?timestamp=1750) Alan Nguyen: Yep. So that also, like, eliminates a lot of the cost. So basically, it's just $2,000 up front, as I was saying before, which is refundable. If, you know, and I just put out a number, $20,000 minimum in funding is not secured, which would be a 10x return, that $2,000 up front would be refundable to you. Okay. that make sense so far? .
+
+[29:31](https://fathom.video/calls/728895030?timestamp=1771) ed: Okay.
+
+[29:32](https://fathom.video/calls/728895030?timestamp=1772) Alan Nguyen: And then, and this is all in writing, too. I'll be able to send you the agreement. I'm just going over it with you. The, so now, the pay structure on the success is split into two different categories, okay? So we have the B-locks, the business lines of credit, and then we have the credit cards, right? So the business line of credit, how it works is, as I mentioned earlier, it's a 1% to 6% success fee window. And how that breaks down is it'll be 6% on the first $100,000. And then. It drops down to 5% from $100,000 to $250,000, 4% from $250,000 to $500,000, 3% from $500,000 to $750,000, 2% from $750,000 to $100,000, and 1% and above, 1% is everything above a million. Does that make sense?
+
+[30:23](https://fathom.video/calls/728895030?timestamp=1823) ed: So above a million. So that's 1% is still $10,000. Okay. Got it. Yep.
+
+[30:32](https://fathom.video/calls/728895030?timestamp=1832) Alan Nguyen: So the, okay, so then for credit cards, it will be, okay, so how it works with credit cards is it's a $3,000 admin success fee due upon $50,000 plus funded. So that's only if we get you $50,000 funded, right? If we get you $40,000 funded, you don't pay anything. If we get you $50,000 plus, then it's a $3,000 admin success fee.
+
+[30:57](https://fathom.video/calls/728895030?timestamp=1857) ed: Does that make sense? -huh. And then. Regardless of the amount above $50K?
+
+[31:03](https://fathom.video/calls/728895030?timestamp=1863) Alan Nguyen: So after $50K, we'll still help you, right? And then the next admin success fee of $3K will be due upon $100,000 funded. So if we get you $90,000 funded, you pay nothing, or you don't pay that second $3,000. If we get you funded over $100,000, then that other $3,000 will be due, which is roughly 6%. And then after $100,000, it'll be a $2.5K admin success fee for every $50K funding secured starting at $150,000. Does that make sense?
+
+[31:38](https://fathom.video/calls/728895030?timestamp=1898) ed: Yes.
+
+[31:43](https://fathom.video/calls/728895030?timestamp=1903) ed: Gotcha.
+
+[31:44](https://fathom.video/calls/728895030?timestamp=1904) Alan Nguyen: Yep. And that's pretty much it. You know, we'll help you with the hard inquiries. All right. Very good.
+
+[31:51](https://fathom.video/calls/728895030?timestamp=1911) ed: Thank you very much. Yep.
+
+[31:53](https://fathom.video/calls/728895030?timestamp=1913) Alan Nguyen: So are you ready to get started or do you have any questions?
+
+[31:57](https://fathom.video/calls/728895030?timestamp=1917) ed: . No, I don't have any questions.
+
+[32:00](https://fathom.video/calls/728895030?timestamp=1920) Alan Nguyen: Okay. You ready to get started?
+
+[32:02](https://fathom.video/calls/728895030?timestamp=1922) ed: Let's do it. All right, sweet.
+
+[32:06](https://fathom.video/calls/728895030?timestamp=1926) Alan Nguyen: I will send you a copy of the agreement right now. It'll be great. The process after this is we just get the agreement signed, we do the payment, and then we will get you into the onboarding process. It'll just throw you through a bunch of really easy videos. Okay.
+
+[32:21](https://fathom.video/calls/728895030?timestamp=1941) ed: So why don't we do this? I have another Zoom at 4.30, which is now. If you send me the material, I will look over it after the next meeting, and then we can get back on Zoom if you'd like. Okay.
+
+[32:34](https://fathom.video/calls/728895030?timestamp=1954) Alan Nguyen: Awesome. Do you want to schedule a time? What time would work best for you? 5.15.
+
+[32:40](https://fathom.video/calls/728895030?timestamp=1960) ed: 5.15.
+
+[32:42](https://fathom.video/calls/728895030?timestamp=1962) Alan Nguyen: Let me just double check on my side. 5.15. Okay. That works for me. I can get that in there. Send it to the same email? Yep.
+
+[32:54](https://fathom.video/calls/728895030?timestamp=1974) ed: Okay. h-o-a-m-d at yahoo.com. Okay, sweet.
+
+[32:57](https://fathom.video/calls/728895030?timestamp=1977) Alan Nguyen: I'll send both those over, and I'll see you at 5.15.
+
+[33:00](https://fathom.video/calls/728895030?timestamp=1980) ed: Thank you. you. Bye. All right.
+
+[33:02](https://fathom.video/calls/728895030?timestamp=1982) Alan Nguyen: Thanks, Ed."}]}]},"uuid":"5c3ec2f9-f9ce-4fe9-b8ce-131a5d006fc7","timestamp":"2026-09-07T03:12:50.448Z","toolUseResult":[{"type":"text","text":"

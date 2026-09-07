@@ -64,3 +64,6 @@
 | One-click launcher | [.bat](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/lane4/APW-DAILY.bat) · [.sh](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/lane4/APW-DAILY.sh) |
 | Roster + flag rules | [ops/data/teramind/CONFIG.json](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/teramind/CONFIG.json) |
 | Archive of every day built | [ops/data/teramind/](https://github.com/Awake999/awake/tree/claude/new-session-1ofk4w/ops/data/teramind) |
+
+## Client testimonials (added 2026-09-07)
+- [CLIENT_TESTIMONIALS.md](data/CLIENT_TESTIMONIALS.md) — 74 verbatim client quotes, jump link per row · [SOP](sops/CLIENT_TESTIMONIALS_SOP.md) · skill `.claude/skills/client-testimonials/SKILL.md` · builder `tools/testimonials_build.py` · verifier `tools/testimonials_verify.py`

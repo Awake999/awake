@@ -181,24 +181,24 @@
 
 | Call | Date | Link |
 |---|---|---|
-| Matthew LoGuidice | Guaranteed Funding (first call) | 2026-06-25 | https://fathom.video/calls/723857619 |
-| Ed Choi | Guaranteed Funding | 2026-06-30 | https://fathom.video/calls/728895030 |
-| Ed Choi | post-signing kickoff | 2026-07-01 | https://fathom.video/calls/730696625 |
-| Jill Peralta | Strategy & Consulting | 2026-07-10 | https://fathom.video/calls/741969838 |
-| Jill - Onboarding | 2026-07-14 | https://fathom.video/calls/745679194 |
-| Allen Sims | Guaranteed Funding | 2026-07-27 | https://fathom.video/calls/759494613 |
-| Ashwini Anand | Guaranteed Funding | 2026-07-28 | https://fathom.video/calls/762499930 |
-| Ashwini Anand | Onboarding & Action Session | 2026-07-29 | https://fathom.video/calls/764436554 |
-| Alan's Zoom w/ Matthew + Todd LoGuidice (funding execution) | 2026-07-31 | https://fathom.video/calls/769061378 |
-| Gunjan Patel | Funding Strategy Session | 2026-08-01 | https://fathom.video/calls/767888047 |
-| Jill 1 on 1 Coaching & Strategy Session | 2026-08-11 | https://fathom.video/calls/779847306 |
-| Yeshaya Dank | Guaranteed Funding | 2026-08-14 | https://fathom.video/calls/783351348 |
-| Michael Moore | Guaranteed Funding (first call) | 2026-08-20 | https://fathom.video/calls/791826979 |
-| Ed Choi | business-setup working session | 2026-08-24 | https://fathom.video/calls/797017809 |
-| Nick Samara | Guaranteed Funding | 2026-08-25 | https://fathom.video/calls/795906442 |
-| Michael Moore | Guaranteed Funding (close) | 2026-08-26 | https://fathom.video/calls/795906439 |
-| Nick Samara | Strategic Consulting - Funding | 2026-08-26 | https://fathom.video/calls/799338953 |
-| Yeshaya Dank | $1M-$1.5M Dank SPV - Funding | 2026-08-27 | https://fathom.video/calls/799338949 |
+| Matthew LoGuidice | Guaranteed Funding (first call) | 2026-06-25 | https://fathom.video/calls/723857619 · [archived transcript](../archive/calls/fathom/) rec 158430973 |
+| Ed Choi | Guaranteed Funding | 2026-06-30 | https://fathom.video/calls/728895030 · [archived transcript](../archive/calls/fathom/) rec 159705624 |
+| Ed Choi | post-signing kickoff | 2026-07-01 | https://fathom.video/calls/730696625 · [archived transcript](../archive/calls/fathom/) rec 159714984 |
+| Jill Peralta | Strategy & Consulting | 2026-07-10 | https://fathom.video/calls/741969838 · [archived transcript](../archive/calls/fathom/) rec 162841569 |
+| Jill - Onboarding | 2026-07-14 | https://fathom.video/calls/745679194 · [archived transcript](../archive/calls/fathom/) rec 163365871 |
+| Allen Sims | Guaranteed Funding | 2026-07-27 | https://fathom.video/calls/759494613 · [archived transcript](../archive/calls/fathom/) rec 167666706 |
+| Ashwini Anand | Guaranteed Funding | 2026-07-28 | https://fathom.video/calls/762499930 · [archived transcript](../archive/calls/fathom/) rec 168073294 |
+| Ashwini Anand | Onboarding & Action Session | 2026-07-29 | https://fathom.video/calls/764436554 · [archived transcript](../archive/calls/fathom/) rec 168556212 |
+| Alan's Zoom w/ Matthew + Todd LoGuidice (funding execution) | 2026-07-31 | https://fathom.video/calls/769061378 · [archived transcript](../archive/calls/fathom/) rec 169310910 |
+| Gunjan Patel | Funding Strategy Session | 2026-08-01 | https://fathom.video/calls/767888047 · [archived transcript](../archive/calls/fathom/) rec 169322939 |
+| Jill 1 on 1 Coaching & Strategy Session | 2026-08-11 | https://fathom.video/calls/779847306 · [archived transcript](../archive/calls/fathom/) rec 171947309 |
+| Yeshaya Dank | Guaranteed Funding | 2026-08-14 | https://fathom.video/calls/783351348 · [archived transcript](../archive/calls/fathom/) rec 173260375 |
+| Michael Moore | Guaranteed Funding (first call) | 2026-08-20 | https://fathom.video/calls/791826979 · [archived transcript](../archive/calls/fathom/) rec 175044393 |
+| Ed Choi | business-setup working session | 2026-08-24 | https://fathom.video/calls/797017809 · [archived transcript](../archive/calls/fathom/) rec 176336909 |
+| Nick Samara | Guaranteed Funding | 2026-08-25 | https://fathom.video/calls/795906442 · [archived transcript](../archive/calls/fathom/) rec 176779823 |
+| Michael Moore | Guaranteed Funding (close) | 2026-08-26 | https://fathom.video/calls/795906439 · [archived transcript](../archive/calls/fathom/) rec 176802936 |
+| Nick Samara | Strategic Consulting - Funding | 2026-08-26 | https://fathom.video/calls/799338953 · [archived transcript](../archive/calls/fathom/) rec 177160286 |
+| Yeshaya Dank | $1M-$1.5M Dank SPV - Funding | 2026-08-27 | https://fathom.video/calls/799338949 · [archived transcript](../archive/calls/fathom/) rec 177510654 |
 
 ---
 *Every claim above carries its link and date (SOP RULING #24). Built from the raw originals; nothing paraphrased.*

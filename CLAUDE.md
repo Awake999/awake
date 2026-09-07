@@ -21,4 +21,6 @@ You are working inside the Ascend Prime Wealth ops repo. **Before doing anything
 
 **Lane ownership (single-writer):** Lane 1 (cloud command) owns REGISTER/SOP/INDEX/Notion-ops · Lane 2 owns `ops/dashboard/` · Lane 3 owns `ops/archive/` (append-only) · Lane 4 (this PC) owns `ops/archive/ghl/` + `ops/lane4/` + browser tasks. Everyone writes their own `ops/process-log/YYYY-MM-DD-<lane>.md`, never another lane's.
 
+**Skills (auto-loaded from `.claude/skills/`):** `/client-testimonials` — verbatim client quotes with jump links (law: [ops/sops/CLIENT_TESTIMONIALS_SOP.md](ops/sops/CLIENT_TESTIMONIALS_SOP.md)). Edit data in `ops/tools/testimonials_build.py`, never the generated doc.
+
 Dashboard live URL: https://claude.ai/code/artifact/c6ad801c-50fc-49d3-847a-e6a8b0ddd392
