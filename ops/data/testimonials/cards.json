@@ -4,6 +4,7 @@
  "people": {
   "Matthew LoGuidice": {
    "bg": "Tech-startup founder · formerly owned 300 apartments",
+   "public_bg": "Tech-startup founder · former multifamily owner",
    "proof": "https://fathom.video/calls/723857619?timestamp=1800",
    "proof_note": "6/25 call: \"I got to raise some more money for my startup tech company\" (11:40) · \"I used to own 300 apartments\" (30:01)"
   },
@@ -14,11 +15,13 @@
   },
   "Michael Moore": {
    "bg": "Physician · opening a holistic wellness med spa in North Carolina",
+   "public_bg": "Physician · opening a wellness med spa",
    "proof": "https://fathom.video/calls/795906439?timestamp=1896",
    "proof_note": "8/26 call: \"as a physician\" (3:33) · \"a wellness medical spa\" (31:36)"
   },
   "Nick (Nazir) Samara": {
    "bg": "Family-entertainment business owner (indoor playland → outdoor events)",
+   "public_bg": "Family-entertainment business owner",
    "proof": "https://fathom.video/calls/795906442?timestamp=1108",
    "proof_note": "8/25 call: \"indoor playland for family, children… we used to have multiple locations\" (18:28)"
   },
@@ -29,11 +32,13 @@
   },
   "Ed (Edwin) Choi": {
    "bg": "Owner of multiple medical clinics incl. a cosmetic-surgery practice",
+   "public_bg": "Owner of multiple medical clinics",
    "proof": "https://fathom.video/calls/728895030?timestamp=802",
    "proof_note": "6/30 call: \"Jonah Medical Group, Nanum Medical Group, VM Cosmetic Surgery\" (13:22) · \"one of my clinics\" (9:32)"
   },
   "Jill Peralta": {
    "bg": "20-year military veteran · Space Force acquisitions program manager · acquiring a beauty business",
+   "public_bg": "20-year military veteran · acquiring a beauty business",
    "proof": "https://fathom.video/calls/739063325?timestamp=1335",
    "proof_note": "7/9 call: \"I'm a veteran, 20 years\" (11:58) · \"Space Force… program manager, acquisitions field\" (22:15) · \"beauty industry, teeth whitening\" (3:39)"
   },

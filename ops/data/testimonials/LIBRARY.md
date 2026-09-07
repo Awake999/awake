@@ -8,7 +8,7 @@ Every card's text is a verbatim, contiguous excerpt of a quote in the record (th
 
 **Consent (Alan, 2026-09-07, REGISTER #187):** *"i already have everyone's signature and consent when coming on as a client"* — the client agreement signed at onboarding covers use of feedback. **Public set = first-name-only cards, clients only.** Allen Sims and Gunjan Patel were prospects (no client agreement), so they have internal cards only, no public variant.
 
-**Two versions of every client card:** *internal* (full name) for the sales team and the record, *public* (first name only) for ads and social.
+**Two versions of every client card:** *internal* (full name, specific background) for the sales team and the record, *public* (first name only, profession-only background) for ads and social.
 
 ## People
 | Person | Background (their own words, linked) | Cards | Headshot |
