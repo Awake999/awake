@@ -30,13 +30,13 @@ def F(call, sec): return f"https://fathom.video/calls/{call}?timestamp={sec}"
 
 # ---- who they are, in their own words, each with the line it comes from ----------------------
 PEOPLE = {
- "Matthew LoGuidice": dict(bg="Tech-startup founder · formerly owned 300 apartments", proof=F(723857619,1800), proof_note="6/25 call: \"I got to raise some more money for my startup tech company\" (11:40) · \"I used to own 300 apartments\" (30:01)"),
+ "Matthew LoGuidice": dict(bg="Tech-startup founder · formerly owned 300 apartments", public_bg="Tech-startup founder · former multifamily owner", proof=F(723857619,1800), proof_note="6/25 call: \"I got to raise some more money for my startup tech company\" (11:40) · \"I used to own 300 apartments\" (30:01)"),
  "Ashwini Anand":     dict(bg="Cardiologist", proof=F(764436554,359), proof_note="7/29 call: \"you know me, I'm a busy cardiologist\" (5:59)"),
- "Michael Moore":     dict(bg="Physician · opening a holistic wellness med spa in North Carolina", proof=F(795906439,1896), proof_note="8/26 call: \"as a physician\" (3:33) · \"a wellness medical spa\" (31:36)"),
- "Nick (Nazir) Samara": dict(bg="Family-entertainment business owner (indoor playland → outdoor events)", proof=F(795906442,1108), proof_note="8/25 call: \"indoor playland for family, children… we used to have multiple locations\" (18:28)"),
+ "Michael Moore":     dict(bg="Physician · opening a holistic wellness med spa in North Carolina", public_bg="Physician · opening a wellness med spa", proof=F(795906439,1896), proof_note="8/26 call: \"as a physician\" (3:33) · \"a wellness medical spa\" (31:36)"),
+ "Nick (Nazir) Samara": dict(bg="Family-entertainment business owner (indoor playland → outdoor events)", public_bg="Family-entertainment business owner", proof=F(795906442,1108), proof_note="8/25 call: \"indoor playland for family, children… we used to have multiple locations\" (18:28)"),
  "Yeshaya Dank":      dict(bg="Serial entrepreneur · 13 businesses, 7 more in development", proof=F(783351348,3844), proof_note="8/14 call: \"I have like 13 businesses and another seven in development\" (1:04:04)"),
- "Ed (Edwin) Choi":   dict(bg="Owner of multiple medical clinics incl. a cosmetic-surgery practice", proof=F(728895030,802), proof_note="6/30 call: \"Jonah Medical Group, Nanum Medical Group, VM Cosmetic Surgery\" (13:22) · \"one of my clinics\" (9:32)"),
- "Jill Peralta":      dict(bg="20-year military veteran · Space Force acquisitions program manager · acquiring a beauty business", proof=F(739063325,1335), proof_note="7/9 call: \"I'm a veteran, 20 years\" (11:58) · \"Space Force… program manager, acquisitions field\" (22:15) · \"beauty industry, teeth whitening\" (3:39)"),
+ "Ed (Edwin) Choi":   dict(bg="Owner of multiple medical clinics incl. a cosmetic-surgery practice", public_bg="Owner of multiple medical clinics", proof=F(728895030,802), proof_note="6/30 call: \"Jonah Medical Group, Nanum Medical Group, VM Cosmetic Surgery\" (13:22) · \"one of my clinics\" (9:32)"),
+ "Jill Peralta":      dict(bg="20-year military veteran · Space Force acquisitions program manager · acquiring a beauty business", public_bg="20-year military veteran · acquiring a beauty business", proof=F(739063325,1335), proof_note="7/9 call: \"I'm a veteran, 20 years\" (11:58) · \"Space Force… program manager, acquisitions field\" (22:15) · \"beauty industry, teeth whitening\" (3:39)"),
  "Allen Sims":        dict(client=False, bg="Financial advisor (Northwestern Mutual) · startup founder", proof=F(759494613,0), proof_note="7/27 call: \"I'm a financial advisor for Northwestern Mutual\""),
  "Gunjan Patel":      dict(client=False, bg="Acquiring a pharmacy · works with medical-practice owners", proof=F(767888047,2255), proof_note="8/1 call: \"After I acquire a pharmacy\" (37:35)"),
 }
@@ -131,7 +131,7 @@ def render(idx, person, text, q, story, public=False):
  <div class="mid"><div class="qmark">&ldquo;</div>
   <div class="quote">{html.escape(text)}&rdquo;</div></div>
  <div>
-  <div class="who"><div class="av">{mono}</div><div><div class="name">{html.escape(shown)}</div><div class="bg">{html.escape(PEOPLE[person]['bg'])}</div></div></div>
+  <div class="who"><div class="av">{mono}</div><div><div class="name">{html.escape(shown)}</div><div class="bg">{html.escape(PEOPLE[person].get('public_bg', PEOPLE[person]['bg']) if public else PEOPLE[person]['bg'])}</div></div></div>
   <div class="foot"><span><b>{nice_date(q['date'])}</b> · {src}</span><span>verified · ascendprimewealth.com</span></div>
  </div></div></body></html>"""
     kind = ("public-" if public else "") + ("story" if story else "square")
@@ -164,7 +164,7 @@ L = ["# Testimonial card library — Ascend Prime Wealth\n",
      "Every card's text is a verbatim, contiguous excerpt of a quote in the record (the generator refuses anything else). `[…]` marks skipped words. Click **proof** to jump to the second of audio or the GHL thread. Click a download link, then *Save image as…* (or use the raw URL directly in an ad tool).\n",
      "**Photos:** no client headshot exists in GHL (0 of 259 contacts have a profile photo) and I do not pull faces off the web. Cards show initials until a headshot is dropped at `ops/data/testimonials/photos/<person-slug>.jpg` and the generator is re-run.\n",
      "**Consent (Alan, 2026-09-07, REGISTER #187):** *\"i already have everyone's signature and consent when coming on as a client\"* — the client agreement signed at onboarding covers use of feedback. **Public set = first-name-only cards, clients only.** Allen Sims and Gunjan Patel were prospects (no client agreement), so they have internal cards only, no public variant.\n",
-     "**Two versions of every client card:** *internal* (full name) for the sales team and the record, *public* (first name only) for ads and social.\n",
+     "**Two versions of every client card:** *internal* (full name, specific background) for the sales team and the record, *public* (first name only, profession-only background) for ads and social.\n",
      "## People\n| Person | Background (their own words, linked) | Cards | Headshot |\n|---|---|---|---|"]
 for p, info in PEOPLE.items():
     n = sum(1 for r in rows if r["person"] == p)
