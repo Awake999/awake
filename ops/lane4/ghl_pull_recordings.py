@@ -18,12 +18,17 @@ Idempotent: skips calls already on disk. Never writes to GHL.
 import json, sys, time, re, urllib.request, urllib.parse, urllib.error, pathlib, datetime
 
 HERE = pathlib.Path(__file__).resolve(); REPO = HERE.parent.parent.parent
-ENVF = REPO.parent / "apw-intel" / ".env"
+ENVF = REPO.parent / "apw-intel" / ".env"   # PC: token file outside the repo (never committed)
 ENV = {}
-for line in ENVF.read_text().splitlines():
-    if "=" in line and not line.startswith("#"):
-        k, v = line.split("=", 1); ENV[k.strip()] = v.strip()
-TOKEN, LOC = ENV["GHL_TOKEN"], ENV["GHL_LOCATION"]
+if ENVF.exists():
+    for line in ENVF.read_text().splitlines():
+        if "=" in line and not line.startswith("#"):
+            k, v = line.split("=", 1); ENV[k.strip()] = v.strip()
+import os
+TOKEN = ENV.get("GHL_TOKEN") or os.environ.get("GHL_TOKEN")          # cloud: environment variable set in the Claude environment
+LOC = ENV.get("GHL_LOCATION") or os.environ.get("GHL_LOCATION") or "WFkoNzKa9J9PxhngsLfl"
+if not TOKEN:
+    raise SystemExit("GHL_TOKEN not found: put it in ../apw-intel/.env on the PC, or set the GHL_TOKEN environment variable in the cloud environment.")
 BASE = "https://services.leadconnectorhq.com"
 GHL_UI = f"https://app.gohighlevel.com/v2/location/{LOC}/contacts/detail/"
 

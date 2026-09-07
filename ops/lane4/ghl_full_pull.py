@@ -9,12 +9,17 @@ import json, sys, time, urllib.request, urllib.parse, urllib.error, datetime, pa
 
 HERE = pathlib.Path(__file__).resolve()
 REPO = HERE.parent.parent.parent  # awake/
-ENVF = REPO.parent / "apw-intel" / ".env"
+ENVF = REPO.parent / "apw-intel" / ".env"   # PC: token file outside the repo (never committed)
 ENV = {}
-for line in ENVF.read_text().splitlines():
-    if "=" in line and not line.startswith("#"):
-        k, v = line.split("=", 1); ENV[k.strip()] = v.strip()
-TOKEN, LOC = ENV["GHL_TOKEN"], ENV["GHL_LOCATION"]
+if ENVF.exists():
+    for line in ENVF.read_text().splitlines():
+        if "=" in line and not line.startswith("#"):
+            k, v = line.split("=", 1); ENV[k.strip()] = v.strip()
+import os
+TOKEN = ENV.get("GHL_TOKEN") or os.environ.get("GHL_TOKEN")          # cloud: environment variable set in the Claude environment
+LOC = ENV.get("GHL_LOCATION") or os.environ.get("GHL_LOCATION") or "WFkoNzKa9J9PxhngsLfl"
+if not TOKEN:
+    raise SystemExit("GHL_TOKEN not found: put it in ../apw-intel/.env on the PC, or set the GHL_TOKEN environment variable in the cloud environment.")
 BASE = "https://services.leadconnectorhq.com"
 DATE = sys.argv[1] if len(sys.argv) > 1 else datetime.date.today().isoformat()
 RAW = REPO / "ops" / "archive" / "ghl" / DATE / "raw"
