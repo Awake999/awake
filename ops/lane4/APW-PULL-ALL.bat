@@ -11,6 +11,8 @@ echo [1/6] git pull
 git pull --quiet || echo   (pull failed - using local copy)
 echo [2/6] GHL live pull (uses GHL_TOKEN in ..\apw-intel\.env)
 python ops\lane4\ghl_full_pull.py || echo   (GHL pull failed - check GHL_TOKEN)
+echo [2b/6] GHL call recordings + transcriptions (every answered call; add --audio for mp3s)
+python ops\lane4\ghl_pull_recordings.py || echo   (recordings pull failed - token or API; transcripts stay as-is)
 echo [3/6] GHL derived tables
 python ops\lane4\ghl_derive.py 2>nul || echo   (derive skipped)
 echo [4/6] Rebuild dropped-leads page from fresh pull
