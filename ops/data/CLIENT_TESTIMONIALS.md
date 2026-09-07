@@ -176,7 +176,8 @@
 ## Sources swept
 - **Fathom:** every client-titled recording Jun 21 → Sep 6 was listed (296 recordings); the 18 calls in the table below were read in full. Calls with no transcript: Ed Choi 6/29 (159223709) — "No transcript available".
 - **GHL:** all 256 conversations in the 2026-08-30 export (`ops/archive/ghl/2026-08-30/raw/messages_by_conversation.json`), inbound SMS + email, positive-keyword sweep then hand-read per person.
-- **Not swept:** GHL call recordings (the export's recordings table has 1 row and needs an authenticated pull — see `ops/lane4/APW-PULL-ALL.bat`), Slack, Gmail.
+- **NOT swept — GHL phone-call recordings/transcriptions:** none exist in GitHub. The 2026-08-30 export has 1,473 call rows (458 answered ≥30s) but zero audio and zero transcripts; GHL only returns duration/status from the messages endpoint. `ops/lane4/ghl_pull_recordings.py` (added 2026-09-07, wired into `APW-PULL-ALL`) fetches GHL's own transcription + optional audio per call when run on the PC with the token. Re-run this build after that pull lands. Also not swept: Slack, Gmail.
+- **Repo call archive checked:** `ops/archive/calls/` (Fathom 42 folders, Krisp 9 coaching calls, Zoom 7). Zoom-only Stephen Greco 8/17 read: skeptical prospect, no praise ("I've heard the same spiel so many times" → "Thanks, man").
 
 | Call | Date | Link |
 |---|---|---|
