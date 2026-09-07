@@ -37,8 +37,8 @@ PEOPLE = {
  "Yeshaya Dank":      dict(bg="Serial entrepreneur · 13 businesses, 7 more in development", proof=F(783351348,3844), proof_note="8/14 call: \"I have like 13 businesses and another seven in development\" (1:04:04)"),
  "Ed (Edwin) Choi":   dict(bg="Owner of multiple medical clinics incl. a cosmetic-surgery practice", proof=F(728895030,802), proof_note="6/30 call: \"Jonah Medical Group, Nanum Medical Group, VM Cosmetic Surgery\" (13:22) · \"one of my clinics\" (9:32)"),
  "Jill Peralta":      dict(bg="20-year military veteran · Space Force acquisitions program manager · acquiring a beauty business", proof=F(739063325,1335), proof_note="7/9 call: \"I'm a veteran, 20 years\" (11:58) · \"Space Force… program manager, acquisitions field\" (22:15) · \"beauty industry, teeth whitening\" (3:39)"),
- "Allen Sims":        dict(bg="Financial advisor (Northwestern Mutual) · startup founder", proof=F(759494613,0), proof_note="7/27 call: \"I'm a financial advisor for Northwestern Mutual\""),
- "Gunjan Patel":      dict(bg="Acquiring a pharmacy · works with medical-practice owners", proof=F(767888047,2255), proof_note="8/1 call: \"After I acquire a pharmacy\" (37:35)"),
+ "Allen Sims":        dict(client=False, bg="Financial advisor (Northwestern Mutual) · startup founder", proof=F(759494613,0), proof_note="7/27 call: \"I'm a financial advisor for Northwestern Mutual\""),
+ "Gunjan Patel":      dict(client=False, bg="Acquiring a pharmacy · works with medical-practice owners", proof=F(767888047,2255), proof_note="8/1 call: \"After I acquire a pharmacy\" (37:35)"),
 }
 
 # ---- which quotes become cards: (person, exact display text). Display text must be a contiguous
@@ -118,8 +118,11 @@ def quote_size(text, story):
     base = 74 if n < 60 else 60 if n < 110 else 48 if n < 170 else 40 if n < 230 else 34
     return base + (12 if story else 0)
 
-def render(idx, person, text, q, story):
+def first_name(n): return re.sub(r"\(.*?\)", "", n).split()[0]
+def render(idx, person, text, q, story, public=False):
     w, h, pad = (1080, 1920, 96) if story else (1080, 1080, 84)
+    shown = first_name(person) if public else person
+    mono = f'<div class="mono">{shown[0]}</div>' if public else photo_tag(person)
     src = "Fathom call recording" if q["source"].startswith("Fathom") else "text message to APW" if "SMS" in q["source"] else q["source"]
     body = f"""<!doctype html><html><head><meta charset="utf-8"><style>{css(w,h,pad,story)} .quote{{font-size:{quote_size(text,story)}px}}</style></head><body>
 <div class="card">
@@ -128,10 +131,10 @@ def render(idx, person, text, q, story):
  <div class="mid"><div class="qmark">&ldquo;</div>
   <div class="quote">{html.escape(text)}&rdquo;</div></div>
  <div>
-  <div class="who"><div class="av">{photo_tag(person)}</div><div><div class="name">{html.escape(person)}</div><div class="bg">{html.escape(PEOPLE[person]['bg'])}</div></div></div>
+  <div class="who"><div class="av">{mono}</div><div><div class="name">{html.escape(shown)}</div><div class="bg">{html.escape(PEOPLE[person]['bg'])}</div></div></div>
   <div class="foot"><span><b>{nice_date(q['date'])}</b> · {src}</span><span>verified · ascendprimewealth.com</span></div>
  </div></div></body></html>"""
-    kind = "story" if story else "square"
+    kind = ("public-" if public else "") + ("story" if story else "square")
     name = f"{slug(person)}--{idx:02d}--{kind}"
     hp = CARDS/f"{name}.html"; png = CARDS/f"{name}.png"
     hp.write_text(body)
@@ -148,23 +151,30 @@ for person, text in CARD_QUOTES:
     if not q: sys.exit(f"REFUSED: card text is not a verbatim substring of any verified quote — {person}: {text[:60]}")
     per[person] = per.get(person, 0) + 1; i = per[person]
     sq = render(i, person, text, q, False); st = render(i, person, text, q, True)
-    rows.append(dict(person=person, n=i, text=text, date=q["date"], source=q["source"], proof=q["link"], note=q.get("note",""),
-                     background=PEOPLE[person]["bg"], background_proof=PEOPLE[person]["proof"], square=sq, story=st))
+    is_client = PEOPLE[person].get("client", True)
+    psq = render(i, person, text, q, False, public=True) if is_client else None
+    pst = render(i, person, text, q, True, public=True) if is_client else None
+    rows.append(dict(person=person, first_name=first_name(person), client=is_client, n=i, text=text, date=q["date"], source=q["source"], proof=q["link"], note=q.get("note",""),
+                     background=PEOPLE[person]["bg"], background_proof=PEOPLE[person]["proof"], square=sq, story=st, public_square=psq, public_story=pst))
     print("rendered", sq, st)
 
 # ---- library page ------------------------------------------------------------------------------
 L = ["# Testimonial card library — Ascend Prime Wealth\n",
-     f"**Built:** {datetime.date.today()} · **Cards:** {len(rows)} quotes × 2 formats (square 1080×1080, story 1080×1920) · **Generator:** `ops/tools/testimonials_cards.py` · **Quote record:** [CLIENT_TESTIMONIALS.md](../CLIENT_TESTIMONIALS.md)\n",
+     f"**Built:** {datetime.date.today()} · **Cards:** {len(rows)} quotes × 2 formats (square 1080×1080, story 1080×1920) × 2 versions (public first-name / internal full-name) · **Generator:** `ops/tools/testimonials_cards.py` · **Quote record:** [CLIENT_TESTIMONIALS.md](../CLIENT_TESTIMONIALS.md)\n",
      "Every card's text is a verbatim, contiguous excerpt of a quote in the record (the generator refuses anything else). `[…]` marks skipped words. Click **proof** to jump to the second of audio or the GHL thread. Click a download link, then *Save image as…* (or use the raw URL directly in an ad tool).\n",
-     "**Photos:** no client headshot exists in GHL (0 of 259 contacts have a profile photo) and I do not pull faces off the web. Cards show initials until a headshot is dropped at `ops/data/testimonials/photos/<person-slug>.jpg` and the generator is re-run. **Consent:** no name or likeness goes into a public ad until a REGISTER row records the client's OK.\n",
+     "**Photos:** no client headshot exists in GHL (0 of 259 contacts have a profile photo) and I do not pull faces off the web. Cards show initials until a headshot is dropped at `ops/data/testimonials/photos/<person-slug>.jpg` and the generator is re-run.\n",
+     "**Consent (Alan, 2026-09-07, REGISTER #187):** *\"i already have everyone's signature and consent when coming on as a client\"* — the client agreement signed at onboarding covers use of feedback. **Public set = first-name-only cards, clients only.** Allen Sims and Gunjan Patel were prospects (no client agreement), so they have internal cards only, no public variant.\n",
+     "**Two versions of every client card:** *internal* (full name) for the sales team and the record, *public* (first name only) for ads and social.\n",
      "## People\n| Person | Background (their own words, linked) | Cards | Headshot |\n|---|---|---|---|"]
 for p, info in PEOPLE.items():
     n = sum(1 for r in rows if r["person"] == p)
     has = any((PHOTOS/f"{slug(p)}.{e}").exists() for e in ("jpg","jpeg","png"))
     L.append(f"| **{p}** | {info['bg']} — [proof]({info['proof']}) <sub>{info['proof_note']}</sub> | {n} | {'✅' if has else 'initials (drop `photos/'+slug(p)+'.jpg`)'} |")
-L.append("\n## Cards\n| Preview | Quote (verbatim) | Who · when | Proof | Download |\n|---|---|---|---|---|")
+L.append("\n## Cards\n| Public preview (first name) | Quote (verbatim) | Who · when | Proof | Download — PUBLIC (ads) | Download — internal (full name) |\n|---|---|---|---|---|---|")
 for r in rows:
-    L.append(f"| <img src=\"cards/{r['square']}\" width=\"220\"> | *\"{r['text']}\"* | **{r['person']}** — {r['background']}<br>{nice_date(r['date'])} · {r['source']} | [proof]({r['proof']}) | [square PNG]({RAW}{r['square']}) · [story PNG]({RAW}{r['story']}) |")
+    prev = r['public_square'] or r['square']
+    pub = f"[square]({RAW}{r['public_square']}) · [story]({RAW}{r['public_story']})" if r['public_square'] else "— prospect, no client agreement"
+    L.append(f"| <img src=\"cards/{prev}\" width=\"220\"> | *\"{r['text']}\"* | **{r['person']}** — {r['background']}<br>{nice_date(r['date'])} · {r['source']} | [proof]({r['proof']}) | {pub} | [square]({RAW}{r['square']}) · [story]({RAW}{r['story']}) |")
 L.append("\n## Not carded, on purpose\n- **Teresa Graham** (med-spa owner + a second brand, Luxovia): her 9/2 call has no line about APW itself — her praise is about her own debt-relief work — so no card until she says something on the record.\n- **Whitney Young**: no verified positive line on any recording or text (see the record's Not-found table).\n- Matthew's *\"you seem like a very nice professional guy\"* (6/25): inside a tense pricing exchange — excluded by the context rule.\n- Mixed messages (Ashwini's 10/10 work / 2/10 communication) are quoted whole in the record and not carded.\n")
 (OUT/"LIBRARY.md").write_text("\n".join(L) + "\n")
 (OUT/"cards.json").write_text(json.dumps(dict(built=str(datetime.date.today()), raw_base=RAW, people=PEOPLE, cards=rows), indent=1, ensure_ascii=False))

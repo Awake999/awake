@@ -38,11 +38,13 @@
    "proof_note": "7/9 call: \"I'm a veteran, 20 years\" (11:58) · \"Space Force… program manager, acquisitions field\" (22:15) · \"beauty industry, teeth whitening\" (3:39)"
   },
   "Allen Sims": {
+   "client": false,
    "bg": "Financial advisor (Northwestern Mutual) · startup founder",
    "proof": "https://fathom.video/calls/759494613?timestamp=0",
    "proof_note": "7/27 call: \"I'm a financial advisor for Northwestern Mutual\""
   },
   "Gunjan Patel": {
+   "client": false,
    "bg": "Acquiring a pharmacy · works with medical-practice owners",
    "proof": "https://fathom.video/calls/767888047?timestamp=2255",
    "proof_note": "8/1 call: \"After I acquire a pharmacy\" (37:35)"
@@ -51,6 +53,8 @@
  "cards": [
   {
    "person": "Matthew LoGuidice",
+   "first_name": "Matthew",
+   "client": true,
    "n": 1,
    "text": "I've worked with consultants for 30 years, he might be the most diligent, you know, guy, just , honestly, just amazing so far, amazing. And he puts up with me",
    "date": "2026-07-31",
@@ -60,10 +64,14 @@
    "background": "Tech-startup founder · formerly owned 300 apartments",
    "background_proof": "https://fathom.video/calls/723857619?timestamp=1800",
    "square": "matthew-loguidice--01--square.png",
-   "story": "matthew-loguidice--01--story.png"
+   "story": "matthew-loguidice--01--story.png",
+   "public_square": "matthew-loguidice--01--public-square.png",
+   "public_story": "matthew-loguidice--01--public-story.png"
   },
   {
    "person": "Matthew LoGuidice",
+   "first_name": "Matthew",
+   "client": true,
    "n": 2,
    "text": "You deserve a gold medal and a huge bonus for putting up with me I appreciate your unending patience with me",
    "date": "2026-07-23",
@@ -73,10 +81,14 @@
    "background": "Tech-startup founder · formerly owned 300 apartments",
    "background_proof": "https://fathom.video/calls/723857619?timestamp=1800",
    "square": "matthew-loguidice--02--square.png",
-   "story": "matthew-loguidice--02--story.png"
+   "story": "matthew-loguidice--02--story.png",
+   "public_square": "matthew-loguidice--02--public-square.png",
+   "public_story": "matthew-loguidice--02--public-story.png"
   },
   {
    "person": "Matthew LoGuidice",
+   "first_name": "Matthew",
+   "client": true,
    "n": 3,
    "text": "You've been tremendously helpful I can't thank you enough for all the efforts of you and your team",
    "date": "2026-08-25",
@@ -86,10 +98,14 @@
    "background": "Tech-startup founder · formerly owned 300 apartments",
    "background_proof": "https://fathom.video/calls/723857619?timestamp=1800",
    "square": "matthew-loguidice--03--square.png",
-   "story": "matthew-loguidice--03--story.png"
+   "story": "matthew-loguidice--03--story.png",
+   "public_square": "matthew-loguidice--03--public-square.png",
+   "public_story": "matthew-loguidice--03--public-story.png"
   },
   {
    "person": "Matthew LoGuidice",
+   "first_name": "Matthew",
+   "client": true,
    "n": 4,
    "text": "Wow!!!!! Thanks Alan Great work!!!!",
    "date": "2026-08-03",
@@ -99,10 +115,14 @@
    "background": "Tech-startup founder · formerly owned 300 apartments",
    "background_proof": "https://fathom.video/calls/723857619?timestamp=1800",
    "square": "matthew-loguidice--04--square.png",
-   "story": "matthew-loguidice--04--story.png"
+   "story": "matthew-loguidice--04--story.png",
+   "public_square": "matthew-loguidice--04--public-square.png",
+   "public_story": "matthew-loguidice--04--public-story.png"
   },
   {
    "person": "Ashwini Anand",
+   "first_name": "Ashwini",
+   "client": true,
    "n": 1,
    "text": "I would go for it a 10 out of 10. That is exactly what I want to do. […] this is a wonderful thing that you're doing.",
    "date": "2026-07-28",
@@ -112,10 +132,14 @@
    "background": "Cardiologist",
    "background_proof": "https://fathom.video/calls/764436554?timestamp=359",
    "square": "ashwini-anand--01--square.png",
-   "story": "ashwini-anand--01--story.png"
+   "story": "ashwini-anand--01--story.png",
+   "public_square": "ashwini-anand--01--public-square.png",
+   "public_story": "ashwini-anand--01--public-story.png"
   },
   {
    "person": "Ashwini Anand",
+   "first_name": "Ashwini",
+   "client": true,
    "n": 2,
    "text": "I was just telling my wife that this should be a godsend.",
    "date": "2026-07-29",
@@ -125,10 +149,14 @@
    "background": "Cardiologist",
    "background_proof": "https://fathom.video/calls/764436554?timestamp=359",
    "square": "ashwini-anand--02--square.png",
-   "story": "ashwini-anand--02--story.png"
+   "story": "ashwini-anand--02--story.png",
+   "public_square": "ashwini-anand--02--public-square.png",
+   "public_story": "ashwini-anand--02--public-story.png"
   },
   {
    "person": "Ashwini Anand",
+   "first_name": "Ashwini",
+   "client": true,
    "n": 3,
    "text": "I feel like I'm in good hands with you",
    "date": "2026-07-29",
@@ -138,10 +166,14 @@
    "background": "Cardiologist",
    "background_proof": "https://fathom.video/calls/764436554?timestamp=359",
    "square": "ashwini-anand--03--square.png",
-   "story": "ashwini-anand--03--story.png"
+   "story": "ashwini-anand--03--story.png",
+   "public_square": "ashwini-anand--03--public-square.png",
+   "public_story": "ashwini-anand--03--public-story.png"
   },
   {
    "person": "Ashwini Anand",
+   "first_name": "Ashwini",
+   "client": true,
    "n": 4,
    "text": "Awesome job Alan!!! Unbelievable! Looks like all 3 bureaus have reported a huge uptick in scores.",
    "date": "2026-08-14",
@@ -151,10 +183,14 @@
    "background": "Cardiologist",
    "background_proof": "https://fathom.video/calls/764436554?timestamp=359",
    "square": "ashwini-anand--04--square.png",
-   "story": "ashwini-anand--04--story.png"
+   "story": "ashwini-anand--04--story.png",
+   "public_square": "ashwini-anand--04--public-square.png",
+   "public_story": "ashwini-anand--04--public-story.png"
   },
   {
    "person": "Ashwini Anand",
+   "first_name": "Ashwini",
+   "client": true,
    "n": 5,
    "text": "I'm absolutely enjoying our new found association and friendship. It's wonderful to have you watch out for me.",
    "date": "2026-08-02",
@@ -164,10 +200,14 @@
    "background": "Cardiologist",
    "background_proof": "https://fathom.video/calls/764436554?timestamp=359",
    "square": "ashwini-anand--05--square.png",
-   "story": "ashwini-anand--05--story.png"
+   "story": "ashwini-anand--05--story.png",
+   "public_square": "ashwini-anand--05--public-square.png",
+   "public_story": "ashwini-anand--05--public-story.png"
   },
   {
    "person": "Michael Moore",
+   "first_name": "Michael",
+   "client": true,
    "n": 1,
    "text": "you're such a nice person. your disposition is wonderful and you're very patient.",
    "date": "2026-08-20",
@@ -177,10 +217,14 @@
    "background": "Physician · opening a holistic wellness med spa in North Carolina",
    "background_proof": "https://fathom.video/calls/795906439?timestamp=1896",
    "square": "michael-moore--01--square.png",
-   "story": "michael-moore--01--story.png"
+   "story": "michael-moore--01--story.png",
+   "public_square": "michael-moore--01--public-square.png",
+   "public_story": "michael-moore--01--public-story.png"
   },
   {
    "person": "Michael Moore",
+   "first_name": "Michael",
+   "client": true,
    "n": 2,
    "text": "I have never spoken to anyone like yourself. […] what I'm hearing from you is something very ingenious and creative. And I really wholeheartedly appreciate what you're doing",
    "date": "2026-08-20",
@@ -190,10 +234,14 @@
    "background": "Physician · opening a holistic wellness med spa in North Carolina",
    "background_proof": "https://fathom.video/calls/795906439?timestamp=1896",
    "square": "michael-moore--02--square.png",
-   "story": "michael-moore--02--story.png"
+   "story": "michael-moore--02--story.png",
+   "public_square": "michael-moore--02--public-square.png",
+   "public_story": "michael-moore--02--public-story.png"
   },
   {
    "person": "Michael Moore",
+   "first_name": "Michael",
+   "client": true,
    "n": 3,
    "text": "thank you very much. I'm very grateful.",
    "date": "2026-08-26",
@@ -203,10 +251,14 @@
    "background": "Physician · opening a holistic wellness med spa in North Carolina",
    "background_proof": "https://fathom.video/calls/795906439?timestamp=1896",
    "square": "michael-moore--03--square.png",
-   "story": "michael-moore--03--story.png"
+   "story": "michael-moore--03--story.png",
+   "public_square": "michael-moore--03--public-square.png",
+   "public_story": "michael-moore--03--public-story.png"
   },
   {
    "person": "Nick (Nazir) Samara",
+   "first_name": "Nick",
+   "client": true,
    "n": 1,
    "text": "You are the man.",
    "date": "2026-08-25",
@@ -216,10 +268,14 @@
    "background": "Family-entertainment business owner (indoor playland → outdoor events)",
    "background_proof": "https://fathom.video/calls/795906442?timestamp=1108",
    "square": "nick-nazir-samara--01--square.png",
-   "story": "nick-nazir-samara--01--story.png"
+   "story": "nick-nazir-samara--01--story.png",
+   "public_square": "nick-nazir-samara--01--public-square.png",
+   "public_story": "nick-nazir-samara--01--public-story.png"
   },
   {
    "person": "Nick (Nazir) Samara",
+   "first_name": "Nick",
+   "client": true,
    "n": 2,
    "text": "the way you handle the business and your optimization for anything is very impressive and you're doing a wonderful job.",
    "date": "2026-08-25",
@@ -229,10 +285,14 @@
    "background": "Family-entertainment business owner (indoor playland → outdoor events)",
    "background_proof": "https://fathom.video/calls/795906442?timestamp=1108",
    "square": "nick-nazir-samara--02--square.png",
-   "story": "nick-nazir-samara--02--story.png"
+   "story": "nick-nazir-samara--02--story.png",
+   "public_square": "nick-nazir-samara--02--public-square.png",
+   "public_story": "nick-nazir-samara--02--public-story.png"
   },
   {
    "person": "Nick (Nazir) Samara",
+   "first_name": "Nick",
+   "client": true,
    "n": 3,
    "text": "Alan, you're amazing young man. have very good knowledge, and the way you're patient, too, with your client, that's a good thing.",
    "date": "2026-08-26",
@@ -242,10 +302,14 @@
    "background": "Family-entertainment business owner (indoor playland → outdoor events)",
    "background_proof": "https://fathom.video/calls/795906442?timestamp=1108",
    "square": "nick-nazir-samara--03--square.png",
-   "story": "nick-nazir-samara--03--story.png"
+   "story": "nick-nazir-samara--03--story.png",
+   "public_square": "nick-nazir-samara--03--public-square.png",
+   "public_story": "nick-nazir-samara--03--public-story.png"
   },
   {
    "person": "Nick (Nazir) Samara",
+   "first_name": "Nick",
+   "client": true,
    "n": 4,
    "text": "You could be teaching this stuff.",
    "date": "2026-08-25",
@@ -255,10 +319,14 @@
    "background": "Family-entertainment business owner (indoor playland → outdoor events)",
    "background_proof": "https://fathom.video/calls/795906442?timestamp=1108",
    "square": "nick-nazir-samara--04--square.png",
-   "story": "nick-nazir-samara--04--story.png"
+   "story": "nick-nazir-samara--04--story.png",
+   "public_square": "nick-nazir-samara--04--public-square.png",
+   "public_story": "nick-nazir-samara--04--public-story.png"
   },
   {
    "person": "Yeshaya Dank",
+   "first_name": "Yeshaya",
+   "client": true,
    "n": 1,
    "text": "Thank you so much for your time Alan! Your incredible. I learned so much during that 1.5 hours",
    "date": "2026-08-14",
@@ -268,10 +336,14 @@
    "background": "Serial entrepreneur · 13 businesses, 7 more in development",
    "background_proof": "https://fathom.video/calls/783351348?timestamp=3844",
    "square": "yeshaya-dank--01--square.png",
-   "story": "yeshaya-dank--01--story.png"
+   "story": "yeshaya-dank--01--story.png",
+   "public_square": "yeshaya-dank--01--public-square.png",
+   "public_story": "yeshaya-dank--01--public-story.png"
   },
   {
    "person": "Yeshaya Dank",
+   "first_name": "Yeshaya",
+   "client": true,
    "n": 2,
    "text": "I really appreciate your service because you made it possible for me to get like reset up in the States.",
    "date": "2026-08-14",
@@ -281,10 +353,14 @@
    "background": "Serial entrepreneur · 13 businesses, 7 more in development",
    "background_proof": "https://fathom.video/calls/783351348?timestamp=3844",
    "square": "yeshaya-dank--02--square.png",
-   "story": "yeshaya-dank--02--story.png"
+   "story": "yeshaya-dank--02--story.png",
+   "public_square": "yeshaya-dank--02--public-square.png",
+   "public_story": "yeshaya-dank--02--public-story.png"
   },
   {
    "person": "Yeshaya Dank",
+   "first_name": "Yeshaya",
+   "client": true,
    "n": 3,
    "text": "your business is like, it's very smart. It's like a smart business",
    "date": "2026-08-14",
@@ -294,10 +370,14 @@
    "background": "Serial entrepreneur · 13 businesses, 7 more in development",
    "background_proof": "https://fathom.video/calls/783351348?timestamp=3844",
    "square": "yeshaya-dank--03--square.png",
-   "story": "yeshaya-dank--03--story.png"
+   "story": "yeshaya-dank--03--story.png",
+   "public_square": "yeshaya-dank--03--public-square.png",
+   "public_story": "yeshaya-dank--03--public-story.png"
   },
   {
    "person": "Ed (Edwin) Choi",
+   "first_name": "Ed",
+   "client": true,
    "n": 1,
    "text": "Very good. Let's take forward to working with you.",
    "date": "2026-07-01",
@@ -307,10 +387,14 @@
    "background": "Owner of multiple medical clinics incl. a cosmetic-surgery practice",
    "background_proof": "https://fathom.video/calls/728895030?timestamp=802",
    "square": "ed-edwin-choi--01--square.png",
-   "story": "ed-edwin-choi--01--story.png"
+   "story": "ed-edwin-choi--01--story.png",
+   "public_square": "ed-edwin-choi--01--public-square.png",
+   "public_story": "ed-edwin-choi--01--public-story.png"
   },
   {
    "person": "Jill Peralta",
+   "first_name": "Jill",
+   "client": true,
    "n": 1,
    "text": "this was much better. […] I feel like I'm actually making progress.",
    "date": "2026-08-11",
@@ -320,10 +404,14 @@
    "background": "20-year military veteran · Space Force acquisitions program manager · acquiring a beauty business",
    "background_proof": "https://fathom.video/calls/739063325?timestamp=1335",
    "square": "jill-peralta--01--square.png",
-   "story": "jill-peralta--01--story.png"
+   "story": "jill-peralta--01--story.png",
+   "public_square": "jill-peralta--01--public-square.png",
+   "public_story": "jill-peralta--01--public-story.png"
   },
   {
    "person": "Allen Sims",
+   "first_name": "Allen",
+   "client": false,
    "n": 1,
    "text": "But the best presentation and the best deal, overall deal.",
    "date": "2026-07-27",
@@ -333,10 +421,14 @@
    "background": "Financial advisor (Northwestern Mutual) · startup founder",
    "background_proof": "https://fathom.video/calls/759494613?timestamp=0",
    "square": "allen-sims--01--square.png",
-   "story": "allen-sims--01--story.png"
+   "story": "allen-sims--01--story.png",
+   "public_square": null,
+   "public_story": null
   },
   {
    "person": "Allen Sims",
+   "first_name": "Allen",
+   "client": false,
    "n": 2,
    "text": "the way you explain it, how your process sounds amazing, to be honest. It sounds amazing.",
    "date": "2026-07-27",
@@ -346,7 +438,9 @@
    "background": "Financial advisor (Northwestern Mutual) · startup founder",
    "background_proof": "https://fathom.video/calls/759494613?timestamp=0",
    "square": "allen-sims--02--square.png",
-   "story": "allen-sims--02--story.png"
+   "story": "allen-sims--02--story.png",
+   "public_square": null,
+   "public_story": null
   }
  ]
 }
