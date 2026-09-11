@@ -192,11 +192,17 @@ The master checklist run against every task. Statuses use the legend above.
 
 ---
 
-## 🔗 RELATED SOPs (this document sits above all of them)
+## 🔗 THE SOP FAMILY (this document sits above all of them)
 
-- **Operations SOP** — how specific operations are run.
-- **Communications SOP** — icon guide, debrief format, status conventions (summarized here in §Icon Guide).
-- **Agent SOP** — detailed per-agent breakdowns (summarized here in §3).
-- **Project-specific SOPs** (e.g. a course-build SOP) — inherit every standard above.
+| # | Sub-SOP | Covers |
+| :-: | :------ | :----- |
+| 01 | **[Agent SOP](sop/01-AGENT-SOP.md)** | Full roster — all 11 agents, their purposes, triggers, outputs, handoffs, and the two-altitude rule |
+| 02 | **[Communications SOP](sop/02-COMMUNICATIONS-SOP.md)** | Icon guide, output structure, debrief format, "where we are" markers, new-document announcements |
+| 03 | **[Operations SOP](sop/03-OPERATIONS-SOP.md)** | Memory & verbatim recall, caching, checkpointing, backups, file naming, token & time accounting, failure log |
+| 04 | **[User Prompt Checklist](sop/04-USER-PROMPT-CHECKLIST.md)** | The Stage 1 comprehension gate — intake, relay format, live tracking, closeout, standing items |
+| 05 | **[Quality Core Standards](sop/05-QUALITY-CORE-STANDARDS.md)** | The talent standard, the indisputability test, documentation bar, verbatim standards cache |
+| 06 | **[Continuous Improvement SOP](sop/06-CONTINUOUS-IMPROVEMENT-SOP.md)** | Routine betterment, root-cause protocol, the optimization cycle |
+
+**Project-specific SOPs** (e.g. a course-build SOP) sit *below* this family and inherit every standard above.
 
 > Whenever a new SOP is created, it must be **clearly announced, named, and tied to a downloadable, human-verifiable document** — never lost to chat.
