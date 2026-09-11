@@ -20,6 +20,11 @@ for dst, src in pairs.items():
 for md in ("gpt/APW_SOP_GPT6_ONE_FILE.md", "APW_SOP_PLAIN_ENGLISH.md"):
     src = E/md
     if src.exists(): shutil.copy(src, E/(md[:-3] + ".txt"))
+# pure paste file: the one-file export with its 6 header comment lines stripped,
+# so every character in the GPT Instructions box is instruction, not meta-commentary
+one = E/"gpt/APW_SOP_GPT6_ONE_FILE.md"
+if one.exists():
+    (E/"gpt/APW_SOP_GPT6_PASTE.txt").write_text("\n".join(one.read_text().splitlines()[6:]) + "\n")
 for f in ("gpt/APW_OPS_PROTOCOL.instructions.md", "gpt/CLIENT_TESTIMONIALS.instructions.md",
           "gpt/APW_SOP_GPT6_ONE_FILE.md"):
     n = len((E/f).read_text()); print(f, n, "chars", "OK" if n <= 8000 else "OVER GPT 8000 LIMIT")
