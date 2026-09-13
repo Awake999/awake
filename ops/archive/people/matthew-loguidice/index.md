@@ -1,5 +1,7 @@
 # Matthew LoGuidice — client (dispute/funding)
 
+> 🧭 [Start Here](../../START-HERE.md) · [Archive home](../../README.md) · **[⬆ back to People index](../README.md)**
+
 Los Angeles CA. Second-priority dispute account (tied with Ed, 8/24). State for AG escalation: California. Target items: 2 Bank of America accounts (late payments + charge-offs) on TU and EX. Related: Todd LoGuidice (family).
 
 ## Archived calls where his case is worked

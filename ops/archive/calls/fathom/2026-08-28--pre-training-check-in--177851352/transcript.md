@@ -1,5 +1,7 @@
 # Transcript — Pre-training check-in before top-of-market Loom (2026-08-28, Fathom call 802985297)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video. (This API response returned inline and was transcribed verbatim at capture; no separate raw file exists for this call.)
 
 [00:00](https://fathom.video/calls/802985297?timestamp=0) Alan Nguyen: I don't think everyone should necessarily have access to everyone's Fathoms.

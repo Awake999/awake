@@ -1,5 +1,7 @@
 # Meta — Funnel rebuild with Jacob
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 - **Date:** 2026-08-28
 - **Fathom recording ID:** 177941051
 - **Link:** https://fathom.video/calls/801234866

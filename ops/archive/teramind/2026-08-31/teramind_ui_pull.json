@@ -1,0 +1,103 @@
+{
+ "_meta": {
+  "source": "Teramind UI (ascendprimew.us.teramind.co), pulled via Alan's authenticated session 2026-08-31 by Lane 4",
+  "label": "VERIFIED (read off the live admin UI; REST API needs an API key - 401 on session cookies)",
+  "instance": "tm_ascendprimew, release-26.34.2/14200, account_id 275463"
+ },
+ "licenses": {
+  "in_use": 6,
+  "cap": 5,
+  "note": "OVER CAP 6/5 - register finding confirmed on the Employees page"
+ },
+ "employees": [
+  {
+   "name": "Alan Nguyen",
+   "email": "support@ascendprimewealth.com",
+   "last_login": null
+  },
+  {
+   "name": "Anne (Rosemarie) Fabian",
+   "email": "rosemarieannefabian@gmail.com",
+   "last_login": "2026-08-28 16:56:57"
+  },
+  {
+   "name": "blossom@desktop-kehsui3",
+   "email": "blossom@desktop-kehsui3",
+   "last_login": "2026-08-05 05:08:20"
+  },
+  {
+   "name": "Carla",
+   "email": "cvstivala@icloud.com",
+   "last_login": "2026-08-28 23:32:26"
+  },
+  {
+   "name": "Grace",
+   "email": "langubinagrace@gmail.com",
+   "last_login": "2026-08-29 00:04:07"
+  },
+  {
+   "name": "Lynn",
+   "email": "neves.lynn7@gmail.com",
+   "last_login": "2026-08-28 18:31:38"
+  },
+  {
+   "name": "ML",
+   "email": "malizgill31@gmail.com",
+   "last_login": null
+  },
+  {
+   "name": "nguye@a51",
+   "email": "nguye@a51",
+   "last_login": "Online"
+  }
+ ],
+ "computers": [
+  {
+   "name": "a51",
+   "last_seen": "Online",
+   "os": "Windows",
+   "agent": "Stealth"
+  },
+  {
+   "name": "carla's macbook pro",
+   "last_seen": "2026-08-29 01:49:32",
+   "os": "Mac",
+   "agent": "Revealed"
+  },
+  {
+   "name": "desktop-kc8usi1",
+   "last_seen": "2026-08-28 16:56:35",
+   "os": "Windows",
+   "agent": "Revealed"
+  },
+  {
+   "name": "desktop-kehsui3",
+   "last_seen": "2026-08-05 05:16:51",
+   "os": "Windows",
+   "agent": "Stealth"
+  },
+  {
+   "name": "desktop-lcds1k1",
+   "last_seen": "2026-08-29 00:04:21",
+   "os": "Windows",
+   "agent": "Revealed"
+  },
+  {
+   "name": "LAPTOP-C53PU272",
+   "last_seen": "2026-08-07 17:31:21",
+   "os": "Windows",
+   "agent": "Revealed"
+  },
+  {
+   "name": "umichan (Mac)",
+   "last_seen": "2026-08-29 01:52:58",
+   "os": "Mac",
+   "agent": "Revealed"
+  }
+ ],
+ "corrections": [
+  "REGISTER #73 CORRECTION: the claim 'only Alan's machine reports' is FALSE at instance level - 5 of 7 computers were seen 8/28-8/29 (Carla's MacBook, Rosemarie's desktop-kc8usi1, Grace's desktop-lcds1k1, the umichan Mac, a51). The daily-digest email was under-reporting, not the agents.",
+  "Stale agents: desktop-kehsui3 (blossom - the old Cowork machine) last seen 8/05; LAPTOP-C53PU272 last seen 8/07.",
+  "ML has a user but no recorded login - agent possibly never installed for ML."
+ ]
+}

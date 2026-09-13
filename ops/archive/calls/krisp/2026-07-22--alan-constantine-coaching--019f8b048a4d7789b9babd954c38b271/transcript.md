@@ -1,5 +1,19 @@
 # Transcript — Alan + Constantine coaching (2026-07-22, Krisp meeting 019f8b048a4d7789b9babd954c38b271)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Krisp index](../INDEX.md)**
+
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (20:00 to 30:00)](#chapter-3-2000-to-3000)
+- [Chapter 4 (30:00 to 40:00)](#chapter-4-3000-to-4000)
+- [Chapter 5 (40:00 to 50:00)](#chapter-5-4000-to-5000)
+- [Chapter 6 (50:00 to 1:00:00)](#chapter-6-5000-to-10000)
+
+
 ORIGINAL VERBATIM TRANSCRIPT from Krisp. Link: https://app.krisp.ai/m/019f8b048a4d7789b9babd954c38b271
 
 # Alan + Constantine
@@ -9,6 +23,9 @@ ORIGINAL VERBATIM TRANSCRIPT from Krisp. Link: https://app.krisp.ai/m/019f8b048a
 
 ## Transcript 2
 # Transcript
+
+## Chapter 1 (00:00 to 10:00)
+
 **Speaker 2 | 00:01**
 Jay, what's up? Your brother...
 Can you hear me?
@@ -219,6 +236,9 @@ Yeah, yep, yepmm.
 Yeah. So, you know, obviously, I've shared with her the whole, like, you know, sales as a transference of energy. You know, we want to make sure we're confident and she understands these things. She just is having a block in terms of how she can actually feel comfortable and confident asking for these things. Knowing.
 And I think a part of it could be preparation. But too, it's like it's frustrating for her because, like, every time we talk about those things, it's like she knows. But there's something, I think, subconscious that we're we haven't quite unveiled, and it could be like a psychological framing thing. Could be a self identity thing. Not exactly sure.
 
+
+## Chapter 2 (10:00 to 20:00)
+
 **Speaker 2 | 10:11**
 Right, yeah, so let me pick up on that for a second.
 
@@ -391,6 +411,9 @@ Then from there, you can qualify for funding. So essentially the credit score is
 Because at the end of the day, we're not forcing anybody to give us money. It's like they're... It's literally the best case scenario for them because they get free consultation to either know what they need to do themselves to increase your score to get funding later, or hear about the funding process and then get their $100,000 funding and only pay us a little tiny fraction of that.
 Yeah, so I know that was a big thing. I went on there, but hopefully that was helpful.
 
+
+## Chapter 3 (20:00 to 30:00)
+
 **Speaker 3 | 22:29**
 Yes, that is very helpful. I was taking notes. Yeah, I... So I don't know if I should change my framework or just have a better response to when it actually comes down because my framework is built so that I'm basically guiding them to the page to the credit report page, and then I guide them through the process from there, and I'm like, "Okay, I'll
 wait while we get that done. Let me know if you have any questions." I think I don't know if it's just from there, I just need to have better responses, like questions, when they do show resistance, or if we...
@@ -501,6 +524,9 @@ So, I think that might play into a role of things because, for example, I called
 
 **Speaker 3 | 29:56**
 He yeah.
+
+
+## Chapter 4 (30:00 to 40:00)
 
 **Alan Nguyen | 30:02**
 Yeah. And then the certainty behind it and like, just the casualty casualness around it because, like.
@@ -715,6 +741,9 @@ In terms of just asking for the credit report? Yeah. I mean, like, I think it ju
 If we're on the same page, it's basically saying, yep. So in order to be able to so basically it's like, okay, so we just asked about the funding or we're on a subject funding. Yeah, so. Yeah. So in order to be able to help you get to that 100to300 k goal that you were, you know, you. That you're looking for, what we'll need is a copy of your credit report. To be able to basically create a custom road map, strategy and game plan. On exactly how much money we can get you and how soon we can get you that 100 to 300k.
 So all you need is a copy of your credit report. And. It's really easy. Real quick. Takes like three to five minutes, and, that'll give us everything we need to be able to prepare that for you, to help you with that funding.
 
+
+## Chapter 5 (40:00 to 50:00)
+
 **Speaker 2 | 40:01**
 Yeah, that's what I mean.
 
@@ -873,6 +902,9 @@ Okay, so I think. I think, we gotta the decision tree and knowing, like it just 
 
 **Alan Nguyen | 49:50**
 Just...
+
+
+## Chapter 6 (50:00 to 1:00:00)
 
 **Speaker 2 | 50:00**
 I'm hesitating, not saying script to script, but basically that whenever they say whatever they say because it's like if they give us whatever we want them to give us, then the script is pretty smooth.

@@ -1,5 +1,7 @@
 # People Index
 
+> 🧭 [Start Here](../START-HERE.md) · [Archive home](../README.md)
+
 One page per person — team AND clients. Each page lists every archived call, Slack thread, and file they appear in, dated and linked, plus their Notion row where one exists (IDs in `../../data/pointer-map.md`). Pages grow append-only as more material is archived.
 
 ## Team

@@ -1,5 +1,7 @@
 # Summary — Alan + Constantine coaching, 2026-07-22 (Krisp 019f8b048a4d7789b9babd954c38b271)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Krisp index](../INDEX.md)**
+
 > **Companion to `transcript.md` — never a replacement.** The verbatim original in this folder is the source of truth; this AI summary (Krisp key points + action items) is for fast orientation only.
 
 **This is the variable show-rate doctrine session** Alan referenced in the full-funnel spec ("You should be able to reference our conversation with Constantine about this specifically").

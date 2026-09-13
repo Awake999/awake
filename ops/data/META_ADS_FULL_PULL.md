@@ -213,3 +213,18 @@ Public Ads Library entries for this campaign (6, unpaired):
 5. **Results "Not available"**: several ads/campaigns returned "Not available" for Website appointments scheduled; treated as unreported, not zero.
 6. **Personal account (45387440)**: $14.88 lifetime spend; campaign detail not pulled because it is not an APW business account. Its campaign breakdown is unknown/out of scope.
 7. No tool call failed; no API errors were encountered during this pull.
+
+## APPENDED 8/30 (register #34): GHL-side lead rollup per campaign
+*Source: `ops/archive/ghl/2026-08-30/contacts_2026-08-30.csv` (259 contacts, pulled 8/30). "Leads" = GHL contacts carrying that campaign's UTM/campaign_id. 160 of 259 contacts carry NO campaign attribution (pre-UTM era + non-ad sources) — [V] as-recorded, dates are contact dateAdded.*
+
+| Campaign | GHL leads | First..Last lead | Top ads (ad_id suffix × leads) |
+|---|---|---|---|
+| Prof/BizOwners Images (PAUSED 7/28) — 120249661985180556 | 44 | 6/21..8/06 | (pre-UTM, no ad_ids) |
+| Prof/BizOwners Images - relaunch (ACTIVE) — 120251505193800556 | 32 | 7/08..8/27 | …840556×13 · …870556×2 · …860556×1 |
+| Medical New Videos Relaunch (7/x, superseded) | 7 | 7/05..7/19 | — |
+| Medical New Videos Relaunch v2 (ACTIVE) — 120251505168550556 | 4 (+2 name-only rows 7/31-8/5) | 8/17..8/23 | …610556×4 |
+| Medical New Videos 6/24 | 4 | 6/26..7/01 | — |
+| Medical Videos - 500k | 4 | 4/23..4/27 | — |
+| Images - 6/21 / Images - v3 | 2 | 4/13..6/27 | — |
+
+**Read:** the two ACTIVE campaigns since 7/28: Prof relaunch = 32 GHL leads on $3,226.60 (~$101/GHL-lead) · Medical v2 = 4-6 GHL leads on $3,224.41 (~$540-800/GHL-lead). Medical v2 is thin in GHL exactly as it is expensive in Meta (CPL $403 platform-side) — same signal, two independent sources. This is the per-campaign transparency line item from Alan's original spec.

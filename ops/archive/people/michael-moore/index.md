@@ -1,5 +1,7 @@
 # Michael Moore — prospect (unqualified, near-close case study)
 
+> 🧭 [Start Here](../../START-HERE.md) · [Archive home](../../README.md) · **[⬆ back to People index](../README.md)**
+
 ## Archived calls where his case is discussed
 | Date | What | Where |
 |---|---|---|

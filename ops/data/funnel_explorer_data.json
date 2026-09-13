@@ -1,0 +1,868 @@
+{
+ "G": "https://app.gohighlevel.com/v2/location/WFkoNzKa9J9PxhngsLfl/contacts/detail/",
+ "O": {
+  "Rena Sookra": [
+   13,
+   0,
+   9,
+   22,
+   0,
+   "UNRESPONSIVE \u2014 13 dials, never picked up (longest ring 9s), 0 text replies"
+  ],
+  "Trent Hamilton": [
+   11,
+   1,
+   65,
+   19,
+   0,
+   "UNRESPONSIVE \u2014 11 dials, one 65s pickup, 0 text replies"
+  ],
+  "Jack Kates": [
+   17,
+   7,
+   82,
+   27,
+   4,
+   "CONNECTED-BRIEF \u2014 7 short pickups (max 82s), rescheduled, never held a triage"
+  ],
+  "Shamar Samuel": [
+   13,
+   0,
+   34,
+   21,
+   1,
+   "UNRESPONSIVE \u2014 13 dials, no pickup \u226560s"
+  ],
+  "Desi Harmon Sr": [
+   3,
+   0,
+   44,
+   13,
+   2,
+   "UNDER-CHASED \u2014 only 3 dials before his slot"
+  ],
+  "Jesse Hopcus": [
+   3,
+   1,
+   190,
+   14,
+   10,
+   "TEXT-RESPONSIVE \u2014 10 replies + one 190s call; showed"
+  ],
+  "Ms Terry": [
+   11,
+   1,
+   98,
+   18,
+   4,
+   "HUNG UP (tag) \u2014 11 dials; her one 98s pickup came 8/27, after the 8/13 no-show"
+  ],
+  "Pedro Perez Grizzle": [
+   7,
+   2,
+   663,
+   15,
+   1,
+   "CONNECTED \u2014 real 11-min call before slot; then cancelled"
+  ],
+  "George Truesdale": [
+   10,
+   0,
+   49,
+   15,
+   0,
+   "HUNG UP (tag) \u2014 10 dials, no pickup \u226560s"
+  ],
+  "Ed McCullough": [
+   2,
+   0,
+   0,
+   10,
+   1,
+   "UNDER-CHASED \u2014 only 2 dials (arrived 8/21, slot 8/24)"
+  ],
+  "David Shepherd": [
+   2,
+   0,
+   41,
+   9,
+   1,
+   "UNDER-CHASED \u2014 only 2 dials (arrived 8/22, slot 8/24)"
+  ],
+  "Tessa Ndille": [
+   7,
+   0,
+   39,
+   13,
+   0,
+   "UNRESPONSIVE \u2014 7 dials, no pickup"
+  ],
+  "Robert Schechner": [
+   9,
+   1,
+   818,
+   21,
+   4,
+   "CONNECTED \u2014 one 13-min call; still no-showed"
+  ],
+  "Myla Maheedhar": [
+   9,
+   1,
+   760,
+   21,
+   0,
+   "CONNECTED \u2014 one 12-min call; still no-showed"
+  ],
+  "Antonio Jenkins": [
+   6,
+   1,
+   1704,
+   17,
+   2,
+   "CONNECTED \u2014 one 28-min call (triage); still no-showed"
+  ],
+  "Pradeep Bhatia": [
+   8,
+   4,
+   3009,
+   18,
+   0,
+   "CONNECTED \u00d74 \u2014 up to 50 min; triaged; showed"
+  ],
+  "Connor Robertson": [
+   7,
+   3,
+   2807,
+   36,
+   18,
+   "CONNECTED \u00d73 \u2014 up to 47 min; triaged; then ghosted the closer call"
+  ],
+  "Karl Krummenacher": [
+   7,
+   1,
+   90,
+   38,
+   20,
+   "TEXT-RESPONSIVE \u2014 20 replies; connected 90s; booked 14 days after opt-in; showed + QUALIFIED"
+  ],
+  "Jennifer Ulloa": [
+   2,
+   1,
+   1421,
+   14,
+   3,
+   "CONNECTED \u2014 24-min triage call, then booked; showed"
+  ],
+  "P Reddy P": [
+   4,
+   0,
+   46,
+   15,
+   6,
+   "TEXT-RESPONSIVE \u2014 6 replies; triage-tagged; showed (fake)"
+  ],
+  "Behnad Zandi": [
+   6,
+   2,
+   1137,
+   13,
+   3,
+   "CONNECTED \u00d72 \u2014 up to 19 min; triaged then 'not interested'; no-showed"
+  ],
+  "Yeshaya Dank": [
+   1,
+   1,
+   1317,
+   27,
+   13,
+   "CONNECTED \u2014 22-min call + 13 replies; triaged; showed"
+  ],
+  "Stephen Greco": [
+   2,
+   2,
+   416,
+   20,
+   8,
+   "CONNECTED \u00d72 + 8 replies; still silent on both slots"
+  ],
+  "Tarlochan Singh": [
+   7,
+   1,
+   66,
+   23,
+   4,
+   "CONNECTED-BRIEF \u2014 one 66s pickup; no-showed"
+  ],
+  "Michael Moore": [
+   10,
+   4,
+   2723,
+   49,
+   12,
+   "CONNECTED \u00d74 \u2014 up to 45 min; triaged; showed"
+  ],
+  "Nick Samara": [
+   9,
+   1,
+   1870,
+   34,
+   2,
+   "CONNECTED \u2014 31-min call; triaged; showed"
+  ],
+  "Lee McEachin Jr": [
+   7,
+   3,
+   645,
+   16,
+   0,
+   "CONNECTED \u00d73 \u2014 up to 11 min; triaged; no-showed"
+  ],
+  "Robert Morawitz": [
+   14,
+   8,
+   3714,
+   39,
+   7,
+   "CONNECTED \u00d78 \u2014 up to 62 min; triaged; outcome unrecorded"
+  ],
+  "Chris Bowers": [
+   17,
+   6,
+   876,
+   68,
+   19,
+   "CONNECTED \u00d76 + 19 replies; triaged; showed \u00d72"
+  ]
+ },
+ "P": [
+  [
+   "Karl Krummenacher",
+   "showed",
+   "later",
+   "",
+   "8/05",
+   "opted in 8/05 \u2192 stayed in follow-up \u2192 booked 8/18 (slot 8/20)",
+   "\ud83d\udfe2 QUALIFIED - Main Offer \u2014 real, credit-qualified; not in market for main right now (Alan 8/31)",
+   [
+    [
+     "GHL record",
+     "H4aNUi4T4zClFs5EAJtP"
+    ],
+    [
+     "Recording 8/20",
+     "https://fathom.video/calls/791088813"
+    ]
+   ]
+  ],
+  [
+   "P Reddy P",
+   "showed",
+   "direct",
+   "tag+attested",
+   "8/07",
+   "direct to booking \u2014 1 min from opt-in \u2192 slot 8/10",
+   "\ud83d\udd34 FAKE LEAD (Alan 8/31): fake website/business, wouldn't show face or report \u2192 Unqualified-Other",
+   [
+    [
+     "GHL record",
+     "8Ermg0m5C1JDmvAb808b"
+    ],
+    [
+     "Recording 8/10",
+     "https://fathom.video/calls/777298604"
+    ]
+   ]
+  ],
+  [
+   "Jesse Hopcus",
+   "showed",
+   "direct",
+   "attested",
+   "8/08",
+   "direct to booking \u2014 1 min from opt-in \u2192 slot 8/10",
+   "\ud83d\udd34 Unqualified \u2014 credit too weak, too many loans/debt (Alan 8/31)",
+   [
+    [
+     "GHL record",
+     "SG3f3PsV3sJaJRS34v21"
+    ]
+   ]
+  ],
+  [
+   "Yeshaya Dank",
+   "showed",
+   "direct",
+   "tag+attested",
+   "8/13",
+   "direct to booking \u2014 2 min from opt-in \u2192 slots 8/13 + 8/27 (+Sep 10)",
+   "\ud83d\udd34 Unqualified as-is \u2014 needs a personal guarantor (Alan 8/31); Sep 10 stands",
+   [
+    [
+     "GHL record",
+     "5CRpCl0usJYwUCcw0D79"
+    ],
+    [
+     "Recording 8/13",
+     "https://fathom.video/calls/783351348"
+    ],
+    [
+     "Recording 8/27",
+     "https://fathom.video/calls/799338949"
+    ]
+   ]
+  ],
+  [
+   "Michael Moore",
+   "showed",
+   "direct",
+   "tag+attested",
+   "8/17",
+   "direct to booking \u2014 2 min from opt-in \u2192 4 slots 8/19\u20138/27",
+   "\ud83d\udd34 Unqualified - No Funds \u2014 verge of bankruptcy (Alan 8/31)",
+   [
+    [
+     "GHL record",
+     "lCa8gYSSfhlb1YyszdrK"
+    ],
+    [
+     "Recording",
+     "https://fathom.video/calls/791826979"
+    ]
+   ]
+  ],
+  [
+   "Jennifer Ulloa",
+   "showed",
+   "later",
+   "tag",
+   "8/06",
+   "opted in \u2192 24-min triage call \u2192 booked 5h later (slot 8/07)",
+   "\ud83d\udd34 Unqualified \u2014 offer mismatch, wants no-PG funding (Alan 8/31)",
+   [
+    [
+     "GHL record",
+     "Beb6LGrnKnPPmF9B1MpW"
+    ],
+    [
+     "Recording 8/07",
+     "https://fathom.video/calls/775643888"
+    ]
+   ]
+  ],
+  [
+   "Nick Samara",
+   "showed",
+   "direct",
+   "tag",
+   "8/20",
+   "direct to booking \u2014 2 min from opt-in \u2192 3 slots 8/20\u20138/26",
+   "\ud83d\udd34 Unqualified - No Funds \u2014 couldn't fund even the $500 downsell; never paid (Whop)",
+   [
+    [
+     "GHL record",
+     "lgswJD9fKGfqmRic0iul"
+    ],
+    [
+     "Recording 8/26",
+     "https://fathom.video/calls/795906442"
+    ]
+   ]
+  ],
+  [
+   "Pradeep Bhatia",
+   "showed",
+   "direct",
+   "tag",
+   "8/05",
+   "direct to booking \u2014 9 min from opt-in \u2192 slot 8/07 (+8/17)",
+   "\ud83d\udd34 Unqualified - No Funds \u2014 $300 committed, never paid (Whop)",
+   [
+    [
+     "GHL record",
+     "wc452MDflzJUVSOT6JPy"
+    ],
+    [
+     "Recording 8/07",
+     "https://fathom.video/calls/775117204"
+    ]
+   ]
+  ],
+  [
+   "Chris Bowers",
+   "showed",
+   "direct",
+   "tag",
+   "7/31",
+   "direct to booking \u2014 2 min from opt-in \u2192 slots 8/3 + 8/6 (8/25 cancelled) \u2014 SHOWED \u00d72",
+   "\ud83d\udd34 Unqualified - No Funds \u2014 bad credit, maxed, can't make $200 (Alan 8/31)",
+   [
+    [
+     "GHL record",
+     "S80lc8JjJ7284xzdh1Wi"
+    ],
+    [
+     "Recording 8/4",
+     "https://fathom.video/calls/768297031"
+    ],
+    [
+     "Recording 8/7",
+     "https://fathom.video/calls/771447748"
+    ]
+   ]
+  ],
+  [
+   "Robert Schechner",
+   "noshow",
+   "direct",
+   "tag",
+   "7/29",
+   "direct to booking \u2014 1 min from opt-in \u2192 slot 7/29",
+   "\u2014",
+   [
+    [
+     "GHL record",
+     "VD04ZTrHJvQACmuby8KF"
+    ]
+   ]
+  ],
+  [
+   "Myla Maheedhar",
+   "noshow",
+   "direct",
+   "tag",
+   "7/30",
+   "direct to booking \u2014 same minute \u2192 slot 7/31",
+   "Alan: cancel-notifications to him wanted going forward",
+   [
+    [
+     "GHL record",
+     "hDKXjL3QDuda9XfRT7lv"
+    ]
+   ]
+  ],
+  [
+   "Rena Sookra",
+   "noshow",
+   "direct",
+   "",
+   "7/30",
+   "direct to booking \u2014 1 min \u2192 slot 8/02",
+   "\u2014",
+   [
+    [
+     "GHL record",
+     "4vDzMOYAL1dcuAqGyIIU"
+    ]
+   ]
+  ],
+  [
+   "Trent Hamilton",
+   "noshow",
+   "direct",
+   "attested",
+   "8/02",
+   "direct to booking \u2014 same minute \u2192 slot 8/03",
+   "\u2014",
+   [
+    [
+     "GHL record",
+     "nsrxMsSnOMHdr1iOkUdj"
+    ]
+   ]
+  ],
+  [
+   "Antonio Jenkins",
+   "noshow",
+   "direct",
+   "tag+attested",
+   "8/02",
+   "direct to booking \u2014 same minute \u2192 slot 8/05",
+   "\u2014",
+   [
+    [
+     "GHL record",
+     "LWR0IetKviApaOvTmBxK"
+    ]
+   ]
+  ],
+  [
+   "Jack Kates",
+   "noshow",
+   "direct",
+   "attested",
+   "8/04",
+   "direct to booking \u2014 1 min \u2192 slot 8/04; rescheduled",
+   "\u2014",
+   [
+    [
+     "GHL record",
+     "4a8QdzeBed4mRo97Z4vx"
+    ]
+   ]
+  ],
+  [
+   "Shamar Samuel",
+   "noshow",
+   "direct",
+   "attested",
+   "8/03",
+   "direct to booking \u2014 1 min \u2192 slot 8/05",
+   "\u2014",
+   [
+    [
+     "GHL record",
+     "WuRw9EKIbfcPuGnrVKgk"
+    ]
+   ]
+  ],
+  [
+   "Connor Robertson",
+   "noshow",
+   "later",
+   "tag+attested",
+   "8/05",
+   "opted in 8/05 \u2192 triaged live (47-min call) \u2192 booked 8/12 \u2192 slots 8/13, 8/17 (+Sep 1 still on)",
+   "Alan 8/31: never spoke to the CLOSER; may talk this week",
+   [
+    [
+     "GHL record",
+     "aUuP9CfKdLFG1bSqVban"
+    ]
+   ]
+  ],
+  [
+   "Desi Harmon Sr",
+   "noshow",
+   "direct",
+   "attested",
+   "8/06",
+   "direct to booking \u2014 1 min \u2192 slot 8/08",
+   "\u2014",
+   [
+    [
+     "GHL record",
+     "3pJWW8qMPiZkyWokyH7g"
+    ]
+   ]
+  ],
+  [
+   "Behnad Zandi",
+   "noshow",
+   "later",
+   "tag",
+   "8/12",
+   "opted in \u2192 triaged live (19-min call) \u2192 booked 15h later \u2192 slot 8/12",
+   "tagged '1 - qualified' then '3 - not interested'",
+   [
+    [
+     "GHL record",
+     "Dg9fyJ621iCphlIRa0vm"
+    ]
+   ]
+  ],
+  [
+   "Ms Terry",
+   "noshow",
+   "direct",
+   "",
+   "8/13",
+   "direct to booking \u2014 1 min \u2192 slot 8/13",
+   "tagged '2 - hung up'",
+   [
+    [
+     "GHL record",
+     "xsHo2g1QTQgecx5OV6S4"
+    ]
+   ]
+  ],
+  [
+   "Stephen Greco",
+   "noshow",
+   "direct",
+   "tag",
+   "8/14",
+   "direct to booking \u2014 11 min \u2192 slots 8/17 + 8/24 (both silent)",
+   "\u2014",
+   [
+    [
+     "GHL record",
+     "FWmJO9pOj3dI7eFlCUtO"
+    ]
+   ]
+  ],
+  [
+   "Tarlochan Singh",
+   "noshow",
+   "direct",
+   "tag",
+   "8/16",
+   "direct to booking \u2014 2 min \u2192 slot 8/19",
+   "\u2014",
+   [
+    [
+     "GHL record",
+     "x5E8IABgpkEyDiOs5TZd"
+    ]
+   ]
+  ],
+  [
+   "Ed McCullough",
+   "noshow",
+   "direct",
+   "",
+   "8/21",
+   "direct to booking \u2014 1 min \u2192 slot 8/24",
+   "NOT client Ed C. \u2014 different person",
+   [
+    [
+     "GHL record",
+     "NYiNc0yWNWvHUsoxZMGU"
+    ]
+   ]
+  ],
+  [
+   "David Shepherd",
+   "noshow",
+   "direct",
+   "",
+   "8/22",
+   "direct to booking \u2014 2 min \u2192 slot 8/24",
+   "\u2014",
+   [
+    [
+     "GHL record",
+     "F2fA9NZW88pSwL3P6JbE"
+    ]
+   ]
+  ],
+  [
+   "Lee McEachin Jr",
+   "noshow",
+   "direct",
+   "tag",
+   "8/23",
+   "direct to booking \u2014 1 min \u2192 slot 8/24",
+   "\u2014",
+   [
+    [
+     "GHL record",
+     "wIxJeo4piIN0qghQiY2m"
+    ]
+   ]
+  ],
+  [
+   "Tessa Ndille",
+   "noshow",
+   "direct",
+   "",
+   "8/23",
+   "direct to booking \u2014 1 min \u2192 slot 8/24",
+   "\u2014",
+   [
+    [
+     "GHL record",
+     "SoJGlleiyOTlQFwfH4Jk"
+    ]
+   ]
+  ],
+  [
+   "Pedro Perez Grizzle",
+   "cancelled",
+   "direct",
+   "attested",
+   "8/15",
+   "direct to booking \u2014 1 min \u2192 slot 8/18 CANCELLED",
+   "\u2014",
+   [
+    [
+     "GHL record",
+     "5IxjeWvQ0aW8onfhZ9xM"
+    ]
+   ]
+  ],
+  [
+   "George Truesdale",
+   "cancelled",
+   "direct",
+   "",
+   "8/16",
+   "direct to booking \u2014 2 min \u2192 slot 8/17 CANCELLED",
+   "tagged '2 - hung up'",
+   [
+    [
+     "GHL record",
+     "8JvItcgAZPOFGsFVbbA2"
+    ]
+   ]
+  ],
+  [
+   "Robert Morawitz",
+   "unresolved",
+   "direct",
+   "tag",
+   "8/23",
+   "direct to booking \u2014 6 min \u2192 slot 8/27 \u2014 outcome never recorded; 3 empty GHL dupes",
+   "\u2014",
+   [
+    [
+     "GHL record (real)",
+     "Ek6fa6SLTvUfIlCNhsGk"
+    ]
+   ]
+  ],
+  [
+   "Fernando De Pieri",
+   "optin",
+   "never",
+   "",
+   "8/27",
+   "never booked \u2014 9 msgs, last 8/28, no reply",
+   "reheat Tier-1",
+   [
+    [
+     "GHL record",
+     "jypnYW0kj5700hD8azMk"
+    ]
+   ]
+  ],
+  [
+   "Javaris Johnson",
+   "optin",
+   "never",
+   "",
+   "8/20",
+   "never booked \u2014 21 msgs, last 8/27, no reply",
+   "reheat",
+   [
+    [
+     "GHL record",
+     "1LpdOmQr5SLXuS3blGHs"
+    ]
+   ]
+  ],
+  [
+   "Noel Rivera",
+   "optin",
+   "never",
+   "",
+   "8/15",
+   "never booked \u2014 11 msgs, last 8/26; tagged 'hung up'",
+   "reheat",
+   [
+    [
+     "GHL record",
+     "Rxrtsgt3VREGPivwS6RE"
+    ]
+   ]
+  ],
+  [
+   "John Mazzocchi",
+   "optin",
+   "never",
+   "",
+   "8/14",
+   "never booked \u2014 20 msgs, last 8/26, no reply",
+   "reheat",
+   [
+    [
+     "GHL record",
+     "yWBoytMEygPZXSyvplHl"
+    ]
+   ]
+  ],
+  [
+   "HERMAN ROGERS",
+   "optin",
+   "never",
+   "",
+   "8/13",
+   "never booked \u2014 20 msgs, last 8/27, no reply",
+   "reheat",
+   [
+    [
+     "GHL record",
+     "RYHu2KExLZOScp0ori3t"
+    ]
+   ]
+  ],
+  [
+   "Natalia Rumbuc",
+   "optin",
+   "never",
+   "",
+   "8/09",
+   "never booked \u2014 22 msgs, last 8/27, no reply",
+   "reheat",
+   [
+    [
+     "GHL record",
+     "XWpYlTI8Ar1QnwizNVuA"
+    ]
+   ]
+  ],
+  [
+   "Marko Sakren",
+   "optin",
+   "never",
+   "",
+   "7/30",
+   "never booked \u2014 6 msgs, last 8/18, no reply",
+   "reheat",
+   [
+    [
+     "GHL record",
+     "zPHKP5SyzqpnJxn5gCz9"
+    ]
+   ]
+  ],
+  [
+   "LeRoy McCall",
+   "optin",
+   "never",
+   "",
+   "7/29",
+   "never booked \u2014 15 msgs out / 1 reply, last 8/18",
+   "reheat",
+   [
+    [
+     "GHL record",
+     "9kRWME9TdBvPTZiixBiX"
+    ]
+   ]
+  ],
+  [
+   "Njjnn Of",
+   "optin",
+   "never",
+   "",
+   "8/17",
+   "never booked \u2014 junk-name capture, likely not real",
+   "\u2014",
+   [
+    [
+     "GHL record",
+     "dI21IaM4rp5cDTR8VK3T"
+    ]
+   ]
+  ],
+  [
+   "Chris Mclean",
+   "showed",
+   "referral",
+   "",
+   "7/30",
+   "Matthew referral \u2014 NOT an ad lead, outside the funnel \u2192 showed 8/26",
+   "\ud83d\udfe1 Downsell \u2014 late payments, collections",
+   [
+    [
+     "GHL record",
+     "paixz1K5D8j4RuZNbWxO"
+    ],
+    [
+     "Recording 8/26",
+     "https://fathom.video/calls/798638035"
+    ]
+   ]
+  ]
+ ]
+}

@@ -1,5 +1,7 @@
 # Meta — Todd LoGuidice, Funding Execution
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 - **Date:** 2026-08-26
 - **Fathom recording ID:** 177223749
 - **Link:** https://fathom.video/calls/800283407

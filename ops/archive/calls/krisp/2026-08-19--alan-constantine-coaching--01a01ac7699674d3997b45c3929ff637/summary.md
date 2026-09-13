@@ -1,5 +1,7 @@
 # Summary — Alan + Constantine coaching, 2026-08-19 (Krisp 01a01ac7699674d3997b45c3929ff637)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Krisp index](../INDEX.md)**
+
 > **Companion to `transcript.md` — never a replacement.** The verbatim original in this folder is the source of truth; this AI summary (Krisp key points + action items) is for fast orientation only.
 
 ## Key Points

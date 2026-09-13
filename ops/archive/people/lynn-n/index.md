@@ -1,5 +1,7 @@
 # Lynn N. — setter / triage
 
+> 🧭 [Start Here](../../START-HERE.md) · [Archive home](../../README.md) · **[⬆ back to People index](../README.md)**
+
 Email seen: neves.lynn7@gmail.com (Slack display "Lynn"; Fathom sometimes "Lynn N." / recorded under "Sabrina Neves" account). Handles speed-to-lead, triage calls, DM setting campaign.
 
 ## Archived calls

@@ -1,5 +1,7 @@
 # Meta — Michael Moore post-mortem + August review
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 - **Date:** 2026-08-27
 - **Fathom recording ID:** 177669876
 - **Link:** https://fathom.video/calls/801909953

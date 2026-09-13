@@ -7,6 +7,10 @@
 | 🌐 **THE DASHBOARD (live URL)** | [claude.ai/code/artifact/c6ad801c…](https://claude.ai/code/artifact/c6ad801c-50fc-49d3-847a-e6a8b0ddd392) | [source file](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/dashboard/apw_command_board.html) |
 | ✅ **The Register** (65+ asks, verbatim, status, grade) | [REGISTER.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/REGISTER.md) | [Notion mirror](https://app.notion.com/p/3cc5bb1ffef48188aefad6ab7527616f) |
 | 📜 **The SOP** (laws, lanes, sync ritual, backup map) | [SOP.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/SOP.md) | — |
+| 🔧 **Error-Solution Agent (spawnable)** | [charter + spawn prompt](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/agents/ERROR_SOLUTION_AGENT.md) | [rulings ledger](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/RULINGS.md) |
+| 🎯 **PATH TO 100%** (every open item · owner · action) | [PATH_TO_100.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/PATH_TO_100.md) | [SOP history](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/sop-history/README.md) |
+| 📋 **Checklists (quote→understanding, one per prompt)** | [folder + how-to](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/checklists/README.md) | [prompts in Alan's words](https://github.com/Awake999/awake/tree/claude/new-session-1ofk4w/ops/prompts) |
+| 🔁 **INTERACTION PROTOCOL (how every lane answers every prompt)** | [SOP §1.9](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/SOP.md) · [21-ask checklist](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/INTERACTION_PROTOCOL_CHECKLIST.md) | [verbatim spec](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/prompts/2026-08-30-interaction-protocol-spec.md) |
 | 🗣️ **Alan's verbatim prompts** | [2026-08-30 spec](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/prompts/2026-08-30-full-funnel-spec.md) | [raw session history](https://github.com/Awake999/awake/tree/claude/new-session-1ofk4w/ops/prompts/transcripts) |
 
 ## Client data (LIVE — Notion is canonical)
@@ -37,6 +41,9 @@
 | Qualification Standard (for Kai) | [open](https://app.notion.com/p/3cc5bb1ffef481aa8c8ce7c33bade43b) |
 | 4-Day Dispute SOP | [open](https://app.notion.com/p/3ca5bb1ffef481468487e9be6136ba40) |
 | Pre-Booking Qualification Filter SOP | [open](https://app.notion.com/p/3ca5bb1ffef481d08aa6ed398c388176) |
+| 📋 CHECKLIST SOP — two-person review (quoted · linked · counted · spoken/unspoken) | [RELATIONSHIP_REVIEW_CHECKLIST_SOP.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/sops/RELATIONSHIP_REVIEW_CHECKLIST_SOP.md) · check: `reply_check.py --review` |
+| 🤝 Carla ↔ Alan review v2 (14 calls, 86 rows, desires spoken/unspoken, unified plan) | [CARLA_ALAN_REVIEW_2026-09-03.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/CARLA_ALAN_REVIEW_2026-09-03.md) |
+| 📞 DROPPED LEADS — replied but we went silent (setter-ready, GHL deep-links) | [DROPPED_LEADS_FOLLOWUP.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/DROPPED_LEADS_FOLLOWUP.md) |
 | Master Closing Framework v2 | [open](https://app.notion.com/p/3b95bb1ffef481f293fbeaf311e224e4) |
 | Lane 4 brief (PC work orders) | [BRIEF.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/lane4/BRIEF.md) |
 | All open PRs (every lane's work) | [PR list](https://github.com/Awake999/awake/pulls) |
@@ -46,3 +53,17 @@
 [LOCAL_PULL_RUNBOOK](https://drive.google.com/file/d/1RqEpBa4Em1iwE_GdHhuk_kxhotBYXPjx/view) · [BACKFILL_FINDINGS v3](https://drive.google.com/file/d/1cc38HfZOekS2TqhubCckI0lDDLajplJA/view) · [AD_TRACKING_SPEC](https://drive.google.com/file/d/1ymOUhLTkuTJLoOaz5ba0gyXom85nP9kq/view)
 
 **Sync:** GitHub push/pull is the bus · Notion mirrors refresh each sweep · Obsidian = this repo folder opened as a vault · backup map in [SOP.md §4](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/SOP.md).
+
+## 🖥 APW DAILY — Teramind tracking (added 9/3, register #163)
+| Want | Go |
+|---|---|
+| **Today: what is everyone doing** | [ops/data/TERAMIND_TODAY.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/TERAMIND_TODAY.md) |
+| See the layout now (demo data) | [ops/data/teramind/2026-09-03-DEMO.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/teramind/2026-09-03-DEMO.md) |
+| How to run it / what unblocks it | [ops/data/TERAMIND_DAILY_APP.md](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/TERAMIND_DAILY_APP.md) |
+| Notion face | [🖥 APW DAILY](https://app.notion.com/p/3d05bb1ffef4817db6c2c23df7905de5) |
+| One-click launcher | [.bat](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/lane4/APW-DAILY.bat) · [.sh](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/lane4/APW-DAILY.sh) |
+| Roster + flag rules | [ops/data/teramind/CONFIG.json](https://github.com/Awake999/awake/blob/claude/new-session-1ofk4w/ops/data/teramind/CONFIG.json) |
+| Archive of every day built | [ops/data/teramind/](https://github.com/Awake999/awake/tree/claude/new-session-1ofk4w/ops/data/teramind) |
+
+## Client testimonials (added 2026-09-07)
+- [CLIENT_TESTIMONIALS.md](data/CLIENT_TESTIMONIALS.md) — 74 verbatim client quotes, jump link per row · [SOP](sops/CLIENT_TESTIMONIALS_SOP.md) · skill `.claude/skills/client-testimonials/SKILL.md` · builder `tools/testimonials_build.py` · verifier `tools/testimonials_verify.py`

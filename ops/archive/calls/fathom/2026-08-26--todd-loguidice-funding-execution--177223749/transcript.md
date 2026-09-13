@@ -1,6 +1,23 @@
 # Transcript — Todd LoGuidice, Funding Execution (2026-08-26, Fathom call 800283407)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (20:00 to 30:00)](#chapter-3-2000-to-3000)
+- [Chapter 4 (30:00 to 40:00)](#chapter-4-3000-to-4000)
+- [Chapter 5 (40:00 to 50:00)](#chapter-5-4000-to-5000)
+- [Chapter 6 (50:00 to 1:00:00)](#chapter-6-5000-to-10000)
+
+
 ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
+
+
+## Chapter 1 (00:00 to 10:00)
 
 [00:08](https://fathom.video/calls/800283407?timestamp=8) Alan Nguyen: It looks like there's a lot of some background noise. How are we doing?
 [00:12](https://fathom.video/calls/800283407?timestamp=12) Matt: Alan. Hey.
@@ -68,6 +85,9 @@ ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
 [09:15](https://fathom.video/calls/800283407?timestamp=555) Alan Nguyen: Boom. And then for gross annual, gross annual revenue, it's 1517-300. Oh, it's still in the field. Perfect. And then do you want cash access to your account? We said yes.
 [09:33](https://fathom.video/calls/800283407?timestamp=573) Matt: What does that mean? Like money? What's it called?
 [09:37](https://fathom.video/calls/800283407?timestamp=577) Alan Nguyen: Cash access. We could look at the description in moment, but it says country in which the business was formed. United States, I think somewhere in Spain. We have to manually select it here. Yep. Just like that. And then. All right, I would capitalize it. Yes.
+
+## Chapter 2 (10:00 to 20:00)
+
 [10:13](https://fathom.video/calls/800283407?timestamp=613) Todd L.: Leave the apartment there?
 [10:14](https://fathom.video/calls/800283407?timestamp=614) Alan Nguyen: With the apartment in the street address part, not the apartment suite number. . So space APT base 1205 and then here, I can type it in on my side because it's going to be 205 and then this is going to be ST.
 [10:34](https://fathom.video/calls/800283407?timestamp=634) Todd L.: Okay.
@@ -121,6 +141,9 @@ ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
 [19:38](https://fathom.video/calls/800283407?timestamp=1178) Todd L.: Okay. And then on the second bank, they asked for more documentation.
 [19:42](https://fathom.video/calls/800283407?timestamp=1182) Matt: What bank was that?
 [19:43](https://fathom.video/calls/800283407?timestamp=1183) Alan Nguyen: That was Cardassets. That one we knew going into it, it was going to be a gamble. The First Foundation. that was the Equifax one. Okay. But that's because at the time, didn't have TransUnion and Experian. Hard Inquiry slots open, but now we have those slots open because we...
+
+## Chapter 3 (20:00 to 30:00)
+
 [20:03](https://fathom.video/calls/800283407?timestamp=1203) Matt: way, Alan, can you inform Todd and me? I think you did some sort of, I don't what you call it, like not intense credit repair stuff with Todd or some credit alterations. What'd you do on Todd's account?
 [20:16](https://fathom.video/calls/800283407?timestamp=1216) Alan Nguyen: we just removed Hard Inquiries and removed... Oh, I saw that.
 [20:20](https://fathom.video/calls/800283407?timestamp=1220) Matt: Todd, where'd you see it, Todd? I got an email notification. All right, so removed inquiries and what else?
@@ -170,6 +193,9 @@ ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
 [29:46](https://fathom.video/calls/800283407?timestamp=1786) Matt: Shoot, shoot, shoot.
 [29:47](https://fathom.video/calls/800283407?timestamp=1787) Todd L.: Let me call Igor. Okay.
 [29:56](https://fathom.video/calls/800283407?timestamp=1796) Alan Nguyen: Which email do you want, Alan? Info, I-N-F-O.
+
+## Chapter 4 (30:00 to 40:00)
+
 [30:00](https://fathom.video/calls/800283407?timestamp=1800) Matt: What do you think you should put here, Alan?
 [30:36](https://fathom.video/calls/800283407?timestamp=1836) Alan Nguyen: For you, see you.
 [30:46](https://fathom.video/calls/800283407?timestamp=1846) Matt: Guys, I'm on with Ego. We should have an answer soon.
@@ -242,6 +268,9 @@ ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
 [39:46](https://fathom.video/calls/800283407?timestamp=2386) Alan Nguyen: Let's see. What's the difference? Use the suggested area. All right.
 [39:52](https://fathom.video/calls/800283407?timestamp=2392) Todd L.: They want the...
 [39:54](https://fathom.video/calls/800283407?timestamp=2394) Alan Nguyen: they want the extra codes. all right. NAICS code. Do you, do you have it written down, Matt, or do you, I can pull it up too on my side?
+
+## Chapter 5 (40:00 to 50:00)
+
 [40:05](https://fathom.video/calls/800283407?timestamp=2405) Matt: No.
 [40:06](https://fathom.video/calls/800283407?timestamp=2406) Todd L.: Six-digit code you are assigned when establishing a business to classify your sector or industry. You can find the upper right-hand side of your tax return or look it up here.
 [40:25](https://fathom.video/calls/800283407?timestamp=2425) Alan Nguyen: 541-511. Oh, oh . 541-511.
@@ -290,6 +319,9 @@ ORIGINAL VERBATIM TRANSCRIPT. Timestamped links go to fathom.video.
 [49:25](https://fathom.video/calls/800283407?timestamp=2965) Todd L.: $216,000? . Net worth?
 [49:34](https://fathom.video/calls/800283407?timestamp=2974) Alan Nguyen: $721,000. It was $721,300, right? $721,300, positive balance, marketable securities, B. We were in calculations for that.
 [49:58](https://fathom.video/calls/800283407?timestamp=2998) Todd L.: What do you think, Karen?
+
+## Chapter 6 (50:00 to 1:00:00)
+
 [50:03](https://fathom.video/calls/800283407?timestamp=3003) Alan Nguyen: about $120,000.
 [50:07](https://fathom.video/calls/800283407?timestamp=3007) Todd L.: Okay.
 [50:09](https://fathom.video/calls/800283407?timestamp=3009) Alan Nguyen: Next, next. Oh, good. next. It's only asking for those above 20%, so you don't have to add Matthew there. But we should see, there should be an employee section.

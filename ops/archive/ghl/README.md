@@ -1,5 +1,7 @@
 # GHL Archive — machine-bound data, deposited here
 
+> 🧭 [Start Here](../START-HERE.md) · [Archive home](../README.md)
+
 GoHighLevel (location "Prismatic", `WFkoNzKa9J9PxhngsLfl`) can only be pulled from Alan's PC — the Private Integration Token lives there and nowhere else (MCP endpoint: services.leadconnectorhq.com/mcp/). See LOCAL_PULL_RUNBOOK on Drive (`1RqEpBa4Em1iwE_GdHhuk_kxhotBYXPjx`).
 
 ## Instructions for the LOCAL session depositing GHL exports

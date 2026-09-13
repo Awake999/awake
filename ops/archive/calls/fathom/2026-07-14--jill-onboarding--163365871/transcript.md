@@ -1,0 +1,713 @@
+# Jill - Onboarding
+
+**Date:** 2026-07-14 · **Fathom:** https://fathom.video/calls/745679194 · **recording_id:** 163365871 · **Segments:** 354 · **Last timestamp:** 71 min
+
+> Verbatim Fathom transcript as returned by the Fathom MCP on 2026-09-07 (Lane 1, testimonials run). Speaker labels are Fathom's (device names like "iPad"/"iPhone" are the client). Each line links to that second of the recording.
+
+[0:00](https://fathom.video/calls/745679194?timestamp=0) Alan Nguyen: How's it going, Jill? Hi. How are you doing?
+
+[0:04](https://fathom.video/calls/745679194?timestamp=4) Jill Peralta: How are you? How are you doing? Doing good.
+
+[0:07](https://fathom.video/calls/745679194?timestamp=7) Alan Nguyen: But you've had a busy weekend. Very, very busy. How'd you know?
+
+[0:17](https://fathom.video/calls/745679194?timestamp=17) Jill Peralta: Oh, I think you were. I figured you were doing a whole bunch of like closing. And I think you were like, I think it shows that you were busy, like, with all the appointments, follow-ups. But I just figured you like to work on the weekends anyway.
+
+[0:30](https://fathom.video/calls/745679194?timestamp=30) Alan Nguyen: . . . I try to do the work-life balance, but you know. How was your weekend?
+
+[0:38](https://fathom.video/calls/745679194?timestamp=38) Jill Peralta: it was good. I mean, I got off the computer with you. I did play with my, with my daughter.
+
+[0:44](https://fathom.video/calls/745679194?timestamp=44) Alan Nguyen: Awesome. Amazing. Spent some time with my kids and my family. Awesome. work. What was that?
+
+[0:52](https://fathom.video/calls/745679194?timestamp=52) Jill Peralta: I'm back to work, but . But it good. Awesome.
+
+[0:55](https://fathom.video/calls/745679194?timestamp=55) Alan Nguyen: Awesome. Well, sweet. so so the purpose of this call is just to. We help you get onboard into the system. And we like to do it this way because it's best like if we have the client share the screen and then I just basically you're controlling your computer and then I'll just walk you through the process. So then you can kind of like get a feel of how the whole system works. Does that make sense?
+
+[1:23](https://fathom.video/calls/745679194?timestamp=83) Jill Peralta: Okay. So I saw, I think I have it. I have it. I'll pull it up. So I saw that there was a document, right?
+
+[1:33](https://fathom.video/calls/745679194?timestamp=93) Alan Nguyen: Yes. I guess I share.
+
+[1:34](https://fathom.video/calls/745679194?timestamp=94) Jill Peralta: You want me to start sharing now? Sure.
+
+[1:36](https://fathom.video/calls/745679194?timestamp=96) Alan Nguyen: .
+
+[1:41](https://fathom.video/calls/745679194?timestamp=101) Jill Peralta: All right. Can you see if it should be sharing? . Should be sharing my dad's. Awesome.
+
+[1:51](https://fathom.video/calls/745679194?timestamp=111) Alan Nguyen: Yep. So this is just for the, it's basically the Transparency Act for corporations. Basically the. The government wants to just know like who owns what entity. It's just like a new law that came in place, like, I think like a couple of years ago. So it's just like for us to be in compliance. Oh, wait. Okay.
+
+[2:13](https://fathom.video/calls/745679194?timestamp=133) Jill Peralta: So, I didn't, I think I need a better understanding of who's, what am I feeling out here? Company name?
+
+[2:24](https://fathom.video/calls/745679194?timestamp=144) Alan Nguyen: For the, for the company name, I would just do a space there, leave a blank because, all we need to know is the beneficial owner's name because then we'll put in the company's name there. Cause you're, you're essentially acquiring it. Yep. .
+
+[2:38](https://fathom.video/calls/745679194?timestamp=158) Jill Peralta: So then, okay.
+
+[2:39](https://fathom.video/calls/745679194?timestamp=159) Alan Nguyen: Awesome. And then the, is that the same address that's on your driver's license? The Menlo?
+
+[2:47](https://fathom.video/calls/745679194?timestamp=167) Jill Peralta: Yes.
+
+[2:48](https://fathom.video/calls/745679194?timestamp=168) Alan Nguyen: Okay. And that's your current residence, correct?
+
+[2:50](https://fathom.video/calls/745679194?timestamp=170) Jill Peralta: Correct.
+
+[2:51](https://fathom.video/calls/745679194?timestamp=171) Alan Nguyen: Okay. Awesome. And then the, for the beneficial owner, owner's name, make sure that it's your full legal name, whatever shows up on your driver's license, which. Oh.
+
+[3:02](https://fathom.video/calls/745679194?timestamp=182) Jill Peralta: In that case, then it's.
+
+[3:08](https://fathom.video/calls/745679194?timestamp=188) Alan Nguyen: Oh, so that's another question I had, because I saw that there's a bunch of names on the report. And so do you have a middle name or is that just like a nickname?
+
+[3:23](https://fathom.video/calls/745679194?timestamp=203) Jill Peralta: So can I leave this blank company name?
+
+[3:25](https://fathom.video/calls/745679194?timestamp=205) Alan Nguyen: I mean, it looks like it wants me to do that. Does it allow you to do a space instead of NA, just do a space or like a couple spaces or so, like space bar?
+
+[3:36](https://fathom.video/calls/745679194?timestamp=216) Jill Peralta: I'm going to try. I think I can. Perfect. think I can.
+
+[3:43](https://fathom.video/calls/745679194?timestamp=223) Alan Nguyen: Okay, awesome.
+
+[3:45](https://fathom.video/calls/745679194?timestamp=225) Jill Peralta: Okay. So I filled out the rest of it.
+
+[3:49](https://fathom.video/calls/745679194?timestamp=229) Alan Nguyen: One moment. So for the name, I can pull up your form, too. You filled out the optimization form, right? Oh. . So for the optimization form. The name that was on your birth certificate, is that the same exact spelling and name that's on your driver's license?
+
+[4:08](https://fathom.video/calls/745679194?timestamp=248) Jill Peralta: What did I put on there? I probably didn't put my middle name in there. I probably didn't do that.
+
+[4:19](https://fathom.video/calls/745679194?timestamp=259) Alan Nguyen: I couldn't change it.
+
+[4:22](https://fathom.video/calls/745679194?timestamp=262) Jill Peralta: Whatever's on my passport or driver's license.
+
+[4:26](https://fathom.video/calls/745679194?timestamp=266) Alan Nguyen: and you submitted your form, right? I'll have to pull that up. But do you know, off the top of your head, what is exactly spelled out on your driver's license?
+
+[4:34](https://fathom.video/calls/745679194?timestamp=274) Jill Peralta: I can put it up. Okay, awesome.
+
+[4:37](https://fathom.video/calls/745679194?timestamp=277) Alan Nguyen: if you could pull up your social security card and your driver's license, and I can also pull it up on my end too, because I think you did submit it, just to make sure the spelling's all uniform.
+
+[4:51](https://fathom.video/calls/745679194?timestamp=291) Jill Peralta: So I have my driver's license. Let's just give it up. it's got my middle name. So it's Jillian Kim Peralta. So what you see on right there? What is his owner's name? That's what's on my driver's license, slash passport, it's on my official documents.
+
+[5:08](https://fathom.video/calls/745679194?timestamp=308) Alan Nguyen: Awesome, and is that the same name that's on your social security card?
+
+[5:14](https://fathom.video/calls/745679194?timestamp=314) Jill Peralta: Yes, it's got my last name on there, like Peralta.
+
+[5:18](https://fathom.video/calls/745679194?timestamp=318) Alan Nguyen: And the middle name, the middle name too. And the middle name.
+
+[5:22](https://fathom.video/calls/745679194?timestamp=322) Jill Peralta: Okay, awesome.
+
+[5:36](https://fathom.video/calls/745679194?timestamp=336) Jill Peralta: So, do I have to put my full social? I mean, do I need to do that? Okay. For tax purposes? Like, why am I doing that?
+
+[5:44](https://fathom.video/calls/745679194?timestamp=344) Alan Nguyen: it's just the Federal Transparency Act with the, that's what the government wants, basically. They just want to know that, like, hey, like, this is the person that's going to own this entity, basically.
+
+[5:53](https://fathom.video/calls/745679194?timestamp=353) Jill Peralta: Okay.
+
+[5:54](https://fathom.video/calls/745679194?timestamp=354) Alan Nguyen: Yep, and I would put your phone number in there.
+
+[6:00](https://fathom.video/calls/745679194?timestamp=360) Jill Peralta: And I tried to. There's no place to, you see how Adobe didn't put a, like, a text box? .
+
+[6:09](https://fathom.video/calls/745679194?timestamp=369) Alan Nguyen: Okay, got it. so I'll just fix that. But I just got my email. Okay, I'll fix that in our end. And so for the phone number, is it just the same number that's on file here with you?
+
+[6:18](https://fathom.video/calls/745679194?timestamp=378) Jill Peralta: Yes.
+
+[6:19](https://fathom.video/calls/745679194?timestamp=379) Alan Nguyen: . Okay. Awesome. Okay, so that should be good. If everything looks correct to you, once you get that submitted over, I can send that over to the people that work on that, and we'll be able to get that secured for you. within five business days.
+
+[6:36](https://fathom.video/calls/745679194?timestamp=396) Jill Peralta: Oh, nice. Okay, so.
+
+[6:43](https://fathom.video/calls/745679194?timestamp=403) Alan Nguyen: Hopefully sooner I'll try to ask them to expedite it too.
+
+[6:52](https://fathom.video/calls/745679194?timestamp=412) Jill Peralta: Success. Awesome.
+
+[6:54](https://fathom.video/calls/745679194?timestamp=414) Alan Nguyen: just confirm the phone number is 599, or sorry, 559-355-5. So we got that there, and then, okay, awesome, and just to confirm, because I know I have a lot of different forms right now, you did submit the optimization form, right? That's one where you, like, uploaded your driver's license and everything else?
+
+[7:20](https://fathom.video/calls/745679194?timestamp=440) Jill Peralta: So I, no, I didn't. So if it required me to upload my driver's license, then I probably didn't do that. And there's somewhere here that has that link on there.
+
+[7:30](https://fathom.video/calls/745679194?timestamp=450) Alan Nguyen: I wouldn't worry about that now.
+
+[7:31](https://fathom.video/calls/745679194?timestamp=451) Jill Peralta: Which I was not aware of.
+
+[7:33](https://fathom.video/calls/745679194?timestamp=453) Alan Nguyen: don't worry about that now. Let's get you into the system.
+
+[7:37](https://fathom.video/calls/745679194?timestamp=457) Jill Peralta: I'll do that later.
+
+[7:38](https://fathom.video/calls/745679194?timestamp=458) Alan Nguyen: But I'm not aware of that. . Okay, awesome. Yep, so it'll be in your dashboard, and then, basically, it'll be super easy after that. So, let's see. Check your email whenever you get the chance, and then look, when you have it pulled up, let me know, and then search for Slack, S-L-A-C-K. I got an email maybe the other day.
+
+[8:02](https://fathom.video/calls/745679194?timestamp=482) Jill Peralta: Oh.
+
+[8:05](https://fathom.video/calls/745679194?timestamp=485) Alan Nguyen: So Slack is going to be the way that we... It might be easier if just search for it. Oh, there you go.
+
+[8:14](https://fathom.video/calls/745679194?timestamp=494) Jill Peralta: So I did this. So it asked me to confirm my email address, which I did. Okay, awesome.
+
+[8:21](https://fathom.video/calls/745679194?timestamp=501) Alan Nguyen: I mean, I already did this, but... Okay, so then what happens after you press confirm? Because I don't think you're in the Slack as of yet. And it's free, so no worries on that.
+
+[8:49](https://fathom.video/calls/745679194?timestamp=529) Jill Peralta: Do put my name? I don't remember. . Yep, so this will your login. did this on my my phone, but .
+
+[9:08](https://fathom.video/calls/745679194?timestamp=548) Alan Nguyen: Okay, awesome. So once you confirm that, let's check your email. So try going back and just searching Slack in the search bar. This not that one yet. search bar. Type in Slack, S-L-A-C-K. This one here? Let's see. yep, and press enter. Let's see. Let me just send you another invite. It'd probably be easier that way. This one here, right? Oh.
+
+[10:28](https://fathom.video/calls/745679194?timestamp=628) Jill Peralta: Accept invitation?
+
+[10:29](https://fathom.video/calls/745679194?timestamp=629) Alan Nguyen: Is that it? Yes. invitation? that's a look. . Awesome. What are your plans for the upcoming week?
+
+[10:46](https://fathom.video/calls/745679194?timestamp=646) Jill Peralta: I don't have anything. Oh, you know what? I'm hoping I have it.
+
+[10:57](https://fathom.video/calls/745679194?timestamp=657) Alan Nguyen: So you just press continue again, and then... Okay. It'd be good because we already confirmed it. I think this is just to accept it.
+
+[11:07](https://fathom.video/calls/745679194?timestamp=667) Jill Peralta: I don't really, oh god.
+
+[11:14](https://fathom.video/calls/745679194?timestamp=674) Alan Nguyen: so much security. There we go. I think it's that one confirmed. Maybe I have a six-digit code on there. This one? looks recent.
+
+[11:26](https://fathom.video/calls/745679194?timestamp=686) Jill Peralta: No.
+
+[11:27](https://fathom.video/calls/745679194?timestamp=687) Alan Nguyen: No, not that one. Go back to your inbox.
+
+[11:30](https://fathom.video/calls/745679194?timestamp=690) Jill Peralta: Here, let me, not that one. Let me, you know what? I can pull it up on my computer. I'll pull it up on my computer. Okay.
+
+[11:39](https://fathom.video/calls/745679194?timestamp=699) Alan Nguyen: Here we go.
+
+[11:40](https://fathom.video/calls/745679194?timestamp=700) Jill Peralta: I'll put it on my computer. Maybe I'm in. I don't really have any, like, specific plans. Spend time with my kids, I guess.
+
+[12:09](https://fathom.video/calls/745679194?timestamp=729) Alan Nguyen: . What do your kids like to do?
+
+[12:12](https://fathom.video/calls/745679194?timestamp=732) Jill Peralta: Let's see.
+
+[12:14](https://fathom.video/calls/745679194?timestamp=734) Alan Nguyen: Okay, awesome.
+
+[12:16](https://fathom.video/calls/745679194?timestamp=736) Alan Nguyen: All right, you can just close out of that. You don't have to sign up for that. Just, should be the way to say no, or if you scroll down, maybe. I'm trying to. Yep. Limited free version right there. The white button. Start with limited free version. Me. Yep. All right. Sweet. And then, so this is Slack. Are you familiar with Slack at all?
+
+[12:40](https://fathom.video/calls/745679194?timestamp=760) Jill Peralta: I've used it before. Okay.
+
+[12:42](https://fathom.video/calls/745679194?timestamp=762) Alan Nguyen: I've used the ones with, like, some other thing we were doing, some kind of internet.
+
+[12:49](https://fathom.video/calls/745679194?timestamp=769) Jill Peralta: Okay. Okay.
+
+[12:50](https://fathom.video/calls/745679194?timestamp=770) Alan Nguyen: There we go.
+
+[12:51](https://fathom.video/calls/745679194?timestamp=771) Alan Nguyen: Yep. this is just going to be our, Get started. The portal in which we're going to communicate. We'll be able to communicate, quickly through here. So anything you say, you know, it'll be like a priority. So we'll be able to do any type of correspondence with your profile through here. Also, obviously, you we can, like, text and call as well, too, but this will be, you know, probably the most efficient route to do things. And then also there's a mobile app, too, or you can log on to mobile on your phone as well, too, so you get notifications there, whatever's easiest. But, okay, so now that you got that up and running, let's see. Sometimes the notifications are weird, so if you press the settings bar right here, oh, the cog wheel right here, you see that?
+
+[13:38](https://fathom.video/calls/745679194?timestamp=818) Jill Peralta: Right here?
+
+[13:39](https://fathom.video/calls/745679194?timestamp=819) Alan Nguyen: does it show you me marking up your screen or not?
+
+[13:43](https://fathom.video/calls/745679194?timestamp=823) Jill Peralta: Oh, know what, right here, right here, probably, right?
+
+[13:45](https://fathom.video/calls/745679194?timestamp=825) Alan Nguyen: Yes.
+
+[13:48](https://fathom.video/calls/745679194?timestamp=828) Jill Peralta: Where am I doing? Announcements?
+
+[13:50](https://fathom.video/calls/745679194?timestamp=830) Alan Nguyen: And then settings, is there settings? Oh, edit defaults on the bottom.
+
+[13:59](https://fathom.video/calls/745679194?timestamp=839) Jill Peralta: . And there's something about notifications, you said?
+
+[14:04](https://fathom.video/calls/745679194?timestamp=844) Alan Nguyen: notifications.
+
+[14:08](https://fathom.video/calls/745679194?timestamp=848) Alan Nguyen: Just want to make sure that they're on because sometimes it doesn't come through. Okay, awesome. Yep, it looks good.
+
+[14:14](https://fathom.video/calls/745679194?timestamp=854) Jill Peralta: Okay, so you can close out of that.
+
+[14:16](https://fathom.video/calls/745679194?timestamp=856) Alan Nguyen: So then now you're good on notifications. Okay, now if you want to go back to your email, we're going to get you access to the portal next. And it should be a recent email from Notion, just in your general inbox, Matterpress inbox again, to get it to refresh because I think it's still searching. Under Slack.
+
+[14:40](https://fathom.video/calls/745679194?timestamp=880) Jill Peralta: This one here, your channel?
+
+[14:42](https://fathom.video/calls/745679194?timestamp=882) Alan Nguyen: Yep, Notion.
+
+[14:44](https://fathom.video/calls/745679194?timestamp=884) Jill Peralta: Is that the channel?
+
+[14:45](https://fathom.video/calls/745679194?timestamp=885) Alan Nguyen: The first one, the client portal. Not the channel, client portal. .
+
+[14:53](https://fathom.video/calls/745679194?timestamp=893) Jill Peralta: This one here, right?
+
+[14:54](https://fathom.video/calls/745679194?timestamp=894) Alan Nguyen: Sweet. Yep. And then get started. Have you ever used Notion before?
+
+[15:09](https://fathom.video/calls/745679194?timestamp=909) Jill Peralta: No, I don't recognize that.
+
+[15:11](https://fathom.video/calls/745679194?timestamp=911) Alan Nguyen: Okay, awesome. we'll walk you through. It's pretty simple, but it makes everything like super easy. Everything's like organized and then gives you access to the self-paced programs as well as your own dashboard to let you know like what step we're at, what the next tasks are and everything like that. So, yep, we just have to go through the process of signing up and then just let me know when you're done with that.
+
+[16:05](https://fathom.video/calls/745679194?timestamp=965) Jill Peralta: Would you say you work or you live?
+
+[16:10](https://fathom.video/calls/745679194?timestamp=970) Alan Nguyen: Currently, currently I'm in the Palm Springs area, so a little bit out, but Southern California.
+
+[16:20](https://fathom.video/calls/745679194?timestamp=980) Jill Peralta: Can we say J-J-J-J-Y?
+
+[16:23](https://fathom.video/calls/745679194?timestamp=983) Alan Nguyen: Yep, whatever you want to name it, doesn't matter. Okay, sweet. So now you're in the client portal. can access this on mobile and on your phone as well, or sorry, on your desktop and mobile as well too. So you see here in the middle, you have all of your preparation tasks, right, in this box in the middle, right? So these are things that we can both access simultaneously. So anything that I do live on my side, like I'll say live, oops, live test here. You should probably be able to see it, I think if you scroll down a little bit, but basically everything here in this, in this section is going to be the name of what's basically going on, like that, and then if you go to the right, are you able to scroll to the right somehow?
+
+[17:25](https://fathom.video/calls/745679194?timestamp=1045) Jill Peralta: Is this not the right for ad workspace?
+
+[17:28](https://fathom.video/calls/745679194?timestamp=1048) Alan Nguyen: Or, are you able to zoom out, like control minus?
+
+[17:37](https://fathom.video/calls/745679194?timestamp=1057) Jill Peralta: Let's see.
+
+[17:42](https://fathom.video/calls/745679194?timestamp=1062) Alan Nguyen: there we go, and then maybe do Do it one more time.
+
+[17:47](https://fathom.video/calls/745679194?timestamp=1067) Jill Peralta: Right here? Oh, maybe that's what it is. There's something here. Okay. Oh, there we go.
+
+[17:53](https://fathom.video/calls/745679194?timestamp=1073) Alan Nguyen: So you see how like these things start popping up right there, and I'll close all these out. You see how on the right, right, it says the status.
+
+[18:02](https://fathom.video/calls/745679194?timestamp=1082) Jill Peralta: okay.
+
+[18:03](https://fathom.video/calls/745679194?timestamp=1083) Alan Nguyen: Yep. So those are the status. Basically, you can click on those as you go through them. So, like, for example, the first one at the top, it says, I uploaded your credit report, and it says done. If you ever want to access that, you can open up the comment here or scroll to the right more, but it's kind of taking a lot of space there.
+
+[18:21](https://fathom.video/calls/745679194?timestamp=1101) Jill Peralta: .
+
+[18:22](https://fathom.video/calls/745679194?timestamp=1102) Alan Nguyen: Oh, and there's, like, an invisible line here. you should be able to, yep, after you're done with that, I can show you.
+
+[18:31](https://fathom.video/calls/745679194?timestamp=1111) Jill Peralta: Okay, go ahead.
+
+[18:33](https://fathom.video/calls/745679194?timestamp=1113) Alan Nguyen: So, there should be an invisible line here, and you should be able to grab it and then drag the elements over to the right if you need more space. you see that? A little bit to the left. there we go. Yep, so if you click and drag, but you're going to want to drag it the other way, because you want the center console to be the largest. there you go. Yep, so now you can see this stuff, right?
+
+[18:53](https://fathom.video/calls/745679194?timestamp=1133) Jill Peralta: So, right here is the link to your credit report. Okay.
+
+[18:57](https://fathom.video/calls/745679194?timestamp=1137) Alan Nguyen: So, if you ever want to pull it up, it'll be right there. And then, so these are basically the action steps. One, two, three, four, five. And then you just let us know. You can click on the status. So here, let's try an example. So click on this right here. Yep. And then you'll be able to choose the status if you want to say, not starting.
+
+[19:18](https://fathom.video/calls/745679194?timestamp=1158) Jill Peralta: Oh, and then just make sure. Make sure of that. That got to go in there and put it in there. Okay, got it.
+
+[19:23](https://fathom.video/calls/745679194?timestamp=1163) Alan Nguyen: Exactly. And then, so, I wish I could make this bigger on my side, but I'm going to move this up a little bit. Oops. Okay. So now, let clear all these out. And so you see these comments right here? You see that say comment, comments, stuff like that. here? Comments. So those are comments if you click on the button. Yep. If you click on the button, it'll pull up a window. Yep, and it'll tell you basically the different comments that I have on it. That's a sub-window. An easy way to pull it up is if you go to the right side of the box, the top right of any box, there should be an open. So, I don't know if you're able to see this right here. you see that says open? okay. so each of those little things are boxes and you can open them. So then I would press open and it'll open up a sub-window.
+
+[20:25](https://fathom.video/calls/745679194?timestamp=1225) Jill Peralta: Oh, it'll blow it up, right?
+
+[20:27](https://fathom.video/calls/745679194?timestamp=1227) Alan Nguyen: Yep, exactly. And then it'll be like that. And then if you want, you see these two buttons right here. One will collapse it and one will expand it.
+
+[20:36](https://fathom.video/calls/745679194?timestamp=1236) Jill Peralta: Oh, I got you. Okay.
+
+[20:39](https://fathom.video/calls/745679194?timestamp=1239) Alan Nguyen: All right. And so, that's basically for the task list. You can comment on there, I can comment on there and we can keep each other updated and know exactly what's going on. And then for this, like we have the courses over here. So this is the self-paced program. You can click on those and go through those at your own pace. And then if you ever need a refresher, remember this thing That you grab that invisible line over here on the right side. If you want to pull that to the left, you'll always have this to give you a little refresher on how to use the system. Okay.
+
+[21:12](https://fathom.video/calls/745679194?timestamp=1272) Jill Peralta: Yep.
+
+[22:08](https://fathom.video/calls/745679194?timestamp=1328) Jill Peralta: So USAA, need to call Amex. So I have a business Amex card. It's business card. That's not the same thing, right?
+
+[22:16](https://fathom.video/calls/745679194?timestamp=1336) Alan Nguyen: Not the same thing. No, but that's good to know. So you have a business Amex card.
+
+[22:21](https://fathom.video/calls/745679194?timestamp=1341) Jill Peralta: So okay. So I did have an Amex credit card. wouldn't use it. I guess I can call them. See if I can reinstate it.
+
+[22:30](https://fathom.video/calls/745679194?timestamp=1350) Alan Nguyen: Okay. Well, we want to reinstate the personal cards for now. The personal credit cards. So first, USAA, if you can. We want to reinstate it, if possible, in a way where they're able to take your previous history and then basically let just build off what you had before. If they don't allow you to do that and it's going to be a brand new account, just... Put that on pause and then just let me know what the result was. Does that make sense? Gotcha.
+
+[23:05](https://fathom.video/calls/745679194?timestamp=1385) Jill Peralta: I understand.
+
+[23:06](https://fathom.video/calls/745679194?timestamp=1386) Alan Nguyen: if they say yes, then like as in like, oh, well, let me open your old card. It'll have your previous however many years of history. And then we'll just let you continue off from here on out. That will be what we want.
+
+[23:18](https://fathom.video/calls/745679194?timestamp=1398) Jill Peralta: All right. I can, I might be, I'll probably have been like with USA. I don't know about MX, but okay. But I'll start with USA. USA.
+
+[23:27](https://fathom.video/calls/745679194?timestamp=1407) Alan Nguyen: Sounds good. And then that'll just help us thicken up your profile a little bit more to make you, you know, even more fundable on the business side. So so that'd be one of the first things for you to do. And if you have any other questions, you know, you can feel free to put a comment in or you can message me on Slack for about whatever. And I can send you looms and videos and stuff like that. And then everything here, I guess, do you have any questions about that before we move forward? Or does that make sense?
+
+[23:52](https://fathom.video/calls/745679194?timestamp=1432) Jill Peralta: No, you said, okay. All right. So I understand now. Okay. Okay.
+
+[23:58](https://fathom.video/calls/745679194?timestamp=1438) Alan Nguyen: And then so for. Well, did you have any questions about the USA Amex, or we good there?
+
+[24:08](https://fathom.video/calls/745679194?timestamp=1448) Jill Peralta: I saw that I aimed for $10,000 credit limits, if not, let's say they only gave me $6,000. That's fine.
+
+[24:18](https://fathom.video/calls/745679194?timestamp=1458) Alan Nguyen: That's fine. . Or whatever, Ryan, whatever the credit limit is. . as long as it's, we want to not go lower than $2,500. Anything above $2,500 is better. So there's tiers, basically. It's going to be $2,500, $5K, $10K. $10K will be the best. Make sense?
+
+[24:37](https://fathom.video/calls/745679194?timestamp=1477) Jill Peralta: I understand.
+
+[24:39](https://fathom.video/calls/745679194?timestamp=1479) Alan Nguyen: Okay. Awesome. And then, so aside from that, you see these, what's called, these disputes, the move name variations and additional addresses.
+
+[24:51](https://fathom.video/calls/745679194?timestamp=1491) Jill Peralta: So, okay. So I got to, you want me, TransUnion, like, go talk to TransUnion and request. Well, I already had the credit before, so I'm just disputing directly with TransUnion, right?
+
+[25:06](https://fathom.video/calls/745679194?timestamp=1506) Alan Nguyen: Yep. So essentially, if you open up this panel, I wrote notes on it. Either you can go through it yourself at your own pace, or we could do it for you. It's totally up to you, either one, because you are a part of the Done For You program as well, too. Either way, just let us know if you want us to do it for you or if you want to do it yourself. But the instructions are in here, and then also there is a link. You see the resource link up here?
+
+[25:33](https://fathom.video/calls/745679194?timestamp=1533) Jill Peralta: Resource link. Resource link. Where is that?
+
+[25:35](https://fathom.video/calls/745679194?timestamp=1535) Alan Nguyen: Right there.
+
+[25:37](https://fathom.video/calls/745679194?timestamp=1537) Jill Peralta: Okay. Oh, I got it.
+
+[25:38](https://fathom.video/calls/745679194?timestamp=1538) Alan Nguyen: Okay. So that'll lead you to a video course on that specifically. But just to make it simple, these text comments basically explain that you have two ways of basically approaching it. You can either, log into each of the websites, like TransUnion, Equifax, Experian, and then just dispute or the dispute centers from the websites and then just remove them pretty much instantly. That's the best. Less amount of time, less amount of effort.
+
+[26:02](https://fathom.video/calls/745679194?timestamp=1562) Jill Peralta: Just go direct on their site, right?
+
+[26:05](https://fathom.video/calls/745679194?timestamp=1565) Alan Nguyen: Yep. I would just Google TransUnion Dispute Center, Equifax Dispute Center, Experian Dispute Center. It's usually like the first or second link. And then, then you can go in and get those removed if you want. Or if you want us to do it for you, we can do that, no problem. Just let us know. Well, I guess I should ask, do you want us to do that for you? Or did you want to go through that process yourself to get a little bit familiar with it?
+
+[26:28](https://fathom.video/calls/745679194?timestamp=1588) Jill Peralta: I'm going to, I'm going to do my best to, so I should be able to try to, I'm going at try to do it, right? I'll bring it up and if I just, I am stuck, but I can at least try.
+
+[26:37](https://fathom.video/calls/745679194?timestamp=1597) Alan Nguyen: Okay. Awesome. . So the goal and objective is to make sure that we have the name that's on your driver's license and your social. So your full Jillian, Kim, and then how do you say your last name?
+
+[26:49](https://fathom.video/calls/745679194?timestamp=1609) Jill Peralta: Peralta? Peralta. . Peralta.
+
+[26:51](https://fathom.video/calls/745679194?timestamp=1611) Alan Nguyen: . We just want to make sure that that one name is uniform across all three bureaus. Because long story short, the underwriter. Auditors typically, every time they see too many names, it's a point deduction off of your ability to approval, essentially, to keep it simple. So we want to remove as many reasons for them to not want to give us automated approvals, and that's just one part of the equation. So, yep, so just remove any additional names and any additional addresses, basically. And then method two is if for whatever reason you're not able to remove it online, the second way is to send a letter, right? And then in this letter, all you got to do is do a written statement. It's, you know, nothing fancy. It's just, hey, this is my name. These are the names that should not be on there. Only have this one name. Delete everything else and make this my updated singular name. And that's it. And then here's my, here's my, here's the proof of verification. So here's my birthday. Here's my driver's license. And that's a picture of that. Here's, you know, a proof of address with my name on it. Utility bill bank statement. You need two of those. Well, I guess your driver's license count is one. So one driver's license, one utility. And then if you want to be extra sure that they have no reason to say no, then also attach a color copy of your Social Security card to in that piece, that document, save it as a PDF, and then there's two ways to go about it. You can either upload it to their portal. Each one has an upload portal on their website, or you can mail it in. If you mail it in, actually, well, before I say anything, does that make sense so far?
+
+[28:25](https://fathom.video/calls/745679194?timestamp=1705) Jill Peralta: so I moved a lot. So the driver's license, it's going to have Texas, a lot of Texas driver's license number on there. So is this still the same? Just go and update it, just say I want it for the California license.
+
+[28:39](https://fathom.video/calls/745679194?timestamp=1719) Alan Nguyen: your current license is California, right?
+
+[28:44](https://fathom.video/calls/745679194?timestamp=1724) Jill Peralta: Yes.
+
+[28:45](https://fathom.video/calls/745679194?timestamp=1725) Alan Nguyen: Okay, yes. so you shouldn't delete everything besides your current.
+
+[28:49](https://fathom.video/calls/745679194?timestamp=1729) Jill Peralta: Everything.
+
+[28:51](https://fathom.video/calls/745679194?timestamp=1731) Alan Nguyen: Yep. And then, so I even list them on there as well, too. So if you scroll down, there should... Okay, you see show two replies, if you open that up, so you'll see right there, these are the extra names on there that I saw.
+
+[29:11](https://fathom.video/calls/745679194?timestamp=1751) Jill Peralta: Oh, I see, go in there and just dispute it and say, that's my main name, yep, yep.
+
+[29:17](https://fathom.video/calls/745679194?timestamp=1757) Alan Nguyen: Yep, and then if you scroll to the very top of this little sub window, I also attached a photo of what it looks like. So you see the file attachment right here, oops, right there, so if you click on the right side, there's a little, like, tiny, tiny thing right there. If you click on that. Oh, I can blow it up? and then it'll show you exactly what it shows on your report.
+
+[29:42](https://fathom.video/calls/745679194?timestamp=1782) Jill Peralta: You see all those extra items? Oh, you can tell I moved. I look like a criminal.
+
+[29:49](https://fathom.video/calls/745679194?timestamp=1789) Alan Nguyen: Because I moved so many times. people move all the time, but we just want to make sure that we have one single address that's matching and one name. And then make sure that has the... That came in there, too. So other than that, that would be your short-term task list. Oh, also, you filled out the form already, right? You submitted the transparency form?
+
+[30:12](https://fathom.video/calls/745679194?timestamp=1812) Jill Peralta: I believe I did.
+
+[30:14](https://fathom.video/calls/745679194?timestamp=1814) Alan Nguyen: Okay, awesome.
+
+[30:15](https://fathom.video/calls/745679194?timestamp=1815) Jill Peralta: It was like a short form?
+
+[30:17](https://fathom.video/calls/745679194?timestamp=1817) Alan Nguyen: Yep. we went over it together. I just didn't know if you press submit or not. But if you press submit, then, yep, that's the one. And then, let's see, I'm going to add the optimization form here in your portal. Just so you can see it. Let's see. Optimization form and link. There we go. I'm going to drag this up to the top or right under USAA, right there. Okay. I'm going to put an icon on there. Do you see it on your side?
+
+[30:57](https://fathom.video/calls/745679194?timestamp=1857) Jill Peralta: I saw something at your moon.
+
+[30:59](https://fathom.video/calls/745679194?timestamp=1859) Alan Nguyen: Let me see. so you see the rocket ship right there that says optimization form, the third thing down. There should be a link. There should be a link there. And then click on that. And then this is just something that, you know, this is for us.
+
+[31:15](https://fathom.video/calls/745679194?timestamp=1875) Jill Peralta: okay. So this is what you're saying. Just upload it. .
+
+[31:18](https://fathom.video/calls/745679194?timestamp=1878) Alan Nguyen: Yep. So this is so we can do optimizations on your behalf. I know you're probably not going get too much now, but like, let's say you wanted us to do the name removals. Let's say you wanted us to do the address removals. Let's say like in the future, you're going to need us to remove some of the hard inquiries when we start going through the process. can take all, I'll take care of all that for you through, through this form, basically.
+
+[31:39](https://fathom.video/calls/745679194?timestamp=1899) Jill Peralta: .
+
+[31:40](https://fathom.video/calls/745679194?timestamp=1900) Alan Nguyen: You know, yep. So that's what that's for. And then other than that, that's basically it. Do you have any questions for me so far?
+
+[31:50](https://fathom.video/calls/745679194?timestamp=1910) Jill Peralta: No, think I, I think I just need to through this.
+
+[31:53](https://fathom.video/calls/745679194?timestamp=1913) Alan Nguyen: Okay, awesome. And then, you know, keep me updated and I'll keep you updated as well, too, with where you're at in the process. And then we'll check in. Maybe, like, I'll send you, like, a text or an email, like, maybe every day or every other day just to keep you, like, you know, updated with what the status is or however, you know, the cadence is needed. But one last thing that I want you to check is, so you see in this top left corner, top left corner right here?
+
+[32:18](https://fathom.video/calls/745679194?timestamp=1938) Jill Peralta: .
+
+[32:19](https://fathom.video/calls/745679194?timestamp=1939) Alan Nguyen: Yep. So these are the self-paced programs. So whichever one you feel like is most relevant for you in the moment, you know, you can click on one of those and we can kind of look at where it is. Yes. They're, like, that open to okay.
+
+[32:31](https://fathom.video/calls/745679194?timestamp=1951) Jill Peralta: I see. Okay.
+
+[32:33](https://fathom.video/calls/745679194?timestamp=1953) Alan Nguyen: And then so... Okay. . It's a self-paced program. You can just click on any of those and then it'll open up either more links or a video. Do you have any questions? What questions do you have about that?
+
+[32:53](https://fathom.video/calls/745679194?timestamp=1973) Jill Peralta: Okay.
+
+[32:55](https://fathom.video/calls/745679194?timestamp=1975) Alan Nguyen: A lot.
+
+[32:56](https://fathom.video/calls/745679194?timestamp=1976) Alan Nguyen: . I think a lot of this isn't, is not going to be really relevant. At least the credit repair clinic, because you don't have anything to really repair on your credit. This would be for like people, if you have like collections, charge-offs, late payments, you know, I guess hard inquiries too is right there. I guess that could be useful in the future, but nothing urgent. So when I go, when I talk to USA, what was that?
+
+[33:25](https://fathom.video/calls/745679194?timestamp=2005) Jill Peralta: Hey, Alan, when I call Amex or USAA, right, and I ask them about doing a reinstating, are they going to do a hard pull? Do I care?
+
+[33:34](https://fathom.video/calls/745679194?timestamp=2014) Alan Nguyen: you, you want to ask them, if they are, if, if they're reinstating your old account with the old history specifically, and it's not a brand new account with no history, then it would be worth it, right? It would be worth the hard inquiry because we'll be able to remove that hard inquiry. But, and, and the benefit is just going to be way, way better. Like it's, it's good.
+
+[34:00](https://fathom.video/calls/745679194?timestamp=2040) Jill Peralta: Okay. I can ask them. Okay.
+
+[34:03](https://fathom.video/calls/745679194?timestamp=2043) Alan Nguyen: Awesome. And then everything else, we're going to be pending on the business side because obviously we can't start any of the business stuff until we actually get your corporation because we're obviously going to have to get it first and then get you to set up everything. So we'll cross that bridge when we come to it. That'll be within five business days. So we'll be able to start then. But in the meantime, just got to, you know, just to clarify, we got to remove the negatives or sorry, remove the duplicate names and addresses. .
+
+[34:31](https://fathom.video/calls/745679194?timestamp=2071) Jill Peralta: And then, and then do the card.
+
+[34:33](https://fathom.video/calls/745679194?timestamp=2073) Alan Nguyen: And that's basically all that you need to do now for the next week or so until we get the, that entity. And, and again, if you want our help with it, we can definitely, you know, help you just let us know.
+
+[34:42](https://fathom.video/calls/745679194?timestamp=2082) Jill Peralta: All right. Cool. Okay.
+
+[34:45](https://fathom.video/calls/745679194?timestamp=2085) Alan Nguyen: Awesome. What, what questions do you have for me? Oh, I'm to go start to get this started.
+
+[34:50](https://fathom.video/calls/745679194?timestamp=2090) Jill Peralta: What? Okay.
+
+[34:51](https://fathom.video/calls/745679194?timestamp=2091) Alan Nguyen: One last thing. Sorry.
+
+[34:55](https://fathom.video/calls/745679194?timestamp=2095) Jill Peralta: No, go ahead.
+
+[34:57](https://fathom.video/calls/745679194?timestamp=2097) Alan Nguyen: . So one last thing up at the top. So let me, why is this being weird? okay. Well, it disappeared on me, but I'll just add another comments. Oh, credit card tracker. There we go. You see at the, well, you can't see it on your side, but if you, if you go back to the previous page, I can walk you through that. . Yep. So you see at the scroll up to the top, you see credit card tracker, and then there's a little arrow on the left-hand side. That's a dropdown. . So you open that up. And then what we want to do is include all your business cards here. So I heard you had an Amex business.
+
+[35:39](https://fathom.video/calls/745679194?timestamp=2139) Jill Peralta: Okay.
+
+[35:40](https://fathom.video/calls/745679194?timestamp=2140) Alan Nguyen: .
+
+[35:41](https://fathom.video/calls/745679194?timestamp=2141) Jill Peralta: have an Amex and then I got a, I got, I got capital one. Okay. And then just add that in there, right?
+
+[35:47](https://fathom.video/calls/745679194?timestamp=2147) Alan Nguyen: Yep. I'm adding it right here for you now. And these both business, they're both business credit cards.
+
+[35:52](https://fathom.video/calls/745679194?timestamp=2152) Jill Peralta: Right.
+
+[35:53](https://fathom.video/calls/745679194?timestamp=2153) Alan Nguyen: And what are the, the credit limits on those?
+
+[36:00](https://fathom.video/calls/745679194?timestamp=2160) Jill Peralta: so I don't know about Amex, but I forgot what Amex was. I know Capital One said they didn't have one. There's no credit limit.
+
+[36:07](https://fathom.video/calls/745679194?timestamp=2167) Alan Nguyen: Oh, or is that possibly backwards? Amex had no credit limit and Capital One might not?
+
+[36:14](https://fathom.video/calls/745679194?timestamp=2174) Jill Peralta: Well, had no. Oh, you know what he said? Capital One said there was no spending limit. I don't know about credit limit. think that's two different things.
+
+[36:21](https://fathom.video/calls/745679194?timestamp=2181) Alan Nguyen: typically that's Amex. Amex is the one that's known for no spending limit. No preset spending limit.
+
+[36:26](https://fathom.video/calls/745679194?timestamp=2186) Jill Peralta: Two, but also Capital One, because I asked them when I talked to them Friday.
+
+[36:32](https://fathom.video/calls/745679194?timestamp=2192) Alan Nguyen: Okay, nice. Do you know what the name of these cards are?
+
+[36:39](https://fathom.video/calls/745679194?timestamp=2199) Jill Peralta: If you don't know it off the top of head, it's no big deal.
+
+[36:42](https://fathom.video/calls/745679194?timestamp=2202) Alan Nguyen: You can just add it later. But do you know when these cards were opened as well?
+
+[36:55](https://fathom.video/calls/745679194?timestamp=2215) Jill Peralta: A Spark Business for Capital One. I don't know what it is for Amex.
+
+[37:01](https://fathom.video/calls/745679194?timestamp=2221) Alan Nguyen: Okay. And when was the Spark opened? Thanks for calling that up.
+
+[37:05](https://fathom.video/calls/745679194?timestamp=2225) Jill Peralta: 2024.
+
+[37:07](https://fathom.video/calls/745679194?timestamp=2227) Alan Nguyen: 2024. Okay. Do you know what month roughly?
+
+[37:12](https://fathom.video/calls/745679194?timestamp=2232) Jill Peralta: Let get a silly one here. It could be approximate.
+
+[37:16](https://fathom.video/calls/745679194?timestamp=2236) Alan Nguyen: could be like quarter one, quarter two, quarter three, or a range.
+
+[37:22](https://fathom.video/calls/745679194?timestamp=2242) Jill Peralta: We'll just say quarter one. I'll verify.
+
+[37:24](https://fathom.video/calls/745679194?timestamp=2244) Alan Nguyen: Okay. Quarter one, 2024 opened. And then Amex, do you know roughly when that one was opened?
+
+[37:33](https://fathom.video/calls/745679194?timestamp=2253) Jill Peralta: Gosh, man. 20, maybe 2020? See, we go.
+
+[37:38](https://fathom.video/calls/745679194?timestamp=2258) Alan Nguyen: Okay, 2020.
+
+[37:40](https://fathom.video/calls/745679194?timestamp=2260) Jill Peralta: Okay, America Express Business. It says business.
+
+[37:45](https://fathom.video/calls/745679194?timestamp=2265) Alan Nguyen: are you able to show the front of the card at all? Because I'll probably be able to tell just by the front.
+
+[37:53](https://fathom.video/calls/745679194?timestamp=2273) Jill Peralta: That's my camera.
+
+[37:58](https://fathom.video/calls/745679194?timestamp=2278) Alan Nguyen: Oh, that's a debit card.
+
+[38:01](https://fathom.video/calls/745679194?timestamp=2281) Jill Peralta: that's my business checking. So I have an American Express with Charles Schwab, but that's a debit, I think it's a debit card. They treat it as like it's debit. Okay, do you have a? Okay, do you know if you have an AMEX credit card?
+
+[38:25](https://fathom.video/calls/745679194?timestamp=2305) Alan Nguyen: I guess not.
+
+[38:27](https://fathom.video/calls/745679194?timestamp=2307) Jill Peralta: I did a long time ago. I did. That's probably the one that I closed. . Okay.
+
+[38:36](https://fathom.video/calls/745679194?timestamp=2316) Alan Nguyen: Okay. Closed. And then are there any other business credit cards, loans, lines of credit that you have?
+
+[38:43](https://fathom.video/calls/745679194?timestamp=2323) Jill Peralta: Well, that the business... Debit card, it's attached to my business bank account.
+
+[39:05](https://fathom.video/calls/745679194?timestamp=2345) Alan Nguyen: Isn't that like a line of credit? No, I think that's just a debit card, right? . It's just like, you know, cash card. Okay. No big deal. Okay. Is there any, so just to confirm, there's no other business credit cards, correct? correct.
+
+[39:22](https://fathom.video/calls/745679194?timestamp=2362) Jill Peralta: Okay.
+
+[39:23](https://fathom.video/calls/745679194?timestamp=2363) Alan Nguyen: Awesome. And then are there any banks that, that we should not be going to when we're planning out your funding sequence? Like maybe like anything that happened in the past or anything like that?
+
+[39:35](https://fathom.video/calls/745679194?timestamp=2375) Jill Peralta: That I know of? No, I don't think so.
+
+[39:37](https://fathom.video/calls/745679194?timestamp=2377) Alan Nguyen: Okay. Awesome. Okay. Sweet. Should be good. And then one last thing I want to show you on the portal. If you, you see right here, you see it says credit profile and business setup. You see how those have arrows. if you open those up, it'll show you an overview of kind of things to check off.
+
+[39:56](https://fathom.video/calls/745679194?timestamp=2396) Jill Peralta: Okay.
+
+[39:57](https://fathom.video/calls/745679194?timestamp=2397) Alan Nguyen: just make sure not to delete any of those, but they are. So if you click on one, think it should check on or off. .
+
+[40:03](https://fathom.video/calls/745679194?timestamp=2403) Jill Peralta: .
+
+[40:05](https://fathom.video/calls/745679194?timestamp=2405) Alan Nguyen: So that'll give us a brief overview, and then you can kind of look ahead to what the business setup is, you know, what we have to approach. But we'll cross the bridge when we come to it.
+
+[40:15](https://fathom.video/calls/745679194?timestamp=2415) Jill Peralta: And then, so throughout the journey, this is going to be our dashboard to track everything that we're doing, to let you know what tasks need to be done, for us to know what tasks have been completed, and then for us to, you know, continue to add on to it throughout the process. .
+
+[40:27](https://fathom.video/calls/745679194?timestamp=2427) Alan Nguyen: And then, yep, if you scroll down to, I guess we don't need to necessarily look at it right now, but I haven't added anything in there manually yet, but this will be.
+
+[40:36](https://fathom.video/calls/745679194?timestamp=2436) Jill Peralta: for the, for the H one, right?
+
+[40:39](https://fathom.video/calls/745679194?timestamp=2439) Alan Nguyen: . So, this will be like, you know, when we get our results, we'll start like putting everything in there and then, and the whole process, everything like that. All right, sweet. I know that was a lot to take in. So I know you have to have some questions for me, right?
+
+[40:57](https://fathom.video/calls/745679194?timestamp=2457) Jill Peralta: Oh, not really. I mean, it's really just a matter of like, I mean, I'm not. I'm going have questions right now until I get through the process because somewhere I'm going to get snagged up, but I just don't know where. But I mean, I'll go tomorrow and start going through, like, you know, calling USA and Amex. I don't know how Amex is going to feel about me going back and try to reinstate a credit card.
+
+[41:21](https://fathom.video/calls/745679194?timestamp=2481) Alan Nguyen: Did something happen before?
+
+[41:23](https://fathom.video/calls/745679194?timestamp=2483) Jill Peralta: Well, no, I had an Amex credit card, and then for a long time I just didn't use it, and they were charging me, like, you know, like a premium for something. I wasn't using it, so I finally went and just called and said, close it. But, I mean, I don't know. I don't know how Amex feels about it.
+
+[41:38](https://fathom.video/calls/745679194?timestamp=2498) Alan Nguyen: . I was, like, two years ago.
+
+[41:40](https://fathom.video/calls/745679194?timestamp=2500) Jill Peralta: I guess I can call them and say, hey, can you reinstate me?
+
+[41:43](https://fathom.video/calls/745679194?timestamp=2503) Alan Nguyen: . . worst case scenario, you just say no, right?
+
+[41:47](https://fathom.video/calls/745679194?timestamp=2507) Jill Peralta: and they say no. And then, I think that was the reason why I didn't. I stopped using them because do they charge you? They charge you, like, a maintenance fee or something. Right? Just to have it.
+
+[42:02](https://fathom.video/calls/745679194?timestamp=2522) Alan Nguyen: That's simply for credit cards. Well, I guess, I guess it depends on the credit card too, depending on what credit card you have. Sorry, my camera overheated, but so we'll cross the bridge. And just to clarify again, if it's going to be a brand new account, we do not want to open it. Like that has no history. The reason behind that specifically is because banks will deny you automatically because of this thing that's called too many recently opened accounts. It shows up on adverse action letters because they don't want to see you basically picking up too much credit too soon because it just makes it like higher risk in their eyes. And we have strategies around that, but that's just something like a little foundational thing to. To, to, to communicate. So if I don't, no, I understand.
+
+[43:03](https://fathom.video/calls/745679194?timestamp=2583) Jill Peralta: So I have a, I have like Amazon, right? Amazon, I've had like one of 3D. So let's say AMX says, you know, KickRocks. Can I just go ahead and use a previous card that probably closed? Like this, it was an Amazon Prime credit card?
+
+[43:20](https://fathom.video/calls/745679194?timestamp=2600) Alan Nguyen: Maybe. . Do you know, do you know what the, what the limit? Oh, is it a personal card? Right? it's a personal card. Okay. Do you know what the limit on that is?
+
+[43:30](https://fathom.video/calls/745679194?timestamp=2610) Jill Peralta: Probably like 6,000.
+
+[43:32](https://fathom.video/calls/745679194?timestamp=2612) Alan Nguyen: Okay. . . I mean, if you can open it with the history, then totally it's worth it. If not, then it's not worth it. And then. So then just, you know, one last thing is to make sure that, you you're not opening up any new accounts throughout this process. Any new accounts, you know, what we'll do it together just to make sure that, you know, the strategy is, you know, as solid as possible. Does that make sense? Okay.
+
+[43:58](https://fathom.video/calls/745679194?timestamp=2638) Jill Peralta: . Okay.
+
+[44:00](https://fathom.video/calls/745679194?timestamp=2640) Alan Nguyen: Awesome. And then with Slack, last form of communication is, if you want to pull up Slack, I just want to show you how to send something. So if you ever have any challenges or, you know, anything like that, I don't know if the tab's still open. If you don't, that's okay as well, too.
+
+[44:20](https://fathom.video/calls/745679194?timestamp=2660) Jill Peralta: Which one? Not that one.
+
+[44:22](https://fathom.video/calls/745679194?timestamp=2662) Alan Nguyen: The Slack tab. I think this is it.
+
+[44:24](https://fathom.video/calls/745679194?timestamp=2664) Jill Peralta: here we go.
+
+[44:25](https://fathom.video/calls/745679194?timestamp=2665) Alan Nguyen: So you can, you know, obviously, you know, message here, text messages, but there's also this audio button, too. And if you ever want to send an audio message, that works as well.
+
+[44:36](https://fathom.video/calls/745679194?timestamp=2676) Jill Peralta: Okay, I'm probably never going to do that, but okay.
+
+[44:39](https://fathom.video/calls/745679194?timestamp=2679) Alan Nguyen: Okay, awesome.
+
+[44:41](https://fathom.video/calls/745679194?timestamp=2681) Jill Peralta: Well, invite teammates.
+
+[44:45](https://fathom.video/calls/745679194?timestamp=2685) Alan Nguyen: Oh, do you want to invite a teammate?
+
+[44:48](https://fathom.video/calls/745679194?timestamp=2688) Jill Peralta: No, I don't. Where is, what did you say? No, what the hell? Okay, I just put it in here, right?
+
+[44:56](https://fathom.video/calls/745679194?timestamp=2696) Alan Nguyen: Yep.
+
+[44:58](https://fathom.video/calls/745679194?timestamp=2698) Jill Peralta: I are the only ones in here.
+
+[45:01](https://fathom.video/calls/745679194?timestamp=2701) Alan Nguyen: well, and then if you want, like, the done-for-you services done, which is included with, you know, your program, we have an admin account in there as well, too. So if we're doing any of that, you know, they'll be processing that for you as well, too. So that's what the admin is for. All right, sweet. do you have any questions for me?
+
+[45:32](https://fathom.video/calls/745679194?timestamp=2732) Jill Peralta: No, not just that.
+
+[45:33](https://fathom.video/calls/745679194?timestamp=2733) Alan Nguyen: All right, awesome. Thanks for staying up late.
+
+[45:35](https://fathom.video/calls/745679194?timestamp=2735) Jill Peralta: This is late. I know you got, like, probably another meeting after this.
+
+[45:41](https://fathom.video/calls/745679194?timestamp=2741) Alan Nguyen: Yes, I do need to check in. But, I mean, there's nothing else that, you know, I have to share. sounds like we went over basically everything. I'm going to auto-turn on. I don't know why it got turned off. But my Fathom should be auto-sending everyone the recordings. But I'll return it on, and then I'll manually send. to go Thank And then also, I don't know if you remember, if you go back to your Notion dashboard, there's a section in there for call recording. So I'll start putting all the call recordings in that section. So you'll be able to, anything we talked about, you'll able to jump back in there and breeze through that. Like. Have you ever used Fathom before?
+
+[46:21](https://fathom.video/calls/745679194?timestamp=2781) Jill Peralta: No.
+
+[46:22](https://fathom.video/calls/745679194?timestamp=2782) Alan Nguyen: Okay. It's pretty neat. Once you open it, it's very intuitive. It'll show you, like, the timeline of things. It'll show you the transcript. It'll give you a summary. And then you can search all that stuff and jump around. It's, it's, it's nice.
+
+[46:34](https://fathom.video/calls/745679194?timestamp=2794) Jill Peralta: Oh, nice. .
+
+[46:36](https://fathom.video/calls/745679194?timestamp=2796) Alan Nguyen: All right. Sweet.
+
+[46:38](https://fathom.video/calls/745679194?timestamp=2798) Jill Peralta: Well, is there anything else you'd like to discuss before we, end the call? so this is basically self-paced, self-driven by me. So it might take, I don't know, we'll be looking at, like, a week. If I, like, stay on it.
+
+[46:53](https://fathom.video/calls/745679194?timestamp=2813) Alan Nguyen: Yep. Basically, yes. So you do, you do have time because, again, like, right now, the biggest bottleneck is going to be Oski. And then once we get that over, then we can start running. So once we get that business entity over, just to give you a little overview, we're going to basically set up that process. Ideally, we could get it done within seven days. And then once that's done, and then the personal profile is clean, like the names are updated with your middle name on there and your full first name, full last name. And then all the other names are removed, all the other addresses are removed. So then we're going to be ready to plan out the sequence and start applying. So, so we'll be able to get rolling in next, like, maybe one to two weeks here.
+
+[47:38](https://fathom.video/calls/745679194?timestamp=2858) Jill Peralta: Cool. But I did have a question, and this is kind of looking out. This is looking at, like, kind of, like, zooming out past this. I mean, I'll make sure to get this, you know, get this knocked out. So I think I was talking about, like, a business acquisition, right?
+
+[47:54](https://fathom.video/calls/745679194?timestamp=2874) Alan Nguyen: Yep. Thanks.
+
+[47:56](https://fathom.video/calls/745679194?timestamp=2876) Jill Peralta: For mine. For mine. For mine. For mine. In the next 30 to 60 days. So I think I talked to you about one of the business. And I saw a particular business I don't want to acquire. So that's probably what I got my eye on. I'm to talk to them. Hopefully I talk to them like next, maybe like in this week. No way to rush because we haven't even discussed yet. There's no timeline right now. But I would say if I, you know, I'm in line for this, competitive for it, I would say probably like the next, I don't know, I'll say the next 30, 60 days. Yep. So there's one way I could do this because if I was committed to purchasing this, like if we actually go through this, right, like in the next 30, 60 days, right? I actually do have liquid because they want, they'll do some seller finance, but it's mostly like. I I would say like 80%, 20%.
+
+[49:05](https://fathom.video/calls/745679194?timestamp=2945) Alan Nguyen: Okay.
+
+[49:07](https://fathom.video/calls/745679194?timestamp=2947) Jill Peralta: So I didn't, I mean, I do have stuff liquid. I just haven't, I haven't liquidated it yet because I don't want to, I don't want to do too early, right? Like I don't want to liquidate something I don't have to, especially if I had to take it out of like a, like a taxable account.
+
+[49:26](https://fathom.video/calls/745679194?timestamp=2966) Alan Nguyen: for sure.
+
+[49:27](https://fathom.video/calls/745679194?timestamp=2967) Jill Peralta: So I mean, I'll let you know.
+
+[49:28](https://fathom.video/calls/745679194?timestamp=2968) Alan Nguyen: .
+
+[49:29](https://fathom.video/calls/745679194?timestamp=2969) Alan Nguyen: So I mean. What time, you said 30, 60 days, right?
+
+[49:33](https://fathom.video/calls/745679194?timestamp=2973) Jill Peralta: .
+
+[49:34](https://fathom.video/calls/745679194?timestamp=2974) Alan Nguyen: should definitely get you funding before then. I'm looking at the timeline right now. Today's the 13th. 13th. Let's say the business account, the business gets transferred five days out. So we get it next Monday, right? Next Monday, get that.
+
+[49:48](https://fathom.video/calls/745679194?timestamp=2988) Jill Peralta: Oh.
+
+[49:49](https://fathom.video/calls/745679194?timestamp=2989) Alan Nguyen: Yep. Next Monday, we get it set up. We're at the mercy of the state of California and Dun & Bradstreet. So let's say worst case scenario, it gets set up on Wednesday. We're able to then. And take the next day, two days, maybe three days to get that all set up. And once everything's set up, then we can start funding right there. We could probably get you, like, and so that's the third, and so now we're on the 30th, 29th, 30th, 31st, Wednesday, Thursday, Friday of, you know, in two weeks from now. We have some strategies where you can get instant approvals. We have strategies where we'll have you do certain things with certain banks. And then that'll, you know, result in wins as well, too. So, you know, ideally, ideally, we'll be able to help you. Okay, so you're doing seller financing, right? You're not going to go through SBA for the 20%?
+
+[50:44](https://fathom.video/calls/745679194?timestamp=3044) Jill Peralta: So there's a couple options I can do. Like, this person, this particular business accepts, you know, they're willing to do seller finance. I mean, I said probably just, like, the last 20%.
+
+[50:54](https://fathom.video/calls/745679194?timestamp=3054) Alan Nguyen: I think if the rate and terms are good. If better than SBA, then I see no reason why you wouldn't do it that way. It's just way less risk to you, and there's not going to be anything on the ledger. There's going to be no UCC or anything on your name against it on public record. So I think that would be better.
+
+[51:13](https://fathom.video/calls/745679194?timestamp=3073) Jill Peralta: I got you. And it's quicker too, right? I'm not signing up for a 10-year thing. Exactly. When, you know, I'm always for seller financing because one, it means they're going to be committed, right? They're committed to just as much as I am to make a profit, to make money, right? Right.
+
+[51:37](https://fathom.video/calls/745679194?timestamp=3097) Alan Nguyen: So that way we're both kind of invested. . And so that's what, $200K at 20%? Is that $40K? Is that what you need? Or is it a different number?
+
+[51:47](https://fathom.video/calls/745679194?timestamp=3107) Jill Peralta: So this particular one, it was a nail salon. It came up. It was only $225K. So they said, hey, if you put down $180K, which I have, but it's tied up. Oh, they want you to put down 80%? so let's say 180 and they put down something like the rest of it, right? 75, I think, right?
+
+[52:13](https://fathom.video/calls/745679194?timestamp=3133) Alan Nguyen: Okay. Interesting. Okay.
+
+[52:16](https://fathom.video/calls/745679194?timestamp=3136) Jill Peralta: That would be, that would be the structure for it.
+
+[52:19](https://fathom.video/calls/745679194?timestamp=3139) Alan Nguyen: Okay, so $225,000, you pay 80%, which is, calculating now, $180,000.
+
+[52:26](https://fathom.video/calls/745679194?timestamp=3146) Jill Peralta: .
+
+[52:32](https://fathom.video/calls/745679194?timestamp=3152) Jill Peralta: Or the remaining, the remaining part of that. I thought it was, well, they told me it was like $180,000, $25,000? Or the remaining part of that.
+
+[52:45](https://fathom.video/calls/745679194?timestamp=3165) Alan Nguyen: . $225,000, the remaining would be $45,000. But so in that scenario, then I would rather go with an SBA loan if I, at least if that was me, just because why pay $180,000? $100K up front, lose all that capital. If you can instead take out a loan for 20%, which would be the inverse. So now you're only taking out a loan for $45,000. Or sorry, you're only paying off $45,000. The rest of the $180K you're getting over a longer period of time. So you can make payments on that. And now you have like an extra, what, over $100K to $150K of extra cash flow in the short term, near term that you can use to help grow the business instead of dumping it all, you know? So I'm all for doing SBAs as well.
+
+[53:30](https://fathom.video/calls/745679194?timestamp=3210) Jill Peralta: I like SBAs just because, it frees up my cash, right? So I'm not bringing in all of that. Now, the thing about nail salons, which I've learned, is that they would rather have cash. I noticed that they rarely, rarely, particularly if it's a franchise, which is one I don't think is, but they're usually like, I don't know if they're against it, but they just, they don't generally accept it. Or at least they don't advertise. SBAs, part of it, I think, is my theory, is that the books aren't so clean, so it makes it difficult to put that in front of an underwriter, because the books are kind of strange, the way they can do it.
+
+[54:13](https://fathom.video/calls/745679194?timestamp=3253) Alan Nguyen: Makes sense.
+
+[54:16](https://fathom.video/calls/745679194?timestamp=3256) Jill Peralta: Nail salons are pretty tough to get those underwritten with accounting that they do.
+
+[54:23](https://fathom.video/calls/745679194?timestamp=3263) Alan Nguyen: Have you tried?
+
+[55:14](https://fathom.video/calls/745679194?timestamp=3314) Alan Nguyen: They don't know how it works. It could be also, too, they'd rather take actual cash so then they can pay less taxes on it, basically.
+
+[55:24](https://fathom.video/calls/745679194?timestamp=3324) Jill Peralta: usually they want clean breaks. They almost always want to deal with it. I mean, this is a nail salon. They almost always want to, you know, cash is king. Nail salons, hair salons, they'd rather, because they want to, you're right, they want to clean break because they're trying to do one of the sisters, I guess, one of the co-owners. She wants to go, she wants to go back to school. She doesn't, like, she's basically breaking away from the business so she can go, go be a nurse.
+
+[55:49](https://fathom.video/calls/745679194?timestamp=3349) Alan Nguyen: So that's part of it.
+
+[55:50](https://fathom.video/calls/745679194?timestamp=3350) Jill Peralta: Like, she basically wants to take her money, she's part owner, she's half owner, get the cash, and then I imagine she wants to use it so she can go... Vsychoso All right. Enough. Take Now You know, go to our next chapter in life, which is, you know, this is almost 99% that's the case. They want the cash so they can go do something else. They want the cash because they just want a clean break and retire or whatever the next chapter is.
+
+[56:12](https://fathom.video/calls/745679194?timestamp=3372) Alan Nguyen: that makes sense.
+
+[56:13](https://fathom.video/calls/745679194?timestamp=3373) Jill Peralta: then. Go ahead.
+
+[56:18](https://fathom.video/calls/745679194?timestamp=3378) Alan Nguyen: In terms of structure, I would pitch it to them as the SBA loan is technically cash, right? Because when you get approved for the loan, that $180K is cash getting deposited in their account. Right? I mean, like, it's liquid, right? And they'll be able to fully access it. might not be paper cash, but it's like digital cash. You know what I mean? So I'd pitch it that way. And then if they maybe are resistant to it, you could also bring up, you know, the concept of, hey, you could sell it to like, it could be structured in a way where basically they're selling the business. But when I say they, it's another business entity that owns that nail salon. Right. And then you're basically buying that nail salon from an entity, not the actual individuals. And then if it moves through an entity, that entity now has, you know, $180K, $225K of revenue. Right. And but if it's through an entity, they can deduct all of that through tax deductible methods.
+
+[57:20](https://fathom.video/calls/745679194?timestamp=3440) Jill Peralta: So it's an SBA. It's through a bank, right? Is that what you're saying? .
+
+[57:27](https://fathom.video/calls/745679194?timestamp=3447) Alan Nguyen: Not necessarily because it's through a bank, but it's just because there's going to be digital record of them making a sale at that large amount. And so the IRS is going to know that they just have an inflow of $180K to $225K of cash. Right. And the only way they're not going to get charged tons for taxes is if they deduct the taxable income. And the only way they can do that is by deploying it into like investable, you know, investments, basically. If they want to buy a house, they could buy a house. They could do whatever. Right. There's a lot of different ways to go about it, but. that's probably a way that I would try to pitch it to them to be in their best interest so they could essentially make the taxable event basically zero as long as they navigate it on the other end appropriately.
+
+[58:16](https://fathom.video/calls/745679194?timestamp=3496) Jill Peralta: Okay. But if they get it in cash, they would have to claim that, right? It'd be treated as like income, right? Like $180,000 would be treated as like earned income.
+
+[58:29](https://fathom.video/calls/745679194?timestamp=3509) Alan Nguyen: . . But probably in their head is like, well, I just have $160K in physical bills. I don't have to tell anybody. They could probably be thinking about that too. I don't know.
+
+[58:40](https://fathom.video/calls/745679194?timestamp=3520) Jill Peralta: Okay.
+
+[58:41](https://fathom.video/calls/745679194?timestamp=3521) Alan Nguyen: . I don't know. I know Asian people, they want to do anything to save money.
+
+[58:47](https://fathom.video/calls/745679194?timestamp=3527) Jill Peralta: I know. . That's why a lot of times they're pretty shy about going to banks. They don't like, because they don't, they don't want to open other, I mean, I saw, I saw that they're, they have a balance sheet. They open up. . The balance sheet even then looks a little kind of wonky, but that's because they claim things differently, you know, like it doesn't lay, they claim everything, I guess, I think, but it's just, it's just the way how, it's just the way they put it on the ledger.
+
+[59:16](https://fathom.video/calls/745679194?timestamp=3556) Alan Nguyen: . . . Definitely make sure you do your due diligence on that because, you know, you know, obviously you want to always protect yourself, you know?
+
+[59:26](https://fathom.video/calls/745679194?timestamp=3566) Jill Peralta: . Thank you.
+
+[59:28](https://fathom.video/calls/745679194?timestamp=3568) Alan Nguyen: . . It's still early, so we get a little bit time.
+
+[59:32](https://fathom.video/calls/745679194?timestamp=3572) Jill Peralta: .
+
+[59:34](https://fathom.video/calls/745679194?timestamp=3574) Alan Nguyen: Awesome. And then when you're doing the acquisition, does it come with the employees as well, too, in like a contract with like how long they're going to work with you for, with? So, that's one of those things that you have to negotiate.
+
+[59:44](https://fathom.video/calls/745679194?timestamp=3584) Jill Peralta: So there, it's a half mix of full-time and then like 1099 contractors. Well, I mean, you can't make anybody stay, right? But you can't, and you can't do like a non-compete. And a lot of times that's what ends up happening. Somebody poaches from another business. But what you can do is, like, if there's somebody that's a manager, somebody on site, you can incentivize them with, like, with things, with either, like, some kind of, like, a commission structure. So let's say for the workers, right? I don't know what the, let's say, assuming that they're on a commission, right? Say, hey, what's the commission, you know, how is that, you know, what's that proportion, you know, is it 50-50, is it 60-40? And there's ways you can incentivize that, you know, to keep them a little bit longer. You can also put in there and say, hey, you know, I'm asking them, at least the manager, right? If there is a manager, if not, you can just promote them to manager and say, hey, I'm requesting that manager stays for at least, like, say, two months, you know, right? Now, they agreed, you know, the good thing is the other owner, the co-owner, is open to staying.
+
+[60:55](https://fathom.video/calls/745679194?timestamp=3655) Alan Nguyen: I would get that all into contract because, like... So if you structure it right, like I've heard of people buying businesses when they buy it from an owner and they say, hey, like I'll buy this business from you. But in the contractual agreement, you have to work as a full-time employee for the next five years. I'm not saying there has to be like that extreme, but like, and I just looked up here, it looks like you can structure in a way too where the independent contractors that are currently working for them are in a contractual agreement with them and then with you. And obviously you just got to make sure that all the, you everything works out and that's where you can put in the, you know, the NDA, the non-compete, the non-circumvents, the exclusive contract agreement. So it's like, you they're saying that, hey, they're going to work with you for X amount of years and they're going to do, you know, X amount of work contingent upon Y, whatever it is. So I know there's ways to acquire a business and still maintain the current operations, but it's all, it's all within how the contracts are written.
+
+[61:54](https://fathom.video/calls/745679194?timestamp=3714) Jill Peralta: . How you structure the workforce. And some of it, like there's, there's a part of negotiation, right? And that's the thing about. Nail salons, they're kind of funny that way. It's not like a traditional contract, right, where you can put it in black and white for everything, right? There's a give and take. Because the truth of the matter, some of these are part-time because they're working part-time somewhere else in another business. But there's ways you can structure it in there, or at least put it in there, incentivize, you know, like something with, like, they're getting a base pay with commission or something. So you incentivize, so you're not forcing them into something, you know, it's more like, hey, I'll throw you in something as a bonus, and then what it does is it just kind of sweetens it for them to stay. Particularly, the person that I care the most about staying is the management, the person that is running, like, the day-to-day operations, right? I mean, the technicians, they sometimes come and go, but the person that I want, that I need to stay, that I would structure it heavily and head out to negotiate is the person that's. The co-owner, or at least one of the sisters, the co-owner, and get them to stay and then just kind of promote them to be like on-site manager, day-to-day operations. They do that for me.
+
+[63:12](https://fathom.video/calls/745679194?timestamp=3792) Alan Nguyen: I would, that's a good idea. What does that conversation with them look like?
+
+[63:19](https://fathom.video/calls/745679194?timestamp=3799) Jill Peralta: So they've already, at least they advertise on there that says, hey, there's one of the sellers, or just a seller is willing to stay on as, you know, stay on with the business, which is good, you know? For how long? That's what you want, right, for stability. And then I would just kind of work it out in negotiation and say, hey, you know, are you willing to stay for this many years? Or, you know, are you willing to, because right now she, I think she's, I she's co-owner, but she's also the, she's one of the technicians, right? So I would, she's there on, you know, she's there working like 40 hours, 40 hours, 40, 50 hours, you know, a week. So I would probably, if I. What I would do ideally is structure where she was basically kind of promoter to like management on site. And then she would be in charge of hiring, firing, hiring more workforce if we needed to. We could always hire more people, but I need somebody who has the institutional knowledge, right? The day-to-day operations, like that's their job. Do inventory, kind of manage the workforce, and then just kind of work out something that with her, like where she gets like, she's probably giving herself a salary anyway, based off the SDE, but then just kind of work something out. It's like, you know, so she's like, she's a manager, you know? .
+
+[64:43](https://fathom.video/calls/745679194?timestamp=3883) Alan Nguyen: Do you know, you said she's co-owner, right?
+
+[64:46](https://fathom.video/calls/745679194?timestamp=3886) Jill Peralta: . So does she currently own like a percentage of profit share?
+
+[64:50](https://fathom.video/calls/745679194?timestamp=3890) Alan Nguyen: How does that work?
+
+[64:52](https://fathom.video/calls/745679194?timestamp=3892) Jill Peralta: She probably gives herself a salary. So looking at it, there's an officer looking at the breakdown. So in there is the salary. I don't know between the two co-owners, two sisters, how they split that up and it's 50-50, but they're giving each other a salary.
+
+[65:14](https://fathom.video/calls/745679194?timestamp=3914) Alan Nguyen: Got it. . I would suggest being open to exploring a route, especially because if you're acquiring it, you want them to want to stay. Right. So like, like on top of the salary that they're already earning, I would invite the conversation or at least think about it like the concept of profit share. Right. Because I know that that's what helps people be loyal, you know, where it's like they want to stay with the company for life because they know that they're going to earn a percentage off of everything the company makes. So they're incentivized to do better work because they know the better work that they do. You know, it's going to pay off in the end for everybody.
+
+[65:56](https://fathom.video/calls/745679194?timestamp=3956) Jill Peralta: . No, I agree with you. that's often a lot of times. That's how they do it, structure for nail salons, right? If they want to keep the, you know, if they care enough to keep those people long term, right? There's a lot of heavy turnover. That's just kind of the nature of it. But the people that you definitely want to keep long term are like the ones that have the not, you know, institutional, like leadership management roles.
+
+[66:18](https://fathom.video/calls/745679194?timestamp=3978) Alan Nguyen: Exactly.
+
+[66:19](https://fathom.video/calls/745679194?timestamp=3979) Jill Peralta: . So one of things I'm going ask them is like, one of the things that they have on their books. I. So like you said, it doesn't like nothing ever like runs cleanly on the ledgers, but there's a couple of things on there that makes me want to think. It's probably like some kind of contract add on, you know, workforce incentive pay or something. Like it's called other services, you know, it's like a hundred and something thousand dollars of other services on their, on their, think they're on their balance sheet. So I'll ask them if that is like, is that a, is that a, you know, running, is that. Some kind of incentive program, some kind of promotion, something with contractors. Is that how they pay their contract, their $10.99s?
+
+[67:07](https://fathom.video/calls/745679194?timestamp=4027) Alan Nguyen: It could be anything. I can't obviously say. could be a lot of things. I don't know what it is for them, but I know that, surprisingly enough, my mom owned a nail salon, and I know that just how Asians think in general, I know a lot of salon owners, anything that they can loosely consider a tax write-off, they'll consider a tax write-off, whether it's food, gas, going out to eat. Whatever it is, it could just be a combination of those things.
+
+[67:35](https://fathom.video/calls/745679194?timestamp=4055) Jill Peralta: they could. I think they put that in there for, like, that's what they wrote off for, like, liability and stuff. If, well, I don't know if they have a vehicle, but I saw that they did have their, like, you know, put on their balance sheets, like, things that they wrote off, or add back, at least, on the SDE. But there was something funny about it, it's other services, and it's pretty heavy, it's a pretty significant amount. And that could be, like, I think it's how they pay their 1099s. They had two contractors. It could be. Because there's also, like, well, I haven't, I brokered an email conversation, so I'm waiting. They had two contractors, and they have, like, they do, like, what do you call add-on services, you know, massage, facials, right? So I'm thinking that's, maybe that's what it is, right?
+
+[68:28](https://fathom.video/calls/745679194?timestamp=4108) Alan Nguyen: Okay, it could be. Pass-through or something, you know, but .
+
+[68:32](https://fathom.video/calls/745679194?timestamp=4112) Jill Peralta: Anyway, that's, overall, that's what I would, like, say, we're still in initial conversation. We're still very early.
+
+[68:40](https://fathom.video/calls/745679194?timestamp=4120) Alan Nguyen: Okay, awesome. Who knows?
+
+[68:41](https://fathom.video/calls/745679194?timestamp=4121) Jill Peralta: Who knows what happens? .
+
+[68:43](https://fathom.video/calls/745679194?timestamp=4123) Alan Nguyen: Yep, so let's just say, worst case scenario, right, they are not open to the SBA thing. They just say, just pay me cash, I want $180K, you know, whatever it is, and they're not willing to budge lower on that upfront pay for whatever reason. Even though, like, I think getting paid $180K cash is, like. do again. We'll Thank That sounds like amazing. But let's say they're just not open to that. $180K within the next 30-60 days, I think it is possible. We just have to start planning ahead. First thing that I'd want you to do is I want you to open up a Amex saving, a high-yield savings account with Amex on the personal side. And then open that up as soon as you can, and then put $10,000 in there and just let it sit. This is going to help build your relationship with Amex. So then once they see that in there, we're then, after it seasons for a little bit, in the high-yield personal savings, we're going to come back later, and then when we apply for the business, ideally, we're hopefully going to be able to get anywhere between $20K to $100K from them with the strategies. I see. Yep, and then we'll we'll try to deploy that. then we have some other strategies, too, that we can work on. I know that there's two banks that, you know, basically I'm in a group where we all share data, where people are getting approvals and stuff like that. Actually, a lot of different groups. But, you know, there's another institution where we can get two approvals from them, or it's an underwriter. But basically we're seeing ranges between $10K to $36K, and that's 0% at 18 months. So we can set back two of those, and so that's $20K to $70K roughly. And then there's just more that we can do as well, too. So there's a lot of, you know, $25K plays, $50K plays, and there's a lot we can do.
+
+[70:34](https://fathom.video/calls/745679194?timestamp=4234) Jill Peralta: Good. Okay. Good to know. . Like I said, we're pretty early, so, I mean, a lot can happen, you know.
+
+[70:42](https://fathom.video/calls/745679194?timestamp=4242) Alan Nguyen: But anyway, that's what's going on right now. Okay. Awesome. so I would, do the Amex. Here, I'll put it in the Portal 2, and then do the USAA. And then those would be, like, the two kind of time-sensitive ones, just because, just let's, Because even if you get USAA and Amex to open up the accounts, it's not going to report tomorrow. You know, it's going to take a little bit of time for the bureaus and everyone to do their thing. So.
+
+[71:12](https://fathom.video/calls/745679194?timestamp=4272) Jill Peralta: Okay, cool.
+
+[71:15](https://fathom.video/calls/745679194?timestamp=4275) Alan Nguyen: All right. Sweet. All right. Anything else before we end the call?
+
+[71:21](https://fathom.video/calls/745679194?timestamp=4281) Jill Peralta: No. Thank you. that was a lot. Yep.
+
+[71:26](https://fathom.video/calls/745679194?timestamp=4286) Alan Nguyen: no, it's a lot to digest. You'll get the Fathom, so you'll get the recap and the overview. And if you have any other questions, you know, anything comes up, feel free to send a message through Slack. That'll be the best way. Also, you can text the line, too, but that'll be, like, kind of lower priority or, like, I'm not going to able to get to it as fast. And, don't be afraid of, like, you know, spamming with messages or spamming with questions. You know, I'm always, you know, open and excited to help in any ways that I can. So just here to support you in any and always possible.
+
+[71:56](https://fathom.video/calls/745679194?timestamp=4316) Jill Peralta: I know. You're doing a good job. . Thank you. Well, sweet.
+
+[71:59](https://fathom.video/calls/745679194?timestamp=4319) Alan Nguyen: I appreciate it. Thanks. let's get you some success. And awesome. Looking forward to it. All right. I'll keep in touch. Yep, in touch. Have a great rest of your night. You too. Thank you. Thanks. Bye.

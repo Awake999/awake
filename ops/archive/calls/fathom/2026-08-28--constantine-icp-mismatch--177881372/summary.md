@@ -1,5 +1,7 @@
 # Summary — Constantine coaching, ICP mismatch (Fathom call 803053542)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 > **Companion to `transcript.md` — never a replacement.** The verbatim original in this folder is the source of truth; this AI summary is for fast orientation only.
 
 ## Meeting Purpose

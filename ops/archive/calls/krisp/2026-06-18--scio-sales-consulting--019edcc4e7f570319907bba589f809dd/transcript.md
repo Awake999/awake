@@ -1,5 +1,20 @@
 # Transcript — SCIO Sales Consulting (2026-06-18, Krisp meeting 019edcc4e7f570319907bba589f809dd)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Krisp index](../INDEX.md)**
+
+<!-- formatted: chapters-v1 -->
+
+### Contents
+
+- [Chapter 1 (00:00 to 10:00)](#chapter-1-0000-to-1000)
+- [Chapter 2 (10:00 to 20:00)](#chapter-2-1000-to-2000)
+- [Chapter 3 (20:00 to 30:00)](#chapter-3-2000-to-3000)
+- [Chapter 4 (30:00 to 40:00)](#chapter-4-3000-to-4000)
+- [Chapter 5 (40:00 to 50:00)](#chapter-5-4000-to-5000)
+- [Chapter 6 (50:00 to 1:00:00)](#chapter-6-5000-to-10000)
+- [Chapter 7 (1:00:00 to 1:10:00)](#chapter-7-10000-to-11000)
+
+
 ORIGINAL VERBATIM TRANSCRIPT from Krisp. Link: https://app.krisp.ai/m/019edcc4e7f570319907bba589f809dd
 
 # SCIO Sales Consulting
@@ -9,6 +24,9 @@ ORIGINAL VERBATIM TRANSCRIPT from Krisp. Link: https://app.krisp.ai/m/019edcc4e7
 
 ## Transcript 2
 # Transcript
+
+## Chapter 1 (00:00 to 10:00)
+
 **constantine@scaleclients.io | 00:00**
 Mona, Joe's win or Matt's win, a Matt winner or whatever. Right? But anyway, [Laughter] so it looks like there's no questions. There are only a couple of... Views, so we can just hop straight to those if you guys don't have questions.
 
@@ -162,6 +180,9 @@ Right to being that month.
 
 **Speaker 4 | 09:58**
 Yeah, after commissionsion, yep.
+
+
+## Chapter 2 (10:00 to 20:00)
 
 **Speaker 7 | 10:00**
 After math, that's a good goal. Super high now, I guess. Let me take back our situation, I know we're at right now, this moment, how close have you got in your life? That's Joy Day.
@@ -421,6 +442,9 @@ The reason I ask this is because I don't want to let off behaviors going to prev
 I know that's not the type of guy you are. Just like I believe it's been for four years. So I know it's super important to you to have that surplus build that financial future. So besides just books and asking people for help, you've invested in actually your income, and you're not reading anymore.
 It's clearly an immediate earnings power thing.
 
+
+## Chapter 3 (20:00 to 30:00)
+
 **Speaker 4 | 20:29**
 Yeah. Nothing.
 
@@ -612,6 +636,9 @@ Okay, we'll figure all the... So I mean, the reason I have this conversation is 
 
 **Speaker 5 | 29:52**
 It's like 00:2. There's no meeting like... But if you had a customer meeting, you wouldn't be like, "It's 02:02. I'm going to get on that." It makes me feel like he just got off because he got uncomfortable. What do you think about that?
+
+
+## Chapter 4 (30:00 to 40:00)
 
 **constantine@scaleclients.io | 30:06**
 Yeah, obviously you could even see his face. Look at this guy's face, dude.
@@ -896,6 +923,9 @@ All right.
 **constantine@scaleclients.io | 39:57**
 So that this is the super interesting part of that whole thing, right?
 Because a lot of people are like, "Well, I could just do things whenever."
+
+
+## Chapter 5 (40:00 to 50:00)
 
 **Alan Nguyen | 40:02**
 If you'd like to make one more branch of the press.
@@ -1234,6 +1264,9 @@ Okay, that's super helpful because I was kind of confused how to sell that part.
 
 **Alan Nguyen | 49:58**
 So I would...
+
+
+## Chapter 6 (50:00 to 1:00:00)
 
 **Speaker 8 | 50:00**
 I was like, "So if they don't hit that ratio, then they just don't qualify for the guarantee." But we want them to qualify for the guarantee so that they do the upfront payment for...
@@ -1693,6 +1726,9 @@ And we're all just reviewing B2C calls, but like everybody else does B2B except 
 
 **Alan Nguyen | 59:57**
 06:16 months, 72 months, 84 months plus early hard to decide because we have an average rate.
+
+
+## Chapter 7 (1:00:00 to 1:10:00)
 
 **constantine@scaleclients.io | 01:00:02**
 So this was very helpful. Hopefully everybody else let's get.

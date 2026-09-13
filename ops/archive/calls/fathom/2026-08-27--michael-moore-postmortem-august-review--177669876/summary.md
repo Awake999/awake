@@ -1,5 +1,7 @@
 # Summary — Michael Moore post-mortem + August review (Fathom call 801909953)
 
+> 🧭 [Start Here](../../../START-HERE.md) · [Archive home](../../../README.md) · [Calls hub](../../README.md) · **[⬆ back to Fathom index](../INDEX.md)**
+
 > **Companion to `transcript.md` — never a replacement.** The verbatim original (+ `transcript-raw.txt`) in this folder is the source of truth; this AI summary is for fast orientation only.
 
 ## Key Takeaways

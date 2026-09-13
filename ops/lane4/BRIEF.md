@@ -42,3 +42,35 @@
 ## A4. TASK 9 (added 8/30 night — Alan ruled "Option A now", ping → #call-outcomes)
 
 > TASK 9 — CALL-OUTCOME PING AUTOMATION (GHL UI build, ~45 min, Alan present for Step 0): follow `ops/data/CALL_OUTCOME_BUILD_SOP.md` verbatim — Slack incoming webhook for #call-outcomes (C0BTJL3BPPX), 5 trigger links, 5 outcome workflows (tag+note+status), the appointment-end ping workflow, then the dummy-appointment test in Step 4. This supersedes manual status-setting discipline (#64) with a machine that asks the closer after every call. NOTE: workflow creation is an approved GHL write for THIS build only; still no other writes.
+
+## A5. TONIGHT'S 30-MIN RUN (8/31, Alan at PC — ordered by risk & Monday-launch impact)
+
+> BOOTSTRAP FIRST (SOP §1.12): this chat must be opened INSIDE the repo folder → `git pull` → read CLAUDE.md → confirm SOP v1.9 → follow ops/RESPONSE_TEMPLATE.md for every reply to Alan.
+>
+> RUN ORDER (Alan 8/31: 'loom lock... then do teramind and then next'):
+> 1. 🔒 TASK 5 — LOOM LOCK (2 min, highest security risk): fetch Notion row `3b95bb1ffef4813e9ac2d16384dfe7e9` for the 3 public Loom URLs w/ client SSNs → browser → set EACH to **APW workspace-ONLY** (Alan 8/31: "loom lock to only APW" — not just link-private) → report final visibility verbatim.
+> 2. ❌ REMOVED (Alan 8/31: "jacob like i said does not need ads manager invite to this failing campaign, he has access to a different one") — Jacob runs the DM campaign on HIS OWN ad account; no invite to 1821085838595242. Launch is NOT gated on this.
+> 3. 💳 NOTION BUSINESS TAP (1 min): open https://app.notion.com/checkout?source=mcp_tool_upsell&tool=query_data_sources&product=business&spaceId=45a5bb1f-fef4-8161-b4a1-00030e9d49c8 — Alan completes payment (human-only). Makes the board's live layer permanent.
+> 4. ✅ NOTION JOIN REQUEST (1 min): approve the pending "1 user waiting to join" (likely ML = Ma. Liza Tizon, identity confirmed via malizgill31@gmail.com).
+> 5. 🔑 TASK 7 — TERAMIND (10 min): https://ascendprimew.us.teramind.co → Settings→API→generate token → save LOCAL file OUTSIDE repo, report path only. Check agent coverage (digest shows only "nguye@a51" — verify/plan Carla/Lynn/Anne/Grace/ML agents). ROTATE Carla's password (was plaintext in Slack 8/27).
+> 6. 💰 TASK 8 — WHOP (10 min): dashboard → export ALL payments/orders CSV → ops/archive/whop/ (raw + dated). Generate API key → LOCAL file outside repo, path only. Then check: Ashwini $1,500 (7/28), Pradeep $300 (8/11), Nick $500 (8/26) — report found/not-found each; Lane 1 flips three qualification/stage labels on your evidence.
+> 7. 📞 TASK 9 — CALL-OUTCOME BUILD (45 min, can split to tomorrow if late): follow ops/data/CALL_OUTCOME_BUILD_SOP.md verbatim (Slack webhook → 5 trigger links → 5 workflows → ping workflow → dummy test).
+> After each item: commit+push your process-log. Lane 1 integrates on its next cycle.
+
+## A6 — GHL BUILD ORDER (Alan 8/31: "execute that GHL part that needs to be built")
+Run [ops/data/CALL_OUTCOME_BUILD_SOP.md](../data/CALL_OUTCOME_BUILD_SOP.md) end-to-end in the GHL UI (location Prismatic): Step 0 Slack webhook (Alan, 3 min) → Steps 1-3 outcome ping loop (~35 min) → Step 4 test → **Step 6 `Cancel → notify Alan` (register #115, ~10 min)**. This is an Alan-approved write (his 8/31 order); everything reversible (delete the workflows). Report each published workflow name back into the process log + LANE-SYNC.
+
+## A7 — IG LEADS → SLACK (Alan 8/31, register #123) — browser task, run alongside A6
+Channel **#ig-leads** is already created (`C0BTTRX09UM`). Run [ops/data/MANYCHAT_IG_LEADS_SLACK_SOP.md](../data/MANYCHAT_IG_LEADS_SLACK_SOP.md) in the ManyChat tab Alan has open: Step 0 Slack webhook (Alan, 3 min) → Steps 1-3 External Request action on the live IG capture flow → Step 4 test DM → confirm the card lands in #ig-leads. Webhook URL is a SECRET: ManyChat + Alan's local file only, never the repo. If External Request is unavailable (Free plan), report which fallback in Step 5 applies — do not improvise a paid signup.
+
+## A8 — TERAMIND TRUE LOGS (Alan 9/2: "do it for me", register #150)
+All three rails are BUILT — nothing to write, only to run. Follow [ops/data/TERAMIND_TRUE_LOGS_SOP.md](../data/TERAMIND_TRUE_LOGS_SOP.md):
+**Rail 1 (5 min, highest value):** schedule a User Activity report — grouped by user, 10-min granularity, daily 9pm PT — to support@ascendprimewealth.com. This alone upgrades the nightly team-tracking report from digest top-3 to real interval data.
+**Rail 2:** add `TERAMIND_API_KEY` + `TERAMIND_INSTANCE` to `apw-intel/.env`, run `python3 ops/lane4/teramind_pull.py --discover`, write the printed `TERAMIND_API_BASE` into .env, then pull + commit.
+**Rail 3 (optional):** `pip install "mcp[cli]"` then `claude mcp add teramind -- python3 <path>/ops/mcp/teramind_mcp_server.py` for live querying.
+⚠️ The key goes in `.env` on the PC ONLY — never committed. Report which rail(s) landed into the process log + LANE-SYNC.
+
+## A9 — WIRE OBSIDIAN INTO THE VAULT (Alan 9/3, SOP v1.21 §8k, register #162) 🔴 BIGGEST GAP
+Obsidian is a named surface of **APW VAULT** and has **never received a single artifact — 0% coverage**. Cloud lanes cannot reach a local vault, so this is routed here.
+**The 2-minute fix:** open Obsidian → **Open folder as vault** → select the cloned repo's **`ops/`** directory. Obsidian reads markdown natively, so every file already written (SOP, REGISTER, RULINGS, funnel explorer, EODRs, timetables, Teramind suite) becomes a linked note immediately — no sync code, no export, no duplication. `git pull` then updates the vault.
+Optional: add `.obsidian/` to `.gitignore` so vault settings don't pollute the repo. Report completion into the process log + LANE-SYNC.

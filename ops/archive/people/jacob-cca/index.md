@@ -1,5 +1,7 @@
 # Jacob (CCA) — ads / funnel consultant (external)
 
+> 🧭 [Start Here](../../START-HERE.md) · [Archive home](../../README.md) · **[⬆ back to People index](../README.md)**
+
 Credit Coach Accelerator (CCA) circle. Drives the ad-creative and funnel strategy; source of the OPM video-ad angle and the Claude Code dashboard prompt.
 
 ## Archived calls

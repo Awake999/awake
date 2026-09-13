@@ -1,0 +1,534 @@
+{
+ "_about": "Every Teramind rule-violation alert email Gmail holds (Jul 7 – Sep 4 2026), verbatim detail line, player deep-link, Gmail source. Evidence law #29: a gstatic favicon request proves the URL was in the browser's history on that machine by that second — not duration, not intent; the player link is the arbiter. Times are EDT as Teramind printed them (PDT = −3h).",
+ "_written": "2026-09-06 by Lane 1, register #174",
+ "count": 49,
+ "alerts": [
+  {
+   "when_edt": "2026-07-07 17:15:30",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Email contains SSN",
+   "detail": "Sent an email to [blank]. It has attachments: [blank]",
+   "rule_id": "legacy 69",
+   "player": "https://ascendprimew.us.teramind.co/player#/history/YXNjZW5kcHJpbWV3OzI7MTsx/1783458330/1783459530/1783458923",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f3e701c5712af4"
+  },
+  {
+   "when_edt": "2026-07-07 17:43:43",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Email contains SSN",
+   "detail": "Sent an email to consumer.documents@lexisnexisrisk.com. It has attachments",
+   "rule_id": "legacy 69",
+   "player": "https://ascendprimew.us.teramind.co/player#/history/YXNjZW5kcHJpbWV3OzI7MTsx/1783460023/1783461223/1783460616",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f3e701c5712af4"
+  },
+  {
+   "when_edt": "2026-07-07 17:44:10",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Violent Words",
+   "detail": "Sent/received an email",
+   "rule_id": "legacy 80",
+   "player": "https://ascendprimew.us.teramind.co/player#/history/YXNjZW5kcHJpbWV3OzI7MTsx/1783460050/1783461250/1783460643",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f3e8a31461f9aa"
+  },
+  {
+   "when_edt": "2026-07-07 17:44:34",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Violent Words",
+   "detail": "Sent/received an email",
+   "rule_id": "legacy 80",
+   "player": "https://ascendprimew.us.teramind.co/player#/history/YXNjZW5kcHJpbWV3OzI7MTsx/1783460074/1783461274/1783460667",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f3e8a31461f9aa"
+  },
+  {
+   "when_edt": "2026-07-07 17:44:36",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Violent Words",
+   "detail": "Sent/received an email",
+   "rule_id": "legacy 80",
+   "player": "https://ascendprimew.us.teramind.co/player#/history/YXNjZW5kcHJpbWV3OzI7MTsx/1783460076/1783461276/1783460669",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f3e8a31461f9aa"
+  },
+  {
+   "when_edt": "2026-07-07 17:44:36 (dup)",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Violent Words",
+   "detail": "Sent/received an email",
+   "rule_id": "legacy 80",
+   "player": "https://ascendprimew.us.teramind.co/player#/history/YXNjZW5kcHJpbWV3OzI7MTsx/1783460076/1783461276/1783460669",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f3e8a31461f9aa"
+  },
+  {
+   "when_edt": "2026-07-07 18:16:15",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Violent Words",
+   "detail": "Sent/received an email",
+   "rule_id": "legacy 80",
+   "player": "https://ascendprimew.us.teramind.co/player#/history/YXNjZW5kcHJpbWV3OzI7MTsx/1783461975/1783463175/1783462568",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f3e8a31461f9aa"
+  },
+  {
+   "when_edt": "2026-07-07 18:31:15",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Email contains credit card content",
+   "detail": "Sent an email to lindag@pgawest.org. Its body contains 2",
+   "rule_id": "legacy 77",
+   "player": "https://ascendprimew.us.teramind.co/player#/history/YXNjZW5kcHJpbWV3OzI7MTsx/1783462875/1783464075/1783463468",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f3eb51f6b3df6c"
+  },
+  {
+   "when_edt": "2026-07-13 01:27:10",
+   "who": "neves.lynn7@gmail.com",
+   "machine": "うみちゃん",
+   "rule": "Violent Words",
+   "detail": "Typed \"\\bdeath\\b\" in com.google.chrome",
+   "rule_id": "6b7be422-afb8-5a0d-949f-cbb6cb5e0e43",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=ed023936-7a05-5004-9ace-8467d752e563&computerId=674c0559-d76b-5cc3-80d1-40997825b28f&timestamp=1783920430&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f59f197bff53c6"
+  },
+  {
+   "when_edt": "2026-07-14 20:03:41",
+   "who": "neves.lynn7@gmail.com",
+   "machine": "うみちゃん",
+   "rule": "Violent Words",
+   "detail": "Typed \"\\battack\\b\" in com.tinyspeck.slackmacgap",
+   "rule_id": "6b7be422-afb8-5a0d-949f-cbb6cb5e0e43",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=ed023936-7a05-5004-9ace-8467d752e563&computerId=674c0559-d76b-5cc3-80d1-40997825b28f&timestamp=1784073821&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f631623ace144f"
+  },
+  {
+   "when_edt": "2026-07-15 20:07:04",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Job search websites",
+   "detail": "favicon request: url=https://www.ziprecruiter.com (client=aim) — chrome.exe",
+   "rule_id": "768ddbc3-a64e-5554-b0f7-a5f6c9cf2e81",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1784160424&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f683f9a44e452b"
+  },
+  {
+   "when_edt": "2026-07-16 22:14:06",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1784254446&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f6dda47da30c59"
+  },
+  {
+   "when_edt": "2026-07-16 22:16:37",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1784254597&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f6dda47da30c59"
+  },
+  {
+   "when_edt": "2026-07-16 22:18:38",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1784254718&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f6dda47da30c59"
+  },
+  {
+   "when_edt": "2026-07-16 22:20:39",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1784254839&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f6dda47da30c59"
+  },
+  {
+   "when_edt": "2026-07-16 22:22:40",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1784254960&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f6dda47da30c59"
+  },
+  {
+   "when_edt": "2026-07-17 03:04:52",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1784271892&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f6dda47da30c59"
+  },
+  {
+   "when_edt": "2026-07-17 03:07:13",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1784272033&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f6dda47da30c59"
+  },
+  {
+   "when_edt": "2026-07-17 03:09:14",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1784272154&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f6dda47da30c59"
+  },
+  {
+   "when_edt": "2026-07-17 03:11:15",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1784272275&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f6dda47da30c59"
+  },
+  {
+   "when_edt": "2026-07-17 03:13:36",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1784272416&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f6dda47da30c59"
+  },
+  {
+   "when_edt": "2026-07-22 06:19:29",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1784715569&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f8956756ba0ab2"
+  },
+  {
+   "when_edt": "2026-07-22 06:21:31",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1784715691&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f8956756ba0ab2"
+  },
+  {
+   "when_edt": "2026-07-22 06:23:42",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1784715822&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f8956756ba0ab2"
+  },
+  {
+   "when_edt": "2026-07-22 06:25:44",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1784715944&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f8956756ba0ab2"
+  },
+  {
+   "when_edt": "2026-07-22 06:27:45",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1784716065&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f8956756ba0ab2"
+  },
+  {
+   "when_edt": "2026-07-23 02:04:46",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Job search websites",
+   "detail": "favicon request: url=https://www.bartonandloguidice.com (client=aim) — chrome.exe",
+   "rule_id": "768ddbc3-a64e-5554-b0f7-a5f6c9cf2e81",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1784786686&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f8d939971ca4f5"
+  },
+  {
+   "when_edt": "2026-07-23 05:32:54",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Job search websites",
+   "detail": "google.com/url redirect (source=gmail) → same bartonandloguidice.com favicon — chrome.exe",
+   "rule_id": "768ddbc3-a64e-5554-b0f7-a5f6c9cf2e81",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1784799174&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f8d939971ca4f5"
+  },
+  {
+   "when_edt": "2026-07-23 18:43:41",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1784846621&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f912622c6e3a7e"
+  },
+  {
+   "when_edt": "2026-07-23 18:45:52",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1784846752&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f912622c6e3a7e"
+  },
+  {
+   "when_edt": "2026-07-23 18:47:53",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1784846873&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f912622c6e3a7e"
+  },
+  {
+   "when_edt": "2026-07-23 18:50:05",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1784847005&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f912622c6e3a7e"
+  },
+  {
+   "when_edt": "2026-07-23 18:52:06",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1784847126&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19f912622c6e3a7e"
+  },
+  {
+   "when_edt": "2026-07-28 22:45:20",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1785293120&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19fabc32a4105b45"
+  },
+  {
+   "when_edt": "2026-07-28 22:47:30",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1785293250&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19fabc32a4105b45"
+  },
+  {
+   "when_edt": "2026-07-28 22:49:51",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1785293391&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19fabc32a4105b45"
+  },
+  {
+   "when_edt": "2026-07-28 22:52:53",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1785293573&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19fabc32a4105b45"
+  },
+  {
+   "when_edt": "2026-07-28 22:54:53",
+   "who": "blossom@desktop-kehsui3",
+   "machine": "DESKTOP-KEHSUI3",
+   "rule": "Continual IM Usage",
+   "detail": "Used the application slack.exe",
+   "rule_id": "e91429a4-92ff-53ea-af89-dba864763435",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=e35c2989-3fef-5bab-b219-67622c429f7c&computerId=92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba&timestamp=1785293693&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19fabc32a4105b45"
+  },
+  {
+   "when_edt": "2026-08-03 16:38:17",
+   "who": "Anne (Rosemarie) Fabian",
+   "machine": "LAPTOP-C53PU272",
+   "rule": "Remote desktop access applications",
+   "detail": "Used the application anydesk.exe",
+   "rule_id": "f74cedc6-68b5-523a-ad0b-71fe133118c4",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=d05ad1fd-2b4f-56fe-b576-db84a6b4268d&computerId=7eaf5f46-53ca-5b6f-bc67-3baa8960a15f&timestamp=1785789497&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19fc959459eef159"
+  },
+  {
+   "when_edt": "2026-08-03 16:40:18",
+   "who": "Anne (Rosemarie) Fabian",
+   "machine": "LAPTOP-C53PU272",
+   "rule": "Remote desktop access applications",
+   "detail": "Used the application anydesk.exe",
+   "rule_id": "f74cedc6-68b5-523a-ad0b-71fe133118c4",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=d05ad1fd-2b4f-56fe-b576-db84a6b4268d&computerId=7eaf5f46-53ca-5b6f-bc67-3baa8960a15f&timestamp=1785789618&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19fc959459eef159"
+  },
+  {
+   "when_edt": "2026-08-03 16:42:19",
+   "who": "Anne (Rosemarie) Fabian",
+   "machine": "LAPTOP-C53PU272",
+   "rule": "Remote desktop access applications",
+   "detail": "Used the application anydesk.exe",
+   "rule_id": "f74cedc6-68b5-523a-ad0b-71fe133118c4",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=d05ad1fd-2b4f-56fe-b576-db84a6b4268d&computerId=7eaf5f46-53ca-5b6f-bc67-3baa8960a15f&timestamp=1785789739&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19fc959459eef159"
+  },
+  {
+   "when_edt": "2026-08-03 16:44:31",
+   "who": "Anne (Rosemarie) Fabian",
+   "machine": "LAPTOP-C53PU272",
+   "rule": "Remote desktop access applications",
+   "detail": "Used the application anydesk.exe",
+   "rule_id": "f74cedc6-68b5-523a-ad0b-71fe133118c4",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=d05ad1fd-2b4f-56fe-b576-db84a6b4268d&computerId=7eaf5f46-53ca-5b6f-bc67-3baa8960a15f&timestamp=1785789871&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19fc959459eef159"
+  },
+  {
+   "when_edt": "2026-08-03 16:46:33",
+   "who": "Anne (Rosemarie) Fabian",
+   "machine": "LAPTOP-C53PU272",
+   "rule": "Remote desktop access applications",
+   "detail": "Used the application anydesk.exe",
+   "rule_id": "f74cedc6-68b5-523a-ad0b-71fe133118c4",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=d05ad1fd-2b4f-56fe-b576-db84a6b4268d&computerId=7eaf5f46-53ca-5b6f-bc67-3baa8960a15f&timestamp=1785789993&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/19fc959459eef159"
+  },
+  {
+   "when_edt": "2026-08-19 13:23:42",
+   "who": "Anne (Rosemarie) Fabian",
+   "machine": "DESKTOP-KC8USI1",
+   "rule": "Job search websites",
+   "detail": "favicon request (client=chrome_desktop, check_seen=true): url=https://www.glassdoor.com/job/index.htm — chrome.exe",
+   "rule_id": "768ddbc3-a64e-5554-b0f7-a5f6c9cf2e81",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=d05ad1fd-2b4f-56fe-b576-db84a6b4268d&computerId=ac999f10-98cc-51e6-bf44-728ad7e78f89&timestamp=1787160222&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/1a01b0ceee2a2aed"
+  },
+  {
+   "when_edt": "2026-08-21 17:57:11",
+   "who": "Anne (Rosemarie) Fabian",
+   "machine": "DESKTOP-KC8USI1",
+   "rule": "Job search websites",
+   "detail": "favicon request (chrome_desktop, check_seen): url=https://smartapply.indeed.com/beta/indeedapply/form/contact-info-module — chrome.exe",
+   "rule_id": "768ddbc3-a64e-5554-b0f7-a5f6c9cf2e81",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=d05ad1fd-2b4f-56fe-b576-db84a6b4268d&computerId=ac999f10-98cc-51e6-bf44-728ad7e78f89&timestamp=1787349431&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/1a02653ff083e14d"
+  },
+  {
+   "when_edt": "2026-08-21 17:59:25",
+   "who": "Anne (Rosemarie) Fabian",
+   "machine": "DESKTOP-KC8USI1",
+   "rule": "Job search websites",
+   "detail": "favicon request (chrome_desktop, check_seen): url=https://www.glassdoor.com/job-listing/remote-cold-caller-sales-rep-time-slip-digital-jv_ko0,28_ke29,46.htm — chrome.exe",
+   "rule_id": "768ddbc3-a64e-5554-b0f7-a5f6c9cf2e81",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=d05ad1fd-2b4f-56fe-b576-db84a6b4268d&computerId=ac999f10-98cc-51e6-bf44-728ad7e78f89&timestamp=1787349565&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/1a02653ff083e14d"
+  },
+  {
+   "when_edt": "2026-08-30 12:33:28",
+   "who": "nguye@a51",
+   "machine": "A51",
+   "rule": "Social media sites: 50+ minutes",
+   "detail": "(Locked Session) Visited http://web.whatsapp.com/?… — msedgewebview2.exe",
+   "rule_id": "553a51ea-5a90-53be-9ec5-c1b148d7858a",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=70188c6d-b3df-5cd3-8c29-51e5f4a44b15&computerId=50a06224-adc2-5f8e-85fe-28d6f28653a6&timestamp=1788107608&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/1a05384e5053e241"
+  },
+  {
+   "when_edt": "2026-08-31 14:37:47",
+   "who": "nguye@a51",
+   "machine": "A51",
+   "rule": "Job search websites",
+   "detail": "favicon request (client=aim): url=https://www.glassdoor.com — chrome.exe",
+   "rule_id": "768ddbc3-a64e-5554-b0f7-a5f6c9cf2e81",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=70188c6d-b3df-5cd3-8c29-51e5f4a44b15&computerId=50a06224-adc2-5f8e-85fe-28d6f28653a6&timestamp=1788201467&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/1a0591d0b4a88091"
+  },
+  {
+   "when_edt": "2026-09-04 19:40:47",
+   "who": "Anne (Rosemarie) Fabian",
+   "machine": "DESKTOP-KC8USI1",
+   "rule": "Job search websites",
+   "detail": "favicon request (chrome_desktop, check_seen): url=https://www.glassdoor.com/member/profile/login — chrome.exe",
+   "rule_id": "768ddbc3-a64e-5554-b0f7-a5f6c9cf2e81",
+   "player": "https://ascendprimew.us.teramind.co/v2/player?userId=d05ad1fd-2b4f-56fe-b576-db84a6b4268d&computerId=ac999f10-98cc-51e6-bf44-728ad7e78f89&timestamp=1788565247&isLive=false",
+   "gmail": "https://mail.google.com/mail/u/0/#inbox/1a06ecbd911f7dfc"
+  }
+ ],
+ "rules_seen": {
+  "Job search websites": "768ddbc3-a64e-5554-b0f7-a5f6c9cf2e81",
+  "Continual IM Usage": "e91429a4-92ff-53ea-af89-dba864763435",
+  "Violent Words": "6b7be422-afb8-5a0d-949f-cbb6cb5e0e43",
+  "Remote desktop access applications": "f74cedc6-68b5-523a-ad0b-71fe133118c4",
+  "Social media sites: 50+ minutes": "553a51ea-5a90-53be-9ec5-c1b148d7858a",
+  "Email contains SSN": "legacy id 69",
+  "Email contains credit card content": "legacy id 77",
+  "Violent Words (legacy email rule)": "legacy id 80"
+ },
+ "identities": {
+  "blossom": {
+   "userId": "e35c2989-3fef-5bab-b219-67622c429f7c",
+   "computerId": "92a20dbb-4fd6-598b-b6e9-81cb2dc6e4ba",
+   "machine": "DESKTOP-KEHSUI3"
+  },
+  "anne_desktop": {
+   "userId": "d05ad1fd-2b4f-56fe-b576-db84a6b4268d",
+   "computerId": "ac999f10-98cc-51e6-bf44-728ad7e78f89",
+   "machine": "DESKTOP-KC8USI1"
+  },
+  "anne_laptop": {
+   "userId": "d05ad1fd-2b4f-56fe-b576-db84a6b4268d",
+   "computerId": "7eaf5f46-53ca-5b6f-bc67-3baa8960a15f",
+   "machine": "LAPTOP-C53PU272"
+  },
+  "alan": {
+   "userId": "70188c6d-b3df-5cd3-8c29-51e5f4a44b15",
+   "computerId": "50a06224-adc2-5f8e-85fe-28d6f28653a6",
+   "machine": "A51"
+  },
+  "lynn": {
+   "userId": "ed023936-7a05-5004-9ace-8467d752e563",
+   "computerId": "674c0559-d76b-5cc3-80d1-40997825b28f",
+   "machine": "うみちゃん"
+  }
+ }
+}

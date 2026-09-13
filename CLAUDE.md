@@ -1,5 +1,11 @@
 # APW OPS — READ THIS FIRST (auto-loaded by every local Claude session)
 
+⛔ **BEFORE ANYTHING ELSE — three mechanical steps, no exceptions:**
+1. `git pull` (this very file may be stale — the laws change daily; a stale clone loads dead law).
+2. RE-READ this file AFTER the pull (it just updated), then [ops/SOP.md](ops/SOP.md) — confirm the version in its header.
+3. Your FIRST reply MUST print: the SOP version on disk + your model/effort + your 5 answers to [ops/LANE_COMPLIANCE_TEST.md](ops/LANE_COMPLIANCE_TEST.md). If you cannot print the SOP version, SAY SO — do not proceed to work.
+Every reply to Alan is built from [ops/RESPONSE_TEMPLATE.md](ops/RESPONSE_TEMPLATE.md): verbatim-quote checklist, model line, token line, REAL buttons, final 🎚️ mode/effort line. This is SOP §1.9 (v1.17+) and it binds THIS session from its first message.
+
 You are working inside the Ascend Prime Wealth ops repo. **Before doing anything:**
 
 1. **Read [`ops/SOP.md`](ops/SOP.md)** — the binding laws (verbatim checklists, evidence links, raw originals, scan-ready output) + lane ownership + the sync ritual (git pull first, push after every batch).
@@ -9,8 +15,12 @@ You are working inside the Ascend Prime Wealth ops repo. **Before doing anything
 
 **LAW 0 — NEVER-MISS PROTOCOL (outranks all):** parse every prompt into numbered atomic asks before working; a REPROMPT = severity-1 failure — diff v1 against the literal words, name the delta, fix that delta only; one line per item in every enumerated deliverable, never grouped; checkboxes only after the tool call exists; literal ask first, judgment second.
 
+**LAW 1.9 — INTERACTION PROTOCOL (Alan-confirmed 8/30, binding on every lane incl. NEW ones):** every user prompt → verbatim numbered checklist IN the response → user confirms → store hard-coded (repo+Notion, linked) → Claude adds improvement suggestions → model/effort/token disclosure (raw first) → execute on confirm → cross-off scorecard table (status·%·quality·why·improvements·link·before/after) → close with buttons + timeline + micro/macro progress. Full text: ops/SOP.md §1.9. EVERY Alan-facing reply is built from ops/RESPONSE_TEMPLATE.md (fill every slot). Token rules: ops/SOP.md §1.11 + ops/data/TOKEN_SEGMENTATION.md. Local sessions MUST start inside this repo folder and run: git pull → read CLAUDE.md → confirm SOP version (§1.12).
+
 **The laws in one line each:** every ask → verbatim numbered checklist · every claim → clickable link + date + evidence window · raw originals beside every summary, never replaced · verified/derived/unknown labels, never guess · scan-ready output, TLDR first · pull before work, push after every batch (unpushed work dies with the container).
 
 **Lane ownership (single-writer):** Lane 1 (cloud command) owns REGISTER/SOP/INDEX/Notion-ops · Lane 2 owns `ops/dashboard/` · Lane 3 owns `ops/archive/` (append-only) · Lane 4 (this PC) owns `ops/archive/ghl/` + `ops/lane4/` + browser tasks. Everyone writes their own `ops/process-log/YYYY-MM-DD-<lane>.md`, never another lane's.
+
+**Skills (auto-loaded from `.claude/skills/`):** `/apw-ops-protocol` — this SOP as an executable procedure (session start, Law 0, the floor, store/sync, rulings) · `/client-testimonials` — verbatim client quotes with jump links (law: [ops/sops/CLIENT_TESTIMONIALS_SOP.md](ops/sops/CLIENT_TESTIMONIALS_SOP.md)); edit data in `ops/tools/testimonials_build.py`, never the generated doc. **Portable copies for claude.ai / Claude Desktop / ChatGPT:** [ops/skills-export/](ops/skills-export/README.md) (zip for Claude, ≤8k-char instruction files + knowledge for GPT; regenerate with `ops/tools/skills_export.py`).
 
 Dashboard live URL: https://claude.ai/code/artifact/c6ad801c-50fc-49d3-847a-e6a8b0ddd392
